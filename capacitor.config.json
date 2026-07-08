@@ -1,0 +1,11 @@
+{
+  "appId": "com.quizmoz.app",
+  "appName": "QuizMoz",
+  "webDir": "dist",
+  "plugins": {
+    "FirebaseAuthentication": {
+      "skipNativeAuth": false,
+      "providers": ["google.com"]
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "Nome": [
+    "Ana",
+    "Aline",
+    "Amanda",
+    "Afonso",
+    "António"
+  ],
+  "País": [
+    "Angola",
+    "Argélia",
+    "Alemanha",
+    "Andorra",
+    "Argentina",
+    "Austrália",
+    "Áustria",
+    "África do Sul"
+  ],
+  "Cidade": [
+    "Aveiro",
+    "Auckland",
+    "Amsterdão",
+    "Aracaju"
+  ],
+  "Cor": [
+    "Azul",
+    "Amarelo",
+    "Antracite",
+    "Aqua"
+  ],
+  "Animal": [
+    "Abelha",
+    "Águia",
+    "Antílope",
+    "Aranha",
+    "Albatroz"
+  ],
+  "Alimento": [
+    "Arroz",
+    "Abacaxi",
+    "Alface",
+    "Amendoim"
+  ],
+  "Objeto": [
+    "Anel",
+    "Agulha",
+    "Armário"
+  ],
+  "Profissão": [
+    "Advogado"
+  ],
+  "Carro": [
+    "Audi",
+    "Aston Martin",
+    "Alfa Romeo"
+  ],
+  "Cantor": [
+    "Adele",
+    "Anitta",
+    "Ariana Grande"
+  ],
+  "Marca": [
+    "Apple",
+    "Adidas",
+    "Amazon"
+  ],
+  "Filme": [
+    "Avatar",
+    "Avengers",
+    "Aladdin"
+  ],
+  "Ator": [
+    "Al Pacino",
+    "Arnold Schwarzenegger",
+    "Angelina Jolie"
+  ],
+  "Novela": [
+    "Avenida Brasil",
+    "Amor à Vida"
+  ],
+  "Personagem": [
+    "Aladdin",
+    "Ariel"
+  ],
+  "Capital": [
+    "Argel",
+    "Adis Abeba",
+    "Atenas"
+  ],
+  "Música": [
+    "Amor de Minha Vida",
+    "Asa Branca"
+  ],
+  "Roupa": [
+    "Anoraque",
+    "Avental"
+  ],
+  "Parte do Corpo": [
+    "Abdómen",
+    "Antebraço",
+    "Articulação"
+  ],
+  "Instrumento": [
+    "Acordeão",
+    "Alaúde"
+  ]
+}

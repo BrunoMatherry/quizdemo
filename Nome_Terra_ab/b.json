@@ -1,0 +1,100 @@
+{
+  "Nome": [
+    "Beatriz",
+    "Bruno",
+    "Bernardo",
+    "Bárbara"
+  ],
+  "País": [
+    "Brasil",
+    "Bélgica",
+    "Bahamas",
+    "Bolívia",
+    "Bulgária"
+  ],
+  "Cidade": [
+    "Beira",
+    "Braga",
+    "Brasília",
+    "Barcelona",
+    "Boston"
+  ],
+  "Cor": [
+    "Branco",
+    "Bege",
+    "Bronze"
+  ],
+  "Animal": [
+    "Baleia",
+    "Borboleta",
+    "Búfalo"
+  ],
+  "Alimento": [
+    "Banana",
+    "Batata",
+    "Bacalhau",
+    "Bolo"
+  ],
+  "Objeto": [
+    "Bota",
+    "Balão",
+    "Bexiga"
+  ],
+  "Profissão": [
+    "Biólogo",
+    "Bombeiro"
+  ],
+  "Carro": [
+    "BMW",
+    "Bentley",
+    "Bugatti"
+  ],
+  "Cantor": [
+    "Beyonce",
+    "Bruno Mars",
+    "Billie Eilish"
+  ],
+  "Marca": [
+    "Ba-teste",
+    "Be-teste",
+    "Bo-teste"
+  ],
+  "Filme": [
+    "Batman",
+    "Barbie",
+    "Blade Runner"
+  ],
+  "Ator": [
+    "Brad Pitt",
+    "Bruce Willis"
+  ],
+  "Novela": [
+    "Bom Sucesso"
+  ],
+  "Personagem": [
+    "Batman",
+    "Barbie"
+  ],
+  "Capital": [
+    "Brasília",
+    "Bruxelas",
+    "Buenos Aires",
+    "Bujumbura"
+  ],
+  "Música": [
+    "Bohemian Rhapsody",
+    "Beat It"
+  ],
+  "Roupa": [
+    "Blusa",
+    "Bermuda"
+  ],
+  "Parte do Corpo": [
+    "Braço",
+    "Boca"
+  ],
+  "Instrumento": [
+    "Bateria",
+    "Baixo"
+  ]
+}

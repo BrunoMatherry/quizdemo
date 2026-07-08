@@ -1,0 +1,85 @@
+{
+  "Nome": [
+    "Mateus",
+    "Miguel",
+    "Mariana"
+  ],
+  "País": [
+    "Moçambique",
+    "Marrocos",
+    "México",
+    "Madagáscar"
+  ],
+  "Cidade": [
+    "Maputo",
+    "Manica",
+    "Madrid",
+    "Miami",
+    "Munique"
+  ],
+  "Cor": [
+    "Marrom"
+  ],
+  "Animal": [
+    "Macaco",
+    "Mosca",
+    "Morcego"
+  ],
+  "Alimento": [
+    "Maçã",
+    "Melancia",
+    "Manga"
+  ],
+  "Objeto": [
+    "Mesa",
+    "Martelo"
+  ],
+  "Profissão": [
+    "Médico",
+    "Músico"
+  ],
+  "Carro": [
+    "Mazda",
+    "Mercedes",
+    "Mitsubishi"
+  ],
+  "Cantor": [
+    "Michael Jackson",
+    "Madonna"
+  ],
+  "Marca": [
+    "Microsoft"
+  ],
+  "Filme": [
+    "Matrix"
+  ],
+  "Ator": [
+    "Marlon Brando",
+    "Morgan Freeman"
+  ],
+  "Novela": [
+    "Mulheres Apaixonadas"
+  ],
+  "Personagem": [
+    "Mickey"
+  ],
+  "Capital": [
+    "Maputo",
+    "Madrid",
+    "Mascate"
+  ],
+  "Música": [
+    "Minha Estúpida"
+  ],
+  "Roupa": [
+    "Meias"
+  ],
+  "Parte do Corpo": [
+    "Mão",
+    "Menton"
+  ],
+  "Instrumento": [
+    "Marimba",
+    "Meia-lua"
+  ]
+}

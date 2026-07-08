@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.quizmoz.app" version="3.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>QuizMoz</name>
+    <description>QuizMoz - Jogo de Quiz Educacional Mocambicano</description>
+    <author email="jogosdequiz.pt@gmail.com" href="https://playblm.com">
+        PlayBLM
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-navigation href="*" />
+    <hook type="after_prepare" src="scripts/fix_manifest.js" />
+    <preference name="Orientation" value="portrait" />
+
+    <platform name="android">
+        <preference name="android-minSdkVersion" value="24" />
+        <preference name="android-targetSdkVersion" value="36" />
+        <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+
+        <!-- Splash Screen (Android 12+ nativo) -->
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/android/splash-icon.png" />
+        <preference name="AndroidWindowSplashScreenBackground" value="#1e3343" />
+
+        <!-- Icone Adaptativo (Android 8+) - cor de fundo directo -->
+        <icon background="#4A7C7E" foreground="res/icon/android/foreground.png" />
+
+        <!-- Icone legado (Android 7 e inferior) -->
+        <icon density="ldpi" src="res/icon/android/ldpi.png" />
+        <icon density="mdpi" src="res/icon/android/mdpi.png" />
+        <icon density="hdpi" src="res/icon/android/hdpi.png" />
+        <icon density="xhdpi" src="res/icon/android/xhdpi.png" />
+        <icon density="xxhdpi" src="res/icon/android/xxhdpi.png" />
+        <icon density="xxxhdpi" src="res/icon/android/xxxhdpi.png" />
+    </platform>
+</widget>

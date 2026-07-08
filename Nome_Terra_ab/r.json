@@ -1,0 +1,81 @@
+{
+  "Nome": [
+    "Rafael",
+    "Rodrigo",
+    "Rita"
+  ],
+  "País": [
+    "Rússia",
+    "Roménia"
+  ],
+  "Cidade": [
+    "Roma",
+    "Rio de Janeiro",
+    "Roterdão"
+  ],
+  "Cor": [
+    "Rosa",
+    "Roxo"
+  ],
+  "Animal": [
+    "Raposa",
+    "Rato",
+    "Rinoceronte"
+  ],
+  "Alimento": [
+    "Romã"
+  ],
+  "Objeto": [
+    "Relógio",
+    "Rádio"
+  ],
+  "Profissão": [
+    "Recepcionista"
+  ],
+  "Carro": [
+    "Renault",
+    "Rolls Royce"
+  ],
+  "Cantor": [
+    "Rihanna",
+    "Roberto Carlos"
+  ],
+  "Marca": [
+    "Rolex"
+  ],
+  "Filme": [
+    "Rambo",
+    "Ratatouille"
+  ],
+  "Ator": [
+    "Robert Downey Jr",
+    "Ryan Gosling"
+  ],
+  "Novela": [
+    "Rebelde",
+    "Roque Santeiro"
+  ],
+  "Personagem": [
+    "Robin Hood"
+  ],
+  "Capital": [
+    "Roma",
+    "Riad"
+  ],
+  "Música": [
+    "Roda Viva"
+  ],
+  "Roupa": [
+    "Ra-teste",
+    "Re-teste",
+    "Ro-teste"
+  ],
+  "Parte do Corpo": [
+    "Rim"
+  ],
+  "Instrumento": [
+    "Ra-teste",
+    "Re-teste",
+    "Ro-teste"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "Nome": [
+    "Caio",
+    "Carlos",
+    "Camila",
+    "Carolina"
+  ],
+  "País": [
+    "Cabo Verde",
+    "Canadá",
+    "Chile",
+    "China",
+    "Colômbia",
+    "Catar"
+  ],
+  "Cidade": [
+    "Chimoio",
+    "Coimbra",
+    "Cairo",
+    "Chicago"
+  ],
+  "Cor": [
+    "Cinzento",
+    "Creme",
+    "Castanho",
+    "Carmesim"
+  ],
+  "Animal": [
+    "Cachorro",
+    "Cavalo",
+    "Canguru",
+    "Cobra"
+  ],
+  "Alimento": [
+    "Chocolate",
+    "Cebola",
+    "Cenoura"
+  ],
+  "Objeto": [
+    "Cadeira",
+    "Caneta",
+    "Copo"
+  ],
+  "Profissão": [
+    "Cientista",
+    "Contabilista"
+  ],
+  "Carro": [
+    "Chevrolet",
+    "Citroen",
+    "Cadillac"
+  ],
+  "Cantor": [
+    "Chico Buarque",
+    "Caetano Veloso"
+  ],
+  "Marca": [
+    "Coca-Cola"
+  ],
+  "Filme": [
+    "Coringa",
+    "Casablanca"
+  ],
+  "Ator": [
+    "Caio Castro",
+    "Christian Bale"
+  ],
+  "Novela": [
+    "Carrossel",
+    "Celebridade",
+    "Chocolate com Pimenta"
+  ],
+  "Personagem": [
+    "Cinderela",
+    "Coringa"
+  ],
+  "Capital": [
+    "Cairo",
+    "Copenhaga",
+    "Cabul"
+  ],
+  "Música": [
+    "Como Nossos Pais"
+  ],
+  "Roupa": [
+    "Camisa",
+    "Calça",
+    "Casaco",
+    "Cachecol",
+    "Cinto",
+    "Cardigã"
+  ],
+  "Parte do Corpo": [
+    "Cérebro",
+    "Coração",
+    "Costas"
+  ],
+  "Instrumento": [
+    "Clarinete",
+    "Contrabaixo"
+  ]
+}

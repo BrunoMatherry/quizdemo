@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#1e3343" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>QuizMoz - Jogo Educacional</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts (Quicksand, Comfortaa, Righteous, Architects Daughter) -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Comfortaa:wght@300;400;500;600;700&family=Righteous&family=Architects+Daughter&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- ============ LOADING SCREEN ============ -->
+    <div class="loading-screen" id="loading-screen">
+      <div class="loading-particles" id="loading-particles"></div>
+      <div class="loading-container">
+        <div class="loading-logo">playblm.com</div>
+        <div class="loading-bar">
+          <div class="loading-progress" id="loading-progress"></div>
+        </div>
+        <div class="loading-text">CARREGANDO JOGO<span class="loading-dots"></span></div>
+        <div class="loading-phrase" id="loading-phrase">Prepare-se para o desafio!</div>
+      </div>
+    </div>
+
+    <!-- ============ AUTH SCREEN ============ -->
+    <div id="auth-screen" style="display:none;">
+      <div id="auth-spinner" style="display:none;">
+        <i class="fas fa-spinner fa-spin"></i>
+        <p>A carregar o teu perfil...</p>
+      </div>
+      <div id="auth-card">
+        <div class="auth-logo">
+          <h1>QuizMoz</h1>
+          <p>Jogo Educacional Moçambicano</p>
+        </div>
+        <!-- Google Sign-In -->
+        <button class="auth-btn-google-main" id="btn-google-login">
+          <i class="fab fa-google" style="color:#EA4335;font-size:20px;"></i>
+          <span>Continuar com Google</span>
+        </button>
+        <div class="auth-error" id="auth-login-error"></div>
+        <!-- Toggle Email -->
+        <button class="auth-btn-email-toggle" id="btn-email-toggle">
+          <i class="fas fa-envelope"></i> Usar Email e Senha
+        </button>
+        <!-- Email Form (hidden) -->
+        <div id="auth-email-section" style="display:none;">
+          <div class="auth-tabs">
+            <button id="auth-login-tab" class="auth-tab auth-tab-active" data-tab="login">Entrar</button>
+            <button id="auth-register-tab" class="auth-tab" data-tab="register">Registar</button>
+          </div>
+          <!-- Login -->
+          <div id="auth-login-form">
+            <div class="auth-input-wrap"><i class="fas fa-envelope"></i><input id="login-email" type="email" class="auth-input" placeholder="Email"></div>
+            <div class="auth-input-wrap"><i class="fas fa-lock"></i><input id="login-password" type="password" class="auth-input" placeholder="Senha"></div>
+            <button id="btn-do-login" class="auth-btn-primary"><i class="fas fa-sign-in-alt"></i> Entrar</button>
+            <button id="btn-reset-pass" class="auth-btn-link">Esqueci a senha</button>
+          </div>
+          <!-- Register -->
+          <div id="auth-register-form" style="display:none;">
+            <div class="auth-input-wrap"><i class="fas fa-user"></i><input id="register-name" type="text" class="auth-input" placeholder="Nome de jogador" maxlength="20"></div>
+            <div class="auth-input-wrap"><i class="fas fa-envelope"></i><input id="register-email" type="email" class="auth-input" placeholder="Email"></div>
+            <div class="auth-input-wrap"><i class="fas fa-lock"></i><input id="register-password" type="password" class="auth-input" placeholder="Senha (mín. 6 caracteres)"></div>
+            <div class="auth-input-wrap"><i class="fas fa-lock"></i><input id="register-confirm" type="password" class="auth-input" placeholder="Confirmar senha"></div>
+            <div class="auth-error" id="auth-register-error"></div>
+            <button id="btn-do-register" class="auth-btn-primary"><i class="fas fa-user-plus"></i> Criar Conta</button>
+          </div>
+        </div>
+        <div class="auth-divider">ou</div>
+        <button class="auth-btn-guest" id="btn-guest-login">
+          <i class="fas fa-gamepad"></i> Jogar sem conta
+        </button>
+        <div class="auth-footer">PlayBLM &copy; 2026 · QuizMoz v4.2<br><a href="https://privacidade.playblm.com/" target="_blank" rel="noopener" style="color:#5E9B9D;font-size:0.85em;text-decoration:none;">🔒 Política de Privacidade</a></div>
+      </div>
+    </div>
+
+    <!-- ============ GAME CONTAINER ============ -->
+    <div id="game-container" style="display:none;">
+
+      <!-- FAB: Watch Ad -->
+      <div id="fab-watch-ad" style="display:none;">
+        <span class="fab-icon">📺</span>
+        <span class="fab-label">+MOEDAS</span>
+      </div>
+
+      <!-- FAB: V/S Mode -->
+      <div id="fab-vs-mode" style="display:none;">
+        <span class="fab-icon">⚔️</span>
+        <span class="fab-label">V/S</span>
+      </div>
+
+      <!-- FAB: Feedback -->
+      <div id="fab-feedback" style="display:none;">
+        <span class="fab-icon"><i class="fas fa-comment-dots"></i></span>
+        <span class="fab-label">Feedback</span>
+      </div>
+
+      <!-- HEADER / HUD -->
+      <header class="header" id="main-header">
+        <div class="stats">
+          <span class="stat-item energy-stat" id="energy-display" title="Energia">⚡ <span id="energy-value">7</span></span>
+          <span class="stat-item" id="qi-display"><i class="fas fa-brain"></i> <span id="qi-value" class="qi-indicator">70</span></span>
+          <span class="stat-item coins" id="coins-display"><i class="fas fa-coins"></i> <span id="coins-amount">0</span></span>
+          <span class="stat-item" id="level-display"><i class="fas fa-star"></i> <span id="level-value">1</span></span>
+          <span class="stat-item" id="tier-display"><span id="tier-icon">🥚</span> <span id="tier-name">Novato</span></span>
+        </div>
+        <div class="xp-bar-container">
+          <div class="xp-bar-track">
+            <div class="xp-bar-fill" id="xp-bar-fill" style="width:0%"></div>
+          </div>
+          <div class="xp-bar-info">
+            <span class="xp-bar-label" id="xp-bar-label">0 / 100 XP</span>
+            <span class="xp-bar-next" id="xp-bar-next">Nv. 2</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- FLOATING CONTROLS (right side) -->
+      <div class="floating-controls" id="floating-controls">
+        <button class="control-btn" id="profile-btn" title="Perfil"><i class="fas fa-user"></i></button>
+        <button class="control-btn timer-btn" id="timer-btn" title="Tempo" style="display:none;">
+          <span id="timer-value">30</span><small>seg</small>
+        </button>
+        <button class="control-btn" id="btn-reveal" title="Revelar" style="display:none;"><i class="fas fa-lightbulb"></i></button>
+        <button class="control-btn" id="btn-add-time" title="+60s" style="display:none;"><i class="fas fa-clock"></i></button>
+        <button class="control-btn" id="btn-share" title="Partilhar"><i class="fas fa-share-alt"></i></button>
+      </div>
+
+      <!-- BOTTOM NAV BAR -->
+      <nav class="bottom-nav" id="bottom-nav">
+        <button class="nav-btn" id="back-btn" title="Voltar"><i class="fas fa-arrow-left"></i></button>
+        <button class="nav-btn" id="settings-btn" title="Definições"><i class="fas fa-cog"></i></button>
+        <button class="nav-btn" id="about-btn" title="Sobre"><i class="fas fa-info-circle"></i></button>
+        <button class="nav-btn" id="exit-btn" title="Sair"><i class="fas fa-sign-out-alt"></i></button>
+      </nav>
+
+      <!-- MAIN CONTENT (dynamic) -->
+      <main class="main-content" id="main-content"></main>
+    </div>
+
+    <!-- ============ NO INTERNET MODAL ============ -->
+    <div id="no-internet-modal" style="display:none;">
+      <div class="internet-modal-content">
+        <div class="internet-icon"><i class="fas fa-wifi"></i></div>
+        <h2>Sem Conexão!</h2>
+        <p>Verifique a sua rede e tente novamente.</p>
+        <button class="internet-modal-btn" id="btn-close-internet">
+          <i class="fas fa-check"></i> OK
+        </button>
+      </div>
+    </div>
+
+    <!-- Floating Coin Overlay -->
+    <div id="floating-coin-overlay" style="display:none;">
+      <div class="floating-coin-glow"></div>
+      <div class="floating-coin-emoji">🪙</div>
+      <div id="floating-coin-amount" class="floating-coin-amount">+10</div>
+      <div class="floating-coin-tap"><i class="fas fa-hand-pointer"></i> Toca para resgatar!</div>
+      <button class="floating-coin-back" id="floating-coin-back">← Voltar</button>
+    </div>
+
+    <!-- Background particles -->
+    <div id="particles" style="display:none;"></div>
+    <div id="question-particles" style="display:none;"></div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

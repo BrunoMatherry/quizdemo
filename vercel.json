@@ -1,0 +1,32 @@
+{
+    "version": 2,
+    "functions": {
+        "api/*.js": {
+            "runtime": "@vercel/node@3"
+        }
+    },
+    "routes": [
+        {
+            "src": "/privacy-policy",
+            "dest": "/privacy-policy.html"
+        },
+        {
+            "src": "/quiz-demo",
+            "dest": "/quiz-demo.html"
+        },
+        {
+            "src": "/stop-demo",
+            "dest": "/stop-demo.html"
+        }
+    ],
+    "headers": [
+        {
+            "source": "/api/(.*)",
+            "headers": [
+                { "key": "Access-Control-Allow-Origin", "value": "*" },
+                { "key": "Access-Control-Allow-Methods", "value": "POST, OPTIONS" },
+                { "key": "Access-Control-Allow-Headers", "value": "Content-Type" }
+            ]
+        }
+    ]
+}

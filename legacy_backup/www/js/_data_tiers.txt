@@ -1,0 +1,14 @@
+const rankingTiers = [
+{ minLevel: 1, maxLevel: 3, title: 'Novato', icon: '🥚', color: '#9E9E9E', desc: 'Todos começam por aqui...' },
+{ minLevel: 4, maxLevel: 6, title: 'Curioso', icon: '🔍', color: '#8BC34A', desc: 'A curiosidade é o primeiro passo!' },
+{ minLevel: 7, maxLevel: 10, title: 'Aprendiz', icon: '📖', color: '#4CAF50', desc: 'O conhecimento começa a fluir!' },
+{ minLevel: 11, maxLevel: 15, title: 'Estudante', icon: '🎓', color: '#2196F3', desc: 'Dedicação que se nota!' },
+{ minLevel: 16, maxLevel: 20, title: 'Guerreiro', icon: '⚔️', color: '#FF9800', desc: 'Ninguém te para agora!' },
+{ minLevel: 21, maxLevel: 25, title: 'Estrategista', icon: '🧩', color: '#E91E63', desc: 'Pensamento afiado!' },
+{ minLevel: 26, maxLevel: 30, title: 'Sábio', icon: '🦉', color: '#9C27B0', desc: 'A sabedoria fala por ti!' },
+{ minLevel: 31, maxLevel: 40, title: 'Mestre', icon: '👑', color: '#FFD700', desc: 'Os outros olham para cima!' },
+{ minLevel: 41, maxLevel: 50, title: 'Grão-Mestre', icon: '🏆', color: '#FF6F00', desc: 'Elite do conhecimento!' },
+{ minLevel: 51, maxLevel: 65, title: 'Lenda', icon: '🌟', color: '#FFD700', desc: 'O teu nome ecoa por todo lado!' },
+{ minLevel: 66, maxLevel: 80, title: 'Imortal', icon: '🔥', color: '#FF1744', desc: 'Imbatível e imparável!' },
+{ minLevel: 81, maxLevel: 999, title: 'Deus do Quiz', icon: '💎', color: '#00E5FF', desc: 'Nível supremo. Lendário!' }
+];

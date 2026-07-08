@@ -1,0 +1,80 @@
+{
+  "Nome": [
+    "Victor",
+    "Vanessa"
+  ],
+  "País": [
+    "Venezuela",
+    "Vietnã"
+  ],
+  "Cidade": [
+    "Vilankulo",
+    "Veneza",
+    "Viena"
+  ],
+  "Cor": [
+    "Verde",
+    "Vermelho",
+    "Violeta"
+  ],
+  "Animal": [
+    "Veado",
+    "Vaca",
+    "Víbora"
+  ],
+  "Alimento": [
+    "Vagem"
+  ],
+  "Objeto": [
+    "Vaso",
+    "Vela"
+  ],
+  "Profissão": [
+    "Veterinário"
+  ],
+  "Carro": [
+    "Volkswagen",
+    "Volvo"
+  ],
+  "Cantor": [
+    "Valter Artístico"
+  ],
+  "Marca": [
+    "Visa"
+  ],
+  "Filme": [
+    "Velozes e Furiosos"
+  ],
+  "Ator": [
+    "Va-teste",
+    "Ve-teste",
+    "Vo-teste"
+  ],
+  "Novela": [
+    "Viver a Vida"
+  ],
+  "Personagem": [
+    "Va-teste",
+    "Ve-teste",
+    "Vo-teste"
+  ],
+  "Capital": [
+    "Viena",
+    "Vilnius"
+  ],
+  "Música": [
+    "Vira-Vira"
+  ],
+  "Roupa": [
+    "Vestido"
+  ],
+  "Parte do Corpo": [
+    "Veia",
+    "Vértebra"
+  ],
+  "Instrumento": [
+    "Violão",
+    "Violino",
+    "Violoncelo"
+  ]
+}

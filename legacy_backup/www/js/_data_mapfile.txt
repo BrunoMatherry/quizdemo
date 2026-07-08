@@ -1,0 +1,272 @@
+function mapDisciplineToFileName(classId, disciplineName) {
+if (classId === '1') {
+const map = {
+"Português - Básico": "portugues_basico.json",
+"Matemática - Básica": "matematica_basica.json"
+};
+return map[disciplineName] ? `classe1/${map[disciplineName]}` : null;
+}
+else if (classId === '2') {
+const map = {
+"Ciências - Básico": "ciencias_basico.json",
+"Inglês - Básico": "ingles_basico.json"
+};
+return map[disciplineName] ? `classe2/${map[disciplineName]}` : null;
+}
+else if (classId === '3') {
+const map = {
+"Português - Iniciante": "portugues_iniciante.json",
+"Matemática - Iniciante": "matematica_iniciante.json"
+};
+return map[disciplineName] ? `classe3/${map[disciplineName]}` : null;
+}
+else if (classId === '4') {
+const map = {
+"Ciências - Iniciante": "ciencias_iniciante.json",
+"História - Iniciante": "historia_iniciante.json"
+};
+return map[disciplineName] ? `classe4/${map[disciplineName]}` : null;
+}
+else if (classId === '13') {
+const phaseMap = {
+"Direitos - 1ª Fase": "1_fase.json",
+"Direitos - 2ª Fase": "2_fase.json",
+"Direitos - 3ª Fase": "3_fase.json",
+"Direitos - 4ª Fase": "4_fase.json"
+};
+return phaseMap[disciplineName] ? `classe13/${phaseMap[disciplineName]}` : null;
+}
+else if (classId === '14') {
+const phaseMap = {
+"Inglês - 1ª Fase": "1_fase.json",
+"Inglês - 2ª Fase": "2_fase.json",
+"Inglês - 3ª Fase": "3_fase.json",
+"Inglês - 4ª Fase": "4_fase.json"
+};
+return phaseMap[disciplineName] ? `classe14/${phaseMap[disciplineName]}` : null;
+}
+else if (classId === '15') {
+const phaseMap = {
+"QI - 1ª Fase": "1_fase.json",
+"QI - 2ª Fase": "2_fase.json",
+"QI - 3ª Fase": "3_fase.json",
+"QI - 4ª Fase": "4_fase.json",
+"QI - 5ª Fase": "5_fase.json",
+"QI - 6ª Fase": "6_fase.json"
+};
+return phaseMap[disciplineName] ? `classe15/${phaseMap[disciplineName]}` : null;
+}
+else if (classId === '16') {
+const phaseMap = {
+"Cultura - 1ª Fase": "1_fase.json",
+"Cultura - 2ª Fase": "2_fase.json",
+"Cultura - 3ª Fase": "3_fase.json",
+"Cultura - 4ª Fase": "4_fase.json",
+"Cultura - 5ª Fase": "5_fase.json",
+"Cultura - 6ª Fase": "6_fase.json",
+"Cultura - 7ª Fase": "7_fase.json",
+"Cultura - 8ª Fase": "8_fase.json",
+"Cultura - 9ª Fase": "9_fase.json",
+"Cultura - 10ª Fase": "10_fase.json"
+};
+return phaseMap[disciplineName] ? `classe16/${phaseMap[disciplineName]}` : null;
+}
+else if (classId === '17') {
+const map = {
+"Adivinhas Populares": "adivinhas.json",
+"Metalinguísticas": "metalinguisticas.json",
+"Enigmas de Parentesco": "enigmas_parentesco.json",
+"Matemática": "matematica.json",
+"Raciocínio": "raciocinio.json"
+};
+return map[disciplineName] ? `classe17/${map[disciplineName]}` : null;
+}
+const map = {
+"Matemática": "matematica.json",
+"Português": "portugues.json",
+"Ciências Sociais": "ciencias_sociais.json",
+"Ciências Naturais": "ciencias_naturais.json",
+"Inglês": "ingles.json",
+"História": "historia.json",
+"Biologia": "biologia.json",
+"Geografia": "geografia.json",
+"Física": "fisica.json",
+"Química": "quimica.json",
+"Empreendedorismo": "empreendedorismo.json",
+"Filosofia": "filosofia.json"
+};
+return map[disciplineName] ? `classe${classId}/${map[disciplineName]}` : null;
+}
+async function startQuiz(classId, disciplineId, disciplineName) {
+// Verificar energia antes de iniciar
+if ((gameState.energy || 0) <= 0) {
+openEnergyShop();
+return;
+}
+currentScreen = 'game';
+_showAdFab(false); // ocultar FAB no jogo
+clearAllParticles();
+const homeBtn = document.getElementById('home-btn');
+if (homeBtn) {
+homeBtn.innerHTML = '<i class="fas fa-arrow-left"></i>';
+homeBtn.title = 'Voltar';
+homeBtn.onclick = function() {
+playSound('button');
+if (currentScreen === 'game' && gameState.currentQuiz && !gameState.currentQuiz.showingResult) {
+// Pausar timer enquanto o jogador decide
+if (gameState.currentQuiz.timerInterval) gameState.currentQuiz.timerPaused = true;
+Swal.fire({
+title: 'Sair do quiz?',
+
+text: 'O progresso desta sessão será perdido.',
+icon: 'question',
+confirmButtonText: '<i class="fas fa-door-open"></i> Sair',
+confirmButtonColor: '#e74c3c',
+showCancelButton: true,
+cancelButtonText: 'Continuar a jogar',
+cancelButtonColor: 'var(--primary)',
+allowOutsideClick: false
+}).then(function(r) {
+if (r.isConfirmed) {
+_cleanupQuiz();
+_showAdFab(true);
+showDisciplines(classId);
+} else {
+// Retomar timer
+if (gameState.currentQuiz) gameState.currentQuiz.timerPaused = false;
+if (gameState.currentQuiz && !gameState.currentQuiz.timerInterval) startTimer();
+}
+});
+} else {
+_cleanupQuiz();
+_showAdFab(true);
+showDisciplines(classId);
+}
+};
+}
+if (!checkInternetConnection()) {
+showNoInternetModal();
+return;
+}
+const filePath = mapDisciplineToFileName(classId, disciplineName);
+if (!filePath) {
+Swal.fire({
+title: 'Indisponível',
+text: 'Esta disciplina não está disponível no momento.',
+icon: 'error',
+confirmButtonColor: 'var(--primary)',
+didOpen: () => {
+const _sc = document.querySelector('.swal2-confirm'); if (_sc) _sc.addEventListener('click', () => playSound('button'), {once:true});
+}
+});
+return;
+}
+document.getElementById('main-content').innerHTML = '<div class="spinner"></div><p style="text-align: center;">Carregando...</p>';
+try {
+// Sistema de cache: guarda perguntas por 48h para modo offline
+const _cacheKey = 'qmz_qs_' + filePath.replace(/[^a-z0-9]/gi,'_');
+const _cacheRaw = localStorage.getItem(_cacheKey);
+let data = null;
+let _fromCache = false;
+if (_cacheRaw) {
+try {
+const _parsed = JSON.parse(_cacheRaw);
+if (_parsed.ts && (Date.now() - _parsed.ts) < 48 * 3600 * 1000) {
+data = _parsed.d; _fromCache = true;
+} else { localStorage.removeItem(_cacheKey); }
+} catch(_) { localStorage.removeItem(_cacheKey); }
+}
+if (!data || !_fromCache) {
+if (!navigator.onLine) {
+showNoInternetModal();
+if (!data) throw new Error('offline_no_cache');
+} else {
+// Mostrar banner offline subtil se usou cache
+const ctrl = new AbortController();
+const _tid = setTimeout(() => ctrl.abort(), 12000);
+const response = await fetch(`https://raw.githubusercontent.com/BrunoMatherry/quizmoz-data/main/${filePath}?v=${GAME_VERSION}`, { signal: ctrl.signal });
+clearTimeout(_tid);
+if (!response.ok) throw new Error('Não disponível');
+data = await response.json();
+// Guardar em cache
+try { localStorage.setItem(_cacheKey, JSON.stringify({ d: data, ts: Date.now() })); } catch(_) {}
+}
+} else if (!navigator.onLine) {
+// Tem cache mas está offline — avisa subtilmente e continua
+showNoInternetModal();
+}
+let allQuestions = [];
+if (data && data.c2dictionary && data.data) {
+const questionData = data.data;
+for (let key in questionData) {
+if (key.startsWith('Q_ID')) {
+const index = key.replace('Q_ID', '');
+const questionId = `q_${index}`;
+allQuestions.push({
+id: questionId,
+pergunta: questionData[`Q_ID${index}`],
+alternativas: {
+'A': questionData[`A0_ID${index}`] || '',
+'B': questionData[`A1_ID${index}`] || '',
+'C': questionData[`A2_ID${index}`] || '',
+'D': questionData[`A3_ID${index}`] || ''
+},
+correta: String.fromCharCode(65 + (questionData[`S_ID${index}`] || 0)),
+justificativa: questionData[`txtS_ID${index}`] || ''
+});
+}
+}
+}
+if (allQuestions.length === 0) throw new Error('Sem perguntas');
+if (!gameState.unlockedDisciplines[disciplineId]) {
+gameState.unlockedDisciplines[disciplineId] = {};
+}
+gameState.unlockedDisciplines[disciplineId].totalQuestions = allQuestions.length;
+if (!gameState.answeredQuestions[disciplineId]) {
+gameState.answeredQuestions[disciplineId] = [];
+}
+const answeredIds = gameState.answeredQuestions[disciplineId] || [];
+let availableQuestions = allQuestions.filter(q => !answeredIds.includes(q.id));
+if (availableQuestions.length === 0) {
+gameState.answeredQuestions[disciplineId] = [];
+availableQuestions = allQuestions;
+}
+gameState.currentQuiz = {
+classId,
+disciplineId,
+disciplineName,
+allQuestions: allQuestions,
+availableQuestions: shuffleArray([...availableQuestions]),
+currentQuestion: null,
+totalQuestions: allQuestions.length,
+remainingQuestions: availableQuestions.length,
+correctAnswers: 0,
+wrongAnswers: 0,
+streak: 0,
+timeLeft: 30,
+timerInterval: null,
+answerSelected: false,
+showingResult: false,
+timerPaused: false
+};
+loadNextQuestion();
+document.getElementById('timer-btn').style.display = 'flex';
+document.getElementById('reveal-answer').style.display = 'flex';
+document.getElementById('add-time').style.display = 'flex';
+} catch (error) {
+if (error.message === 'offline_no_cache' || !navigator.onLine) {
+showNoInternetModal();
+} else {
+Swal.fire({
+title: 'Erro',
+text: 'Disciplina indisponível. Verifica a tua ligação.',
+icon: 'error',
+confirmButtonColor: 'var(--primary)',
+didOpen: () => {
+const _sc = document.querySelector('.swal2-confirm'); if (_sc) _sc.addEventListener('click', () => playSound('button'), {once:true});
+}
+});
+}
+showDisciplines(classId);
+}
+}

@@ -1,0 +1,82 @@
+{
+  "Nome": [
+    "Pedro",
+    "Patrícia"
+  ],
+  "País": [
+    "Portugal",
+    "Peru",
+    "Polónia"
+  ],
+  "Cidade": [
+    "Pemba",
+    "Porto",
+    "Paris",
+    "Pequim"
+  ],
+  "Cor": [
+    "Preto",
+    "Prata",
+    "Púrpura"
+  ],
+  "Animal": [
+    "Pato",
+    "Pinguim",
+    "Pantera"
+  ],
+  "Alimento": [
+    "Pão",
+    "Pipoca",
+    "Pizza"
+  ],
+  "Objeto": [
+    "Prato"
+  ],
+  "Profissão": [
+    "Professor",
+    "Psicólogo"
+  ],
+  "Carro": [
+    "Peugeot",
+    "Porsche"
+  ],
+  "Cantor": [
+    "Phil Collins"
+  ],
+  "Marca": [
+    "Pepsi"
+  ],
+  "Filme": [
+    "Pinóquio",
+    "Pulp Fiction"
+  ],
+  "Ator": [
+    "Penélope Cruz"
+  ],
+  "Novela": [
+    "Pantanal"
+  ],
+  "Personagem": [
+    "Peter Pan"
+  ],
+  "Capital": [
+    "Paris",
+    "Pequim"
+  ],
+  "Música": [
+    "Pensa em Mim"
+  ],
+  "Roupa": [
+    "Pijama",
+    "Paletó"
+  ],
+  "Parte do Corpo": [
+    "Pé",
+    "Perna",
+    "Pescoço"
+  ],
+  "Instrumento": [
+    "Piano",
+    "Prato"
+  ]
+}

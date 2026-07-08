@@ -1,0 +1,82 @@
+{
+  "Nome": [
+    "Sofia",
+    "Samuel"
+  ],
+  "País": [
+    "Suécia",
+    "Suíça",
+    "Senegal",
+    "Somália"
+  ],
+  "Cidade": [
+    "Songo",
+    "Sintra",
+    "Sevilha",
+    "Sidney"
+  ],
+  "Cor": [
+    "Salmão"
+  ],
+  "Animal": [
+    "Sapo",
+    "Serpente"
+  ],
+  "Alimento": [
+    "Salada",
+    "Sopa"
+  ],
+  "Objeto": [
+    "Sapato",
+    "Saco"
+  ],
+  "Profissão": [
+    "Soldador",
+    "Sociólogo"
+  ],
+  "Carro": [
+    "Suzuki",
+    "Subaru"
+  ],
+  "Cantor": [
+    "Shakira"
+  ],
+  "Marca": [
+    "Samsung",
+    "Sony"
+  ],
+  "Filme": [
+    "Shrek",
+    "Star Wars",
+    "Spiderman"
+  ],
+  "Ator": [
+    "Sylvester Stallone"
+  ],
+  "Novela": [
+    "Senhora do Destino"
+  ],
+  "Personagem": [
+    "Shrek",
+    "Superman"
+  ],
+  "Capital": [
+    "Seul",
+    "Sana"
+  ],
+  "Música": [
+    "Shape of You"
+  ],
+  "Roupa": [
+    "Saia",
+    "Sobretudo"
+  ],
+  "Parte do Corpo": [
+    "Seio",
+    "Sobrancelha"
+  ],
+  "Instrumento": [
+    "Saxofone",
+    "Sino"
+  ]
+}

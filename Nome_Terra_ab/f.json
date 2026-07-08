@@ -1,0 +1,80 @@
+{
+  "Nome": [
+    "Felipe",
+    "Fernando"
+  ],
+  "País": [
+    "França",
+    "Finlândia",
+    "Filipinas"
+  ],
+  "Cidade": [
+    "Faro",
+    "Florença",
+    "Frankfurt"
+  ],
+  "Cor": [
+    "Ferrugem",
+    "Fúcsia"
+  ],
+  "Animal": [
+    "Formiga",
+    "Foca",
+    "Flamingo"
+  ],
+  "Alimento": [
+    "Feijão",
+    "Figo",
+    "Frango"
+  ],
+  "Objeto": [
+    "Faca",
+    "Fita"
+  ],
+  "Profissão": [
+    "Farmacêutico",
+    "Físico"
+  ],
+  "Carro": [
+    "Ferrari",
+    "Fiat",
+    "Ford"
+  ],
+  "Cantor": [
+    "Freddie Mercury"
+  ],
+  "Marca": [
+    "Ford"
+  ],
+  "Filme": [
+    "Frozen"
+  ],
+  "Ator": [
+    "Fábio Assunção"
+  ],
+  "Novela": [
+    "Fina Estampa"
+  ],
+  "Personagem": [
+    "Frodo"
+  ],
+  "Capital": [
+    "Freetown"
+  ],
+  "Música": [
+    "Faroeste Caboclo"
+  ],
+  "Roupa": [
+    "Fa-teste",
+    "Fe-teste",
+    "Fo-teste"
+  ],
+  "Parte do Corpo": [
+    "Fígado",
+    "Fronte"
+  ],
+  "Instrumento": [
+    "Flauta",
+    "Fagote"
+  ]
+}
