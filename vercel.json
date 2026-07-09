@@ -17,6 +17,10 @@
         {
             "src": "/stop-demo",
             "dest": "/stop-demo.html"
+        },
+        {
+            "src": "/video-demo",
+            "dest": "/video-demo.html"
         }
     ],
     "headers": [
