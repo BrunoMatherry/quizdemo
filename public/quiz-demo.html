@@ -665,358 +665,11 @@
             0% { transform: scale(1); box-shadow: 0 4px 15px rgba(46,204,113,0.3); }
             100% { transform: scale(1.04); box-shadow: 0 8px 25px rgba(46,204,113,0.5); }
         }
-
-        /* CREATOR WORKSPACE SPLIT LAYOUT */
-        #creator-workspace {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 30px;
-            padding: 10px;
-            width: 100%;
-            max-width: 960px;
-            margin: auto;
-            flex-wrap: wrap;
-            position: relative;
-        }
-
-        /* SETTINGS DRAWER */
-        #settings-drawer {
-            position: absolute;
-            top: 65px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 90%;
-            max-width: 440px;
-            background: rgba(26, 31, 46, 0.98);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 15px 20px;
-            box-shadow: 0 15px 40px rgba(0,0,0,0.6);
-            z-index: 9999;
-            display: none;
-            flex-direction: column;
-            gap: 12px;
-        }
-        .settings-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 10px;
-            font-size: 0.88em;
-        }
-        .settings-input {
-            background: rgba(0,0,0,0.3);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 8px 12px;
-            color: white;
-            font-family: inherit;
-            font-size: 0.9em;
-            flex: 1;
-        }
-        .settings-btn {
-            background: var(--primary);
-            color: white;
-            border: none;
-            padding: 8px 14px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: 700;
-            font-family: inherit;
-            transition: all 0.2s;
-        }
-        .settings-btn:hover {
-            background: var(--primary-dark);
-        }
-        .bg-presets {
-            display: flex;
-            gap: 8px;
-        }
-        .bg-btn {
-            border: none;
-            width: 26px;
-            height: 26px;
-            border-radius: 50%;
-            cursor: pointer;
-            border: 2px solid transparent;
-        }
-        .bg-btn.active {
-            border-color: white;
-        }
-
-        /* VIRTUAL POINTER HAND */
-        #virtual-pointer {
-            position: absolute;
-            font-size: 3.5em;
-            pointer-events: none;
-            z-index: 1000;
-            opacity: 0;
-            transition: left 0.45s cubic-bezier(0.25, 1, 0.5, 1), top 0.45s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.2s ease;
-            filter: drop-shadow(0 4px 10px rgba(0,0,0,0.5));
-            transform-origin: center bottom;
-        }
-        #virtual-pointer.clicking {
-            animation: handClickAnim 0.3s ease;
-        }
-        @keyframes handClickAnim {
-            0% { transform: scale(1); }
-            50% { transform: scale(0.75); }
-            100% { transform: scale(1); }
-        }
-
-        /* REACTIVE MASCOT PANEL */
-        #mascot-panel {
-            width: 100%;
-            max-width: 320px;
-            background: var(--card-bg);
-            border-radius: 28px;
-            border: 2px solid rgba(255, 255, 255, 0.05);
-            padding: 25px 20px;
-            display: none; /* Hidden by default for playable ad view */
-            flex-direction: column;
-            align-items: center;
-            gap: 15px;
-            box-shadow: var(--shadow);
-            z-index: 40;
-        }
-        #mascot-avatar {
-            width: 140px;
-            height: 140px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, #2ecc71, #27ae60);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-            box-shadow: 0 8px 20px rgba(46, 204, 113, 0.25);
-            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            transform-origin: center bottom;
-        }
-        .mascot-face {
-            width: 80%;
-            height: 80%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 8px;
-            position: relative;
-            transition: transform 0.3s ease;
-        }
-        .mascot-eyebrows {
-            display: flex;
-            justify-content: space-between;
-            width: 80px;
-            position: absolute;
-            top: 20px;
-            z-index: 10;
-        }
-        .eyebrow {
-            width: 28px;
-            height: 5px;
-            background: #1e272c;
-            border-radius: 4px;
-            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
-        .eyebrow.left { transform: rotate(0); }
-        .eyebrow.right { transform: rotate(0); }
-        .mascot-eyes {
-            display: flex;
-            justify-content: space-between;
-            width: 70px;
-            margin-top: 12px;
-        }
-        .eye {
-            width: 18px;
-            height: 18px;
-            background: #1e272c;
-            border-radius: 50%;
-            position: relative;
-            transition: all 0.4s ease;
-        }
-        .eye::after {
-            content: '';
-            width: 6px;
-            height: 6px;
-            background: white;
-            border-radius: 50%;
-            position: absolute;
-            top: 3px;
-            left: 3px;
-        }
-        .mascot-mouth {
-            width: 38px;
-            height: 14px;
-            border-bottom: 5px solid #1e272c;
-            border-radius: 0 0 20px 20px;
-            transition: all 0.4s ease;
-            margin-top: 4px;
-        }
-
-        /* Mascot States */
-        #mascot-avatar.happy {
-            animation: jumpHappy 0.6s infinite alternate ease-in-out;
-            background: linear-gradient(135deg, #2ecc71, #27ae60);
-        }
-        #mascot-avatar.happy .eye {
-            height: 6px;
-            border-radius: 0;
-            background: transparent;
-            border-top: 5px solid #1e272c;
-        }
-        #mascot-avatar.happy .eye::after { display: none; }
-        #mascot-avatar.happy .eyebrow.left { transform: translateY(-3px) rotate(-10deg); }
-        #mascot-avatar.happy .eyebrow.right { transform: translateY(-3px) rotate(10deg); }
-        #mascot-avatar.happy .mascot-mouth {
-            width: 44px;
-            height: 22px;
-            background: #1e272c;
-            border-radius: 0 0 44px 44px;
-            border-bottom: none;
-        }
-
-        #mascot-avatar.annoyed {
-            background: linear-gradient(135deg, #f1c40f, #d35400);
-            transform: rotate(-10deg);
-        }
-        #mascot-avatar.annoyed .eyebrow.left { transform: translateY(3px) rotate(20deg); }
-        #mascot-avatar.annoyed .eyebrow.right { transform: translateY(3px) rotate(-20deg); }
-        #mascot-avatar.annoyed .mascot-mouth {
-            width: 26px;
-            height: 5px;
-            border-radius: 4px;
-            border-bottom: 5px solid #1e272c;
-        }
-
-        #mascot-avatar.furious {
-            background: linear-gradient(135deg, #e74c3c, #c0392b);
-            animation: shakeFurious 0.15s infinite alternate ease-in-out;
-        }
-        #mascot-avatar.furious .eyebrow.left { transform: translateY(6px) rotate(35deg); }
-        #mascot-avatar.furious .eyebrow.right { transform: translateY(6px) rotate(-35deg); }
-        #mascot-avatar.furious .eye { transform: scaleY(0.4); }
-        #mascot-avatar.furious .mascot-mouth {
-            width: 32px;
-            height: 14px;
-            background: transparent;
-            border-top: 5px solid #1e272c;
-            border-bottom: none;
-            border-radius: 20px 20px 0 0;
-            margin-top: 8px;
-        }
-        #mascot-avatar.side-eye .mascot-face {
-            transform: translateX(30px) scaleX(0.8);
-        }
-        #mascot-avatar.side-eye .eye::after {
-            left: 2px !important;
-        }
-
-        @keyframes jumpHappy {
-            0% { transform: translateY(0); }
-            100% { transform: translateY(-20px); }
-        }
-        @keyframes shakeFurious {
-            0% { transform: scale(1.05) translate(-2px, -2px) rotate(13deg); }
-            100% { transform: scale(1.05) translate(2px, 2px) rotate(17deg); }
-        }
-
-        .anger-meter-container {
-            width: 100%;
-        }
-        .meter-label {
-            display: flex;
-            justify-content: space-between;
-            font-size: 0.8em;
-            color: var(--text-dim);
-            font-weight: 700;
-            margin-bottom: 4px;
-        }
-        .meter-bar-outer {
-            width: 100%;
-            height: 10px;
-            background: rgba(255,255,255,0.05);
-            border-radius: 10px;
-            overflow: hidden;
-            border: 1px solid var(--border);
-        }
-        .meter-bar-inner {
-            height: 100%;
-            width: 0%;
-            background: var(--secondary);
-            border-radius: 10px;
-            transition: width 0.5s ease, background 0.5s ease;
-        }
-
-        .steam-bubble {
-            position: absolute;
-            font-size: 1.5em;
-            opacity: 0;
-            pointer-events: none;
-            animation: floatSteam 1.5s ease-out forwards;
-            z-index: 10;
-        }
-        @keyframes floatSteam {
-            0% { transform: translateY(0) scale(0.5); opacity: 0; }
-            30% { opacity: 0.8; }
-            100% { transform: translateY(-50px) scale(1.2); opacity: 0; }
-        }
-        .emote-overlay {
-            position: absolute;
-            font-size: 3.5em;
-            pointer-events: none;
-            opacity: 0;
-            z-index: 200;
-            animation: emoteRise 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
-        }
-        @keyframes emoteRise {
-            0% { transform: translateY(50px) scale(0.3); opacity: 0; }
-            30% { opacity: 1; }
-            80% { opacity: 1; }
-            100% { transform: translateY(-30px) scale(1.1); opacity: 0; }
-        }
     </style>
 </head>
 <body>
 
-    <!-- CREATOR SETTINGS TOGGLE BUTTON -->
-    <button id="btn-toggle-creator-settings" style="position: fixed; top: 15px; right: 15px; z-index: 99999; background: rgba(0,0,0,0.5); border: 1px solid var(--border); border-radius: 50%; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; color: white; cursor: pointer; font-size: 1.1em; transition: all 0.2s;"><i class="fas fa-cog"></i></button>
-
-    <!-- CREATOR SETTINGS DRAWER -->
-    <div id="settings-drawer">
-        <h3 style="font-size:1em; margin-bottom:5px;"><i class="fas fa-video"></i> Modo Criador de Vídeos</h3>
-        <div class="settings-row">
-            <span>Ativar Efeitos de Vídeo (Mascote + Mãozinha):</span>
-            <input type="checkbox" id="creator-video-mode-toggle" style="width: 18px; height: 18px; cursor: pointer;" onchange="onVideoModeToggled()">
-        </div>
-        <div class="settings-row">
-            <span>Atraso do Clique (ms):</span>
-            <input type="number" id="creator-click-delay" value="500" style="width: 65px; background: rgba(0,0,0,0.3); border: 1px solid var(--border); border-radius: 6px; padding: 4px; color: white; text-align: center;">
-        </div>
-        <div class="settings-row">
-            <span>URL do JSON (GitHub):</span>
-            <input type="text" id="creator-json-url" value="https://raw.githubusercontent.com/BrunoMatherry/QuizDEMO_VIDEOS/main/quiz_demo_videos.json" style="background: rgba(0,0,0,0.3); border: 1px solid var(--border); border-radius: 6px; padding: 4px 8px; color: white; font-size: 0.85em; flex: 1; max-width: 250px;">
-        </div>
-        <div class="settings-row" style="justify-content: flex-end;">
-            <button class="settings-btn" onclick="loadCustomQuestions()">Carregar JSON</button>
-        </div>
-        <div class="settings-row">
-            <span>Fundo do Vídeo (Chroma):</span>
-            <div class="bg-presets">
-                <button class="bg-btn active" style="background: #0f1319;" onclick="setBgPreset('#0f1319', this)"></button>
-                <button class="bg-btn" style="background: #00FF00;" title="Chroma Key (Tela Verde)" onclick="setBgPreset('#00FF00', this)"></button>
-                <button class="bg-btn" style="background: linear-gradient(135deg, #1e3c72, #2a5298);" onclick="setBgPreset('linear-gradient(135deg, #1e3c72, #2a5298)', this)"></button>
-            </div>
-        </div>
-    </div>
-
-    <!-- MAIN WORKSPACE -->
-    <div id="creator-workspace">
-        
-        <!-- VIRTUAL POINTER HAND -->
-        <div id="virtual-pointer">👆</div>
-
-        <div id="game-container">
+    <div id="game-container">
 
         <!-- DECORATIVE TOP HUD -->
         <div class="header-sim">
@@ -1156,46 +809,6 @@
 
     </div>
 
-    <!-- REACTIVE MASCOT PANEL -->
-    <div id="mascot-panel">
-        <div style="text-align: center;">
-            <h2 style="font-family: 'Comfortaa', cursive; font-size: 1.2em; color: var(--primary);">O Mascote Reativo</h2>
-            <p id="mascot-mood-label" style="font-size: 0.8em; color: var(--text-dim); margin-top: 2px;">Humor: Atento</p>
-        </div>
-        
-        <!-- Character Head -->
-        <div id="mascot-avatar">
-            <div class="mascot-face">
-                <div class="mascot-eyebrows">
-                    <div class="eyrow eyebrow left" id="eb-left"></div>
-                    <div class="eyrow eyebrow right" id="eb-right"></div>
-                </div>
-                <div class="mascot-eyes">
-                    <div class="eye left" id="eye-left"></div>
-                    <div class="eye right" id="eye-right"></div>
-                </div>
-                <div class="mascot-mouth" id="mascot-mouth"></div>
-            </div>
-        </div>
-        
-        <!-- Dynamic Anger Bar -->
-        <div class="anger-meter-container">
-            <div class="meter-label">
-                <span>Nível de Irritação</span>
-                <span id="anger-percent-label">0%</span>
-            </div>
-            <div class="meter-bar-outer">
-                <div class="meter-bar-inner" id="anger-bar"></div>
-            </div>
-        </div>
-        
-        <div style="font-size: 0.78em; text-align: center; color: var(--text-dim); line-height: 1.3;">
-            O personagem reage aos acertos atirando confetes e acumula fúria quando você erra.
-        </div>
-    </div>
-
-    </div> <!-- Close creator-workspace -->
-
     <!-- Canvas Confetti CDN -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
 
@@ -1270,8 +883,11 @@
                         o2.stop(ctx.currentTime + idx * 0.1 + 0.2);
                     });
                 }
-                 // 7 Default cultural questions
-        let QUESTIONS_DATA = [
+            } catch(e) {}
+        }
+
+        // 7 Remaining cultural questions after removing 5
+        const QUESTIONS = [
             {
                 q: "Antes dos portugueses chegarem em Moçambique, quem já colonizava o país?",
                 options: { A: "Árabes / Persas / Suaílis", B: "Ingleses", C: "Holandeses", D: "Franceses" },
@@ -1316,144 +932,11 @@
             }
         ];
 
-        let QUESTIONS = [...QUESTIONS_DATA];
         let currentQIdx = 0;
         let scoreMe = 0;
         let scoreOp = 0;
         let timer = null;
         let timeLeft = 15;
-
-        // Creator Video Mode States
-        let videoModeActive = false;
-        let userCanClick = true;
-        let angerLevel = 0; // 0 to 5
-
-        // Load settings drawer toggles
-        window.addEventListener('load', () => {
-            // Toggles settings drawer on click of fixed gear icon
-            document.getElementById('btn-toggle-creator-settings').onclick = toggleSettingsDrawer;
-
-            // Eye blinking loop
-            setInterval(() => {
-                const eyeL = document.getElementById('eye-left');
-                const eyeR = document.getElementById('eye-right');
-                const mascotAvatar = document.getElementById('mascot-avatar');
-                if (!videoModeActive || mascotAvatar.classList.contains('happy') || mascotAvatar.classList.contains('furious')) return;
-                
-                eyeL.style.transform = 'scaleY(0.1)';
-                eyeR.style.transform = 'scaleY(0.1)';
-                setTimeout(() => {
-                    eyeL.style.transform = 'scaleY(1)';
-                    eyeR.style.transform = 'scaleY(1)';
-                }, 150);
-            }, 3000);
-        });
-
-        function toggleSettingsDrawer() {
-            const drawer = document.getElementById('settings-drawer');
-            if (drawer.style.display === 'none' || !drawer.style.display) {
-                drawer.style.display = 'flex';
-            } else {
-                drawer.style.display = 'none';
-            }
-        }
-
-        function onVideoModeToggled() {
-            const isChecked = document.getElementById('creator-video-mode-toggle').checked;
-            videoModeActive = isChecked;
-            
-            const mascotPanel = document.getElementById('mascot-panel');
-            if (isChecked) {
-                mascotPanel.style.display = 'flex';
-                // Reset mascot state
-                angerLevel = 0;
-                updateAngerBar();
-                updateMascotMood('idle');
-            } else {
-                mascotPanel.style.display = 'none';
-                document.body.style.background = '#0f1319';
-            }
-        }
-
-        function setBgPreset(presetValue, element) {
-            document.body.style.background = presetValue;
-            document.querySelectorAll('.bg-btn').forEach(btn => btn.classList.remove('active'));
-            element.classList.add('active');
-        }
-
-        // Parse Construct 2/3 Dictionary JSON
-        function parseC2Dictionary(json) {
-            if (!json || !json.data) return [];
-            const data = json.data;
-            const count = data.questionCount || 0;
-            const parsed = [];
-            for (let i = 0; i < count; i++) {
-                const question = data[`Q_ID${i}`];
-                if (!question) continue;
-                const options = [
-                    data[`A0_ID${i}`],
-                    data[`A1_ID${i}`],
-                    data[`A2_ID${i}`],
-                    data[`A3_ID${i}`]
-                ].filter(Boolean);
-                const correct = parseInt(data[`S_ID${i}`]) || 0;
-                const justification = data[`txtS_ID${i}`] || "";
-                parsed.push({
-                    q: question,
-                    options: options,
-                    correct: correct,
-                    justification: justification
-                });
-            }
-            return parsed;
-        }
-
-        function loadCustomQuestions() {
-            const url = document.getElementById('creator-json-url').value.trim();
-            if (!url) return alert("Por favor insira um link de JSON.");
-
-            fetch(url)
-                .then(res => {
-                    if (!res.ok) throw new Error("Erro de status: " + res.status);
-                    return res.json();
-                })
-                .then(data => {
-                    if (data.c2dictionary) {
-                        QUESTIONS_DATA = parseC2Dictionary(data);
-                    } else if (Array.isArray(data)) {
-                        QUESTIONS_DATA = data.map(item => ({
-                            q: item.question || item.q,
-                            options: item.options,
-                            correct: item.correct,
-                            justification: item.justification || ""
-                        }));
-                    } else {
-                        throw new Error("Formato JSON desconhecido.");
-                    }
-
-                    if (QUESTIONS_DATA.length > 0) {
-                        alert(`Sucesso! ${QUESTIONS_DATA.length} perguntas carregadas!`);
-                        QUESTIONS = [...QUESTIONS_DATA];
-                        resetGame();
-                    } else {
-                        alert("Nenhuma pergunta válida encontrada.");
-                    }
-                })
-                .catch(err => {
-                    console.error(err);
-                    alert("Erro ao carregar o JSON: " + err.message);
-                });
-        }
-
-        function resetGame() {
-            currentQIdx = 0;
-            scoreMe = 0;
-            scoreOp = 0;
-            angerLevel = 0;
-            updateAngerBar();
-            updateMascotMood('idle');
-            showScreen('screen-welcome');
-        }
 
         // Navigation
         function showScreen(id) {
@@ -1461,58 +944,14 @@
             document.getElementById(id).classList.add('active');
         }
 
-        // START TRIGGER
         document.getElementById('btn-start').onclick = () => {
-            onVirtualButtonClick(document.getElementById('btn-start'), () => {
-                runRoundShowcase();
-            });
+            playSound('click');
+            runRoundShowcase();
         };
-
-        // Virtual Hand cursor logic
-        function onVirtualButtonClick(btnEl, callback) {
-            if (!videoModeActive) {
-                playSound('click');
-                callback();
-                return;
-            }
-            if (!userCanClick) return;
-            userCanClick = false;
-
-            const gameContainer = document.getElementById('game-container');
-            const gRect = gameContainer.getBoundingClientRect();
-            const bRect = btnEl.getBoundingClientRect();
-
-            const targetX = bRect.left - gRect.left + (bRect.width / 2) - 15;
-            const targetY = bRect.top - gRect.top + (bRect.height / 2) - 10;
-
-            const pointer = document.getElementById('virtual-pointer');
-            pointer.style.left = `${gRect.width / 2 - 20}px`;
-            pointer.style.top = `${gRect.height - 50}px`;
-            pointer.style.opacity = '1';
-
-            setTimeout(() => {
-                pointer.style.left = `${targetX}px`;
-                pointer.style.top = `${targetY}px`;
-            }, 50);
-
-            const clickDelay = parseInt(document.getElementById('creator-click-delay').value) || 500;
-
-            setTimeout(() => {
-                pointer.classList.add('clicking');
-                playSound('click');
-
-                setTimeout(() => {
-                    pointer.classList.remove('clicking');
-                    pointer.style.opacity = '0';
-                    callback();
-                    userCanClick = true;
-                }, 200);
-            }, clickDelay);
-        }
 
         function runRoundShowcase() {
             showScreen('screen-vs-intro');
-            document.getElementById('vs-round-badge').textContent = `ROUND ${currentQIdx + 1} de ${QUESTIONS.length}`;
+            document.getElementById('vs-round-badge').textContent = `ROUND ${currentQIdx + 1} de 7`;
             
             // Hide justification box and next button
             document.getElementById('quiz-justification').style.display = 'none';
@@ -1526,28 +965,17 @@
         function startQuizQuestion() {
             showScreen('screen-quiz');
             const qData = QUESTIONS[currentQIdx];
-            document.getElementById('quiz-counter').textContent = `${currentQIdx + 1}/${QUESTIONS.length}`;
+            document.getElementById('quiz-counter').textContent = `${currentQIdx + 1}/7`;
             document.getElementById('quiz-question').textContent = qData.q;
             
             const answersDiv = document.getElementById('quiz-answers');
             answersDiv.innerHTML = '';
             
-            let optionsEntries = [];
-            if (Array.isArray(qData.options)) {
-                optionsEntries = qData.options.map((opt, idx) => [String.fromCharCode(65 + idx), opt]);
-            } else {
-                optionsEntries = Object.entries(qData.options);
-            }
-
-            optionsEntries.forEach(([key, val]) => {
+            Object.entries(qData.options).forEach(([key, val]) => {
                 const btn = document.createElement('button');
                 btn.className = 'vs-answer-btn';
                 btn.innerHTML = `<span class="vs-letter">${key}</span>${val}`;
-                btn.onclick = () => {
-                    onVirtualButtonClick(btn, () => {
-                        selectAnswer(key, btn);
-                    });
-                };
+                btn.onclick = () => selectAnswer(key, btn);
                 answersDiv.appendChild(btn);
             });
 
@@ -1571,13 +999,7 @@
             // Disable all buttons
             document.querySelectorAll('.vs-answer-btn').forEach(b => b.style.pointerEvents = 'none');
             
-            // Normalize correctKey (0-3 index vs "A"-"D" letter)
-            let correctKey = qData.correct;
-            if (typeof correctKey === 'number') {
-                correctKey = String.fromCharCode(65 + correctKey);
-            }
-            
-            let isCorrect = (key === correctKey);
+            let isCorrect = (key === qData.correct);
             if (btn) {
                 btn.classList.add(isCorrect ? 'correct' : 'wrong');
             }
@@ -1585,8 +1007,7 @@
             // Highlight correct one if wrong
             if (!isCorrect) {
                 document.querySelectorAll('.vs-answer-btn').forEach(b => {
-                    const letter = b.querySelector('.vs-letter');
-                    if (letter && letter.innerText.trim() === correctKey) {
+                    if (b.innerText.charAt(0) === qData.correct) {
                         b.classList.add('correct');
                     }
                 });
@@ -1596,28 +1017,7 @@
 
             if (isCorrect) {
                 scoreMe += 10;
-                
-                // Reduce anger on correct answer
-                if (angerLevel > 0) angerLevel--;
-                updateAngerBar();
-                
-                if (videoModeActive) {
-                    updateMascotMood('happy');
-                    triggerEmoteOverlay('🎉');
-                    triggerMascotConfetti();
-                } else {
-                    triggerCorrectConfetti();
-                }
-            } else {
-                // Increase anger on wrong answer
-                if (angerLevel < 5) angerLevel++;
-                updateAngerBar();
-
-                if (videoModeActive) {
-                    updateMascotMood('side-eye');
-                    triggerEmoteOverlay('💔');
-                    triggerSteamBubble();
-                }
+                triggerCorrectConfetti();
             }
             
             // Simulated opponent choice (Carlos has 70% chance of getting correct)
@@ -1633,114 +1033,19 @@
             const btnNext = document.getElementById('btn-quiz-next');
             btnNext.style.display = 'block';
             btnNext.onclick = () => {
-                onVirtualButtonClick(btnNext, () => {
-                    currentQIdx++;
-                    if (currentQIdx < QUESTIONS.length) {
-                        updateMascotMood('idle');
-                        runRoundShowcase();
-                    } else {
-                        showFinalResults();
-                    }
-                });
-            };
-        }
-
-        // Mascot reactions
-        function updateMascotMood(mood) {
-            if (!videoModeActive) return;
-            const mascotAvatar = document.getElementById('mascot-avatar');
-            const mascotMoodLabel = document.getElementById('mascot-mood-label');
-            
-            mascotAvatar.className = '';
-            
-            if (mood === 'idle') {
-                mascotMoodLabel.textContent = "Humor: Atento";
-                if (angerLevel >= 4) {
-                    mascotAvatar.classList.add('furious');
-                    mascotMoodLabel.textContent = "Humor: Irado 🤬";
-                } else if (angerLevel >= 2) {
-                    mascotAvatar.classList.add('annoyed');
-                    mascotMoodLabel.textContent = "Humor: Chateado 😒";
-                }
-            } else if (mood === 'happy') {
-                mascotAvatar.classList.add('happy');
-                mascotMoodLabel.textContent = "Humor: Muito Feliz! 🎉";
-            } else if (mood === 'side-eye') {
-                mascotAvatar.classList.add('side-eye');
-                if (angerLevel >= 4) {
-                    mascotAvatar.classList.add('furious');
-                    mascotMoodLabel.textContent = "Humor: Fúria Total! 🤬";
-                } else if (angerLevel >= 2) {
-                    mascotAvatar.classList.add('annoyed');
-                    mascotMoodLabel.textContent = "Humor: Chateado 😒";
+                playSound('click');
+                currentQIdx++;
+                if (currentQIdx < QUESTIONS.length) {
+                    runRoundShowcase();
                 } else {
-                    mascotMoodLabel.textContent = "Humor: Desapontado 😕";
+                    showFinalResults();
                 }
-            }
-        }
-
-        function updateAngerBar() {
-            if (!videoModeActive) return;
-            const percentage = (angerLevel / 5) * 100;
-            const angerBar = document.getElementById('anger-bar');
-            const angerPercentLabel = document.getElementById('anger-percent-label');
-            
-            angerBar.style.width = `${percentage}%`;
-            angerPercentLabel.textContent = `${percentage}%`;
-
-            if (angerLevel >= 4) {
-                angerBar.style.backgroundColor = 'var(--danger)';
-            } else if (angerLevel >= 2) {
-                angerBar.style.backgroundColor = 'var(--accent)';
-            } else {
-                angerBar.style.backgroundColor = 'var(--secondary)';
-            }
-        }
-
-        function triggerMascotConfetti() {
-            try {
-                const mascotAvatar = document.getElementById('mascot-avatar');
-                const rect = mascotAvatar.getBoundingClientRect();
-                const originX = (rect.left + rect.width / 2) / window.innerWidth;
-                const originY = (rect.top + rect.height / 2) / window.innerHeight;
-                
-                confetti({
-                    particleCount: 70,
-                    spread: 60,
-                    origin: { x: originX, y: originY }
-                });
-            } catch(e) {}
-        }
-
-        function triggerSteamBubble() {
-            try {
-                const mascotAvatar = document.getElementById('mascot-avatar');
-                const mascotPanel = document.getElementById('mascot-panel');
-                const bubble = document.createElement('div');
-                bubble.className = 'steam-bubble';
-                bubble.textContent = '💨';
-                bubble.style.left = `${mascotAvatar.offsetLeft + mascotAvatar.offsetWidth / 2 - 15}px`;
-                bubble.style.top = `${mascotAvatar.offsetTop - 15}px`;
-                mascotPanel.appendChild(bubble);
-                setTimeout(() => bubble.remove(), 1500);
-            } catch(e) {}
-        }
-
-        function triggerEmoteOverlay(emoji) {
-            try {
-                const gameContainer = document.getElementById('game-container');
-                const overlay = document.createElement('div');
-                overlay.className = 'emote-overlay';
-                overlay.textContent = emoji;
-                overlay.style.left = `${30 + Math.random() * 40}%`;
-                overlay.style.top = `35%`;
-                gameContainer.appendChild(overlay);
-                setTimeout(() => overlay.remove(), 1200);
-            } catch(e) {}
+            };
         }
 
         function triggerCorrectConfetti() {
             try {
+                // Short celebratory explosion on correct answers
                 confetti({ particleCount: 40, spread: 60, origin: { y: 0.8 } });
             } catch(e) {}
         }
@@ -1781,11 +1086,7 @@
 
         function triggerConfetti() {
             try {
-                if (videoModeActive) {
-                    triggerMascotConfetti();
-                } else {
-                    confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } });
-                }
+                confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } });
             } catch(e) {}
         }
 

@@ -677,7 +677,7 @@
                     <p style="font-size: 0.85em; color: var(--text-dim); line-height: 1.4;">
                         Clique em qualquer resposta e a mãozinha virtual irá simular o clique no vídeo de forma limpa.
                     </p>
-                    <button class="btn-enter-game" onclick="startGame()">Começar 🎥</button>
+                    <button class="btn-enter-game" id="btn-start" onclick="onStartClicked(this)">Começar 🎥</button>
                 </div>
             </div>
 
@@ -723,7 +723,7 @@
                     
                     <p id="results-feedback" style="font-weight: 700; text-align: center; font-size: 1.1em; max-width: 250px; line-height: 1.4; color: var(--primary);"></p>
                     
-                    <button class="btn-enter-game" onclick="resetToWelcome()" style="margin-top: 10px;">Jogar Novamente 🔄</button>
+                    <button class="btn-enter-game" onclick="onRestartClicked(this)" style="margin-top: 10px;">Jogar Novamente 🔄</button>
                 </div>
             </div>
         </div>
@@ -778,8 +778,8 @@
         let angerLevel = 0; // Ranges 0 to 5
         let userCanClick = true;
         
-        // Settings default URL pointing to your GitHub principal branch
-        const DEFAULT_JSON_URL = "https://raw.githubusercontent.com/BrunoMatherry/quizdemo/principal/questions.json";
+        // Settings default URL pointing to your new GitHub repository
+        const DEFAULT_JSON_URL = "https://raw.githubusercontent.com/BrunoMatherry/QuizDEMO_VIDEOS/main/quiz_demo_videos.json";
 
         // DOM elements
         const virtualPointer = document.getElementById('virtual-pointer');
@@ -814,6 +814,72 @@
             } catch (e) {
                 console.error("Audio error", e);
             }
+        }
+
+        // Parse Construct 2/3 Dictionary JSON
+        function parseC2Dictionary(json) {
+            if (!json || !json.data) return [];
+            const data = json.data;
+            const count = data.questionCount || 0;
+            const parsed = [];
+            for (let i = 0; i < count; i++) {
+                const question = data[`Q_ID${i}`];
+                if (!question) continue;
+                const options = [
+                    data[`A0_ID${i}`],
+                    data[`A1_ID${i}`],
+                    data[`A2_ID${i}`],
+                    data[`A3_ID${i}`]
+                ].filter(Boolean);
+                const correct = parseInt(data[`S_ID${i}`]) || 0;
+                const justification = data[`txtS_ID${i}`] || "";
+                parsed.push({
+                    question: question,
+                    options: options,
+                    correct: correct,
+                    justification: justification
+                });
+            }
+            return parsed;
+        }
+
+        // Fetch questions from GitHub JSON
+        function fetchCustomQuestions(isInitial = false) {
+            const url = document.getElementById('github-url-input').value.trim();
+            if (!url) return alert("Por favor insira um link de JSON válido.");
+
+            fetch(url)
+                .then(res => {
+                    if (!res.ok) throw new Error("Erro na rede: " + res.status);
+                    return res.json();
+                })
+                .then(data => {
+                    if (data.c2dictionary) {
+                        questions = parseC2Dictionary(data);
+                    } else if (Array.isArray(data) && data.length > 0) {
+                        questions = data.map(item => ({
+                            question: item.question || item.q,
+                            options: item.options,
+                            correct: item.correct,
+                            justification: item.justification || ""
+                        }));
+                    } else {
+                        throw new Error("Formato JSON desconhecido.");
+                    }
+
+                    if (questions.length > 0) {
+                        if (!isInitial) {
+                            alert(`Sucesso! ${questions.length} perguntas carregadas do GitHub!`);
+                            resetToWelcome();
+                        }
+                    } else {
+                        alert("Nenhuma pergunta válida encontrada.");
+                    }
+                })
+                .catch(err => {
+                    console.error(err);
+                    alert("Falha ao carregar as questões do GitHub: " + err.message);
+                });
         }
 
         // INIT AND LOAD QUESTIONS
@@ -890,6 +956,53 @@
         }
 
         // START GAME
+        function onVirtualButtonClick(btnEl, callback) {
+            if (!userCanClick) return;
+            userCanClick = false;
+
+            const gameContainer = document.getElementById('game-container');
+            const gRect = gameContainer.getBoundingClientRect();
+            const bRect = btnEl.getBoundingClientRect();
+
+            const targetX = bRect.left - gRect.left + (bRect.width / 2) - 15;
+            const targetY = bRect.top - gRect.top + (bRect.height / 2) - 10;
+
+            virtualPointer.style.left = `${gRect.width / 2 - 20}px`;
+            virtualPointer.style.top = `${gRect.height - 50}px`;
+            virtualPointer.style.opacity = '1';
+
+            setTimeout(() => {
+                virtualPointer.style.left = `${targetX}px`;
+                virtualPointer.style.top = `${targetY}px`;
+            }, 50);
+
+            const clickDelay = parseInt(document.getElementById('click-delay-input').value) || 500;
+
+            setTimeout(() => {
+                virtualPointer.classList.add('clicking');
+                playSynthesizedSound(600, 'sine', 0.08); // click sound
+
+                setTimeout(() => {
+                    virtualPointer.classList.remove('clicking');
+                    virtualPointer.style.opacity = '0';
+                    callback();
+                    userCanClick = true;
+                }, 200);
+            }, clickDelay);
+        }
+
+        function onStartClicked(btn) {
+            onVirtualButtonClick(btn, () => {
+                startGame();
+            });
+        }
+
+        function onRestartClicked(btn) {
+            onVirtualButtonClick(btn, () => {
+                resetToWelcome();
+            });
+        }
+
         function startGame() {
             if (questions.length === 0) {
                 alert("Nenhuma pergunta carregada. Carregue as perguntas no painel superior.");
@@ -920,50 +1033,13 @@
                 const btn = document.createElement('button');
                 btn.className = 'answer-btn';
                 btn.innerHTML = `<span style="opacity:0.6; font-weight:800; font-size:0.9em; margin-right:5px;">${String.fromCharCode(65 + index)}:</span> ${opt}`;
-                btn.onclick = (e) => onOptionClicked(index, btn, e);
+                btn.onclick = (e) => {
+                    onVirtualButtonClick(btn, () => {
+                        evaluateAnswer(index, btn);
+                    });
+                };
                 container.appendChild(btn);
             });
-        }
-
-        // INTERCEPT CLICK FOR VIRTUAL POINTER ANIMATION
-        function onOptionClicked(index, buttonElement, event) {
-            if (!userCanClick) return;
-            userCanClick = false;
-
-            // Get target center coordinates relative to smartphone container
-            const gameContainer = document.getElementById('game-container');
-            const gRect = gameContainer.getBoundingClientRect();
-            const bRect = buttonElement.getBoundingClientRect();
-
-            // Calculate local positions within the container
-            const targetX = bRect.left - gRect.left + (bRect.width / 2) - 15; // Offset pointing fingertip
-            const targetY = bRect.top - gRect.top + (bRect.height / 2) - 10;
-
-            // Trigger virtual pointer hand
-            virtualPointer.style.left = `${gRect.width / 2 - 20}px`; // Start from bottom-center
-            virtualPointer.style.top = `${gRect.height - 50}px`;
-            virtualPointer.style.opacity = '1';
-
-            // Wait a tiny frame, then animate pointer to button
-            setTimeout(() => {
-                virtualPointer.style.left = `${targetX}px`;
-                virtualPointer.style.top = `${targetY}px`;
-            }, 50);
-
-            // Read delay from configuration (default 500ms)
-            const clickDelay = parseInt(document.getElementById('click-delay-input').value) || 500;
-
-            // After arriving, perform click action and execute evaluation
-            setTimeout(() => {
-                virtualPointer.classList.add('clicking');
-                playSynthesizedSound(600, 'sine', 0.08); // click sound
-
-                setTimeout(() => {
-                    virtualPointer.classList.remove('clicking');
-                    virtualPointer.style.opacity = '0';
-                    evaluateAnswer(index, buttonElement);
-                }, 200);
-            }, clickDelay);
         }
 
         // EVALUATE CHOICE
@@ -1017,14 +1093,16 @@
             // Configure next button click
             const btnNext = document.getElementById('btn-next');
             btnNext.onclick = () => {
-                currentIdx++;
-                if (currentIdx < questions.length) {
-                    // Turn mascot back to normal mood before next question
-                    updateMascotMood('idle');
-                    loadQuestion();
-                } else {
-                    finishGame();
-                }
+                onVirtualButtonClick(btnNext, () => {
+                    currentIdx++;
+                    if (currentIdx < questions.length) {
+                        // Turn mascot back to normal mood before next question
+                        updateMascotMood('idle');
+                        loadQuestion();
+                    } else {
+                        finishGame();
+                    }
+                });
             };
         }
 
