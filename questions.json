@@ -1,0 +1,68 @@
+[
+  {
+    "question": "Antes dos portugueses chegarem em Moçambique, quem já colonizava/comercializava no país?",
+    "options": [
+      "Os Árabes",
+      "Os Franceses",
+      "Os Ingleses",
+      "Os Espanhóis"
+    ],
+    "correct": 0,
+    "justification": "Os comerciantes árabes estabeleceram feitorias e rotas na costa moçambicana séculos antes da chegada de Vasco da Gama."
+  },
+  {
+    "question": "A frase 'Oportunidade é como chuva, cai para todos' aplica-se perfeitamente em Moçambique?",
+    "options": [
+      "Sim, todos têm o mesmo",
+      "Não, cai muito desigual",
+      "Apenas na capital Maputo",
+      "Só se aplica na agricultura"
+    ],
+    "correct": 1,
+    "justification": "Esta célebre citação gera muito debate porque as condições socioeconómicas e oportunidades variam muito entre regiões."
+  },
+  {
+    "question": "Qual é a província que mais fala a língua portuguesa em Moçambique?",
+    "options": [
+      "Sofala",
+      "Nampula",
+      "Maputo Cidade/Província",
+      "Zambézia"
+    ],
+    "correct": 2,
+    "justification": "A região de Maputo tem a maior percentagem de falantes de português como língua materna e de uso diário."
+  },
+  {
+    "question": "Qual é considerada a principal riqueza energética/mineral de Moçambique?",
+    "options": [
+      "Ouro e Diamantes",
+      "Gás Natural e Carvão",
+      "Petróleo",
+      "Cobre"
+    ],
+    "correct": 1,
+    "justification": "A bacia de Rovuma (Cabo Delgado) contém uma das maiores reservas de gás natural do mundo, além de grandes reservas de carvão."
+  },
+  {
+    "question": "Qual é a raiz quadrada de 9?",
+    "options": [
+      "1.5",
+      "3",
+      "6",
+      "9"
+    ],
+    "correct": 1,
+    "justification": "Uma simples questão de matemática para testar reflexos: 3 vezes 3 é igual a 9."
+  },
+  {
+    "question": "O termo certo é 'vou cartar água' ou 'vou buscar água'?",
+    "options": [
+      "Buscar água",
+      "Cartar água",
+      "Ambos são usados",
+      "Nenhuma das opções"
+    ],
+    "correct": 2,
+    "justification": "Embora 'buscar' seja o padrão gramatical, 'cartar' (do inglês cart, carregar) é um regionalismo popular moçambicano amplamente compreendido."
+  }
+]
