@@ -44,116 +44,28 @@
             background-color: var(--bg);
             color: var(--text);
             display: flex;
-            flex-direction: column;
+            justify-content: center;
             align-items: center;
             min-height: 100vh;
-            overflow-x: hidden;
+            overflow: hidden;
             transition: background 0.3s ease;
         }
 
-        /* Video Recorder Layout splits screen into Game and Mascot */
+        /* Video Creator Workspace */
         #creator-workspace {
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 40px;
-            padding: 20px;
             width: 100%;
-            max-width: 960px;
-            margin: auto;
-            flex-wrap: wrap;
-        }
-
-        /* CONFIGURATION DRAWER (TOP) */
-        #settings-drawer {
-            width: 100%;
-            max-width: 920px;
-            background: rgba(22, 28, 36, 0.95);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 15px 20px;
-            margin-top: 15px;
-            box-shadow: var(--shadow);
-            z-index: 100;
-        }
-        .settings-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            cursor: pointer;
-        }
-        .settings-header h3 {
-            font-size: 1.1em;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .settings-content {
-            margin-top: 15px;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-        .input-group {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-        }
-        .input-group input {
-            flex: 1;
-            min-width: 250px;
-            background: rgba(0,0,0,0.3);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 10px 14px;
-            color: white;
-            font-family: inherit;
-            font-size: 0.9em;
-        }
-        .btn-action {
-            background: var(--primary);
-            color: white;
-            border: none;
-            padding: 10px 18px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: 700;
-            font-family: inherit;
-            transition: all 0.2s;
-        }
-        .btn-action:hover {
-            background: var(--primary-dark);
-        }
-        .btn-action:active {
-            transform: scale(0.97);
-        }
-        .bg-presets {
-            display: flex;
-            gap: 10px;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        .bg-btn {
-            border: none;
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-            cursor: pointer;
-            border: 2px solid transparent;
-            transition: transform 0.2s;
-        }
-        .bg-btn:hover {
-            transform: scale(1.15);
-        }
-        .bg-btn.active {
-            border-color: white;
-            box-shadow: 0 0 8px white;
+            height: 100vh;
+            padding: 10px;
+            position: relative;
         }
 
         /* SMARTPHONE SIMULATION CONTAINER */
         #game-container {
             width: 100%;
-            max-width: 360px;
+            max-width: 365px;
             height: 700px;
             background: var(--game-bg);
             border-radius: 28px;
@@ -165,7 +77,7 @@
             overflow: hidden;
         }
 
-        /* SCREEN STYLING (Absolutely no scrollbar!) */
+        /* SCREEN STYLING (No scrollbar!) */
         .screen {
             display: none;
             width: 100%;
@@ -229,7 +141,7 @@
             border-radius: 4px;
         }
 
-        /* DECORATIVE BOTTOM NAV BAR (Matching App Screenshot) */
+        /* DECORATIVE BOTTOM NAV BAR */
         .bottom-nav-sim {
             background-color: var(--game-bg);
             height: 56px;
@@ -251,6 +163,10 @@
             font-size: 1.1em;
             cursor: pointer;
             box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+            transition: transform 0.2s;
+        }
+        .nav-btn-sim:active {
+            transform: scale(0.9);
         }
         .nav-btn-sim.back {
             background: rgba(255, 255, 255, 0.04);
@@ -267,7 +183,7 @@
             background: #e74c3c;
         }
 
-        /* WELCOME / HOME SCREEN STYLE */
+        /* WELCOME SCREEN STYLE */
         .logo-header {
             text-align: center;
             margin-top: 25px;
@@ -364,12 +280,11 @@
             flex: 1;
         }
 
-        /* ANSWERS LIST (Fits exactly inside height!) */
+        /* ANSWERS LIST */
         .vs-quiz-answers {
             display: flex;
             flex-direction: column;
             gap: 10px;
-            flex: 1;
         }
         .answer-btn {
             background-color: var(--game-card);
@@ -402,7 +317,7 @@
             transition: all 0.2s ease;
         }
         .answer-text {
-            font-size: 0.9em;
+            font-size: 0.95em;
             line-height: 1.3;
             font-weight: 500;
             flex: 1;
@@ -428,7 +343,7 @@
             color: white !important;
         }
 
-        /* FLOATING SIDE ACTIONS COLUMN (Overlapping screen on right edge) */
+        /* FLOATING SIDE ACTIONS COLUMN */
         .floating-actions-col {
             position: absolute;
             right: 12px;
@@ -458,21 +373,25 @@
             transform: scale(1.08);
         }
         .float-fab.timer-fab {
+            width: 50px;
+            height: 50px;
             background: #ffebe6;
-            border: 2px solid #ffd1c4;
+            border: 2.5px solid #ff6f3c;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             line-height: 1;
+            box-shadow: 0 0 15px rgba(255, 111, 60, 0.45), 0 4px 10px rgba(0,0,0,0.2);
+            transition: transform 0.1s ease;
         }
         .timer-num {
-            font-size: 13px;
+            font-size: 16px;
             font-weight: 800;
             color: #ff6f3c;
         }
         .timer-unit {
-            font-size: 6.5px;
+            font-size: 7px;
             font-weight: 800;
             color: #ff6f3c;
             margin-top: 1px;
@@ -480,14 +399,13 @@
 
         /* EXPLANATION / JUSTIFICATION DRAWER */
         .justification-box {
-            display: none;
             background: #1c2b42;
             border-left: 4px solid var(--accent);
             border-radius: 12px;
             padding: 10px 12px;
-            margin-top: 10px;
             animation: slideDown 0.3s cubic-bezier(0.19, 1, 0.22, 1) forwards;
             box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+            height: 100%;
         }
         @keyframes slideDown {
             from { opacity: 0; transform: translateY(-10px); }
@@ -496,11 +414,11 @@
         .justification-title {
             font-weight: 700;
             color: var(--accent);
-            margin-bottom: 3px;
+            margin-bottom: 2px;
             display: flex;
             align-items: center;
             gap: 6px;
-            font-size: 0.85em;
+            font-size: 0.8em;
         }
 
         /* VIRTUAL POINTER HAND (Over game screens) */
@@ -523,126 +441,70 @@
             100% { transform: scale(1); }
         }
 
-        /* REACTIVE MASCOT (Right side monitor box) */
-        #mascot-panel {
-            width: 100%;
-            max-width: 300px;
-            background: var(--card-bg);
-            border-radius: 28px;
-            border: 2px solid rgba(255, 255, 255, 0.05);
-            padding: 25px 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 15px;
-            box-shadow: var(--shadow);
-            position: relative;
-        }
-        .mascot-header {
-            text-align: center;
-        }
-        .mascot-header h2 {
-            font-family: 'Comfortaa', cursive;
-            font-size: 1.25em;
-            color: var(--primary);
-        }
-        .mascot-header p {
-            font-size: 0.8em;
-            color: var(--text-dim);
-            margin-top: 3px;
-        }
-
-        /* THE ANIMATED SPRITE EMOJI CONTAINER */
-        #mascot-avatar-container {
-            width: 150px;
-            height: 150px;
-            border-radius: 24px;
-            background: linear-gradient(135deg, #1e2530, #0a0d14);
-            border: 2px solid var(--border);
+        /* REACTIVE MASCOT SPRITE CARD (Centered/Compact inside Quiz Bottom Row) */
+        #mascot-sprite-card {
+            width: 72px;
+            height: 72px;
+            border-radius: 16px;
+            background: #131b2e;
+            border: 1.5px solid rgba(255,255,255,0.06);
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: inset 0 0 15px rgba(0,0,0,0.8), 0 5px 15px rgba(0,0,0,0.4);
-            transition: all 0.3s ease;
-            transform-origin: center bottom;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            flex-shrink: 0;
             position: relative;
             overflow: hidden;
+            transition: all 0.3s ease;
         }
         #mascot-sprite-emoji {
-            font-size: 5.5em;
+            font-size: 2.8em;
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: transform 0.2s ease;
             line-height: 1;
             transform-origin: center bottom;
         }
 
         /* Mascot animations */
-        #mascot-avatar-container.idle {
+        #mascot-sprite-card.idle #mascot-sprite-emoji {
             animation: floatIdle 3s infinite ease-in-out;
         }
-        #mascot-avatar-container.happy {
-            animation: jumpHappy 0.5s infinite alternate cubic-bezier(0.25, 1, 0.5, 1);
+        #mascot-sprite-card.happy {
             background: linear-gradient(135deg, #164a2e, #0e291b);
             border-color: var(--secondary);
         }
-        #mascot-avatar-container.side-eye {
+        #mascot-sprite-card.happy #mascot-sprite-emoji {
+            animation: jumpHappy 0.45s infinite alternate cubic-bezier(0.25, 1, 0.5, 1);
+        }
+        #mascot-sprite-card.side-eye #mascot-sprite-emoji {
             transform: scaleX(-1) rotate(-15deg);
         }
-        #mascot-avatar-container.furious {
-            animation: shakeFurious 0.15s infinite alternate ease-in-out;
+        #mascot-sprite-card.furious {
             background: linear-gradient(135deg, #3a0e0e, #1c0707);
             border-color: var(--danger);
+            animation: shakeFurious 0.15s infinite alternate ease-in-out;
         }
 
         @keyframes floatIdle {
             0% { transform: translateY(0); }
-            50% { transform: translateY(-8px); }
+            50% { transform: translateY(-5px); }
             100% { transform: translateY(0); }
         }
         @keyframes jumpHappy {
             0% { transform: translateY(0) scaleY(1); }
-            35% { transform: translateY(-25px) scaleY(1.05); }
+            35% { transform: translateY(-12px) scaleY(1.05); }
             100% { transform: translateY(0) scaleY(0.9); }
         }
         @keyframes shakeFurious {
-            0% { transform: scale(1.05) translate(-2px, -2px) rotate(-3deg); }
-            100% { transform: scale(1.05) translate(2px, 2px) rotate(3deg); }
-        }
-
-        /* ANGER METER BAR */
-        .anger-meter-container {
-            width: 100%;
-        }
-        .meter-label {
-            display: flex;
-            justify-content: space-between;
-            font-size: 0.78em;
-            color: var(--text-dim);
-            font-weight: 700;
-            margin-bottom: 4px;
-        }
-        .meter-bar-outer {
-            width: 100%;
-            height: 8px;
-            background: rgba(255,255,255,0.05);
-            border-radius: 10px;
-            overflow: hidden;
-            border: 1px solid var(--border);
-        }
-        .meter-bar-inner {
-            height: 100%;
-            width: 0%;
-            background: var(--secondary);
-            border-radius: 10px;
-            transition: width 0.4s ease, background 0.4s ease;
+            0% { transform: scale(1.03) translate(-1px, -1px) rotate(-2deg); }
+            100% { transform: scale(1.03) translate(1px, 1px) rotate(2deg); }
         }
 
         /* Steam bubble for errors */
         .steam-bubble {
             position: absolute;
-            font-size: 1.5em;
+            font-size: 1.2em;
             opacity: 0;
             pointer-events: none;
             animation: floatSteam 1.5s ease-out forwards;
@@ -651,7 +513,7 @@
         @keyframes floatSteam {
             0% { transform: translateY(0) scale(0.5); opacity: 0; }
             30% { opacity: 0.8; }
-            100% { transform: translateY(-40px) scale(1.2); opacity: 0; }
+            100% { transform: translateY(-30px) scale(1.2); opacity: 0; }
         }
 
         /* Emote overlays on screen */
@@ -670,6 +532,69 @@
             100% { transform: translateY(-30px) scale(1.1); opacity: 0; }
         }
 
+        /* Speech Bubble and Fly Reactions */
+        .chat-speech-bubble {
+            position: absolute;
+            bottom: 105%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: white;
+            color: #333;
+            padding: 6px 12px;
+            border-radius: 12px;
+            font-size: 0.82em;
+            font-weight: 700;
+            white-space: nowrap;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+            animation: popInBubble 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+            pointer-events: none;
+        }
+        .chat-speech-bubble::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 6px solid transparent;
+            border-top-color: white;
+        }
+        .chat-speech-bubble.fade-out {
+            animation: fadeOutBubble 0.4s ease forwards;
+        }
+        @keyframes popInBubble {
+            0% { transform: translate(-50%, 10px) scale(0.6); opacity: 0; }
+            100% { transform: translate(-50%, 0) scale(1); opacity: 1; }
+        }
+        @keyframes fadeOutBubble {
+            0% { opacity: 1; transform: translate(-50%, 0) scale(1); }
+            100% { opacity: 0; transform: translate(-50%, -10px) scale(0.8); }
+        }
+
+        .flying-reaction {
+            position: absolute;
+            font-size: 2.2em;
+            bottom: 40px;
+            left: 50%;
+            pointer-events: none;
+            z-index: 10;
+            opacity: 0;
+            animation: flyUpReaction 1.7s cubic-bezier(0.08, 0.8, 0.15, 1) forwards;
+        }
+        @keyframes flyUpReaction {
+            0% {
+                transform: translate(var(--start-x), 0) scale(0.5);
+                opacity: 0;
+            }
+            15% {
+                opacity: 1;
+                transform: translate(var(--start-x), -30px) scale(1.2);
+            }
+            100% {
+                transform: translate(var(--sway-x), var(--target-y)) scale(1.4);
+                opacity: 0;
+            }
+        }
+
         /* RESULTS SCREEN CIRCLE */
         .results-grid {
             display: flex;
@@ -681,8 +606,8 @@
             text-align: center;
         }
         .score-circle {
-            width: 120px;
-            height: 120px;
+            width: 100px;
+            height: 100px;
             border-radius: 50%;
             background: linear-gradient(135deg, #1e293b, #0f172a);
             border: 3px solid var(--primary);
@@ -693,7 +618,7 @@
             box-shadow: 0 8px 20px rgba(0,0,0,0.3);
         }
         .score-num {
-            font-size: 1.8em;
+            font-size: 1.7em;
             font-weight: 800;
             color: white;
             font-family: 'Comfortaa', cursive;
@@ -701,38 +626,6 @@
     </style>
 </head>
 <body>
-
-    <!-- CONFIGURATION DRAWER (TOP) -->
-    <div id="settings-drawer">
-        <div class="settings-header" onclick="toggleSettings()">
-            <h3><i class="fas fa-video"></i> Painel de Configurações (Gravação)</h3>
-            <i class="fas fa-chevron-down" id="settings-toggle-icon" style="transition: transform 0.3s;"></i>
-        </div>
-        
-        <div class="settings-content" id="settings-content" style="display: none;">
-            <div class="settings-row" style="display:flex; flex-direction:column; gap:6px;">
-                <span style="font-size:0.85em; font-weight:700; color:var(--text-dim);">Link de Pergunta JSON do GitHub (Raw URL):</span>
-                <div class="input-group">
-                    <input type="text" id="github-url-input" placeholder="Cole a URL Raw do GitHub aqui...">
-                    <button class="btn-action" onclick="fetchCustomQuestions(false)">Carregar Questões</button>
-                </div>
-            </div>
-            
-            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-top:5px; border-top:1px solid var(--border); padding-top:12px;">
-                <div>
-                    <span style="font-size: 0.85em; font-weight: 700; color: var(--text-dim); margin-right: 8px;">Atraso do Clique (ms):</span>
-                    <input type="number" id="click-delay-input" value="500" style="width: 70px; background: rgba(0,0,0,0.3); border: 1px solid var(--border); border-radius: 6px; padding: 5px; color: white; text-align: center;">
-                </div>
-                
-                <div class="bg-presets">
-                    <span style="font-size: 0.85em; font-weight: 700; color: var(--text-dim);">Fundo do Vídeo (Chroma):</span>
-                    <button class="bg-btn active" style="background: #0f1319;" onclick="setBgPreset('#0f1319', this)"></button>
-                    <button class="bg-btn" style="background: #00FF00;" title="Chroma Key (Verde Limão)" onclick="setBgPreset('#00FF00', this)"></button>
-                    <button class="bg-btn" style="background: linear-gradient(135deg, #1e3c72, #2a5298);" onclick="setBgPreset('linear-gradient(135deg, #1e3c72, #2a5298)', this)"></button>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- MAIN CREATOR WORKSPACE -->
     <div id="creator-workspace">
@@ -742,7 +635,7 @@
             <!-- VIRTUAL CURSOR HAND -->
             <div id="virtual-pointer">👆</div>
             
-            <!-- DECORATIVE TOP HUD (Capsules) -->
+            <!-- DECORATIVE TOP HUD -->
             <div class="header-sim">
                 <span class="stat-item-sim">⚡ <span>6</span></span>
                 <span class="stat-item-sim"><i class="fas fa-brain" style="color:white;"></i> <span>97</span></span>
@@ -762,10 +655,10 @@
                 <span>Nv. 4</span>
             </div>
 
-            <!-- FLOATING ACTIONS COLUMN (Matches Screenshot) -->
+            <!-- FLOATING ACTIONS COLUMN -->
             <div class="floating-actions-col">
                 <button class="float-fab"><i class="fas fa-user"></i></button>
-                <div class="float-fab timer-fab">
+                <div class="float-fab timer-fab" id="timer-fab-btn">
                     <span class="timer-num" id="game-timer-num">15</span>
                     <span class="timer-unit">SEG</span>
                 </div>
@@ -809,72 +702,92 @@
                     <!-- Dynamic Answer buttons -->
                 </div>
                 
-                <!-- Next button integrated directly below explanation -->
-                <div class="justification-box" id="quiz-justification">
-                    <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
-                        <div style="flex: 1;">
-                            <div class="justification-title">
-                                <i class="fas fa-lightbulb"></i> Explicação:
+                <!-- BOTTOM ROW (Side-by-side justification + emoji) -->
+                <div class="quiz-bottom-row" style="display: flex; gap: 10px; align-items: stretch; margin-top: auto; min-height: 76px; margin-bottom: 2px;">
+                    
+                    <!-- LEFT COLUMN: Justification explanation drawer -->
+                    <div class="justification-box" id="quiz-justification" style="flex: 1; display: none;">
+                        <div style="display: flex; align-items: center; justify-content: space-between; gap: 8px; height: 100%;">
+                            <div style="flex: 1; overflow: hidden;">
+                                <div class="justification-title">
+                                    <i class="fas fa-lightbulb"></i> Explicação:
+                                </div>
+                                <div id="justification-text" style="font-size: 0.72em; line-height: 1.25; color: rgba(255,255,255,0.85); overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;"></div>
                             </div>
-                            <div id="justification-text" style="font-size: 0.8em; line-height: 1.3;"></div>
+                            <button class="btn-action" id="btn-next" style="padding: 8px 10px; font-size: 0.78em; flex-shrink: 0; white-space: nowrap;">Seguinte ➡️</button>
                         </div>
-                        <button class="btn-action" id="btn-next" style="padding: 10px 14px; font-size: 0.85em; flex-shrink: 0; white-space: nowrap;">Seguinte ➡️</button>
                     </div>
+
+                    <!-- LEFT COLUMN PLACEHOLDER: Shown before selection -->
+                    <div id="quiz-bottom-placeholder" style="flex: 1; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,0.02); border: 1px dashed rgba(255,255,255,0.06); border-radius: 12px; color: var(--text-dim); font-size: 0.8em;">
+                        Escolha uma resposta!
+                    </div>
+                    
+                    <!-- RIGHT COLUMN: Compact Square Emoji Card -->
+                    <div id="mascot-sprite-card" class="idle">
+                        <div id="mascot-sprite-emoji">🧐</div>
+                    </div>
+
                 </div>
             </div>
 
-            <!-- SCREEN: RESULTS -->
+            <!-- SCREEN: RESULTS (Contains Score, Player VS Card and Reactions Bar) -->
             <div class="screen" id="screen-results">
-                <div class="logo-header" style="margin-top:20px;">
+                <div class="logo-header" style="margin-top:10px;">
                     <h1>Resultados</h1>
                     <p>Fim da Gameplay</p>
                 </div>
                 
                 <div class="results-grid">
                     <div class="score-circle">
-                        <span style="font-size:0.75em; color: var(--text-dim);">ACERTOS</span>
+                        <span style="font-size:0.7em; color: var(--text-dim);">ACERTOS</span>
                         <span class="score-num" id="results-score">0/6</span>
                     </div>
+
+                    <!-- Final Scores VS Grid -->
+                    <div class="vs-final-scores-grid" style="display: flex; width: 100%; justify-content: space-around; align-items: center; background: rgba(255,255,255,0.02); padding: 10px 15px; border-radius: 16px; border: 1.5px solid rgba(255,255,255,0.05); position: relative; margin: 5px 0;">
+                        <!-- Player 1 -->
+                        <div class="vs-final-player" id="vs-card-me" style="display: flex; flex-direction: column; align-items: center; gap: 4px; position: relative;">
+                            <div style="font-size: 2.2em; line-height: 1;">😎</div>
+                            <div style="font-size: 0.8em; font-weight: 700; color: white;">Tu</div>
+                            <div style="font-size: 1.05em; font-weight: 800; color: var(--primary);" id="score-me">0</div>
+                        </div>
+                        <div style="font-size: 0.85em; font-weight: bold; color: var(--text-dim);">VS</div>
+                        <!-- Player 2 -->
+                        <div class="vs-final-player" id="vs-card-op" style="display: flex; flex-direction: column; align-items: center; gap: 4px; position: relative;">
+                            <div style="font-size: 2.2em; line-height: 1;">🤖</div>
+                            <div style="font-size: 0.8em; font-weight: 700; color: white;">Carlos</div>
+                            <div style="font-size: 1.05em; font-weight: 800; color: var(--danger);" id="score-op">0</div>
+                        </div>
+                    </div>
+
+                    <!-- Reactions Compact Bar (from QuizDemo) -->
+                    <div class="reaction-container" style="width: 100%;">
+                        <div class="reaction-title" style="font-size: 0.78em; color: var(--text-dim); margin-bottom: 4px; text-align: center;">Reagir com o adversário</div>
+                        <div class="reaction-row" style="display: flex; justify-content: center; gap: 8px; margin-bottom: 8px;">
+                            <button class="reaction-btn" onclick="sendReaction('👑')" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; width: 34px; height: 34px; font-size: 1.2em; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: transform 0.15s; color:white;">👑</button>
+                            <button class="reaction-btn" onclick="sendReaction('🖕')" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; width: 34px; height: 34px; font-size: 1.2em; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: transform 0.15s; color:white;">🖕</button>
+                            <button class="reaction-btn" onclick="sendReaction('😎')" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; width: 34px; height: 34px; font-size: 1.2em; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: transform 0.15s; color:white;">😎</button>
+                            <button class="reaction-btn" onclick="sendReaction('🤪')" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; width: 34px; height: 34px; font-size: 1.2em; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: transform 0.15s; color:white;">🤪</button>
+                            <button class="reaction-btn" onclick="sendReaction('🤬')" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; width: 34px; height: 34px; font-size: 1.2em; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: transform 0.15s; color:white;">🤬</button>
+                        </div>
+                        <div class="chat-input-row" style="display: flex; gap: 6px; background: rgba(0,0,0,0.25); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 4px 8px; align-items: center;">
+                            <input type="text" id="chat-input" maxlength="15" placeholder="Enviar mensagem..." style="background: transparent; border: none; color: white; outline: none; font-size: 0.8em; flex: 1; font-family: inherit;">
+                            <button class="chat-send-btn" onclick="sendTextReaction()" style="background: var(--primary); border: none; width: 24px; height: 24px; border-radius: 6px; color: white; cursor: pointer; display: flex; align-items: center; justify-content: center;"><i class="fas fa-paper-plane" style="font-size: 0.78em;"></i></button>
+                        </div>
+                    </div>
                     
-                    <p id="results-feedback" style="font-weight: 700; text-align: center; font-size: 1.1em; max-width: 250px; line-height: 1.4; color: var(--primary);"></p>
-                    
-                    <button class="btn-enter-game" onclick="onRestartClicked(this)" style="margin-top: 10px;">Jogar Novamente 🔄</button>
+                    <button class="btn-enter-game" onclick="onRestartClicked(this)" style="margin-top: 6px; padding: 12px 24px; font-size: 1em; border-radius: 16px;">Jogar Novamente 🔄</button>
                 </div>
             </div>
 
-            <!-- DECORATIVE BOTTOM NAV BAR (Matching App Screenshot) -->
+            <!-- DECORATIVE BOTTOM NAV BAR -->
             <div class="bottom-nav-sim">
                 <div class="nav-btn-sim back"><i class="fas fa-arrow-left"></i></div>
-                <div class="nav-btn-sim settings"><i class="fas fa-cog"></i></div>
+                <!-- Gear Toggles background between default dark and Chroma Key Green Screen! -->
+                <div class="nav-btn-sim settings" onclick="toggleChromaKey()"><i class="fas fa-cog"></i></div>
                 <div class="nav-btn-sim info"><i class="fas fa-info-circle"></i></div>
                 <div class="nav-btn-sim logout"><i class="fas fa-sign-out-alt"></i></div>
-            </div>
-        </div>
-
-        <!-- RIGHT PANEL: REACTIVE MASCOT (Sprite Box Style) -->
-        <div id="mascot-panel">
-            <div class="mascot-header">
-                <h2>O Reator Sprite</h2>
-                <p id="mascot-mood-label">Humor: Atento 🧐</p>
-            </div>
-            
-            <div id="mascot-avatar-container" class="idle">
-                <div id="mascot-sprite-emoji">🧐</div>
-            </div>
-            
-            <!-- Dynamic Anger Bar -->
-            <div class="anger-meter-container">
-                <div class="meter-label">
-                    <span>Nível de Irritação</span>
-                    <span id="anger-percent-label">0%</span>
-                </div>
-                <div class="meter-bar-outer">
-                    <div class="meter-bar-inner" id="anger-bar"></div>
-                </div>
-            </div>
-            
-            <div style="font-size: 0.8em; text-align: center; color: var(--text-dim); line-height: 1.4;">
-                O personagem reage aos acertos atirando confetes e acumula fúria quando você erra.
             </div>
         </div>
     </div>
@@ -891,20 +804,19 @@
         let userCanClick = true;
         let countdownTimer = null;
         let timeLeft = 15;
+        let chromaActive = false;
         
-        // Settings default URL pointing to your new GitHub repository
+        // Settings default URL pointing to your new GitHub repository questions file
         const DEFAULT_JSON_URL = "https://raw.githubusercontent.com/BrunoMatherry/QuizDEMO_VIDEOS/main/quiz_demo_videos.json";
 
         // DOM elements
         const virtualPointer = document.getElementById('virtual-pointer');
-        const mascotAvatarContainer = document.getElementById('mascot-avatar-container');
+        const mascotSpriteCard = document.getElementById('mascot-sprite-card');
         const mascotSpriteEmoji = document.getElementById('mascot-sprite-emoji');
-        const mascotMoodLabel = document.getElementById('mascot-mood-label');
-        const angerBar = document.getElementById('anger-bar');
-        const angerPercentLabel = document.getElementById('anger-percent-label');
         const gameTimerNum = document.getElementById('game-timer-num');
+        const timerFabBtn = document.getElementById('timer-fab-btn');
 
-        // Audio Context for local synthesis (no files needed)
+        // Audio Context for local synthesis
         let audioCtx = null;
         function getAudioCtx() {
             if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
@@ -919,7 +831,7 @@
                 osc.type = type;
                 osc.frequency.setValueAtTime(frequency, ctx.currentTime);
                 
-                gain.gain.setValueAtTime(0.15, ctx.currentTime);
+                gain.gain.setValueAtTime(0.12, ctx.currentTime);
                 gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + duration);
                 
                 osc.connect(gain);
@@ -960,11 +872,8 @@
         }
 
         // Fetch questions from GitHub JSON
-        function fetchCustomQuestions(isInitial = false) {
-            const url = document.getElementById('github-url-input').value.trim();
-            if (!url) return alert("Por favor insira um link de JSON válido.");
-
-            fetch(url)
+        function fetchCustomQuestions() {
+            fetch(DEFAULT_JSON_URL)
                 .then(res => {
                     if (!res.ok) throw new Error("Erro na rede: " + res.status);
                     return res.json();
@@ -982,46 +891,26 @@
                     } else {
                         throw new Error("Formato JSON desconhecido.");
                     }
-
-                    if (questions.length > 0) {
-                        if (!isInitial) {
-                            alert(`Sucesso! ${questions.length} perguntas carregadas do GitHub!`);
-                            resetToWelcome();
-                        }
-                    } else {
-                        alert("Nenhuma pergunta válida encontrada.");
-                    }
                 })
                 .catch(err => {
-                    console.error(err);
-                    alert("Falha ao carregar as questões do GitHub: " + err.message);
+                    console.error("Erro ao carregar as questões:", err);
                 });
         }
 
-        // INIT AND LOAD QUESTIONS
+        // INIT AND LOAD QUESTIONS ON PAGE LOAD
         window.addEventListener('load', () => {
-            document.getElementById('github-url-input').value = DEFAULT_JSON_URL;
-            fetchCustomQuestions(true); // Load default questions silently on load
+            fetchCustomQuestions();
         });
 
-        // Toggle configuration drawer
-        function toggleSettings() {
-            const content = document.getElementById('settings-content');
-            const icon = document.getElementById('settings-toggle-icon');
-            if (content.style.display === 'none') {
-                content.style.display = 'flex';
-                icon.style.transform = 'rotate(180deg)';
+        // Toggle background between default dark and green Chroma Key Screen
+        function toggleChromaKey() {
+            chromaActive = !chromaActive;
+            if (chromaActive) {
+                document.body.style.background = "#00FF00";
             } else {
-                content.style.display = 'none';
-                icon.style.transform = 'rotate(0deg)';
+                document.body.style.background = "#0f1319";
             }
-        }
-
-        // Change background preset
-        function setBgPreset(presetValue, element) {
-            document.body.style.background = presetValue;
-            document.querySelectorAll('.bg-btn').forEach(btn => btn.classList.remove('active'));
-            element.classList.add('active');
+            playSynthesizedSound(500, 'sine', 0.05);
         }
 
         // SWITCH SCREENS
@@ -1063,7 +952,8 @@
                 virtualPointer.style.top = `${targetY}px`;
             }, 50);
 
-            const clickDelay = parseInt(document.getElementById('click-delay-input').value) || 500;
+            // Settings default click delay
+            const clickDelay = 500;
 
             setTimeout(() => {
                 virtualPointer.classList.add('clicking');
@@ -1080,13 +970,12 @@
 
         function startGame() {
             if (questions.length === 0) {
-                alert("Nenhuma pergunta carregada. Carregue as perguntas no painel superior.");
+                alert("Questões ainda não carregadas. Verifique sua conexão e tente novamente.");
                 return;
             }
             currentIdx = 0;
             score = 0;
             angerLevel = 0;
-            updateAngerBar();
             updateMascotMood('idle');
             showScreen('screen-quiz');
             loadQuestion();
@@ -1096,6 +985,7 @@
         function loadQuestion() {
             userCanClick = true;
             document.getElementById('quiz-justification').style.display = 'none';
+            document.getElementById('quiz-bottom-placeholder').style.display = 'flex';
             
             const qData = questions[currentIdx];
             document.getElementById('quiz-counter').textContent = `${currentIdx + 1}/${questions.length}`;
@@ -1120,17 +1010,27 @@
             // Start ticking timer simulation
             timeLeft = 15;
             gameTimerNum.textContent = timeLeft;
+            timerFabBtn.style.transform = "scale(1)";
             clearInterval(countdownTimer);
             countdownTimer = setInterval(() => {
                 timeLeft--;
-                if (timeLeft < 0) timeLeft = 15; // Loop timer
+                if (timeLeft < 0) timeLeft = 15; 
                 gameTimerNum.textContent = timeLeft;
+                
+                // Pulsate timer if running low
+                if (timeLeft <= 5) {
+                    timerFabBtn.style.transform = timeLeft % 2 === 0 ? "scale(1.12)" : "scale(1)";
+                    playSynthesizedSound(440, 'triangle', 0.04);
+                } else {
+                    timerFabBtn.style.transform = "scale(1)";
+                }
             }, 1000);
         }
 
         // EVALUATE CHOICE
         function evaluateAnswer(selectedIndex, selectedButton) {
             clearInterval(countdownTimer);
+            timerFabBtn.style.transform = "scale(1)";
             const qData = questions[currentIdx];
             const isCorrect = (selectedIndex === qData.correct);
 
@@ -1144,9 +1044,10 @@
                 }
             });
 
-            // Show explanation
+            // Show explanation side-by-side
             const justificationText = document.getElementById('justification-text');
             justificationText.textContent = qData.justification;
+            document.getElementById('quiz-bottom-placeholder').style.display = 'none';
             document.getElementById('quiz-justification').style.display = 'block';
 
             if (isCorrect) {
@@ -1155,7 +1056,6 @@
                 
                 // Reduce anger on correct answer
                 if (angerLevel > 0) angerLevel--;
-                updateAngerBar();
                 
                 // Mascot reactions
                 updateMascotMood('happy');
@@ -1169,7 +1069,6 @@
                 
                 // Increase anger on incorrect answer
                 if (angerLevel < 5) angerLevel++;
-                updateAngerBar();
                 
                 // Mascot turns face away and goes angry
                 updateMascotMood('side-eye');
@@ -1196,70 +1095,46 @@
         // UPDATE MASCOTE MOOD EXPRESSIONS (Sprite Emoji Switcher)
         function updateMascotMood(mood) {
             // Reset container classes
-            mascotAvatarContainer.className = '';
+            mascotSpriteCard.className = '';
             
             if (mood === 'idle') {
                 if (angerLevel >= 4) {
-                    mascotAvatarContainer.classList.add('furious');
+                    mascotSpriteCard.classList.add('furious');
                     mascotSpriteEmoji.textContent = '🤬';
-                    mascotMoodLabel.textContent = "Humor: Irado 🤬";
                 } else if (angerLevel >= 2) {
-                    mascotAvatarContainer.classList.add('annoyed');
+                    mascotSpriteCard.classList.add('annoyed');
                     mascotSpriteEmoji.textContent = '😒';
-                    mascotMoodLabel.textContent = "Humor: Chateado 😒";
                 } else {
-                    mascotAvatarContainer.classList.add('idle');
+                    mascotSpriteCard.classList.add('idle');
                     mascotSpriteEmoji.textContent = '🧐';
-                    mascotMoodLabel.textContent = "Humor: Atento 🧐";
                 }
             } else if (mood === 'happy') {
-                mascotAvatarContainer.classList.add('happy');
-                // Alternates between happy emoji
+                mascotSpriteCard.classList.add('happy');
                 mascotSpriteEmoji.textContent = '🥳';
-                mascotMoodLabel.textContent = "Humor: Muito Feliz! 🎉";
             } else if (mood === 'side-eye') {
-                mascotAvatarContainer.classList.add('side-eye');
+                mascotSpriteCard.classList.add('side-eye');
                 if (angerLevel >= 4) {
-                    mascotAvatarContainer.classList.add('furious');
+                    mascotSpriteCard.classList.add('furious');
                     mascotSpriteEmoji.textContent = '🤬';
-                    mascotMoodLabel.textContent = "Humor: Fúria Total! 🤬";
                 } else if (angerLevel >= 2) {
-                    mascotAvatarContainer.classList.add('annoyed');
+                    mascotSpriteCard.classList.add('annoyed');
                     mascotSpriteEmoji.textContent = '😒';
-                    mascotMoodLabel.textContent = "Humor: Chateado 😒";
                 } else {
                     mascotSpriteEmoji.textContent = '🙄';
-                    mascotMoodLabel.textContent = "Humor: Desapontado 😕";
                 }
-            }
-        }
-
-        function updateAngerBar() {
-            const percentage = (angerLevel / 5) * 100;
-            
-            angerBar.style.width = `${percentage}%`;
-            angerPercentLabel.textContent = `${percentage}%`;
-
-            if (angerLevel >= 4) {
-                angerBar.style.backgroundColor = 'var(--danger)';
-            } else if (angerLevel >= 2) {
-                angerBar.style.backgroundColor = 'var(--accent)';
-            } else {
-                angerBar.style.backgroundColor = 'var(--secondary)';
             }
         }
 
         // BLAST CONFETTI FROM MASCOT COORDINATES
         function triggerMascotConfetti() {
             try {
-                // Calculate normalized physical center coordinates of the mascot container
-                const rect = mascotAvatarContainer.getBoundingClientRect();
+                const rect = mascotSpriteCard.getBoundingClientRect();
                 const originX = (rect.left + rect.width / 2) / window.innerWidth;
                 const originY = (rect.top + rect.height / 2) / window.innerHeight;
                 
                 confetti({
-                    particleCount: 80,
-                    spread: 60,
+                    particleCount: 60,
+                    spread: 50,
                     origin: { x: originX, y: originY }
                 });
             } catch(e) {}
@@ -1271,9 +1146,9 @@
                 const bubble = document.createElement('div');
                 bubble.className = 'steam-bubble';
                 bubble.textContent = '💨';
-                bubble.style.left = `${mascotAvatarContainer.offsetLeft + mascotAvatarContainer.offsetWidth / 2 - 15}px`;
-                bubble.style.top = `${mascotAvatarContainer.offsetTop - 15}px`;
-                document.getElementById('mascot-panel').appendChild(bubble);
+                bubble.style.left = `${mascotSpriteCard.offsetLeft + mascotSpriteCard.offsetWidth / 2 - 10}px`;
+                bubble.style.top = `${mascotSpriteCard.offsetTop - 15}px`;
+                document.querySelector('.quiz-bottom-row').appendChild(bubble);
                 
                 setTimeout(() => {
                     bubble.remove();
@@ -1304,23 +1179,22 @@
             showScreen('screen-results');
             document.getElementById('results-score').textContent = `${score}/${questions.length}`;
             
+            // Populate VS card scores
+            document.getElementById('score-me').textContent = score * 10;
+            // Carlos scores randomly around 60-80% of total
+            const carlosScore = Math.round(questions.length * (0.6 + Math.random() * 0.2)) * 10;
+            document.getElementById('score-op').textContent = carlosScore;
+
             const feedbackText = document.getElementById('results-feedback');
             const percent = score / questions.length;
             if (percent >= 0.8) {
-                feedbackText.textContent = "🏆 Excelente performance! Mandou muito bem!";
-                updateMascotMood('happy');
+                feedbackText.textContent = "🏆 Vitória! Excelente gravação!";
                 playSynthesizedSound(523, 'sine', 0.1);
                 setTimeout(() => playSynthesizedSound(659, 'sine', 0.1), 100);
                 setTimeout(() => playSynthesizedSound(784, 'sine', 0.3), 200);
                 triggerMascotConfetti();
-            } else if (percent >= 0.5) {
-                feedbackText.textContent = "😐 Bom desempenho, mas pode melhorar!";
-                updateMascotMood('idle');
             } else {
-                feedbackText.textContent = "😢 Que pena! Precisa estudar mais sobre o tema.";
-                angerLevel = 5;
-                updateAngerBar();
-                updateMascotMood('idle');
+                feedbackText.textContent = "😐 Fim do round! Gameplay gravada com sucesso.";
             }
         }
 
@@ -1330,9 +1204,78 @@
             currentIdx = 0;
             score = 0;
             angerLevel = 0;
-            updateAngerBar();
             updateMascotMood('idle');
             showScreen('screen-welcome');
+        }
+
+        // OPONENT REACTION SYSTEM (From QuizDemo)
+        function sendReaction(emoji) {
+            playSynthesizedSound(400, 'sine', 0.05);
+            createFloatingReaction('me', emoji);
+            
+            // Carlos reacts back 1.2 seconds later
+            setTimeout(() => {
+                const responses = ['👑', '🖕', '😎', '🤪', '🤬'];
+                const randomEmoji = responses[Math.floor(Math.random() * responses.length)];
+                createFloatingReaction('op', randomEmoji);
+            }, 1200);
+        }
+
+        function sendTextReaction() {
+            const input = document.getElementById('chat-input');
+            const txt = input.value.trim();
+            if (!txt) return;
+            
+            playSynthesizedSound(400, 'sine', 0.05);
+            createSpeechBubble('me', txt);
+            input.value = '';
+
+            // Carlos replies 2 seconds later
+            setTimeout(() => {
+                const replies = ["Muito bom! 👍", "Ahahaha!", "Parabéns!", "Uau!", "Estás a jogar bem!"];
+                const randomReply = replies[Math.floor(Math.random() * replies.length)];
+                createSpeechBubble('op', randomReply);
+            }, 2000);
+        }
+
+        function createSpeechBubble(target, msg) {
+            const card = document.getElementById(target === 'me' ? 'vs-card-me' : 'vs-card-op');
+            if (!card) return;
+
+            const oldBubble = card.querySelector('.chat-speech-bubble');
+            if (oldBubble) oldBubble.remove();
+
+            const bubble = document.createElement('div');
+            bubble.className = 'chat-speech-bubble';
+            bubble.textContent = msg;
+            card.appendChild(bubble);
+
+            setTimeout(() => {
+                bubble.classList.add('fade-out');
+                setTimeout(() => bubble.remove(), 400);
+            }, 3000);
+        }
+
+        function createFloatingReaction(target, emoji) {
+            const card = document.getElementById(target === 'me' ? 'vs-card-me' : 'vs-card-op');
+            if (!card) return;
+
+            const el = document.createElement('div');
+            el.className = 'flying-reaction';
+            el.textContent = emoji;
+
+            const randomOffset = (Math.random() - 0.5) * 50;
+            const randomSway = (Math.random() - 0.5) * 70;
+            const randomRotate = (Math.random() - 0.5) * 50;
+            const randomHeight = 120 + Math.random() * 80;
+
+            el.style.setProperty('--start-x', `${randomOffset}px`);
+            el.style.setProperty('--sway-x', `${randomOffset + randomSway}px`);
+            el.style.setProperty('--target-y', `${-randomHeight}px`);
+            el.style.setProperty('--rotate-deg', `${randomRotate}deg`);
+
+            card.appendChild(el);
+            setTimeout(() => el.remove(), 1700);
         }
     </script>
 </body>
