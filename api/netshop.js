@@ -27,8 +27,8 @@ export default async function handler(req, res) {
                 return res.status(400).json({ success: false, error: 'Missing required fields' });
             }
 
-            // NetShop expects amount in the smallest currency unit (cents/centavos)
-            const amountInCents = Math.round(Number(amount) * 100);
+            // NetShop expects amount directly in Meticais (MZN)
+            const amountInMZN = Math.round(Number(amount));
 
             // Clean phone number: remove non-digits
             const cleanPhone = phone.replace(/\D/g, '');
@@ -42,7 +42,7 @@ export default async function handler(req, res) {
                     'Idempotency-Key': `idemp_${reference}`
                 },
                 body: JSON.stringify({
-                    amount: amountInCents,
+                    amount: amountInMZN,
                     currency: 'MZN',
                     method: method === 'emola' ? 'emola' : 'mpesa',
                     msisdn: '+258' + cleanPhone,
