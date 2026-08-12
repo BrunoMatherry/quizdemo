@@ -2,6 +2,11 @@
     "version": 2,
     "routes": [
         {
+            "src": "/(index\\.html)?$",
+            "status": 302,
+            "headers": { "Location": "https://play.google.com/store/apps/details?id=com.quizmoz.app" }
+        },
+        {
             "src": "/privacy-policy",
             "dest": "/privacy-policy.html"
         },
