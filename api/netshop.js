@@ -54,7 +54,15 @@ export default async function handler(req, res) {
             const data = await netshopResponse.json();
             if (!netshopResponse.ok) {
                 console.error('NetShop Charge Error:', data);
-                const errText = data.message || data.error || (typeof data === 'object' ? JSON.stringify(data) : String(data)) || 'Error from NetShop';
+                let errText = 'Erro ao processar o pagamento com a NetShop.';
+                if (data) {
+                    errText = data.failed_reason || 
+                              data.message || 
+                              data.error_message ||
+                              (data.error && typeof data.error === 'object' ? data.error.message : data.error) ||
+                              (data.provider && data.provider.responseDesc) ||
+                              (typeof data === 'object' ? JSON.stringify(data) : String(data));
+                }
                 return res.status(netshopResponse.status).json({ success: false, error: errText });
             }
 
@@ -87,7 +95,15 @@ export default async function handler(req, res) {
             const data = await netshopResponse.json();
             if (!netshopResponse.ok) {
                 console.error('NetShop Query Error:', data);
-                const errText = data.message || data.error || (typeof data === 'object' ? JSON.stringify(data) : String(data)) || 'Error from NetShop';
+                let errText = 'Erro ao consultar o estado do pagamento.';
+                if (data) {
+                    errText = data.failed_reason || 
+                              data.message || 
+                              data.error_message ||
+                              (data.error && typeof data.error === 'object' ? data.error.message : data.error) ||
+                              (data.provider && data.provider.responseDesc) ||
+                              (typeof data === 'object' ? JSON.stringify(data) : String(data));
+                }
                 return res.status(netshopResponse.status).json({ success: false, error: errText });
             }
 
