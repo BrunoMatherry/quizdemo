@@ -76,7 +76,7 @@
         <button class="auth-btn-guest" id="btn-guest-login">
           <i class="fas fa-gamepad"></i> Jogar sem conta
         </button>
-        <div class="auth-footer">PlayBLM &copy; 2026 · QuizMoz v4.2<br><a href="https://privacidade.playblm.com/" target="_blank" rel="noopener" style="color:#5E9B9D;font-size:0.85em;text-decoration:none;">🔒 Política de Privacidade</a></div>
+        <div class="auth-footer">PlayBLM &copy; 2026 · QuizMoz <span id="game-version-display">v5.4.9</span><br><a href="https://privacidade.playblm.com/" target="_blank" rel="noopener" style="color:#5E9B9D;font-size:0.85em;text-decoration:none;">🔒 Política de Privacidade</a></div>
       </div>
     </div>
 
@@ -86,7 +86,7 @@
       <!-- FAB: Watch Ad -->
       <div id="fab-watch-ad" style="display:none;">
         <span class="fab-icon">📺</span>
-        <span class="fab-label">+MOEDAS</span>
+        <span class="fab-label">[ANÚNCIO] Moedas</span>
       </div>
 
       <!-- FAB: V/S Mode -->
@@ -130,6 +130,7 @@
         <button class="control-btn" id="btn-reveal" title="Revelar" style="display:none;"><i class="fas fa-lightbulb"></i></button>
         <button class="control-btn" id="btn-add-time" title="+60s" style="display:none;"><i class="fas fa-clock"></i></button>
         <button class="control-btn" id="btn-share" title="Partilhar"><i class="fas fa-share-alt"></i></button>
+        <button class="control-btn" id="btn-pause" title="Pausar Jogo" style="display:none;"><i class="fas fa-pause"></i></button>
       </div>
 
       <!-- BOTTOM NAV BAR -->
@@ -142,6 +143,14 @@
 
       <!-- MAIN CONTENT (dynamic) -->
       <main class="main-content" id="main-content"></main>
+
+      <!-- Mascote Emoji Flutuante -->
+      <div id="mascot-container" class="mascot-container mascot-right" style="display: none;">
+        <div class="mascot-bubble" id="mascot-bubble">
+          <span class="mascot-bubble-text" id="mascot-bubble-text"></span>
+        </div>
+        <div class="mascot-emoji" id="mascot-emoji">🧐</div>
+      </div>
     </div>
 
     <!-- ============ NO INTERNET MODAL ============ -->

@@ -1,5 +1,6 @@
 // QuizMoz v3.1.0 — Game Data & State
-export const GAME_VERSION = 'v9';
+export const GAME_VERSION = 'v10';
+export const GAME_DISPLAY_VERSION = '5.4.9';
 export const BASE_URL = 'https://raw.githubusercontent.com/BrunoMatherry/quizmoz-data/main';
 
 // ===== TIERS =====
@@ -82,7 +83,9 @@ export const gameState = {
     authCompleted: false,
     nicknameSet: false,
     vsUnlocked: false,
-    allLevelsPurchased: false
+    freeMatchesLeft: 3,
+    allLevelsPurchased: false,
+    nomeTerraWins: 0
 };
 
 // ===== PERSISTENCE =====

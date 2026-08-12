@@ -1,5 +1,5 @@
 import './style.css';
-import { gameState, classesData, classDisciplines, COMBO_WORDS, WRONG_WORDS, TIERS, BASE_URL, GAME_VERSION, fetchQuestions, saveState, loadState, checkDailyEnergy } from './game.js';
+import { gameState, classesData, classDisciplines, COMBO_WORDS, WRONG_WORDS, TIERS, BASE_URL, GAME_VERSION, GAME_DISPLAY_VERSION, fetchQuestions, saveState, loadState, checkDailyEnergy } from './game.js';
 import { showScreen, renderWelcome, renderClasses, renderDisciplines, updateHUD, showModal, hideModal, showLoading, runLoadingScreen, spawnConfetti, showCombo, getXPForLevel, getTier, showLevelUp, openSettings, renderCoinShop } from './ui.js';
 import { playSound, toggleMute, isMuted, setMuted, isMusicEnabled, setMusicEnabled } from './audio.js';
 import { auth, db, GoogleAuthProvider, signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, signInWithCredential, onAuthStateChanged, doc, setDoc, getDoc, collection, query, orderBy, limit, getDocs, onSnapshot, updateDoc, deleteDoc, serverTimestamp, runTransaction, arrayUnion } from './firebase.js';
@@ -8,6 +8,7 @@ let timerInterval = null;
 let currentClassId = null;
 let currentScreen = 'welcome'; // track for back navigation
 let ntSinglePlayerUsedLetters = [];
+const PAYMENT_API = 'https://quizdemo-six.vercel.app/api/netshop';
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -35,33 +36,63 @@ window.addEventListener('DOMContentLoaded', () => {
     checkDailyEnergy();
     setMuted(!gameState.soundEnabled);
     setMusicEnabled(gameState.musicEnabled !== false);
-    runLoadingScreen(async () => {
-        playSound('welcome');
-        // If player has already authed before (has authCompleted flag), skip auth screen
-        if (gameState.authCompleted) {
-            if (!gameState.isGuest) {
-                try {
-                    await Promise.race([
-                        new Promise((resolve) => {
-                            const unsubscribe = onAuthStateChanged(auth, (user) => {
-                                unsubscribe();
-                                resolve(user);
-                            });
-                        }),
-                        new Promise((resolve) => setTimeout(() => resolve(null), 1500))
-                    ]);
-                } catch (e) {
-                    console.warn('Firebase Auth restoration failed:', e);
-                }
-            }
-            enterGame();
-        } else {
-            showAuthScreen();
-        }
-    });
     scheduleNotifications();
     setupConnectivityCheck();
+    preloadInterstitial();
+
+    const versionDisplay = document.getElementById('game-version-display');
+    if (versionDisplay) {
+        versionDisplay.textContent = `v${GAME_DISPLAY_VERSION}`;
+        
+        let versionClicks = 0;
+        versionDisplay.addEventListener('click', () => {
+            versionClicks++;
+            if (versionClicks >= 5) {
+                versionClicks = 0;
+                const currentMode = localStorage.getItem('test_ads_mode') === 'true';
+                const newMode = !currentMode;
+                localStorage.setItem('test_ads_mode', newMode ? 'true' : 'false');
+                showModal({
+                    circleIcon: '📺', circleType: newMode ? 'success' : 'info',
+                    title: newMode ? 'Modo Teste Ativo' : 'Modo Teste Desativado',
+                    centered: true,
+                    desc: newMode 
+                        ? 'Os anúncios de teste da AdMob foram ativados com sucesso! Agora verás anúncios fictícios (Google Test Ads).' 
+                        : 'Os anúncios reais foram reativados. Os utilizadores verão anúncios de produção.'
+                });
+            }
+        });
+    }
+
+    runLoadingScreen(async () => {
+        playSound('welcome');
+        finalizeAuthRestoration();
+    });
 });
+
+async function finalizeAuthRestoration() {
+    if (gameState.authCompleted) {
+        if (!gameState.isGuest) {
+            try {
+                await Promise.race([
+                    new Promise((resolve) => {
+                        const unsubscribe = onAuthStateChanged(auth, (user) => {
+                            unsubscribe();
+                            resolve(user);
+                        });
+                    }),
+                    new Promise((resolve) => setTimeout(() => resolve(null), 1500))
+                ]);
+            } catch (e) {
+                console.warn('Firebase Auth restoration failed:', e);
+            }
+        }
+        enterGame();
+    } else {
+        showAuthScreen();
+    }
+}
+
 
 // ===== AUTH =====
 function showAuthScreen() {
@@ -170,6 +201,7 @@ async function loadFirestoreData(uid) {
             gameState.exp = Math.max(gameState.exp, d.exp || 0);
             if (d.playerName) gameState.playerName = d.playerName;
             if (d.vsUnlocked) gameState.vsUnlocked = true;
+            gameState.freeMatchesLeft = d.freeMatchesLeft !== undefined ? d.freeMatchesLeft : 3;
         }
     } catch(e) { console.warn('Firestore load error:', e); }
 }
@@ -360,6 +392,22 @@ function bindGlobalControls() {
         openProfile();
     };
     document.getElementById('btn-share').onclick = () => { playSound('button'); shareProgress(); };
+    document.getElementById('btn-pause').onclick = () => { pauseGame(); };
+    
+    // Mascot click handler to jump/sway
+    const mascot = document.getElementById('mascot-container');
+    if (mascot) {
+        mascot.onclick = () => {
+            playSound('click');
+            if (mascot.classList.contains('mascot-right')) {
+                mascot.classList.remove('mascot-right');
+                mascot.classList.add('mascot-left');
+            } else {
+                mascot.classList.remove('mascot-left');
+                mascot.classList.add('mascot-right');
+            }
+        };
+    }
     
     // About — Updated for release
     document.getElementById('about-btn').onclick = () => {
@@ -387,9 +435,11 @@ function bindGlobalControls() {
                     <p>Seus dados são tratados com segurança e transparência. Recolhemos apenas informações necessárias para o funcionamento do jogo.</p>
                     <a href="https://privacidade.playblm.com/" target="_blank" rel="noopener" class="about-privacy-link">📄 Ver Política de Privacidade Completa</a>
                 </div>
-                <p class="about-version">Versão 5.1.0 © 2026 QuizMoz por PlayBLM</p>
+                <p class="about-version">Versão ${GAME_DISPLAY_VERSION} © 2026 QuizMoz por PlayBLM</p>
             </div>`,
-            actions:[{label:'Fechar', class:'modal-btn-primary', onClick: () => { hideModal(); if (gameState.currentQuiz) gameState.currentQuiz.isPaused = false; }}]
+            actions:[
+                {label:'Fechar', class:'modal-btn-primary', onClick: () => { hideModal(); if (gameState.currentQuiz) gameState.currentQuiz.isPaused = false; }}
+            ]
         });
     };
     
@@ -417,7 +467,7 @@ function bindGlobalControls() {
                     const msg = document.getElementById('feedback-message')?.value.trim();
                     if (!msg) { showCombo('Escreve uma mensagem! ✏️'); return; }
                     const subject = encodeURIComponent(`QuizMoz Feedback — ${typeLabels[type] || 'Geral'}`);
-                    const body = encodeURIComponent(`Tipo: ${typeLabels[type] || 'Geral'}\n\nMensagem:\n${msg}\n\n---\nJogador: ${gameState.playerName}\nNível: ${gameState.level}\nQI: ${gameState.qi}\nVersão: 5.1.0`);
+                    const body = encodeURIComponent(`Tipo: ${typeLabels[type] || 'Geral'}\n\nMensagem:\n${msg}\n\n---\nJogador: ${gameState.playerName}\nNível: ${gameState.level}\nQI: ${gameState.qi}\nVersão: ${GAME_DISPLAY_VERSION}`);
                     const mailUrl = `mailto:jogosdequiz.pt@gmail.com?subject=${subject}&body=${body}`;
                     if (window.Capacitor?.Plugins?.Browser) {
                         window.Capacitor.Plugins.Browser.open({ url: mailUrl });
@@ -513,7 +563,7 @@ const HOME_PHRASES = [
     'O jogo está aceso, bora lá!','Mais uma vitória para a coleção!','Sem desistir, sem vacilar!','Joga como se fosse a final do Mundial!','O conhecimento abre portas que a chave não abre!','Mais difícil que pescar no Índico!','Foste à escola? Mostra agora!','Quem disse que aprender é chato?','O cérebro está a dançar marrabenta!','Aqui não há chapa parado, o jogo continua!',
     'Já estás na liderança? Defende o lugar!','A próxima pergunta pode ser a tua de ouro!','Pensa duas vezes, responde uma!','Quem arrisca, petisca!','Vai com calma, mas vai!','Eish mano, essa foi cabeluda!','O cérebro pediu férias? Manda-o voltar!','Quem aprende nunca envelhece!','Cada quiz é uma viagem ao saber!','De norte a sul, és tu o melhor!',
     'Mostra que sabes mais que o GPS!','Não te zangues com a pergunta, abraça-a!','O segredo é tentar sempre!','A vitória é de quem não desiste!','Hoje é dia de brilhar!','Sabias que estás cada vez melhor?','Não foi sorte, foi cabeça!','Quem perde hoje, ganha amanhã!','Foco, atenção e... resposta certa!','O moçambicano nunca desiste!',
-    'Mais um nível, mais um sorriso!','Estás a fazer história, continua!','Cada certo vale ouro de Manica!','Joga, partilha e convida a malta toda!','Tu és o campeão de hoje!','Sabedoria não se compra no mercado, conquista-se!','Mais uma e ficas génio!','Não desligues, a melhor pergunta vem a seguir!','O teu nome merece o topo do ranking!','Bora lá, Moçambique a jogar é Moçambique a aprender!'
+    'Mais um nível, mais um sorriso!','Estás a fazer história, continua!','Cada certo vale ouro de Manica!','Joga, partilha e convida a malta toda!','Tu és o campeão de hoje!','Sabedoria não se compra no mercado, conquista-se!','Mais uma e ficas Mazza!','Não desligues, a melhor pergunta vem a seguir!','O teu nome merece o topo do ranking!','Bora lá, Moçambique a jogar é Moçambique a aprender!'
 ];
 
 function getRandomPhrase() {
@@ -875,11 +925,15 @@ function showQuizControls() {
     document.getElementById('timer-btn').style.display = 'flex';
     document.getElementById('btn-reveal').style.display = 'flex';
     document.getElementById('btn-add-time').style.display = 'flex';
+    document.getElementById('btn-pause').style.display = 'flex';
+    showMascot();
 }
 function hideQuizControls() {
     document.getElementById('timer-btn').style.display = 'none';
     document.getElementById('btn-reveal').style.display = 'none';
     document.getElementById('btn-add-time').style.display = 'none';
+    document.getElementById('btn-pause').style.display = 'none';
+    hideMascot();
 }
 
 function loadQuestion() {
@@ -907,6 +961,7 @@ function loadQuestion() {
         btn.onclick = () => { playSound('click'); selectAnswer(btn, btn.dataset.key, question.correct); };
     });
     startTimer();
+    mascotTrigger('question');
 }
 
 // ===== TIMER =====
@@ -978,9 +1033,13 @@ function handleCorrect(btn) {
     showCombo(comboText);
     if (gameState.streak >= 2) showCombo(`${gameState.streak}× Combo!`);
     // Rewards
+    const baseCoins = 3;
     const comboBonus = gameState.streak >= 5 ? 5 : gameState.streak >= 3 ? 3 : 0;
-    const coinsEarned = 2 + comboBonus;
+    const coinsEarned = baseCoins + comboBonus;
     gameState.coins += coinsEarned;
+    if (gameState.currentQuiz) {
+        gameState.currentQuiz.lastCoinsEarned = coinsEarned;
+    }
     gameState.exp += 10;
     gameState.qi = Math.min(200, gameState.qi + 1);
     gameState.currentQuiz.timeLeft += 20;
@@ -1006,6 +1065,7 @@ function handleCorrect(btn) {
         playSound('victory'); spawnConfetti(); spawnConfetti();
     }
     updateHUD(); saveState();
+    mascotTrigger('correct');
     setTimeout(() => showJustification('correct'), 1500);
 }
 
@@ -1030,6 +1090,7 @@ function handleWrong(btn, correct) {
     updateHUD(); saveState();
     const word = WRONG_WORDS[Math.floor(Math.random() * WRONG_WORDS.length)];
     showCombo(word);
+    mascotTrigger('wrong');
     setTimeout(() => showJustification('wrong'), 1500);
 }
 
@@ -1045,6 +1106,7 @@ function handleTimeout() {
     if (gameState.bonusEnergy > 0) gameState.bonusEnergy--;
     updateHUD(); saveState();
     showCombo('Tempo Esgotado! ⏰');
+    mascotTrigger('timeout');
     setTimeout(() => showJustification('timeout'), 1500);
 }
 
@@ -1072,9 +1134,10 @@ function showJustification(type) {
         return;
     }
     
+    const lastCoins = q.lastCoinsEarned || 3;
     showModal({
         icon: icons[type], title: titles[type],
-        desc: (type === 'correct' ? '+10 XP · +2 🪙 · +1 QI' : `Resposta: ${question.correct}`) + just,
+        desc: (type === 'correct' ? `+10 XP · +${lastCoins} 🪙 · +1 QI` : `Resposta: ${question.correct}`) + just,
         energy: type !== 'correct' ? gameState.energy : undefined,
         actions: [{ label: endQuiz ? 'Ver Resultados' : 'Próxima', class: 'modal-btn-primary', onClick: () => { hideModal(); if (endQuiz) showResults(); else nextQuestion(); } }]
     });
@@ -1129,7 +1192,17 @@ function showResults() {
             </div>
         `,
         actions: [
-            { label: '▶️ Continuar a Jogar', class: 'modal-btn-success', onClick: () => { hideModal(); startQuiz(q.classId, q.disc); } },
+            { label: '▶️ Continuar a Jogar', class: 'modal-btn-success', onClick: async () => { 
+                hideModal(); 
+                if (q.wrong > 0) {
+                    gameState.lossAdCounter = (gameState.lossAdCounter || 0) + 1;
+                    saveState();
+                }
+                if (gameState.lossAdCounter && gameState.lossAdCounter % 4 === 0 && q.wrong > 0) {
+                    await showInterstitialAd(); 
+                }
+                startQuiz(q.classId, q.disc); 
+            } },
             { label: '⬅️ Voltar', class: 'modal-btn-gray', onClick: () => { hideModal(); syncFirestore(); goDisciplines(q.classId, classesData[q.classId]?.name || ''); } }
         ]
     });
@@ -1138,7 +1211,7 @@ function showResults() {
 // ===== MOTIVATIONAL PHRASES BY PERFORMANCE =====
 const COMPLETION_PHRASES = {
     genius: [ // ≥90%
-        'Génio absoluto! O teu cérebro é de outro nível! 🧠🔥',
+        'Mazza absoluto! O teu cérebro é de outro nível! 🧠🔥',
         'Perfeição! Nasceste para isto! 💎👑',
         'Eish, és de Marte ou de Moçambique? 🚀🌟',
         'Que máquina! Não há quem te pare! ⚡💪',
@@ -1175,7 +1248,7 @@ const COMPLETION_PHRASES = {
     ],
     needs_work: [ // <50%
         'A persistência é a mãe do sucesso! 🌟💪',
-        'Não desistas! Os génios também erraram! 🧠✨',
+        'Não desistas! Os Mazza também erraram! 🧠✨',
         'Cada erro é uma lição! Tenta de novo! 📖🔥',
         'O caminho é difícil, mas tu consegues! 💪🌟',
         'Roma não foi construída num dia! Continua! 🏛️📚',
@@ -1246,8 +1319,9 @@ function showDisciplineComplete(q, total, pct, starsHtml, coinsWon, totalAnswere
             </div>
         `,
         actions: [
-            { label: '🔄 Jogar Novamente', class: 'modal-btn-outline', onClick: () => {
+            { label: '🔄 Jogar Novamente', class: 'modal-btn-outline', onClick: async () => {
                 hideModal();
+                // Removed showInterstitialAd per user request for "ads only when losing"
                 if (gameState.answeredQuestions) gameState.answeredQuestions[answKey] = [];
                 saveState();
                 startQuiz(q.classId, q.disc);
@@ -1337,8 +1411,8 @@ function openEnergyShop() {
         html: `
             <div class="energy-shop-current">⚡ ${gameState.energy} ⚡ energia disponível</div>
             <p class="energy-shop-hint">Repõe a tua energia para continuar a jogar!</p>
-            <div class="energy-card energy-card-ad" id="energy-buy-ad">
-                <div class="energy-left">📺 <strong>Ver Anúncio Grátis</strong></div>
+            <div class="energy-card energy-card-ad" id="energy-buy-ad" style="border: 2px solid #FF9800; background: #FFF3E0; color: #E65100;">
+                <div class="energy-left">📺 <strong>[ANÚNCIO] Ver Vídeo</strong></div>
                 <div>Ganhar ⚡ +1 Energia · Grátis!</div>
             </div>
             <div class="energy-card energy-card-7" id="energy-buy-7">
@@ -1620,10 +1694,11 @@ function processUnlockAllLevels() {
 }
 
 async function processUnlockAllPayment(method) {
+    const price = 150;
+
     const methodName = method === 'emola' ? 'e-Mola' : 'M-Pesa';
     const phonePlaceholder = method === 'emola' ? '86 123 4567' : '84 123 4567';
     const phoneHintNums = method === 'emola' ? '86 ou 87' : '84 ou 85';
-    const price = 150;
     
     showModal({
         circleIcon:'<i class="fas fa-mobile-alt"></i>', circleType:'info',
@@ -1635,7 +1710,7 @@ async function processUnlockAllPayment(method) {
                     <span class="pay-phone-prefix">+258</span>
                     <input type="tel" id="unlock-phone-input" class="pay-phone-input" placeholder="${phonePlaceholder}" maxlength="12" inputmode="numeric">
                 </div>
-                <p class="pay-phone-hint">Insira o número ${methodName} (${phoneHintNums})</p>
+                <p class="pay-phone-hint">Insira o número ${methodName} (${phoneHintNums}) para receber o pedido de pagamento</p>
             </div>
         `,
         actions:[
@@ -1649,21 +1724,16 @@ async function processUnlockAllPayment(method) {
                 hideModal();
                 showLoading(true, `A criar pedido de pagamento de ${price} MT...`);
                 try {
-                    const PAYMENT_API = 'https://www.playblm.com/api';
                     const reference = `QMZALL${Date.now()}`;
-                    const response = await fetch(`${PAYMENT_API}/payment`, {
+                    const response = await fetch(PAYMENT_API, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
                         body: JSON.stringify({
-                            amount: String(price),
-                            number: '258' + phone,
-                            phone: '258' + phone,
+                            amount: price,
                             reference: reference,
                             description: 'QuizMoz - Desbloquear Todos os Modos e Classes',
-                            method: method === 'emola' ? 'emola' : 'mpesa',
-                            currency: 'MZN',
-                            return_url: 'https://paysuite.tech/success',
-                            callback_url: 'https://paysuite.tech/callback'
+                            phone: phone,
+                            method: method
                         })
                     });
                     const data = await response.json();
@@ -1672,7 +1742,11 @@ async function processUnlockAllPayment(method) {
                     const paymentId = data?.data?.id || data?.id || data?.transaction_id || data?.payment_id;
                     const checkoutUrl = data?.data?.checkout_url || data?.data?.url || data?.checkout_url || data?.url;
                     if (paymentId) {
-                        showUnlockAllPayNow(method, methodName, paymentId, checkoutUrl);
+                        if (checkoutUrl) {
+                            showUnlockAllPayNow(method, methodName, paymentId, checkoutUrl);
+                        } else {
+                            showUnlockAllPending(method, methodName, paymentId);
+                        }
                     } else {
                         const errMsg = data?.message || data?.error || data?.data?.message || 'Resposta inválida';
                         const errDetail = JSON.stringify(data).substring(0, 200);
@@ -1725,16 +1799,15 @@ function showUnlockAllPending(method, methodName, paymentId) {
     showModal({
         circleIcon:'<i class="fas fa-hourglass-half"></i>', circleType:'info',
         title:'⏳ A aguardar pagamento', centered: true,
-        desc: `Método: <strong>${methodName}</strong><br>Valor: <strong>150 MT</strong> → Desbloquear Todos`,
+        desc: `Método: <strong>${methodName}</strong><br>Valor: <strong>150 MT</strong> → Desbloquear Todos<br><br><small style="color:var(--text-dim);">Confirme o USSD Push introduzindo o PIN no telemóvel.</small>`,
         actions:[
             {label:'✅ Já Paguei', class:'modal-btn-success', onClick:() => { if (_unlockCheckInterval) { clearInterval(_unlockCheckInterval); _unlockCheckInterval = null; } hideModal(); verifyUnlockAllPayment(paymentId); }},
             {label:'Cancelar', class:'modal-btn-gray', onClick:() => { if (_unlockCheckInterval) { clearInterval(_unlockCheckInterval); _unlockCheckInterval = null; } hideModal(); if (gameState.currentQuiz) gameState.currentQuiz.isPaused = false; }}
         ]
     });
-    const PAYMENT_API = 'https://www.playblm.com/api';
     _unlockCheckInterval = setInterval(async () => {
         try {
-            const res = await fetch(`${PAYMENT_API}/payment-status?id=${paymentId}`, { headers: { 'Accept': 'application/json' } });
+            const res = await fetch(`${PAYMENT_API}?id=${paymentId}`, { headers: { 'Accept': 'application/json' } });
             const data = await res.json();
             const status = (data.data && data.data.transaction) ? data.data.transaction.status : (data.data ? data.data.status : data.status);
             if (['paid','completed','success','approved'].includes(status)) {
@@ -1749,8 +1822,7 @@ function showUnlockAllPending(method, methodName, paymentId) {
 async function verifyUnlockAllPayment(paymentId) {
     showLoading(true, '🔍 Verificando pagamento...');
     try {
-        const PAYMENT_API = 'https://www.playblm.com/api';
-        const res = await fetch(`${PAYMENT_API}/payment-status?id=${paymentId}`, { headers: { 'Accept': 'application/json' } });
+        const res = await fetch(`${PAYMENT_API}?id=${paymentId}`, { headers: { 'Accept': 'application/json' } });
         const data = await res.json();
         showLoading(false);
         const status = (data.data && data.data.transaction) ? data.data.transaction.status : (data.data ? data.data.status : data.status);
@@ -1821,6 +1893,17 @@ function selectCoinPackage(coins, price) {
             className: 'pay-amount',
             textContent: `${coins} Moedas — ${price} MT`
         }));
+        
+        // Scroll modal content down slightly so the player can see the payment method section
+        const modalBox = document.querySelector('.modal-box');
+        if (modalBox) {
+            setTimeout(() => {
+                modalBox.scrollTo({
+                    top: modalBox.scrollHeight,
+                    behavior: 'smooth'
+                });
+            }, 100);
+        }
     }
 }
 
@@ -1830,96 +1913,68 @@ async function processPaySuitePayment(method) {
         return;
     }
     const { coins, price } = selectedCoinPackage;
+
+
+
     const methodName = method === 'emola' ? 'e-Mola' : 'M-Pesa';
     const phonePlaceholder = method === 'emola' ? '86 123 4567' : '84 123 4567';
     const phoneHintNums = method === 'emola' ? '86 ou 87' : '84 ou 85';
     
-    // Step 1: Ask for phone number
-    hideModal();
     showModal({
-        circleIcon:`<i class="fas fa-mobile-alt"></i>`, circleType:'info',
+        circleIcon:'<i class="fas fa-mobile-alt"></i>', circleType:'info',
         title:`Pagar com ${methodName}`, centered: true,
         html: `
             <div class="pay-phone-section">
-                <p class="pay-summary">${coins} Moedas — <strong>${price} MT</strong></p>
+                <p class="pay-summary">Pacote: <strong>${coins} Moedas</strong> por <strong>${price} MT</strong></p>
                 <div class="pay-phone-field">
                     <span class="pay-phone-prefix">+258</span>
-                    <input type="tel" id="pay-phone-input" class="pay-phone-input" placeholder="${phonePlaceholder}" maxlength="12" inputmode="numeric">
+                    <input type="tel" id="coins-phone-input" class="pay-phone-input" placeholder="${phonePlaceholder}" maxlength="12" inputmode="numeric">
                 </div>
                 <p class="pay-phone-hint">Insira o número ${methodName} (${phoneHintNums}) para receber o pedido de pagamento</p>
             </div>
         `,
         actions:[
             {label:`💳 Pagar ${price} MT`, class:'modal-btn-success', onClick: async () => {
-                const phone = document.getElementById('pay-phone-input')?.value.trim().replace(/\s/g, '');
-                if (!phone || phone.length < 9) {
-                    showCombo('Número inválido! ❌');
-                    return;
-                }
+                const phone = document.getElementById('coins-phone-input')?.value.trim().replace(/\s/g, '');
+                if (!phone || phone.length < 9) { showCombo('Número inválido! ❌'); return; }
                 const firstTwo = phone.substring(0, 2);
-                if (method === 'emola' && !['86','87'].includes(firstTwo)) {
-                    showCombo('Número e-Mola: 86 ou 87 ❌');
-                    return;
-                }
-                if (method === 'mpesa' && !['84','85'].includes(firstTwo)) {
-                    showCombo('Número M-Pesa: 84 ou 85 ❌');
-                    return;
-                }
+                if (method === 'emola' && !['86','87'].includes(firstTwo)) { showCombo('Número e-Mola: 86 ou 87 ❌'); return; }
+                if (method === 'mpesa' && !['84','85'].includes(firstTwo)) { showCombo('Número M-Pesa: 84 ou 85 ❌'); return; }
                 
-                // Step 2: Create payment via backend API
                 hideModal();
                 showLoading(true, `A criar pedido de pagamento de ${price} MT...`);
-                
                 try {
-                    const PAYMENT_API = 'https://www.playblm.com/api';
                     const reference = `QMZ${Date.now()}`;
-                    
-                    const response = await fetch(`${PAYMENT_API}/payment`, {
+                    const response = await fetch(PAYMENT_API, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
                         body: JSON.stringify({
                             amount: price,
-                            number: '258' + phone,
-                            phone: '258' + phone,
                             reference: reference,
                             description: `QuizMoz - ${coins} Moedas`,
-                            method: method === 'emola' ? 'emola' : 'mpesa',
-                            return_url: 'https://paysuite.tech/success',
-                            callback_url: 'https://paysuite.tech/callback'
+                            phone: phone,
+                            method: method
                         })
                     });
-                    
                     const data = await response.json();
                     showLoading(false);
-                    
-                    if (data && data.data && data.data.id) {
-                        const paymentId = data.data.id;
-                        const checkoutUrl = data.data.checkout_url || data.data.url;
-                        
-                        // Step 3: Show "Pagar agora" with Abrir Pagamento
-                        showPayNowModal(method, methodName, coins, price, paymentId, checkoutUrl);
+                    console.log('Coins purchase response:', JSON.stringify(data));
+                    const paymentId = data?.data?.id || data?.id || data?.transaction_id || data?.payment_id;
+                    const checkoutUrl = data?.data?.checkout_url || data?.data?.url || data?.checkout_url || data?.url;
+                    if (paymentId) {
+                        if (checkoutUrl) {
+                            showPayNowModal(method, methodName, coins, price, paymentId, checkoutUrl);
+                        } else {
+                            showPaymentPending(method, methodName, coins, price, paymentId);
+                        }
                     } else {
                         const msg = (data && data.message) ? data.message : 'Resposta inválida do servidor';
-                        showPaymentError(msg, method);
+                        const errDetail = JSON.stringify(data).substring(0, 200);
+                        showPaymentError(`${msg}\n\nDetalhes: ${errDetail}`, method);
                     }
                 } catch (e) {
                     showLoading(false);
-                    const isTimeout = e.name === 'AbortError';
-                    showModal({
-                        circleIcon:'!', circleType:'danger',
-                        title:'Problema de Ligação', centered: true,
-                        html: `
-                            <p>${isTimeout ? 'O servidor demorou a responder.' : 'Não foi possível contactar o servidor.'}</p>
-                            <div class="pay-server-error-alert">
-                                <span>⚠️</span>
-                                <span>Verifica a tua ligação à internet. Podes fazer <strong>refresh</strong> da página ou <strong>voltar ao jogo</strong> e tentar de novo.</span>
-                            </div>
-                        `,
-                        actions:[
-                            {label:'🔄 Tentar Novamente', class:'modal-btn-primary', onClick:() => { hideModal(); processPaySuitePayment(method); }},
-                            {label:'Voltar ao Jogo', class:'modal-btn-gray', onClick: hideModal}
-                        ]
-                    });
+                    showPaymentError('Não foi possível contactar o servidor: ' + e.message, method);
                 }
             }},
             {label:'Cancelar', class:'modal-btn-gray', onClick: hideModal}
@@ -1988,7 +2043,7 @@ function showPaymentPending(method, methodName, coins, price, paymentId) {
                 <p>Método: <strong>${methodName}</strong></p>
                 <p>Valor: <strong>${price} MT</strong> → <strong>${coins} Moedas</strong></p>
                 <hr style="border:none;border-top:1px solid rgba(255,255,255,0.1);margin:12px 0;">
-                <p class="pay-now-hint">Complete o pagamento e clique em <strong>Já Paguei</strong>.</p>
+                <p class="pay-now-hint">Introduza o PIN do ${methodName} no telemóvel para confirmar o pagamento.</p>
                 <p style="font-size:0.75em;color:var(--text-dim);margin-top:8px;">A verificar automaticamente... <span id="pay-check-count">0</span>s</p>
             </div>
         `,
@@ -2005,8 +2060,6 @@ function showPaymentPending(method, methodName, coins, price, paymentId) {
         ]
     });
     
-    // Auto-poll payment status every 5 seconds
-    const PAYMENT_API = 'https://www.playblm.com/api';
     _payCountInterval = setInterval(() => {
         checkCount++;
         const el = document.getElementById('pay-check-count');
@@ -2016,7 +2069,7 @@ function showPaymentPending(method, methodName, coins, price, paymentId) {
     
     _payCheckInterval = setInterval(async () => {
         try {
-            const res = await fetch(`${PAYMENT_API}/payment-status?id=${paymentId}`, {
+            const res = await fetch(`${PAYMENT_API}?id=${paymentId}`, {
                 headers: { 'Accept': 'application/json' }
             });
             const data = await res.json();
@@ -2054,8 +2107,7 @@ async function verifyPaymentNow(paymentId, coins) {
     showLoading(true, '🔍 Verificando pagamento...');
     
     try {
-        const PAYMENT_API = 'https://www.playblm.com/api';
-        const res = await fetch(`${PAYMENT_API}/payment-status?id=${paymentId}`, {
+        const res = await fetch(`${PAYMENT_API}?id=${paymentId}`, {
             headers: { 'Accept': 'application/json' }
         });
         const data = await res.json();
@@ -2099,6 +2151,10 @@ function onPaymentSuccess(coins) {
 }
 
 function showPaymentError(msg, method) {
+    let alertText = 'Podes voltar ao jogo e <strong>tentar novamente</strong>, ou fazer <strong>refresh</strong> da página.';
+    if (method === 'emola') {
+        alertText = 'O serviço e-Mola está temporariamente indisponível. Por favor, tenta efetuar o pagamento utilizando M-Pesa.';
+    }
     showModal({
         circleIcon:'!', circleType:'warn',
         title:'Erro no Pagamento', centered: true,
@@ -2106,7 +2162,7 @@ function showPaymentError(msg, method) {
             <p>${msg}</p>
             <div class="pay-server-error-alert">
                 <span>⚠️</span>
-                <span>Podes voltar ao jogo e <strong>tentar novamente</strong>, ou fazer <strong>refresh</strong> da página.</span>
+                <span>${alertText}</span>
             </div>
         `,
         actions:[
@@ -2143,11 +2199,32 @@ function openProfile() {
     const unlockedDiscsCount = (gameState.unlockedDisciplines?.length || 0) + Object.keys(classDisciplines).reduce((acc, k) => acc + (classDisciplines[k]?.length > 0 ? 1 : 0), 0);
     const totalDiscs = Object.values(classDisciplines).reduce((acc, d) => acc + d.length, 0);
     
+    const ntWins = gameState.nomeTerraWins || 0;
+    let trophyIcon = '🔒';
+    let trophyLabel = 'Sem vitórias Nome Terra';
+    if (ntWins >= 20) {
+        trophyIcon = '👑🏆';
+        trophyLabel = 'Campeão Supremo';
+    } else if (ntWins >= 10) {
+        trophyIcon = '🏆';
+        trophyLabel = 'Troféu de Ouro';
+    } else if (ntWins >= 5) {
+        trophyIcon = '🥈';
+        trophyLabel = 'Troféu de Prata';
+    } else if (ntWins >= 1) {
+        trophyIcon = '🥉';
+        trophyLabel = 'Troféu de Bronze';
+    }
+
     showModal({ icon: '', title: 'Meu Perfil',
         html: `
             <div class="profile-avatar">${tier.icon}</div>
             <div class="profile-tier-label">${tier.name}</div>
             <div class="profile-name-display">${gameState.playerName}</div>
+            <div style="display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 8px; background: rgba(0,0,0,0.02); padding: 6px 12px; border-radius: 20px; width: fit-content; margin-left: auto; margin-right: auto; margin-bottom: 8px;">
+                <span style="font-size: 1.2em;">${trophyIcon}</span>
+                <span style="font-size: 0.85em; font-weight: 700; color: var(--text-dim);">${trophyLabel} (${ntWins} ${ntWins === 1 ? 'vitória' : 'vitórias'})</span>
+            </div>
             <button class="profile-edit-nick-btn" id="profile-edit-nick">
                 <i class="fas fa-pencil-alt"></i> Editar Nickname
             </button>
@@ -2266,9 +2343,66 @@ const AD_UNIT_IDS = {
 
 let _admobInitialized = false;
 
-async function showRewardedAd(type) {
-    // type: 'coins' | 'time' | 'reveal' | 'energy'
+async function ensureAdMobInitialized() {
+    if (window.Capacitor?.Plugins?.AdMob && !_admobInitialized) {
+        try {
+            const { AdMob } = window.Capacitor.Plugins;
+            await AdMob.initialize({ requestTrackingAuthorization: false });
+            _admobInitialized = true;
+        } catch (e) {
+            console.warn('AdMob initialization failed:', e);
+        }
+    }
+}
+
+function showRewardedAd(type) {
+    const rewardNames = {
+        coins: '🪙 +10 Moedas',
+        time: '⏳ +60 segundos de tempo',
+        reveal: '💡 Revelar a resposta correta',
+        energy: '⚡ +1 Energia',
+        redraw_category: '🎰 Nova Categoria',
+        redraw_letter: '🎰 Nova Letra',
+        pause_coins: '🪙 +5 Moedas (Bónus de Pausa)'
+    };
+    const rewardName = rewardNames[type] || 'uma recompensa';
+    
+    // Pause game during confirmation
+    if (gameState.currentQuiz) gameState.currentQuiz.isPaused = true;
+
+    showModal({
+        circleIcon: '📺',
+        circleType: 'info',
+        title: 'Ver Anúncio?',
+        centered: true,
+        closeable: false,
+        desc: `Assistirás a um vídeo publicitário para receberes a recompensa:<br><strong style="font-size:1.1em; color:#FF9800; display:block; margin-top:8px;">${rewardName}</strong>`,
+        actions: [
+            {
+                label: '📺 Ver Anúncio',
+                class: 'modal-btn-success',
+                onClick: () => {
+                    hideModal();
+                    executeRewardedAd(type);
+                }
+            },
+            {
+                label: 'Cancelar',
+                class: 'modal-btn-gray',
+                onClick: () => {
+                    hideModal();
+                    if (gameState.currentQuiz) gameState.currentQuiz.isPaused = false;
+                }
+            }
+        ]
+    });
+}
+
+async function executeRewardedAd(type) {
+    // type: 'coins' | 'time' | 'reveal' | 'energy' | 'redraw_category' | 'redraw_letter'
     const adId = AD_UNIT_IDS[type] || AD_UNIT_IDS.coins;
+    let rewardedListener = null;
+    let dismissedListener = null;
     
     // Always pause timer when showing ad
     if (gameState.currentQuiz) gameState.currentQuiz.isPaused = true;
@@ -2284,27 +2418,40 @@ async function showRewardedAd(type) {
             const { AdMob } = window.Capacitor.Plugins;
             
             // Initialize AdMob once
-            if (!_admobInitialized) {
-                await AdMob.initialize({ requestTrackingAuthorization: false });
-                _admobInitialized = true;
-            }
+            await ensureAdMobInitialized();
             
             // Show loading while preparing
             showLoading(true, 'A carregar anúncio...');
             
             // Load rewarded ad with the specific unit
+            const isTesting = localStorage.getItem('test_ads_mode') === 'true';
             await AdMob.prepareRewardVideoAd({
-                adId: adId,
-                isTesting: false
+                adId: isTesting ? 'ca-app-pub-3940256099942544/5224354917' : adId,
+                isTesting: isTesting
             });
             
             showLoading(false);
             
-            // Show it and wait for reward
-            const result = await AdMob.showRewardVideoAd();
+            // Register listeners for reward and dismiss events
+            let rewardEarned = false;
             
-            // Grant reward based on type
-            applyAdReward(type);
+            rewardedListener = await AdMob.addListener('onRewardedVideoAdReward', (info) => {
+                rewardEarned = true;
+            });
+            
+            dismissedListener = await AdMob.addListener('onRewardedVideoAdDismissed', () => {
+                if (rewardedListener) rewardedListener.remove();
+                if (dismissedListener) dismissedListener.remove();
+                
+                if (rewardEarned) {
+                    applyAdReward(type);
+                } else {
+                    if (gameState.currentQuiz) gameState.currentQuiz.isPaused = false;
+                }
+            });
+            
+            // Show it and wait for reward
+            await AdMob.showRewardVideoAd();
         } else {
             // Fallback for web/testing: simulate loading then grant
             showLoading(true, 'A carregar anúncio...');
@@ -2315,6 +2462,10 @@ async function showRewardedAd(type) {
     } catch (e) {
         showLoading(false);
         console.warn('Ad error:', e);
+        try {
+            if (rewardedListener) rewardedListener.remove();
+            if (dismissedListener) dismissedListener.remove();
+        } catch (err) {}
         
         // Check if user just dismissed the ad (not an error)
         const msg = (e?.message || e?.toString() || '').toLowerCase();
@@ -2324,7 +2475,7 @@ async function showRewardedAd(type) {
         }
         
         showModal({ circleIcon:'!', circleType:'warn', title:'Anúncio Indisponível', centered: true,
-            desc: 'Não foi possível carregar o anúncio neste momento. Verifica a tua ligação e tenta novamente.',
+            desc: 'Não foi possível carregar o anúncio neste momento.<br><br><strong>Detalhes técnicos:</strong> ' + (e?.message || e?.toString() || e || 'Sem detalhes') + '<br><br>💡 Se estás a testar, podes ligar o <strong>Modo Teste</strong> clicando 5 vezes seguidas na versão da app no rodapé da página inicial.',
             actions:[
                 {label:'🔄 Tentar Novamente', class:'modal-btn-primary', onClick:() => { hideModal(); showRewardedAd(type); }},
                 {label:'Fechar', class:'modal-btn-gray', onClick:() => {
@@ -2348,6 +2499,20 @@ function applyAdReward(type) {
             showCoinPurchaseEffect(10);
             // Also spawn coins flying to HUD
             spawnCoinFlyEffect(10);
+            break;
+        case 'pause_coins':
+            gameState.coins += 5;
+            playSound('coin'); spawnConfetti();
+            updateHUD(); saveState();
+            showCoinPurchaseEffect(5);
+            spawnCoinFlyEffect(5);
+            showModal({ icon:'✅', title:'+5 Moedas!', centered: true,
+                desc: 'A tua recompensa foi adicionada com sucesso. Clica para continuar.',
+                actions:[{label:'▶️ Continuar a Jogar', class:'modal-btn-success', onClick:() => {
+                    hideModal();
+                    if (gameState.currentQuiz) gameState.currentQuiz.isPaused = false;
+                }}]
+            });
             break;
         case 'time':
             if (gameState.currentQuiz) {
@@ -2401,6 +2566,154 @@ function applyAdReward(type) {
             break;
     }
 }
+
+// ===== INTERSTITIAL ADS (AdMob) =====
+async function preloadInterstitial() {
+    if (window.Capacitor?.Plugins?.AdMob) {
+        await ensureAdMobInitialized();
+        const { AdMob } = window.Capacitor.Plugins;
+        const isTesting = localStorage.getItem('test_ads_mode') === 'true';
+        try {
+            await AdMob.prepareRewardInterstitialAd({
+                adId: isTesting ? 'ca-app-pub-3940256099942544/5354046379' : 'ca-app-pub-1954059473041916/8572574831',
+                isTesting: isTesting
+            });
+        } catch(e) {
+            console.warn('Preload reward interstitial failed:', e);
+        }
+    }
+}
+
+async function executeRewardedInterstitialAd(type) {
+    return new Promise(async (resolve) => {
+        // type: 'pause_coins' (gives 5 coins) or 'losses' (no reward, just shown automatically)
+        const adId = 'ca-app-pub-1954059473041916/8572574831';
+        let rewardedListener = null;
+        let dismissedListener = null;
+        let failedListener = null;
+        
+        // Always pause timer when showing ad
+        if (gameState.currentQuiz) gameState.currentQuiz.isPaused = true;
+        
+        // Check internet first
+        if (!navigator.onLine) {
+            showNoInternetModal();
+            resolve(false);
+            return;
+        }
+        
+        try {
+            if (window.Capacitor?.Plugins?.AdMob) {
+                const { AdMob } = window.Capacitor.Plugins;
+                
+                // Initialize AdMob once
+                await ensureAdMobInitialized();
+                
+                showLoading(true, 'A carregar anúncio...');
+                
+                const isTesting = localStorage.getItem('test_ads_mode') === 'true';
+                let rewardEarned = false;
+                
+                rewardedListener = await AdMob.addListener('onRewardedInterstitialAdReward', (info) => {
+                    console.log('Rewarded interstitial reward received:', info);
+                    rewardEarned = true;
+                });
+                
+                dismissedListener = await AdMob.addListener('onRewardedInterstitialAdDismissed', () => {
+                    if (rewardedListener) rewardedListener.remove();
+                    if (dismissedListener) dismissedListener.remove();
+                    if (failedListener) failedListener.remove();
+                    
+                    if (rewardEarned) {
+                        if (type === 'pause_coins') {
+                            applyAdReward('pause_coins');
+                        } else {
+                            if (gameState.currentQuiz) gameState.currentQuiz.isPaused = false;
+                        }
+                    } else {
+                        if (gameState.currentQuiz) gameState.currentQuiz.isPaused = false;
+                    }
+                    resolve(true);
+                });
+
+                failedListener = await AdMob.addListener('onRewardedInterstitialAdFailedToShow', () => {
+                    if (rewardedListener) rewardedListener.remove();
+                    if (dismissedListener) dismissedListener.remove();
+                    if (failedListener) failedListener.remove();
+                    if (gameState.currentQuiz) gameState.currentQuiz.isPaused = false;
+                    resolve(false);
+                });
+                
+                try {
+                    // Try showing directly first (relies on preloaded ad)
+                    showLoading(false);
+                    await AdMob.showRewardInterstitialAd();
+                } catch(e) {
+                    console.warn('Preloaded rewarded interstitial show failed, preparing and showing:', e);
+                    try {
+                        showLoading(true, 'A carregar anúncio...');
+                        await AdMob.prepareRewardInterstitialAd({
+                            adId: isTesting ? 'ca-app-pub-3940256099942544/5354046379' : adId,
+                            isTesting: isTesting
+                        });
+                        showLoading(false);
+                        await AdMob.showRewardInterstitialAd();
+                    } catch(errShow) {
+                        showLoading(false);
+                        console.error('Failed to prepare or show rewarded interstitial ad:', errShow);
+                        if (rewardedListener) rewardedListener.remove();
+                        if (dismissedListener) dismissedListener.remove();
+                        if (failedListener) failedListener.remove();
+                        resolve(false);
+                    }
+                }
+            } else {
+                // Fallback for web/testing
+                showLoading(true, 'A carregar anúncio...');
+                await new Promise(r => setTimeout(r, 800));
+                showLoading(false);
+                if (type === 'pause_coins') {
+                    applyAdReward('pause_coins');
+                }
+                resolve(true);
+            }
+        } catch (e) {
+            showLoading(false);
+            console.warn('Rewarded Interstitial Ad error:', e);
+            try {
+                if (rewardedListener) rewardedListener.remove();
+                if (dismissedListener) dismissedListener.remove();
+                if (failedListener) failedListener.remove();
+            } catch (err) {}
+            
+            const msg = (e?.message || e?.toString() || '').toLowerCase();
+            if (msg.includes('dismiss') || msg.includes('cancel') || msg.includes('closed')) {
+                if (gameState.currentQuiz) gameState.currentQuiz.isPaused = false;
+                resolve(false);
+                return;
+            }
+            
+            showModal({ circleIcon:'!', circleType:'warn', title:'Anúncio Indisponível', centered: true,
+                desc: 'Não foi possível carregar o anúncio neste momento.<br><br><strong>Detalhes técnicos:</strong> ' + (e?.message || e?.toString() || e || 'Sem detalhes') + '<br><br>💡 Se estás a testar, podes ligar o <strong>Modo Teste</strong> clicando 5 vezes no rodapé da página inicial.',
+                actions:[
+                    {label:'Fechar', class:'modal-btn-gray', onClick:() => {
+                        hideModal();
+                        if (gameState.currentQuiz) gameState.currentQuiz.isPaused = false;
+                        resolve(false);
+                    }}
+                ]
+            });
+        }
+    });
+}
+
+async function showInterstitialAd() {
+    return executeRewardedInterstitialAd('losses');
+}
+
+window.triggerScreenTransitionAd = function(screenId) {
+    // Transition ads currently handled on-demand
+};
 
 // ===== RANKING LEADERBOARD =====
 let _rankingCache = null;
@@ -2484,7 +2797,8 @@ async function openRanking() {
                     level: d.level || 1,
                     qi: d.qi || 70,
                     coins: d.coins || 0,
-                    score: d.score || 0
+                    score: d.score || 0,
+                    nomeTerraWins: d.nomeTerraWins || 0
                 });
             });
             allPlayers.sort((a, b) => b.score - a.score);
@@ -2503,11 +2817,18 @@ async function openRanking() {
             const medal = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : `#${rank}`;
             const tierObj = getTier(p.level);
             
+            const ntWins = p.nomeTerraWins || 0;
+            let trophy = '';
+            if (ntWins >= 20) trophy = ' 👑🏆';
+            else if (ntWins >= 10) trophy = ' 🏆';
+            else if (ntWins >= 5) trophy = ' 🥈';
+            else if (ntWins >= 1) trophy = ' 🥉';
+            
             players.push(`
                 <div class="ranking-row ${isMe ? 'ranking-me' : ''} ${rank <= 3 ? 'ranking-top' : ''}">
                     <div class="ranking-pos">${medal}</div>
                     <div class="ranking-info">
-                        <div class="ranking-name">${tierObj.icon} ${p.playerName}</div>
+                        <div class="ranking-name">${tierObj.icon} ${p.playerName}${trophy}</div>
                         <div class="ranking-details">Nv.${p.level} • QI ${p.qi} • ${p.coins} 🪙</div>
                     </div>
                     <div class="ranking-score">${p.score}</div>
@@ -2578,6 +2899,7 @@ function syncFirestore() {
                 playerName: gameState.playerName, level: gameState.level, exp: gameState.exp,
                 coins: gameState.coins, qi: gameState.qi, score: gameState.level * 100 + gameState.qi * 2 + gameState.coins,
                 vsUnlocked: gameState.vsUnlocked || false,
+                freeMatchesLeft: gameState.freeMatchesLeft !== undefined ? gameState.freeMatchesLeft : 3,
                 updatedAt: new Date().toISOString()
             }, { merge: true });
         } catch(e) { console.warn('Sync error:', e); }
@@ -2593,6 +2915,8 @@ async function syncFirestoreNow() {
             playerName: gameState.playerName, level: gameState.level, exp: gameState.exp,
             coins: gameState.coins, qi: gameState.qi, score: gameState.level * 100 + gameState.qi * 2 + gameState.coins,
             vsUnlocked: gameState.vsUnlocked || false,
+            freeMatchesLeft: gameState.freeMatchesLeft !== undefined ? gameState.freeMatchesLeft : 3,
+            nomeTerraWins: gameState.nomeTerraWins || 0,
             updatedAt: new Date().toISOString()
         }, { merge: true });
     } catch(e) { console.warn('Sync error:', e); }
@@ -2600,56 +2924,113 @@ async function syncFirestoreNow() {
 
 // ===== NOTIFICATION SYSTEM =====
 const NOTIFICATION_MESSAGES = [
-    '⏰ Já faz um dia sem jogar! O teu QI está a baixar... Volta agora e mostra que és guerreiro! 💪',
-    '🧠 O teu QI precisa de treino! Responde a algumas perguntas hoje e sobe de nível.',
-    '🔥 Não percas o teu streak! Entra no QuizMoz e mantém a sequência diária activa.',
-    '🏆 Outros jogadores estão a subir no ranking. Volta e defende a tua posição de Lenda!',
-    '💎 Tens moedas por resgatar! Abre o QuizMoz e descobre as recompensas que te esperam.',
-    '📚 Novo dia, novo desafio! Moçambique conta contigo, guerreiro do conhecimento!',
-    '⚡ A tua energia foi reposta! Aproveita para jogar agora e conquistar novas classes.',
-    '🌟 Sabes que podes ser Lenda? Só falta jogares mais um pouco hoje!',
-    '🎯 Desafio diário: acerta 5 perguntas seguidas! Será que consegues hoje?',
-    '👑 O trono do Quiz está vago. Será que és tu o próximo rei ou rainha do QuizMoz?',
-    '🇲🇿 Quem é o orgulho de Moçambique hoje? Mostra os teus conhecimentos no QuizMoz!',
-    '🎰 A roleta está à tua espera! Sorteia a tua classe favorita e começa a pontuar.',
-    '📝 Modo Nome Terra — Stop está ao rubro! Chama os teus amigos para uma partida agora.',
-    '⚔️ Um adversário desafiou-te no Modo V/S! Entra e mostra quem manda em tempo real.',
-    '💡 Sabias que aprender jogando duplica a memória? Joga uma partida rápida agora!',
-    '🎓 Da 1ª classe à 12ª classe, o conhecimento não tem limites. Qual vais treinar hoje?',
-    '💰 Economizaste moedas? Entra na loja e vê o que podes desbloquear hoje!',
-    '⚡ Não deixes a tua energia acumular! Usa os teus pontos de energia para subir no ranking.',
-    '🥚 Do nível Ovo ao nível Lenda, o caminho faz-se respondendo. Vamos a isso?',
-    '🦁 O leão de Moçambique não dorme no conhecimento! Entra e ruge no QuizMoz!',
-    '🎒 A mochila está pronta e a sala de aula também. Entra e responde ao Quiz do dia!',
-    '🧩 Raciocínio lógico e enigmas te esperam na classe especial. Vem exercitar o cérebro!',
-    '📣 Os teus amigos estão a jogar Nome Terra! Não fiques de fora da diversão.',
-    '🔋 Bateria carregada e cérebro aquecido? Hora de brilhar no QuizMoz!',
-    '🌍 De Maputo a Pemba, o conhecimento une-nos. Joga agora e eleva o teu QI!',
-    '🤔 Tens a certeza que sabes tudo sobre História e Geografia? Vem provar no jogo!',
-    '⏳ O relógio está a contar! Responde rápido para ganhar bónus extras de tempo.',
-    '🚀 Descola em direção ao topo! O teu Nickname merece estar no TOP 10 global.',
-    '📚 Mais de 1000 perguntas esperam pelas tuas respostas. Vais deixá-las sem resposta?',
-    '💎 Dobra as tuas moedas assistindo a um anúncio rápido! A loja tem novidades.',
-    '🧠 Treinar o cérebro previne o esquecimento. Joga QuizMoz 5 minutos por dia!',
-    '🥇 O teu recorde pessoal está prestes a ser batido. Entra e supera-te!',
-    '🔑 Desbloqueia novas disciplinas e prova que és bom em Matemática e Português!',
-    '💬 Quem grita STOP primeiro no Nome Terra? Entra na sala e desafia a tua turma!',
-    '🌟 A tua mente é a tua melhor arma. Afia-a hoje com o QuizMoz!',
-    '🌈 Que tal experimentar um novo tema escuro hoje à noite no QuizMoz?',
-    '🎭 Atores, filmes, novelas... a classe especial de Cultura Geral está à tua espera!',
-    '🛠️ Definições atualizadas e prontas. Joga agora com mais suavidade e estilo.',
-    '⚡ Um ponto de energia é tudo o que precisas para iniciar uma jornada épica.',
-    '🏆 Moçambique precisa de mais intelectuais. Dá o teu contributo jogando agora!',
-    '🎁 Temos um bónus de moedas diário a voar para o teu HUD. Entra para ver!',
-    '🧠 O teu QI atual é bom, mas tu podes ser um Génio! Vem aumentar esses pontos.',
-    '⚔️ O Modo V/S em tempo real está super rápido. Desafia já um amigo online!',
-    '🎒 Sem livros pesados! Todo o conhecimento escolar cabe no teu bolso. Joga agora!',
-    '💡 Dica do dia: Use a ajuda de tempo quando estiveres sob pressão no Quiz!',
-    '📈 O teu gráfico de evolução está a subir. Não o deixes cair hoje!',
-    '🍿 Um quiz rápido enquanto lanchas? Perfeito para descontrair e aprender.',
-    '🌟 O QuizMoz está cada vez mais bonito. Entra e vê as novas animações interativas!',
-    '🎓 Parabéns pela tua dedicação até aqui. Continua a tua caminhada escolar no jogo!',
-    '🥇 O troféu de campeão diário está quase ao teu alcance. Só precisas de uma partida!'
+    // Engraçadas & Cómicas
+    '😴 Ei, mano! O teu cérebro já está a fazer "load..." há mais de 24 horas. Entra lá para atualizar o sistema!',
+    '🦟 Até os mosquitos de Maputo estão mais ativos que tu hoje! Bora txunar o teu QI no QuizMoz?',
+    '🧠 Alerta de Cérebro Deserto: O teu QI mandou uma mensagem a dizer que tem saudades de trabalhar. Vamos jogar?',
+    '🍳 A fritar ovos? Deixa a cozinha e vem fritar o cérebro com as perguntas mais difíceis do Moz!',
+    '🐢 Mais lento que chapa em hora de ponta! Entra no jogo e acesera esse raciocínio!',
+    '🙋‍♂️ Stop! Alguém vai gritar STOP no Nome Terra e tu ainda estás a dormir na linha? Entra já!',
+    '💸 O teu QI está a desvalorizar mais que o metical em dia mau! Bora subir esse nível!',
+    '🤷‍♂️ Puto, esqueceste-te do caminho para o topo? A roleta já está com teias de aranha!',
+    '🧐 Dizem por aí que o teu QI tirou férias sem pedir autorização. Vem já trazê-lo de volta!',
+    '🔌 Cérebro em modo de poupança de energia? Vamos ligar o turbo com um quiz rápido!',
+    '🌶️ Este quiz está mais quente que piripíri da Zambézia! Vais aguentar ou vais fugir?',
+    '🥶 Que gelo é esse? Um dia sem QuizMoz e o teu QI já está a tremer de frio!',
+    '📻 Notícia de última hora: O teu lugar no ranking foi visto a chorar de saudades tuas.',
+    '🥥 Não deixes o teu cérebro virar água de coco! Vem jogar e mostra que tens massa cinzenta.',
+    '🤦‍♀️ Os teus amigos estão a subir de nível e tu... bom, tu estás a ver passar as nuvens. Bora lá!',
+    '🦁 Até o leão da savana corre atrás do saber, e tu nem o dedo mexes para girar a roleta!',
+    '🦥 Preguiça nível mestre? O QuizMoz desafia-te a sair dessa zona de conforto agora mesmo.',
+    '🧩 Falta-te uma peça hoje? Ah, já sabemos, é a tua dose diária de QuizMoz!',
+    '🛶 A navegar na maionese? Volta para a terra firme e mostra o que vales no Nome Terra.',
+    '🥑 Mais mole que abacate maduro! Dá um clique na app e mostra a tua força mental!',
+    '📢 Procura-se: Um jogador inteligente que desapareceu há 24 horas. Recompensa: Moedas de ouro!',
+    '🤔 Sabias que pensar queima calorias? Entra no QuizMoz e faz o teu treino de ginásio mental!',
+    '🧗‍♂️ A cair do ranking como jaca madura? Segura-te bem e sobe de volta!',
+    '🦖 Não deixes o teu conhecimento ficar fóssil! Vem refrescar as ideias connosco.',
+    '🛌 Acorda, chefe! A roleta do QuizMoz já tem saudades dos teus giros de sorte.',
+    
+    // Desafiadoras
+    '🧠 Duvido que consigas acertar 5 perguntas seguidas hoje. Prova que estou errado!',
+    '👑 O trono do QI moçambicano está livre. Tens coragem de ir lá reclamá-lo?',
+    '🔥 Os teus amigos acham que sabem mais do que tu. Vais deixar que fiquem com a última palavra?',
+    '🎯 Um verdadeiro campeão não falha dois dias seguidos. O desafio está lançado!',
+    '🌪️ A roleta está armada com perguntas venenosas. Consegues obter a pontuação máxima sem errar nenhuma?',
+    '⏳ O tempo está a correr no Nome Terra. Quem será o mais rápido a gritar STOP hoje?',
+    '⚡ A tua energia está no máximo! É um desperdício não usá-la para esmagar os recordes.',
+    '📈 O teu QI estagnou. Só os fortes conseguem ultrapassar a barreira dos 120 pontos de QI.',
+    '🛑 Alguém desafiou-te no modo V/S! Vais aceitar o duelo ou vais bater em retirada?',
+    '🗺️ Conheces mesmo Moçambique? A classe de Geografia tem perguntas que te vão fazer suar!',
+    '📚 Pensas que és o mais inteligente da tua turma? O ranking geral diz o contrário. Vem provar o teu valor!',
+    '🧐 Apenas 5% dos jogadores conseguem responder à pergunta do dia. Estás nesse grupo?',
+    '🥊 Ronda de titãs! Entra na roleta e luta pelo primeiro lugar do dia.',
+    '🪓 Cortaste o hábito? O conhecimento exige consistência. Volta ao jogo!',
+    '🥇 O primeiro lugar do ranking está apenas a alguns pontos de distância. Vais desistir agora?',
+    '🕯️ Não deixes a tua mente apagar. O desafio de hoje vai testar os teus limites mais profundos.',
+    '🌪️ A tempestade de perguntas começou. Entra e mostra que és o mestre do saber.',
+    '🧠 O teu cérebro contra o nosso banco de perguntas. Quem vencerá hoje?',
+    '🎭 Modo Nome Terra: As letras de hoje são traiçoeiras. Consegues preencher tudo antes do Stop?',
+    '🏃‍♂️ A concorrência não dorme. Enquanto não jogas, o teu rival está a subir de nível!',
+    '💎 Perguntas lendárias desbloqueadas. Tens o nível necessário para responder a elas?',
+    '🤯 Este quiz vai dar um nó na tua cabeça. Estás preparado para o teste definitivo?',
+    '🏰 Defende o teu império de conhecimento! Entra e garante a tua pontuação diária.',
+    '🚨 Alerta de duelo: O modo V/S está à tua espera. Não deixes o teu adversário sem resposta.',
+    '🎓 O teste de QI mais difícil de Moçambique espera por ti. Vais encarar ou vais recuar?',
+    
+    // Motivadoras
+    '🌱 Cada dia que jogas é um passo para seres mais inteligente. Vamos treinar hoje?',
+    '💡 O conhecimento é a única coisa que ninguém te pode tirar. Alimenta a tua mente no QuizMoz!',
+    '🏆 Grandes mentes constroem-se com pequenos hábitos diários. Entra e faz a tua jogada de hoje.',
+    '🧠 O teu cérebro é como um músculo: quanto mais treinas no QuizMoz, mais forte ele fica!',
+    '✨ Hoje é um excelente dia para aprenderes algo novo. Deixa o QuizMoz surpreender-te!',
+    '📖 Mais uma página da tua história de sucesso. Entra e conquista novos pontos de QI!',
+    '🤝 O teu cérebro conta contigo para se manter afiado. Vamos a isso, parceiro!',
+    '🌈 Errar também é aprender. Não tenhas medo das perguntas difíceis, vem evoluir connosco!',
+    '🌟 O teu potencial é infinito. Dedica 5 minutos do teu dia a expandir a tua mente.',
+    '🎒 A escola da vida nunca fecha. O QuizMoz traz-te o melhor do conhecimento de Moçambique.',
+    '🔑 A chave para o sucesso é a consistência. Mantém a tua mente ativa jogando todos os dias!',
+    '🥇 Cada resposta certa é uma vitória pessoal. Sente o orgulho de saber mais!',
+    '🕯️ Ilumina o teu caminho com o saber. O QuizMoz ajuda-te a descobrir novas curiosidades.',
+    '🚀 Pronto para descolar? Eleva o teu QI para a estratosfera com os nossos desafios!',
+    '💎 O conhecimento brilha mais que qualquer joia. Vem lapidar a tua inteligência hoje.',
+    '🗺️ Explora a riqueza da nossa terra. Aprende mais sobre a história e cultura de Moçambique!',
+    '💪 Sente-te imparável. Supera os teus limites intelectuais jogando uma partida rápida.',
+    '🌻 Alimenta a tua curiosidade. O mundo está cheio de respostas que tu mereces saber.',
+    '🎯 Foco e determinação. Define o teu objetivo de hoje e vem alcançá-lo no QuizMoz.',
+    '🔭 Olha mais longe. Descobre factos presumíveis que vão mudar a tua forma de ver as coisas.',
+    '☀️ Um novo dia, uma nova oportunidade de seres melhor. Começa com um quiz!',
+    '🎈 Aprender pode ser muito divertido. Entra e diverte-te enquanto ficas mais inteligente!',
+    '👑 Reclama a tua coroa da sabedoria. Tu és capaz de acertar em todas as categorias.',
+    '🏁 A meta está próxima. Mantém o ritmo e não deixes o teu progresso diário a meio.',
+    '💖 O saber não ocupa lugar. Vem encher a tua mente de coisas boas no nosso jogo.',
+    
+    // Moçambicanas
+    '🇲🇿 Orgulho da nossa terra! Mostra que és o maior conhecedor da nossa história e cultura.',
+    '🏖️ Da Ponta do Ouro ao Rovuma, não há mente mais brilhante que a tua quando estás focado!',
+    '🥁 Sente o batuque do conhecimento! O QuizMoz traz-te a essência das nossas províncias.',
+    '🐠 Mais rápido que um peixe na Ilha de Moçambique! Entra e responde antes de todos.',
+    '🌾 Como a machamba que dá frutos, a tua mente precisa de ser cultivada todos os dias.',
+    '🥤 Fica fresco como uma boa Badjias com pão! Vem jogar para relaxar e aprender.',
+    '🚉 O comboio do saber está a partir da Estação de Maputo! Não percas esta viagem.',
+    '🐆 Com a agilidade de um leopardo da Gorongosa, responde rápido e vence os teus amigos!',
+    '🌊 Como as ondas da praia da Barra, deixa o conhecimento fluir na tua mente hoje!',
+    '🎨 Pinta o teu dia com as cores da nossa bandeira. Mostra o teu orgulho nacional no QuizMoz!',
+    '🏔️ Sobe tão alto como o Monte Binga! Alcança o topo do ranking de QI.',
+    '🍤 Tão saboroso como um caril de camarão da Beira! Os nossos quizzes de hoje estão irresistíveis.',
+    '🌳 Firme como um embondeiro gigante! Constrói uma base sólida de conhecimento connosco.',
+    '🍍 Tão doce como a ananás de Muxúnguè! Aprender no QuizMoz é um verdadeiro prazer.',
+    '🎭 A nossa cultura é a nossa maior riqueza. Vem testar o que sabes sobre o nosso belo Moçambique.',
+    '⛵ Navega como um dhow tradicional de Pemba. Enfrenta as perguntas mais difíceis com classe!',
+    '🦁 Mostra a garra dos Mambas! Entra no modo V/S e vence o jogo para a tua equipa.',
+    '🌽 A colheita do QI começou! Vem recolher as moedas que acumulaste para ti.',
+    '🌅 O sol já nasceu no Índico. Começa a tua manhã a aquecer a mente no QuizMoz!',
+    '💬 Quem tem boca vai a Gilé, e quem tem QuizMoz vai direto ao topo do conhecimento!',
+    '👜 Tão resistente como o artesanato de vime! Mostra que a tua memória aguenta qualquer desafio.',
+    '🎶 Baila ao ritmo da Marrabenta! Diverte-te e joga com os teus amigos no Nome Terra.',
+    '🍊 Mais sumarento que laranja de Inhambane! O quiz de hoje está cheio de novidades.',
+    '🛡️ Guerreiro do saber! Protege a tua pontuação contra os ataques dos rivais.',
+    '🇲🇿 Faz brilhar a nossa pátria amada! Mostra ao mundo o nível da inteligência moçambicana.'
 ];
 
 async function scheduleNotifications() {
@@ -2658,7 +3039,10 @@ async function scheduleNotifications() {
         const { LocalNotifications } = window.Capacitor.Plugins;
         
         // Request permission
-        const perm = await LocalNotifications.requestPermissions();
+        let perm = await LocalNotifications.checkPermissions();
+        if (perm.display !== 'granted') {
+            perm = await LocalNotifications.requestPermissions();
+        }
         if (perm.display !== 'granted') return;
         
         // Cancel existing
@@ -2760,6 +3144,45 @@ function showVSPaywall() {
         return;
     }
     showModal({
+        circleIcon: '💎',
+        circleType: 'success',
+        title: 'Desbloquear Tudo por 150 MT?',
+        centered: true,
+        closeable: false,
+        desc: `
+            Em vez de desbloquear apenas o <strong>Modo V/S & Nome Terra por 50 MT</strong>, prefere desbloquear <strong>TUDO</strong> no jogo por apenas <strong>150 MT</strong>?<br><br>
+            ⭐ <strong>O que inclui (150 MT):</strong><br>
+            • Todas as classes offline desbloqueadas permanentemente<br>
+            • Modo Batalha V/S sem limites<br>
+            • Modo Nome Terra ilimitado
+        `,
+        actions: [
+            {
+                label: '💎 Sim, Desbloquear Tudo (150 MT)',
+                class: 'modal-btn-success',
+                onClick: () => {
+                    hideModal();
+                    processUnlockAllLevels();
+                }
+            },
+            {
+                label: 'Não, apenas Nome Terra & V/S (50 MT)',
+                class: 'modal-btn-gray',
+                onClick: () => {
+                    hideModal();
+                    showVSPaywallDirect();
+                }
+            }
+        ]
+    });
+}
+
+function showVSPaywallDirect() {
+    if (!navigator.onLine) {
+        showNoInternetModal(() => showVSPaywallDirect());
+        return;
+    }
+    showModal({
         circleIcon:'<i class="fas fa-lock"></i>', circleType:'warn',
         title:'⚔️ Desbloquear Modo V/S & Nome Terra', centered: true,
         html: `
@@ -2783,39 +3206,68 @@ function showVSPaywall() {
 }
 
 async function processVSPayment(method) {
+    const price = 50;
+
     const methodName = method === 'emola' ? 'e-Mola' : 'M-Pesa';
     const phonePlaceholder = method === 'emola' ? '86 123 4567' : '84 123 4567';
     const phoneHintNums = method === 'emola' ? '86 ou 87' : '84 ou 85';
-    const price = 50;
+    
     showModal({
         circleIcon:'<i class="fas fa-mobile-alt"></i>', circleType:'info',
-        title:'Pagar com ' + methodName, centered: true,
-        html: '<div class="pay-phone-section"><p class="pay-summary">Modo V/S & Nome Terra — <strong>' + price + ' MT</strong></p><div class="pay-phone-field"><span class="pay-phone-prefix">+258</span><input type="tel" id="vs-phone-input" class="pay-phone-input" placeholder="' + phonePlaceholder + '" maxlength="12" inputmode="numeric"></div><p class="pay-phone-hint">Insira o número ' + methodName + ' (' + phoneHintNums + ')</p></div>',
+        title:`Pagar com ${methodName}`, centered: true,
+        html: `
+            <div class="pay-phone-section">
+                <p class="pay-summary">Desbloquear Modo V/S e Nome Terra — <strong>${price} MT</strong></p>
+                <div class="pay-phone-field">
+                    <span class="pay-phone-prefix">+258</span>
+                    <input type="tel" id="vs-phone-input" class="pay-phone-input" placeholder="${phonePlaceholder}" maxlength="12" inputmode="numeric">
+                </div>
+                <p class="pay-phone-hint">Insira o número ${methodName} (${phoneHintNums}) para receber o pedido de pagamento</p>
+            </div>
+        `,
         actions:[
-            {label:'💳 Pagar ' + price + ' MT', class:'modal-btn-success', onClick: async () => {
+            {label:`💳 Pagar ${price} MT`, class:'modal-btn-success', onClick: async () => {
                 const phone = document.getElementById('vs-phone-input')?.value.trim().replace(/\s/g, '');
                 if (!phone || phone.length < 9) { showCombo('Número inválido! ❌'); return; }
                 const firstTwo = phone.substring(0, 2);
                 if (method === 'emola' && !['86','87'].includes(firstTwo)) { showCombo('Número e-Mola: 86 ou 87 ❌'); return; }
                 if (method === 'mpesa' && !['84','85'].includes(firstTwo)) { showCombo('Número M-Pesa: 84 ou 85 ❌'); return; }
+                
                 hideModal();
-                showLoading(true, 'A criar pedido de pagamento de ' + price + ' MT...');
+                showLoading(true, `A criar pedido de pagamento de ${price} MT...`);
                 try {
-                    const PAYMENT_API = 'https://www.playblm.com/api';
                     const reference = 'QMZVS' + Date.now();
-                    const response = await fetch(PAYMENT_API + '/payment', {
+                    const response = await fetch(PAYMENT_API, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-                        body: JSON.stringify({ amount: price, reference: reference, description: 'QuizMoz - Modo V/S', return_url: 'https://paysuite.tech/success', callback_url: 'https://paysuite.tech/callback' })
+                        body: JSON.stringify({
+                            amount: price,
+                            reference: reference,
+                            description: 'QuizMoz - Modo V/S',
+                            phone: phone,
+                            method: method
+                        })
                     });
                     const data = await response.json();
                     showLoading(false);
-                    if (data && data.data && data.data.id) {
-                        showVSPayNow(method, methodName, data.data.id, data.data.checkout_url || data.data.url);
+                    console.log('VS Mode purchase response:', JSON.stringify(data));
+                    const paymentId = data?.data?.id || data?.id || data?.transaction_id || data?.payment_id;
+                    const checkoutUrl = data?.data?.checkout_url || data?.data?.url || data?.checkout_url || data?.url;
+                    if (paymentId) {
+                        if (checkoutUrl) {
+                            showVSPayNow(method, methodName, paymentId, checkoutUrl);
+                        } else {
+                            showVSPayPending(method, methodName, paymentId);
+                        }
                     } else {
-                        showPaymentError((data && data.message) ? data.message : 'Resposta inválida', method);
+                        const errMsg = data?.message || data?.error || data?.data?.message || 'Resposta inválida';
+                        const errDetail = JSON.stringify(data).substring(0, 200);
+                        showPaymentError(`${errMsg}\n\nDetalhes: ${errDetail}`, method);
                     }
-                } catch (e) { showLoading(false); showPaymentError('Não foi possível contactar o servidor.', method); }
+                } catch (e) {
+                    showLoading(false);
+                    showPaymentError('Não foi possível contactar o servidor: ' + e.message, method);
+                }
             }},
             {label:'Cancelar', class:'modal-btn-gray', onClick: hideModal}
         ]
@@ -2852,16 +3304,15 @@ function showVSPayPending(method, methodName, paymentId) {
     showModal({
         circleIcon:'<i class="fas fa-hourglass-half"></i>', circleType:'info',
         title:'⏳ A aguardar pagamento', centered: true,
-        desc: 'Método: <strong>' + methodName + '</strong><br>Valor: <strong>50 MT</strong> → Modo V/S & Nome Terra',
+        desc: 'Método: <strong>' + methodName + '</strong><br>Valor: <strong>50 MT</strong> → Modo V/S & Nome Terra<br><br><small style="color:var(--text-dim);">Confirme o USSD Push introduzindo o PIN no telemóvel.</small>',
         actions:[
             {label:'✅ Já Paguei', class:'modal-btn-success', onClick:() => { if (_vsCheckInterval) { clearInterval(_vsCheckInterval); _vsCheckInterval = null; } hideModal(); verifyVSPayment(paymentId); }},
             {label:'Cancelar', class:'modal-btn-gray', onClick:() => { if (_vsCheckInterval) { clearInterval(_vsCheckInterval); _vsCheckInterval = null; } hideModal(); }}
         ]
     });
-    const PAYMENT_API = 'https://www.playblm.com/api';
     _vsCheckInterval = setInterval(async () => {
         try {
-            const res = await fetch(PAYMENT_API + '/payment-status?id=' + paymentId, { headers: { 'Accept': 'application/json' } });
+            const res = await fetch(PAYMENT_API + '?id=' + paymentId, { headers: { 'Accept': 'application/json' } });
             const data = await res.json();
             const status = (data.data && data.data.transaction) ? data.data.transaction.status : (data.data ? data.data.status : data.status);
             if (['paid','completed','success','approved'].includes(status)) { clearInterval(_vsCheckInterval); _vsCheckInterval = null; hideModal(); onVSUnlockSuccess(); }
@@ -2872,8 +3323,7 @@ function showVSPayPending(method, methodName, paymentId) {
 async function verifyVSPayment(paymentId) {
     showLoading(true, '🔍 Verificando pagamento...');
     try {
-        const PAYMENT_API = 'https://www.playblm.com/api';
-        const res = await fetch(PAYMENT_API + '/payment-status?id=' + paymentId, { headers: { 'Accept': 'application/json' } });
+        const res = await fetch(PAYMENT_API + '?id=' + paymentId, { headers: { 'Accept': 'application/json' } });
         const data = await res.json();
         showLoading(false);
         const status = (data.data && data.data.transaction) ? data.data.transaction.status : (data.data ? data.data.status : data.status);
@@ -2924,20 +3374,20 @@ function openVSLobby() {
         });
         return;
     }
-    // Check if VS mode is unlocked
-    if (!gameState.vsUnlocked) {
-        showVSPaywall();
-        return;
-    }
     showScreen('vs-lobby', (c) => {
         currentScreen = 'vs-lobby';
         hideQuizControls();
+        const freePlays = gameState.freeMatchesLeft !== undefined ? gameState.freeMatchesLeft : 3;
+        const badgeHtml = gameState.vsUnlocked 
+            ? `<div class="vs-badge-unlocked"><i class="fas fa-crown"></i> Acesso Ilimitado</div>`
+            : `<div class="vs-badge-free"><i class="fas fa-play-circle"></i> ${freePlays} Jogadas Grátis Restantes</div>`;
         c.innerHTML = `
             <div class="vs-lobby">
                 <div class="vs-lobby-header">
                     <div class="vs-lobby-icon">⚔️</div>
                     <h2 class="vs-lobby-title">Modo V/S</h2>
                     <p class="vs-lobby-sub">Desafie um amigo para uma batalha de Quiz!</p>
+                    ${badgeHtml}
                 </div>
                 <div class="vs-lobby-actions">
                     <button class="vs-btn vs-btn-create" id="vs-create-room">
@@ -2982,6 +3432,10 @@ function openVSLobby() {
 }
 
 async function createVSRoom() {
+    if (!gameState.vsUnlocked && (gameState.freeMatchesLeft === undefined ? 3 : gameState.freeMatchesLeft) <= 0) {
+        showVSPaywall();
+        return;
+    }
     if (gameState.energy <= 0) {
         showOutOfEnergyModal();
         return;
@@ -3037,6 +3491,10 @@ function showJoinRoom() {
 }
 
 async function joinVSRoom(code) {
+    if (!gameState.vsUnlocked && (gameState.freeMatchesLeft === undefined ? 3 : gameState.freeMatchesLeft) <= 0) {
+        showVSPaywall();
+        return;
+    }
     if (gameState.energy <= 0) {
         showOutOfEnergyModal();
         return;
@@ -3129,10 +3587,18 @@ function showWaitingRoom(code, role) {
             
             // Deduct energy once per match start / rematch
             if (vsState && !vsState.energyDeducted) {
+                if (!gameState.vsUnlocked && (gameState.freeMatchesLeft === undefined ? 3 : gameState.freeMatchesLeft) <= 0) {
+                    showVSPaywall();
+                    leaveVSRoom();
+                    return;
+                }
                 if (gameState.energy <= 0) {
                     showOutOfEnergyModal();
                     leaveVSRoom();
                     return;
+                }
+                if (!gameState.vsUnlocked) {
+                    gameState.freeMatchesLeft = Math.max(0, (gameState.freeMatchesLeft === undefined ? 3 : gameState.freeMatchesLeft) - 1);
                 }
                 gameState.energy = Math.max(0, gameState.energy - 1);
                 updateHUD();
@@ -3466,8 +3932,8 @@ function showVSRoulette(code, role, roomData = null) {
                             </div>
                             <div style="display: flex; flex-direction: column; gap: 10px; width: 100%; max-width: 280px; margin: 10px auto 0 auto;">
                                 <button class="nt-start-btn" id="vs-btn-confirm-cat" style="margin: 0;">🚀 Começar Partida</button>
-                                <button class="nt-opt-btn" id="vs-btn-redraw-cat-ad" style="margin: 0; padding: 12px; font-weight: 700; background: rgba(0,0,0,0.05); border: 2px dashed rgba(0,0,0,0.15); display: flex; align-items: center; justify-content: center; gap: 8px;">
-                                    🎰 Outra Categoria (Anúncio 📺)
+                                <button class="nt-opt-btn" id="vs-btn-redraw-cat-ad" style="margin: 0; padding: 12px; font-weight: 700; background: #FFF3E0; border: 2px solid #FF9800; color: #E65100; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                                    🎰 Outra Categoria ([ANÚNCIO] 📺)
                                 </button>
                                 <button class="nt-opt-btn" id="vs-btn-redraw-cat-coins" style="margin: 0; padding: 12px; font-weight: 700; background: rgba(0,0,0,0.05); border: 2px dashed rgba(0,0,0,0.15); display: flex; align-items: center; justify-content: center; gap: 8px;">
                                     🪙 Outra Categoria (20 Moedas)
@@ -3995,6 +4461,11 @@ function showVSFinalResult(roomData, role) {
         </div>`,
         actions:[
             {label:'🔄 Jogar Novamente', class:'modal-btn-success', id: 'btn-vs-rematch', onClick: async () => {
+                await showInterstitialAd();
+                if (!gameState.vsUnlocked && (gameState.freeMatchesLeft === undefined ? 3 : gameState.freeMatchesLeft) <= 0) {
+                    showVSPaywall();
+                    return;
+                }
                 if (gameState.energy <= 0) {
                     showOutOfEnergyModal();
                     return;
@@ -4083,6 +4554,7 @@ function showVSFinalResult(roomData, role) {
 
 // ===== NOME TERRA MODE =====
 let ntRoomState = null;
+let ntTempVotes = {};
 let ntUnsubscribe = null;
 let ntTimerInterval = null;
 let ntTimeElapsed = 0;
@@ -4216,20 +4688,20 @@ function openNomeTerraLobby() {
         });
         return;
     }
-    if (!gameState.vsUnlocked) {
-        showVSPaywall();
-        return;
-    }
-
     showScreen('nt-lobby', (c) => {
         currentScreen = 'nt-lobby';
         hideQuizControls();
+        const freePlays = gameState.freeMatchesLeft !== undefined ? gameState.freeMatchesLeft : 3;
+        const badgeHtml = gameState.vsUnlocked 
+            ? `<div class="vs-badge-unlocked"><i class="fas fa-crown"></i> Acesso Ilimitado</div>`
+            : `<div class="vs-badge-free"><i class="fas fa-play-circle"></i> ${freePlays} Jogadas Grátis Restantes</div>`;
         c.innerHTML = `
             <div class="nt-lobby">
                 <div class="nt-lobby-header">
                     <div class="nt-lobby-icon">📝</div>
                     <h2 class="nt-lobby-title">Nome Terra - Stop</h2>
                     <p class="nt-lobby-sub">Preencha as categorias o mais rápido possível e grite STOP! Jogue com seus amigos.</p>
+                    ${badgeHtml}
                 </div>
                 
                 <div class="vs-lobby-rules" style="margin-top: 15px; text-align: left; padding: 14px; margin-bottom: 15px;">
@@ -4370,9 +4842,16 @@ function bindNTLobbyEvents(c) {
     if (startBtn) {
         startBtn.onclick = () => {
             playSound('button');
+            if (!gameState.vsUnlocked && (gameState.freeMatchesLeft === undefined ? 3 : gameState.freeMatchesLeft) <= 0) {
+                showVSPaywall();
+                return;
+            }
             if (gameState.energy <= 0) {
                 showOutOfEnergyModal();
                 return;
+            }
+            if (!gameState.vsUnlocked) {
+                gameState.freeMatchesLeft = Math.max(0, (gameState.freeMatchesLeft === undefined ? 3 : gameState.freeMatchesLeft) - 1);
             }
             gameState.energy--;
             updateHUD();
@@ -4471,8 +4950,8 @@ function runSinglePlayerLetterAnimation(chosenLetter) {
                         
                         <div style="display: flex; flex-direction: column; gap: 10px; width: 100%; max-width: 280px; margin: 0 auto;">
                             <button class="nt-start-btn" id="nt-btn-confirm-letter" style="background: linear-gradient(135deg, #2ecc71, #27ae60); margin: 0;">🚀 Começar Jogo</button>
-                            <button class="nt-opt-btn" id="nt-btn-redraw-ad" style="margin: 0; padding: 12px; font-weight: 700; background: rgba(0,0,0,0.05); border: 2px dashed rgba(0,0,0,0.15); display: flex; align-items: center; justify-content: center; gap: 8px;">
-                                🎰 Outra Letra (Anúncio 📺)
+                            <button class="nt-opt-btn" id="nt-btn-redraw-ad" style="margin: 0; padding: 12px; font-weight: 700; background: #FFF3E0; border: 2px solid #FF9800; color: #E65100; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                                🎰 Outra Letra ([ANÚNCIO] 📺)
                             </button>
                             <button class="nt-opt-btn" id="nt-btn-redraw-coins" style="margin: 0; padding: 12px; font-weight: 700; background: rgba(0,0,0,0.05); border: 2px dashed rgba(0,0,0,0.15); display: flex; align-items: center; justify-content: center; gap: 8px;">
                                 🪙 Outra Letra (20 Moedas)
@@ -4937,6 +5416,10 @@ function showNTSingleResults(dictionary) {
 }
 
 async function createNTRoom(difficulty, letterMode, manualLetter) {
+    if (!gameState.vsUnlocked && (gameState.freeMatchesLeft === undefined ? 3 : gameState.freeMatchesLeft) <= 0) {
+        showVSPaywall();
+        return;
+    }
     if (gameState.energy <= 0) {
         showOutOfEnergyModal();
         return;
@@ -4980,6 +5463,11 @@ async function createNTRoom(difficulty, letterMode, manualLetter) {
         });
         showLoading(false);
         showNTWaitingRoom(code, 'host');
+        if (ntRoomState) {
+            ntRoomState.difficulty = difficulty;
+            ntRoomState.letterMode = letterMode;
+            ntRoomState.letter = chosenLetter;
+        }
     } catch(e) {
         console.error('Error creating Nome Terra room:', e);
         showLoading(false);
@@ -5005,6 +5493,10 @@ function showNTJoinRoom() {
 }
 
 async function joinNTRoom(code) {
+    if (!gameState.vsUnlocked && (gameState.freeMatchesLeft === undefined ? 3 : gameState.freeMatchesLeft) <= 0) {
+        showVSPaywall();
+        return;
+    }
     if (gameState.energy <= 0) {
         showOutOfEnergyModal();
         return;
@@ -5035,6 +5527,11 @@ async function joinNTRoom(code) {
         
         showLoading(false);
         showNTWaitingRoom(code, 'guest');
+        if (ntRoomState) {
+            ntRoomState.difficulty = data.difficulty;
+            ntRoomState.letterMode = data.letterMode;
+            ntRoomState.letter = data.letter;
+        }
     } catch (e) {
         console.error('Error joining NT room:', e);
         showLoading(false);
@@ -5080,7 +5577,20 @@ function showNTWaitingRoom(code, role) {
         };
         
         document.getElementById('nt-share-whatsapp').onclick = () => {
-            const msg = `📝 *QuizMoz — Nome Terra (Stop)*\n\nEntra na minha sala com o código:\n\n══ 🔑 *${code}* ══\n\nAbre o QuizMoz → Nome Terra → Entrar na Sala`;
+            const diffLabels = { easy: 'Fácil (8)', normal: 'Normal (12)', hard: 'Difícil (20)' };
+            const modeLabels = { random: '🎲 Roleta Aleatória', manual: '👤 Escolha Manual' };
+            
+            const diffStr = diffLabels[ntRoomState.difficulty] || ntRoomState.difficulty || 'Normal';
+            const modeStr = modeLabels[ntRoomState.letterMode] || ntRoomState.letterMode || 'Aleatório';
+            
+            let configInfo = `\n\n⚙️ *Configurações da Sala:*`;
+            configInfo += `\n- ⚡ Dificuldade: *${diffStr}*`;
+            configInfo += `\n- 🎰 Sorteio: *${modeStr}*`;
+            if (ntRoomState.letterMode === 'manual' && ntRoomState.letter) {
+                configInfo += ` (Letra: *${ntRoomState.letter}*)`;
+            }
+            
+            const msg = `📝 *QuizMoz — Nome Terra (Stop)*\n\nEntra na minha sala com o código:\n\n══ 🔑 *${code}* ══${configInfo}\n\nAbre o QuizMoz → Nome Terra → Entrar na Sala`;
             const url = `https://wa.me/?text=${encodeURIComponent(msg)}`;
             if (window.Capacitor?.Plugins?.Browser) window.Capacitor.Plugins.Browser.open({ url });
             else window.open(url, '_blank');
@@ -5093,6 +5603,14 @@ function showNTWaitingRoom(code, role) {
     ntUnsubscribe = onSnapshot(roomRef, (snap) => {
         if (!snap.exists()) { leaveNTRoom('Sala encerrada pelo Chefe 👑.'); return; }
         const d = snap.data();
+        
+        const letterChanged = ntRoomState && ntRoomState.letter && ntRoomState.letter !== d.letter;
+        
+        if (ntRoomState) {
+            ntRoomState.difficulty = d.difficulty;
+            ntRoomState.letterMode = d.letterMode;
+            ntRoomState.letter = d.letter;
+        }
         
         if (d.status === 'waiting' && currentScreen === 'nt-results') {
             if (gameState.energy <= 0) {
@@ -5118,8 +5636,13 @@ function showNTWaitingRoom(code, role) {
                             const parts = r.emoji.split(':');
                             const cat = parts[1];
                             const ans = parts[2];
-                            const senderName = d.players.find(p => p.uid === r.uid)?.name || 'Um jogador';
-                            showAppealAlert(senderName, cat, ans, r.uid);
+                            const votesKey = `${r.uid}_${cat}`;
+                            const existingVotes = d.votes ? (d.votes[votesKey] || {}) : {};
+                            const alreadyVoted = existingVotes[auth.currentUser.uid] !== undefined;
+                            if (!alreadyVoted) {
+                                const senderName = d.players.find(p => p.uid === r.uid)?.name || 'Um jogador';
+                                showAppealAlert(senderName, cat, ans, r.uid);
+                            }
                         } else {
                             triggerReactionAnimation(r.uid, r.emoji);
                         }
@@ -5130,6 +5653,7 @@ function showNTWaitingRoom(code, role) {
         
         if (ntRoomState) {
             ntRoomState.latestPlayers = d.players;
+            ntRoomState.latestRoomData = d;
         }
 
         const listEl1 = document.getElementById('nt-answers-players-list-1');
@@ -5151,12 +5675,29 @@ function showNTWaitingRoom(code, role) {
         const listEl = document.getElementById('nt-players-list');
         if (countEl) countEl.textContent = d.players.length;
         if (listEl) {
-            listEl.innerHTML = d.players.map(p => `
-                <li style="padding: 10px; border-bottom: 1px solid rgba(0,0,0,0.05); display: flex; justify-content: space-between; font-weight: 700; color: var(--text);">
-                    <span>👤 ${p.name} ${p.uid === d.hostId ? '👑 (Chefe)' : ''}</span>
-                    <span style="color:#2ecc71;">Pronto ✓</span>
-                </li>
-            `).join('');
+            listEl.innerHTML = d.players.map(p => {
+                const wins = p.wins || 0;
+                let trophyBadge = '';
+                if (wins > 0) {
+                    trophyBadge = `<span style="color:#f1c40f; margin-left: 8px;">${'🏆'.repeat(wins)}</span>`;
+                }
+                return `
+                    <li class="nt-lobby-player-row" data-uid="${p.uid}" style="padding: 12px; border-bottom: 1px solid rgba(0,0,0,0.05); display: flex; justify-content: space-between; font-weight: 700; color: var(--text); cursor: pointer; background: rgba(0,0,0,0.01); margin-bottom: 6px; border-radius: 10px; transition: background 0.2s;">
+                        <span>👤 ${p.name} ${p.uid === d.hostId ? '👑 (Chefe)' : ''}${trophyBadge}</span>
+                        <span style="color:#2ecc71;">Pronto ✓</span>
+                    </li>
+                `;
+            }).join('');
+            
+            d.players.forEach(p => {
+                const row = listEl.querySelector(`[data-uid="${p.uid}"]`);
+                if (row) {
+                    row.onclick = () => {
+                        playSound('button');
+                        showNTRoomPlayerProfile(p);
+                    };
+                }
+            });
         }
         
         const startBtn = document.getElementById('nt-start-multi-btn');
@@ -5175,6 +5716,9 @@ function showNTWaitingRoom(code, role) {
                     if (gameState.energy <= 0) {
                         showOutOfEnergyModal();
                         return;
+                    }
+                    if (!gameState.vsUnlocked) {
+                        gameState.freeMatchesLeft = Math.max(0, (gameState.freeMatchesLeft === undefined ? 3 : gameState.freeMatchesLeft) - 1);
                     }
                     gameState.energy--;
                     updateHUD();
@@ -5197,10 +5741,18 @@ function showNTWaitingRoom(code, role) {
                 
                 // Guest energy check & deduction
                 if (role !== 'host') {
+                    if (!gameState.vsUnlocked && (gameState.freeMatchesLeft === undefined ? 3 : gameState.freeMatchesLeft) <= 0) {
+                        showVSPaywall();
+                        leaveNTRoom();
+                        return;
+                    }
                     if (gameState.energy <= 0) {
                         showOutOfEnergyModal();
                         leaveNTRoom();
                         return;
+                    }
+                    if (!gameState.vsUnlocked) {
+                        gameState.freeMatchesLeft = Math.max(0, (gameState.freeMatchesLeft === undefined ? 3 : gameState.freeMatchesLeft) - 1);
                     }
                     gameState.energy = Math.max(0, gameState.energy - 1);
                     updateHUD();
@@ -5231,8 +5783,7 @@ function showNTWaitingRoom(code, role) {
             }
             
             // If letter changed during waiting/playing state (redraw), re-run roulette
-            if (ntRoomState && ntRoomState.letter !== d.letter) {
-                ntRoomState.letter = d.letter;
+            if (letterChanged) {
                 showNTRouletteScreen(code, d.letter);
             }
         }
@@ -5283,6 +5834,8 @@ function showNTWaitingRoom(code, role) {
             if (ntRoomState && !ntRoomState.shownFinalResults) {
                 ntRoomState.shownFinalResults = true;
                 showNTMultiplayerFinalResults(d);
+            } else {
+                updateNTResultsScores(d);
             }
         }
     });
@@ -5546,6 +6099,15 @@ async function gradeMultiplayerRound(code, players, letter, categories) {
             }
         });
 
+        // Increment victories (wins) for the player(s) with the highest score in this round
+        gradedPlayers.forEach(p => {
+            if (p.score === maxScore && maxScore > 0) {
+                p.wins = (p.wins || 0) + 1;
+            } else {
+                p.wins = p.wins || 0;
+            }
+        });
+
         const roomRef = doc(db, 'nome_terra_rooms', code);
         const updates = {
             players: gradedPlayers,
@@ -5614,6 +6176,9 @@ function showNTMultiplayerFinalResults(roomData) {
         ntRoomState.rewardsApplied = true;
         gameState.coins += coinsEarned;
         gameState.exp += xpEarned;
+        if (amIWinner) {
+            gameState.nomeTerraWins = (gameState.nomeTerraWins || 0) + 1;
+        }
         saveState();
         syncFirestore();
     }
@@ -5664,13 +6229,21 @@ function showNTMultiplayerFinalResults(roomData) {
                         }
                         const isPlayerWinner = winners.some(w => w.uid === p.uid);
                         const pXP = isPlayerWinner ? 30 : 10;
+                        const wins = p.wins || 0;
+                        let trophies = '';
+                        if (wins > 0) {
+                            trophies = `<div style="color:#f1c40f; font-size: 1.1em; margin-top: 4px; display: flex; justify-content: center; gap: 2px;">${'🏆'.repeat(wins)}</div>`;
+                        } else {
+                            trophies = `<div style="color:var(--text-dim); font-size: 0.75em; margin-top: 4px; font-style: italic;">Sem vitórias</div>`;
+                        }
                         
                         return `
-                            <div class="vs-final-player ${isPlayerWinner ? 'winner' : ''}" id="nt-result-card-${p.uid}" style="padding: 10px 5px; position: relative; overflow: visible;">
+                            <div class="vs-final-player ${isPlayerWinner ? 'winner' : ''}" id="nt-result-card-${p.uid}" style="padding: 10px 5px; position: relative; overflow: visible; cursor: pointer;">
                                 <div class="vs-final-avatar">${isPlayerWinner ? '🏆' : '👤'}</div>
                                 <div class="vs-final-pname" style="font-size: 0.9em; max-width: 90px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${p.name}</div>
-                                <div class="vs-final-pscore" id="nt-p-ticker-${idx}">0</div>
+                                <div class="vs-final-pscore" id="nt-p-ticker-${p.uid}">0</div>
                                 <div class="vs-final-rounds" style="font-size: 0.75em; color: var(--text-dim);">pontos</div>
+                                ${trophies}
                                 <div style="margin-top: 6px; font-size: 0.75em; font-weight: 800; color: #2ecc71; background: rgba(46,204,113,0.1); padding: 2px 4px; border-radius: 6px; display: inline-block;">
                                     🪙 +${pCoins} | ⭐ +${pXP}
                                 </div>
@@ -5695,13 +6268,20 @@ function showNTMultiplayerFinalResults(roomData) {
         
         document.getElementById('nt-btn-show-papers').onclick = () => {
             playSound('button');
-            showNTPapersModal(roomData);
+            ntTempVotes = {}; // Reset temp votes
+            const currentData = (ntRoomState && ntRoomState.latestRoomData) ? ntRoomState.latestRoomData : roomData;
+            showNTPapersModal(currentData);
         };
 
-        document.getElementById('nt-btn-lobby-rematch').onclick = () => {
+        document.getElementById('nt-btn-lobby-rematch').onclick = async () => {
             playSound('button');
+            await showInterstitialAd();
             const currentIsHost = (roomData.hostId === auth.currentUser.uid);
             if (currentIsHost) {
+                if (!gameState.vsUnlocked && (gameState.freeMatchesLeft === undefined ? 3 : gameState.freeMatchesLeft) <= 0) {
+                    showVSPaywall();
+                    return;
+                }
                 if (gameState.energy <= 0) {
                     showOutOfEnergyModal();
                     return;
@@ -5719,8 +6299,16 @@ function showNTMultiplayerFinalResults(roomData) {
 
         // Start tickers and coin flying
         setTimeout(() => {
-            roomData.players.forEach((p, idx) => {
-                animatePointsTicker(`nt-p-ticker-${idx}`, p.score);
+            roomData.players.forEach((p) => {
+                animatePointsTicker(`nt-p-ticker-${p.uid}`, p.score);
+                
+                const card = document.getElementById(`nt-result-card-${p.uid}`);
+                if (card) {
+                    card.onclick = () => {
+                        playSound('button');
+                        showNTRoomPlayerProfile(p);
+                    };
+                }
             });
             
             const reactionBtnContainer = document.getElementById('nt-reaction-bar-buttons');
@@ -5776,6 +6364,109 @@ function showNTMultiplayerFinalResults(roomData) {
     });
 }
 
+function showNTRoomPlayerProfile(player) {
+    const wins = player.wins || 0;
+    let trophiesHtml = '';
+    for (let i = 0; i < wins; i++) {
+        trophiesHtml += '<span style="font-size: 2.2em; margin: 0 4px; filter: drop-shadow(0 2px 4px rgba(243,156,18,0.3)); animation: popIn 0.3s ease;">🏆</span>';
+    }
+    if (wins === 0) {
+        trophiesHtml = '<div style="color:var(--text-dim);font-style:italic;">Nenhuma vitória nesta partida ainda.</div>';
+    }
+    
+    showModal({
+        circleIcon: '👤',
+        circleType: 'info',
+        title: `Perfil: ${player.name}`,
+        centered: true,
+        html: `
+            <div style="text-align:center; padding: 10px 0;">
+                <div style="font-size: 1.1em; font-weight: 700; margin-bottom: 12px; color:var(--text);">Vitórias nesta partida:</div>
+                <div style="display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:8px; min-height: 50px;">
+                    ${trophiesHtml}
+                </div>
+                <div style="font-size: 0.85em; color:var(--text-dim); margin-top: 15px;">
+                    Sala: <strong>${ntRoomState?.code || ''}</strong> • ${wins} ${wins === 1 ? 'vitória' : 'vitórias'}
+                </div>
+            </div>
+        `,
+        actions: [{label: 'Fechar', class: 'modal-btn-primary', onClick: hideModal}]
+    });
+}
+
+function updateNTResultsScores(d) {
+    if (currentScreen !== 'nt-results' || !d.players) return;
+    
+    // Find winners
+    let maxScore = -1;
+    d.players.forEach(p => {
+        if (p.score > maxScore) maxScore = p.score;
+    });
+    const winners = d.players.filter(p => p.score === maxScore);
+    const isTie = winners.length > 1;
+    const amIWinner = winners.some(w => w.uid === auth.currentUser.uid);
+    const primaryWinner = winners[0];
+    const iWon = amIWinner && !isTie;
+    
+    let resultTitle = '🥈 FIM DE JOGO';
+    let resultDesc = `O vencedor e novo Chefe 👑 é <strong>${primaryWinner ? primaryWinner.name : 'Ninguém'}</strong> com <strong>${maxScore} pontos</strong>!`;
+    if (isTie) {
+        const winnerNames = winners.map(w => w.name).join(' e ');
+        resultTitle = '🤝 EMPATE!';
+        resultDesc = `Empate em 1º lugar entre <strong>${winnerNames}</strong> com <strong>${maxScore} pontos</strong>!<br>O novo Chefe 👑 é <strong>${primaryWinner ? primaryWinner.name : 'Ninguém'}</strong>.`;
+    } else if (iWon) {
+        resultTitle = '🎉 VITÓRIA!';
+    }
+    
+    // Update celebration details if DOM elements exist
+    const finalTitleEl = document.querySelector('.vs-final-title');
+    const finalDescEl = document.querySelector('.vs-final-desc');
+    if (finalTitleEl) finalTitleEl.textContent = resultTitle;
+    if (finalDescEl) finalDescEl.innerHTML = resultDesc;
+    
+    // Update each player card score and visual status
+    d.players.forEach((p) => {
+        const scoreEl = document.getElementById(`nt-p-ticker-${p.uid}`);
+        if (scoreEl) {
+            const currentScoreVal = parseInt(scoreEl.textContent) || 0;
+            if (currentScoreVal !== p.score) {
+                animatePointsTicker(`nt-p-ticker-${p.uid}`, p.score);
+            }
+        }
+        
+        const cardEl = document.getElementById(`nt-result-card-${p.uid}`);
+        if (cardEl) {
+            const isPlayerWinner = winners.some(w => w.uid === p.uid);
+            if (isPlayerWinner) {
+                cardEl.classList.add('winner');
+                const avatarEl = cardEl.querySelector('.vs-final-avatar');
+                if (avatarEl) avatarEl.textContent = '🏆';
+            } else {
+                cardEl.classList.remove('winner');
+                const avatarEl = cardEl.querySelector('.vs-final-avatar');
+                if (avatarEl) avatarEl.textContent = '👤';
+            }
+        }
+    });
+    
+    // Re-sort DOM elements in vs-final-scores-grid by score
+    const gridEl = document.querySelector('.vs-final-scores-grid');
+    if (gridEl) {
+        const cards = Array.from(gridEl.children);
+        cards.sort((a, b) => {
+            const aUid = a.id.replace('nt-result-card-', '');
+            const bUid = b.id.replace('nt-result-card-', '');
+            const aPlayer = d.players.find(p => p.uid === aUid);
+            const bPlayer = d.players.find(p => p.uid === bUid);
+            const aScore = aPlayer ? (aPlayer.score || 0) : 0;
+            const bScore = bPlayer ? (bPlayer.score || 0) : 0;
+            return bScore - aScore;
+        });
+        gridEl.innerHTML = '';
+        cards.forEach(card => gridEl.appendChild(card));
+    }
+}
+
 function showNTPapersModal(roomData) {
     const headerHtml = roomData.players.map(p => `
         <th id="nt-paper-header-${p.uid}" style="text-align: center; min-width: 100px; padding: 10px; color: var(--text); font-weight: 800; position: relative; overflow: visible;">👤 ${p.name}</th>
@@ -5809,12 +6500,17 @@ function showNTPapersModal(roomData) {
                     }
                 } else {
                     const myVote = existingVotes[auth.currentUser.uid];
+                    const myTempVote = ntTempVotes[votesKey];
+                    
                     if (myVote !== undefined) {
                         extraHtml = `<div style="font-size: 0.7em; color: #2ecc71; margin-top: 4px; font-weight: 700;">Votaste: +${myVote} pts</div>`;
+                    } else if (myTempVote !== undefined) {
+                        extraHtml = `<div style="font-size: 0.7em; color: #e67e22; margin-top: 4px; font-weight: 700;">Selecionado: +${myTempVote} pts ✅</div>`;
+                        cellAttrs = `onclick="openVotePopup('${p.uid}', '${p.name}', '${cat}', '${ans}')" style="cursor: pointer; background: rgba(230,126,34,0.05);"`;
                     } else {
                         extraHtml = `<div style="font-size: 0.7em; color: var(--primary); margin-top: 4px; font-weight: 700; text-decoration: underline;">🗳️ Clica para votar</div>`;
+                        cellAttrs = `onclick="openVotePopup('${p.uid}', '${p.name}', '${cat}', '${ans}')" style="cursor: pointer; background: rgba(0,0,0,0.02);"`;
                     }
-                    cellAttrs = `onclick="openVotePopup('${p.uid}', '${p.name}', '${cat}', '${ans}')" style="cursor: pointer; background: rgba(0,0,0,0.02);"`;
                 }
             }
             
@@ -5865,7 +6561,28 @@ function showNTPapersModal(roomData) {
         title: 'Caderno de Respostas',
         centered: true,
         html: tableHtml,
-        actions: [{ label: 'Fechar', class: 'modal-btn-gray', onClick: hideModal }]
+        actions: [
+            {
+                label: '🗳️ Votar',
+                class: 'modal-btn-success',
+                id: 'nt-btn-confirm-all-votes',
+                onClick: async () => {
+                    const btn = document.getElementById('nt-btn-confirm-all-votes');
+                    if (btn) {
+                        btn.disabled = true;
+                        btn.style.opacity = '0.5';
+                        btn.innerText = 'A processar...';
+                    }
+                    
+                    hideModal();
+                    if (Object.keys(ntTempVotes).length > 0) {
+                        showLoading(true, 'A submeter votos...');
+                        await submitAllTempVotes();
+                        showLoading(false);
+                    }
+                }
+            }
+        ]
     });
     
     // Bind paper reaction buttons and input
@@ -5922,7 +6639,8 @@ async function claimAppeal(cat, ans) {
     }
 }
 
-async function castVote(votedUid, cat, points) {
+async function submitAllTempVotes() {
+    if (!ntRoomState || !ntRoomState.code || Object.keys(ntTempVotes).length === 0) return;
     const roomRef = doc(db, 'nome_terra_rooms', ntRoomState.code);
     try {
         await runTransaction(db, async (transaction) => {
@@ -5931,35 +6649,44 @@ async function castVote(votedUid, cat, points) {
             const d = sfDoc.data();
             
             const votes = d.votes || {};
-            const key = `${votedUid}_${cat}`;
-            if (!votes[key]) votes[key] = {};
-            votes[key][auth.currentUser.uid] = points;
+            
+            // Apply all temporary votes
+            for (const [key, points] of Object.entries(ntTempVotes)) {
+                if (!votes[key]) votes[key] = {};
+                votes[key][auth.currentUser.uid] = points;
+            }
             
             const updatedPlayers = d.players.map(p => {
-                if (p.uid === votedUid) {
-                    let sum = 0;
-                    let count = 0;
-                    for (let voter in votes[key]) {
-                        if (voter !== votedUid) {
-                            sum += votes[key][voter];
-                            count++;
+                const newDetail = { ...(p.pointsDetail || {}) };
+                
+                d.categories.forEach(cat => {
+                    const key = `${p.uid}_${cat}`;
+                    if (votes[key]) {
+                        let sum = 0;
+                        let count = 0;
+                        for (let voter in votes[key]) {
+                            if (voter !== p.uid) {
+                                sum += votes[key][voter];
+                                count++;
+                            }
+                        }
+                        if (count > 0) {
+                            newDetail[cat] = Math.round(sum / count);
                         }
                     }
-                    const finalPts = count > 0 ? Math.round(sum / count) : 0;
-                    
-                    const currentPts = p.pointsDetail ? (p.pointsDetail[cat] || 0) : 0;
-                    const diff = finalPts - currentPts;
-                    
-                    const newDetail = { ...(p.pointsDetail || {}) };
-                    newDetail[cat] = finalPts;
-                    
-                    return {
-                        ...p,
-                        pointsDetail: newDetail,
-                        score: (p.score || 0) + diff
-                    };
-                }
-                return p;
+                });
+                
+                // Sum overall score
+                let totalScore = 0;
+                d.categories.forEach(cat => {
+                    totalScore += newDetail[cat] || 0;
+                });
+                
+                return {
+                    ...p,
+                    pointsDetail: newDetail,
+                    score: totalScore
+                };
             });
             
             transaction.update(roomRef, {
@@ -5967,25 +6694,68 @@ async function castVote(votedUid, cat, points) {
                 players: updatedPlayers
             });
         });
+        
+        // Reset temp votes after successfully committing
+        ntTempVotes = {};
     } catch (e) {
-        console.error('Error casting vote:', e);
+        console.error('Error submitting all votes:', e);
+        showCombo('Erro ao registar os votos! ❌');
     }
 }
 
 function openVotePopup(playerUid, playerName, category, answer) {
     playSound('click');
+    const votesKey = `${playerUid}_${category}`;
+    const currentTempVote = ntTempVotes[votesKey];
+    
+    const modalHtml = `
+        <div style="text-align: left; margin-bottom: 15px;">
+            <p style="margin-bottom: 12px; color: var(--text);">Votar na resposta <strong>"${answer}"</strong> de <strong>${playerName}</strong> para a categoria <strong>"${category}"</strong>.</p>
+            <p style="font-weight: 700; font-size: 0.9em; margin-bottom: 8px; color: var(--text-dim);">Como você avalia esta resposta?</p>
+            
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+                <label style="display: flex; align-items: center; gap: 10px; background: var(--card-bg); border: 1px solid rgba(0,0,0,0.1); padding: 10px 14px; border-radius: 12px; cursor: pointer; font-weight: 600;">
+                    <input type="radio" name="nt-vote-option" value="1" ${(currentTempVote === 1 || currentTempVote === undefined) ? 'checked' : ''} style="width: 18px; height: 18px; accent-color: var(--primary);">
+                    <span>👍 +1 Ponto</span>
+                </label>
+                <label style="display: flex; align-items: center; gap: 10px; background: var(--card-bg); border: 1px solid rgba(0,0,0,0.1); padding: 10px 14px; border-radius: 12px; cursor: pointer; font-weight: 600;">
+                    <input type="radio" name="nt-vote-option" value="3" ${currentTempVote === 3 ? 'checked' : ''} style="width: 18px; height: 18px; accent-color: var(--primary);">
+                    <span>🌟 +3 Pontos</span>
+                </label>
+                <label style="display: flex; align-items: center; gap: 10px; background: var(--card-bg); border: 1px solid rgba(0,0,0,0.1); padding: 10px 14px; border-radius: 12px; cursor: pointer; font-weight: 600;">
+                    <input type="radio" name="nt-vote-option" value="5" ${currentTempVote === 5 ? 'checked' : ''} style="width: 18px; height: 18px; accent-color: var(--primary);">
+                    <span>🏆 +5 Pontos</span>
+                </label>
+                <label style="display: flex; align-items: center; gap: 10px; background: var(--card-bg); border: 1px solid rgba(0,0,0,0.1); padding: 10px 14px; border-radius: 12px; cursor: pointer; font-weight: 600;">
+                    <input type="radio" name="nt-vote-option" value="0" ${currentTempVote === 0 ? 'checked' : ''} style="width: 18px; height: 18px; accent-color: var(--primary);">
+                    <span>❌ Rejeitar</span>
+                </label>
+            </div>
+        </div>
+    `;
+    
     showModal({
         circleIcon: '<i class="fas fa-vote-yea"></i>',
         circleType: 'info',
         title: 'Votação de Resposta',
         centered: true,
-        desc: `Votar na resposta "${answer}" de ${playerName} para a categoria "${category}":`,
+        html: modalHtml,
         actions: [
-            { label: '👍 +1 Ponto', class: 'modal-btn-outline', onClick: () => submitVoteAndRefresh(playerUid, category, 1) },
-            { label: '🌟 +3 Pontos', class: 'modal-btn-outline', onClick: () => submitVoteAndRefresh(playerUid, category, 3) },
-            { label: '🏆 +5 Pontos', class: 'modal-btn-success', onClick: () => submitVoteAndRefresh(playerUid, category, 5) },
-            { label: '❌ Rejeitar', class: 'modal-btn-danger', onClick: () => submitVoteAndRefresh(playerUid, category, 0) },
-            { label: 'Voltar', class: 'modal-btn-gray', onClick: () => reopenPapersModal() }
+            {
+                label: 'Confirmar ✅',
+                class: 'modal-btn-success',
+                onClick: () => {
+                    const selectedOpt = document.querySelector('input[name="nt-vote-option"]:checked');
+                    const points = selectedOpt ? parseInt(selectedOpt.value) : 0;
+                    ntTempVotes[votesKey] = points;
+                    reopenPapersModal();
+                }
+            },
+            {
+                label: 'Voltar',
+                class: 'modal-btn-gray',
+                onClick: () => reopenPapersModal()
+            }
         ]
     });
 }
@@ -6011,42 +6781,7 @@ async function reopenPapersModal() {
 function showAppealAlert(senderName, cat, ans, senderUid) {
     if (senderUid === auth.currentUser.uid) return;
     playSound('victory');
-    
-    let container = document.getElementById('nt-appeal-alerts-container');
-    if (!container) {
-        container = document.createElement('div');
-        container.id = 'nt-appeal-alerts-container';
-        container.style.cssText = 'position: fixed; top: 20px; left: 50%; transform: translateX(-50%); z-index: 11000; width: 90%; max-width: 360px; display: flex; flex-direction: column; gap: 10px; pointer-events: none;';
-        document.body.appendChild(container);
-    }
-    
-    const alertEl = document.createElement('div');
-    alertEl.style.cssText = 'background: linear-gradient(135deg, #e67e22, #d35400); color: white; padding: 12px 16px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); pointer-events: auto; display: flex; flex-direction: column; gap: 8px; animation: slideInAlert 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards; font-family: "Quicksand", sans-serif;';
-    alertEl.innerHTML = `
-        <div style="display: flex; align-items: center; gap: 8px;">
-            <span style="font-size: 1.3em;">📣</span>
-            <div style="font-size: 0.9em; font-weight: 700; line-height: 1.2;">
-                <strong>${senderName}</strong> pede votos para a resposta <span style="text-decoration: underline;">"${ans}"</span> na categoria <strong>${cat}</strong>!
-            </div>
-        </div>
-        <button class="nt-appeal-action-btn" style="background: white; color: #d35400; border: none; border-radius: 20px; padding: 6px 12px; font-weight: 700; font-size: 0.8em; cursor: pointer; outline: none; transition: transform 0.2s;">
-            🗳️ Ver Caderno e Votar
-        </button>
-    `;
-    
-    alertEl.querySelector('.nt-appeal-action-btn').onclick = () => {
-        alertEl.remove();
-        reopenPapersModal();
-    };
-    
-    container.appendChild(alertEl);
-    
-    setTimeout(() => {
-        alertEl.style.animation = 'slideOutAlert 0.4s ease forwards';
-        setTimeout(() => {
-            alertEl.remove();
-        }, 400);
-    }, 7000);
+    openVotePopup(senderUid, senderName, cat, ans);
 }
 
 window.claimAppeal = claimAppeal;
@@ -6220,6 +6955,171 @@ async function leaveNTRoom(msg) {
     ntRoomState = null;
     if (msg) showCombo(msg);
     openNomeTerraLobby();
+}
+
+// ===== MASCOT AND PAUSE UPDATES =====
+let mascotBubbleTimeout = null;
+
+const MASCOT_PHRASES = {
+    question: [
+        "Você não vai errar isso, ${nome}!",
+        "Essa é fácil, não seja 🐴😅",
+        "Vê um anúncio, mas não erra essa 🙏",
+        "Mano ${nome}, não dorme na linha! Foca! 🇲🇿",
+        "Presta atenção ${nome}, não deves dar maningue falhar!",
+        "Esta pergunta é maningue fácil, mano!",
+        "Se errares esta, vais me pagar um baji! 😋",
+        "Eish, ${nome}, vais mesmo vacilar com esta? 🧐"
+    ],
+    correct: [
+        "Isso mesmo, mano! 🥳",
+        "Génio absoluto, ${nome}! 🔥",
+        "Sabes muito, mazza! 😎",
+        "Assim sim! Deu orgulho! 🇲🇿",
+        "Aí sim, ${nome}! Estás afiado! 🤪"
+    ],
+    wrong: [
+        "Eish, mano... 😢",
+        "A sério, ${nome}? 😞",
+        "Que azar, dormiste na linha! 😭",
+        "Vais pagar o baji! 😋",
+        "Eish, essa doeu... 🤕"
+    ],
+    timeout: [
+        "O tempo fugiu, mano! ⏰",
+        "Dormiste na linha! 😴",
+        "Eish, tempo esgotado! 🥶"
+    ]
+};
+
+function showMascot() {
+    const mascot = document.getElementById('mascot-container');
+    if (mascot) {
+        mascot.style.display = 'flex';
+        mascot.className = 'mascot-container mascot-right';
+        const emojiEl = document.getElementById('mascot-emoji');
+        if (emojiEl) emojiEl.textContent = '🧐';
+        const bubble = document.getElementById('mascot-bubble');
+        if (bubble) bubble.classList.remove('pop');
+    }
+}
+
+function hideMascot() {
+    const mascot = document.getElementById('mascot-container');
+    if (mascot) {
+        mascot.style.display = 'none';
+    }
+    if (mascotBubbleTimeout) {
+        clearTimeout(mascotBubbleTimeout);
+        mascotBubbleTimeout = null;
+    }
+}
+
+function mascotTrigger(event) {
+    const mascot = document.getElementById('mascot-container');
+    if (!mascot || mascot.style.display === 'none') return;
+
+    const emojiEl = document.getElementById('mascot-emoji');
+    const bubbleEl = document.getElementById('mascot-bubble');
+    const bubbleTextEl = document.getElementById('mascot-bubble-text');
+
+    if (!emojiEl || !bubbleEl || !bubbleTextEl) return;
+
+    if (mascotBubbleTimeout) {
+        clearTimeout(mascotBubbleTimeout);
+        mascotBubbleTimeout = null;
+    }
+
+    let emoji = '🧐';
+    let text = '';
+    const name = gameState.playerName || 'Jogador';
+
+    switch (event) {
+        case 'question':
+            if (Math.random() < 0.6) {
+                emoji = Math.random() < 0.5 ? '🧐' : '🤔';
+                const list = MASCOT_PHRASES.question;
+                text = list[Math.floor(Math.random() * list.length)].replace(/\$\{nome\}/g, name);
+            }
+            break;
+        case 'correct':
+            const happyEmojis = ['🥳', '😎', '🤪', '🥰', '🙌'];
+            emoji = happyEmojis[Math.floor(Math.random() * happyEmojis.length)];
+            const listC = MASCOT_PHRASES.correct;
+            text = listC[Math.floor(Math.random() * listC.length)].replace(/\$\{nome\}/g, name);
+            break;
+        case 'wrong':
+            const sadEmojis = ['😢', '😞', '😭', '🥶', '🤕'];
+            emoji = sadEmojis[Math.floor(Math.random() * sadEmojis.length)];
+            const listW = MASCOT_PHRASES.wrong;
+            text = listW[Math.floor(Math.random() * listW.length)].replace(/\$\{nome\}/g, name);
+            break;
+        case 'timeout':
+            const timeoutEmojis = ['😴', '🥶', '🤕'];
+            emoji = timeoutEmojis[Math.floor(Math.random() * timeoutEmojis.length)];
+            const listT = MASCOT_PHRASES.timeout;
+            text = listT[Math.floor(Math.random() * listT.length)].replace(/\$\{nome\}/g, name);
+            break;
+    }
+
+    if (emoji) {
+        emojiEl.textContent = emoji;
+    }
+
+    if (text) {
+        bubbleTextEl.innerHTML = text;
+        bubbleEl.classList.add('pop');
+        mascotBubbleTimeout = setTimeout(() => {
+            bubbleEl.classList.remove('pop');
+        }, 4000);
+    } else {
+        bubbleEl.classList.remove('pop');
+    }
+}
+
+async function pauseGame() {
+    if (!gameState.currentQuiz || gameState.currentQuiz.isPaused) return;
+    playSound('button');
+    gameState.currentQuiz.isPaused = true;
+    
+    showModal({
+        icon: '⏸️',
+        title: 'Jogo Pausado',
+        desc: 'O teu jogo foi suspenso temporariamente.',
+        closeable: false,
+        actions: [
+            {
+                label: '▶️ Retomar Jogo',
+                class: 'modal-btn-success',
+                onClick: () => {
+                    hideModal();
+                    if (gameState.currentQuiz) {
+                        gameState.currentQuiz.isPaused = false;
+                    }
+                }
+            },
+            {
+                label: '[ANÚNCIO] 📺 Ver Anúncio (+5 🪙)',
+                class: 'modal-btn-warning',
+                onClick: async () => {
+                    hideModal();
+                    executeRewardedAd('pause_coins');
+                }
+            },
+            {
+                label: '⬅️ Abandonar Quiz',
+                class: 'modal-btn-danger',
+                onClick: () => {
+                    hideModal();
+                    clearInterval(timerInterval);
+                    const cId = gameState.currentQuiz.classId;
+                    gameState.currentQuiz = null;
+                    saveState();
+                    goDisciplines(cId, classesData[cId]?.name || '');
+                }
+            }
+        ]
+    });
 }
 
 

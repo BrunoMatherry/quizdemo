@@ -8,6 +8,9 @@ export function showScreen(screenId, render) {
     main.innerHTML = '';
     if (render) render(main);
     main.scrollTop = 0;
+    if (window.triggerScreenTransitionAd) {
+        window.triggerScreenTransitionAd(screenId);
+    }
 }
 
 // ===== LOADING SCREEN =====
@@ -143,7 +146,7 @@ export function renderWelcome(container) {
                 <div class="nickname-char-hint">2 a 20 caracteres · sem símbolos especiais</div>
                 <button class="btn-enter-game" id="btn-start-journey">🚀 Entrar no Jogo!</button>
             </div>
-            <button class="btn-ad-coins" id="btn-ad-coins">📺 Ver Anúncio → Ganhar 🪙 +10 Moedas</button>
+            <button class="btn-ad-coins" id="btn-ad-coins" style="border: 2px solid #FF9800; background: #FFF3E0; color: #E65100; font-weight: 800;">[ANÚNCIO] 📺 Ver Vídeo → Ganhar 🪙 +10 Moedas</button>
         </div>
     `;
 }
@@ -237,7 +240,7 @@ export function renderClasses(container) {
         <div class="vs-mode-entry" id="vs-mode-entry-btn">
             <div class="vs-entry-glow"></div>
             <div class="vs-entry-content">
-                <div class="vs-entry-icon">⚔️</div>
+                <div class="vs-entry-icon"><img src="/roleta_icon.png" alt="QuizRoleta"></div>
                 <div class="vs-entry-text">
                     <strong>QuizRoleta (Modo V/S) — Desafie um Amigo!</strong>
                     <span>Batalha de Quiz em tempo real · Melhor de 3</span>
@@ -248,7 +251,7 @@ export function renderClasses(container) {
         <div class="vs-mode-entry-nt" id="vs-mode-entry-nt">
             <div class="nt-entry-glow"></div>
             <div class="nt-entry-content">
-                <div class="nt-entry-icon">📝</div>
+                <div class="nt-entry-icon"><img src="/nome_terra_icon.png" alt="Nome Terra"></div>
                 <div class="nt-entry-text">
                     <strong>Nome Terra - Stop</strong>
                     <span>Sorteie uma letra e responda o mais rápido possível · jogue com seus amigos</span>
@@ -592,10 +595,10 @@ export function renderCoinShop() {
     
     return `
         <div class="coin-shop">
-            <div class="coin-shop-ad" id="coin-buy-ad">
+            <div class="coin-shop-ad" id="coin-buy-ad" style="border: 2px solid #FF9800; background: #FFF3E0; color: #E65100;">
                 <div class="coin-ad-icon">📺</div>
                 <div class="coin-ad-text">
-                    <strong>Ver Anúncio Gratuito</strong>
+                    <strong>[ANÚNCIO] Ver Vídeo Publicitário</strong>
                     <span>Ganhar 🪙 +10 Moedas · Grátis!</span>
                 </div>
             </div>
@@ -608,11 +611,11 @@ export function renderCoinShop() {
                 </div>
             </div>
             ` : `
-            <div class="coin-shop-unlock-all" id="coin-unlock-all">
+            <div class="coin-shop-unlock-all" id="coin-unlock-all" style="border: 2px dashed #9c27b0;">
                 <div class="promo-sticker">🔥 PROMOÇÃO LIMITADA</div>
                 <div class="coin-unlock-icon">🔓</div>
                 <div class="coin-unlock-text">
-                    <strong>⭐ Desbloquear Tudo (Modos & Classes)</strong>
+                    <strong>[COMPRA NO JOGO] ⭐ Desbloquear Tudo (Modos & Classes)</strong>
                     <span>Todas as classes offline + Modo V/S + Nome Terra · 150 MT</span>
                     <span style="font-size:0.75em;color:#c62828;font-weight:800;margin-top:2px;display:block;">🔥 Promoção Especial — Poupe mais de 5000 🪙!</span>
                 </div>
@@ -621,27 +624,27 @@ export function renderCoinShop() {
             <p class="coin-shop-hint">Ou escolha um pacote e o método de pagamento</p>
             <div class="coin-package" id="coin-buy-100">
                 <div class="coin-pkg-icons">${coinIcons(1)}</div>
-                <div class="coin-pkg-info">100 Moedas</div>
+                <div class="coin-pkg-info">100 Moedas <span style="font-size:0.7em; background:#e74c3c; color:white; padding:2px 6px; border-radius:4px; margin-left:5px; font-weight:800;">[COMPRA]</span></div>
                 <div class="coin-pkg-price">10 MT</div>
             </div>
             <div class="coin-package" id="coin-buy-200">
                 <div class="coin-pkg-icons">${coinIcons(2)}</div>
-                <div class="coin-pkg-info">200 Moedas</div>
+                <div class="coin-pkg-info">200 Moedas <span style="font-size:0.7em; background:#e74c3c; color:white; padding:2px 6px; border-radius:4px; margin-left:5px; font-weight:800;">[COMPRA]</span></div>
                 <div class="coin-pkg-price">15 MT</div>
             </div>
             <div class="coin-package" id="coin-buy-500">
                 <div class="coin-pkg-icons">${coinIcons(3)}</div>
-                <div class="coin-pkg-info">500 Moedas</div>
+                <div class="coin-pkg-info">500 Moedas <span style="font-size:0.7em; background:#e74c3c; color:white; padding:2px 6px; border-radius:4px; margin-left:5px; font-weight:800;">[COMPRA]</span></div>
                 <div class="coin-pkg-price">30 MT</div>
             </div>
             <div class="coin-package" id="coin-buy-1000">
                 <div class="coin-pkg-icons">${coinIcons(4)}</div>
-                <div class="coin-pkg-info">1000 Moedas</div>
+                <div class="coin-pkg-info">1000 Moedas <span style="font-size:0.7em; background:#e74c3c; color:white; padding:2px 6px; border-radius:4px; margin-left:5px; font-weight:800;">[COMPRA]</span></div>
                 <div class="coin-pkg-price">50 MT</div>
             </div>
             <div class="coin-package" id="coin-buy-5000">
                 <div class="coin-pkg-icons">${coinIcons(6)}</div>
-                <div class="coin-pkg-info">5000 Moedas</div>
+                <div class="coin-pkg-info">5000 Moedas <span style="font-size:0.7em; background:#e74c3c; color:white; padding:2px 6px; border-radius:4px; margin-left:5px; font-weight:800;">[COMPRA]</span></div>
                 <div class="coin-pkg-price">120 MT</div>
             </div>
             <div class="payment-methods" id="payment-methods" style="display:none;">
