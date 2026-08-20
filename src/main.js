@@ -1750,11 +1750,19 @@ async function processUnlockAllPayment(method) {
                     } else {
                         const errMsg = data?.message || data?.error || data?.data?.message || 'Resposta inválida';
                         const errDetail = JSON.stringify(data).substring(0, 200);
-                        showPaymentError(`${errMsg}\n\nDetalhes: ${errDetail}`, method);
+                        if (method === 'emola') {
+                            showEmolaLinkFallbackModal('unlock_all', null, price, phone);
+                        } else {
+                            showPaymentError(`${errMsg}\n\nDetalhes: ${errDetail}`, method);
+                        }
                     }
                 } catch (e) {
                     showLoading(false);
-                    showPaymentError('Não foi possível contactar o servidor: ' + e.message, method);
+                    if (method === 'emola') {
+                        showEmolaLinkFallbackModal('unlock_all', null, price, phone);
+                    } else {
+                        showPaymentError('Não foi possível contactar o servidor: ' + e.message, method);
+                    }
                 }
             }},
             {label:'Cancelar', class:'modal-btn-gray', onClick: () => { hideModal(); if (gameState.currentQuiz) gameState.currentQuiz.isPaused = false; }}
@@ -1970,11 +1978,19 @@ async function processPaySuitePayment(method) {
                     } else {
                         const msg = (data && data.message) ? data.message : 'Resposta inválida do servidor';
                         const errDetail = JSON.stringify(data).substring(0, 200);
-                        showPaymentError(`${msg}\n\nDetalhes: ${errDetail}`, method);
+                        if (method === 'emola') {
+                            showEmolaLinkFallbackModal('coins', coins, price, phone);
+                        } else {
+                            showPaymentError(`${msg}\n\nDetalhes: ${errDetail}`, method);
+                        }
                     }
                 } catch (e) {
                     showLoading(false);
-                    showPaymentError('Não foi possível contactar o servidor: ' + e.message, method);
+                    if (method === 'emola') {
+                        showEmolaLinkFallbackModal('coins', coins, price, phone);
+                    } else {
+                        showPaymentError('Não foi possível contactar o servidor: ' + e.message, method);
+                    }
                 }
             }},
             {label:'Cancelar', class:'modal-btn-gray', onClick: hideModal}
@@ -2170,6 +2186,208 @@ function showPaymentError(msg, method) {
             {label:'Voltar ao Jogo', class:'modal-btn-gray', onClick: hideModal}
         ]
     });
+}
+
+function showEmolaLinkFallbackModal(flowType, coins, price, originalPhone) {
+    showModal({
+        circleIcon: '<i class="fas fa-link"></i>',
+        circleType: 'info',
+        title: 'Tente pagar via Link!',
+        centered: true,
+        desc: `O serviço direto do e-Mola falhou ou está em manutenção.<br><br>Desejas gerar um <strong>Link Seguro da DebitoPay</strong> para concluir o pagamento de <strong>${price} MT</strong>?`,
+        actions: [
+            {
+                label: '📲 Criar Link',
+                class: 'modal-btn-success',
+                onClick: async () => {
+                    hideModal();
+                    showLoading(true, 'A gerar link de pagamento...');
+                    try {
+                        const reference = `QMZEML${Date.now()}`;
+                        const response = await fetch(PAYMENT_API, {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                            body: JSON.stringify({
+                                amount: price,
+                                reference: reference,
+                                description: coins ? `QuizMoz - ${coins} Moedas` : (price === 150 ? 'QuizMoz - Desbloquear Tudo' : 'QuizMoz - Modo V/S'),
+                                phone: originalPhone,
+                                method: 'emola_link'
+                            })
+                        });
+                        const data = await response.json();
+                        showLoading(false);
+                        const paymentId = data?.data?.id || data?.id;
+                        const checkoutUrl = data?.data?.checkout_url || data?.checkout_url || data?.url;
+                        if (paymentId && checkoutUrl) {
+                            showEmolaPayNowModal(flowType, coins, price, paymentId, checkoutUrl);
+                        } else {
+                            showPaymentError('Não foi possível gerar o link de pagamento. Tente novamente.', 'emola');
+                        }
+                    } catch (e) {
+                        showLoading(false);
+                        showPaymentError('Erro ao comunicar com o servidor: ' + e.message, 'emola');
+                    }
+                }
+            },
+            {
+                label: 'Cancelar',
+                class: 'modal-btn-gray',
+                onClick: hideModal
+            }
+        ]
+    });
+}
+
+function showEmolaPayNowModal(flowType, coins, price, paymentId, checkoutUrl) {
+    showModal({
+        icon: '📲',
+        title: 'Pagar agora',
+        centered: true,
+        html: `
+            <div class="pay-now-section">
+                <p>Clique em <strong>Abrir Pagamento</strong> para pagar via e-Mola (DebitoPay Link).</p>
+                <p class="pay-now-hint">Após pagar no navegador, volte ao jogo e clique em <strong>Já Paguei</strong>.</p>
+            </div>
+        `,
+        actions: [
+            {
+                label: '💚 Abrir Pagamento',
+                class: 'modal-btn-success',
+                onClick: () => {
+                    if (window.Capacitor?.Plugins?.Browser) {
+                        window.Capacitor.Plugins.Browser.open({ url: checkoutUrl });
+                    } else {
+                        window.open(checkoutUrl, '_blank');
+                    }
+                    hideModal();
+                    showEmolaPendingModal(flowType, coins, price, paymentId);
+                }
+            },
+            {
+                label: 'Já Paguei ✅',
+                class: 'modal-btn-primary',
+                onClick: () => {
+                    hideModal();
+                    verifyEmolaLinkPayment(flowType, coins, price, paymentId);
+                }
+            },
+            {
+                label: 'Cancelar',
+                class: 'modal-btn-danger',
+                onClick: hideModal
+            }
+        ]
+    });
+}
+
+function showEmolaPendingModal(flowType, coins, price, paymentId) {
+    _clearPaymentIntervals();
+    let checkCount = 0;
+    const maxChecks = 24; // 2 minutos
+    
+    showModal({
+        circleIcon: '<i class="fas fa-hourglass-half"></i>',
+        circleType: 'info',
+        title: '⏳ A aguardar pagamento',
+        centered: true,
+        html: `
+            <div class="pay-now-section">
+                <p>Método: <strong>e-Mola (Link DebitoPay)</strong></p>
+                <p>Valor: <strong>${price} MT</strong></p>
+                <hr style="border:none;border-top:1px solid rgba(255,255,255,0.1);margin:12px 0;">
+                <p class="pay-now-hint">Após concluir o pagamento na DebitoPay, volte ao jogo e aguarde a confirmação.</p>
+                <p style="font-size:0.75em;color:var(--text-dim);margin-top:8px;">A verificar automaticamente... <span id="pay-check-count">0</span>s</p>
+            </div>
+        `,
+        actions: [
+            {
+                label: '✅ Já Paguei',
+                class: 'modal-btn-success',
+                onClick: () => {
+                    _clearPaymentIntervals();
+                    hideModal();
+                    verifyEmolaLinkPayment(flowType, coins, price, paymentId);
+                }
+            },
+            {
+                label: 'Cancelar',
+                class: 'modal-btn-gray',
+                onClick: () => {
+                    _clearPaymentIntervals();
+                    hideModal();
+                }
+            }
+        ]
+    });
+    
+    _payCountInterval = setInterval(() => {
+        checkCount++;
+        const el = document.getElementById('pay-check-count');
+        if (el) el.textContent = checkCount * 5;
+        if (checkCount >= maxChecks) _clearPaymentIntervals();
+    }, 5000);
+    
+    _payCheckInterval = setInterval(async () => {
+        try {
+            const res = await fetch(`${PAYMENT_API}?id=${paymentId}`, {
+                headers: { 'Accept': 'application/json' }
+            });
+            const data = await res.json();
+            const status = data.data?.status || data.status;
+            
+            if (['paid', 'completed', 'success', 'approved'].includes(status)) {
+                _clearPaymentIntervals();
+                hideModal();
+                rewardUserAfterLinkSuccess(flowType, coins);
+            } else if (['failed', 'cancelled'].includes(status)) {
+                _clearPaymentIntervals();
+                hideModal();
+                showPaymentError('O pagamento via link falhou ou foi cancelado.', 'emola');
+            }
+        } catch (e) { console.log('Erro poll emola link:', e); }
+    }, 5000);
+}
+
+async function verifyEmolaLinkPayment(flowType, coins, price, paymentId) {
+    showLoading(true, '🔍 Verificando pagamento...');
+    try {
+        const res = await fetch(`${PAYMENT_API}?id=${paymentId}`, {
+            headers: { 'Accept': 'application/json' }
+        });
+        const data = await res.json();
+        showLoading(false);
+        const status = data.data?.status || data.status;
+        
+        if (['paid', 'completed', 'success', 'approved'].includes(status)) {
+            rewardUserAfterLinkSuccess(flowType, coins);
+        } else {
+            showModal({
+                circleIcon: '<i class="fas fa-clock"></i>',
+                circleType: 'warn',
+                title: 'Pagamento Pendente',
+                centered: true,
+                desc: 'Ainda não confirmámos o pagamento na DebitoPay. Se já pagou, aguarde uns segundos e tente novamente.',
+                actions: [
+                    { label: '🔄 Verificar novamente', class: 'modal-btn-primary', onClick: () => { hideModal(); verifyEmolaLinkPayment(flowType, coins, price, paymentId); } },
+                    { label: 'Fechar', class: 'modal-btn-gray', onClick: hideModal }
+                ]
+            });
+        }
+    } catch (e) {
+        showLoading(false);
+        showPaymentError('Erro de ligação: ' + e.message, 'emola');
+    }
+}
+
+function rewardUserAfterLinkSuccess(flowType, coins) {
+    if (flowType === 'unlock_all') {
+        onUnlockAllSuccess();
+    } else if (flowType === 'vs_mode') {
+        onVSUnlockSuccess();
+    } else {
+        onPaymentSuccess(coins);
+    }
 }
 
 function showCoinPurchaseEffect(coins) {
@@ -3262,11 +3480,19 @@ async function processVSPayment(method) {
                     } else {
                         const errMsg = data?.message || data?.error || data?.data?.message || 'Resposta inválida';
                         const errDetail = JSON.stringify(data).substring(0, 200);
-                        showPaymentError(`${errMsg}\n\nDetalhes: ${errDetail}`, method);
+                        if (method === 'emola') {
+                            showEmolaLinkFallbackModal('vs_mode', null, price, phone);
+                        } else {
+                            showPaymentError(`${errMsg}\n\nDetalhes: ${errDetail}`, method);
+                        }
                     }
                 } catch (e) {
                     showLoading(false);
-                    showPaymentError('Não foi possível contactar o servidor: ' + e.message, method);
+                    if (method === 'emola') {
+                        showEmolaLinkFallbackModal('vs_mode', null, price, phone);
+                    } else {
+                        showPaymentError('Não foi possível contactar o servidor: ' + e.message, method);
+                    }
                 }
             }},
             {label:'Cancelar', class:'modal-btn-gray', onClick: hideModal}
