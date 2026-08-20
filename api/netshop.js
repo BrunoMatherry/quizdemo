@@ -33,39 +33,37 @@ export default async function handler(req, res) {
             const paymentMethod = method.toLowerCase();
             const amountInMZN = Math.round(Number(amount));
 
-            // 1. e-Mola Link Fallback (ZumboPay Link replaced by DebitoPay Hosted Checkout)
+            // 1. e-Mola Link Fallback (ZumboPay Link checkout)
             if (paymentMethod === 'emola_link') {
-                console.log('Generating DebitoPay Hosted Checkout link for fallback...');
-                const dbResponse = await fetch(`${DEBITOPAY_BASE_URL}/payment-orchestrator`, {
+                console.log('Generating ZumboPay Link for e-Mola fallback...');
+                const zResponse = await fetch('https://zumbopay.com/api/public/v1/payments', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
-                        'Authorization': `Bearer ${DEBITOPAY_API_KEY}`
+                        'Authorization': `Bearer ${ZUMBOPAY_API_KEY}`
                     },
                     body: JSON.stringify({
-                        action: 'process',
-                        payment_method: 'visa_mastercard',
-                        wallet_code: DEBITOPAY_WALLET_CODE,
                         amount: amountInMZN,
-                        currency: 'MZN',
                         reference: reference,
                         description: description || 'QuizMoz - Compra via Link',
-                        return_url: 'https://quizdemo-six.vercel.app/api/netshop'
+                        channel: 'emola',
+                        wallet_id: 'fe8cb7aa-2ef3-407b-ad22-7b21f319d2a2', // ZumboPay wallet supporting e-Mola checkout
+                        callback_url: 'https://quizdemo-six.vercel.app/api/netshop'
                     })
                 });
 
-                const data = await dbResponse.json();
-                if (!dbResponse.ok) {
-                    console.error('DebitoPay Hosted Checkout creation error:', data);
-                    return res.status(dbResponse.status).json({ success: false, error: data.error || 'Erro ao criar link de pagamento DebitoPay.' });
+                const data = await zResponse.json();
+                if (!zResponse.ok) {
+                    console.error('ZumboPay Link creation error:', data);
+                    return res.status(zResponse.status).json({ success: false, error: data.error?.message || 'Erro ao criar link na ZumboPay.' });
                 }
 
                 return res.status(200).json({
                     success: true,
                     data: {
-                        id: data.payment_id,
+                        id: data.data.id,
                         status: 'pending',
-                        checkout_url: data.checkout_url
+                        checkout_url: data.data.checkout_url
                     }
                 });
             } 

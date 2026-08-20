@@ -19,3 +19,24 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# ===== CAPACITOR R8/PROGUARD OPTIMIZATIONS =====
+-keep public class * extends com.getcapacitor.Plugin { *; }
+-keep public class * extends com.getcapacitor.BridgeActivity { *; }
+
+# Firebase Rules
+-keep class com.google.firebase.** { *; }
+-dontwarn com.google.firebase.**
+
+# AdMob Rules
+-keep class com.google.android.gms.ads.** { *; }
+-dontwarn com.google.android.gms.ads.**
+
+# Facebook (Firebase Auth plugin optional dependencies)
+-dontwarn com.facebook.**
+
+# Reempacotamento de classes para otimização do ficheiro DEX
+# -repackageclasses ''
+
+
+
