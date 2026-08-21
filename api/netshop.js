@@ -40,13 +40,13 @@ export default async function handler(req, res) {
                 if (amountInMZN === 10) {
                     checkoutUrl = 'https://debitopay.com/l/quizmoz-moedas-r6nw';
                 } else if (amountInMZN === 15) {
-                    checkoutUrl = 'https://debitopay.com/l/quizmoz-moedas-15mt'; // Placeholder
+                    checkoutUrl = 'https://debitopay.com/l/quizmoz-moedas-y9y9';
                 } else if (amountInMZN === 30) {
-                    checkoutUrl = 'https://debitopay.com/l/quizmoz-moedas-30mt'; // Placeholder
+                    checkoutUrl = 'https://debitopay.com/l/quizmozmoedas-hms5';
                 } else if (amountInMZN === 50) {
                     checkoutUrl = 'https://debitopay.com/l/quizmoz-rvge';
                 } else if (amountInMZN === 120) {
-                    checkoutUrl = 'https://debitopay.com/l/quizmoz-moedas-120mt'; // Placeholder
+                    checkoutUrl = 'https://debitopay.com/l/quizmoz-moedas-3jul';
                 } else if (amountInMZN === 150) {
                     checkoutUrl = 'https://debitopay.com/l/quizmoz-premium-op29';
                 }
