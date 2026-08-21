@@ -2240,11 +2240,17 @@ function showEmolaLinkFallbackModal(flowType, coins, price, originalPhone) {
 }
 
 function showEmolaPayNowModal(flowType, coins, price, paymentId, checkoutUrl) {
+    const isStaticLink = paymentId === 'debitopay_link';
     showModal({
         icon: '📲',
-        title: 'Pagar agora',
+        title: isStaticLink ? 'Pagar via Link' : 'Pagar agora',
         centered: true,
-        html: `
+        html: isStaticLink ? `
+            <div class="pay-now-section">
+                <p>Clique em <strong>Abrir Pagamento</strong> para pagar via DebitoPay (Link Oficial).</p>
+                <p class="pay-now-hint">Neste link pode pagar via e-Mola ou M-Pesa. Após efetuar o pagamento, envie o comprovativo para o suporte.</p>
+            </div>
+        ` : `
             <div class="pay-now-section">
                 <p>Clique em <strong>Abrir Pagamento</strong> para pagar via e-Mola (DebitoPay Link).</p>
                 <p class="pay-now-hint">Após pagar no navegador, volte ao jogo e clique em <strong>Já Paguei</strong>.</p>
@@ -2265,11 +2271,21 @@ function showEmolaPayNowModal(flowType, coins, price, paymentId, checkoutUrl) {
                 }
             },
             {
-                label: 'Já Paguei ✅',
+                label: isStaticLink ? '💬 Enviar Comprovativo' : 'Já Paguei ✅',
                 class: 'modal-btn-primary',
                 onClick: () => {
                     hideModal();
-                    verifyEmolaLinkPayment(flowType, coins, price, paymentId);
+                    if (isStaticLink) {
+                        const message = encodeURIComponent(`Olá! Fiz o pagamento de ${price} MT para o QuizMoz via link DebitoPay. Aqui está o comprovativo.`);
+                        const whatsappUrl = `https://wa.me/258850474056?text=${message}`;
+                        if (window.Capacitor?.Plugins?.Browser) {
+                            window.Capacitor.Plugins.Browser.open({ url: whatsappUrl });
+                        } else {
+                            window.open(whatsappUrl, '_blank');
+                        }
+                    } else {
+                        verifyEmolaLinkPayment(flowType, coins, price, paymentId);
+                    }
                 }
             },
             {
@@ -2286,12 +2302,21 @@ function showEmolaPendingModal(flowType, coins, price, paymentId) {
     let checkCount = 0;
     const maxChecks = 24; // 2 minutos
     
+    const isStaticLink = paymentId === 'debitopay_link';
+    
     showModal({
         circleIcon: '<i class="fas fa-hourglass-half"></i>',
         circleType: 'info',
-        title: '⏳ A aguardar pagamento',
+        title: isStaticLink ? '📲 Link de Pagamento' : '⏳ A aguardar pagamento',
         centered: true,
-        html: `
+        html: isStaticLink ? `
+            <div class="pay-now-section">
+                <p>Método: <strong>DebitoPay Link</strong></p>
+                <p>Valor: <strong>${price} MT</strong></p>
+                <hr style="border:none;border-top:1px solid rgba(255,255,255,0.1);margin:12px 0;">
+                <p class="pay-now-hint">Após efetuar o pagamento, tire uma captura do comprovativo e clique em <strong>Enviar Comprovativo</strong> no final do ecrã para ativar a sua compra com o suporte.</p>
+            </div>
+        ` : `
             <div class="pay-now-section">
                 <p>Método: <strong>e-Mola (Link DebitoPay)</strong></p>
                 <p>Valor: <strong>${price} MT</strong></p>
@@ -2300,7 +2325,27 @@ function showEmolaPendingModal(flowType, coins, price, paymentId) {
                 <p style="font-size:0.75em;color:var(--text-dim);margin-top:8px;">A verificar automaticamente... <span id="pay-check-count">0</span>s</p>
             </div>
         `,
-        actions: [
+        actions: isStaticLink ? [
+            {
+                label: '💬 Enviar Comprovativo',
+                class: 'modal-btn-success',
+                onClick: () => {
+                    const message = encodeURIComponent(`Olá! Fiz o pagamento de ${price} MT para o QuizMoz via link DebitoPay. Aqui está o comprovativo.`);
+                    const whatsappUrl = `https://wa.me/258850474056?text=${message}`;
+                    if (window.Capacitor?.Plugins?.Browser) {
+                        window.Capacitor.Plugins.Browser.open({ url: whatsappUrl });
+                    } else {
+                        window.open(whatsappUrl, '_blank');
+                    }
+                    hideModal();
+                }
+            },
+            {
+                label: 'Voltar ao Jogo',
+                class: 'modal-btn-gray',
+                onClick: hideModal
+            }
+        ] : [
             {
                 label: '✅ Já Paguei',
                 class: 'modal-btn-success',
@@ -2320,6 +2365,8 @@ function showEmolaPendingModal(flowType, coins, price, paymentId) {
             }
         ]
     });
+    
+    if (isStaticLink) return; // Sem polling para link estático
     
     _payCountInterval = setInterval(() => {
         checkCount++;

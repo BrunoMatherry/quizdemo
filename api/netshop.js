@@ -9,8 +9,6 @@ const DEBITOPAY_BASE_URL = 'https://gyqoaningqhurhvdugne.supabase.co/functions/v
 // Legacy keys for backward compatibility
 const NETSHOP_API_KEY = process.env.NETSHOP_API_KEY || 'ns_live_sk_jKdNm3gJ_u4Ek8BSLpAT635Lemuy29iFyeFfFqUTrdexWCzzz';
 const NETSHOP_WALLET_ID = process.env.NETSHOP_WALLET_ID || process.env.ID_DA_CARTEIRA_NETSHOP || '554299';
-const ZUMBOPAY_API_KEY = process.env.ZUMBOPAY_API_KEY || 'zk_live_fbf2c6d788d6b461e7668a577ffca72106a06f50ac95c416';
-
 export default async function handler(req, res) {
     // CORS headers for mobile app
     res.setHeader('Access-Control-Allow-Origin', '*');
@@ -33,37 +31,32 @@ export default async function handler(req, res) {
             const paymentMethod = method.toLowerCase();
             const amountInMZN = Math.round(Number(amount));
 
-            // 1. e-Mola Link Fallback (ZumboPay Link checkout)
+            // 1. e-Mola Link Fallback (DebitoPay static payment links mapped by price)
             if (paymentMethod === 'emola_link') {
-                console.log('Generating ZumboPay Link for e-Mola fallback...');
-                const zResponse = await fetch('https://zumbopay.com/api/public/v1/payments', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': `Bearer ${ZUMBOPAY_API_KEY}`
-                    },
-                    body: JSON.stringify({
-                        amount: amountInMZN,
-                        reference: reference,
-                        description: description || 'QuizMoz - Compra via Link',
-                        channel: 'emola',
-                        wallet_id: 'fe8cb7aa-2ef3-407b-ad22-7b21f319d2a2', // ZumboPay wallet supporting e-Mola checkout
-                        callback_url: 'https://quizdemo-six.vercel.app/api/netshop'
-                    })
-                });
-
-                const data = await zResponse.json();
-                if (!zResponse.ok) {
-                    console.error('ZumboPay Link creation error:', data);
-                    return res.status(zResponse.status).json({ success: false, error: data.error?.message || 'Erro ao criar link na ZumboPay.' });
+                console.log(`Routing to DebitoPay static link for amount: ${amountInMZN} MT`);
+                
+                let checkoutUrl = 'https://debitopay.com/l/quizmoz-rvge'; // Default (50 MT)
+                
+                if (amountInMZN === 10) {
+                    checkoutUrl = 'https://debitopay.com/l/quizmoz-moedas-r6nw';
+                } else if (amountInMZN === 15) {
+                    checkoutUrl = 'https://debitopay.com/l/quizmoz-moedas-15mt'; // Placeholder
+                } else if (amountInMZN === 30) {
+                    checkoutUrl = 'https://debitopay.com/l/quizmoz-moedas-30mt'; // Placeholder
+                } else if (amountInMZN === 50) {
+                    checkoutUrl = 'https://debitopay.com/l/quizmoz-rvge';
+                } else if (amountInMZN === 120) {
+                    checkoutUrl = 'https://debitopay.com/l/quizmoz-moedas-120mt'; // Placeholder
+                } else if (amountInMZN === 150) {
+                    checkoutUrl = 'https://debitopay.com/l/quizmoz-premium-op29';
                 }
-
+                
                 return res.status(200).json({
                     success: true,
                     data: {
-                        id: data.data.id,
+                        id: 'debitopay_link',
                         status: 'pending',
-                        checkout_url: data.data.checkout_url
+                        checkout_url: checkoutUrl
                     }
                 });
             } 
@@ -165,51 +158,12 @@ export default async function handler(req, res) {
                 });
             }
 
-            // 2. Legacy ZumboPay (IDs starting with ZP-)
-            if (id.startsWith('ZP-')) {
-                console.log('ZP- ID detected, routing to legacy ZumboPay API...');
-                if (!ZUMBOPAY_API_KEY) {
-                    return res.status(500).json({ success: false, error: 'ZumboPay credentials missing.' });
-                }
-
-                const zResponse = await fetch(`https://zumbopay.com/api/public/v1/payments/${id}`, {
-                    method: 'GET',
-                    headers: {
-                        'Accept': 'application/json',
-                        'Authorization': `Bearer ${ZUMBOPAY_API_KEY}`
-                    }
-                });
-
-                if (zResponse.status === 404) {
-                    return res.status(404).json({ success: false, error: 'Pagamento não encontrado na ZumboPay.' });
-                }
-
-                const data = await zResponse.json();
-                if (!zResponse.ok) {
-                    console.error('ZumboPay query error:', data);
-                    return res.status(zResponse.status).json({ success: false, error: data.error?.message || 'Erro ao consultar link na ZumboPay.' });
-                }
-
-                const zStatus = (data.data?.status || data.status || '').toLowerCase();
-                let finalStatus = 'pending';
-
-                if (['success', 'completed', 'paid', 'approved', 'succeeded'].includes(zStatus)) {
-                    finalStatus = 'paid';
-                } else if (['failed', 'cancelled', 'expired'].includes(zStatus)) {
-                    finalStatus = 'failed';
-                } else {
-                    const txs = data.data?.transactions || [];
-                    const hasPaidTx = txs.some(tx => ['success', 'completed', 'paid', 'approved', 'succeeded'].includes((tx.status || '').toLowerCase()));
-                    if (hasPaidTx) {
-                        finalStatus = 'paid';
-                    }
-                }
-
-                console.log('Legacy ZumboPay Status Determined:', finalStatus);
+            // 2. DebitoPay Static Link Handler
+            if (id === 'debitopay_link') {
                 return res.status(200).json({
                     success: true,
                     data: {
-                        status: finalStatus
+                        status: 'pending'
                     }
                 });
             }
