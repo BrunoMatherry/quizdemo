@@ -1,0 +1,3436 @@
+{
+  "id": "u01",
+  "level": "A1",
+  "order": 1,
+  "title": {
+    "pt": "Olá, Maputo",
+    "en": "Hello, Maputo"
+  },
+  "goal": "Cumprimentar, dizer o nome e responder How are you?",
+  "themeImageHint": "Hello, Maputo",
+  "lessonCount": 20,
+  "lessons": [
+    {
+      "id": "a1-u01-l01",
+      "unitId": "u01",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "Olá e Hi",
+        "en": "Olá e Hi"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Cumprimentar, dizer o nome e responder How are you?",
+        "Olá e Hi"
+      ],
+      "newWords": [
+        {
+          "en": "hello",
+          "pt": "olá",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l01_w_hello",
+          "exampleEn": "Hello. My name is Amina.",
+          "examplePt": "Olá. O meu nome é Amina."
+        },
+        {
+          "en": "hi",
+          "pt": "oi",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l01_w_hi",
+          "exampleEn": "Hello. My name is Amina.",
+          "examplePt": "Olá. O meu nome é Amina."
+        },
+        {
+          "en": "good morning",
+          "pt": "bom dia",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l01_w_good-morning",
+          "exampleEn": "Hello. My name is Amina.",
+          "examplePt": "Olá. O meu nome é Amina."
+        },
+        {
+          "en": "good afternoon",
+          "pt": "boa tarde",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l01_w_good-afternoon",
+          "exampleEn": "Hello. My name is Amina.",
+          "examplePt": "Olá. O meu nome é Amina."
+        }
+      ],
+      "guidedReading": {
+        "title": "Olá e Hi",
+        "sentences": [
+          {
+            "id": "a1-u01-l01-s1",
+            "en": "Hello. My name is Amina.",
+            "pt": "Olá. O meu nome é Amina.",
+            "ipa": "həˈləʊ maɪ neɪm ɪz əˈmiːnə",
+            "audioKey": "a1_a1-u01-l01_s1"
+          },
+          {
+            "id": "a1-u01-l01-s2",
+            "en": "I am from Maputo.",
+            "pt": "Eu sou de Maputo.",
+            "ipa": "aɪ æm frɒm məˈpuːtuː",
+            "audioKey": "a1_a1-u01-l01_s2"
+          },
+          {
+            "id": "a1-u01-l01-s3",
+            "en": "Nice to meet you.",
+            "pt": "Prazer em conhecer-te.",
+            "ipa": "naɪs tə miːt juː",
+            "audioKey": "a1_a1-u01-l01_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u01-l01-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u01-l01_repeat",
+          "items": [
+            {
+              "en": "Hello. My name is Amina.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l01-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "Hello",
+                "pt": "O que significa «Hello»?"
+              },
+              "options": [
+                "Olá",
+                "Adeus",
+                "Obrigado",
+                "Água"
+              ],
+              "answer": "Olá"
+            },
+            {
+              "question": {
+                "en": "Thank you",
+                "pt": "O que significa «Thank you»?"
+              },
+              "options": [
+                "Obrigado",
+                "Por favor",
+                "Desculpa",
+                "Não"
+              ],
+              "answer": "Obrigado"
+            },
+            {
+              "question": {
+                "en": "Good morning",
+                "pt": "O que significa «Good morning»?"
+              },
+              "options": [
+                "Bom dia",
+                "Boa noite",
+                "Tchau",
+                "Sim"
+              ],
+              "answer": "Bom dia"
+            },
+            {
+              "question": {
+                "en": "My name is Amina",
+                "pt": "O que significa «My name is Amina»?"
+              },
+              "options": [
+                "O meu nome é Amina",
+                "Eu tenho fome",
+                "Está calor",
+                "Quanto custa"
+              ],
+              "answer": "O meu nome é Amina"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-l02",
+      "unitId": "u01",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "Bom dia, boa tarde, boa noite",
+        "en": "Bom dia, boa tarde, boa noite"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Cumprimentar, dizer o nome e responder How are you?",
+        "Bom dia, boa tarde, boa noite"
+      ],
+      "newWords": [
+        {
+          "en": "good afternoon",
+          "pt": "boa tarde",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l02_w_good-afternoon",
+          "exampleEn": "Good morning, teacher.",
+          "examplePt": "Bom dia, professor."
+        },
+        {
+          "en": "good evening",
+          "pt": "boa noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l02_w_good-evening",
+          "exampleEn": "Good morning, teacher.",
+          "examplePt": "Bom dia, professor."
+        },
+        {
+          "en": "goodbye",
+          "pt": "adeus",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l02_w_goodbye",
+          "exampleEn": "Good morning, teacher.",
+          "examplePt": "Bom dia, professor."
+        },
+        {
+          "en": "bye",
+          "pt": "tchau",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l02_w_bye",
+          "exampleEn": "Good morning, teacher.",
+          "examplePt": "Bom dia, professor."
+        }
+      ],
+      "guidedReading": {
+        "title": "Bom dia, boa tarde, boa noite",
+        "sentences": [
+          {
+            "id": "a1-u01-l02-s1",
+            "en": "Good morning, teacher.",
+            "pt": "Bom dia, professor.",
+            "ipa": "ɡʊd ˈmɔːnɪŋ ˈtiːtʃə",
+            "audioKey": "a1_a1-u01-l02_s1"
+          },
+          {
+            "id": "a1-u01-l02-s2",
+            "en": "Good afternoon, João.",
+            "pt": "Boa tarde, João.",
+            "ipa": "ɡʊd ˌɑːftəˈnuːn",
+            "audioKey": "a1_a1-u01-l02_s2"
+          },
+          {
+            "id": "a1-u01-l02-s3",
+            "en": "Good evening, family.",
+            "pt": "Boa noite, família.",
+            "ipa": "ɡʊd ˈiːvnɪŋ ˈfæməli",
+            "audioKey": "a1_a1-u01-l02_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u01-l02-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "My name ___ Amina.",
+              "answer": "is",
+              "options": [
+                "is",
+                "am",
+                "are",
+                "be"
+              ]
+            },
+            {
+              "sentence": "___ are you?",
+              "answer": "How",
+              "options": [
+                "How",
+                "Who",
+                "What",
+                "When"
+              ]
+            },
+            {
+              "sentence": "I am fine, ___ you.",
+              "answer": "thank",
+              "options": [
+                "thank",
+                "please",
+                "sorry",
+                "hello"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-l03",
+      "unitId": "u01",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "O meu nome é…",
+        "en": "O meu nome é…"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Cumprimentar, dizer o nome e responder How are you?",
+        "O meu nome é…"
+      ],
+      "newWords": [
+        {
+          "en": "bye",
+          "pt": "tchau",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l03_w_bye",
+          "exampleEn": "My name is Carlos.",
+          "examplePt": "O meu nome é Carlos."
+        },
+        {
+          "en": "please",
+          "pt": "por favor",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l03_w_please",
+          "exampleEn": "My name is Carlos.",
+          "examplePt": "O meu nome é Carlos."
+        },
+        {
+          "en": "thank you",
+          "pt": "obrigado/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l03_w_thank-you",
+          "exampleEn": "My name is Carlos.",
+          "examplePt": "O meu nome é Carlos."
+        },
+        {
+          "en": "sorry",
+          "pt": "desculpa",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l03_w_sorry",
+          "exampleEn": "My name is Carlos.",
+          "examplePt": "O meu nome é Carlos."
+        }
+      ],
+      "guidedReading": {
+        "title": "O meu nome é…",
+        "sentences": [
+          {
+            "id": "a1-u01-l03-s1",
+            "en": "My name is Carlos.",
+            "pt": "O meu nome é Carlos.",
+            "ipa": "maɪ neɪm ɪz ˈkɑːlɒs",
+            "audioKey": "a1_a1-u01-l03_s1"
+          },
+          {
+            "id": "a1-u01-l03-s2",
+            "en": "Her name is Graça.",
+            "pt": "O nome dela é Graça.",
+            "ipa": "hɜː neɪm ɪz ˈɡræsə",
+            "audioKey": "a1_a1-u01-l03_s2"
+          },
+          {
+            "id": "a1-u01-l03-s3",
+            "en": "His name is Ibraimo.",
+            "pt": "O nome dele é Ibraimo.",
+            "ipa": "hɪz neɪm ɪz ɪˈbraɪməʊ",
+            "audioKey": "a1_a1-u01-l03_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u01-l03-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "hello",
+              "pt": "olá"
+            },
+            {
+              "en": "thank you",
+              "pt": "obrigado"
+            },
+            {
+              "en": "goodbye",
+              "pt": "adeus"
+            },
+            {
+              "en": "please",
+              "pt": "por favor"
+            },
+            {
+              "en": "sorry",
+              "pt": "desculpa"
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l03-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "Hello means Olá.",
+              "answer": true
+            },
+            {
+              "sentence": "Goodbye means Bom dia.",
+              "answer": false
+            },
+            {
+              "sentence": "Thank you means Obrigado.",
+              "answer": true
+            },
+            {
+              "sentence": "Maputo is a city in Mozambique.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-l04",
+      "unitId": "u01",
+      "order": 4,
+      "kind": "content",
+      "title": {
+        "pt": "Qual é o teu nome?",
+        "en": "Qual é o teu nome?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Cumprimentar, dizer o nome e responder How are you?",
+        "Qual é o teu nome?"
+      ],
+      "newWords": [
+        {
+          "en": "sorry",
+          "pt": "desculpa",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l04_w_sorry",
+          "exampleEn": "What is your name?",
+          "examplePt": "Qual é o teu nome?"
+        },
+        {
+          "en": "yes",
+          "pt": "sim",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l04_w_yes",
+          "exampleEn": "What is your name?",
+          "examplePt": "Qual é o teu nome?"
+        },
+        {
+          "en": "no",
+          "pt": "não",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l04_w_no",
+          "exampleEn": "What is your name?",
+          "examplePt": "Qual é o teu nome?"
+        },
+        {
+          "en": "name",
+          "pt": "nome",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l04_w_name",
+          "exampleEn": "What is your name?",
+          "examplePt": "Qual é o teu nome?"
+        }
+      ],
+      "guidedReading": {
+        "title": "Qual é o teu nome?",
+        "sentences": [
+          {
+            "id": "a1-u01-l04-s1",
+            "en": "What is your name?",
+            "pt": "Qual é o teu nome?",
+            "ipa": "wɒt ɪz jɔː neɪm",
+            "audioKey": "a1_a1-u01-l04_s1"
+          },
+          {
+            "id": "a1-u01-l04-s2",
+            "en": "My name is Fátima.",
+            "pt": "O meu nome é Fátima.",
+            "ipa": "maɪ neɪm ɪz ˈfɑːtɪmə",
+            "audioKey": "a1_a1-u01-l04_s2"
+          },
+          {
+            "id": "a1-u01-l04-s3",
+            "en": "How do you spell that?",
+            "pt": "Como se soletra?",
+            "ipa": "haʊ də ju spel ðæt",
+            "audioKey": "a1_a1-u01-l04_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u01-l04-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u01-l04_lw_hello.-my-name-is-",
+              "answer": "Hello. My name is Amina.",
+              "hint": "Hello."
+            },
+            {
+              "audioKey": "a1_a1-u01-l04_lw_good-morning,-teac",
+              "answer": "Good morning, teacher.",
+              "hint": "Good"
+            },
+            {
+              "audioKey": "a1_a1-u01-l04_lw_i-am-fine,-thank-y",
+              "answer": "I am fine, thank you.",
+              "hint": "I"
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l04-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "My",
+                "name",
+                "is",
+                "Carlos"
+              ],
+              "answer": "My name is Carlos"
+            },
+            {
+              "words": [
+                "I",
+                "am",
+                "from",
+                "Maputo"
+              ],
+              "answer": "I am from Maputo"
+            },
+            {
+              "words": [
+                "Nice",
+                "to",
+                "meet",
+                "you"
+              ],
+              "answer": "Nice to meet you"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-l05",
+      "unitId": "u01",
+      "order": 5,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 1",
+        "en": "Checkpoint quiz 1"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Cumprimentar, dizer o nome e responder How are you?",
+        "Mini-teste 1"
+      ],
+      "newWords": [
+        {
+          "en": "name",
+          "pt": "nome",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l05_w_name",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "my name is",
+          "pt": "o meu nome é",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l05_w_my-name-is",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "nice to meet you",
+          "pt": "prazer",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l05_w_nice-to-meet-you",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "how are you",
+          "pt": "como estás",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l05_w_how-are-you",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 1",
+        "sentences": [
+          {
+            "id": "a1-u01-l05-s1",
+            "en": "Let’s review. Graça is from Vilankulo.",
+            "pt": "Vamos rever. Graça é de Vilankulo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u01-l05_s1"
+          },
+          {
+            "id": "a1-u01-l05-s2",
+            "en": "This unit is about Hello, Maputo.",
+            "pt": "Esta unidade é sobre Olá, Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u01-l05_s2"
+          },
+          {
+            "id": "a1-u01-l05-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u01-l05_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u01-l05-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "Hello",
+                "pt": "O que significa «Hello»?"
+              },
+              "options": [
+                "Olá",
+                "Adeus",
+                "Obrigado",
+                "Água"
+              ],
+              "answer": "Olá"
+            },
+            {
+              "question": {
+                "en": "Thank you",
+                "pt": "O que significa «Thank you»?"
+              },
+              "options": [
+                "Obrigado",
+                "Por favor",
+                "Desculpa",
+                "Não"
+              ],
+              "answer": "Obrigado"
+            },
+            {
+              "question": {
+                "en": "Good morning",
+                "pt": "O que significa «Good morning»?"
+              },
+              "options": [
+                "Bom dia",
+                "Boa noite",
+                "Tchau",
+                "Sim"
+              ],
+              "answer": "Bom dia"
+            },
+            {
+              "question": {
+                "en": "My name is Amina",
+                "pt": "O que significa «My name is Amina»?"
+              },
+              "options": [
+                "O meu nome é Amina",
+                "Eu tenho fome",
+                "Está calor",
+                "Quanto custa"
+              ],
+              "answer": "O meu nome é Amina"
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l05-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "My name ___ Amina.",
+              "answer": "is",
+              "options": [
+                "is",
+                "am",
+                "are",
+                "be"
+              ]
+            },
+            {
+              "sentence": "___ are you?",
+              "answer": "How",
+              "options": [
+                "How",
+                "Who",
+                "What",
+                "When"
+              ]
+            },
+            {
+              "sentence": "I am fine, ___ you.",
+              "answer": "thank",
+              "options": [
+                "thank",
+                "please",
+                "sorry",
+                "hello"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l05-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u01-l05_lw_hello.-my-name-is-",
+              "answer": "Hello. My name is Amina.",
+              "hint": "Hello."
+            },
+            {
+              "audioKey": "a1_a1-u01-l05_lw_good-morning,-teac",
+              "answer": "Good morning, teacher.",
+              "hint": "Good"
+            },
+            {
+              "audioKey": "a1_a1-u01-l05_lw_i-am-fine,-thank-y",
+              "answer": "I am fine, thank you.",
+              "hint": "I"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-l06",
+      "unitId": "u01",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "Prazer em conhecer",
+        "en": "Prazer em conhecer"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Cumprimentar, dizer o nome e responder How are you?",
+        "Prazer em conhecer"
+      ],
+      "newWords": [
+        {
+          "en": "how are you",
+          "pt": "como estás",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l06_w_how-are-you",
+          "exampleEn": "Hi, Amina. How are you?",
+          "examplePt": "Oi, Amina. Como estás?"
+        },
+        {
+          "en": "I am fine",
+          "pt": "estou bem",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l06_w_i-am-fine",
+          "exampleEn": "Hi, Amina. How are you?",
+          "examplePt": "Oi, Amina. Como estás?"
+        },
+        {
+          "en": "and you",
+          "pt": "e tu",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l06_w_and-you",
+          "exampleEn": "Hi, Amina. How are you?",
+          "examplePt": "Oi, Amina. Como estás?"
+        },
+        {
+          "en": "welcome",
+          "pt": "bem-vindo",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l06_w_welcome",
+          "exampleEn": "Hi, Amina. How are you?",
+          "examplePt": "Oi, Amina. Como estás?"
+        }
+      ],
+      "guidedReading": {
+        "title": "Prazer em conhecer",
+        "sentences": [
+          {
+            "id": "a1-u01-l06-s1",
+            "en": "Hi, Amina. How are you?",
+            "pt": "Oi, Amina. Como estás?",
+            "ipa": "haɪ ˈhaʊ ɑː juː",
+            "audioKey": "a1_a1-u01-l06_s1"
+          },
+          {
+            "id": "a1-u01-l06-s2",
+            "en": "I am fine, thank you.",
+            "pt": "Estou bem, obrigada.",
+            "ipa": "aɪ æm faɪn θæŋk juː",
+            "audioKey": "a1_a1-u01-l06_s2"
+          },
+          {
+            "id": "a1-u01-l06-s3",
+            "en": "And you?",
+            "pt": "E tu?",
+            "ipa": "ænd juː",
+            "audioKey": "a1_a1-u01-l06_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u01-l06-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Hi, Amina. How are you?",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l06-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "Hello",
+                "pt": "O que significa «Hello»?"
+              },
+              "options": [
+                "Olá",
+                "Adeus",
+                "Obrigado",
+                "Água"
+              ],
+              "answer": "Olá"
+            },
+            {
+              "question": {
+                "en": "Thank you",
+                "pt": "O que significa «Thank you»?"
+              },
+              "options": [
+                "Obrigado",
+                "Por favor",
+                "Desculpa",
+                "Não"
+              ],
+              "answer": "Obrigado"
+            },
+            {
+              "question": {
+                "en": "Good morning",
+                "pt": "O que significa «Good morning»?"
+              },
+              "options": [
+                "Bom dia",
+                "Boa noite",
+                "Tchau",
+                "Sim"
+              ],
+              "answer": "Bom dia"
+            },
+            {
+              "question": {
+                "en": "My name is Amina",
+                "pt": "O que significa «My name is Amina»?"
+              },
+              "options": [
+                "O meu nome é Amina",
+                "Eu tenho fome",
+                "Está calor",
+                "Quanto custa"
+              ],
+              "answer": "O meu nome é Amina"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-l07",
+      "unitId": "u01",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "Como estás?",
+        "en": "Como estás?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Cumprimentar, dizer o nome e responder How are you?",
+        "Como estás?"
+      ],
+      "newWords": [
+        {
+          "en": "welcome",
+          "pt": "bem-vindo",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l07_w_welcome",
+          "exampleEn": "I am fine.",
+          "examplePt": "Estou bem."
+        }
+      ],
+      "guidedReading": {
+        "title": "Como estás?",
+        "sentences": [
+          {
+            "id": "a1-u01-l07-s1",
+            "en": "I am fine.",
+            "pt": "Estou bem.",
+            "ipa": "aɪ æm faɪn",
+            "audioKey": "a1_a1-u01-l07_s1"
+          },
+          {
+            "id": "a1-u01-l07-s2",
+            "en": "I am good, thanks.",
+            "pt": "Estou bem, obrigado.",
+            "ipa": "aɪ æm ɡʊd θæŋks",
+            "audioKey": "a1_a1-u01-l07_s2"
+          },
+          {
+            "id": "a1-u01-l07-s3",
+            "en": "I am tired today.",
+            "pt": "Estou cansado hoje.",
+            "ipa": "aɪ æm ˈtaɪəd təˈdeɪ",
+            "audioKey": "a1_a1-u01-l07_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u01-l07-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u01-l07_repeat",
+          "items": [
+            {
+              "en": "I am fine.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l07-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "Hello",
+                "pt": "O que significa «Hello»?"
+              },
+              "options": [
+                "Olá",
+                "Adeus",
+                "Obrigado",
+                "Água"
+              ],
+              "answer": "Olá"
+            },
+            {
+              "question": {
+                "en": "Thank you",
+                "pt": "O que significa «Thank you»?"
+              },
+              "options": [
+                "Obrigado",
+                "Por favor",
+                "Desculpa",
+                "Não"
+              ],
+              "answer": "Obrigado"
+            },
+            {
+              "question": {
+                "en": "Good morning",
+                "pt": "O que significa «Good morning»?"
+              },
+              "options": [
+                "Bom dia",
+                "Boa noite",
+                "Tchau",
+                "Sim"
+              ],
+              "answer": "Bom dia"
+            },
+            {
+              "question": {
+                "en": "My name is Amina",
+                "pt": "O que significa «My name is Amina»?"
+              },
+              "options": [
+                "O meu nome é Amina",
+                "Eu tenho fome",
+                "Está calor",
+                "Quanto custa"
+              ],
+              "answer": "O meu nome é Amina"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-l08",
+      "unitId": "u01",
+      "order": 8,
+      "kind": "content",
+      "title": {
+        "pt": "Estou bem, obrigado",
+        "en": "Estou bem, obrigado"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Cumprimentar, dizer o nome e responder How are you?",
+        "Estou bem, obrigado"
+      ],
+      "newWords": [
+        {
+          "en": "good morning",
+          "pt": "bom dia",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l08_w_good-morning",
+          "exampleEn": "A water, please.",
+          "examplePt": "Uma água, por favor."
+        },
+        {
+          "en": "good afternoon",
+          "pt": "boa tarde",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l08_w_good-afternoon",
+          "exampleEn": "A water, please.",
+          "examplePt": "Uma água, por favor."
+        },
+        {
+          "en": "good evening",
+          "pt": "boa noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l08_w_good-evening",
+          "exampleEn": "A water, please.",
+          "examplePt": "Uma água, por favor."
+        },
+        {
+          "en": "goodbye",
+          "pt": "adeus",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l08_w_goodbye",
+          "exampleEn": "A water, please.",
+          "examplePt": "Uma água, por favor."
+        }
+      ],
+      "guidedReading": {
+        "title": "Estou bem, obrigado",
+        "sentences": [
+          {
+            "id": "a1-u01-l08-s1",
+            "en": "A water, please.",
+            "pt": "Uma água, por favor.",
+            "ipa": "ə ˈwɔːtə pliːz",
+            "audioKey": "a1_a1-u01-l08_s1"
+          },
+          {
+            "id": "a1-u01-l08-s2",
+            "en": "Thank you very much.",
+            "pt": "Muito obrigado.",
+            "ipa": "θæŋk juː ˈveri mʌtʃ",
+            "audioKey": "a1_a1-u01-l08_s2"
+          },
+          {
+            "id": "a1-u01-l08-s3",
+            "en": "You are welcome.",
+            "pt": "De nada.",
+            "ipa": "juː ɑː ˈwelkəm",
+            "audioKey": "a1_a1-u01-l08_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u01-l08-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "My name ___ Amina.",
+              "answer": "is",
+              "options": [
+                "is",
+                "am",
+                "are",
+                "be"
+              ]
+            },
+            {
+              "sentence": "___ are you?",
+              "answer": "How",
+              "options": [
+                "How",
+                "Who",
+                "What",
+                "When"
+              ]
+            },
+            {
+              "sentence": "I am fine, ___ you.",
+              "answer": "thank",
+              "options": [
+                "thank",
+                "please",
+                "sorry",
+                "hello"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-l09",
+      "unitId": "u01",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Por favor e obrigado",
+        "en": "Por favor e obrigado"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Cumprimentar, dizer o nome e responder How are you?",
+        "Por favor e obrigado"
+      ],
+      "newWords": [
+        {
+          "en": "goodbye",
+          "pt": "adeus",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l09_w_goodbye",
+          "exampleEn": "Sorry I am late.",
+          "examplePt": "Desculpa, estou atrasado."
+        },
+        {
+          "en": "bye",
+          "pt": "tchau",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l09_w_bye",
+          "exampleEn": "Sorry I am late.",
+          "examplePt": "Desculpa, estou atrasado."
+        },
+        {
+          "en": "please",
+          "pt": "por favor",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l09_w_please",
+          "exampleEn": "Sorry I am late.",
+          "examplePt": "Desculpa, estou atrasado."
+        },
+        {
+          "en": "thank you",
+          "pt": "obrigado/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l09_w_thank-you",
+          "exampleEn": "Sorry I am late.",
+          "examplePt": "Desculpa, estou atrasado."
+        }
+      ],
+      "guidedReading": {
+        "title": "Por favor e obrigado",
+        "sentences": [
+          {
+            "id": "a1-u01-l09-s1",
+            "en": "Sorry I am late.",
+            "pt": "Desculpa, estou atrasado.",
+            "ipa": "ˈsɒri aɪ æm leɪt",
+            "audioKey": "a1_a1-u01-l09_s1"
+          },
+          {
+            "id": "a1-u01-l09-s2",
+            "en": "Excuse me.",
+            "pt": "Com licença.",
+            "ipa": "ɪkˈskjuːz miː",
+            "audioKey": "a1_a1-u01-l09_s2"
+          },
+          {
+            "id": "a1-u01-l09-s3",
+            "en": "No problem.",
+            "pt": "Não há problema.",
+            "ipa": "nəʊ ˈprɒbləm",
+            "audioKey": "a1_a1-u01-l09_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u01-l09-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "hello",
+              "pt": "olá"
+            },
+            {
+              "en": "thank you",
+              "pt": "obrigado"
+            },
+            {
+              "en": "goodbye",
+              "pt": "adeus"
+            },
+            {
+              "en": "please",
+              "pt": "por favor"
+            },
+            {
+              "en": "sorry",
+              "pt": "desculpa"
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l09-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "Hello means Olá.",
+              "answer": true
+            },
+            {
+              "sentence": "Goodbye means Bom dia.",
+              "answer": false
+            },
+            {
+              "sentence": "Thank you means Obrigado.",
+              "answer": true
+            },
+            {
+              "sentence": "Maputo is a city in Mozambique.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-l10",
+      "unitId": "u01",
+      "order": 10,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão guiada",
+        "en": "Guided review"
+      },
+      "type": "review",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectives": [
+        "Cumprimentar, dizer o nome e responder How are you?",
+        "Revisão guiada"
+      ],
+      "newWords": [
+        {
+          "en": "thank you",
+          "pt": "obrigado/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l10_w_thank-you",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "sorry",
+          "pt": "desculpa",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l10_w_sorry",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "yes",
+          "pt": "sim",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l10_w_yes",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "no",
+          "pt": "não",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l10_w_no",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        }
+      ],
+      "guidedReading": {
+        "title": "Guided review",
+        "sentences": [
+          {
+            "id": "a1-u01-l10-s1",
+            "en": "Let’s review. Nélio is from Nampula.",
+            "pt": "Vamos rever. Nélio é de Nampula.",
+            "ipa": "",
+            "audioKey": "a1_a1-u01-l10_s1"
+          },
+          {
+            "id": "a1-u01-l10-s2",
+            "en": "This unit is about Hello, Maputo.",
+            "pt": "Esta unidade é sobre Olá, Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u01-l10_s2"
+          },
+          {
+            "id": "a1-u01-l10-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u01-l10_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u01-l10-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u01-l10_lw_hello.-my-name-is-",
+              "answer": "Hello. My name is Amina.",
+              "hint": "Hello."
+            },
+            {
+              "audioKey": "a1_a1-u01-l10_lw_good-morning,-teac",
+              "answer": "Good morning, teacher.",
+              "hint": "Good"
+            },
+            {
+              "audioKey": "a1_a1-u01-l10_lw_i-am-fine,-thank-y",
+              "answer": "I am fine, thank you.",
+              "hint": "I"
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l10-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "My",
+                "name",
+                "is",
+                "Carlos"
+              ],
+              "answer": "My name is Carlos"
+            },
+            {
+              "words": [
+                "I",
+                "am",
+                "from",
+                "Maputo"
+              ],
+              "answer": "I am from Maputo"
+            },
+            {
+              "words": [
+                "Nice",
+                "to",
+                "meet",
+                "you"
+              ],
+              "answer": "Nice to meet you"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-l11",
+      "unitId": "u01",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "Desculpa e com licença",
+        "en": "Desculpa e com licença"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Cumprimentar, dizer o nome e responder How are you?",
+        "Desculpa e com licença"
+      ],
+      "newWords": [
+        {
+          "en": "no",
+          "pt": "não",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l11_w_no",
+          "exampleEn": "Goodbye, see you tomorrow.",
+          "examplePt": "Adeus, até amanhã."
+        },
+        {
+          "en": "name",
+          "pt": "nome",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l11_w_name",
+          "exampleEn": "Goodbye, see you tomorrow.",
+          "examplePt": "Adeus, até amanhã."
+        },
+        {
+          "en": "my name is",
+          "pt": "o meu nome é",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l11_w_my-name-is",
+          "exampleEn": "Goodbye, see you tomorrow.",
+          "examplePt": "Adeus, até amanhã."
+        },
+        {
+          "en": "nice to meet you",
+          "pt": "prazer",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l11_w_nice-to-meet-you",
+          "exampleEn": "Goodbye, see you tomorrow.",
+          "examplePt": "Adeus, até amanhã."
+        }
+      ],
+      "guidedReading": {
+        "title": "Desculpa e com licença",
+        "sentences": [
+          {
+            "id": "a1-u01-l11-s1",
+            "en": "Goodbye, see you tomorrow.",
+            "pt": "Adeus, até amanhã.",
+            "ipa": "ɡʊdˈbaɪ siː ju təˈmɒrəʊ",
+            "audioKey": "a1_a1-u01-l11_s1"
+          },
+          {
+            "id": "a1-u01-l11-s2",
+            "en": "Bye! The chapa is here.",
+            "pt": "Tchau! O chapa chegou.",
+            "ipa": "baɪ",
+            "audioKey": "a1_a1-u01-l11_s2"
+          },
+          {
+            "id": "a1-u01-l11-s3",
+            "en": "See you on Sunday.",
+            "pt": "Até domingo.",
+            "ipa": "siː ju ɒn ˈsʌndeɪ",
+            "audioKey": "a1_a1-u01-l11_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u01-l11-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u01-l11_tap",
+          "items": [
+            {
+              "answer": "hello",
+              "options": [
+                "hello",
+                "thank you",
+                "goodbye",
+                "please"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l11-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-l12",
+      "unitId": "u01",
+      "order": 12,
+      "kind": "content",
+      "title": {
+        "pt": "Sim e não",
+        "en": "Sim e não"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Cumprimentar, dizer o nome e responder How are you?",
+        "Sim e não"
+      ],
+      "newWords": [
+        {
+          "en": "nice to meet you",
+          "pt": "prazer",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l12_w_nice-to-meet-you",
+          "exampleEn": "Hello. I am Nélio.",
+          "examplePt": "Olá. Eu sou o Nélio."
+        },
+        {
+          "en": "how are you",
+          "pt": "como estás",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l12_w_how-are-you",
+          "exampleEn": "Hello. I am Nélio.",
+          "examplePt": "Olá. Eu sou o Nélio."
+        },
+        {
+          "en": "I am fine",
+          "pt": "estou bem",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l12_w_i-am-fine",
+          "exampleEn": "Hello. I am Nélio.",
+          "examplePt": "Olá. Eu sou o Nélio."
+        },
+        {
+          "en": "and you",
+          "pt": "e tu",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l12_w_and-you",
+          "exampleEn": "Hello. I am Nélio.",
+          "examplePt": "Olá. Eu sou o Nélio."
+        }
+      ],
+      "guidedReading": {
+        "title": "Sim e não",
+        "sentences": [
+          {
+            "id": "a1-u01-l12-s1",
+            "en": "Hello. I am Nélio.",
+            "pt": "Olá. Eu sou o Nélio.",
+            "ipa": "həˈləʊ aɪ æm",
+            "audioKey": "a1_a1-u01-l12_s1"
+          },
+          {
+            "id": "a1-u01-l12-s2",
+            "en": "I am from the Baixa, in Maputo.",
+            "pt": "Sou da Baixa, em Maputo.",
+            "ipa": "aɪ æm frɒm ðə",
+            "audioKey": "a1_a1-u01-l12_s2"
+          },
+          {
+            "id": "a1-u01-l12-s3",
+            "en": "Nice to meet you.",
+            "pt": "Prazer.",
+            "ipa": "naɪs tə miːt juː",
+            "audioKey": "a1_a1-u01-l12_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u01-l12-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Hello. I am Nélio.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l12-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "Hello",
+                "pt": "O que significa «Hello»?"
+              },
+              "options": [
+                "Olá",
+                "Adeus",
+                "Obrigado",
+                "Água"
+              ],
+              "answer": "Olá"
+            },
+            {
+              "question": {
+                "en": "Thank you",
+                "pt": "O que significa «Thank you»?"
+              },
+              "options": [
+                "Obrigado",
+                "Por favor",
+                "Desculpa",
+                "Não"
+              ],
+              "answer": "Obrigado"
+            },
+            {
+              "question": {
+                "en": "Good morning",
+                "pt": "O que significa «Good morning»?"
+              },
+              "options": [
+                "Bom dia",
+                "Boa noite",
+                "Tchau",
+                "Sim"
+              ],
+              "answer": "Bom dia"
+            },
+            {
+              "question": {
+                "en": "My name is Amina",
+                "pt": "O que significa «My name is Amina»?"
+              },
+              "options": [
+                "O meu nome é Amina",
+                "Eu tenho fome",
+                "Está calor",
+                "Quanto custa"
+              ],
+              "answer": "O meu nome é Amina"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-l13",
+      "unitId": "u01",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Adeus no chapa",
+        "en": "Adeus no chapa"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Cumprimentar, dizer o nome e responder How are you?",
+        "Adeus no chapa"
+      ],
+      "newWords": [
+        {
+          "en": "and you",
+          "pt": "e tu",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l13_w_and-you",
+          "exampleEn": "Good morning, class.",
+          "examplePt": "Bom dia, turma."
+        },
+        {
+          "en": "welcome",
+          "pt": "bem-vindo",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l13_w_welcome",
+          "exampleEn": "Good morning, class.",
+          "examplePt": "Bom dia, turma."
+        }
+      ],
+      "guidedReading": {
+        "title": "Adeus no chapa",
+        "sentences": [
+          {
+            "id": "a1-u01-l13-s1",
+            "en": "Good morning, class.",
+            "pt": "Bom dia, turma.",
+            "ipa": "ɡʊd ˈmɔːnɪŋ klɑːs",
+            "audioKey": "a1_a1-u01-l13_s1"
+          },
+          {
+            "id": "a1-u01-l13-s2",
+            "en": "My name is teacher Lurdes.",
+            "pt": "O meu nome é professora Lurdes.",
+            "ipa": "maɪ neɪm ɪz",
+            "audioKey": "a1_a1-u01-l13_s2"
+          },
+          {
+            "id": "a1-u01-l13-s3",
+            "en": "How are you today?",
+            "pt": "Como estão hoje?",
+            "ipa": "haʊ ɑː ju təˈdeɪ",
+            "audioKey": "a1_a1-u01-l13_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u01-l13-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u01-l13_repeat",
+          "items": [
+            {
+              "en": "Good morning, class.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l13-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "Hello",
+                "pt": "O que significa «Hello»?"
+              },
+              "options": [
+                "Olá",
+                "Adeus",
+                "Obrigado",
+                "Água"
+              ],
+              "answer": "Olá"
+            },
+            {
+              "question": {
+                "en": "Thank you",
+                "pt": "O que significa «Thank you»?"
+              },
+              "options": [
+                "Obrigado",
+                "Por favor",
+                "Desculpa",
+                "Não"
+              ],
+              "answer": "Obrigado"
+            },
+            {
+              "question": {
+                "en": "Good morning",
+                "pt": "O que significa «Good morning»?"
+              },
+              "options": [
+                "Bom dia",
+                "Boa noite",
+                "Tchau",
+                "Sim"
+              ],
+              "answer": "Bom dia"
+            },
+            {
+              "question": {
+                "en": "My name is Amina",
+                "pt": "O que significa «My name is Amina»?"
+              },
+              "options": [
+                "O meu nome é Amina",
+                "Eu tenho fome",
+                "Está calor",
+                "Quanto custa"
+              ],
+              "answer": "O meu nome é Amina"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-l14",
+      "unitId": "u01",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: na Baixa de Maputo",
+        "en": "Diálogo: na Baixa de Maputo"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Cumprimentar, dizer o nome e responder How are you?",
+        "Diálogo: na Baixa de Maputo"
+      ],
+      "newWords": [
+        {
+          "en": "hi",
+          "pt": "oi",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l14_w_hi",
+          "exampleEn": "Hi. How much is this mango?",
+          "examplePt": "Oi. Quanto custa esta manga?"
+        },
+        {
+          "en": "good morning",
+          "pt": "bom dia",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l14_w_good-morning",
+          "exampleEn": "Hi. How much is this mango?",
+          "examplePt": "Oi. Quanto custa esta manga?"
+        },
+        {
+          "en": "good afternoon",
+          "pt": "boa tarde",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l14_w_good-afternoon",
+          "exampleEn": "Hi. How much is this mango?",
+          "examplePt": "Oi. Quanto custa esta manga?"
+        },
+        {
+          "en": "good evening",
+          "pt": "boa noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l14_w_good-evening",
+          "exampleEn": "Hi. How much is this mango?",
+          "examplePt": "Oi. Quanto custa esta manga?"
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: na Baixa de Maputo",
+        "sentences": [
+          {
+            "id": "a1-u01-l14-s1",
+            "en": "Hi. How much is this mango?",
+            "pt": "Oi. Quanto custa esta manga?",
+            "ipa": "haʊ mʌtʃ ɪz ðɪs",
+            "audioKey": "a1_a1-u01-l14_s1"
+          },
+          {
+            "id": "a1-u01-l14-s2",
+            "en": "Please, five meticais.",
+            "pt": "Por favor, cinco meticais.",
+            "ipa": "pliːz faɪv",
+            "audioKey": "a1_a1-u01-l14_s2"
+          },
+          {
+            "id": "a1-u01-l14-s3",
+            "en": "Thank you. Goodbye.",
+            "pt": "Obrigada. Adeus.",
+            "ipa": "θæŋk juː ɡʊdˈbaɪ",
+            "audioKey": "a1_a1-u01-l14_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u01-l14-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "My name ___ Amina.",
+              "answer": "is",
+              "options": [
+                "is",
+                "am",
+                "are",
+                "be"
+              ]
+            },
+            {
+              "sentence": "___ are you?",
+              "answer": "How",
+              "options": [
+                "How",
+                "Who",
+                "What",
+                "When"
+              ]
+            },
+            {
+              "sentence": "I am fine, ___ you.",
+              "answer": "thank",
+              "options": [
+                "thank",
+                "please",
+                "sorry",
+                "hello"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-l15",
+      "unitId": "u01",
+      "order": 15,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 2",
+        "en": "Checkpoint quiz 2"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Cumprimentar, dizer o nome e responder How are you?",
+        "Mini-teste 2"
+      ],
+      "newWords": [
+        {
+          "en": "good evening",
+          "pt": "boa noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l15_w_good-evening",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "goodbye",
+          "pt": "adeus",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l15_w_goodbye",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "bye",
+          "pt": "tchau",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l15_w_bye",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "please",
+          "pt": "por favor",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l15_w_please",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 2",
+        "sentences": [
+          {
+            "id": "a1-u01-l15-s1",
+            "en": "Let’s review. Amélia is from Maputo.",
+            "pt": "Vamos rever. Amélia é de Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u01-l15_s1"
+          },
+          {
+            "id": "a1-u01-l15-s2",
+            "en": "This unit is about Hello, Maputo.",
+            "pt": "Esta unidade é sobre Olá, Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u01-l15_s2"
+          },
+          {
+            "id": "a1-u01-l15-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u01-l15_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u01-l15-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "Hello",
+                "pt": "O que significa «Hello»?"
+              },
+              "options": [
+                "Olá",
+                "Adeus",
+                "Obrigado",
+                "Água"
+              ],
+              "answer": "Olá"
+            },
+            {
+              "question": {
+                "en": "Thank you",
+                "pt": "O que significa «Thank you»?"
+              },
+              "options": [
+                "Obrigado",
+                "Por favor",
+                "Desculpa",
+                "Não"
+              ],
+              "answer": "Obrigado"
+            },
+            {
+              "question": {
+                "en": "Good morning",
+                "pt": "O que significa «Good morning»?"
+              },
+              "options": [
+                "Bom dia",
+                "Boa noite",
+                "Tchau",
+                "Sim"
+              ],
+              "answer": "Bom dia"
+            },
+            {
+              "question": {
+                "en": "My name is Amina",
+                "pt": "O que significa «My name is Amina»?"
+              },
+              "options": [
+                "O meu nome é Amina",
+                "Eu tenho fome",
+                "Está calor",
+                "Quanto custa"
+              ],
+              "answer": "O meu nome é Amina"
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l15-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "My name ___ Amina.",
+              "answer": "is",
+              "options": [
+                "is",
+                "am",
+                "are",
+                "be"
+              ]
+            },
+            {
+              "sentence": "___ are you?",
+              "answer": "How",
+              "options": [
+                "How",
+                "Who",
+                "What",
+                "When"
+              ]
+            },
+            {
+              "sentence": "I am fine, ___ you.",
+              "answer": "thank",
+              "options": [
+                "thank",
+                "please",
+                "sorry",
+                "hello"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l15-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u01-l15_lw_hello.-my-name-is-",
+              "answer": "Hello. My name is Amina.",
+              "hint": "Hello."
+            },
+            {
+              "audioKey": "a1_a1-u01-l15_lw_good-morning,-teac",
+              "answer": "Good morning, teacher.",
+              "hint": "Good"
+            },
+            {
+              "audioKey": "a1_a1-u01-l15_lw_i-am-fine,-thank-y",
+              "answer": "I am fine, thank you.",
+              "hint": "I"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-l16",
+      "unitId": "u01",
+      "order": 16,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: na escola",
+        "en": "Diálogo: na escola"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Cumprimentar, dizer o nome e responder How are you?",
+        "Diálogo: na escola"
+      ],
+      "newWords": [
+        {
+          "en": "please",
+          "pt": "por favor",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l16_w_please",
+          "exampleEn": "Hello. My name is Esperança.",
+          "examplePt": "Olá. O meu nome é Esperança."
+        },
+        {
+          "en": "thank you",
+          "pt": "obrigado/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l16_w_thank-you",
+          "exampleEn": "Hello. My name is Esperança.",
+          "examplePt": "Olá. O meu nome é Esperança."
+        },
+        {
+          "en": "sorry",
+          "pt": "desculpa",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l16_w_sorry",
+          "exampleEn": "Hello. My name is Esperança.",
+          "examplePt": "Olá. O meu nome é Esperança."
+        },
+        {
+          "en": "yes",
+          "pt": "sim",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l16_w_yes",
+          "exampleEn": "Hello. My name is Esperança.",
+          "examplePt": "Olá. O meu nome é Esperança."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: na escola",
+        "sentences": [
+          {
+            "id": "a1-u01-l16-s1",
+            "en": "Hello. My name is Esperança.",
+            "pt": "Olá. O meu nome é Esperança.",
+            "ipa": "həˈləʊ",
+            "audioKey": "a1_a1-u01-l16_s1"
+          },
+          {
+            "id": "a1-u01-l16-s2",
+            "en": "I am from Nampula.",
+            "pt": "Eu sou de Nampula.",
+            "ipa": "aɪ æm frɒm",
+            "audioKey": "a1_a1-u01-l16_s2"
+          },
+          {
+            "id": "a1-u01-l16-s3",
+            "en": "I am fine, thank you. And you?",
+            "pt": "Estou bem, obrigada. E tu?",
+            "ipa": "aɪ æm faɪn",
+            "audioKey": "a1_a1-u01-l16_s3"
+          },
+          {
+            "id": "a1-u01-l16-s4",
+            "en": "Nice to meet you. Goodbye.",
+            "pt": "Prazer. Adeus.",
+            "ipa": "naɪs tə miːt juː",
+            "audioKey": "a1_a1-u01-l16_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u01-l16-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u01-l16_lw_hello.-my-name-is-",
+              "answer": "Hello. My name is Amina.",
+              "hint": "Hello."
+            },
+            {
+              "audioKey": "a1_a1-u01-l16_lw_good-morning,-teac",
+              "answer": "Good morning, teacher.",
+              "hint": "Good"
+            },
+            {
+              "audioKey": "a1_a1-u01-l16_lw_i-am-fine,-thank-y",
+              "answer": "I am fine, thank you.",
+              "hint": "I"
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l16-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "My",
+                "name",
+                "is",
+                "Carlos"
+              ],
+              "answer": "My name is Carlos"
+            },
+            {
+              "words": [
+                "I",
+                "am",
+                "from",
+                "Maputo"
+              ],
+              "answer": "I am from Maputo"
+            },
+            {
+              "words": [
+                "Nice",
+                "to",
+                "meet",
+                "you"
+              ],
+              "answer": "Nice to meet you"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-l17",
+      "unitId": "u01",
+      "order": 17,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: no mercado",
+        "en": "Diálogo: no mercado"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Cumprimentar, dizer o nome e responder How are you?",
+        "Diálogo: no mercado"
+      ],
+      "newWords": [
+        {
+          "en": "yes",
+          "pt": "sim",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l17_w_yes",
+          "exampleEn": "Hello. My name is Esperança.",
+          "examplePt": "Olá. O meu nome é Esperança."
+        },
+        {
+          "en": "no",
+          "pt": "não",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l17_w_no",
+          "exampleEn": "Hello. My name is Esperança.",
+          "examplePt": "Olá. O meu nome é Esperança."
+        },
+        {
+          "en": "name",
+          "pt": "nome",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l17_w_name",
+          "exampleEn": "Hello. My name is Esperança.",
+          "examplePt": "Olá. O meu nome é Esperança."
+        },
+        {
+          "en": "my name is",
+          "pt": "o meu nome é",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l17_w_my-name-is",
+          "exampleEn": "Hello. My name is Esperança.",
+          "examplePt": "Olá. O meu nome é Esperança."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: no mercado",
+        "sentences": [
+          {
+            "id": "a1-u01-l17-s1",
+            "en": "Hello. My name is Esperança.",
+            "pt": "Olá. O meu nome é Esperança.",
+            "ipa": "həˈləʊ",
+            "audioKey": "a1_a1-u01-l17_s1"
+          },
+          {
+            "id": "a1-u01-l17-s2",
+            "en": "I am from Nampula.",
+            "pt": "Eu sou de Nampula.",
+            "ipa": "aɪ æm frɒm",
+            "audioKey": "a1_a1-u01-l17_s2"
+          },
+          {
+            "id": "a1-u01-l17-s3",
+            "en": "I am fine, thank you. And you?",
+            "pt": "Estou bem, obrigada. E tu?",
+            "ipa": "aɪ æm faɪn",
+            "audioKey": "a1_a1-u01-l17_s3"
+          },
+          {
+            "id": "a1-u01-l17-s4",
+            "en": "Nice to meet you. Goodbye.",
+            "pt": "Prazer. Adeus.",
+            "ipa": "naɪs tə miːt juː",
+            "audioKey": "a1_a1-u01-l17_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u01-l17-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u01-l17_tap",
+          "items": [
+            {
+              "answer": "hello",
+              "options": [
+                "hello",
+                "thank you",
+                "goodbye",
+                "please"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l17-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-l18",
+      "unitId": "u01",
+      "order": 18,
+      "kind": "content",
+      "title": {
+        "pt": "Sons: h e th em hello / thank you",
+        "en": "Sons: h e th em hello / thank you"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Cumprimentar, dizer o nome e responder How are you?",
+        "Sons: h e th em hello / thank you"
+      ],
+      "newWords": [
+        {
+          "en": "my name is",
+          "pt": "o meu nome é",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l18_w_my-name-is",
+          "exampleEn": "Hello. My name is Esperança.",
+          "examplePt": "Olá. O meu nome é Esperança."
+        },
+        {
+          "en": "nice to meet you",
+          "pt": "prazer",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l18_w_nice-to-meet-you",
+          "exampleEn": "Hello. My name is Esperança.",
+          "examplePt": "Olá. O meu nome é Esperança."
+        },
+        {
+          "en": "how are you",
+          "pt": "como estás",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l18_w_how-are-you",
+          "exampleEn": "Hello. My name is Esperança.",
+          "examplePt": "Olá. O meu nome é Esperança."
+        },
+        {
+          "en": "I am fine",
+          "pt": "estou bem",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l18_w_i-am-fine",
+          "exampleEn": "Hello. My name is Esperança.",
+          "examplePt": "Olá. O meu nome é Esperança."
+        }
+      ],
+      "guidedReading": {
+        "title": "Sons: h e th em hello / thank you",
+        "sentences": [
+          {
+            "id": "a1-u01-l18-s1",
+            "en": "Hello. My name is Esperança.",
+            "pt": "Olá. O meu nome é Esperança.",
+            "ipa": "həˈləʊ",
+            "audioKey": "a1_a1-u01-l18_s1"
+          },
+          {
+            "id": "a1-u01-l18-s2",
+            "en": "I am from Nampula.",
+            "pt": "Eu sou de Nampula.",
+            "ipa": "aɪ æm frɒm",
+            "audioKey": "a1_a1-u01-l18_s2"
+          },
+          {
+            "id": "a1-u01-l18-s3",
+            "en": "I am fine, thank you. And you?",
+            "pt": "Estou bem, obrigada. E tu?",
+            "ipa": "aɪ æm faɪn",
+            "audioKey": "a1_a1-u01-l18_s3"
+          },
+          {
+            "id": "a1-u01-l18-s4",
+            "en": "Nice to meet you. Goodbye.",
+            "pt": "Prazer. Adeus.",
+            "ipa": "naɪs tə miːt juː",
+            "audioKey": "a1_a1-u01-l18_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u01-l18-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Hello. My name is Esperança.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l18-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "Hello",
+                "pt": "O que significa «Hello»?"
+              },
+              "options": [
+                "Olá",
+                "Adeus",
+                "Obrigado",
+                "Água"
+              ],
+              "answer": "Olá"
+            },
+            {
+              "question": {
+                "en": "Thank you",
+                "pt": "O que significa «Thank you»?"
+              },
+              "options": [
+                "Obrigado",
+                "Por favor",
+                "Desculpa",
+                "Não"
+              ],
+              "answer": "Obrigado"
+            },
+            {
+              "question": {
+                "en": "Good morning",
+                "pt": "O que significa «Good morning»?"
+              },
+              "options": [
+                "Bom dia",
+                "Boa noite",
+                "Tchau",
+                "Sim"
+              ],
+              "answer": "Bom dia"
+            },
+            {
+              "question": {
+                "en": "My name is Amina",
+                "pt": "O que significa «My name is Amina»?"
+              },
+              "options": [
+                "O meu nome é Amina",
+                "Eu tenho fome",
+                "Está calor",
+                "Quanto custa"
+              ],
+              "answer": "O meu nome é Amina"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-l19",
+      "unitId": "u01",
+      "order": 19,
+      "kind": "content",
+      "title": {
+        "pt": "Apresenta-te em 4 frases",
+        "en": "Apresenta-te em 4 frases"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Cumprimentar, dizer o nome e responder How are you?",
+        "Apresenta-te em 4 frases"
+      ],
+      "newWords": [
+        {
+          "en": "I am fine",
+          "pt": "estou bem",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l19_w_i-am-fine",
+          "exampleEn": "Hello. My name is Esperança.",
+          "examplePt": "Olá. O meu nome é Esperança."
+        },
+        {
+          "en": "and you",
+          "pt": "e tu",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l19_w_and-you",
+          "exampleEn": "Hello. My name is Esperança.",
+          "examplePt": "Olá. O meu nome é Esperança."
+        },
+        {
+          "en": "welcome",
+          "pt": "bem-vindo",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l19_w_welcome",
+          "exampleEn": "Hello. My name is Esperança.",
+          "examplePt": "Olá. O meu nome é Esperança."
+        }
+      ],
+      "guidedReading": {
+        "title": "Apresenta-te em 4 frases",
+        "sentences": [
+          {
+            "id": "a1-u01-l19-s1",
+            "en": "Hello. My name is Esperança.",
+            "pt": "Olá. O meu nome é Esperança.",
+            "ipa": "həˈləʊ",
+            "audioKey": "a1_a1-u01-l19_s1"
+          },
+          {
+            "id": "a1-u01-l19-s2",
+            "en": "I am from Nampula.",
+            "pt": "Eu sou de Nampula.",
+            "ipa": "aɪ æm frɒm",
+            "audioKey": "a1_a1-u01-l19_s2"
+          },
+          {
+            "id": "a1-u01-l19-s3",
+            "en": "I am fine, thank you. And you?",
+            "pt": "Estou bem, obrigada. E tu?",
+            "ipa": "aɪ æm faɪn",
+            "audioKey": "a1_a1-u01-l19_s3"
+          },
+          {
+            "id": "a1-u01-l19-s4",
+            "en": "Nice to meet you. Goodbye.",
+            "pt": "Prazer. Adeus.",
+            "ipa": "naɪs tə miːt juː",
+            "audioKey": "a1_a1-u01-l19_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u01-l19-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u01-l19_repeat",
+          "items": [
+            {
+              "en": "Hello. My name is Esperança.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l19-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "Hello",
+                "pt": "O que significa «Hello»?"
+              },
+              "options": [
+                "Olá",
+                "Adeus",
+                "Obrigado",
+                "Água"
+              ],
+              "answer": "Olá"
+            },
+            {
+              "question": {
+                "en": "Thank you",
+                "pt": "O que significa «Thank you»?"
+              },
+              "options": [
+                "Obrigado",
+                "Por favor",
+                "Desculpa",
+                "Não"
+              ],
+              "answer": "Obrigado"
+            },
+            {
+              "question": {
+                "en": "Good morning",
+                "pt": "O que significa «Good morning»?"
+              },
+              "options": [
+                "Bom dia",
+                "Boa noite",
+                "Tchau",
+                "Sim"
+              ],
+              "answer": "Bom dia"
+            },
+            {
+              "question": {
+                "en": "My name is Amina",
+                "pt": "O que significa «My name is Amina»?"
+              },
+              "options": [
+                "O meu nome é Amina",
+                "Eu tenho fome",
+                "Está calor",
+                "Quanto custa"
+              ],
+              "answer": "O meu nome é Amina"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-l20",
+      "unitId": "u01",
+      "order": 20,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste da unidade: Olá, Maputo",
+        "en": "Unit test: Hello, Maputo"
+      },
+      "type": "unit_test",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "listening",
+        "reading",
+        "writing",
+        "grammar"
+      ],
+      "objectives": [
+        "Cumprimentar, dizer o nome e responder How are you?",
+        "Teste da unidade: Olá, Maputo"
+      ],
+      "newWords": [
+        {
+          "en": "hello",
+          "pt": "olá",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l20_w_hello",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "hi",
+          "pt": "oi",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l20_w_hi",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "good morning",
+          "pt": "bom dia",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l20_w_good-morning",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "good afternoon",
+          "pt": "boa tarde",
+          "ipa": "",
+          "audioKey": "a1_a1-u01-l20_w_good-afternoon",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Unit test: Hello, Maputo",
+        "sentences": [
+          {
+            "id": "a1-u01-l20-s1",
+            "en": "Let’s review. Carlos is from Beira.",
+            "pt": "Vamos rever. Carlos é de Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u01-l20_s1"
+          },
+          {
+            "id": "a1-u01-l20-s2",
+            "en": "This unit is about Hello, Maputo.",
+            "pt": "Esta unidade é sobre Olá, Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u01-l20_s2"
+          },
+          {
+            "id": "a1-u01-l20-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u01-l20_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u01-l20-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "Hello",
+                "pt": "O que significa «Hello»?"
+              },
+              "options": [
+                "Olá",
+                "Adeus",
+                "Obrigado",
+                "Água"
+              ],
+              "answer": "Olá"
+            },
+            {
+              "question": {
+                "en": "Thank you",
+                "pt": "O que significa «Thank you»?"
+              },
+              "options": [
+                "Obrigado",
+                "Por favor",
+                "Desculpa",
+                "Não"
+              ],
+              "answer": "Obrigado"
+            },
+            {
+              "question": {
+                "en": "Good morning",
+                "pt": "O que significa «Good morning»?"
+              },
+              "options": [
+                "Bom dia",
+                "Boa noite",
+                "Tchau",
+                "Sim"
+              ],
+              "answer": "Bom dia"
+            },
+            {
+              "question": {
+                "en": "My name is Amina",
+                "pt": "O que significa «My name is Amina»?"
+              },
+              "options": [
+                "O meu nome é Amina",
+                "Eu tenho fome",
+                "Está calor",
+                "Quanto custa"
+              ],
+              "answer": "O meu nome é Amina"
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l20-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "My name ___ Amina.",
+              "answer": "is",
+              "options": [
+                "is",
+                "am",
+                "are",
+                "be"
+              ]
+            },
+            {
+              "sentence": "___ are you?",
+              "answer": "How",
+              "options": [
+                "How",
+                "Who",
+                "What",
+                "When"
+              ]
+            },
+            {
+              "sentence": "I am fine, ___ you.",
+              "answer": "thank",
+              "options": [
+                "thank",
+                "please",
+                "sorry",
+                "hello"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l20-a3",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "Hello means Olá.",
+              "answer": true
+            },
+            {
+              "sentence": "Goodbye means Bom dia.",
+              "answer": false
+            },
+            {
+              "sentence": "Thank you means Obrigado.",
+              "answer": true
+            },
+            {
+              "sentence": "Maputo is a city in Mozambique.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l20-a4",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "My",
+                "name",
+                "is",
+                "Carlos"
+              ],
+              "answer": "My name is Carlos"
+            },
+            {
+              "words": [
+                "I",
+                "am",
+                "from",
+                "Maputo"
+              ],
+              "answer": "I am from Maputo"
+            },
+            {
+              "words": [
+                "Nice",
+                "to",
+                "meet",
+                "you"
+              ],
+              "answer": "Nice to meet you"
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l20-a5",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u01-l20_lw_hello.-my-name-is-",
+              "answer": "Hello. My name is Amina.",
+              "hint": "Hello."
+            },
+            {
+              "audioKey": "a1_a1-u01-l20_lw_good-morning,-teac",
+              "answer": "Good morning, teacher.",
+              "hint": "Good"
+            },
+            {
+              "audioKey": "a1_a1-u01-l20_lw_i-am-fine,-thank-y",
+              "answer": "I am fine, thank you.",
+              "hint": "I"
+            }
+          ]
+        },
+        {
+          "id": "a1-u01-l20-a6",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    }
+  ]
+}

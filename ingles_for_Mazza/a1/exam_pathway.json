@@ -1,0 +1,60 @@
+{
+  "sourceDriveFile": {
+    "id": "172cViNoDJMRC8WsQ6Tn8cXiYHfKot9bi",
+    "filename": "343147-cambridge-english-preliminary-for-schools-pet-for-schools-digital-handbook-for-teachers.pdf",
+    "exam": "Cambridge English Preliminary for Schools (PET for Schools)",
+    "cefr": "B1",
+    "role": "long-term quality target — not A1 item bank",
+    "copyright": "Cambridge Assessment. Do not copy sample papers or keys into lessons."
+  },
+  "path": [
+    {
+      "appLevel": "A1",
+      "cambridgeNeighbour": "Pre-A1 Starters / A1 Movers",
+      "status": "in_progress",
+      "units": 25,
+      "lessons": 500
+    },
+    {
+      "appLevel": "A2",
+      "cambridgeNeighbour": "A2 Key for Schools (KET)",
+      "status": "planned"
+    },
+    {
+      "appLevel": "B1",
+      "cambridgeNeighbour": "B1 Preliminary for Schools (PET)",
+      "status": "target",
+      "papers": ["Reading", "Writing", "Listening", "Speaking"]
+    }
+  ],
+  "a1SkillSeedsFromPetLogic": [
+    {
+      "petPaper": "Reading notices",
+      "a1Type": "guided_reading"
+    },
+    {
+      "petPaper": "Reading matching / multiple choice",
+      "a1Type": "multiple_choice"
+    },
+    {
+      "petPaper": "Reading cloze",
+      "a1Type": "fill_blank"
+    },
+    {
+      "petPaper": "Listening key information",
+      "a1Type": "tap_what_you_hear"
+    },
+    {
+      "petPaper": "Listening dictation-like detail",
+      "a1Type": "listen_write"
+    },
+    {
+      "petPaper": "Speaking short questions",
+      "a1Type": "speak_prompt"
+    },
+    {
+      "petPaper": "Everyday dialogue",
+      "a1Type": "mini_dialogue"
+    }
+  ]
+}

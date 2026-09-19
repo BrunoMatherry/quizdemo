@@ -1,5 +1,5 @@
 // QuizMoz v3.1.0 — UI Module
-import { gameState, classesData, classDisciplines, TIERS } from './game.js';
+import { gameState, classesData, classDisciplines, TIERS, getDailyQuizStatus } from './game.js';
 
 // ===== SCREEN MANAGEMENT =====
 export function showScreen(screenId, render) {
@@ -180,7 +180,33 @@ export function renderClasses(container) {
         '17': { gradient: 'linear-gradient(135deg, #74B9FF 0%, #0984E3 100%)', iconColor: '#fff', textColor: '#fff', dimColor: 'rgba(255,255,255,0.75)' }
     };
     
-    let html = '<div class="section-title">Escolhe a tua Classe</div>';
+    const dqStatus = getDailyQuizStatus();
+    let dqBadgeText = dqStatus.isCompletedToday ? `✅ Concluído Hoje (${dqStatus.score}/3)` : `🔥 Disponível Hoje • 3 Perguntas`;
+    let dqStreakText = dqStatus.streak > 0 ? `🔥 Streak: ${dqStatus.streak} dias` : `⭐ Inicia a tua sequência!`;
+    
+    let html = `
+        <div class="daily-quiz-card" id="btn-open-daily-quiz">
+            <div class="daily-quiz-glow"></div>
+            <div class="daily-quiz-header-badge">
+                <i class="fas fa-calendar-day"></i> QUIZ DIÁRIO DA ÁFRICA
+            </div>
+            <div class="daily-quiz-content">
+                <div class="daily-quiz-info">
+                    <h3>🌍 Desafio de Hoje</h3>
+                    <p>Responda a 3 perguntas diárias sobre a África e ganhe recompensas!</p>
+                    <div class="daily-quiz-tags">
+                        <span class="daily-quiz-tag" style="background:rgba(255,215,0,0.3);color:#fff;">${dqBadgeText}</span>
+                        <span class="daily-quiz-tag">${dqStreakText}</span>
+                    </div>
+                </div>
+                <div class="daily-quiz-action-icon">
+                    <i class="fas ${dqStatus.isCompletedToday ? 'fa-check' : 'fa-play'}"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-title">Escolhe a tua Classe</div>
+    `;
     
     for (const [groupName, ids] of Object.entries(groups)) {
         const groupClass = groupName.includes('Iniciante') ? 'group-beginner' : groupName.includes('Especiais') ? 'group-special' : 'group-regular';
@@ -257,6 +283,31 @@ export function renderClasses(container) {
                     <span>Sorteie uma letra e responda o mais rápido possível · jogue com seus amigos</span>
                 </div>
                 <div class="nt-entry-arrow"><i class="fas fa-chevron-right"></i></div>
+            </div>
+        </div>
+
+        <!-- MAZZA LANGUAGE ENTRY (por baixo do multiplayer) -->
+        <div class="group-title group-language" style="background:linear-gradient(90deg,#0984E3,#6C5CE7,#D63031);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:1.1em;margin-top:20px;">🌍 Mazza Language · Idiomas</div>
+        <div class="mazza-language-entry" id="btn-open-mazza-language">
+            <div class="mazza-entry-glow"></div>
+            <div class="mazza-entry-content">
+                <div class="mazza-entry-left">
+                    <div class="mazza-entry-icon-badge">
+                        <span>🌍</span>
+                    </div>
+                    <div class="mazza-entry-text">
+                        <strong>Mazza Language · Inglês & Mandarim</strong>
+                        <span>Aprende do Zero ao Avançado · Leitura Guiada & Testes</span>
+                        <div class="mazza-entry-tags">
+                            <span class="mazza-entry-tag">🇬🇧 Inglês (Pre-A1 a C2)</span>
+                            <span class="mazza-entry-tag">🇨🇳 Mandarim (HSK 1-6)</span>
+                            <span class="mazza-entry-tag">🎙️ Leitura Falada</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mazza-entry-arrow">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
             </div>
         </div>
     `;

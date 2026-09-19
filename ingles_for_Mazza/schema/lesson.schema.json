@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "A1 Lesson",
+  "type": "object",
+  "required": ["id", "unitId", "order", "title", "type", "objectives", "newWords", "guidedReading", "activities"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^a1-u[0-9]{2}-l[0-9]{2}$" },
+    "unitId": { "type": "string" },
+    "order": { "type": "integer" },
+    "kind": {
+      "type": "string",
+      "enum": ["content", "review", "checkpoint", "unit_test"]
+    },
+    "title": {
+      "type": "object",
+      "required": ["pt", "en"],
+      "properties": {
+        "pt": { "type": "string" },
+        "en": { "type": "string" }
+      }
+    },
+    "type": { "type": "string" },
+    "durationMin": { "type": "number" },
+    "xp": { "type": "integer" },
+    "skills": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "objectives": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "newWords": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["en", "pt"],
+        "properties": {
+          "en": { "type": "string" },
+          "pt": { "type": "string" },
+          "ipa": { "type": "string" },
+          "audioKey": { "type": "string" },
+          "exampleEn": { "type": "string" },
+          "examplePt": { "type": "string" }
+        }
+      }
+    },
+    "guidedReading": {
+      "type": "object",
+      "required": ["title", "sentences"],
+      "properties": {
+        "title": { "type": "string" },
+        "sentences": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "en", "pt", "audioKey"],
+            "properties": {
+              "id": { "type": "string" },
+              "en": { "type": "string" },
+              "pt": { "type": "string" },
+              "ipa": { "type": "string" },
+              "audioKey": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "activities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "prompt"],
+        "properties": {
+          "id": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": [
+              "multiple_choice",
+              "fill_blank",
+              "listen_write",
+              "order_words",
+              "match_pairs",
+              "true_false",
+              "tap_what_you_hear",
+              "listen_repeat",
+              "mini_dialogue",
+              "speak_prompt"
+            ]
+          },
+          "prompt": {
+            "type": "object",
+            "properties": {
+              "pt": { "type": "string" },
+              "en": { "type": "string" }
+            }
+          },
+          "audioKey": { "type": "string" },
+          "items": { "type": "array" }
+        }
+      }
+    }
+  }
+}

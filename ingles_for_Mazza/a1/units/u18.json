@@ -1,0 +1,3460 @@
+{
+  "id": "u18",
+  "level": "A1",
+  "order": 18,
+  "title": {
+    "pt": "Festas e cultura",
+    "en": "Festivals and culture"
+  },
+  "goal": "Independência, família, música e celebrações.",
+  "themeImageHint": "Festivals and culture",
+  "lessonCount": 20,
+  "lessons": [
+    {
+      "id": "a1-u18-l01",
+      "unitId": "u18",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "O Dia 25 de Junho",
+        "en": "O Dia 25 de Junho"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Independência, família, música e celebrações.",
+        "O Dia 25 de Junho"
+      ],
+      "newWords": [
+        {
+          "en": "party",
+          "pt": "festa",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l01_w_party",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "dance",
+          "pt": "dança",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l01_w_dance",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "song",
+          "pt": "canção",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l01_w_song",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "Independence Day",
+          "pt": "Dia da Independência",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l01_w_independence-day",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "O Dia 25 de Junho",
+        "sentences": [
+          {
+            "id": "a1-u18-l01-s1",
+            "en": "Amina lives in Maputo.",
+            "pt": "Amina mora em Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l01_s1"
+          },
+          {
+            "id": "a1-u18-l01-s2",
+            "en": "Today the lesson is O Dia 25 de Junho.",
+            "pt": "Hoje a lição é: O Dia 25 de Junho.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l01_s2"
+          },
+          {
+            "id": "a1-u18-l01-s3",
+            "en": "We learn 'party' and 'dance'.",
+            "pt": "Aprendemos «festa» e «dança».",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l01_s3"
+          },
+          {
+            "id": "a1-u18-l01-s4",
+            "en": "Amina says: I use 'Independence Day' every day.",
+            "pt": "Amina diz: uso «Dia da Independência» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l01_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u18-l01-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u18-l01_repeat",
+          "items": [
+            {
+              "en": "Amina lives in Maputo.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l01-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "party",
+                "pt": "O que significa «party»?"
+              },
+              "options": [
+                "festa",
+                "canção",
+                "bandeira",
+                "juntos"
+              ],
+              "answer": "festa"
+            },
+            {
+              "question": {
+                "en": "dance",
+                "pt": "O que significa «dance»?"
+              },
+              "options": [
+                "dança",
+                "Dia da Independência",
+                "família",
+                "feliz"
+              ],
+              "answer": "dança"
+            },
+            {
+              "question": {
+                "en": "song",
+                "pt": "O que significa «song»?"
+              },
+              "options": [
+                "canção",
+                "bandeira",
+                "juntos",
+                "comida"
+              ],
+              "answer": "canção"
+            },
+            {
+              "question": {
+                "en": "Independence Day",
+                "pt": "O que significa «Independence Day»?"
+              },
+              "options": [
+                "Dia da Independência",
+                "família",
+                "feliz",
+                "tradicional"
+              ],
+              "answer": "Dia da Independência"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-l02",
+      "unitId": "u18",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "A bandeira",
+        "en": "A bandeira"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Independência, família, música e celebrações.",
+        "A bandeira"
+      ],
+      "newWords": [
+        {
+          "en": "Independence Day",
+          "pt": "Dia da Independência",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l02_w_independence-day",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "flag",
+          "pt": "bandeira",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l02_w_flag",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "family",
+          "pt": "família",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l02_w_family",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "together",
+          "pt": "juntos",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l02_w_together",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "A bandeira",
+        "sentences": [
+          {
+            "id": "a1-u18-l02-s1",
+            "en": "João lives in Matola.",
+            "pt": "João mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l02_s1"
+          },
+          {
+            "id": "a1-u18-l02-s2",
+            "en": "Today the lesson is A bandeira.",
+            "pt": "Hoje a lição é: A bandeira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l02_s2"
+          },
+          {
+            "id": "a1-u18-l02-s3",
+            "en": "We learn 'dance' and 'song'.",
+            "pt": "Aprendemos «dança» e «canção».",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l02_s3"
+          },
+          {
+            "id": "a1-u18-l02-s4",
+            "en": "João says: I use 'flag' every day.",
+            "pt": "João diz: uso «bandeira» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l02_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u18-l02-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Fátima uses the word _____.",
+              "answer": "party",
+              "options": [
+                "party",
+                "dance",
+                "song",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Fátima uses the word _____.",
+              "answer": "dance",
+              "options": [
+                "dance",
+                "song",
+                "Independence Day",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Fátima uses the word _____.",
+              "answer": "song",
+              "options": [
+                "song",
+                "Independence Day",
+                "flag",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-l03",
+      "unitId": "u18",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "Festa em família",
+        "en": "Festa em família"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Independência, família, música e celebrações.",
+        "Festa em família"
+      ],
+      "newWords": [
+        {
+          "en": "together",
+          "pt": "juntos",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l03_w_together",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "happy",
+          "pt": "feliz",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l03_w_happy",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "food",
+          "pt": "comida",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l03_w_food",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "traditional",
+          "pt": "tradicional",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l03_w_traditional",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        }
+      ],
+      "guidedReading": {
+        "title": "Festa em família",
+        "sentences": [
+          {
+            "id": "a1-u18-l03-s1",
+            "en": "Fátima lives in Xai-Xai.",
+            "pt": "Fátima mora em Xai-Xai.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l03_s1"
+          },
+          {
+            "id": "a1-u18-l03-s2",
+            "en": "Today the lesson is Festa em família.",
+            "pt": "Hoje a lição é: Festa em família.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l03_s2"
+          },
+          {
+            "id": "a1-u18-l03-s3",
+            "en": "We learn 'song' and 'Independence Day'.",
+            "pt": "Aprendemos «canção» e «Dia da Independência».",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l03_s3"
+          },
+          {
+            "id": "a1-u18-l03-s4",
+            "en": "Fátima says: I use 'family' every day.",
+            "pt": "Fátima diz: uso «família» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l03_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u18-l03-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "party",
+              "pt": "festa"
+            },
+            {
+              "en": "dance",
+              "pt": "dança"
+            },
+            {
+              "en": "song",
+              "pt": "canção"
+            },
+            {
+              "en": "Independence Day",
+              "pt": "Dia da Independência"
+            },
+            {
+              "en": "flag",
+              "pt": "bandeira"
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l03-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'party' in Portuguese is 'festa'.",
+              "answer": true
+            },
+            {
+              "sentence": "'party' means 'Dia da Independência'.",
+              "answer": false
+            },
+            {
+              "sentence": "'dance' in Portuguese is 'dança'.",
+              "answer": true
+            },
+            {
+              "sentence": "'dance' means 'bandeira'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-l04",
+      "unitId": "u18",
+      "order": 4,
+      "kind": "content",
+      "title": {
+        "pt": "Música e dança",
+        "en": "Música e dança"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Independência, família, música e celebrações.",
+        "Música e dança"
+      ],
+      "newWords": [
+        {
+          "en": "traditional",
+          "pt": "tradicional",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l04_w_traditional",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Música e dança",
+        "sentences": [
+          {
+            "id": "a1-u18-l04-s1",
+            "en": "Carlos lives in Inhambane.",
+            "pt": "Carlos mora em Inhambane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l04_s1"
+          },
+          {
+            "id": "a1-u18-l04-s2",
+            "en": "Today the lesson is Música e dança.",
+            "pt": "Hoje a lição é: Música e dança.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l04_s2"
+          },
+          {
+            "id": "a1-u18-l04-s3",
+            "en": "We learn 'Independence Day' and 'flag'.",
+            "pt": "Aprendemos «Dia da Independência» e «bandeira».",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l04_s3"
+          },
+          {
+            "id": "a1-u18-l04-s4",
+            "en": "Carlos says: I use 'together' every day.",
+            "pt": "Carlos diz: uso «juntos» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l04_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u18-l04-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u18-l04_lw_fátima-is-in-vilan",
+              "answer": "Fátima is in Vilankulo. party.",
+              "hint": "Fátima"
+            },
+            {
+              "audioKey": "a1_a1-u18-l04_lw_fátima-is-in-vilan",
+              "answer": "Fátima is in Vilankulo. dance.",
+              "hint": "Fátima"
+            },
+            {
+              "audioKey": "a1_a1-u18-l04_lw_fátima-is-in-vilan",
+              "answer": "Fátima is in Vilankulo. song.",
+              "hint": "Fátima"
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l04-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "party"
+              ],
+              "answer": "I need party"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "dance"
+              ],
+              "answer": "I need dance"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "song"
+              ],
+              "answer": "I need song"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-l05",
+      "unitId": "u18",
+      "order": 5,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 1",
+        "en": "Checkpoint quiz 1"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Independência, família, música e celebrações.",
+        "Mini-teste 1"
+      ],
+      "newWords": [
+        {
+          "en": "song",
+          "pt": "canção",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l05_w_song",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "Independence Day",
+          "pt": "Dia da Independência",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l05_w_independence-day",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "flag",
+          "pt": "bandeira",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l05_w_flag",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "family",
+          "pt": "família",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l05_w_family",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 1",
+        "sentences": [
+          {
+            "id": "a1-u18-l05-s1",
+            "en": "Let’s review. Graça is from Vilankulo.",
+            "pt": "Vamos rever. Graça é de Vilankulo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l05_s1"
+          },
+          {
+            "id": "a1-u18-l05-s2",
+            "en": "This unit is about Festivals and culture.",
+            "pt": "Esta unidade é sobre Festas e cultura.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l05_s2"
+          },
+          {
+            "id": "a1-u18-l05-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l05_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u18-l05-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "party",
+                "pt": "O que significa «party»?"
+              },
+              "options": [
+                "festa",
+                "canção",
+                "bandeira",
+                "juntos"
+              ],
+              "answer": "festa"
+            },
+            {
+              "question": {
+                "en": "dance",
+                "pt": "O que significa «dance»?"
+              },
+              "options": [
+                "dança",
+                "Dia da Independência",
+                "família",
+                "feliz"
+              ],
+              "answer": "dança"
+            },
+            {
+              "question": {
+                "en": "song",
+                "pt": "O que significa «song»?"
+              },
+              "options": [
+                "canção",
+                "bandeira",
+                "juntos",
+                "comida"
+              ],
+              "answer": "canção"
+            },
+            {
+              "question": {
+                "en": "Independence Day",
+                "pt": "O que significa «Independence Day»?"
+              },
+              "options": [
+                "Dia da Independência",
+                "família",
+                "feliz",
+                "tradicional"
+              ],
+              "answer": "Dia da Independência"
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l05-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Fátima uses the word _____.",
+              "answer": "party",
+              "options": [
+                "party",
+                "dance",
+                "song",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Fátima uses the word _____.",
+              "answer": "dance",
+              "options": [
+                "dance",
+                "song",
+                "Independence Day",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Fátima uses the word _____.",
+              "answer": "song",
+              "options": [
+                "song",
+                "Independence Day",
+                "flag",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l05-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u18-l05_lw_fátima-is-in-vilan",
+              "answer": "Fátima is in Vilankulo. party.",
+              "hint": "Fátima"
+            },
+            {
+              "audioKey": "a1_a1-u18-l05_lw_fátima-is-in-vilan",
+              "answer": "Fátima is in Vilankulo. dance.",
+              "hint": "Fátima"
+            },
+            {
+              "audioKey": "a1_a1-u18-l05_lw_fátima-is-in-vilan",
+              "answer": "Fátima is in Vilankulo. song.",
+              "hint": "Fátima"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-l06",
+      "unitId": "u18",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "Comida da festa",
+        "en": "Comida da festa"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Independência, família, música e celebrações.",
+        "Comida da festa"
+      ],
+      "newWords": [
+        {
+          "en": "family",
+          "pt": "família",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l06_w_family",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "together",
+          "pt": "juntos",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l06_w_together",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "happy",
+          "pt": "feliz",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l06_w_happy",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "food",
+          "pt": "comida",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l06_w_food",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Comida da festa",
+        "sentences": [
+          {
+            "id": "a1-u18-l06-s1",
+            "en": "Ibraimo lives in Beira.",
+            "pt": "Ibraimo mora em Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l06_s1"
+          },
+          {
+            "id": "a1-u18-l06-s2",
+            "en": "Today the lesson is Estamos juntos.",
+            "pt": "Hoje a lição é: Estamos juntos.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l06_s2"
+          },
+          {
+            "id": "a1-u18-l06-s3",
+            "en": "We learn 'family' and 'together'.",
+            "pt": "Aprendemos «família» e «juntos».",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l06_s3"
+          },
+          {
+            "id": "a1-u18-l06-s4",
+            "en": "Ibraimo says: I use 'food' every day.",
+            "pt": "Ibraimo diz: uso «comida» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l06_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u18-l06-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Ibraimo lives in Beira.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l06-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "party",
+                "pt": "O que significa «party»?"
+              },
+              "options": [
+                "festa",
+                "canção",
+                "bandeira",
+                "juntos"
+              ],
+              "answer": "festa"
+            },
+            {
+              "question": {
+                "en": "dance",
+                "pt": "O que significa «dance»?"
+              },
+              "options": [
+                "dança",
+                "Dia da Independência",
+                "família",
+                "feliz"
+              ],
+              "answer": "dança"
+            },
+            {
+              "question": {
+                "en": "song",
+                "pt": "O que significa «song»?"
+              },
+              "options": [
+                "canção",
+                "bandeira",
+                "juntos",
+                "comida"
+              ],
+              "answer": "canção"
+            },
+            {
+              "question": {
+                "en": "Independence Day",
+                "pt": "O que significa «Independence Day»?"
+              },
+              "options": [
+                "Dia da Independência",
+                "família",
+                "feliz",
+                "tradicional"
+              ],
+              "answer": "Dia da Independência"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-l07",
+      "unitId": "u18",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "Estamos juntos",
+        "en": "Estamos juntos"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Independência, família, música e celebrações.",
+        "Estamos juntos"
+      ],
+      "newWords": [
+        {
+          "en": "food",
+          "pt": "comida",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l07_w_food",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "traditional",
+          "pt": "tradicional",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l07_w_traditional",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        }
+      ],
+      "guidedReading": {
+        "title": "Estamos juntos",
+        "sentences": [
+          {
+            "id": "a1-u18-l07-s1",
+            "en": "Esperança lives in Chimoio.",
+            "pt": "Esperança mora em Chimoio.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l07_s1"
+          },
+          {
+            "id": "a1-u18-l07-s2",
+            "en": "Today the lesson is Feliz aniversário.",
+            "pt": "Hoje a lição é: Feliz aniversário.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l07_s2"
+          },
+          {
+            "id": "a1-u18-l07-s3",
+            "en": "We learn 'together' and 'happy'.",
+            "pt": "Aprendemos «juntos» e «feliz».",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l07_s3"
+          },
+          {
+            "id": "a1-u18-l07-s4",
+            "en": "Esperança says: I use 'traditional' every day.",
+            "pt": "Esperança diz: uso «tradicional» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l07_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u18-l07-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u18-l07_repeat",
+          "items": [
+            {
+              "en": "Esperança lives in Chimoio.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l07-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "party",
+                "pt": "O que significa «party»?"
+              },
+              "options": [
+                "festa",
+                "canção",
+                "bandeira",
+                "juntos"
+              ],
+              "answer": "festa"
+            },
+            {
+              "question": {
+                "en": "dance",
+                "pt": "O que significa «dance»?"
+              },
+              "options": [
+                "dança",
+                "Dia da Independência",
+                "família",
+                "feliz"
+              ],
+              "answer": "dança"
+            },
+            {
+              "question": {
+                "en": "song",
+                "pt": "O que significa «song»?"
+              },
+              "options": [
+                "canção",
+                "bandeira",
+                "juntos",
+                "comida"
+              ],
+              "answer": "canção"
+            },
+            {
+              "question": {
+                "en": "Independence Day",
+                "pt": "O que significa «Independence Day»?"
+              },
+              "options": [
+                "Dia da Independência",
+                "família",
+                "feliz",
+                "tradicional"
+              ],
+              "answer": "Dia da Independência"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-l08",
+      "unitId": "u18",
+      "order": 8,
+      "kind": "content",
+      "title": {
+        "pt": "Feliz aniversário",
+        "en": "Feliz aniversário"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Independência, família, música e celebrações.",
+        "Feliz aniversário"
+      ],
+      "newWords": [
+        {
+          "en": "dance",
+          "pt": "dança",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l08_w_dance",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "song",
+          "pt": "canção",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l08_w_song",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "Independence Day",
+          "pt": "Dia da Independência",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l08_w_independence-day",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "flag",
+          "pt": "bandeira",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l08_w_flag",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        }
+      ],
+      "guidedReading": {
+        "title": "Feliz aniversário",
+        "sentences": [
+          {
+            "id": "a1-u18-l08-s1",
+            "en": "Paulo lives in Tete.",
+            "pt": "Paulo mora em Tete.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l08_s1"
+          },
+          {
+            "id": "a1-u18-l08-s2",
+            "en": "Today the lesson is Casamento.",
+            "pt": "Hoje a lição é: Casamento.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l08_s2"
+          },
+          {
+            "id": "a1-u18-l08-s3",
+            "en": "We learn 'happy' and 'food'.",
+            "pt": "Aprendemos «feliz» e «comida».",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l08_s3"
+          },
+          {
+            "id": "a1-u18-l08-s4",
+            "en": "Paulo says: I use 'party' every day.",
+            "pt": "Paulo diz: uso «festa» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l08_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u18-l08-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Fátima uses the word _____.",
+              "answer": "party",
+              "options": [
+                "party",
+                "dance",
+                "song",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Fátima uses the word _____.",
+              "answer": "dance",
+              "options": [
+                "dance",
+                "song",
+                "Independence Day",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Fátima uses the word _____.",
+              "answer": "song",
+              "options": [
+                "song",
+                "Independence Day",
+                "flag",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-l09",
+      "unitId": "u18",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Casamento",
+        "en": "Casamento"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Independência, família, música e celebrações.",
+        "Casamento"
+      ],
+      "newWords": [
+        {
+          "en": "flag",
+          "pt": "bandeira",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l09_w_flag",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "family",
+          "pt": "família",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l09_w_family",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "together",
+          "pt": "juntos",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l09_w_together",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "happy",
+          "pt": "feliz",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l09_w_happy",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Casamento",
+        "sentences": [
+          {
+            "id": "a1-u18-l09-s1",
+            "en": "Belmira lives in Quelimane.",
+            "pt": "Belmira mora em Quelimane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l09_s1"
+          },
+          {
+            "id": "a1-u18-l09-s2",
+            "en": "Today the lesson is A Ilha e a história.",
+            "pt": "Hoje a lição é: A Ilha e a história.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l09_s2"
+          },
+          {
+            "id": "a1-u18-l09-s3",
+            "en": "We learn 'food' and 'traditional'.",
+            "pt": "Aprendemos «comida» e «tradicional».",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l09_s3"
+          },
+          {
+            "id": "a1-u18-l09-s4",
+            "en": "Belmira says: I use 'dance' every day.",
+            "pt": "Belmira diz: uso «dança» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l09_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u18-l09-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "party",
+              "pt": "festa"
+            },
+            {
+              "en": "dance",
+              "pt": "dança"
+            },
+            {
+              "en": "song",
+              "pt": "canção"
+            },
+            {
+              "en": "Independence Day",
+              "pt": "Dia da Independência"
+            },
+            {
+              "en": "flag",
+              "pt": "bandeira"
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l09-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'party' in Portuguese is 'festa'.",
+              "answer": true
+            },
+            {
+              "sentence": "'party' means 'Dia da Independência'.",
+              "answer": false
+            },
+            {
+              "sentence": "'dance' in Portuguese is 'dança'.",
+              "answer": true
+            },
+            {
+              "sentence": "'dance' means 'bandeira'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-l10",
+      "unitId": "u18",
+      "order": 10,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão guiada",
+        "en": "Guided review"
+      },
+      "type": "review",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectives": [
+        "Independência, família, música e celebrações.",
+        "Revisão guiada"
+      ],
+      "newWords": [
+        {
+          "en": "happy",
+          "pt": "feliz",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l10_w_happy",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "food",
+          "pt": "comida",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l10_w_food",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "traditional",
+          "pt": "tradicional",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l10_w_traditional",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        }
+      ],
+      "guidedReading": {
+        "title": "Guided review",
+        "sentences": [
+          {
+            "id": "a1-u18-l10-s1",
+            "en": "Let’s review. Nélio is from Nampula.",
+            "pt": "Vamos rever. Nélio é de Nampula.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l10_s1"
+          },
+          {
+            "id": "a1-u18-l10-s2",
+            "en": "This unit is about Festivals and culture.",
+            "pt": "Esta unidade é sobre Festas e cultura.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l10_s2"
+          },
+          {
+            "id": "a1-u18-l10-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l10_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u18-l10-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u18-l10_lw_fátima-is-in-vilan",
+              "answer": "Fátima is in Vilankulo. party.",
+              "hint": "Fátima"
+            },
+            {
+              "audioKey": "a1_a1-u18-l10_lw_fátima-is-in-vilan",
+              "answer": "Fátima is in Vilankulo. dance.",
+              "hint": "Fátima"
+            },
+            {
+              "audioKey": "a1_a1-u18-l10_lw_fátima-is-in-vilan",
+              "answer": "Fátima is in Vilankulo. song.",
+              "hint": "Fátima"
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l10-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "party"
+              ],
+              "answer": "I need party"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "dance"
+              ],
+              "answer": "I need dance"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "song"
+              ],
+              "answer": "I need song"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-l11",
+      "unitId": "u18",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "A Ilha e a história",
+        "en": "A Ilha e a história"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Independência, família, música e celebrações.",
+        "A Ilha e a história"
+      ],
+      "newWords": [
+        {
+          "en": "party",
+          "pt": "festa",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l11_w_party",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "dance",
+          "pt": "dança",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l11_w_dance",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "song",
+          "pt": "canção",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l11_w_song",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "Independence Day",
+          "pt": "Dia da Independência",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l11_w_independence-day",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        }
+      ],
+      "guidedReading": {
+        "title": "A Ilha e a história",
+        "sentences": [
+          {
+            "id": "a1-u18-l11-s1",
+            "en": "Lurdes lives in Nacala.",
+            "pt": "Lurdes mora em Nacala.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l11_s1"
+          },
+          {
+            "id": "a1-u18-l11-s2",
+            "en": "Today the lesson is Diálogo: vamos à festa?.",
+            "pt": "Hoje a lição é: Diálogo: vamos à festa?.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l11_s2"
+          },
+          {
+            "id": "a1-u18-l11-s3",
+            "en": "We learn 'party' and 'dance'.",
+            "pt": "Aprendemos «festa» e «dança».",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l11_s3"
+          },
+          {
+            "id": "a1-u18-l11-s4",
+            "en": "Lurdes says: I use 'Independence Day' every day.",
+            "pt": "Lurdes diz: uso «Dia da Independência» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l11_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u18-l11-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u18-l11_tap",
+          "items": [
+            {
+              "answer": "party",
+              "options": [
+                "party",
+                "dance",
+                "song",
+                "Independence Day"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l11-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-l12",
+      "unitId": "u18",
+      "order": 12,
+      "kind": "content",
+      "title": {
+        "pt": "Timbila e marrabenta",
+        "en": "Timbila e marrabenta"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Independência, família, música e celebrações.",
+        "Timbila e marrabenta"
+      ],
+      "newWords": [
+        {
+          "en": "Independence Day",
+          "pt": "Dia da Independência",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l12_w_independence-day",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "flag",
+          "pt": "bandeira",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l12_w_flag",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "family",
+          "pt": "família",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l12_w_family",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "together",
+          "pt": "juntos",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l12_w_together",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        }
+      ],
+      "guidedReading": {
+        "title": "Timbila e marrabenta",
+        "sentences": [
+          {
+            "id": "a1-u18-l12-s1",
+            "en": "Faruk lives in Pemba.",
+            "pt": "Faruk mora em Pemba.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l12_s1"
+          },
+          {
+            "id": "a1-u18-l12-s2",
+            "en": "Today the lesson is Diálogo: feliz independência.",
+            "pt": "Hoje a lição é: Diálogo: feliz independência.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l12_s2"
+          },
+          {
+            "id": "a1-u18-l12-s3",
+            "en": "We learn 'dance' and 'song'.",
+            "pt": "Aprendemos «dança» e «canção».",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l12_s3"
+          },
+          {
+            "id": "a1-u18-l12-s4",
+            "en": "Faruk says: I use 'flag' every day.",
+            "pt": "Faruk diz: uso «bandeira» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l12_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u18-l12-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Faruk lives in Pemba.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l12-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "party",
+                "pt": "O que significa «party»?"
+              },
+              "options": [
+                "festa",
+                "canção",
+                "bandeira",
+                "juntos"
+              ],
+              "answer": "festa"
+            },
+            {
+              "question": {
+                "en": "dance",
+                "pt": "O que significa «dance»?"
+              },
+              "options": [
+                "dança",
+                "Dia da Independência",
+                "família",
+                "feliz"
+              ],
+              "answer": "dança"
+            },
+            {
+              "question": {
+                "en": "song",
+                "pt": "O que significa «song»?"
+              },
+              "options": [
+                "canção",
+                "bandeira",
+                "juntos",
+                "comida"
+              ],
+              "answer": "canção"
+            },
+            {
+              "question": {
+                "en": "Independence Day",
+                "pt": "O que significa «Independence Day»?"
+              },
+              "options": [
+                "Dia da Independência",
+                "família",
+                "feliz",
+                "tradicional"
+              ],
+              "answer": "Dia da Independência"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-l13",
+      "unitId": "u18",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: vamos à festa?",
+        "en": "Diálogo: vamos à festa?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Independência, família, música e celebrações.",
+        "Diálogo: vamos à festa?"
+      ],
+      "newWords": [
+        {
+          "en": "together",
+          "pt": "juntos",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l13_w_together",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "happy",
+          "pt": "feliz",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l13_w_happy",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "food",
+          "pt": "comida",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l13_w_food",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "traditional",
+          "pt": "tradicional",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l13_w_traditional",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: vamos à festa?",
+        "sentences": [
+          {
+            "id": "a1-u18-l13-s1",
+            "en": "Josina lives in Lichinga.",
+            "pt": "Josina mora em Lichinga.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l13_s1"
+          },
+          {
+            "id": "a1-u18-l13-s2",
+            "en": "Today the lesson is Tradições da tua zona.",
+            "pt": "Hoje a lição é: Tradições da tua zona.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l13_s2"
+          },
+          {
+            "id": "a1-u18-l13-s3",
+            "en": "We learn 'song' and 'Independence Day'.",
+            "pt": "Aprendemos «canção» e «Dia da Independência».",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l13_s3"
+          },
+          {
+            "id": "a1-u18-l13-s4",
+            "en": "Josina says: I use 'family' every day.",
+            "pt": "Josina diz: uso «família» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l13_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u18-l13-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u18-l13_repeat",
+          "items": [
+            {
+              "en": "Josina lives in Lichinga.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l13-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "party",
+                "pt": "O que significa «party»?"
+              },
+              "options": [
+                "festa",
+                "canção",
+                "bandeira",
+                "juntos"
+              ],
+              "answer": "festa"
+            },
+            {
+              "question": {
+                "en": "dance",
+                "pt": "O que significa «dance»?"
+              },
+              "options": [
+                "dança",
+                "Dia da Independência",
+                "família",
+                "feliz"
+              ],
+              "answer": "dança"
+            },
+            {
+              "question": {
+                "en": "song",
+                "pt": "O que significa «song»?"
+              },
+              "options": [
+                "canção",
+                "bandeira",
+                "juntos",
+                "comida"
+              ],
+              "answer": "canção"
+            },
+            {
+              "question": {
+                "en": "Independence Day",
+                "pt": "O que significa «Independence Day»?"
+              },
+              "options": [
+                "Dia da Independência",
+                "família",
+                "feliz",
+                "tradicional"
+              ],
+              "answer": "Dia da Independência"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-l14",
+      "unitId": "u18",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: feliz independência",
+        "en": "Diálogo: feliz independência"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Independência, família, música e celebrações.",
+        "Diálogo: feliz independência"
+      ],
+      "newWords": [
+        {
+          "en": "traditional",
+          "pt": "tradicional",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l14_w_traditional",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: feliz independência",
+        "sentences": [
+          {
+            "id": "a1-u18-l14-s1",
+            "en": "Tendai lives in Ilha de Moçambique.",
+            "pt": "Tendai mora em Ilha de Moçambique.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l14_s1"
+          },
+          {
+            "id": "a1-u18-l14-s2",
+            "en": "Today the lesson is Palavras da festa.",
+            "pt": "Hoje a lição é: Palavras da festa.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l14_s2"
+          },
+          {
+            "id": "a1-u18-l14-s3",
+            "en": "We learn 'Independence Day' and 'flag'.",
+            "pt": "Aprendemos «Dia da Independência» e «bandeira».",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l14_s3"
+          },
+          {
+            "id": "a1-u18-l14-s4",
+            "en": "Tendai says: I use 'together' every day.",
+            "pt": "Tendai diz: uso «juntos» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l14_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u18-l14-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Fátima uses the word _____.",
+              "answer": "party",
+              "options": [
+                "party",
+                "dance",
+                "song",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Fátima uses the word _____.",
+              "answer": "dance",
+              "options": [
+                "dance",
+                "song",
+                "Independence Day",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Fátima uses the word _____.",
+              "answer": "song",
+              "options": [
+                "song",
+                "Independence Day",
+                "flag",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-l15",
+      "unitId": "u18",
+      "order": 15,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 2",
+        "en": "Checkpoint quiz 2"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Independência, família, música e celebrações.",
+        "Mini-teste 2"
+      ],
+      "newWords": [
+        {
+          "en": "song",
+          "pt": "canção",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l15_w_song",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "Independence Day",
+          "pt": "Dia da Independência",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l15_w_independence-day",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "flag",
+          "pt": "bandeira",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l15_w_flag",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "family",
+          "pt": "família",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l15_w_family",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 2",
+        "sentences": [
+          {
+            "id": "a1-u18-l15-s1",
+            "en": "Let’s review. Amélia is from Maputo.",
+            "pt": "Vamos rever. Amélia é de Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l15_s1"
+          },
+          {
+            "id": "a1-u18-l15-s2",
+            "en": "This unit is about Festivals and culture.",
+            "pt": "Esta unidade é sobre Festas e cultura.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l15_s2"
+          },
+          {
+            "id": "a1-u18-l15-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l15_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u18-l15-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "party",
+                "pt": "O que significa «party»?"
+              },
+              "options": [
+                "festa",
+                "canção",
+                "bandeira",
+                "juntos"
+              ],
+              "answer": "festa"
+            },
+            {
+              "question": {
+                "en": "dance",
+                "pt": "O que significa «dance»?"
+              },
+              "options": [
+                "dança",
+                "Dia da Independência",
+                "família",
+                "feliz"
+              ],
+              "answer": "dança"
+            },
+            {
+              "question": {
+                "en": "song",
+                "pt": "O que significa «song»?"
+              },
+              "options": [
+                "canção",
+                "bandeira",
+                "juntos",
+                "comida"
+              ],
+              "answer": "canção"
+            },
+            {
+              "question": {
+                "en": "Independence Day",
+                "pt": "O que significa «Independence Day»?"
+              },
+              "options": [
+                "Dia da Independência",
+                "família",
+                "feliz",
+                "tradicional"
+              ],
+              "answer": "Dia da Independência"
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l15-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Fátima uses the word _____.",
+              "answer": "party",
+              "options": [
+                "party",
+                "dance",
+                "song",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Fátima uses the word _____.",
+              "answer": "dance",
+              "options": [
+                "dance",
+                "song",
+                "Independence Day",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Fátima uses the word _____.",
+              "answer": "song",
+              "options": [
+                "song",
+                "Independence Day",
+                "flag",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l15-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u18-l15_lw_fátima-is-in-vilan",
+              "answer": "Fátima is in Vilankulo. party.",
+              "hint": "Fátima"
+            },
+            {
+              "audioKey": "a1_a1-u18-l15_lw_fátima-is-in-vilan",
+              "answer": "Fátima is in Vilankulo. dance.",
+              "hint": "Fátima"
+            },
+            {
+              "audioKey": "a1_a1-u18-l15_lw_fátima-is-in-vilan",
+              "answer": "Fátima is in Vilankulo. song.",
+              "hint": "Fátima"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-l16",
+      "unitId": "u18",
+      "order": 16,
+      "kind": "content",
+      "title": {
+        "pt": "Tradições da tua zona",
+        "en": "Tradições da tua zona"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Independência, família, música e celebrações.",
+        "Tradições da tua zona"
+      ],
+      "newWords": [
+        {
+          "en": "family",
+          "pt": "família",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l16_w_family",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "together",
+          "pt": "juntos",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l16_w_together",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "happy",
+          "pt": "feliz",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l16_w_happy",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "food",
+          "pt": "comida",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l16_w_food",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Tradições da tua zona",
+        "sentences": [
+          {
+            "id": "a1-u18-l16-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l16_s1"
+          },
+          {
+            "id": "a1-u18-l16-s2",
+            "en": "Today the lesson is A tua festa favorita.",
+            "pt": "Hoje a lição é: A tua festa favorita.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l16_s2"
+          },
+          {
+            "id": "a1-u18-l16-s3",
+            "en": "We learn 'family' and 'together'.",
+            "pt": "Aprendemos «família» e «juntos».",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l16_s3"
+          },
+          {
+            "id": "a1-u18-l16-s4",
+            "en": "Zacarias says: I use 'food' every day.",
+            "pt": "Zacarias diz: uso «comida» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l16_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u18-l16-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u18-l16_lw_fátima-is-in-vilan",
+              "answer": "Fátima is in Vilankulo. party.",
+              "hint": "Fátima"
+            },
+            {
+              "audioKey": "a1_a1-u18-l16_lw_fátima-is-in-vilan",
+              "answer": "Fátima is in Vilankulo. dance.",
+              "hint": "Fátima"
+            },
+            {
+              "audioKey": "a1_a1-u18-l16_lw_fátima-is-in-vilan",
+              "answer": "Fátima is in Vilankulo. song.",
+              "hint": "Fátima"
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l16-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "party"
+              ],
+              "answer": "I need party"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "dance"
+              ],
+              "answer": "I need dance"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "song"
+              ],
+              "answer": "I need song"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-l17",
+      "unitId": "u18",
+      "order": 17,
+      "kind": "content",
+      "title": {
+        "pt": "Palavras da festa",
+        "en": "Palavras da festa"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Independência, família, música e celebrações.",
+        "Palavras da festa"
+      ],
+      "newWords": [
+        {
+          "en": "food",
+          "pt": "comida",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l17_w_food",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "traditional",
+          "pt": "tradicional",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l17_w_traditional",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Palavras da festa",
+        "sentences": [
+          {
+            "id": "a1-u18-l17-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l17_s1"
+          },
+          {
+            "id": "a1-u18-l17-s2",
+            "en": "Today the lesson is A tua festa favorita.",
+            "pt": "Hoje a lição é: A tua festa favorita.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l17_s2"
+          },
+          {
+            "id": "a1-u18-l17-s3",
+            "en": "We learn 'family' and 'together'.",
+            "pt": "Aprendemos «família» e «juntos».",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l17_s3"
+          },
+          {
+            "id": "a1-u18-l17-s4",
+            "en": "Zacarias says: I use 'food' every day.",
+            "pt": "Zacarias diz: uso «comida» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l17_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u18-l17-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u18-l17_tap",
+          "items": [
+            {
+              "answer": "party",
+              "options": [
+                "party",
+                "dance",
+                "song",
+                "Independence Day"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l17-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-l18",
+      "unitId": "u18",
+      "order": 18,
+      "kind": "content",
+      "title": {
+        "pt": "Sons: party / family",
+        "en": "Sons: party / family"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Independência, família, música e celebrações.",
+        "Sons: party / family"
+      ],
+      "newWords": [
+        {
+          "en": "dance",
+          "pt": "dança",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l18_w_dance",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "song",
+          "pt": "canção",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l18_w_song",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "Independence Day",
+          "pt": "Dia da Independência",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l18_w_independence-day",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "flag",
+          "pt": "bandeira",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l18_w_flag",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Sons: party / family",
+        "sentences": [
+          {
+            "id": "a1-u18-l18-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l18_s1"
+          },
+          {
+            "id": "a1-u18-l18-s2",
+            "en": "Today the lesson is A tua festa favorita.",
+            "pt": "Hoje a lição é: A tua festa favorita.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l18_s2"
+          },
+          {
+            "id": "a1-u18-l18-s3",
+            "en": "We learn 'family' and 'together'.",
+            "pt": "Aprendemos «família» e «juntos».",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l18_s3"
+          },
+          {
+            "id": "a1-u18-l18-s4",
+            "en": "Zacarias says: I use 'food' every day.",
+            "pt": "Zacarias diz: uso «comida» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l18_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u18-l18-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l18-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "party",
+                "pt": "O que significa «party»?"
+              },
+              "options": [
+                "festa",
+                "canção",
+                "bandeira",
+                "juntos"
+              ],
+              "answer": "festa"
+            },
+            {
+              "question": {
+                "en": "dance",
+                "pt": "O que significa «dance»?"
+              },
+              "options": [
+                "dança",
+                "Dia da Independência",
+                "família",
+                "feliz"
+              ],
+              "answer": "dança"
+            },
+            {
+              "question": {
+                "en": "song",
+                "pt": "O que significa «song»?"
+              },
+              "options": [
+                "canção",
+                "bandeira",
+                "juntos",
+                "comida"
+              ],
+              "answer": "canção"
+            },
+            {
+              "question": {
+                "en": "Independence Day",
+                "pt": "O que significa «Independence Day»?"
+              },
+              "options": [
+                "Dia da Independência",
+                "família",
+                "feliz",
+                "tradicional"
+              ],
+              "answer": "Dia da Independência"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-l19",
+      "unitId": "u18",
+      "order": 19,
+      "kind": "content",
+      "title": {
+        "pt": "A tua festa favorita",
+        "en": "A tua festa favorita"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Independência, família, música e celebrações.",
+        "A tua festa favorita"
+      ],
+      "newWords": [
+        {
+          "en": "flag",
+          "pt": "bandeira",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l19_w_flag",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "family",
+          "pt": "família",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l19_w_family",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "together",
+          "pt": "juntos",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l19_w_together",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "happy",
+          "pt": "feliz",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l19_w_happy",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "A tua festa favorita",
+        "sentences": [
+          {
+            "id": "a1-u18-l19-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l19_s1"
+          },
+          {
+            "id": "a1-u18-l19-s2",
+            "en": "Today the lesson is A tua festa favorita.",
+            "pt": "Hoje a lição é: A tua festa favorita.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l19_s2"
+          },
+          {
+            "id": "a1-u18-l19-s3",
+            "en": "We learn 'family' and 'together'.",
+            "pt": "Aprendemos «família» e «juntos».",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l19_s3"
+          },
+          {
+            "id": "a1-u18-l19-s4",
+            "en": "Zacarias says: I use 'food' every day.",
+            "pt": "Zacarias diz: uso «comida» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l19_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u18-l19-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u18-l19_repeat",
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l19-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "party",
+                "pt": "O que significa «party»?"
+              },
+              "options": [
+                "festa",
+                "canção",
+                "bandeira",
+                "juntos"
+              ],
+              "answer": "festa"
+            },
+            {
+              "question": {
+                "en": "dance",
+                "pt": "O que significa «dance»?"
+              },
+              "options": [
+                "dança",
+                "Dia da Independência",
+                "família",
+                "feliz"
+              ],
+              "answer": "dança"
+            },
+            {
+              "question": {
+                "en": "song",
+                "pt": "O que significa «song»?"
+              },
+              "options": [
+                "canção",
+                "bandeira",
+                "juntos",
+                "comida"
+              ],
+              "answer": "canção"
+            },
+            {
+              "question": {
+                "en": "Independence Day",
+                "pt": "O que significa «Independence Day»?"
+              },
+              "options": [
+                "Dia da Independência",
+                "família",
+                "feliz",
+                "tradicional"
+              ],
+              "answer": "Dia da Independência"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-l20",
+      "unitId": "u18",
+      "order": 20,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste da unidade: Festas e cultura",
+        "en": "Unit test: Festivals and culture"
+      },
+      "type": "unit_test",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "listening",
+        "reading",
+        "writing",
+        "grammar"
+      ],
+      "objectives": [
+        "Independência, família, música e celebrações.",
+        "Teste da unidade: Festas e cultura"
+      ],
+      "newWords": [
+        {
+          "en": "happy",
+          "pt": "feliz",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l20_w_happy",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "food",
+          "pt": "comida",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l20_w_food",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "traditional",
+          "pt": "tradicional",
+          "ipa": "",
+          "audioKey": "a1_a1-u18-l20_w_traditional",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Unit test: Festivals and culture",
+        "sentences": [
+          {
+            "id": "a1-u18-l20-s1",
+            "en": "Let’s review. Carlos is from Beira.",
+            "pt": "Vamos rever. Carlos é de Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l20_s1"
+          },
+          {
+            "id": "a1-u18-l20-s2",
+            "en": "This unit is about Festivals and culture.",
+            "pt": "Esta unidade é sobre Festas e cultura.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l20_s2"
+          },
+          {
+            "id": "a1-u18-l20-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u18-l20_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u18-l20-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "party",
+                "pt": "O que significa «party»?"
+              },
+              "options": [
+                "festa",
+                "canção",
+                "bandeira",
+                "juntos"
+              ],
+              "answer": "festa"
+            },
+            {
+              "question": {
+                "en": "dance",
+                "pt": "O que significa «dance»?"
+              },
+              "options": [
+                "dança",
+                "Dia da Independência",
+                "família",
+                "feliz"
+              ],
+              "answer": "dança"
+            },
+            {
+              "question": {
+                "en": "song",
+                "pt": "O que significa «song»?"
+              },
+              "options": [
+                "canção",
+                "bandeira",
+                "juntos",
+                "comida"
+              ],
+              "answer": "canção"
+            },
+            {
+              "question": {
+                "en": "Independence Day",
+                "pt": "O que significa «Independence Day»?"
+              },
+              "options": [
+                "Dia da Independência",
+                "família",
+                "feliz",
+                "tradicional"
+              ],
+              "answer": "Dia da Independência"
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l20-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Fátima uses the word _____.",
+              "answer": "party",
+              "options": [
+                "party",
+                "dance",
+                "song",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Fátima uses the word _____.",
+              "answer": "dance",
+              "options": [
+                "dance",
+                "song",
+                "Independence Day",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Fátima uses the word _____.",
+              "answer": "song",
+              "options": [
+                "song",
+                "Independence Day",
+                "flag",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l20-a3",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'party' in Portuguese is 'festa'.",
+              "answer": true
+            },
+            {
+              "sentence": "'party' means 'Dia da Independência'.",
+              "answer": false
+            },
+            {
+              "sentence": "'dance' in Portuguese is 'dança'.",
+              "answer": true
+            },
+            {
+              "sentence": "'dance' means 'bandeira'.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l20-a4",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "party"
+              ],
+              "answer": "I need party"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "dance"
+              ],
+              "answer": "I need dance"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "song"
+              ],
+              "answer": "I need song"
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l20-a5",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u18-l20_lw_fátima-is-in-vilan",
+              "answer": "Fátima is in Vilankulo. party.",
+              "hint": "Fátima"
+            },
+            {
+              "audioKey": "a1_a1-u18-l20_lw_fátima-is-in-vilan",
+              "answer": "Fátima is in Vilankulo. dance.",
+              "hint": "Fátima"
+            },
+            {
+              "audioKey": "a1_a1-u18-l20_lw_fátima-is-in-vilan",
+              "answer": "Fátima is in Vilankulo. song.",
+              "hint": "Fátima"
+            }
+          ]
+        },
+        {
+          "id": "a1-u18-l20-a6",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    }
+  ]
+}

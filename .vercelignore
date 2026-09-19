@@ -1,0 +1,15 @@
+android
+node_modules
+.git
+.idea
+.claude
+.agents
+legacy_backup
+temp-quizmoz-data
+res
+push_database.bat
+generate_db.js
+*.log
+*.apk
+*.aab
+*.keystore

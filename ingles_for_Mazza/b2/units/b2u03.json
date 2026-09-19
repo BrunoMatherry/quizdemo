@@ -1,0 +1,2849 @@
+{
+  "id": "b2u03",
+  "level": "B2",
+  "order": 3,
+  "title": {
+    "pt": "Passiva no jornal",
+    "en": "Passive in news"
+  },
+  "goal": "A estrada foi fechada; o jogo foi adiado.",
+  "cambridgeInspiration": "B2 First (inspired task types)",
+  "lessonCount": 16,
+  "lessons": [
+    {
+      "id": "b2-b2u03-l01",
+      "unitId": "b2u03",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "Passiva no jornal: Texto de abertura",
+        "en": "Passive in news: Texto de abertura"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "A estrada foi fechada; o jogo foi adiado.",
+        "Texto de abertura"
+      ],
+      "newWords": [
+        {
+          "en": "although",
+          "pt": "embora",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l01_w_although",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "therefore",
+          "pt": "por isso",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l01_w_therefore",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "claim",
+          "pt": "afirmar",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l01_w_claim",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "evidence",
+          "pt": "prova/indício",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l01_w_evidence",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        }
+      ],
+      "guidedReading": {
+        "title": "Passive in news",
+        "sentences": [
+          {
+            "id": "b2-b2u03-l01-s1",
+            "en": "A photo without a date and a place is a weak source, even if it travels fast.",
+            "pt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l01_s1"
+          },
+          {
+            "id": "b2-b2u03-l01-s2",
+            "en": "Check whether the claim is from a reporter or from a forwarded message.",
+            "pt": "Vê se a afirmação vem de um jornalista ou de uma mensagem reencaminhada.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l01_s2"
+          },
+          {
+            "id": "b2-b2u03-l01-s3",
+            "en": "Paulo argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Paulo sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l01_s3"
+          },
+          {
+            "id": "b2-b2u03-l01-s4",
+            "en": "However, Nélio pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Nélio lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l01_s4"
+          },
+          {
+            "id": "b2-b2u03-l01-s5",
+            "en": "In this unit you practise passive in news with clear reasons and a calm tone.",
+            "pt": "A estrada foi fechada; o jogo foi adiado.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l01_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u03-l01-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "although",
+                "pt": "O que é mais próximo de «although»?"
+              },
+              "options": [
+                "embora",
+                "por isso",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "embora"
+            },
+            {
+              "question": {
+                "en": "therefore",
+                "pt": "O que é mais próximo de «therefore»?"
+              },
+              "options": [
+                "por isso",
+                "embora",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "por isso"
+            },
+            {
+              "question": {
+                "en": "claim",
+                "pt": "O que é mais próximo de «claim»?"
+              },
+              "options": [
+                "afirmar",
+                "embora",
+                "por isso",
+                "prova/indício"
+              ],
+              "answer": "afirmar"
+            },
+            {
+              "question": {
+                "en": "evidence",
+                "pt": "O que é mais próximo de «evidence»?"
+              },
+              "options": [
+                "prova/indício",
+                "embora",
+                "por isso",
+                "afirmar"
+              ],
+              "answer": "prova/indício"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u03-l01-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (embora)",
+              "answer": "although",
+              "options": [
+                "although",
+                "therefore",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (por isso)",
+              "answer": "therefore",
+              "options": [
+                "therefore",
+                "although",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (afirmar)",
+              "answer": "claim",
+              "options": [
+                "claim",
+                "although",
+                "therefore",
+                "evidence"
+              ]
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Beira"
+      }
+    },
+    {
+      "id": "b2-b2u03-l02",
+      "unitId": "b2u03",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "Passiva no jornal: Gramática do argumento",
+        "en": "Passive in news: Gramática do argumento"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "A estrada foi fechada; o jogo foi adiado.",
+        "Gramática do argumento"
+      ],
+      "newWords": [
+        {
+          "en": "evidence",
+          "pt": "prova/indício",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l02_w_evidence",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "report",
+          "pt": "relatar/relatório",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l02_w_report",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "reliable",
+          "pt": "fiável",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l02_w_reliable",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "increase",
+          "pt": "aumentar",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l02_w_increase",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        }
+      ],
+      "guidedReading": {
+        "title": "Passive in news",
+        "sentences": [
+          {
+            "id": "b2-b2u03-l02-s1",
+            "en": "A photo without a date and a place is a weak source, even if it travels fast.",
+            "pt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l02_s1"
+          },
+          {
+            "id": "b2-b2u03-l02-s2",
+            "en": "Check whether the claim is from a reporter or from a forwarded message.",
+            "pt": "Vê se a afirmação vem de um jornalista ou de uma mensagem reencaminhada.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l02_s2"
+          },
+          {
+            "id": "b2-b2u03-l02-s3",
+            "en": "Ibraimo argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Ibraimo sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l02_s3"
+          },
+          {
+            "id": "b2-b2u03-l02-s4",
+            "en": "However, Esperança pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Esperança lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l02_s4"
+          },
+          {
+            "id": "b2-b2u03-l02-s5",
+            "en": "In this unit you practise passive in news with clear reasons and a calm tone.",
+            "pt": "A estrada foi fechada; o jogo foi adiado.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l02_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u03-l02-a1",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "A photo without a date and a place is a weak source, even if it travels fast.",
+              "answer": true
+            },
+            {
+              "sentence": "Check whether the claim is from a reporter or from a forwarded message.",
+              "answer": true
+            },
+            {
+              "sentence": "Ibraimo argued that cheaper data matters more for students than a new shopping centre.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to although.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u03-l02-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "A",
+                "photo",
+                "without",
+                "a",
+                "date",
+                "and",
+                "a",
+                "place"
+              ],
+              "answer": "A photo without a date and a place"
+            },
+            {
+              "words": [
+                "Check",
+                "whether",
+                "the",
+                "claim",
+                "is",
+                "from",
+                "a",
+                "reporter"
+              ],
+              "answer": "Check whether the claim is from a reporter"
+            },
+            {
+              "words": [
+                "Ibraimo",
+                "argued",
+                "that",
+                "cheaper",
+                "data",
+                "matters",
+                "more",
+                "for"
+              ],
+              "answer": "Ibraimo argued that cheaper data matters more for"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Pemba"
+      }
+    },
+    {
+      "id": "b2-b2u03-l03",
+      "unitId": "b2u03",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "Passiva no jornal: Marcadores de discurso",
+        "en": "Passive in news: Marcadores de discurso"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "A estrada foi fechada; o jogo foi adiado.",
+        "Marcadores de discurso"
+      ],
+      "newWords": [
+        {
+          "en": "increase",
+          "pt": "aumentar",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l03_w_increase",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "reduce",
+          "pt": "reduzir",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l03_w_reduce",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "formal",
+          "pt": "formal",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l03_w_formal",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "summarise",
+          "pt": "resumir",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l03_w_summarise",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        }
+      ],
+      "guidedReading": {
+        "title": "Passive in news",
+        "sentences": [
+          {
+            "id": "b2-b2u03-l03-s1",
+            "en": "A photo without a date and a place is a weak source, even if it travels fast.",
+            "pt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l03_s1"
+          },
+          {
+            "id": "b2-b2u03-l03-s2",
+            "en": "Check whether the claim is from a reporter or from a forwarded message.",
+            "pt": "Vê se a afirmação vem de um jornalista ou de uma mensagem reencaminhada.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l03_s2"
+          },
+          {
+            "id": "b2-b2u03-l03-s3",
+            "en": "Lurdes argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Lurdes sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l03_s3"
+          },
+          {
+            "id": "b2-b2u03-l03-s4",
+            "en": "However, Faruk pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Faruk lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l03_s4"
+          },
+          {
+            "id": "b2-b2u03-l03-s5",
+            "en": "In this unit you practise passive in news with clear reasons and a calm tone.",
+            "pt": "A estrada foi fechada; o jogo foi adiado.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l03_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u03-l03-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "b2-b2u03-l03_lw_0",
+              "answer": "A photo without a date and a place is a weak source, even if it travels fast.",
+              "hint": "A"
+            },
+            {
+              "audioKey": "b2-b2u03-l03_lw_1",
+              "answer": "Check whether the claim is from a reporter or from a forwarded message.",
+              "hint": "Check"
+            },
+            {
+              "audioKey": "b2-b2u03-l03_lw_2",
+              "answer": "Lurdes argued that cheaper data matters more for students than a new shopping centre.",
+              "hint": "Lurdes"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u03-l03-a2",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante one minute.",
+            "en": "Speak for one minute."
+          },
+          "items": [
+            {
+              "en": "A photo without a date and a place is a weak source, even if it travels fast.",
+              "task": "State a view, give an example, acknowledge another side.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Tete"
+      }
+    },
+    {
+      "id": "b2-b2u03-l04",
+      "unitId": "b2u03",
+      "order": 4,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste",
+        "en": "Checkpoint"
+      },
+      "type": "checkpoint",
+      "durationMin": 10,
+      "xp": 22,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing"
+      ],
+      "objectives": [
+        "A estrada foi fechada; o jogo foi adiado.",
+        "Ler e inferir"
+      ],
+      "newWords": [
+        {
+          "en": "summarise",
+          "pt": "resumir",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l04_w_summarise",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "challenge",
+          "pt": "desafio",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l04_w_challenge",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "policy",
+          "pt": "política pública",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l04_w_policy",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "passive",
+          "pt": "passive",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l04_w_passive",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        }
+      ],
+      "guidedReading": {
+        "title": "Passive in news",
+        "sentences": [
+          {
+            "id": "b2-b2u03-l04-s1",
+            "en": "A photo without a date and a place is a weak source, even if it travels fast.",
+            "pt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l04_s1"
+          },
+          {
+            "id": "b2-b2u03-l04-s2",
+            "en": "Check whether the claim is from a reporter or from a forwarded message.",
+            "pt": "Vê se a afirmação vem de um jornalista ou de uma mensagem reencaminhada.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l04_s2"
+          },
+          {
+            "id": "b2-b2u03-l04-s3",
+            "en": "Nélio argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Nélio sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l04_s3"
+          },
+          {
+            "id": "b2-b2u03-l04-s4",
+            "en": "However, Belmira pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Belmira lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l04_s4"
+          },
+          {
+            "id": "b2-b2u03-l04-s5",
+            "en": "In this unit you practise passive in news with clear reasons and a calm tone.",
+            "pt": "A estrada foi fechada; o jogo foi adiado.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l04_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u03-l04-a1",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u03-l04-a2",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "although",
+              "pt": "embora"
+            },
+            {
+              "en": "therefore",
+              "pt": "por isso"
+            },
+            {
+              "en": "claim",
+              "pt": "afirmar"
+            },
+            {
+              "en": "evidence",
+              "pt": "prova/indício"
+            },
+            {
+              "en": "report",
+              "pt": "relatar/relatório"
+            },
+            {
+              "en": "reliable",
+              "pt": "fiável"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 140
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Chimoio"
+      }
+    },
+    {
+      "id": "b2-b2u03-l05",
+      "unitId": "b2u03",
+      "order": 5,
+      "kind": "content",
+      "title": {
+        "pt": "Passiva no jornal: Ouvir um ponto de vista",
+        "en": "Passive in news: Ouvir um ponto de vista"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "speaking"
+      ],
+      "objectives": [
+        "A estrada foi fechada; o jogo foi adiado.",
+        "Ouvir um ponto de vista"
+      ],
+      "newWords": [
+        {
+          "en": "passive",
+          "pt": "passive",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l05_w_passive",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "in",
+          "pt": "in",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l05_w_in",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "news",
+          "pt": "news",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l05_w_news",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "practice",
+          "pt": "practice",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l05_w_practice",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        }
+      ],
+      "guidedReading": {
+        "title": "Passive in news",
+        "sentences": [
+          {
+            "id": "b2-b2u03-l05-s1",
+            "en": "A photo without a date and a place is a weak source, even if it travels fast.",
+            "pt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l05_s1"
+          },
+          {
+            "id": "b2-b2u03-l05-s2",
+            "en": "Check whether the claim is from a reporter or from a forwarded message.",
+            "pt": "Vê se a afirmação vem de um jornalista ou de uma mensagem reencaminhada.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l05_s2"
+          },
+          {
+            "id": "b2-b2u03-l05-s3",
+            "en": "Esperança argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Esperança sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l05_s3"
+          },
+          {
+            "id": "b2-b2u03-l05-s4",
+            "en": "However, Carlos pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Carlos lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l05_s4"
+          },
+          {
+            "id": "b2-b2u03-l05-s5",
+            "en": "In this unit you practise passive in news with clear reasons and a calm tone.",
+            "pt": "A estrada foi fechada; o jogo foi adiado.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l05_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u03-l05-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "although",
+                "pt": "O que é mais próximo de «although»?"
+              },
+              "options": [
+                "embora",
+                "por isso",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "embora"
+            },
+            {
+              "question": {
+                "en": "therefore",
+                "pt": "O que é mais próximo de «therefore»?"
+              },
+              "options": [
+                "por isso",
+                "embora",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "por isso"
+            },
+            {
+              "question": {
+                "en": "claim",
+                "pt": "O que é mais próximo de «claim»?"
+              },
+              "options": [
+                "afirmar",
+                "embora",
+                "por isso",
+                "prova/indício"
+              ],
+              "answer": "afirmar"
+            },
+            {
+              "question": {
+                "en": "evidence",
+                "pt": "O que é mais próximo de «evidence»?"
+              },
+              "options": [
+                "prova/indício",
+                "embora",
+                "por isso",
+                "afirmar"
+              ],
+              "answer": "prova/indício"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u03-l05-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (embora)",
+              "answer": "although",
+              "options": [
+                "although",
+                "therefore",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (por isso)",
+              "answer": "therefore",
+              "options": [
+                "therefore",
+                "although",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (afirmar)",
+              "answer": "claim",
+              "options": [
+                "claim",
+                "although",
+                "therefore",
+                "evidence"
+              ]
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Matola"
+      }
+    },
+    {
+      "id": "b2-b2u03-l06",
+      "unitId": "b2u03",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "Passiva no jornal: Resumir em 2 frases",
+        "en": "Passive in news: Resumir em 2 frases"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "A estrada foi fechada; o jogo foi adiado.",
+        "Resumir em 2 frases"
+      ],
+      "newWords": [
+        {
+          "en": "claim",
+          "pt": "afirmar",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l06_w_claim",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "evidence",
+          "pt": "prova/indício",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l06_w_evidence",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "report",
+          "pt": "relatar/relatório",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l06_w_report",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "reliable",
+          "pt": "fiável",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l06_w_reliable",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        }
+      ],
+      "guidedReading": {
+        "title": "Passive in news",
+        "sentences": [
+          {
+            "id": "b2-b2u03-l06-s1",
+            "en": "A photo without a date and a place is a weak source, even if it travels fast.",
+            "pt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l06_s1"
+          },
+          {
+            "id": "b2-b2u03-l06-s2",
+            "en": "Check whether the claim is from a reporter or from a forwarded message.",
+            "pt": "Vê se a afirmação vem de um jornalista ou de uma mensagem reencaminhada.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l06_s2"
+          },
+          {
+            "id": "b2-b2u03-l06-s3",
+            "en": "Faruk argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Faruk sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l06_s3"
+          },
+          {
+            "id": "b2-b2u03-l06-s4",
+            "en": "However, Marta pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Marta lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l06_s4"
+          },
+          {
+            "id": "b2-b2u03-l06-s5",
+            "en": "In this unit you practise passive in news with clear reasons and a calm tone.",
+            "pt": "A estrada foi fechada; o jogo foi adiado.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l06_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u03-l06-a1",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "A photo without a date and a place is a weak source, even if it travels fast.",
+              "answer": true
+            },
+            {
+              "sentence": "Check whether the claim is from a reporter or from a forwarded message.",
+              "answer": true
+            },
+            {
+              "sentence": "Faruk argued that cheaper data matters more for students than a new shopping centre.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to although.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u03-l06-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "A",
+                "photo",
+                "without",
+                "a",
+                "date",
+                "and",
+                "a",
+                "place"
+              ],
+              "answer": "A photo without a date and a place"
+            },
+            {
+              "words": [
+                "Check",
+                "whether",
+                "the",
+                "claim",
+                "is",
+                "from",
+                "a",
+                "reporter"
+              ],
+              "answer": "Check whether the claim is from a reporter"
+            },
+            {
+              "words": [
+                "Faruk",
+                "argued",
+                "that",
+                "cheaper",
+                "data",
+                "matters",
+                "more",
+                "for"
+              ],
+              "answer": "Faruk argued that cheaper data matters more for"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Nacala"
+      }
+    },
+    {
+      "id": "b2-b2u03-l07",
+      "unitId": "b2u03",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "Passiva no jornal: Escrever um parágrafo",
+        "en": "Passive in news: Escrever um parágrafo"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "A estrada foi fechada; o jogo foi adiado.",
+        "Escrever um parágrafo"
+      ],
+      "newWords": [
+        {
+          "en": "reliable",
+          "pt": "fiável",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l07_w_reliable",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "increase",
+          "pt": "aumentar",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l07_w_increase",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "reduce",
+          "pt": "reduzir",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l07_w_reduce",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "formal",
+          "pt": "formal",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l07_w_formal",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        }
+      ],
+      "guidedReading": {
+        "title": "Passive in news",
+        "sentences": [
+          {
+            "id": "b2-b2u03-l07-s1",
+            "en": "A photo without a date and a place is a weak source, even if it travels fast.",
+            "pt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l07_s1"
+          },
+          {
+            "id": "b2-b2u03-l07-s2",
+            "en": "Check whether the claim is from a reporter or from a forwarded message.",
+            "pt": "Vê se a afirmação vem de um jornalista ou de uma mensagem reencaminhada.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l07_s2"
+          },
+          {
+            "id": "b2-b2u03-l07-s3",
+            "en": "Belmira argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Belmira sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l07_s3"
+          },
+          {
+            "id": "b2-b2u03-l07-s4",
+            "en": "However, Amina pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Amina lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l07_s4"
+          },
+          {
+            "id": "b2-b2u03-l07-s5",
+            "en": "In this unit you practise passive in news with clear reasons and a calm tone.",
+            "pt": "A estrada foi fechada; o jogo foi adiado.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l07_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u03-l07-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "b2-b2u03-l07_lw_0",
+              "answer": "A photo without a date and a place is a weak source, even if it travels fast.",
+              "hint": "A"
+            },
+            {
+              "audioKey": "b2-b2u03-l07_lw_1",
+              "answer": "Check whether the claim is from a reporter or from a forwarded message.",
+              "hint": "Check"
+            },
+            {
+              "audioKey": "b2-b2u03-l07_lw_2",
+              "answer": "Belmira argued that cheaper data matters more for students than a new shopping centre.",
+              "hint": "Belmira"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u03-l07-a2",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante one minute.",
+            "en": "Speak for one minute."
+          },
+          "items": [
+            {
+              "en": "A photo without a date and a place is a weak source, even if it travels fast.",
+              "task": "State a view, give an example, acknowledge another side.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Inhambane"
+      }
+    },
+    {
+      "id": "b2-b2u03-l08",
+      "unitId": "b2u03",
+      "order": 8,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste",
+        "en": "Checkpoint"
+      },
+      "type": "checkpoint",
+      "durationMin": 10,
+      "xp": 22,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing"
+      ],
+      "objectives": [
+        "A estrada foi fechada; o jogo foi adiado.",
+        "Tom formal"
+      ],
+      "newWords": [
+        {
+          "en": "formal",
+          "pt": "formal",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l08_w_formal",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "summarise",
+          "pt": "resumir",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l08_w_summarise",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "challenge",
+          "pt": "desafio",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l08_w_challenge",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "policy",
+          "pt": "política pública",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l08_w_policy",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        }
+      ],
+      "guidedReading": {
+        "title": "Passive in news",
+        "sentences": [
+          {
+            "id": "b2-b2u03-l08-s1",
+            "en": "A photo without a date and a place is a weak source, even if it travels fast.",
+            "pt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l08_s1"
+          },
+          {
+            "id": "b2-b2u03-l08-s2",
+            "en": "Check whether the claim is from a reporter or from a forwarded message.",
+            "pt": "Vê se a afirmação vem de um jornalista ou de uma mensagem reencaminhada.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l08_s2"
+          },
+          {
+            "id": "b2-b2u03-l08-s3",
+            "en": "Carlos argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Carlos sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l08_s3"
+          },
+          {
+            "id": "b2-b2u03-l08-s4",
+            "en": "However, João pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, João lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l08_s4"
+          },
+          {
+            "id": "b2-b2u03-l08-s5",
+            "en": "In this unit you practise passive in news with clear reasons and a calm tone.",
+            "pt": "A estrada foi fechada; o jogo foi adiado.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l08_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u03-l08-a1",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u03-l08-a2",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "although",
+              "pt": "embora"
+            },
+            {
+              "en": "therefore",
+              "pt": "por isso"
+            },
+            {
+              "en": "claim",
+              "pt": "afirmar"
+            },
+            {
+              "en": "evidence",
+              "pt": "prova/indício"
+            },
+            {
+              "en": "report",
+              "pt": "relatar/relatório"
+            },
+            {
+              "en": "reliable",
+              "pt": "fiável"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 140
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Luanda"
+      }
+    },
+    {
+      "id": "b2-b2u03-l09",
+      "unitId": "b2u03",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Passiva no jornal: Tom informal",
+        "en": "Passive in news: Tom informal"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "A estrada foi fechada; o jogo foi adiado.",
+        "Tom informal"
+      ],
+      "newWords": [
+        {
+          "en": "policy",
+          "pt": "política pública",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l09_w_policy",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "passive",
+          "pt": "passive",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l09_w_passive",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "in",
+          "pt": "in",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l09_w_in",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "news",
+          "pt": "news",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l09_w_news",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        }
+      ],
+      "guidedReading": {
+        "title": "Passive in news",
+        "sentences": [
+          {
+            "id": "b2-b2u03-l09-s1",
+            "en": "A photo without a date and a place is a weak source, even if it travels fast.",
+            "pt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l09_s1"
+          },
+          {
+            "id": "b2-b2u03-l09-s2",
+            "en": "Check whether the claim is from a reporter or from a forwarded message.",
+            "pt": "Vê se a afirmação vem de um jornalista ou de uma mensagem reencaminhada.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l09_s2"
+          },
+          {
+            "id": "b2-b2u03-l09-s3",
+            "en": "Marta argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Marta sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l09_s3"
+          },
+          {
+            "id": "b2-b2u03-l09-s4",
+            "en": "However, Graça pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Graça lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l09_s4"
+          },
+          {
+            "id": "b2-b2u03-l09-s5",
+            "en": "In this unit you practise passive in news with clear reasons and a calm tone.",
+            "pt": "A estrada foi fechada; o jogo foi adiado.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l09_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u03-l09-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "although",
+                "pt": "O que é mais próximo de «although»?"
+              },
+              "options": [
+                "embora",
+                "por isso",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "embora"
+            },
+            {
+              "question": {
+                "en": "therefore",
+                "pt": "O que é mais próximo de «therefore»?"
+              },
+              "options": [
+                "por isso",
+                "embora",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "por isso"
+            },
+            {
+              "question": {
+                "en": "claim",
+                "pt": "O que é mais próximo de «claim»?"
+              },
+              "options": [
+                "afirmar",
+                "embora",
+                "por isso",
+                "prova/indício"
+              ],
+              "answer": "afirmar"
+            },
+            {
+              "question": {
+                "en": "evidence",
+                "pt": "O que é mais próximo de «evidence»?"
+              },
+              "options": [
+                "prova/indício",
+                "embora",
+                "por isso",
+                "afirmar"
+              ],
+              "answer": "prova/indício"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u03-l09-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (embora)",
+              "answer": "although",
+              "options": [
+                "although",
+                "therefore",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (por isso)",
+              "answer": "therefore",
+              "options": [
+                "therefore",
+                "although",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (afirmar)",
+              "answer": "claim",
+              "options": [
+                "claim",
+                "although",
+                "therefore",
+                "evidence"
+              ]
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Praia"
+      }
+    },
+    {
+      "id": "b2-b2u03-l10",
+      "unitId": "b2u03",
+      "order": 10,
+      "kind": "content",
+      "title": {
+        "pt": "Passiva no jornal: Erro subtil",
+        "en": "Passive in news: Erro subtil"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "speaking"
+      ],
+      "objectives": [
+        "A estrada foi fechada; o jogo foi adiado.",
+        "Erro subtil"
+      ],
+      "newWords": [
+        {
+          "en": "therefore",
+          "pt": "por isso",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l10_w_therefore",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "claim",
+          "pt": "afirmar",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l10_w_claim",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "evidence",
+          "pt": "prova/indício",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l10_w_evidence",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "report",
+          "pt": "relatar/relatório",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l10_w_report",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        }
+      ],
+      "guidedReading": {
+        "title": "Passive in news",
+        "sentences": [
+          {
+            "id": "b2-b2u03-l10-s1",
+            "en": "A photo without a date and a place is a weak source, even if it travels fast.",
+            "pt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l10_s1"
+          },
+          {
+            "id": "b2-b2u03-l10-s2",
+            "en": "Check whether the claim is from a reporter or from a forwarded message.",
+            "pt": "Vê se a afirmação vem de um jornalista ou de uma mensagem reencaminhada.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l10_s2"
+          },
+          {
+            "id": "b2-b2u03-l10-s3",
+            "en": "Amina argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Amina sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l10_s3"
+          },
+          {
+            "id": "b2-b2u03-l10-s4",
+            "en": "However, Paulo pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Paulo lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l10_s4"
+          },
+          {
+            "id": "b2-b2u03-l10-s5",
+            "en": "In this unit you practise passive in news with clear reasons and a calm tone.",
+            "pt": "A estrada foi fechada; o jogo foi adiado.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l10_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u03-l10-a1",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "A photo without a date and a place is a weak source, even if it travels fast.",
+              "answer": true
+            },
+            {
+              "sentence": "Check whether the claim is from a reporter or from a forwarded message.",
+              "answer": true
+            },
+            {
+              "sentence": "Amina argued that cheaper data matters more for students than a new shopping centre.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to although.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u03-l10-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "A",
+                "photo",
+                "without",
+                "a",
+                "date",
+                "and",
+                "a",
+                "place"
+              ],
+              "answer": "A photo without a date and a place"
+            },
+            {
+              "words": [
+                "Check",
+                "whether",
+                "the",
+                "claim",
+                "is",
+                "from",
+                "a",
+                "reporter"
+              ],
+              "answer": "Check whether the claim is from a reporter"
+            },
+            {
+              "words": [
+                "Amina",
+                "argued",
+                "that",
+                "cheaper",
+                "data",
+                "matters",
+                "more",
+                "for"
+              ],
+              "answer": "Amina argued that cheaper data matters more for"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Nampula"
+      }
+    },
+    {
+      "id": "b2-b2u03-l11",
+      "unitId": "b2u03",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "Passiva no jornal: Caso prático",
+        "en": "Passive in news: Caso prático"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "A estrada foi fechada; o jogo foi adiado.",
+        "Caso prático"
+      ],
+      "newWords": [
+        {
+          "en": "report",
+          "pt": "relatar/relatório",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l11_w_report",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "reliable",
+          "pt": "fiável",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l11_w_reliable",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "increase",
+          "pt": "aumentar",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l11_w_increase",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "reduce",
+          "pt": "reduzir",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l11_w_reduce",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        }
+      ],
+      "guidedReading": {
+        "title": "Passive in news",
+        "sentences": [
+          {
+            "id": "b2-b2u03-l11-s1",
+            "en": "A photo without a date and a place is a weak source, even if it travels fast.",
+            "pt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l11_s1"
+          },
+          {
+            "id": "b2-b2u03-l11-s2",
+            "en": "Check whether the claim is from a reporter or from a forwarded message.",
+            "pt": "Vê se a afirmação vem de um jornalista ou de uma mensagem reencaminhada.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l11_s2"
+          },
+          {
+            "id": "b2-b2u03-l11-s3",
+            "en": "João argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "João sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l11_s3"
+          },
+          {
+            "id": "b2-b2u03-l11-s4",
+            "en": "However, Ibraimo pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Ibraimo lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l11_s4"
+          },
+          {
+            "id": "b2-b2u03-l11-s5",
+            "en": "In this unit you practise passive in news with clear reasons and a calm tone.",
+            "pt": "A estrada foi fechada; o jogo foi adiado.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l11_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u03-l11-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "b2-b2u03-l11_lw_0",
+              "answer": "A photo without a date and a place is a weak source, even if it travels fast.",
+              "hint": "A"
+            },
+            {
+              "audioKey": "b2-b2u03-l11_lw_1",
+              "answer": "Check whether the claim is from a reporter or from a forwarded message.",
+              "hint": "Check"
+            },
+            {
+              "audioKey": "b2-b2u03-l11_lw_2",
+              "answer": "João argued that cheaper data matters more for students than a new shopping centre.",
+              "hint": "João"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u03-l11-a2",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante one minute.",
+            "en": "Speak for one minute."
+          },
+          "items": [
+            {
+              "en": "A photo without a date and a place is a weak source, even if it travels fast.",
+              "task": "State a view, give an example, acknowledge another side.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Maputo"
+      }
+    },
+    {
+      "id": "b2-b2u03-l12",
+      "unitId": "b2u03",
+      "order": 12,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão",
+        "en": "Review"
+      },
+      "type": "review",
+      "durationMin": 9,
+      "xp": 14,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing"
+      ],
+      "objectives": [
+        "A estrada foi fechada; o jogo foi adiado.",
+        "Dados em palavras"
+      ],
+      "newWords": [
+        {
+          "en": "reduce",
+          "pt": "reduzir",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l12_w_reduce",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "formal",
+          "pt": "formal",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l12_w_formal",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "summarise",
+          "pt": "resumir",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l12_w_summarise",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "challenge",
+          "pt": "desafio",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l12_w_challenge",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        }
+      ],
+      "guidedReading": {
+        "title": "Passive in news",
+        "sentences": [
+          {
+            "id": "b2-b2u03-l12-s1",
+            "en": "A photo without a date and a place is a weak source, even if it travels fast.",
+            "pt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l12_s1"
+          },
+          {
+            "id": "b2-b2u03-l12-s2",
+            "en": "Check whether the claim is from a reporter or from a forwarded message.",
+            "pt": "Vê se a afirmação vem de um jornalista ou de uma mensagem reencaminhada.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l12_s2"
+          },
+          {
+            "id": "b2-b2u03-l12-s3",
+            "en": "Graça argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Graça sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l12_s3"
+          },
+          {
+            "id": "b2-b2u03-l12-s4",
+            "en": "However, Lurdes pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Lurdes lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l12_s4"
+          },
+          {
+            "id": "b2-b2u03-l12-s5",
+            "en": "In this unit you practise passive in news with clear reasons and a calm tone.",
+            "pt": "A estrada foi fechada; o jogo foi adiado.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l12_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u03-l12-a1",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u03-l12-a2",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "although",
+              "pt": "embora"
+            },
+            {
+              "en": "therefore",
+              "pt": "por isso"
+            },
+            {
+              "en": "claim",
+              "pt": "afirmar"
+            },
+            {
+              "en": "evidence",
+              "pt": "prova/indício"
+            },
+            {
+              "en": "report",
+              "pt": "relatar/relatório"
+            },
+            {
+              "en": "reliable",
+              "pt": "fiável"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Quelimane"
+      }
+    },
+    {
+      "id": "b2-b2u03-l13",
+      "unitId": "b2u03",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Passiva no jornal: Discussão guiada",
+        "en": "Passive in news: Discussão guiada"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "A estrada foi fechada; o jogo foi adiado.",
+        "Discussão guiada"
+      ],
+      "newWords": [
+        {
+          "en": "challenge",
+          "pt": "desafio",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l13_w_challenge",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "policy",
+          "pt": "política pública",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l13_w_policy",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "passive",
+          "pt": "passive",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l13_w_passive",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "in",
+          "pt": "in",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l13_w_in",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        }
+      ],
+      "guidedReading": {
+        "title": "Passive in news",
+        "sentences": [
+          {
+            "id": "b2-b2u03-l13-s1",
+            "en": "A photo without a date and a place is a weak source, even if it travels fast.",
+            "pt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l13_s1"
+          },
+          {
+            "id": "b2-b2u03-l13-s2",
+            "en": "Check whether the claim is from a reporter or from a forwarded message.",
+            "pt": "Vê se a afirmação vem de um jornalista ou de uma mensagem reencaminhada.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l13_s2"
+          },
+          {
+            "id": "b2-b2u03-l13-s3",
+            "en": "Paulo argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Paulo sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l13_s3"
+          },
+          {
+            "id": "b2-b2u03-l13-s4",
+            "en": "However, Nélio pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Nélio lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l13_s4"
+          },
+          {
+            "id": "b2-b2u03-l13-s5",
+            "en": "In this unit you practise passive in news with clear reasons and a calm tone.",
+            "pt": "A estrada foi fechada; o jogo foi adiado.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l13_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u03-l13-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "although",
+                "pt": "O que é mais próximo de «although»?"
+              },
+              "options": [
+                "embora",
+                "por isso",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "embora"
+            },
+            {
+              "question": {
+                "en": "therefore",
+                "pt": "O que é mais próximo de «therefore»?"
+              },
+              "options": [
+                "por isso",
+                "embora",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "por isso"
+            },
+            {
+              "question": {
+                "en": "claim",
+                "pt": "O que é mais próximo de «claim»?"
+              },
+              "options": [
+                "afirmar",
+                "embora",
+                "por isso",
+                "prova/indício"
+              ],
+              "answer": "afirmar"
+            },
+            {
+              "question": {
+                "en": "evidence",
+                "pt": "O que é mais próximo de «evidence»?"
+              },
+              "options": [
+                "prova/indício",
+                "embora",
+                "por isso",
+                "afirmar"
+              ],
+              "answer": "prova/indício"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u03-l13-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (embora)",
+              "answer": "although",
+              "options": [
+                "although",
+                "therefore",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (por isso)",
+              "answer": "therefore",
+              "options": [
+                "therefore",
+                "although",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (afirmar)",
+              "answer": "claim",
+              "options": [
+                "claim",
+                "although",
+                "therefore",
+                "evidence"
+              ]
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Beira"
+      }
+    },
+    {
+      "id": "b2-b2u03-l14",
+      "unitId": "b2u03",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Passiva no jornal: Reescrita",
+        "en": "Passive in news: Reescrita"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "A estrada foi fechada; o jogo foi adiado.",
+        "Reescrita"
+      ],
+      "newWords": [
+        {
+          "en": "although",
+          "pt": "embora",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l14_w_although",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "therefore",
+          "pt": "por isso",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l14_w_therefore",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "claim",
+          "pt": "afirmar",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l14_w_claim",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "evidence",
+          "pt": "prova/indício",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l14_w_evidence",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        }
+      ],
+      "guidedReading": {
+        "title": "Passive in news",
+        "sentences": [
+          {
+            "id": "b2-b2u03-l14-s1",
+            "en": "A photo without a date and a place is a weak source, even if it travels fast.",
+            "pt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l14_s1"
+          },
+          {
+            "id": "b2-b2u03-l14-s2",
+            "en": "Check whether the claim is from a reporter or from a forwarded message.",
+            "pt": "Vê se a afirmação vem de um jornalista ou de uma mensagem reencaminhada.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l14_s2"
+          },
+          {
+            "id": "b2-b2u03-l14-s3",
+            "en": "Ibraimo argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Ibraimo sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l14_s3"
+          },
+          {
+            "id": "b2-b2u03-l14-s4",
+            "en": "However, Esperança pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Esperança lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l14_s4"
+          },
+          {
+            "id": "b2-b2u03-l14-s5",
+            "en": "In this unit you practise passive in news with clear reasons and a calm tone.",
+            "pt": "A estrada foi fechada; o jogo foi adiado.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l14_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u03-l14-a1",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "A photo without a date and a place is a weak source, even if it travels fast.",
+              "answer": true
+            },
+            {
+              "sentence": "Check whether the claim is from a reporter or from a forwarded message.",
+              "answer": true
+            },
+            {
+              "sentence": "Ibraimo argued that cheaper data matters more for students than a new shopping centre.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to although.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u03-l14-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "A",
+                "photo",
+                "without",
+                "a",
+                "date",
+                "and",
+                "a",
+                "place"
+              ],
+              "answer": "A photo without a date and a place"
+            },
+            {
+              "words": [
+                "Check",
+                "whether",
+                "the",
+                "claim",
+                "is",
+                "from",
+                "a",
+                "reporter"
+              ],
+              "answer": "Check whether the claim is from a reporter"
+            },
+            {
+              "words": [
+                "Ibraimo",
+                "argued",
+                "that",
+                "cheaper",
+                "data",
+                "matters",
+                "more",
+                "for"
+              ],
+              "answer": "Ibraimo argued that cheaper data matters more for"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Pemba"
+      }
+    },
+    {
+      "id": "b2-b2u03-l15",
+      "unitId": "b2u03",
+      "order": 15,
+      "kind": "content",
+      "title": {
+        "pt": "Passiva no jornal: Mini-teste",
+        "en": "Passive in news: Mini-teste"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "speaking"
+      ],
+      "objectives": [
+        "A estrada foi fechada; o jogo foi adiado.",
+        "Mini-teste"
+      ],
+      "newWords": [
+        {
+          "en": "evidence",
+          "pt": "prova/indício",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l15_w_evidence",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "report",
+          "pt": "relatar/relatório",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l15_w_report",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "reliable",
+          "pt": "fiável",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l15_w_reliable",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "increase",
+          "pt": "aumentar",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l15_w_increase",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        }
+      ],
+      "guidedReading": {
+        "title": "Passive in news",
+        "sentences": [
+          {
+            "id": "b2-b2u03-l15-s1",
+            "en": "A photo without a date and a place is a weak source, even if it travels fast.",
+            "pt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l15_s1"
+          },
+          {
+            "id": "b2-b2u03-l15-s2",
+            "en": "Check whether the claim is from a reporter or from a forwarded message.",
+            "pt": "Vê se a afirmação vem de um jornalista ou de uma mensagem reencaminhada.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l15_s2"
+          },
+          {
+            "id": "b2-b2u03-l15-s3",
+            "en": "Lurdes argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Lurdes sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l15_s3"
+          },
+          {
+            "id": "b2-b2u03-l15-s4",
+            "en": "However, Faruk pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Faruk lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l15_s4"
+          },
+          {
+            "id": "b2-b2u03-l15-s5",
+            "en": "In this unit you practise passive in news with clear reasons and a calm tone.",
+            "pt": "A estrada foi fechada; o jogo foi adiado.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l15_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u03-l15-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "b2-b2u03-l15_lw_0",
+              "answer": "A photo without a date and a place is a weak source, even if it travels fast.",
+              "hint": "A"
+            },
+            {
+              "audioKey": "b2-b2u03-l15_lw_1",
+              "answer": "Check whether the claim is from a reporter or from a forwarded message.",
+              "hint": "Check"
+            },
+            {
+              "audioKey": "b2-b2u03-l15_lw_2",
+              "answer": "Lurdes argued that cheaper data matters more for students than a new shopping centre.",
+              "hint": "Lurdes"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u03-l15-a2",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante one minute.",
+            "en": "Speak for one minute."
+          },
+          "items": [
+            {
+              "en": "A photo without a date and a place is a weak source, even if it travels fast.",
+              "task": "State a view, give an example, acknowledge another side.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Tete"
+      }
+    },
+    {
+      "id": "b2-b2u03-l16",
+      "unitId": "b2u03",
+      "order": 16,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste — Passiva no jornal",
+        "en": "Unit Test"
+      },
+      "type": "unit_test",
+      "durationMin": 14,
+      "xp": 40,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing"
+      ],
+      "objectives": [
+        "A estrada foi fechada; o jogo foi adiado.",
+        "Fecho da unidade"
+      ],
+      "newWords": [
+        {
+          "en": "increase",
+          "pt": "aumentar",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l16_w_increase",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "reduce",
+          "pt": "reduzir",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l16_w_reduce",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "formal",
+          "pt": "formal",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l16_w_formal",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        },
+        {
+          "en": "summarise",
+          "pt": "resumir",
+          "ipa": "",
+          "audioKey": "b2-b2u03-l16_w_summarise",
+          "exampleEn": "A photo without a date and a place is a weak source, even if it travels fast.",
+          "examplePt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa."
+        }
+      ],
+      "guidedReading": {
+        "title": "Passive in news",
+        "sentences": [
+          {
+            "id": "b2-b2u03-l16-s1",
+            "en": "A photo without a date and a place is a weak source, even if it travels fast.",
+            "pt": "Uma foto sem data e sem lugar é uma fonte fraca, mesmo que viaje depressa.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l16_s1"
+          },
+          {
+            "id": "b2-b2u03-l16-s2",
+            "en": "Check whether the claim is from a reporter or from a forwarded message.",
+            "pt": "Vê se a afirmação vem de um jornalista ou de uma mensagem reencaminhada.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l16_s2"
+          },
+          {
+            "id": "b2-b2u03-l16-s3",
+            "en": "Nélio argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Nélio sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l16_s3"
+          },
+          {
+            "id": "b2-b2u03-l16-s4",
+            "en": "However, Belmira pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Belmira lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l16_s4"
+          },
+          {
+            "id": "b2-b2u03-l16-s5",
+            "en": "In this unit you practise passive in news with clear reasons and a calm tone.",
+            "pt": "A estrada foi fechada; o jogo foi adiado.",
+            "ipa": "",
+            "audioKey": "b2-b2u03-l16_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u03-l16-a1",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u03-l16-a2",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "although",
+              "pt": "embora"
+            },
+            {
+              "en": "therefore",
+              "pt": "por isso"
+            },
+            {
+              "en": "claim",
+              "pt": "afirmar"
+            },
+            {
+              "en": "evidence",
+              "pt": "prova/indício"
+            },
+            {
+              "en": "report",
+              "pt": "relatar/relatório"
+            },
+            {
+              "en": "reliable",
+              "pt": "fiável"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 140
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Chimoio"
+      }
+    }
+  ]
+}

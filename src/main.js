@@ -1,8 +1,10 @@
 import './style.css';
-import { gameState, classesData, classDisciplines, COMBO_WORDS, WRONG_WORDS, TIERS, BASE_URL, GAME_VERSION, GAME_DISPLAY_VERSION, fetchQuestions, saveState, loadState, checkDailyEnergy } from './game.js';
+import { gameState, classesData, classDisciplines, COMBO_WORDS, WRONG_WORDS, TIERS, BASE_URL, GAME_VERSION, GAME_DISPLAY_VERSION, fetchQuestions, fetchRemoteText, fetchRemoteJson, parseQuestionsFromRaw, saveState, loadState, checkDailyEnergy, africaQuestions, getTodayDateString, getDailyQuizQuestions, getDailyQuizStatus, getPlayerReferralCode } from './game.js';
 import { showScreen, renderWelcome, renderClasses, renderDisciplines, updateHUD, showModal, hideModal, showLoading, runLoadingScreen, spawnConfetti, showCombo, getXPForLevel, getTier, showLevelUp, openSettings, renderCoinShop } from './ui.js';
 import { playSound, toggleMute, isMuted, setMuted, isMusicEnabled, setMusicEnabled } from './audio.js';
 import { auth, db, GoogleAuthProvider, signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, signInWithCredential, onAuthStateChanged, doc, setDoc, getDoc, collection, query, orderBy, limit, getDocs, onSnapshot, updateDoc, deleteDoc, serverTimestamp, runTransaction, arrayUnion } from './firebase.js';
+import { mazzaUI } from './mazza_languages/mazza_ui.js';
+import { mazzaAudio } from './mazza_languages/mazza_audio.js';
 
 let timerInterval = null;
 let currentClassId = null;
@@ -38,6 +40,7 @@ window.addEventListener('DOMContentLoaded', () => {
     setMusicEnabled(gameState.musicEnabled !== false);
     scheduleNotifications();
     setupConnectivityCheck();
+    setupAntiCheatDetection();
     preloadInterstitial();
 
     const versionDisplay = document.getElementById('game-version-display');
@@ -222,6 +225,22 @@ function bindGlobalControls() {
     // Back button — navigates back or confirms exit during quiz
     document.getElementById('back-btn').onclick = () => {
         playSound('button');
+        if (currentScreen === 'mazza_language') {
+            mazzaAudio.stop();
+            goClasses();
+            return;
+        }
+        if (currentScreen === 'daily-quiz') {
+            showModal({
+                circleIcon: '!', circleType: 'warn', title: 'Sair do Quiz Diário?', centered: true,
+                desc: 'Se saíres agora, podes voltar a responder a este desafio ainda hoje.',
+                actions: [
+                    { label: 'Sim, sair', class: 'modal-btn-danger', onClick: () => { hideModal(); goClasses(); } },
+                    { label: 'Continuar', class: 'modal-btn-primary', onClick: hideModal }
+                ]
+            });
+            return;
+        }
         if (currentScreen === 'quiz') {
             if (gameState.currentQuiz) gameState.currentQuiz.isPaused = true;
             showModal({ circleIcon:'!', circleType:'warn', title:'Sair do Quiz?', centered: true,
@@ -391,7 +410,12 @@ function bindGlobalControls() {
         if (gameState.currentQuiz) gameState.currentQuiz.isPaused = true;
         openProfile();
     };
-    document.getElementById('btn-share').onclick = () => { playSound('button'); shareProgress(); };
+    document.getElementById('btn-share').onclick = () => { playSound('button'); openShareModal(); };
+    document.getElementById('share-promo-bubble')?.addEventListener('click', (e) => {
+        e.stopPropagation();
+        playSound('button');
+        openShareModal();
+    });
     document.getElementById('btn-pause').onclick = () => { pauseGame(); };
     
     // Mascot click handler to jump/sway
@@ -631,9 +655,48 @@ function goClasses() {
         c.querySelectorAll('.card-btn').forEach(btn => {
             btn.onclick = () => { playSound('click'); handleClassClick(btn.dataset.classId); };
         });
+        // Daily Quiz entry button
+        document.getElementById('btn-open-daily-quiz')?.addEventListener('click', () => { playSound('button'); openDailyQuiz(); });
+        // Mazza Language entry button
+        document.getElementById('btn-open-mazza-language')?.addEventListener('click', () => { playSound('button'); openMazzaLanguageHub(); });
         // V/S Mode entry button
         document.getElementById('vs-mode-entry-btn')?.addEventListener('click', () => { playSound('button'); openVSLobby(); });
         document.getElementById('vs-mode-entry-nt')?.addEventListener('click', () => { playSound('button'); openNomeTerraLobby(); });
+    });
+}
+
+function openMazzaLanguageHub() {
+    currentScreen = 'mazza_language';
+    hideQuizControls();
+    document.getElementById('floating-controls').style.display = 'none';
+    document.getElementById('fab-watch-ad').style.display = 'none';
+    document.getElementById('fab-vs-mode').style.display = 'none';
+    document.getElementById('fab-feedback').style.display = 'none';
+    
+    showScreen('mazza_language', (c) => {
+        mazzaUI.renderHub(c, {
+            onExit: () => {
+                mazzaAudio.stop();
+                goClasses();
+            },
+            onReward: ({ xp, coins }) => {
+                if (xp) {
+                    gameState.exp = (gameState.exp || 0) + xp;
+                    const needed = getXPForLevel(gameState.level);
+                    if (gameState.exp >= needed) {
+                        gameState.exp -= needed;
+                        gameState.level += 1;
+                        showLevelUp(gameState.level, getTier(gameState.level));
+                    }
+                }
+                if (coins) {
+                    gameState.coins = (gameState.coins || 0) + coins;
+                }
+                saveState();
+                updateHUD();
+                spawnConfetti();
+            }
+        });
     });
 }
 
@@ -679,11 +742,16 @@ function goHome() {
                     <div class="phrase-card" style="background:${phraseColor}">${phrase}</div>
                 </div>
                 <button class="btn-enter-game" id="btn-play-again">🚀 Jogar!</button>
+                <button class="btn-enter-game" id="btn-home-daily-quiz" style="background: linear-gradient(135deg, #134e5e, #71b280); box-shadow: 0 6px 20px rgba(19, 78, 94, 0.35); margin-top: 6px;">🌍 Quiz Diário da África</button>
             `;
             document.getElementById('btn-play-again')?.addEventListener('click', () => {
                 playSound('button');
                 gameState.nicknameSet = true; saveState();
                 goClasses();
+            });
+            document.getElementById('btn-home-daily-quiz')?.addEventListener('click', () => {
+                playSound('button');
+                openDailyQuiz();
             });
         } else {
             document.getElementById('btn-start-journey')?.addEventListener('click', () => {
@@ -716,6 +784,91 @@ function setupConnectivityCheck() {
         hideModal();
         showCombo('Conexão restaurada! ✅');
     });
+}
+
+// ===== ANTI-BATOTA: PERDA AUTOMÁTICA AO MINIMIZAR OU SAIR =====
+let _isForfeitingCheater = false;
+
+function setupAntiCheatDetection() {
+    // 1. Web Page Visibility API
+    document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+            triggerAntiCheatForfeit('app_minimizado');
+        }
+    });
+
+    // 2. Window Blur (troca de janela / app)
+    window.addEventListener('blur', () => {
+        triggerAntiCheatForfeit('janela_desfocada');
+    });
+
+    // 3. Page Hide
+    window.addEventListener('pagehide', () => {
+        triggerAntiCheatForfeit('pagina_oculta');
+    });
+
+    // 4. Capacitor App Plugin (app colocado em background no Android)
+    if (window.Capacitor?.Plugins?.App) {
+        try {
+            window.Capacitor.Plugins.App.addListener('appStateChange', ({ isActive }) => {
+                if (!isActive) {
+                    triggerAntiCheatForfeit('app_background');
+                }
+            });
+        } catch(e) {
+            console.warn('Capacitor App state listener error:', e);
+        }
+    }
+}
+
+async function triggerAntiCheatForfeit(reason = '') {
+    if (_isForfeitingCheater) return;
+    if (window._isAdShowing) return; // Não penalizar durante exibição de anúncio
+    
+    // 1. Em batalha ativa de Quiz Roleta (Modo V/S)
+    if (currentScreen === 'vs-game' && vsState?.code) {
+        _isForfeitingCheater = true;
+        console.warn(`[Anti-Batota] Derrota imediata em Quiz Roleta -> ${reason}`);
+        playSound('wrong');
+        hideModal();
+        await leaveVSRoom('Perdeste por sair ou minimizar o jogo (Anti-Batota)! ❌');
+        showModal({
+            circleIcon: '🚫',
+            circleType: 'danger',
+            title: 'Derrota por Anti-Batota',
+            centered: true,
+            desc: 'Saíste ou minimizaste a aplicação durante a partida de Quiz Roleta. Para garantir justiça e evitar pesquisas externas, foste desclassificado.',
+            actions: [
+                { label: 'Entendido', class: 'modal-btn-primary', onClick: hideModal }
+            ]
+        });
+        setTimeout(() => { _isForfeitingCheater = false; }, 2500);
+    }
+    // 2. Em rodada ativa de Nome Terra
+    else if (currentScreen === 'nt-game' && ntRoomState) {
+        _isForfeitingCheater = true;
+        console.warn(`[Anti-Batota] Desclassificação em Nome Terra -> ${reason}`);
+        playSound('wrong');
+        hideModal();
+        if (ntRoomState.isMultiplayer) {
+            await leaveNTRoom('Foste desclassificado por sair ou minimizar o jogo (Anti-Batota)! ❌');
+        } else {
+            if (ntTimerInterval) { clearInterval(ntTimerInterval); ntTimerInterval = null; }
+            ntRoomState = null;
+            openNomeTerraLobby();
+        }
+        showModal({
+            circleIcon: '🚫',
+            circleType: 'danger',
+            title: 'Eliminado por Anti-Batota',
+            centered: true,
+            desc: 'Saíste ou minimizaste a aplicação durante a rodada de Nome Terra. Para evitar pesquisas externas na internet, foste desclassificado.',
+            actions: [
+                { label: 'Entendido', class: 'modal-btn-primary', onClick: hideModal }
+            ]
+        });
+        setTimeout(() => { _isForfeitingCheater = false; }, 2500);
+    }
 }
 
 function showNoInternetModal() {
@@ -926,6 +1079,7 @@ function showQuizControls() {
     document.getElementById('btn-reveal').style.display = 'flex';
     document.getElementById('btn-add-time').style.display = 'flex';
     document.getElementById('btn-pause').style.display = 'flex';
+    document.getElementById('share-promo-bubble')?.classList.add('hidden');
     showMascot();
 }
 function hideQuizControls() {
@@ -933,6 +1087,7 @@ function hideQuizControls() {
     document.getElementById('btn-reveal').style.display = 'none';
     document.getElementById('btn-add-time').style.display = 'none';
     document.getElementById('btn-pause').style.display = 'none';
+    document.getElementById('share-promo-bubble')?.classList.remove('hidden');
     hideMascot();
 }
 
@@ -1639,7 +1794,7 @@ function openCoinShop() {
         });
         // Payment method buttons
         document.getElementById('pay-emola')?.addEventListener('click', () => {
-            processPaySuitePayment('emola');
+            showEmolaUnavailableModal();
         });
         document.getElementById('pay-mpesa')?.addEventListener('click', () => {
             processPaySuitePayment('mpesa');
@@ -1684,7 +1839,7 @@ function processUnlockAllLevels() {
     setTimeout(() => {
         document.getElementById('unlock-pay-emola')?.addEventListener('click', () => {
             hideModal();
-            processUnlockAllPayment('emola');
+            showEmolaUnavailableModal();
         });
         document.getElementById('unlock-pay-mpesa')?.addEventListener('click', () => {
             hideModal();
@@ -2169,7 +2324,7 @@ function onPaymentSuccess(coins) {
 function showPaymentError(msg, method) {
     let alertText = 'Podes voltar ao jogo e <strong>tentar novamente</strong>, ou fazer <strong>refresh</strong> da página.';
     if (method === 'emola') {
-        alertText = 'O serviço e-Mola está temporariamente indisponível. Por favor, tenta efetuar o pagamento utilizando M-Pesa.';
+        alertText = 'Serviço atualmente indisponível. Faça a sua compra via M-Pesa, obrigado pela compreensão.';
     }
     showModal({
         circleIcon:'!', circleType:'warn',
@@ -2185,6 +2340,17 @@ function showPaymentError(msg, method) {
             {label:'🔄 Tentar Novamente', class:'modal-btn-primary', onClick:() => { hideModal(); processPaySuitePayment(method); }},
             {label:'Voltar ao Jogo', class:'modal-btn-gray', onClick: hideModal}
         ]
+    });
+}
+
+function showEmolaUnavailableModal() {
+    showModal({
+        circleIcon: '⚠️',
+        circleType: 'warn',
+        title: 'Serviço Indisponível',
+        centered: true,
+        desc: 'Serviço atualmente indisponível.<br><br>Faça a sua compra via <strong>M-Pesa</strong>.<br><br>Obrigado pela compreensão.',
+        actions: [{ label: 'Entendido', class: 'modal-btn-primary', onClick: hideModal }]
     });
 }
 
@@ -2561,39 +2727,453 @@ function openProfile() {
 }
 
 async function shareProgress() {
-    // Pause timer during share
+    openShareModal();
+}
+
+function openShareModal() {
     const wasPaused = gameState.currentQuiz?.isPaused;
     if (gameState.currentQuiz) gameState.currentQuiz.isPaused = true;
     
-    const tier = getTier(gameState.level);
+    const myCode = getPlayerReferralCode();
+    const isRedeemed = !!gameState.redeemedInviteCode;
     const shareUrl = 'https://play.google.com/store/apps/details?id=com.quizmoz.app&pcampaignid=web_share';
-    const text = `🎮 *QuizMoz* - Jogo Educacional Moçambicano!\n\n📊 Estou no Nível ${gameState.level} — ${tier.icon} ${tier.name}\n🧠 QI: ${gameState.qi}\n🪙 ${gameState.coins} moedas\n\n🔥 Joga também e prova o teu conhecimento!\n\n📲 Baixa aqui: ${shareUrl}`;
+    const inviteText = `🎮 *QuizMoz - Desafio do Conhecimento!*\n\nJoga comigo no QuizMoz e responde ao Quiz Diário da África e a mais de 17 classes!\n\n🎁 Usa o meu código de convite: *${myCode}* para ganhares 🪙 +50 Moedas de bónus!\n\n📲 Baixa aqui na Google Play Store:\n${shareUrl}`;
     
-    try {
-        // Try Capacitor Share plugin first (native Android share sheet)
-        if (window.Capacitor?.Plugins?.Share) {
-            await window.Capacitor.Plugins.Share.share({
-                title: 'QuizMoz — Jogo Educacional',
-                text: text,
-                url: shareUrl,
-                dialogTitle: 'Partilhar QuizMoz'
-            });
-        } else if (navigator.share) {
-            // Fallback: Web Share API
-            await navigator.share({ title: 'QuizMoz — Jogo Educacional', text: text, url: shareUrl });
-        } else {
-            // Last fallback: copy to clipboard
-            await navigator.clipboard?.writeText(text);
-            showModal({ icon:'📤', title:'Copiado!', desc:'Texto copiado! Cola no WhatsApp, Facebook ou onde quiseres.', closeable: false, actions:[{label:'OK', onClick: () => { hideModal(); if (gameState.currentQuiz) gameState.currentQuiz.isPaused = wasPaused || false; }}] });
-            return; // Don't resume here, modal handles it
+    showModal({
+        circleIcon: '🎁',
+        circleType: 'success',
+        title: 'Partilhar & Ganhar Moedas',
+        centered: true,
+        html: `
+            <div class="referral-modal-box">
+                <div class="referral-banner">
+                    <div style="font-size:1.4em;font-weight:800;margin-bottom:4px;">✨ Ganha 🪙 200 Moedas!</div>
+                    <div style="font-size:0.86em;line-height:1.4;">Convida os teus amigos para o QuizMoz. Quando eles instalarem e usarem o teu código, tu ganhas <strong>🪙 +200 Moedas</strong> e o teu amigo ganha <strong>🪙 +50 Moedas</strong> de boas-vindas!</div>
+                </div>
+                
+                <div style="font-size:0.85em;font-weight:700;color:var(--text-dim);text-align:left;">O TEU CÓDIGO DE CONVITE:</div>
+                <div class="referral-code-card">
+                    <div class="referral-code-val" id="ref-code-text">${myCode}</div>
+                    <button class="referral-copy-btn" id="btn-copy-ref-code"><i class="fas fa-copy"></i> Copiar</button>
+                </div>
+                
+                <button class="referral-share-main-btn" id="btn-share-invite-now">
+                    <i class="fas fa-share-nodes"></i> Partilhar Convite no WhatsApp / Redes
+                </button>
+                
+                <div class="referral-redeem-section">
+                    <div style="font-size:0.85em;font-weight:700;color:var(--text);"><i class="fas fa-ticket-alt" style="color:#2ecc71;"></i> Inserir Código de Amigo:</div>
+                    ${isRedeemed ? `
+                        <div style="margin-top:6px;font-size:0.85em;color:#27ae60;font-weight:700;">
+                            ✅ Já resgataste o código: <strong>${gameState.redeemedInviteCode}</strong> (+50 🪙 recebidas)
+                        </div>
+                    ` : `
+                        <div style="font-size:0.78em;color:var(--text-dim);margin-top:2px;">Insere o código de quem te convidou para ganhares 50 moedas:</div>
+                        <div class="referral-input-group">
+                            <input type="text" class="referral-input" id="redeem-friend-code-input" placeholder="Ex: QMZ-BRUN-1234" maxlength="20">
+                            <button class="referral-redeem-btn" id="btn-do-redeem-code">Resgatar</button>
+                        </div>
+                        <div id="redeem-error-msg" style="font-size:0.8em;color:#e74c3c;margin-top:4px;"></div>
+                    `}
+                </div>
+            </div>
+        `,
+        actions: [
+            { label: 'Fechar', class: 'modal-btn-gray', onClick: () => { hideModal(); if (gameState.currentQuiz) gameState.currentQuiz.isPaused = wasPaused || false; } }
+        ]
+    });
+    
+    // Copy code button
+    document.getElementById('btn-copy-ref-code')?.addEventListener('click', async () => {
+        try {
+            await navigator.clipboard.writeText(myCode);
+            showCombo('Código copiado! 📋');
+            playSound('coin');
+        } catch(e) {
+            showCombo(myCode);
         }
-    } catch(e) {
-        // User cancelled or error, ignore silently
-        console.log('Share cancelled or failed:', e);
+    });
+    
+    // Native share button
+    document.getElementById('btn-share-invite-now')?.addEventListener('click', async () => {
+        playSound('button');
+        try {
+            if (window.Capacitor?.Plugins?.Share) {
+                await window.Capacitor.Plugins.Share.share({
+                    title: 'QuizMoz — Convite de Amigo',
+                    text: inviteText,
+                    url: shareUrl,
+                    dialogTitle: 'Partilhar QuizMoz com Amigos'
+                });
+            } else if (navigator.share) {
+                await navigator.share({ title: 'QuizMoz — Convite de Amigo', text: inviteText, url: shareUrl });
+            } else {
+                await navigator.clipboard.writeText(inviteText);
+                showCombo('Mensagem de convite copiada! 📋');
+            }
+        } catch(e) {
+            console.log('Share dismissed:', e);
+        }
+    });
+    
+    // Redeem friend code
+    document.getElementById('btn-do-redeem-code')?.addEventListener('click', async () => {
+        const input = document.getElementById('redeem-friend-code-input');
+        const code = input ? input.value.trim().toUpperCase() : '';
+        const errEl = document.getElementById('redeem-error-msg');
+        if (!code || code.length < 5) {
+            if (errEl) errEl.textContent = 'Por favor insere um código válido.';
+            return;
+        }
+        if (code === myCode) {
+            if (errEl) errEl.textContent = 'Não podes resgatar o teu próprio código!';
+            return;
+        }
+        if (gameState.redeemedInviteCode) {
+            if (errEl) errEl.textContent = 'Já resgataste um código anteriormente.';
+            return;
+        }
+        
+        // Award welcome bonus to current player
+        gameState.coins += 50;
+        gameState.redeemedInviteCode = code;
+        saveState();
+        updateHUD();
+        playSound('win');
+        spawnConfetti();
+        
+        // If Firestore is available and user is authenticated, register referral in DB
+        try {
+            if (auth.currentUser) {
+                await setDoc(doc(db, 'referrals', `${auth.currentUser.uid}_${code}`), {
+                    redeemerUid: auth.currentUser.uid,
+                    redeemerName: gameState.playerName,
+                    referrerCode: code,
+                    timestamp: serverTimestamp()
+                });
+            }
+        } catch(e) {
+            console.warn('Firestore referral sync notice:', e);
+        }
+        
+        hideModal();
+        showModal({
+            circleIcon: '🎉',
+            circleType: 'success',
+            title: 'Código Resgatado!',
+            centered: true,
+            desc: `Parabéns! Resgataste o código <strong>${code}</strong> com sucesso.<br><br>Recebeste <strong>🪙 +50 Moedas</strong> de boas-vindas!`,
+            actions: [
+                { label: 'Maravilha! 🚀', class: 'modal-btn-primary', onClick: hideModal }
+            ]
+        });
+    });
+}
+
+// ===== MODO QUIZ DIÁRIO DA ÁFRICA =====
+function openDailyQuiz() {
+    const dqStatus = getDailyQuizStatus();
+    currentScreen = 'daily-quiz';
+    hideQuizControls();
+    document.getElementById('floating-controls').style.display = 'flex';
+    document.getElementById('fab-watch-ad').style.display = 'none';
+    document.getElementById('fab-vs-mode').style.display = 'none';
+    document.getElementById('fab-feedback').style.display = 'none';
+    
+    // If already completed today, show today's completion summary
+    if (dqStatus.isCompletedToday) {
+        showScreen('daily-quiz', (c) => {
+            renderDailyQuizCompleted(c, dqStatus);
+        });
+        return;
     }
     
-    // Resume timer after share completes (or is cancelled)
-    if (gameState.currentQuiz) gameState.currentQuiz.isPaused = wasPaused || false;
+    // Start 3-question sequence for today
+    const todayQuestions = getDailyQuizQuestions(dqStatus.today);
+    if (!todayQuestions || todayQuestions.length === 0) {
+        showModal({ icon:'❌', title:'Erro', desc: 'Não foi possível carregar as perguntas do Quiz Diário.', actions:[{label:'OK', onClick: hideModal}] });
+        return;
+    }
+    
+    let currentIdx = 0;
+    let score = 0;
+    const answerHistory = [];
+    
+    function renderQuestionScreen() {
+        // In action screen: hide the share promo bubble
+        document.getElementById('share-promo-bubble')?.classList.add('hidden');
+        const qData = todayQuestions[currentIdx];
+        const isLast = currentIdx === todayQuestions.length - 1;
+        
+        showScreen('daily-quiz', (c) => {
+            const dotsHtml = todayQuestions.map((_, i) => {
+                let cls = 'dq-step-dot';
+                if (i === currentIdx) cls += ' active';
+                if (answerHistory[i] === true) cls += ' correct';
+                if (answerHistory[i] === false) cls += ' wrong';
+                return `<div class="${cls}"></div>`;
+            }).join('');
+            
+            c.innerHTML = `
+                <div class="dq-container">
+                    <div class="dq-header">
+                        <div class="dq-streak-badge">🔥 Sequência: ${dqStatus.streak} dias</div>
+                        <h2>🌍 Quiz Diário da África</h2>
+                        <div style="font-size:0.85em;opacity:0.9;">Pergunta ${currentIdx + 1} de ${todayQuestions.length}</div>
+                        <div class="dq-progress-bar">${dotsHtml}</div>
+                    </div>
+                    
+                    <div class="dq-card">
+                        ${qData.categoria ? `<span class="dq-category-badge"><i class="fas fa-tag"></i> ${qData.categoria}</span>` : ''}
+                        <div class="dq-question-text">${qData.pergunta}</div>
+                        
+                        <div class="dq-options-list" id="dq-options-list">
+                            ${qData.opcoes.map((opt, optIdx) => {
+                                const letter = String.fromCharCode(65 + optIdx);
+                                return `
+                                    <button class="dq-option-btn" data-answer="${encodeURIComponent(opt)}">
+                                        <span class="dq-option-letter">${letter}</span>
+                                        <span>${opt}</span>
+                                    </button>
+                                `;
+                            }).join('')}
+                        </div>
+                        
+                        <div id="dq-explanation-area" style="display:none;"></div>
+                    </div>
+                </div>
+            `;
+            
+            // Option clicks
+            const optionBtns = c.querySelectorAll('.dq-option-btn');
+            optionBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // Disable all buttons
+                    optionBtns.forEach(b => b.style.pointerEvents = 'none');
+                    const chosen = decodeURIComponent(btn.dataset.answer);
+                    const isCorrect = chosen.trim().toLowerCase() === qData.resposta.trim().toLowerCase();
+                    
+                    if (isCorrect) {
+                        score++;
+                        answerHistory[currentIdx] = true;
+                        btn.classList.add('selected-correct');
+                        playSound('correct');
+                        showCombo('Correto! ✨');
+                    } else {
+                        answerHistory[currentIdx] = false;
+                        btn.classList.add('selected-wrong');
+                        playSound('wrong');
+                        // Highlight the correct answer
+                        optionBtns.forEach(b => {
+                            if (decodeURIComponent(b.dataset.answer).trim().toLowerCase() === qData.resposta.trim().toLowerCase()) {
+                                b.classList.add('selected-correct');
+                            }
+                        });
+                    }
+                    
+                    // Show explanation
+                    const expArea = document.getElementById('dq-explanation-area');
+                    if (expArea) {
+                        expArea.style.display = 'block';
+                        expArea.innerHTML = `
+                            <div class="dq-explanation-box">
+                                <div class="dq-explanation-title"><i class="fas fa-lightbulb"></i> Explicação Curiosa</div>
+                                <div class="dq-explanation-text">${qData.explicacao || 'Resposta correta: ' + qData.resposta}</div>
+                                ${qData.fonte ? `<div class="dq-explanation-source">Fonte: ${qData.fonte}</div>` : ''}
+                            </div>
+                            <button class="dq-next-btn" id="dq-btn-next">${isLast ? 'Ver Resultado Final 🏆' : 'Próxima Pergunta →'}</button>
+                        `;
+                        
+                        document.getElementById('dq-btn-next')?.addEventListener('click', () => {
+                            playSound('button');
+                            if (isLast) {
+                                finishDailyQuiz(score, todayQuestions.length);
+                            } else {
+                                currentIdx++;
+                                renderQuestionScreen();
+                            }
+                        });
+                    }
+                });
+            });
+        });
+    }
+    
+    renderQuestionScreen();
+}
+
+function renderDailyQuizCompleted(container, dqStatus) {
+    document.getElementById('share-promo-bubble')?.classList.remove('hidden');
+    const score = dqStatus.score || 0;
+    const streak = dqStatus.streak || 0;
+    const stars = score === 3 ? '⭐⭐⭐' : score === 2 ? '⭐⭐' : score === 1 ? '⭐' : '🌟';
+    
+    container.innerHTML = `
+        <div class="dq-container">
+            <div class="dq-header" style="background: linear-gradient(135deg, #134e5e, #1e3c2f);">
+                <div class="dq-streak-badge">🔥 Sequência: ${streak} dias</div>
+                <h2>🌍 Quiz Diário da África</h2>
+                <div style="font-size:0.9em;opacity:0.95;">Desafio de Hoje Concluído!</div>
+            </div>
+            
+            <div class="dq-card" style="text-align:center;padding:26px 20px;">
+                <div style="font-size:3em;margin-bottom:10px;">${stars}</div>
+                <h3 style="font-size:1.4em;color:var(--text);margin-bottom:6px;">Já jogaste hoje!</h3>
+                <p style="font-size:0.95em;color:var(--text-dim);margin-bottom:14px;">Acertaste <strong>${score} de 3</strong> perguntas no Quiz Diário.</p>
+                
+                <div style="background:#f0f9f5;border-radius:16px;padding:14px;margin-bottom:18px;border:1px solid #d4edda;">
+                    <div style="font-weight:800;color:#27ae60;font-size:1.1em;margin-bottom:4px;">🔥 Sequência Ativa: ${streak} ${streak === 1 ? 'dia' : 'dias'}</div>
+                    <div style="font-size:0.82em;color:#555;">Volta amanhã para manter o teu streak e receber novas perguntas exclusivas sobre a África!</div>
+                </div>
+                
+                <button class="referral-share-main-btn" id="btn-share-daily-result" style="margin-bottom:10px;">
+                    <i class="fas fa-share-nodes"></i> Partilhar Resultado com Amigos
+                </button>
+                <button class="btn-enter-game" id="btn-back-from-dq" style="max-width:100%;margin:0;">
+                    Voltar às Classes
+                </button>
+            </div>
+        </div>
+    `;
+    
+    document.getElementById('btn-back-from-dq')?.addEventListener('click', () => {
+        playSound('button');
+        goClasses();
+    });
+    
+    document.getElementById('btn-share-daily-result')?.addEventListener('click', async () => {
+        playSound('button');
+        const shareText = `🌍 *Quiz Diário da África — QuizMoz*\n\n🧠 Acertei ${score}/3 perguntas hoje!\n🔥 Sequência: ${streak} dias seguidos\n\nConsegues fazer melhor? Baixa o QuizMoz na Play Store:\nhttps://play.google.com/store/apps/details?id=com.quizmoz.app&pcampaignid=web_share`;
+        try {
+            if (window.Capacitor?.Plugins?.Share) {
+                await window.Capacitor.Plugins.Share.share({
+                    title: 'QuizMoz — Quiz Diário',
+                    text: shareText,
+                    url: 'https://play.google.com/store/apps/details?id=com.quizmoz.app&pcampaignid=web_share'
+                });
+            } else if (navigator.share) {
+                await navigator.share({ title: 'QuizMoz — Quiz Diário', text: shareText });
+            } else {
+                await navigator.clipboard.writeText(shareText);
+                showCombo('Resultado copiado! 📋');
+            }
+        } catch(e) {}
+    });
+}
+
+function finishDailyQuiz(score, total) {
+    const today = getTodayDateString();
+    const yesterday = getTodayDateString(-1);
+    
+    if (!gameState.dailyQuiz) {
+        gameState.dailyQuiz = { lastDate: null, completedToday: false, todayScore: 0, streak: 0, lastStreakDate: null };
+    }
+    
+    // Update streak
+    let currentStreak = gameState.dailyQuiz.streak || 0;
+    if (gameState.dailyQuiz.lastStreakDate === yesterday) {
+        currentStreak++;
+    } else if (gameState.dailyQuiz.lastStreakDate !== today) {
+        currentStreak = 1;
+    }
+    
+    gameState.dailyQuiz.lastDate = today;
+    gameState.dailyQuiz.completedToday = true;
+    gameState.dailyQuiz.todayScore = score;
+    gameState.dailyQuiz.streak = currentStreak;
+    gameState.dailyQuiz.lastStreakDate = today;
+    
+    // Calculate Rewards
+    let coinsEarned = score === 3 ? 30 : score === 2 ? 20 : score === 1 ? 10 : 5;
+    let xpEarned = score === 3 ? 50 : score === 2 ? 30 : score === 1 ? 15 : 5;
+    let qiEarned = score === 3 ? 3 : score === 2 ? 2 : score === 1 ? 1 : 0;
+    
+    // Extra streak bonus
+    if (currentStreak > 1) {
+        coinsEarned += 10;
+    }
+    
+    gameState.coins += coinsEarned;
+    gameState.exp += xpEarned;
+    gameState.qi = Math.min(200, gameState.qi + qiEarned);
+    
+    saveState();
+    updateHUD();
+    playSound('win');
+    spawnConfetti();
+    spawnConfetti();
+    
+    // Show Daily Quiz Victory View
+    showScreen('daily-quiz', (c) => {
+        document.getElementById('share-promo-bubble')?.classList.remove('hidden');
+        const stars = score === 3 ? '⭐⭐⭐' : score === 2 ? '⭐⭐' : score === 1 ? '⭐' : '🌟';
+        c.innerHTML = `
+            <div class="dq-container">
+                <div class="dq-header">
+                    <div class="dq-streak-badge">🔥 Sequência: ${currentStreak} dias!</div>
+                    <h2>🏆 Desafio Diário Concluído!</h2>
+                    <div style="font-size:0.9em;opacity:0.95;">Excelente participação!</div>
+                </div>
+                
+                <div class="dq-card" style="text-align:center;padding:26px 20px;">
+                    <div style="font-size:3.2em;margin-bottom:8px;">${stars}</div>
+                    <h3 style="font-size:1.4em;margin-bottom:6px;">${score === 3 ? 'Perfeito! Conhecimento Lendário!' : score >= 1 ? 'Muito Bem!' : 'Boa tentativa!'}</h3>
+                    <p style="font-size:1em;color:var(--text-dim);margin-bottom:18px;">Acertaste <strong>${score} de ${total}</strong> perguntas sobre a África!</p>
+                    
+                    <div style="display:flex;justify-content:center;gap:12px;margin-bottom:18px;">
+                        <div style="background:#fff8e1;border:1.5px solid #ffc107;padding:10px 14px;border-radius:14px;font-weight:800;color:#e65100;">
+                            🪙 +${coinsEarned} Moedas
+                        </div>
+                        <div style="background:#e8f5e9;border:1.5px solid #4caf50;padding:10px 14px;border-radius:14px;font-weight:800;color:#2e7d32;">
+                            ⚡ +${xpEarned} XP
+                        </div>
+                        ${qiEarned > 0 ? `
+                            <div style="background:#ede7f6;border:1.5px solid #9c27b0;padding:10px 14px;border-radius:14px;font-weight:800;color:#6a1b9a;">
+                                🧠 +${qiEarned} QI
+                            </div>
+                        ` : ''}
+                    </div>
+                    
+                    ${currentStreak > 1 ? `
+                        <div style="background:#ffebee;color:#c62828;padding:8px 12px;border-radius:12px;font-weight:800;font-size:0.85em;margin-bottom:16px;">
+                            🔥 Bónus de Sequência: +10 Moedas adicionadas!
+                        </div>
+                    ` : ''}
+                    
+                    <button class="referral-share-main-btn" id="btn-share-daily-finish" style="margin-bottom:10px;">
+                        <i class="fas fa-share-nodes"></i> Partilhar com Amigos 📲
+                    </button>
+                    <button class="btn-enter-game" id="btn-dq-go-classes" style="max-width:100%;margin:0;">
+                        Continuar para as Classes 🚀
+                    </button>
+                </div>
+            </div>
+        `;
+        
+        document.getElementById('btn-dq-go-classes')?.addEventListener('click', () => {
+            playSound('button');
+            goClasses();
+        });
+        
+        document.getElementById('btn-share-daily-finish')?.addEventListener('click', async () => {
+            playSound('button');
+            const shareText = `🌍 *Quiz Diário da África — QuizMoz*\n\n🧠 Acertei ${score}/3 perguntas hoje!\n🔥 Sequência: ${currentStreak} dias seguidos\n\nConsegues bater a minha pontuação? Joga agora:\nhttps://play.google.com/store/apps/details?id=com.quizmoz.app&pcampaignid=web_share`;
+            try {
+                if (window.Capacitor?.Plugins?.Share) {
+                    await window.Capacitor.Plugins.Share.share({
+                        title: 'QuizMoz — Quiz Diário',
+                        text: shareText,
+                        url: 'https://play.google.com/store/apps/details?id=com.quizmoz.app&pcampaignid=web_share'
+                    });
+                } else if (navigator.share) {
+                    await navigator.share({ title: 'QuizMoz — Quiz Diário', text: shareText });
+                } else {
+                    await navigator.clipboard.writeText(shareText);
+                    showCombo('Resultado copiado! 📋');
+                }
+            } catch(e) {}
+        });
+    });
 }
 
 // ===== REWARDED ADS (AdMob) =====
@@ -3316,30 +3896,55 @@ async function scheduleNotifications() {
             await LocalNotifications.cancel(pending);
         }
         
-        // Schedule notifications at peak hours (10:00, 12:00, 16:00, 18:00, and 20:00) over 10 days
-        const peakHours = [10, 12, 16, 18, 20];
+        // Schedule daily notifications over the next 10 days
         const now = new Date();
-        const notifications = NOTIFICATION_MESSAGES.map((msg, i) => {
-            const dayOffset = Math.floor(i / peakHours.length) + 1;
-            const hourIdx = i % peakHours.length;
-            const targetHour = peakHours[hourIdx];
+        const notifications = [];
+        
+        for (let dayOffset = 1; dayOffset <= 10; dayOffset++) {
+            const targetDateStr = getTodayDateString(dayOffset);
+            const dailyQuestions = getDailyQuizQuestions(targetDateStr);
+            const qTeaser = dailyQuestions[0] || africaQuestions[(dayOffset * 3) % Math.max(1, africaQuestions.length)];
             
-            const scheduleDate = new Date(now);
-            scheduleDate.setDate(scheduleDate.getDate() + dayOffset);
-            scheduleDate.setHours(targetHour, 0, 0, 0); // local peak time
-            return {
-                id: 1000 + i,
-                title: i === 0 ? '🚨 QuizMoz — Volta Guerreiro!' : 'QuizMoz 🎮',
-                body: msg,
+            // 1. Morning Notification (10:00) — Daily Quiz Challenge with question
+            const morningDate = new Date(now);
+            morningDate.setDate(morningDate.getDate() + dayOffset);
+            morningDate.setHours(10, 0, 0, 0);
+            
+            let qText = qTeaser ? qTeaser.pergunta : 'Tens 3 novas perguntas sobre a África à tua espera!';
+            if (qText.length > 80) qText = qText.substring(0, 77) + '...';
+            
+            notifications.push({
+                id: 2000 + dayOffset,
+                title: '🌍 Quiz Diário: Desafio da África!',
+                body: `🤔 ${qText}\nEntra no QuizMoz e responde ao desafio de hoje!`,
                 schedule: {
-                    at: scheduleDate,
+                    at: morningDate,
                     allowWhileIdle: true
                 },
                 sound: 'default',
                 smallIcon: 'ic_notification',
                 iconColor: '#5E9B9D'
-            };
-        });
+            });
+            
+            // 2. Evening Notification (18:30) — Retention / Reward reminder
+            const eveningDate = new Date(now);
+            eveningDate.setDate(eveningDate.getDate() + dayOffset);
+            eveningDate.setHours(18, 30, 0, 0);
+            
+            const msg = NOTIFICATION_MESSAGES[(dayOffset - 1) % NOTIFICATION_MESSAGES.length];
+            notifications.push({
+                id: 3000 + dayOffset,
+                title: 'QuizMoz 🎮',
+                body: msg,
+                schedule: {
+                    at: eveningDate,
+                    allowWhileIdle: true
+                },
+                sound: 'default',
+                smallIcon: 'ic_notification',
+                iconColor: '#5E9B9D'
+            });
+        }
         
         await LocalNotifications.schedule({ notifications });
     } catch(e) { console.warn('Notification schedule error:', e); }
@@ -3361,36 +3966,49 @@ let vsState = null;
 let vsUnsubscribe = null;
 let vsTimerInterval = null;
 
-// Dedicated VS questions fetcher — loads from Modo_VS/ folder
+// Dedicated VS questions fetcher — loads from Modo_VS/ folder with multi-mirror fallback
 async function fetchVSQuestions(catFile) {
-    const url = `${BASE_URL}/Modo_VS/${catFile}?v=${GAME_VERSION}`;
-    // Check cache (48h)
     const cacheKey = `quizmoz_vs_cache_${catFile}`;
     const cached = localStorage.getItem(cacheKey);
     if (cached) {
         try {
             const { data, ts } = JSON.parse(cached);
-            if (Date.now() - ts < 48 * 60 * 60 * 1000) return data;
+            if (Date.now() - ts < 48 * 60 * 60 * 1000 && Array.isArray(data) && data.length > 0) return data;
         } catch(e) {}
     }
-    const res = await fetch(url);
-    if (!res.ok) throw new Error('Falha ao carregar perguntas V/S');
-    const json = await res.json();
+    
+    let rawText = '';
+    try {
+        rawText = await fetchRemoteText(`Modo_VS/${catFile}`);
+    } catch(e) {
+        throw new Error('Falha ao carregar perguntas V/S');
+    }
+
     let questions = [];
-    if (json.data) {
-        for (let key in json.data) {
-            if (key.startsWith('Q_ID')) {
-                const idx = key.replace('Q_ID', '');
-                questions.push({
-                    id: `vs_${idx}`, text: json.data[key],
-                    image: json.data[`IMG_ID${idx}`] || null,
-                    options: { 'A': json.data[`A0_ID${idx}`]||'', 'B': json.data[`A1_ID${idx}`]||'', 'C': json.data[`A2_ID${idx}`]||'', 'D': json.data[`A3_ID${idx}`]||'' },
-                    correct: String.fromCharCode(65 + (json.data[`S_ID${idx}`] || 0)),
-                    justification: json.data[`txtS_ID${idx}`] || ''
-                });
+    try {
+        const json = JSON.parse(rawText);
+        if (json.data) {
+            for (let key in json.data) {
+                if (key.startsWith('Q_ID')) {
+                    const idx = key.replace('Q_ID', '');
+                    questions.push({
+                        id: `vs_${idx}`, text: json.data[key],
+                        image: json.data[`IMG_ID${idx}`] || null,
+                        options: { 'A': json.data[`A0_ID${idx}`]||'', 'B': json.data[`A1_ID${idx}`]||'', 'C': json.data[`A2_ID${idx}`]||'', 'D': json.data[`A3_ID${idx}`]||'' },
+                        correct: String.fromCharCode(65 + (Number(json.data[`S_ID${idx}`]) || 0)),
+                        justification: json.data[`txtS_ID${idx}`] || ''
+                    });
+                }
             }
         }
+    } catch(e) {
+        questions = parseQuestionsFromRaw(rawText);
     }
+    
+    if (!questions || questions.length === 0) {
+        throw new Error('Não foram encontradas perguntas para este modo.');
+    }
+    
     try { localStorage.setItem(cacheKey, JSON.stringify({ data: questions, ts: Date.now() })); } catch(e) {}
     return questions;
 }
@@ -3465,7 +4083,7 @@ function showVSPaywallDirect() {
         actions: [{label:'Voltar', class:'modal-btn-gray', onClick: hideModal}]
     });
     setTimeout(() => {
-        document.getElementById('vs-pay-emola')?.addEventListener('click', () => { hideModal(); processVSPayment('emola'); });
+        document.getElementById('vs-pay-emola')?.addEventListener('click', () => { hideModal(); showEmolaUnavailableModal(); });
         document.getElementById('vs-pay-mpesa')?.addEventListener('click', () => { hideModal(); processVSPayment('mpesa'); });
     }, 100);
 }
@@ -3681,6 +4299,7 @@ function openVSLobby() {
                         <li>${VS_QUESTIONS_PER_ROUND}️⃣ Cada round tem ${VS_QUESTIONS_PER_ROUND} perguntas</li>
                         <li>⏱️ ${VS_TIME_PER_QUESTION} segundos por pergunta</li>
                         <li>⏰ Tempo esgotado = resposta errada!</li>
+                        <li style="color:#e74c3c;">🚫 <strong>Anti-Batota:</strong> Se sair do jogo ou minimizar a aplicação durante a partida, perderás automaticamente!</li>
                         <li>🚪 Quem desistir, perde!</li>
                     </ul>
                     <div class="vs-lobby-cats">
@@ -4332,7 +4951,7 @@ function startVSQuestions(code, role, roomData) {
             hideQuizControls();
             document.getElementById('floating-controls').style.display = 'none';
             timeLeft = VS_TIME_PER_QUESTION;
-            const imgUrl = q.image ? `https://raw.githubusercontent.com/BrunoMatherry/quizmoz-data/main/Modo_VS/${q.image}` : null;
+            const imgUrl = q.image ? `${BASE_URL}/Modo_VS/${q.image}` : null;
             c.innerHTML = `
                 <div class="vs-quiz">
                     <div class="vs-quiz-header">
@@ -4986,6 +5605,7 @@ function openNomeTerraLobby() {
                         <li style="margin-bottom: 4px;">📊 <strong>Pontos:</strong> 10 pontos por palavra correta e única; 5 pontos se repetida; 0 se errada.</li>
                         <li style="margin-bottom: 4px;">👑 <strong>Chefe:</strong> No modo online, o vencedor da rodada torna-se o novo Chefe 👑 da sala para a próxima partida.</li>
                         <li style="margin-bottom: 4px;">🪙 <strong>Moedas:</strong> Ganhe moedas de acordo com seu número de acertos.</li>
+                        <li style="margin-bottom: 4px; color: #e74c3c;">🚫 <strong>Anti-Batota:</strong> Se sair do jogo ou minimizar a aplicação durante a rodada, serás desclassificado automaticamente!</li>
                     </ul>
                 </div>
                 
@@ -4993,7 +5613,7 @@ function openNomeTerraLobby() {
                     <h3>🎮 Modo de Jogo</h3>
                     <div class="nt-option-grid">
                         <button class="nt-opt-btn active" id="nt-mode-single" data-mode="single">👤 Jogar Solo</button>
-                        <button class="nt-opt-btn" id="nt-mode-multi" data-mode="multiplayer">👥 Online (até 4)</button>
+                        <button class="nt-opt-btn" id="nt-mode-multi" data-mode="multiplayer">👥 Online (até 6)</button>
                     </div>
                 </div>
 
@@ -5023,7 +5643,7 @@ function openNomeTerraLobby() {
                     <div class="vs-lobby-actions" style="margin-bottom: 0;">
                         <button class="vs-btn vs-btn-create" id="nt-create-room" style="background: linear-gradient(135deg, #e67e22, #f39c12);">
                             <i class="fas fa-plus-circle"></i>
-                            <div><strong>Criar Sala</strong><span>Convide até 3 amigos</span></div>
+                            <div><strong>Criar Sala</strong><span>Convide até 5 amigos</span></div>
                         </button>
                         <button class="vs-btn vs-btn-join" id="nt-join-room" style="background: linear-gradient(135deg, #d35400, #c0392b);">
                             <i class="fas fa-sign-in-alt"></i>
@@ -5453,12 +6073,9 @@ async function stopNTRound() {
         let dictionary = null;
         try {
             const letter = ntRoomState.letter.toLowerCase();
-            const res = await fetch(`https://raw.githubusercontent.com/BrunoMatherry/quizmoz-data/main/Nome_Terra_ab/${letter}.json`);
-            if (res.ok) {
-                dictionary = await res.json();
-            }
+            dictionary = await fetchRemoteJson(`Nome_Terra_ab/${letter}.json`);
         } catch (e) {
-            console.warn('GitHub dictionary load failed. Using letter match fallback.', e);
+            console.warn('Nome da Terra dictionary load failed. Using letter match fallback.', e);
         }
         
         showLoading(false);
@@ -5782,7 +6399,7 @@ async function joinNTRoom(code) {
         const data = snap.data();
         if (data.status !== 'waiting') { showLoading(false); showCombo('Sala já em jogo! ❌'); return; }
         if (data.players.some(p => p.uid === auth.currentUser.uid)) { showLoading(false); showCombo('Você já está na sala! ❌'); return; }
-        if (data.players.length >= 4) { showLoading(false); showCombo('Sala cheia! (Máx. 4 jogadores) ❌'); return; }
+        if (data.players.length >= 6) { showLoading(false); showCombo('Sala cheia! (Máx. 6 jogadores) ❌'); return; }
         
         const newPlayer = {
             uid: auth.currentUser.uid,
@@ -5833,7 +6450,7 @@ function showNTWaitingRoom(code, role) {
                 </div>
                 
                 <div class="nt-lobby-section" style="margin-top: 15px;">
-                    <h3>👥 Jogadores na Sala (<span id="nt-players-count">1</span>/4)</h3>
+                    <h3>👥 Jogadores na Sala (<span id="nt-players-count">1</span>/6)</h3>
                     <ul id="nt-players-list" style="list-style: none; padding: 0;"></ul>
                 </div>
                 
@@ -6273,12 +6890,9 @@ async function gradeMultiplayerRound(code, players, letter, categories) {
     let dictionary = null;
     try {
         const letterLower = letter.toLowerCase();
-        const res = await fetch(`https://raw.githubusercontent.com/BrunoMatherry/quizmoz-data/main/Nome_Terra_ab/${letterLower}.json`);
-        if (res.ok) {
-            dictionary = await res.json();
-        }
+        dictionary = await fetchRemoteJson(`Nome_Terra_ab/${letterLower}.json`);
     } catch(e) {
-        console.warn('GitHub dictionary load failed for multiplayer grading. Using fallback.');
+        console.warn('Nome da Terra dictionary load failed for multiplayer grading. Using fallback.');
     }
     
     const gradedPlayers = players.map(p => {
@@ -7241,8 +7855,8 @@ const MASCOT_PHRASES = {
         "Mano ${nome}, não dorme na linha! Foca! 🇲🇿",
         "Presta atenção ${nome}, não deves dar maningue falhar!",
         "Esta pergunta é maningue fácil, mano!",
-        "Se errares esta, vais me pagar um baji! 😋",
-        "Eish, ${nome}, vais mesmo vacilar com esta? 🧐"
+        "Se errares esta, vais me pagar! 😋",
+        "Eish, ${nome}, não mete água! 🧐"
     ],
     correct: [
         "Isso mesmo, mano! 🥳",
@@ -7255,7 +7869,7 @@ const MASCOT_PHRASES = {
         "Eish, mano... 😢",
         "A sério, ${nome}? 😞",
         "Que azar, dormiste na linha! 😭",
-        "Vais pagar o baji! 😋",
+        "Vais me pagar! 😋",
         "Eish, essa doeu... 🤕"
     ],
     timeout: [

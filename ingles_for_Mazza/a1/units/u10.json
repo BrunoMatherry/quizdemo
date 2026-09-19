@@ -1,0 +1,3508 @@
+{
+  "id": "u10",
+  "level": "A1",
+  "order": 10,
+  "title": {
+    "pt": "Escola",
+    "en": "School"
+  },
+  "goal": "Sala de aula, objectos e pedidos simples.",
+  "themeImageHint": "School",
+  "lessonCount": 20,
+  "lessons": [
+    {
+      "id": "a1-u10-l01",
+      "unitId": "u10",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "Na sala de aula",
+        "en": "Na sala de aula"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Sala de aula, objectos e pedidos simples.",
+        "Na sala de aula"
+      ],
+      "newWords": [
+        {
+          "en": "school",
+          "pt": "escola",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l01_w_school",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "teacher",
+          "pt": "professor/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l01_w_teacher",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "student",
+          "pt": "aluno/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l01_w_student",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "book",
+          "pt": "livro",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l01_w_book",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Na sala de aula",
+        "sentences": [
+          {
+            "id": "a1-u10-l01-s1",
+            "en": "Amina lives in Maputo.",
+            "pt": "Amina mora em Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l01_s1"
+          },
+          {
+            "id": "a1-u10-l01-s2",
+            "en": "Today the lesson is Na sala de aula.",
+            "pt": "Hoje a lição é: Na sala de aula.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l01_s2"
+          },
+          {
+            "id": "a1-u10-l01-s3",
+            "en": "We learn 'school' and 'teacher'.",
+            "pt": "Aprendemos «escola» e «professor/a».",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l01_s3"
+          },
+          {
+            "id": "a1-u10-l01-s4",
+            "en": "Amina says: I use 'book' every day.",
+            "pt": "Amina diz: uso «livro» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l01_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u10-l01-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u10-l01_repeat",
+          "items": [
+            {
+              "en": "Amina lives in Maputo.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l01-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "school",
+                "pt": "O que significa «school»?"
+              },
+              "options": [
+                "escola",
+                "aluno/a",
+                "esferográfica",
+                "caderno"
+              ],
+              "answer": "escola"
+            },
+            {
+              "question": {
+                "en": "teacher",
+                "pt": "O que significa «teacher»?"
+              },
+              "options": [
+                "professor/a",
+                "livro",
+                "lápis",
+                "mochila"
+              ],
+              "answer": "professor/a"
+            },
+            {
+              "question": {
+                "en": "student",
+                "pt": "O que significa «student»?"
+              },
+              "options": [
+                "aluno/a",
+                "esferográfica",
+                "caderno",
+                "carteira"
+              ],
+              "answer": "aluno/a"
+            },
+            {
+              "question": {
+                "en": "book",
+                "pt": "O que significa «book»?"
+              },
+              "options": [
+                "livro",
+                "lápis",
+                "mochila",
+                "quadro"
+              ],
+              "answer": "livro"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u10-l02",
+      "unitId": "u10",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "Isto é um livro",
+        "en": "Isto é um livro"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Sala de aula, objectos e pedidos simples.",
+        "Isto é um livro"
+      ],
+      "newWords": [
+        {
+          "en": "book",
+          "pt": "livro",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l02_w_book",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "pen",
+          "pt": "esferográfica",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l02_w_pen",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "pencil",
+          "pt": "lápis",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l02_w_pencil",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "notebook",
+          "pt": "caderno",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l02_w_notebook",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Isto é um livro",
+        "sentences": [
+          {
+            "id": "a1-u10-l02-s1",
+            "en": "João lives in Matola.",
+            "pt": "João mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l02_s1"
+          },
+          {
+            "id": "a1-u10-l02-s2",
+            "en": "Today the lesson is Isto é um livro.",
+            "pt": "Hoje a lição é: Isto é um livro.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l02_s2"
+          },
+          {
+            "id": "a1-u10-l02-s3",
+            "en": "We learn 'teacher' and 'student'.",
+            "pt": "Aprendemos «professor/a» e «aluno/a».",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l02_s3"
+          },
+          {
+            "id": "a1-u10-l02-s4",
+            "en": "João says: I use 'pen' every day.",
+            "pt": "João diz: uso «esferográfica» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l02_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u10-l02-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Lurdes uses the word _____.",
+              "answer": "school",
+              "options": [
+                "school",
+                "teacher",
+                "student",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Lurdes uses the word _____.",
+              "answer": "teacher",
+              "options": [
+                "teacher",
+                "student",
+                "book",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Lurdes uses the word _____.",
+              "answer": "student",
+              "options": [
+                "student",
+                "book",
+                "pen",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u10-l03",
+      "unitId": "u10",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "Abre o caderno",
+        "en": "Abre o caderno"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Sala de aula, objectos e pedidos simples.",
+        "Abre o caderno"
+      ],
+      "newWords": [
+        {
+          "en": "notebook",
+          "pt": "caderno",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l03_w_notebook",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "bag",
+          "pt": "mochila",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l03_w_bag",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "desk",
+          "pt": "carteira",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l03_w_desk",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "board",
+          "pt": "quadro",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l03_w_board",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        }
+      ],
+      "guidedReading": {
+        "title": "Abre o caderno",
+        "sentences": [
+          {
+            "id": "a1-u10-l03-s1",
+            "en": "Fátima lives in Xai-Xai.",
+            "pt": "Fátima mora em Xai-Xai.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l03_s1"
+          },
+          {
+            "id": "a1-u10-l03-s2",
+            "en": "Today the lesson is Abre o caderno.",
+            "pt": "Hoje a lição é: Abre o caderno.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l03_s2"
+          },
+          {
+            "id": "a1-u10-l03-s3",
+            "en": "We learn 'student' and 'book'.",
+            "pt": "Aprendemos «aluno/a» e «livro».",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l03_s3"
+          },
+          {
+            "id": "a1-u10-l03-s4",
+            "en": "Fátima says: I use 'pencil' every day.",
+            "pt": "Fátima diz: uso «lápis» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l03_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u10-l03-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "school",
+              "pt": "escola"
+            },
+            {
+              "en": "teacher",
+              "pt": "professor/a"
+            },
+            {
+              "en": "student",
+              "pt": "aluno/a"
+            },
+            {
+              "en": "book",
+              "pt": "livro"
+            },
+            {
+              "en": "pen",
+              "pt": "esferográfica"
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l03-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'school' in Portuguese is 'escola'.",
+              "answer": true
+            },
+            {
+              "sentence": "'school' means 'livro'.",
+              "answer": false
+            },
+            {
+              "sentence": "'teacher' in Portuguese is 'professor/a'.",
+              "answer": true
+            },
+            {
+              "sentence": "'teacher' means 'esferográfica'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u10-l04",
+      "unitId": "u10",
+      "order": 4,
+      "kind": "content",
+      "title": {
+        "pt": "Ouve e repete",
+        "en": "Ouve e repete"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Sala de aula, objectos e pedidos simples.",
+        "Ouve e repete"
+      ],
+      "newWords": [
+        {
+          "en": "board",
+          "pt": "quadro",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l04_w_board",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "open",
+          "pt": "abrir",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l04_w_open",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "close",
+          "pt": "fechar",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l04_w_close",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "read",
+          "pt": "ler",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l04_w_read",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Ouve e repete",
+        "sentences": [
+          {
+            "id": "a1-u10-l04-s1",
+            "en": "Carlos lives in Inhambane.",
+            "pt": "Carlos mora em Inhambane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l04_s1"
+          },
+          {
+            "id": "a1-u10-l04-s2",
+            "en": "Today the lesson is Ouve e repete.",
+            "pt": "Hoje a lição é: Ouve e repete.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l04_s2"
+          },
+          {
+            "id": "a1-u10-l04-s3",
+            "en": "We learn 'book' and 'pen'.",
+            "pt": "Aprendemos «livro» e «esferográfica».",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l04_s3"
+          },
+          {
+            "id": "a1-u10-l04-s4",
+            "en": "Carlos says: I use 'notebook' every day.",
+            "pt": "Carlos diz: uso «caderno» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l04_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u10-l04-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u10-l04_lw_lurdes-is-in-nacal",
+              "answer": "Lurdes is in Nacala. school.",
+              "hint": "Lurdes"
+            },
+            {
+              "audioKey": "a1_a1-u10-l04_lw_lurdes-is-in-nacal",
+              "answer": "Lurdes is in Nacala. teacher.",
+              "hint": "Lurdes"
+            },
+            {
+              "audioKey": "a1_a1-u10-l04_lw_lurdes-is-in-nacal",
+              "answer": "Lurdes is in Nacala. student.",
+              "hint": "Lurdes"
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l04-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "school"
+              ],
+              "answer": "I need school"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "teacher"
+              ],
+              "answer": "I need teacher"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "student"
+              ],
+              "answer": "I need student"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u10-l05",
+      "unitId": "u10",
+      "order": 5,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 1",
+        "en": "Checkpoint quiz 1"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Sala de aula, objectos e pedidos simples.",
+        "Mini-teste 1"
+      ],
+      "newWords": [
+        {
+          "en": "read",
+          "pt": "ler",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l05_w_read",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "write",
+          "pt": "escrever",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l05_w_write",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "listen",
+          "pt": "ouvir",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l05_w_listen",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "repeat",
+          "pt": "repetir",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l05_w_repeat",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 1",
+        "sentences": [
+          {
+            "id": "a1-u10-l05-s1",
+            "en": "Let’s review. Graça is from Vilankulo.",
+            "pt": "Vamos rever. Graça é de Vilankulo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l05_s1"
+          },
+          {
+            "id": "a1-u10-l05-s2",
+            "en": "This unit is about School.",
+            "pt": "Esta unidade é sobre Escola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l05_s2"
+          },
+          {
+            "id": "a1-u10-l05-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l05_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u10-l05-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "school",
+                "pt": "O que significa «school»?"
+              },
+              "options": [
+                "escola",
+                "aluno/a",
+                "esferográfica",
+                "caderno"
+              ],
+              "answer": "escola"
+            },
+            {
+              "question": {
+                "en": "teacher",
+                "pt": "O que significa «teacher»?"
+              },
+              "options": [
+                "professor/a",
+                "livro",
+                "lápis",
+                "mochila"
+              ],
+              "answer": "professor/a"
+            },
+            {
+              "question": {
+                "en": "student",
+                "pt": "O que significa «student»?"
+              },
+              "options": [
+                "aluno/a",
+                "esferográfica",
+                "caderno",
+                "carteira"
+              ],
+              "answer": "aluno/a"
+            },
+            {
+              "question": {
+                "en": "book",
+                "pt": "O que significa «book»?"
+              },
+              "options": [
+                "livro",
+                "lápis",
+                "mochila",
+                "quadro"
+              ],
+              "answer": "livro"
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l05-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Lurdes uses the word _____.",
+              "answer": "school",
+              "options": [
+                "school",
+                "teacher",
+                "student",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Lurdes uses the word _____.",
+              "answer": "teacher",
+              "options": [
+                "teacher",
+                "student",
+                "book",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Lurdes uses the word _____.",
+              "answer": "student",
+              "options": [
+                "student",
+                "book",
+                "pen",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l05-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u10-l05_lw_lurdes-is-in-nacal",
+              "answer": "Lurdes is in Nacala. school.",
+              "hint": "Lurdes"
+            },
+            {
+              "audioKey": "a1_a1-u10-l05_lw_lurdes-is-in-nacal",
+              "answer": "Lurdes is in Nacala. teacher.",
+              "hint": "Lurdes"
+            },
+            {
+              "audioKey": "a1_a1-u10-l05_lw_lurdes-is-in-nacal",
+              "answer": "Lurdes is in Nacala. student.",
+              "hint": "Lurdes"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u10-l06",
+      "unitId": "u10",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "Eu leio / eu escrevo",
+        "en": "Eu leio / eu escrevo"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Sala de aula, objectos e pedidos simples.",
+        "Eu leio / eu escrevo"
+      ],
+      "newWords": [
+        {
+          "en": "repeat",
+          "pt": "repetir",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l06_w_repeat",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Eu leio / eu escrevo",
+        "sentences": [
+          {
+            "id": "a1-u10-l06-s1",
+            "en": "Ibraimo lives in Beira.",
+            "pt": "Ibraimo mora em Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l06_s1"
+          },
+          {
+            "id": "a1-u10-l06-s2",
+            "en": "Today the lesson is A minha professora.",
+            "pt": "Hoje a lição é: A minha professora.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l06_s2"
+          },
+          {
+            "id": "a1-u10-l06-s3",
+            "en": "We learn 'pencil' and 'notebook'.",
+            "pt": "Aprendemos «lápis» e «caderno».",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l06_s3"
+          },
+          {
+            "id": "a1-u10-l06-s4",
+            "en": "Ibraimo says: I use 'desk' every day.",
+            "pt": "Ibraimo diz: uso «carteira» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l06_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u10-l06-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Ibraimo lives in Beira.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l06-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "school",
+                "pt": "O que significa «school»?"
+              },
+              "options": [
+                "escola",
+                "aluno/a",
+                "esferográfica",
+                "caderno"
+              ],
+              "answer": "escola"
+            },
+            {
+              "question": {
+                "en": "teacher",
+                "pt": "O que significa «teacher»?"
+              },
+              "options": [
+                "professor/a",
+                "livro",
+                "lápis",
+                "mochila"
+              ],
+              "answer": "professor/a"
+            },
+            {
+              "question": {
+                "en": "student",
+                "pt": "O que significa «student»?"
+              },
+              "options": [
+                "aluno/a",
+                "esferográfica",
+                "caderno",
+                "carteira"
+              ],
+              "answer": "aluno/a"
+            },
+            {
+              "question": {
+                "en": "book",
+                "pt": "O que significa «book»?"
+              },
+              "options": [
+                "livro",
+                "lápis",
+                "mochila",
+                "quadro"
+              ],
+              "answer": "livro"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u10-l07",
+      "unitId": "u10",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "A minha professora",
+        "en": "A minha professora"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Sala de aula, objectos e pedidos simples.",
+        "A minha professora"
+      ],
+      "newWords": [
+        {
+          "en": "student",
+          "pt": "aluno/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l07_w_student",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "book",
+          "pt": "livro",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l07_w_book",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "pen",
+          "pt": "esferográfica",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l07_w_pen",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "pencil",
+          "pt": "lápis",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l07_w_pencil",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        }
+      ],
+      "guidedReading": {
+        "title": "A minha professora",
+        "sentences": [
+          {
+            "id": "a1-u10-l07-s1",
+            "en": "Esperança lives in Chimoio.",
+            "pt": "Esperança mora em Chimoio.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l07_s1"
+          },
+          {
+            "id": "a1-u10-l07-s2",
+            "en": "Today the lesson is Os meus colegas.",
+            "pt": "Hoje a lição é: Os meus colegas.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l07_s2"
+          },
+          {
+            "id": "a1-u10-l07-s3",
+            "en": "We learn 'notebook' and 'bag'.",
+            "pt": "Aprendemos «caderno» e «mochila».",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l07_s3"
+          },
+          {
+            "id": "a1-u10-l07-s4",
+            "en": "Esperança says: I use 'board' every day.",
+            "pt": "Esperança diz: uso «quadro» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l07_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u10-l07-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u10-l07_repeat",
+          "items": [
+            {
+              "en": "Esperança lives in Chimoio.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l07-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "school",
+                "pt": "O que significa «school»?"
+              },
+              "options": [
+                "escola",
+                "aluno/a",
+                "esferográfica",
+                "caderno"
+              ],
+              "answer": "escola"
+            },
+            {
+              "question": {
+                "en": "teacher",
+                "pt": "O que significa «teacher»?"
+              },
+              "options": [
+                "professor/a",
+                "livro",
+                "lápis",
+                "mochila"
+              ],
+              "answer": "professor/a"
+            },
+            {
+              "question": {
+                "en": "student",
+                "pt": "O que significa «student»?"
+              },
+              "options": [
+                "aluno/a",
+                "esferográfica",
+                "caderno",
+                "carteira"
+              ],
+              "answer": "aluno/a"
+            },
+            {
+              "question": {
+                "en": "book",
+                "pt": "O que significa «book»?"
+              },
+              "options": [
+                "livro",
+                "lápis",
+                "mochila",
+                "quadro"
+              ],
+              "answer": "livro"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u10-l08",
+      "unitId": "u10",
+      "order": 8,
+      "kind": "content",
+      "title": {
+        "pt": "Os meus colegas",
+        "en": "Os meus colegas"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Sala de aula, objectos e pedidos simples.",
+        "Os meus colegas"
+      ],
+      "newWords": [
+        {
+          "en": "pencil",
+          "pt": "lápis",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l08_w_pencil",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "notebook",
+          "pt": "caderno",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l08_w_notebook",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "bag",
+          "pt": "mochila",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l08_w_bag",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "desk",
+          "pt": "carteira",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l08_w_desk",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        }
+      ],
+      "guidedReading": {
+        "title": "Os meus colegas",
+        "sentences": [
+          {
+            "id": "a1-u10-l08-s1",
+            "en": "Paulo lives in Tete.",
+            "pt": "Paulo mora em Tete.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l08_s1"
+          },
+          {
+            "id": "a1-u10-l08-s2",
+            "en": "Today the lesson is Matérias: inglês, matemática.",
+            "pt": "Hoje a lição é: Matérias: inglês, matemática.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l08_s2"
+          },
+          {
+            "id": "a1-u10-l08-s3",
+            "en": "We learn 'bag' and 'desk'.",
+            "pt": "Aprendemos «mochila» e «carteira».",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l08_s3"
+          },
+          {
+            "id": "a1-u10-l08-s4",
+            "en": "Paulo says: I use 'open' every day.",
+            "pt": "Paulo diz: uso «abrir» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l08_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u10-l08-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Lurdes uses the word _____.",
+              "answer": "school",
+              "options": [
+                "school",
+                "teacher",
+                "student",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Lurdes uses the word _____.",
+              "answer": "teacher",
+              "options": [
+                "teacher",
+                "student",
+                "book",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Lurdes uses the word _____.",
+              "answer": "student",
+              "options": [
+                "student",
+                "book",
+                "pen",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u10-l09",
+      "unitId": "u10",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Matérias: inglês, matemática",
+        "en": "Matérias: inglês, matemática"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Sala de aula, objectos e pedidos simples.",
+        "Matérias: inglês, matemática"
+      ],
+      "newWords": [
+        {
+          "en": "desk",
+          "pt": "carteira",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l09_w_desk",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "board",
+          "pt": "quadro",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l09_w_board",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "open",
+          "pt": "abrir",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l09_w_open",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "close",
+          "pt": "fechar",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l09_w_close",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Matérias: inglês, matemática",
+        "sentences": [
+          {
+            "id": "a1-u10-l09-s1",
+            "en": "Belmira lives in Quelimane.",
+            "pt": "Belmira mora em Quelimane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l09_s1"
+          },
+          {
+            "id": "a1-u10-l09-s2",
+            "en": "Today the lesson is Perguntar: How do you say…?.",
+            "pt": "Hoje a lição é: Perguntar: How do you say…?.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l09_s2"
+          },
+          {
+            "id": "a1-u10-l09-s3",
+            "en": "We learn 'desk' and 'board'.",
+            "pt": "Aprendemos «carteira» e «quadro».",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l09_s3"
+          },
+          {
+            "id": "a1-u10-l09-s4",
+            "en": "Belmira says: I use 'close' every day.",
+            "pt": "Belmira diz: uso «fechar» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l09_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u10-l09-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "school",
+              "pt": "escola"
+            },
+            {
+              "en": "teacher",
+              "pt": "professor/a"
+            },
+            {
+              "en": "student",
+              "pt": "aluno/a"
+            },
+            {
+              "en": "book",
+              "pt": "livro"
+            },
+            {
+              "en": "pen",
+              "pt": "esferográfica"
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l09-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'school' in Portuguese is 'escola'.",
+              "answer": true
+            },
+            {
+              "sentence": "'school' means 'livro'.",
+              "answer": false
+            },
+            {
+              "sentence": "'teacher' in Portuguese is 'professor/a'.",
+              "answer": true
+            },
+            {
+              "sentence": "'teacher' means 'esferográfica'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u10-l10",
+      "unitId": "u10",
+      "order": 10,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão guiada",
+        "en": "Guided review"
+      },
+      "type": "review",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectives": [
+        "Sala de aula, objectos e pedidos simples.",
+        "Revisão guiada"
+      ],
+      "newWords": [
+        {
+          "en": "close",
+          "pt": "fechar",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l10_w_close",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "read",
+          "pt": "ler",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l10_w_read",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "write",
+          "pt": "escrever",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l10_w_write",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "listen",
+          "pt": "ouvir",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l10_w_listen",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        }
+      ],
+      "guidedReading": {
+        "title": "Guided review",
+        "sentences": [
+          {
+            "id": "a1-u10-l10-s1",
+            "en": "Let’s review. Nélio is from Nampula.",
+            "pt": "Vamos rever. Nélio é de Nampula.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l10_s1"
+          },
+          {
+            "id": "a1-u10-l10-s2",
+            "en": "This unit is about School.",
+            "pt": "Esta unidade é sobre Escola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l10_s2"
+          },
+          {
+            "id": "a1-u10-l10-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l10_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u10-l10-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u10-l10_lw_lurdes-is-in-nacal",
+              "answer": "Lurdes is in Nacala. school.",
+              "hint": "Lurdes"
+            },
+            {
+              "audioKey": "a1_a1-u10-l10_lw_lurdes-is-in-nacal",
+              "answer": "Lurdes is in Nacala. teacher.",
+              "hint": "Lurdes"
+            },
+            {
+              "audioKey": "a1_a1-u10-l10_lw_lurdes-is-in-nacal",
+              "answer": "Lurdes is in Nacala. student.",
+              "hint": "Lurdes"
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l10-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "school"
+              ],
+              "answer": "I need school"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "teacher"
+              ],
+              "answer": "I need teacher"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "student"
+              ],
+              "answer": "I need student"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u10-l11",
+      "unitId": "u10",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "Perguntar: How do you say…?",
+        "en": "Perguntar: How do you say…?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Sala de aula, objectos e pedidos simples.",
+        "Perguntar: How do you say…?"
+      ],
+      "newWords": [
+        {
+          "en": "listen",
+          "pt": "ouvir",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l11_w_listen",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "repeat",
+          "pt": "repetir",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l11_w_repeat",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        }
+      ],
+      "guidedReading": {
+        "title": "Perguntar: How do you say…?",
+        "sentences": [
+          {
+            "id": "a1-u10-l11-s1",
+            "en": "Lurdes lives in Nacala.",
+            "pt": "Lurdes mora em Nacala.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l11_s1"
+          },
+          {
+            "id": "a1-u10-l11-s2",
+            "en": "Today the lesson is Diálogo: primeiro dia.",
+            "pt": "Hoje a lição é: Diálogo: primeiro dia.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l11_s2"
+          },
+          {
+            "id": "a1-u10-l11-s3",
+            "en": "We learn 'open' and 'close'.",
+            "pt": "Aprendemos «abrir» e «fechar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l11_s3"
+          },
+          {
+            "id": "a1-u10-l11-s4",
+            "en": "Lurdes says: I use 'write' every day.",
+            "pt": "Lurdes diz: uso «escrever» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l11_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u10-l11-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u10-l11_tap",
+          "items": [
+            {
+              "answer": "school",
+              "options": [
+                "school",
+                "teacher",
+                "student",
+                "book"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l11-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u10-l12",
+      "unitId": "u10",
+      "order": 12,
+      "kind": "content",
+      "title": {
+        "pt": "I don’t understand",
+        "en": "I don’t understand"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Sala de aula, objectos e pedidos simples.",
+        "I don’t understand"
+      ],
+      "newWords": [
+        {
+          "en": "teacher",
+          "pt": "professor/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l12_w_teacher",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "student",
+          "pt": "aluno/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l12_w_student",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "book",
+          "pt": "livro",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l12_w_book",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "pen",
+          "pt": "esferográfica",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l12_w_pen",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        }
+      ],
+      "guidedReading": {
+        "title": "I don’t understand",
+        "sentences": [
+          {
+            "id": "a1-u10-l12-s1",
+            "en": "Faruk lives in Pemba.",
+            "pt": "Faruk mora em Pemba.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l12_s1"
+          },
+          {
+            "id": "a1-u10-l12-s2",
+            "en": "Today the lesson is Diálogo: pedir ajuda.",
+            "pt": "Hoje a lição é: Diálogo: pedir ajuda.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l12_s2"
+          },
+          {
+            "id": "a1-u10-l12-s3",
+            "en": "We learn 'close' and 'read'.",
+            "pt": "Aprendemos «fechar» e «ler».",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l12_s3"
+          },
+          {
+            "id": "a1-u10-l12-s4",
+            "en": "Faruk says: I use 'listen' every day.",
+            "pt": "Faruk diz: uso «ouvir» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l12_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u10-l12-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Faruk lives in Pemba.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l12-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "school",
+                "pt": "O que significa «school»?"
+              },
+              "options": [
+                "escola",
+                "aluno/a",
+                "esferográfica",
+                "caderno"
+              ],
+              "answer": "escola"
+            },
+            {
+              "question": {
+                "en": "teacher",
+                "pt": "O que significa «teacher»?"
+              },
+              "options": [
+                "professor/a",
+                "livro",
+                "lápis",
+                "mochila"
+              ],
+              "answer": "professor/a"
+            },
+            {
+              "question": {
+                "en": "student",
+                "pt": "O que significa «student»?"
+              },
+              "options": [
+                "aluno/a",
+                "esferográfica",
+                "caderno",
+                "carteira"
+              ],
+              "answer": "aluno/a"
+            },
+            {
+              "question": {
+                "en": "book",
+                "pt": "O que significa «book»?"
+              },
+              "options": [
+                "livro",
+                "lápis",
+                "mochila",
+                "quadro"
+              ],
+              "answer": "livro"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u10-l13",
+      "unitId": "u10",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: primeiro dia",
+        "en": "Diálogo: primeiro dia"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Sala de aula, objectos e pedidos simples.",
+        "Diálogo: primeiro dia"
+      ],
+      "newWords": [
+        {
+          "en": "pen",
+          "pt": "esferográfica",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l13_w_pen",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "pencil",
+          "pt": "lápis",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l13_w_pencil",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "notebook",
+          "pt": "caderno",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l13_w_notebook",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "bag",
+          "pt": "mochila",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l13_w_bag",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: primeiro dia",
+        "sentences": [
+          {
+            "id": "a1-u10-l13-s1",
+            "en": "Josina lives in Lichinga.",
+            "pt": "Josina mora em Lichinga.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l13_s1"
+          },
+          {
+            "id": "a1-u10-l13-s2",
+            "en": "Today the lesson is Objectos da mala.",
+            "pt": "Hoje a lição é: Objectos da mala.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l13_s2"
+          },
+          {
+            "id": "a1-u10-l13-s3",
+            "en": "We learn 'read' and 'write'.",
+            "pt": "Aprendemos «ler» e «escrever».",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l13_s3"
+          },
+          {
+            "id": "a1-u10-l13-s4",
+            "en": "Josina says: I use 'repeat' every day.",
+            "pt": "Josina diz: uso «repetir» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l13_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u10-l13-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u10-l13_repeat",
+          "items": [
+            {
+              "en": "Josina lives in Lichinga.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l13-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "school",
+                "pt": "O que significa «school»?"
+              },
+              "options": [
+                "escola",
+                "aluno/a",
+                "esferográfica",
+                "caderno"
+              ],
+              "answer": "escola"
+            },
+            {
+              "question": {
+                "en": "teacher",
+                "pt": "O que significa «teacher»?"
+              },
+              "options": [
+                "professor/a",
+                "livro",
+                "lápis",
+                "mochila"
+              ],
+              "answer": "professor/a"
+            },
+            {
+              "question": {
+                "en": "student",
+                "pt": "O que significa «student»?"
+              },
+              "options": [
+                "aluno/a",
+                "esferográfica",
+                "caderno",
+                "carteira"
+              ],
+              "answer": "aluno/a"
+            },
+            {
+              "question": {
+                "en": "book",
+                "pt": "O que significa «book»?"
+              },
+              "options": [
+                "livro",
+                "lápis",
+                "mochila",
+                "quadro"
+              ],
+              "answer": "livro"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u10-l14",
+      "unitId": "u10",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: pedir ajuda",
+        "en": "Diálogo: pedir ajuda"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Sala de aula, objectos e pedidos simples.",
+        "Diálogo: pedir ajuda"
+      ],
+      "newWords": [
+        {
+          "en": "bag",
+          "pt": "mochila",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l14_w_bag",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "desk",
+          "pt": "carteira",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l14_w_desk",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "board",
+          "pt": "quadro",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l14_w_board",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "open",
+          "pt": "abrir",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l14_w_open",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: pedir ajuda",
+        "sentences": [
+          {
+            "id": "a1-u10-l14-s1",
+            "en": "Tendai lives in Ilha de Moçambique.",
+            "pt": "Tendai mora em Ilha de Moçambique.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l14_s1"
+          },
+          {
+            "id": "a1-u10-l14-s2",
+            "en": "Today the lesson is Regras da aula em inglês.",
+            "pt": "Hoje a lição é: Regras da aula em inglês.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l14_s2"
+          },
+          {
+            "id": "a1-u10-l14-s3",
+            "en": "We learn 'write' and 'listen'.",
+            "pt": "Aprendemos «escrever» e «ouvir».",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l14_s3"
+          },
+          {
+            "id": "a1-u10-l14-s4",
+            "en": "Tendai says: I use 'school' every day.",
+            "pt": "Tendai diz: uso «escola» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l14_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u10-l14-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Lurdes uses the word _____.",
+              "answer": "school",
+              "options": [
+                "school",
+                "teacher",
+                "student",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Lurdes uses the word _____.",
+              "answer": "teacher",
+              "options": [
+                "teacher",
+                "student",
+                "book",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Lurdes uses the word _____.",
+              "answer": "student",
+              "options": [
+                "student",
+                "book",
+                "pen",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u10-l15",
+      "unitId": "u10",
+      "order": 15,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 2",
+        "en": "Checkpoint quiz 2"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Sala de aula, objectos e pedidos simples.",
+        "Mini-teste 2"
+      ],
+      "newWords": [
+        {
+          "en": "open",
+          "pt": "abrir",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l15_w_open",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "close",
+          "pt": "fechar",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l15_w_close",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "read",
+          "pt": "ler",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l15_w_read",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "write",
+          "pt": "escrever",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l15_w_write",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 2",
+        "sentences": [
+          {
+            "id": "a1-u10-l15-s1",
+            "en": "Let’s review. Amélia is from Maputo.",
+            "pt": "Vamos rever. Amélia é de Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l15_s1"
+          },
+          {
+            "id": "a1-u10-l15-s2",
+            "en": "This unit is about School.",
+            "pt": "Esta unidade é sobre Escola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l15_s2"
+          },
+          {
+            "id": "a1-u10-l15-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l15_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u10-l15-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "school",
+                "pt": "O que significa «school»?"
+              },
+              "options": [
+                "escola",
+                "aluno/a",
+                "esferográfica",
+                "caderno"
+              ],
+              "answer": "escola"
+            },
+            {
+              "question": {
+                "en": "teacher",
+                "pt": "O que significa «teacher»?"
+              },
+              "options": [
+                "professor/a",
+                "livro",
+                "lápis",
+                "mochila"
+              ],
+              "answer": "professor/a"
+            },
+            {
+              "question": {
+                "en": "student",
+                "pt": "O que significa «student»?"
+              },
+              "options": [
+                "aluno/a",
+                "esferográfica",
+                "caderno",
+                "carteira"
+              ],
+              "answer": "aluno/a"
+            },
+            {
+              "question": {
+                "en": "book",
+                "pt": "O que significa «book»?"
+              },
+              "options": [
+                "livro",
+                "lápis",
+                "mochila",
+                "quadro"
+              ],
+              "answer": "livro"
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l15-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Lurdes uses the word _____.",
+              "answer": "school",
+              "options": [
+                "school",
+                "teacher",
+                "student",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Lurdes uses the word _____.",
+              "answer": "teacher",
+              "options": [
+                "teacher",
+                "student",
+                "book",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Lurdes uses the word _____.",
+              "answer": "student",
+              "options": [
+                "student",
+                "book",
+                "pen",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l15-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u10-l15_lw_lurdes-is-in-nacal",
+              "answer": "Lurdes is in Nacala. school.",
+              "hint": "Lurdes"
+            },
+            {
+              "audioKey": "a1_a1-u10-l15_lw_lurdes-is-in-nacal",
+              "answer": "Lurdes is in Nacala. teacher.",
+              "hint": "Lurdes"
+            },
+            {
+              "audioKey": "a1_a1-u10-l15_lw_lurdes-is-in-nacal",
+              "answer": "Lurdes is in Nacala. student.",
+              "hint": "Lurdes"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u10-l16",
+      "unitId": "u10",
+      "order": 16,
+      "kind": "content",
+      "title": {
+        "pt": "Objectos da mala",
+        "en": "Objectos da mala"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Sala de aula, objectos e pedidos simples.",
+        "Objectos da mala"
+      ],
+      "newWords": [
+        {
+          "en": "write",
+          "pt": "escrever",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l16_w_write",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "listen",
+          "pt": "ouvir",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l16_w_listen",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "repeat",
+          "pt": "repetir",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l16_w_repeat",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Objectos da mala",
+        "sentences": [
+          {
+            "id": "a1-u10-l16-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l16_s1"
+          },
+          {
+            "id": "a1-u10-l16-s2",
+            "en": "Today the lesson is Um dia na escola.",
+            "pt": "Hoje a lição é: Um dia na escola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l16_s2"
+          },
+          {
+            "id": "a1-u10-l16-s3",
+            "en": "We learn 'repeat' and 'school'.",
+            "pt": "Aprendemos «repetir» e «escola».",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l16_s3"
+          },
+          {
+            "id": "a1-u10-l16-s4",
+            "en": "Zacarias says: I use 'student' every day.",
+            "pt": "Zacarias diz: uso «aluno/a» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l16_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u10-l16-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u10-l16_lw_lurdes-is-in-nacal",
+              "answer": "Lurdes is in Nacala. school.",
+              "hint": "Lurdes"
+            },
+            {
+              "audioKey": "a1_a1-u10-l16_lw_lurdes-is-in-nacal",
+              "answer": "Lurdes is in Nacala. teacher.",
+              "hint": "Lurdes"
+            },
+            {
+              "audioKey": "a1_a1-u10-l16_lw_lurdes-is-in-nacal",
+              "answer": "Lurdes is in Nacala. student.",
+              "hint": "Lurdes"
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l16-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "school"
+              ],
+              "answer": "I need school"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "teacher"
+              ],
+              "answer": "I need teacher"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "student"
+              ],
+              "answer": "I need student"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u10-l17",
+      "unitId": "u10",
+      "order": 17,
+      "kind": "content",
+      "title": {
+        "pt": "Regras da aula em inglês",
+        "en": "Regras da aula em inglês"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Sala de aula, objectos e pedidos simples.",
+        "Regras da aula em inglês"
+      ],
+      "newWords": [
+        {
+          "en": "school",
+          "pt": "escola",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l17_w_school",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "teacher",
+          "pt": "professor/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l17_w_teacher",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "student",
+          "pt": "aluno/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l17_w_student",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "book",
+          "pt": "livro",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l17_w_book",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Regras da aula em inglês",
+        "sentences": [
+          {
+            "id": "a1-u10-l17-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l17_s1"
+          },
+          {
+            "id": "a1-u10-l17-s2",
+            "en": "Today the lesson is Um dia na escola.",
+            "pt": "Hoje a lição é: Um dia na escola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l17_s2"
+          },
+          {
+            "id": "a1-u10-l17-s3",
+            "en": "We learn 'repeat' and 'school'.",
+            "pt": "Aprendemos «repetir» e «escola».",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l17_s3"
+          },
+          {
+            "id": "a1-u10-l17-s4",
+            "en": "Zacarias says: I use 'student' every day.",
+            "pt": "Zacarias diz: uso «aluno/a» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l17_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u10-l17-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u10-l17_tap",
+          "items": [
+            {
+              "answer": "school",
+              "options": [
+                "school",
+                "teacher",
+                "student",
+                "book"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l17-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u10-l18",
+      "unitId": "u10",
+      "order": 18,
+      "kind": "content",
+      "title": {
+        "pt": "Sons: school / student",
+        "en": "Sons: school / student"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Sala de aula, objectos e pedidos simples.",
+        "Sons: school / student"
+      ],
+      "newWords": [
+        {
+          "en": "book",
+          "pt": "livro",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l18_w_book",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "pen",
+          "pt": "esferográfica",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l18_w_pen",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "pencil",
+          "pt": "lápis",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l18_w_pencil",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "notebook",
+          "pt": "caderno",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l18_w_notebook",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Sons: school / student",
+        "sentences": [
+          {
+            "id": "a1-u10-l18-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l18_s1"
+          },
+          {
+            "id": "a1-u10-l18-s2",
+            "en": "Today the lesson is Um dia na escola.",
+            "pt": "Hoje a lição é: Um dia na escola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l18_s2"
+          },
+          {
+            "id": "a1-u10-l18-s3",
+            "en": "We learn 'repeat' and 'school'.",
+            "pt": "Aprendemos «repetir» e «escola».",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l18_s3"
+          },
+          {
+            "id": "a1-u10-l18-s4",
+            "en": "Zacarias says: I use 'student' every day.",
+            "pt": "Zacarias diz: uso «aluno/a» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l18_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u10-l18-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l18-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "school",
+                "pt": "O que significa «school»?"
+              },
+              "options": [
+                "escola",
+                "aluno/a",
+                "esferográfica",
+                "caderno"
+              ],
+              "answer": "escola"
+            },
+            {
+              "question": {
+                "en": "teacher",
+                "pt": "O que significa «teacher»?"
+              },
+              "options": [
+                "professor/a",
+                "livro",
+                "lápis",
+                "mochila"
+              ],
+              "answer": "professor/a"
+            },
+            {
+              "question": {
+                "en": "student",
+                "pt": "O que significa «student»?"
+              },
+              "options": [
+                "aluno/a",
+                "esferográfica",
+                "caderno",
+                "carteira"
+              ],
+              "answer": "aluno/a"
+            },
+            {
+              "question": {
+                "en": "book",
+                "pt": "O que significa «book»?"
+              },
+              "options": [
+                "livro",
+                "lápis",
+                "mochila",
+                "quadro"
+              ],
+              "answer": "livro"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u10-l19",
+      "unitId": "u10",
+      "order": 19,
+      "kind": "content",
+      "title": {
+        "pt": "Um dia na escola",
+        "en": "Um dia na escola"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Sala de aula, objectos e pedidos simples.",
+        "Um dia na escola"
+      ],
+      "newWords": [
+        {
+          "en": "notebook",
+          "pt": "caderno",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l19_w_notebook",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "bag",
+          "pt": "mochila",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l19_w_bag",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "desk",
+          "pt": "carteira",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l19_w_desk",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "board",
+          "pt": "quadro",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l19_w_board",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Um dia na escola",
+        "sentences": [
+          {
+            "id": "a1-u10-l19-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l19_s1"
+          },
+          {
+            "id": "a1-u10-l19-s2",
+            "en": "Today the lesson is Um dia na escola.",
+            "pt": "Hoje a lição é: Um dia na escola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l19_s2"
+          },
+          {
+            "id": "a1-u10-l19-s3",
+            "en": "We learn 'repeat' and 'school'.",
+            "pt": "Aprendemos «repetir» e «escola».",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l19_s3"
+          },
+          {
+            "id": "a1-u10-l19-s4",
+            "en": "Zacarias says: I use 'student' every day.",
+            "pt": "Zacarias diz: uso «aluno/a» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l19_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u10-l19-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u10-l19_repeat",
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l19-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "school",
+                "pt": "O que significa «school»?"
+              },
+              "options": [
+                "escola",
+                "aluno/a",
+                "esferográfica",
+                "caderno"
+              ],
+              "answer": "escola"
+            },
+            {
+              "question": {
+                "en": "teacher",
+                "pt": "O que significa «teacher»?"
+              },
+              "options": [
+                "professor/a",
+                "livro",
+                "lápis",
+                "mochila"
+              ],
+              "answer": "professor/a"
+            },
+            {
+              "question": {
+                "en": "student",
+                "pt": "O que significa «student»?"
+              },
+              "options": [
+                "aluno/a",
+                "esferográfica",
+                "caderno",
+                "carteira"
+              ],
+              "answer": "aluno/a"
+            },
+            {
+              "question": {
+                "en": "book",
+                "pt": "O que significa «book»?"
+              },
+              "options": [
+                "livro",
+                "lápis",
+                "mochila",
+                "quadro"
+              ],
+              "answer": "livro"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u10-l20",
+      "unitId": "u10",
+      "order": 20,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste da unidade: Escola",
+        "en": "Unit test: School"
+      },
+      "type": "unit_test",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "listening",
+        "reading",
+        "writing",
+        "grammar"
+      ],
+      "objectives": [
+        "Sala de aula, objectos e pedidos simples.",
+        "Teste da unidade: Escola"
+      ],
+      "newWords": [
+        {
+          "en": "board",
+          "pt": "quadro",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l20_w_board",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "open",
+          "pt": "abrir",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l20_w_open",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "close",
+          "pt": "fechar",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l20_w_close",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "read",
+          "pt": "ler",
+          "ipa": "",
+          "audioKey": "a1_a1-u10-l20_w_read",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Unit test: School",
+        "sentences": [
+          {
+            "id": "a1-u10-l20-s1",
+            "en": "Let’s review. Carlos is from Beira.",
+            "pt": "Vamos rever. Carlos é de Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l20_s1"
+          },
+          {
+            "id": "a1-u10-l20-s2",
+            "en": "This unit is about School.",
+            "pt": "Esta unidade é sobre Escola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l20_s2"
+          },
+          {
+            "id": "a1-u10-l20-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u10-l20_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u10-l20-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "school",
+                "pt": "O que significa «school»?"
+              },
+              "options": [
+                "escola",
+                "aluno/a",
+                "esferográfica",
+                "caderno"
+              ],
+              "answer": "escola"
+            },
+            {
+              "question": {
+                "en": "teacher",
+                "pt": "O que significa «teacher»?"
+              },
+              "options": [
+                "professor/a",
+                "livro",
+                "lápis",
+                "mochila"
+              ],
+              "answer": "professor/a"
+            },
+            {
+              "question": {
+                "en": "student",
+                "pt": "O que significa «student»?"
+              },
+              "options": [
+                "aluno/a",
+                "esferográfica",
+                "caderno",
+                "carteira"
+              ],
+              "answer": "aluno/a"
+            },
+            {
+              "question": {
+                "en": "book",
+                "pt": "O que significa «book»?"
+              },
+              "options": [
+                "livro",
+                "lápis",
+                "mochila",
+                "quadro"
+              ],
+              "answer": "livro"
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l20-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Lurdes uses the word _____.",
+              "answer": "school",
+              "options": [
+                "school",
+                "teacher",
+                "student",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Lurdes uses the word _____.",
+              "answer": "teacher",
+              "options": [
+                "teacher",
+                "student",
+                "book",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Lurdes uses the word _____.",
+              "answer": "student",
+              "options": [
+                "student",
+                "book",
+                "pen",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l20-a3",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'school' in Portuguese is 'escola'.",
+              "answer": true
+            },
+            {
+              "sentence": "'school' means 'livro'.",
+              "answer": false
+            },
+            {
+              "sentence": "'teacher' in Portuguese is 'professor/a'.",
+              "answer": true
+            },
+            {
+              "sentence": "'teacher' means 'esferográfica'.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l20-a4",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "school"
+              ],
+              "answer": "I need school"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "teacher"
+              ],
+              "answer": "I need teacher"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "student"
+              ],
+              "answer": "I need student"
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l20-a5",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u10-l20_lw_lurdes-is-in-nacal",
+              "answer": "Lurdes is in Nacala. school.",
+              "hint": "Lurdes"
+            },
+            {
+              "audioKey": "a1_a1-u10-l20_lw_lurdes-is-in-nacal",
+              "answer": "Lurdes is in Nacala. teacher.",
+              "hint": "Lurdes"
+            },
+            {
+              "audioKey": "a1_a1-u10-l20_lw_lurdes-is-in-nacal",
+              "answer": "Lurdes is in Nacala. student.",
+              "hint": "Lurdes"
+            }
+          ]
+        },
+        {
+          "id": "a1-u10-l20-a6",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    }
+  ]
+}

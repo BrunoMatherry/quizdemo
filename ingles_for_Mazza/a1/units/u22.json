@@ -1,0 +1,3444 @@
+{
+  "id": "u22",
+  "level": "A1",
+  "order": 22,
+  "title": {
+    "pt": "Perguntas",
+    "en": "Questions"
+  },
+  "goal": "What, where, who, when, how, how much.",
+  "themeImageHint": "Questions",
+  "lessonCount": 20,
+  "lessons": [
+    {
+      "id": "a1-u22-l01",
+      "unitId": "u22",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "What is this?",
+        "en": "What is this?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "What, where, who, when, how, how much.",
+        "What is this?"
+      ],
+      "newWords": [
+        {
+          "en": "what",
+          "pt": "o quê",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l01_w_what",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "where",
+          "pt": "onde",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l01_w_where",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "who",
+          "pt": "quem",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l01_w_who",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "when",
+          "pt": "quando",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l01_w_when",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "What is this?",
+        "sentences": [
+          {
+            "id": "a1-u22-l01-s1",
+            "en": "Amina lives in Maputo.",
+            "pt": "Amina mora em Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l01_s1"
+          },
+          {
+            "id": "a1-u22-l01-s2",
+            "en": "Today the lesson is What is this?.",
+            "pt": "Hoje a lição é: What is this?.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l01_s2"
+          },
+          {
+            "id": "a1-u22-l01-s3",
+            "en": "We learn 'what' and 'where'.",
+            "pt": "Aprendemos «o quê» e «onde».",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l01_s3"
+          },
+          {
+            "id": "a1-u22-l01-s4",
+            "en": "Amina says: I use 'when' every day.",
+            "pt": "Amina diz: uso «quando» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l01_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u22-l01-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u22-l01_repeat",
+          "items": [
+            {
+              "en": "Amina lives in Maputo.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l01-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "what",
+                "pt": "O que significa «what»?"
+              },
+              "options": [
+                "o quê",
+                "quem",
+                "como",
+                "quanto"
+              ],
+              "answer": "o quê"
+            },
+            {
+              "question": {
+                "en": "where",
+                "pt": "O que significa «where»?"
+              },
+              "options": [
+                "onde",
+                "quando",
+                "porquê",
+                "quantos"
+              ],
+              "answer": "onde"
+            },
+            {
+              "question": {
+                "en": "who",
+                "pt": "O que significa «who»?"
+              },
+              "options": [
+                "quem",
+                "como",
+                "quanto",
+                "o quê"
+              ],
+              "answer": "quem"
+            },
+            {
+              "question": {
+                "en": "when",
+                "pt": "O que significa «when»?"
+              },
+              "options": [
+                "quando",
+                "porquê",
+                "quantos",
+                "onde"
+              ],
+              "answer": "quando"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u22-l02",
+      "unitId": "u22",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "Where is the chapa?",
+        "en": "Where is the chapa?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "What, where, who, when, how, how much.",
+        "Where is the chapa?"
+      ],
+      "newWords": [
+        {
+          "en": "when",
+          "pt": "quando",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l02_w_when",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "how",
+          "pt": "como",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l02_w_how",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "why",
+          "pt": "porquê",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l02_w_why",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "how much",
+          "pt": "quanto",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l02_w_how-much",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Where is the chapa?",
+        "sentences": [
+          {
+            "id": "a1-u22-l02-s1",
+            "en": "João lives in Matola.",
+            "pt": "João mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l02_s1"
+          },
+          {
+            "id": "a1-u22-l02-s2",
+            "en": "Today the lesson is Where is the chapa?.",
+            "pt": "Hoje a lição é: Where is the chapa?.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l02_s2"
+          },
+          {
+            "id": "a1-u22-l02-s3",
+            "en": "We learn 'where' and 'who'.",
+            "pt": "Aprendemos «onde» e «quem».",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l02_s3"
+          },
+          {
+            "id": "a1-u22-l02-s4",
+            "en": "João says: I use 'how' every day.",
+            "pt": "João diz: uso «como» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l02_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u22-l02-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Esperança uses the word _____.",
+              "answer": "what",
+              "options": [
+                "what",
+                "where",
+                "who",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Esperança uses the word _____.",
+              "answer": "where",
+              "options": [
+                "where",
+                "who",
+                "when",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Esperança uses the word _____.",
+              "answer": "who",
+              "options": [
+                "who",
+                "when",
+                "how",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u22-l03",
+      "unitId": "u22",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "Who is she?",
+        "en": "Who is she?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "What, where, who, when, how, how much.",
+        "Who is she?"
+      ],
+      "newWords": [
+        {
+          "en": "how much",
+          "pt": "quanto",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l03_w_how-much",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "how many",
+          "pt": "quantos",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l03_w_how-many",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        }
+      ],
+      "guidedReading": {
+        "title": "Who is she?",
+        "sentences": [
+          {
+            "id": "a1-u22-l03-s1",
+            "en": "Fátima lives in Xai-Xai.",
+            "pt": "Fátima mora em Xai-Xai.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l03_s1"
+          },
+          {
+            "id": "a1-u22-l03-s2",
+            "en": "Today the lesson is Who is she?.",
+            "pt": "Hoje a lição é: Who is she?.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l03_s2"
+          },
+          {
+            "id": "a1-u22-l03-s3",
+            "en": "We learn 'who' and 'when'.",
+            "pt": "Aprendemos «quem» e «quando».",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l03_s3"
+          },
+          {
+            "id": "a1-u22-l03-s4",
+            "en": "Fátima says: I use 'why' every day.",
+            "pt": "Fátima diz: uso «porquê» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l03_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u22-l03-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "what",
+              "pt": "o quê"
+            },
+            {
+              "en": "where",
+              "pt": "onde"
+            },
+            {
+              "en": "who",
+              "pt": "quem"
+            },
+            {
+              "en": "when",
+              "pt": "quando"
+            },
+            {
+              "en": "how",
+              "pt": "como"
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l03-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'what' in Portuguese is 'o quê'.",
+              "answer": true
+            },
+            {
+              "sentence": "'what' means 'quando'.",
+              "answer": false
+            },
+            {
+              "sentence": "'where' in Portuguese is 'onde'.",
+              "answer": true
+            },
+            {
+              "sentence": "'where' means 'como'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u22-l04",
+      "unitId": "u22",
+      "order": 4,
+      "kind": "content",
+      "title": {
+        "pt": "When is the game?",
+        "en": "When is the game?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "What, where, who, when, how, how much.",
+        "When is the game?"
+      ],
+      "newWords": [
+        {
+          "en": "where",
+          "pt": "onde",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l04_w_where",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "who",
+          "pt": "quem",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l04_w_who",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "when",
+          "pt": "quando",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l04_w_when",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "how",
+          "pt": "como",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l04_w_how",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        }
+      ],
+      "guidedReading": {
+        "title": "When is the game?",
+        "sentences": [
+          {
+            "id": "a1-u22-l04-s1",
+            "en": "Carlos lives in Inhambane.",
+            "pt": "Carlos mora em Inhambane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l04_s1"
+          },
+          {
+            "id": "a1-u22-l04-s2",
+            "en": "Today the lesson is When is the game?.",
+            "pt": "Hoje a lição é: When is the game?.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l04_s2"
+          },
+          {
+            "id": "a1-u22-l04-s3",
+            "en": "We learn 'when' and 'how'.",
+            "pt": "Aprendemos «quando» e «como».",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l04_s3"
+          },
+          {
+            "id": "a1-u22-l04-s4",
+            "en": "Carlos says: I use 'how much' every day.",
+            "pt": "Carlos diz: uso «quanto» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l04_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u22-l04-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u22-l04_lw_esperança-is-in-qu",
+              "answer": "Esperança is in Quelimane. what.",
+              "hint": "Esperança"
+            },
+            {
+              "audioKey": "a1_a1-u22-l04_lw_esperança-is-in-qu",
+              "answer": "Esperança is in Quelimane. where.",
+              "hint": "Esperança"
+            },
+            {
+              "audioKey": "a1_a1-u22-l04_lw_esperança-is-in-qu",
+              "answer": "Esperança is in Quelimane. who.",
+              "hint": "Esperança"
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l04-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "what"
+              ],
+              "answer": "I need what"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "where"
+              ],
+              "answer": "I need where"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "who"
+              ],
+              "answer": "I need who"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u22-l05",
+      "unitId": "u22",
+      "order": 5,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 1",
+        "en": "Checkpoint quiz 1"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "What, where, who, when, how, how much.",
+        "Mini-teste 1"
+      ],
+      "newWords": [
+        {
+          "en": "how",
+          "pt": "como",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l05_w_how",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "why",
+          "pt": "porquê",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l05_w_why",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "how much",
+          "pt": "quanto",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l05_w_how-much",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "how many",
+          "pt": "quantos",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l05_w_how-many",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 1",
+        "sentences": [
+          {
+            "id": "a1-u22-l05-s1",
+            "en": "Let’s review. Graça is from Vilankulo.",
+            "pt": "Vamos rever. Graça é de Vilankulo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l05_s1"
+          },
+          {
+            "id": "a1-u22-l05-s2",
+            "en": "This unit is about Questions.",
+            "pt": "Esta unidade é sobre Perguntas.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l05_s2"
+          },
+          {
+            "id": "a1-u22-l05-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l05_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u22-l05-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "what",
+                "pt": "O que significa «what»?"
+              },
+              "options": [
+                "o quê",
+                "quem",
+                "como",
+                "quanto"
+              ],
+              "answer": "o quê"
+            },
+            {
+              "question": {
+                "en": "where",
+                "pt": "O que significa «where»?"
+              },
+              "options": [
+                "onde",
+                "quando",
+                "porquê",
+                "quantos"
+              ],
+              "answer": "onde"
+            },
+            {
+              "question": {
+                "en": "who",
+                "pt": "O que significa «who»?"
+              },
+              "options": [
+                "quem",
+                "como",
+                "quanto",
+                "o quê"
+              ],
+              "answer": "quem"
+            },
+            {
+              "question": {
+                "en": "when",
+                "pt": "O que significa «when»?"
+              },
+              "options": [
+                "quando",
+                "porquê",
+                "quantos",
+                "onde"
+              ],
+              "answer": "quando"
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l05-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Esperança uses the word _____.",
+              "answer": "what",
+              "options": [
+                "what",
+                "where",
+                "who",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Esperança uses the word _____.",
+              "answer": "where",
+              "options": [
+                "where",
+                "who",
+                "when",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Esperança uses the word _____.",
+              "answer": "who",
+              "options": [
+                "who",
+                "when",
+                "how",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l05-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u22-l05_lw_esperança-is-in-qu",
+              "answer": "Esperança is in Quelimane. what.",
+              "hint": "Esperança"
+            },
+            {
+              "audioKey": "a1_a1-u22-l05_lw_esperança-is-in-qu",
+              "answer": "Esperança is in Quelimane. where.",
+              "hint": "Esperança"
+            },
+            {
+              "audioKey": "a1_a1-u22-l05_lw_esperança-is-in-qu",
+              "answer": "Esperança is in Quelimane. who.",
+              "hint": "Esperança"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u22-l06",
+      "unitId": "u22",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "How are you?",
+        "en": "How are you?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "What, where, who, when, how, how much.",
+        "How are you?"
+      ],
+      "newWords": [
+        {
+          "en": "how many",
+          "pt": "quantos",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l06_w_how-many",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "How are you?",
+        "sentences": [
+          {
+            "id": "a1-u22-l06-s1",
+            "en": "Ibraimo lives in Beira.",
+            "pt": "Ibraimo mora em Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l06_s1"
+          },
+          {
+            "id": "a1-u22-l06-s2",
+            "en": "Today the lesson is How much is it?.",
+            "pt": "Hoje a lição é: How much is it?.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l06_s2"
+          },
+          {
+            "id": "a1-u22-l06-s3",
+            "en": "We learn 'why' and 'how much'.",
+            "pt": "Aprendemos «porquê» e «quanto».",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l06_s3"
+          },
+          {
+            "id": "a1-u22-l06-s4",
+            "en": "Ibraimo says: I use 'what' every day.",
+            "pt": "Ibraimo diz: uso «o quê» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l06_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u22-l06-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Ibraimo lives in Beira.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l06-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "what",
+                "pt": "O que significa «what»?"
+              },
+              "options": [
+                "o quê",
+                "quem",
+                "como",
+                "quanto"
+              ],
+              "answer": "o quê"
+            },
+            {
+              "question": {
+                "en": "where",
+                "pt": "O que significa «where»?"
+              },
+              "options": [
+                "onde",
+                "quando",
+                "porquê",
+                "quantos"
+              ],
+              "answer": "onde"
+            },
+            {
+              "question": {
+                "en": "who",
+                "pt": "O que significa «who»?"
+              },
+              "options": [
+                "quem",
+                "como",
+                "quanto",
+                "o quê"
+              ],
+              "answer": "quem"
+            },
+            {
+              "question": {
+                "en": "when",
+                "pt": "O que significa «when»?"
+              },
+              "options": [
+                "quando",
+                "porquê",
+                "quantos",
+                "onde"
+              ],
+              "answer": "quando"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u22-l07",
+      "unitId": "u22",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "How much is it?",
+        "en": "How much is it?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "What, where, who, when, how, how much.",
+        "How much is it?"
+      ],
+      "newWords": [
+        {
+          "en": "who",
+          "pt": "quem",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l07_w_who",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "when",
+          "pt": "quando",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l07_w_when",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "how",
+          "pt": "como",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l07_w_how",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "why",
+          "pt": "porquê",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l07_w_why",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        }
+      ],
+      "guidedReading": {
+        "title": "How much is it?",
+        "sentences": [
+          {
+            "id": "a1-u22-l07-s1",
+            "en": "Esperança lives in Chimoio.",
+            "pt": "Esperança mora em Chimoio.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l07_s1"
+          },
+          {
+            "id": "a1-u22-l07-s2",
+            "en": "Today the lesson is How many brothers?.",
+            "pt": "Hoje a lição é: How many brothers?.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l07_s2"
+          },
+          {
+            "id": "a1-u22-l07-s3",
+            "en": "We learn 'how much' and 'how many'.",
+            "pt": "Aprendemos «quanto» e «quantos».",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l07_s3"
+          },
+          {
+            "id": "a1-u22-l07-s4",
+            "en": "Esperança says: I use 'where' every day.",
+            "pt": "Esperança diz: uso «onde» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l07_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u22-l07-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u22-l07_repeat",
+          "items": [
+            {
+              "en": "Esperança lives in Chimoio.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l07-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "what",
+                "pt": "O que significa «what»?"
+              },
+              "options": [
+                "o quê",
+                "quem",
+                "como",
+                "quanto"
+              ],
+              "answer": "o quê"
+            },
+            {
+              "question": {
+                "en": "where",
+                "pt": "O que significa «where»?"
+              },
+              "options": [
+                "onde",
+                "quando",
+                "porquê",
+                "quantos"
+              ],
+              "answer": "onde"
+            },
+            {
+              "question": {
+                "en": "who",
+                "pt": "O que significa «who»?"
+              },
+              "options": [
+                "quem",
+                "como",
+                "quanto",
+                "o quê"
+              ],
+              "answer": "quem"
+            },
+            {
+              "question": {
+                "en": "when",
+                "pt": "O que significa «when»?"
+              },
+              "options": [
+                "quando",
+                "porquê",
+                "quantos",
+                "onde"
+              ],
+              "answer": "quando"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u22-l08",
+      "unitId": "u22",
+      "order": 8,
+      "kind": "content",
+      "title": {
+        "pt": "How many brothers?",
+        "en": "How many brothers?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "What, where, who, when, how, how much.",
+        "How many brothers?"
+      ],
+      "newWords": [
+        {
+          "en": "why",
+          "pt": "porquê",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l08_w_why",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "how much",
+          "pt": "quanto",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l08_w_how-much",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "how many",
+          "pt": "quantos",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l08_w_how-many",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        }
+      ],
+      "guidedReading": {
+        "title": "How many brothers?",
+        "sentences": [
+          {
+            "id": "a1-u22-l08-s1",
+            "en": "Paulo lives in Tete.",
+            "pt": "Paulo mora em Tete.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l08_s1"
+          },
+          {
+            "id": "a1-u22-l08-s2",
+            "en": "Today the lesson is Why? Because….",
+            "pt": "Hoje a lição é: Why? Because….",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l08_s2"
+          },
+          {
+            "id": "a1-u22-l08-s3",
+            "en": "We learn 'how many' and 'what'.",
+            "pt": "Aprendemos «quantos» e «o quê».",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l08_s3"
+          },
+          {
+            "id": "a1-u22-l08-s4",
+            "en": "Paulo says: I use 'who' every day.",
+            "pt": "Paulo diz: uso «quem» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l08_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u22-l08-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Esperança uses the word _____.",
+              "answer": "what",
+              "options": [
+                "what",
+                "where",
+                "who",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Esperança uses the word _____.",
+              "answer": "where",
+              "options": [
+                "where",
+                "who",
+                "when",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Esperança uses the word _____.",
+              "answer": "who",
+              "options": [
+                "who",
+                "when",
+                "how",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u22-l09",
+      "unitId": "u22",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Why? Because…",
+        "en": "Why? Because…"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "What, where, who, when, how, how much.",
+        "Why? Because…"
+      ],
+      "newWords": [
+        {
+          "en": "what",
+          "pt": "o quê",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l09_w_what",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "where",
+          "pt": "onde",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l09_w_where",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "who",
+          "pt": "quem",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l09_w_who",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "when",
+          "pt": "quando",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l09_w_when",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Why? Because…",
+        "sentences": [
+          {
+            "id": "a1-u22-l09-s1",
+            "en": "Belmira lives in Quelimane.",
+            "pt": "Belmira mora em Quelimane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l09_s1"
+          },
+          {
+            "id": "a1-u22-l09-s2",
+            "en": "Today the lesson is Perguntas com to be.",
+            "pt": "Hoje a lição é: Perguntas com to be.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l09_s2"
+          },
+          {
+            "id": "a1-u22-l09-s3",
+            "en": "We learn 'what' and 'where'.",
+            "pt": "Aprendemos «o quê» e «onde».",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l09_s3"
+          },
+          {
+            "id": "a1-u22-l09-s4",
+            "en": "Belmira says: I use 'when' every day.",
+            "pt": "Belmira diz: uso «quando» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l09_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u22-l09-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "what",
+              "pt": "o quê"
+            },
+            {
+              "en": "where",
+              "pt": "onde"
+            },
+            {
+              "en": "who",
+              "pt": "quem"
+            },
+            {
+              "en": "when",
+              "pt": "quando"
+            },
+            {
+              "en": "how",
+              "pt": "como"
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l09-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'what' in Portuguese is 'o quê'.",
+              "answer": true
+            },
+            {
+              "sentence": "'what' means 'quando'.",
+              "answer": false
+            },
+            {
+              "sentence": "'where' in Portuguese is 'onde'.",
+              "answer": true
+            },
+            {
+              "sentence": "'where' means 'como'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u22-l10",
+      "unitId": "u22",
+      "order": 10,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão guiada",
+        "en": "Guided review"
+      },
+      "type": "review",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectives": [
+        "What, where, who, when, how, how much.",
+        "Revisão guiada"
+      ],
+      "newWords": [
+        {
+          "en": "when",
+          "pt": "quando",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l10_w_when",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "how",
+          "pt": "como",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l10_w_how",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "why",
+          "pt": "porquê",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l10_w_why",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "how much",
+          "pt": "quanto",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l10_w_how-much",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        }
+      ],
+      "guidedReading": {
+        "title": "Guided review",
+        "sentences": [
+          {
+            "id": "a1-u22-l10-s1",
+            "en": "Let’s review. Nélio is from Nampula.",
+            "pt": "Vamos rever. Nélio é de Nampula.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l10_s1"
+          },
+          {
+            "id": "a1-u22-l10-s2",
+            "en": "This unit is about Questions.",
+            "pt": "Esta unidade é sobre Perguntas.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l10_s2"
+          },
+          {
+            "id": "a1-u22-l10-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l10_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u22-l10-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u22-l10_lw_esperança-is-in-qu",
+              "answer": "Esperança is in Quelimane. what.",
+              "hint": "Esperança"
+            },
+            {
+              "audioKey": "a1_a1-u22-l10_lw_esperança-is-in-qu",
+              "answer": "Esperança is in Quelimane. where.",
+              "hint": "Esperança"
+            },
+            {
+              "audioKey": "a1_a1-u22-l10_lw_esperança-is-in-qu",
+              "answer": "Esperança is in Quelimane. who.",
+              "hint": "Esperança"
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l10-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "what"
+              ],
+              "answer": "I need what"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "where"
+              ],
+              "answer": "I need where"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "who"
+              ],
+              "answer": "I need who"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u22-l11",
+      "unitId": "u22",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "Perguntas com to be",
+        "en": "Perguntas com to be"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "What, where, who, when, how, how much.",
+        "Perguntas com to be"
+      ],
+      "newWords": [
+        {
+          "en": "how much",
+          "pt": "quanto",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l11_w_how-much",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "how many",
+          "pt": "quantos",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l11_w_how-many",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        }
+      ],
+      "guidedReading": {
+        "title": "Perguntas com to be",
+        "sentences": [
+          {
+            "id": "a1-u22-l11-s1",
+            "en": "Lurdes lives in Nacala.",
+            "pt": "Lurdes mora em Nacala.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l11_s1"
+          },
+          {
+            "id": "a1-u22-l11-s2",
+            "en": "Today the lesson is Diálogo: muitas perguntas.",
+            "pt": "Hoje a lição é: Diálogo: muitas perguntas.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l11_s2"
+          },
+          {
+            "id": "a1-u22-l11-s3",
+            "en": "We learn 'who' and 'when'.",
+            "pt": "Aprendemos «quem» e «quando».",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l11_s3"
+          },
+          {
+            "id": "a1-u22-l11-s4",
+            "en": "Lurdes says: I use 'why' every day.",
+            "pt": "Lurdes diz: uso «porquê» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l11_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u22-l11-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u22-l11_tap",
+          "items": [
+            {
+              "answer": "what",
+              "options": [
+                "what",
+                "where",
+                "who",
+                "when"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l11-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u22-l12",
+      "unitId": "u22",
+      "order": 12,
+      "kind": "content",
+      "title": {
+        "pt": "Perguntas com do/does",
+        "en": "Perguntas com do/does"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "What, where, who, when, how, how much.",
+        "Perguntas com do/does"
+      ],
+      "newWords": [
+        {
+          "en": "where",
+          "pt": "onde",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l12_w_where",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "who",
+          "pt": "quem",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l12_w_who",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "when",
+          "pt": "quando",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l12_w_when",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "how",
+          "pt": "como",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l12_w_how",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        }
+      ],
+      "guidedReading": {
+        "title": "Perguntas com do/does",
+        "sentences": [
+          {
+            "id": "a1-u22-l12-s1",
+            "en": "Faruk lives in Pemba.",
+            "pt": "Faruk mora em Pemba.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l12_s1"
+          },
+          {
+            "id": "a1-u22-l12-s2",
+            "en": "Today the lesson is Diálogo: no mercado.",
+            "pt": "Hoje a lição é: Diálogo: no mercado.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l12_s2"
+          },
+          {
+            "id": "a1-u22-l12-s3",
+            "en": "We learn 'when' and 'how'.",
+            "pt": "Aprendemos «quando» e «como».",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l12_s3"
+          },
+          {
+            "id": "a1-u22-l12-s4",
+            "en": "Faruk says: I use 'how much' every day.",
+            "pt": "Faruk diz: uso «quanto» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l12_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u22-l12-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Faruk lives in Pemba.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l12-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "what",
+                "pt": "O que significa «what»?"
+              },
+              "options": [
+                "o quê",
+                "quem",
+                "como",
+                "quanto"
+              ],
+              "answer": "o quê"
+            },
+            {
+              "question": {
+                "en": "where",
+                "pt": "O que significa «where»?"
+              },
+              "options": [
+                "onde",
+                "quando",
+                "porquê",
+                "quantos"
+              ],
+              "answer": "onde"
+            },
+            {
+              "question": {
+                "en": "who",
+                "pt": "O que significa «who»?"
+              },
+              "options": [
+                "quem",
+                "como",
+                "quanto",
+                "o quê"
+              ],
+              "answer": "quem"
+            },
+            {
+              "question": {
+                "en": "when",
+                "pt": "O que significa «when»?"
+              },
+              "options": [
+                "quando",
+                "porquê",
+                "quantos",
+                "onde"
+              ],
+              "answer": "quando"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u22-l13",
+      "unitId": "u22",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: muitas perguntas",
+        "en": "Diálogo: muitas perguntas"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "What, where, who, when, how, how much.",
+        "Diálogo: muitas perguntas"
+      ],
+      "newWords": [
+        {
+          "en": "how",
+          "pt": "como",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l13_w_how",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "why",
+          "pt": "porquê",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l13_w_why",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "how much",
+          "pt": "quanto",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l13_w_how-much",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "how many",
+          "pt": "quantos",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l13_w_how-many",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: muitas perguntas",
+        "sentences": [
+          {
+            "id": "a1-u22-l13-s1",
+            "en": "Josina lives in Lichinga.",
+            "pt": "Josina mora em Lichinga.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l13_s1"
+          },
+          {
+            "id": "a1-u22-l13-s2",
+            "en": "Today the lesson is Transforma em pergunta.",
+            "pt": "Hoje a lição é: Transforma em pergunta.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l13_s2"
+          },
+          {
+            "id": "a1-u22-l13-s3",
+            "en": "We learn 'how' and 'why'.",
+            "pt": "Aprendemos «como» e «porquê».",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l13_s3"
+          },
+          {
+            "id": "a1-u22-l13-s4",
+            "en": "Josina says: I use 'how many' every day.",
+            "pt": "Josina diz: uso «quantos» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l13_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u22-l13-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u22-l13_repeat",
+          "items": [
+            {
+              "en": "Josina lives in Lichinga.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l13-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "what",
+                "pt": "O que significa «what»?"
+              },
+              "options": [
+                "o quê",
+                "quem",
+                "como",
+                "quanto"
+              ],
+              "answer": "o quê"
+            },
+            {
+              "question": {
+                "en": "where",
+                "pt": "O que significa «where»?"
+              },
+              "options": [
+                "onde",
+                "quando",
+                "porquê",
+                "quantos"
+              ],
+              "answer": "onde"
+            },
+            {
+              "question": {
+                "en": "who",
+                "pt": "O que significa «who»?"
+              },
+              "options": [
+                "quem",
+                "como",
+                "quanto",
+                "o quê"
+              ],
+              "answer": "quem"
+            },
+            {
+              "question": {
+                "en": "when",
+                "pt": "O que significa «when»?"
+              },
+              "options": [
+                "quando",
+                "porquê",
+                "quantos",
+                "onde"
+              ],
+              "answer": "quando"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u22-l14",
+      "unitId": "u22",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: no mercado",
+        "en": "Diálogo: no mercado"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "What, where, who, when, how, how much.",
+        "Diálogo: no mercado"
+      ],
+      "newWords": [
+        {
+          "en": "how many",
+          "pt": "quantos",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l14_w_how-many",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: no mercado",
+        "sentences": [
+          {
+            "id": "a1-u22-l14-s1",
+            "en": "Tendai lives in Ilha de Moçambique.",
+            "pt": "Tendai mora em Ilha de Moçambique.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l14_s1"
+          },
+          {
+            "id": "a1-u22-l14-s2",
+            "en": "Today the lesson is Respostas curtas.",
+            "pt": "Hoje a lição é: Respostas curtas.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l14_s2"
+          },
+          {
+            "id": "a1-u22-l14-s3",
+            "en": "We learn 'why' and 'how much'.",
+            "pt": "Aprendemos «porquê» e «quanto».",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l14_s3"
+          },
+          {
+            "id": "a1-u22-l14-s4",
+            "en": "Tendai says: I use 'what' every day.",
+            "pt": "Tendai diz: uso «o quê» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l14_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u22-l14-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Esperança uses the word _____.",
+              "answer": "what",
+              "options": [
+                "what",
+                "where",
+                "who",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Esperança uses the word _____.",
+              "answer": "where",
+              "options": [
+                "where",
+                "who",
+                "when",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Esperança uses the word _____.",
+              "answer": "who",
+              "options": [
+                "who",
+                "when",
+                "how",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u22-l15",
+      "unitId": "u22",
+      "order": 15,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 2",
+        "en": "Checkpoint quiz 2"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "What, where, who, when, how, how much.",
+        "Mini-teste 2"
+      ],
+      "newWords": [
+        {
+          "en": "who",
+          "pt": "quem",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l15_w_who",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "when",
+          "pt": "quando",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l15_w_when",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "how",
+          "pt": "como",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l15_w_how",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "why",
+          "pt": "porquê",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l15_w_why",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 2",
+        "sentences": [
+          {
+            "id": "a1-u22-l15-s1",
+            "en": "Let’s review. Amélia is from Maputo.",
+            "pt": "Vamos rever. Amélia é de Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l15_s1"
+          },
+          {
+            "id": "a1-u22-l15-s2",
+            "en": "This unit is about Questions.",
+            "pt": "Esta unidade é sobre Perguntas.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l15_s2"
+          },
+          {
+            "id": "a1-u22-l15-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l15_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u22-l15-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "what",
+                "pt": "O que significa «what»?"
+              },
+              "options": [
+                "o quê",
+                "quem",
+                "como",
+                "quanto"
+              ],
+              "answer": "o quê"
+            },
+            {
+              "question": {
+                "en": "where",
+                "pt": "O que significa «where»?"
+              },
+              "options": [
+                "onde",
+                "quando",
+                "porquê",
+                "quantos"
+              ],
+              "answer": "onde"
+            },
+            {
+              "question": {
+                "en": "who",
+                "pt": "O que significa «who»?"
+              },
+              "options": [
+                "quem",
+                "como",
+                "quanto",
+                "o quê"
+              ],
+              "answer": "quem"
+            },
+            {
+              "question": {
+                "en": "when",
+                "pt": "O que significa «when»?"
+              },
+              "options": [
+                "quando",
+                "porquê",
+                "quantos",
+                "onde"
+              ],
+              "answer": "quando"
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l15-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Esperança uses the word _____.",
+              "answer": "what",
+              "options": [
+                "what",
+                "where",
+                "who",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Esperança uses the word _____.",
+              "answer": "where",
+              "options": [
+                "where",
+                "who",
+                "when",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Esperança uses the word _____.",
+              "answer": "who",
+              "options": [
+                "who",
+                "when",
+                "how",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l15-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u22-l15_lw_esperança-is-in-qu",
+              "answer": "Esperança is in Quelimane. what.",
+              "hint": "Esperança"
+            },
+            {
+              "audioKey": "a1_a1-u22-l15_lw_esperança-is-in-qu",
+              "answer": "Esperança is in Quelimane. where.",
+              "hint": "Esperança"
+            },
+            {
+              "audioKey": "a1_a1-u22-l15_lw_esperança-is-in-qu",
+              "answer": "Esperança is in Quelimane. who.",
+              "hint": "Esperança"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u22-l16",
+      "unitId": "u22",
+      "order": 16,
+      "kind": "content",
+      "title": {
+        "pt": "Transforma em pergunta",
+        "en": "Transforma em pergunta"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "What, where, who, when, how, how much.",
+        "Transforma em pergunta"
+      ],
+      "newWords": [
+        {
+          "en": "why",
+          "pt": "porquê",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l16_w_why",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "how much",
+          "pt": "quanto",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l16_w_how-much",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "how many",
+          "pt": "quantos",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l16_w_how-many",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Transforma em pergunta",
+        "sentences": [
+          {
+            "id": "a1-u22-l16-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l16_s1"
+          },
+          {
+            "id": "a1-u22-l16-s2",
+            "en": "Today the lesson is Faz 8 perguntas sobre ti.",
+            "pt": "Hoje a lição é: Faz 8 perguntas sobre ti.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l16_s2"
+          },
+          {
+            "id": "a1-u22-l16-s3",
+            "en": "We learn 'how many' and 'what'.",
+            "pt": "Aprendemos «quantos» e «o quê».",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l16_s3"
+          },
+          {
+            "id": "a1-u22-l16-s4",
+            "en": "Zacarias says: I use 'who' every day.",
+            "pt": "Zacarias diz: uso «quem» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l16_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u22-l16-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u22-l16_lw_esperança-is-in-qu",
+              "answer": "Esperança is in Quelimane. what.",
+              "hint": "Esperança"
+            },
+            {
+              "audioKey": "a1_a1-u22-l16_lw_esperança-is-in-qu",
+              "answer": "Esperança is in Quelimane. where.",
+              "hint": "Esperança"
+            },
+            {
+              "audioKey": "a1_a1-u22-l16_lw_esperança-is-in-qu",
+              "answer": "Esperança is in Quelimane. who.",
+              "hint": "Esperança"
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l16-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "what"
+              ],
+              "answer": "I need what"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "where"
+              ],
+              "answer": "I need where"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "who"
+              ],
+              "answer": "I need who"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u22-l17",
+      "unitId": "u22",
+      "order": 17,
+      "kind": "content",
+      "title": {
+        "pt": "Respostas curtas",
+        "en": "Respostas curtas"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "What, where, who, when, how, how much.",
+        "Respostas curtas"
+      ],
+      "newWords": [
+        {
+          "en": "what",
+          "pt": "o quê",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l17_w_what",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "where",
+          "pt": "onde",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l17_w_where",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "who",
+          "pt": "quem",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l17_w_who",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "when",
+          "pt": "quando",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l17_w_when",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Respostas curtas",
+        "sentences": [
+          {
+            "id": "a1-u22-l17-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l17_s1"
+          },
+          {
+            "id": "a1-u22-l17-s2",
+            "en": "Today the lesson is Faz 8 perguntas sobre ti.",
+            "pt": "Hoje a lição é: Faz 8 perguntas sobre ti.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l17_s2"
+          },
+          {
+            "id": "a1-u22-l17-s3",
+            "en": "We learn 'how many' and 'what'.",
+            "pt": "Aprendemos «quantos» e «o quê».",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l17_s3"
+          },
+          {
+            "id": "a1-u22-l17-s4",
+            "en": "Zacarias says: I use 'who' every day.",
+            "pt": "Zacarias diz: uso «quem» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l17_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u22-l17-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u22-l17_tap",
+          "items": [
+            {
+              "answer": "what",
+              "options": [
+                "what",
+                "where",
+                "who",
+                "when"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l17-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u22-l18",
+      "unitId": "u22",
+      "order": 18,
+      "kind": "content",
+      "title": {
+        "pt": "Sons: what / where / who",
+        "en": "Sons: what / where / who"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "What, where, who, when, how, how much.",
+        "Sons: what / where / who"
+      ],
+      "newWords": [
+        {
+          "en": "when",
+          "pt": "quando",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l18_w_when",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "how",
+          "pt": "como",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l18_w_how",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "why",
+          "pt": "porquê",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l18_w_why",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "how much",
+          "pt": "quanto",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l18_w_how-much",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Sons: what / where / who",
+        "sentences": [
+          {
+            "id": "a1-u22-l18-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l18_s1"
+          },
+          {
+            "id": "a1-u22-l18-s2",
+            "en": "Today the lesson is Faz 8 perguntas sobre ti.",
+            "pt": "Hoje a lição é: Faz 8 perguntas sobre ti.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l18_s2"
+          },
+          {
+            "id": "a1-u22-l18-s3",
+            "en": "We learn 'how many' and 'what'.",
+            "pt": "Aprendemos «quantos» e «o quê».",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l18_s3"
+          },
+          {
+            "id": "a1-u22-l18-s4",
+            "en": "Zacarias says: I use 'who' every day.",
+            "pt": "Zacarias diz: uso «quem» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l18_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u22-l18-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l18-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "what",
+                "pt": "O que significa «what»?"
+              },
+              "options": [
+                "o quê",
+                "quem",
+                "como",
+                "quanto"
+              ],
+              "answer": "o quê"
+            },
+            {
+              "question": {
+                "en": "where",
+                "pt": "O que significa «where»?"
+              },
+              "options": [
+                "onde",
+                "quando",
+                "porquê",
+                "quantos"
+              ],
+              "answer": "onde"
+            },
+            {
+              "question": {
+                "en": "who",
+                "pt": "O que significa «who»?"
+              },
+              "options": [
+                "quem",
+                "como",
+                "quanto",
+                "o quê"
+              ],
+              "answer": "quem"
+            },
+            {
+              "question": {
+                "en": "when",
+                "pt": "O que significa «when»?"
+              },
+              "options": [
+                "quando",
+                "porquê",
+                "quantos",
+                "onde"
+              ],
+              "answer": "quando"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u22-l19",
+      "unitId": "u22",
+      "order": 19,
+      "kind": "content",
+      "title": {
+        "pt": "Faz 8 perguntas sobre ti",
+        "en": "Faz 8 perguntas sobre ti"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "What, where, who, when, how, how much.",
+        "Faz 8 perguntas sobre ti"
+      ],
+      "newWords": [
+        {
+          "en": "how much",
+          "pt": "quanto",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l19_w_how-much",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "how many",
+          "pt": "quantos",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l19_w_how-many",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Faz 8 perguntas sobre ti",
+        "sentences": [
+          {
+            "id": "a1-u22-l19-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l19_s1"
+          },
+          {
+            "id": "a1-u22-l19-s2",
+            "en": "Today the lesson is Faz 8 perguntas sobre ti.",
+            "pt": "Hoje a lição é: Faz 8 perguntas sobre ti.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l19_s2"
+          },
+          {
+            "id": "a1-u22-l19-s3",
+            "en": "We learn 'how many' and 'what'.",
+            "pt": "Aprendemos «quantos» e «o quê».",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l19_s3"
+          },
+          {
+            "id": "a1-u22-l19-s4",
+            "en": "Zacarias says: I use 'who' every day.",
+            "pt": "Zacarias diz: uso «quem» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l19_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u22-l19-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u22-l19_repeat",
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l19-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "what",
+                "pt": "O que significa «what»?"
+              },
+              "options": [
+                "o quê",
+                "quem",
+                "como",
+                "quanto"
+              ],
+              "answer": "o quê"
+            },
+            {
+              "question": {
+                "en": "where",
+                "pt": "O que significa «where»?"
+              },
+              "options": [
+                "onde",
+                "quando",
+                "porquê",
+                "quantos"
+              ],
+              "answer": "onde"
+            },
+            {
+              "question": {
+                "en": "who",
+                "pt": "O que significa «who»?"
+              },
+              "options": [
+                "quem",
+                "como",
+                "quanto",
+                "o quê"
+              ],
+              "answer": "quem"
+            },
+            {
+              "question": {
+                "en": "when",
+                "pt": "O que significa «when»?"
+              },
+              "options": [
+                "quando",
+                "porquê",
+                "quantos",
+                "onde"
+              ],
+              "answer": "quando"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u22-l20",
+      "unitId": "u22",
+      "order": 20,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste da unidade: Perguntas",
+        "en": "Unit test: Questions"
+      },
+      "type": "unit_test",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "listening",
+        "reading",
+        "writing",
+        "grammar"
+      ],
+      "objectives": [
+        "What, where, who, when, how, how much.",
+        "Teste da unidade: Perguntas"
+      ],
+      "newWords": [
+        {
+          "en": "where",
+          "pt": "onde",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l20_w_where",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "who",
+          "pt": "quem",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l20_w_who",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "when",
+          "pt": "quando",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l20_w_when",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "how",
+          "pt": "como",
+          "ipa": "",
+          "audioKey": "a1_a1-u22-l20_w_how",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Unit test: Questions",
+        "sentences": [
+          {
+            "id": "a1-u22-l20-s1",
+            "en": "Let’s review. Carlos is from Beira.",
+            "pt": "Vamos rever. Carlos é de Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l20_s1"
+          },
+          {
+            "id": "a1-u22-l20-s2",
+            "en": "This unit is about Questions.",
+            "pt": "Esta unidade é sobre Perguntas.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l20_s2"
+          },
+          {
+            "id": "a1-u22-l20-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u22-l20_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u22-l20-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "what",
+                "pt": "O que significa «what»?"
+              },
+              "options": [
+                "o quê",
+                "quem",
+                "como",
+                "quanto"
+              ],
+              "answer": "o quê"
+            },
+            {
+              "question": {
+                "en": "where",
+                "pt": "O que significa «where»?"
+              },
+              "options": [
+                "onde",
+                "quando",
+                "porquê",
+                "quantos"
+              ],
+              "answer": "onde"
+            },
+            {
+              "question": {
+                "en": "who",
+                "pt": "O que significa «who»?"
+              },
+              "options": [
+                "quem",
+                "como",
+                "quanto",
+                "o quê"
+              ],
+              "answer": "quem"
+            },
+            {
+              "question": {
+                "en": "when",
+                "pt": "O que significa «when»?"
+              },
+              "options": [
+                "quando",
+                "porquê",
+                "quantos",
+                "onde"
+              ],
+              "answer": "quando"
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l20-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Esperança uses the word _____.",
+              "answer": "what",
+              "options": [
+                "what",
+                "where",
+                "who",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Esperança uses the word _____.",
+              "answer": "where",
+              "options": [
+                "where",
+                "who",
+                "when",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Esperança uses the word _____.",
+              "answer": "who",
+              "options": [
+                "who",
+                "when",
+                "how",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l20-a3",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'what' in Portuguese is 'o quê'.",
+              "answer": true
+            },
+            {
+              "sentence": "'what' means 'quando'.",
+              "answer": false
+            },
+            {
+              "sentence": "'where' in Portuguese is 'onde'.",
+              "answer": true
+            },
+            {
+              "sentence": "'where' means 'como'.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l20-a4",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "what"
+              ],
+              "answer": "I need what"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "where"
+              ],
+              "answer": "I need where"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "who"
+              ],
+              "answer": "I need who"
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l20-a5",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u22-l20_lw_esperança-is-in-qu",
+              "answer": "Esperança is in Quelimane. what.",
+              "hint": "Esperança"
+            },
+            {
+              "audioKey": "a1_a1-u22-l20_lw_esperança-is-in-qu",
+              "answer": "Esperança is in Quelimane. where.",
+              "hint": "Esperança"
+            },
+            {
+              "audioKey": "a1_a1-u22-l20_lw_esperança-is-in-qu",
+              "answer": "Esperança is in Quelimane. who.",
+              "hint": "Esperança"
+            }
+          ]
+        },
+        {
+          "id": "a1-u22-l20-a6",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    }
+  ]
+}

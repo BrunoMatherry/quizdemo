@@ -1,7 +1,13 @@
-// QuizMoz v3.1.0 — Game Data & State
+// QuizMoz — Game Data & State
 export const GAME_VERSION = 'v10';
-export const GAME_DISPLAY_VERSION = '5.4.9';
-export const BASE_URL = 'https://raw.githubusercontent.com/BrunoMatherry/quizmoz-data/main';
+export const GAME_DISPLAY_VERSION = '5.5.4';
+export const DATA_MIRRORS = [
+    'https://cdn.jsdelivr.net/gh/BrunoMatherry/quizmoz-data@main',
+    'https://fastly.jsdelivr.net/gh/BrunoMatherry/quizmoz-data@main',
+    'https://cdn.statically.io/gh/BrunoMatherry/quizmoz-data/main',
+    'https://raw.githubusercontent.com/BrunoMatherry/quizmoz-data/main'
+];
+export const BASE_URL = DATA_MIRRORS[0];
 
 // ===== TIERS =====
 export const TIERS = [
@@ -70,6 +76,11 @@ export const classDisciplines = {
     "17": ["Adivinhas Populares", "Metalinguísticas", "Enigmas de Parentesco", "Matemática", "Raciocínio"]
 };
 
+import africaQuizData from './data/africa_quiz_diario.json';
+
+// Africa Quiz Questions dataset
+export const africaQuestions = africaQuizData?.perguntas || [];
+
 // ===== GAME STATE =====
 export const gameState = {
     level: 1, exp: 0, coins: 0, qi: 70, energy: 7, bonusEnergy: 0,
@@ -85,7 +96,17 @@ export const gameState = {
     vsUnlocked: false,
     freeMatchesLeft: 3,
     allLevelsPurchased: false,
-    nomeTerraWins: 0
+    nomeTerraWins: 0,
+    dailyQuiz: {
+        lastDate: null,
+        completedToday: false,
+        todayScore: 0,
+        streak: 0,
+        lastStreakDate: null
+    },
+    referralCode: null,
+    redeemedInviteCode: null,
+    totalInvitedFriends: 0
 };
 
 // ===== PERSISTENCE =====
@@ -114,7 +135,73 @@ export function loadState() {
         gameState.exp = Math.min(999999, Math.max(0, gameState.exp));
         gameState.coins = Math.min(99999, Math.max(0, gameState.coins));
         gameState.qi = Math.min(200, Math.max(70, gameState.qi));
+        if (!gameState.dailyQuiz) {
+            gameState.dailyQuiz = { lastDate: null, completedToday: false, todayScore: 0, streak: 0, lastStreakDate: null };
+        }
     } catch (e) { console.error('Load state error:', e); }
+}
+
+export function getTodayDateString(offsetDays = 0) {
+    const d = new Date();
+    if (offsetDays !== 0) d.setDate(d.getDate() + offsetDays);
+    const year = d.getFullYear();
+    const month = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+}
+
+export function getDailyQuizQuestions(dateStr = getTodayDateString()) {
+    const total = africaQuestions.length;
+    if (total === 0) return [];
+    
+    let hash = 0;
+    for (let i = 0; i < dateStr.length; i++) {
+        hash = ((hash << 5) - hash) + dateStr.charCodeAt(i);
+        hash |= 0;
+    }
+    const startIndex = Math.abs(hash) % total;
+    return [
+        africaQuestions[startIndex],
+        africaQuestions[(startIndex + 1) % total],
+        africaQuestions[(startIndex + 2) % total]
+    ];
+}
+
+export function getDailyQuizStatus() {
+    const today = getTodayDateString();
+    if (!gameState.dailyQuiz) {
+        gameState.dailyQuiz = {
+            lastDate: null,
+            completedToday: false,
+            todayScore: 0,
+            streak: 0,
+            lastStreakDate: null
+        };
+    }
+    const dq = gameState.dailyQuiz;
+    const isToday = dq.lastDate === today;
+    return {
+        today,
+        isCompletedToday: isToday && dq.completedToday,
+        score: isToday ? (dq.todayScore || 0) : 0,
+        streak: dq.streak || 0
+    };
+}
+
+export function getPlayerReferralCode() {
+    if (gameState.referralCode) return gameState.referralCode;
+    const rawName = (gameState.playerName || 'QUIZ').replace(/[^a-zA-Z0-9]/g, '').toUpperCase();
+    const cleanPrefix = (rawName.length >= 3 ? rawName.slice(0, 4) : 'QMZ').padEnd(4, 'X');
+    let hash = 0;
+    const seed = (gameState.playerName || 'QUIZ') + (gameState.isGuest ? 'GUEST' : 'USER');
+    for (let i = 0; i < seed.length; i++) {
+        hash = ((hash << 5) - hash) + seed.charCodeAt(i);
+        hash |= 0;
+    }
+    const num = Math.abs(hash % 9000) + 1000;
+    gameState.referralCode = `QMZ-${cleanPrefix}-${num}`;
+    saveState();
+    return gameState.referralCode;
 }
 
 function simpleHash(str) {
@@ -142,8 +229,125 @@ export function checkDailyEnergy() {
     }
 }
 
+// ===== REMOTE DATA WITH MULTI-MIRROR FALLBACK =====
+export async function fetchRemoteText(relativePath, timeoutMs = 8000) {
+    let lastError = null;
+    const cleanPath = relativePath.startsWith('/') ? relativePath.slice(1) : relativePath;
+    
+    for (const base of DATA_MIRRORS) {
+        const url = `${base}/${cleanPath}?v=${GAME_VERSION}`;
+        try {
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+            const res = await fetch(url, { signal: controller.signal });
+            clearTimeout(timeoutId);
+            if (res.ok) {
+                return await res.text();
+            }
+        } catch (err) {
+            lastError = err;
+        }
+    }
+    throw lastError || new Error('Falha ao descarregar dados remotos');
+}
+
+export async function fetchRemoteJson(relativePath, timeoutMs = 8000) {
+    const text = await fetchRemoteText(relativePath, timeoutMs);
+    try {
+        return JSON.parse(text);
+    } catch (e) {
+        try {
+            const cleaned = text.replace(/\\([^"\\\/bfnrtu])/g, '$1');
+            return JSON.parse(cleaned);
+        } catch (e2) {
+            throw e;
+        }
+    }
+}
+
+export function parseQuestionsFromRaw(text) {
+    if (!text) return [];
+    let json = null;
+    try {
+        json = JSON.parse(text);
+    } catch (e) {
+        try {
+            const cleaned = text.replace(/\\([^"\\\/bfnrtu])/g, '$1');
+            json = JSON.parse(cleaned);
+        } catch (e2) {
+            json = null;
+        }
+    }
+
+    let questions = [];
+    if (json && json.data) {
+        for (let key in json.data) {
+            if (key.startsWith('Q_ID')) {
+                const idx = key.replace('Q_ID', '');
+                questions.push({
+                    id: `q_${idx}`,
+                    text: json.data[key],
+                    options: {
+                        'A': json.data[`A0_ID${idx}`] || '',
+                        'B': json.data[`A1_ID${idx}`] || '',
+                        'C': json.data[`A2_ID${idx}`] || '',
+                        'D': json.data[`A3_ID${idx}`] || ''
+                    },
+                    correct: String.fromCharCode(65 + (Number(json.data[`S_ID${idx}`]) || 0)),
+                    justification: json.data[`txtS_ID${idx}`] || ''
+                });
+            }
+        }
+    }
+
+    // Fallback: Regex-based extraction if JSON parse failed or had syntax issues
+    if (questions.length === 0 && typeof text === 'string') {
+        const qRegex = /"Q_ID(\d+)"\s*:\s*"((?:\\.|[^"\\])*)"/g;
+        let match;
+        const qMap = {};
+        while ((match = qRegex.exec(text)) !== null) {
+            const idx = match[1];
+            const textContent = match[2].replace(/\\"/g, '"').replace(/\\\\/g, '\\');
+            qMap[idx] = { text: textContent };
+        }
+
+        for (const idx of Object.keys(qMap)) {
+            const getVal = (prefix) => {
+                const r = new RegExp(`"${prefix}_ID${idx}"\\s*:\\s*"((?:\\\\.|[^"\\\\])*)"`);
+                const m = text.match(r);
+                return m ? m[1].replace(/\\"/g, '"').replace(/\\\\/g, '\\') : '';
+            };
+            const getNum = (prefix) => {
+                const r = new RegExp(`"${prefix}_ID${idx}"\\s*:\\s*(\\d+)`);
+                const m = text.match(r);
+                return m ? parseInt(m[1], 10) : 0;
+            };
+            const getTxtS = () => {
+                const r = new RegExp(`"txtS_ID${idx}"\\s*:\\s*"((?:\\\\.|[^"\\\\])*)"`);
+                const m = text.match(r);
+                return m ? m[1].replace(/\\"/g, '"').replace(/\\\\/g, '\\') : '';
+            };
+
+            questions.push({
+                id: `q_${idx}`,
+                text: qMap[idx].text,
+                options: {
+                    'A': getVal('A0'),
+                    'B': getVal('A1'),
+                    'C': getVal('A2'),
+                    'D': getVal('A3')
+                },
+                correct: String.fromCharCode(65 + getNum('S')),
+                justification: getTxtS()
+            });
+        }
+    }
+
+    return questions;
+}
+
 // ===== FETCH QUESTIONS =====
-export function getDisciplineUrl(classId, disciplineName) {
+export function getDisciplinePath(classId, disciplineName) {
     let filePath = null;
     if (classId === '1') {
         const map = { "Português - Básico": "portugues_basico.json", "Matemática - Básica": "matematica_basica.json" };
@@ -177,12 +381,17 @@ export function getDisciplineUrl(classId, disciplineName) {
         const map = { "Matemática":"matematica.json","Português":"portugues.json","Ciências Sociais":"ciencias_sociais.json","Ciências Naturais":"ciencias_naturais.json","Inglês":"ingles.json","História":"historia.json","Biologia":"biologia.json","Geografia":"geografia.json","Física":"fisica.json","Química":"quimica.json","Empreendedorismo":"empreendedorismo.json","Filosofia":"filosofia.json" };
         filePath = map[disciplineName] ? `classe${classId}/${map[disciplineName]}` : null;
     }
+    return filePath;
+}
+
+export function getDisciplineUrl(classId, disciplineName) {
+    const filePath = getDisciplinePath(classId, disciplineName);
     return filePath ? `${BASE_URL}/${filePath}?v=${GAME_VERSION}` : null;
 }
 
 export async function fetchQuestions(classId, disciplineName) {
-    const url = getDisciplineUrl(classId, disciplineName);
-    if (!url) throw new Error('Disciplina não encontrada');
+    const filePath = getDisciplinePath(classId, disciplineName);
+    if (!filePath) throw new Error('Disciplina não encontrada');
     
     // Check cache (48h)
     const cacheKey = `quizmoz_cache_${classId}_${disciplineName}`;
@@ -190,27 +399,20 @@ export async function fetchQuestions(classId, disciplineName) {
     if (cached) {
         try {
             const { data, ts } = JSON.parse(cached);
-            if (Date.now() - ts < 48 * 60 * 60 * 1000) return data;
+            if (Date.now() - ts < 48 * 60 * 60 * 1000 && Array.isArray(data) && data.length > 0) return data;
         } catch(e) {}
     }
     
-    const res = await fetch(url);
-    if (!res.ok) throw new Error('Falha ao carregar disciplina');
-    const json = await res.json();
+    let rawText = '';
+    try {
+        rawText = await fetchRemoteText(filePath);
+    } catch (e) {
+        throw new Error('Falha ao carregar disciplina. Verifica a tua ligação.');
+    }
     
-    let questions = [];
-    if (json.data) {
-        for (let key in json.data) {
-            if (key.startsWith('Q_ID')) {
-                const idx = key.replace('Q_ID', '');
-                questions.push({
-                    id: `q_${idx}`, text: json.data[key],
-                    options: { 'A': json.data[`A0_ID${idx}`]||'', 'B': json.data[`A1_ID${idx}`]||'', 'C': json.data[`A2_ID${idx}`]||'', 'D': json.data[`A3_ID${idx}`]||'' },
-                    correct: String.fromCharCode(65 + (json.data[`S_ID${idx}`] || 0)),
-                    justification: json.data[`txtS_ID${idx}`] || ''
-                });
-            }
-        }
+    const questions = parseQuestionsFromRaw(rawText);
+    if (!questions || questions.length === 0) {
+        throw new Error('Não foram encontradas perguntas para esta disciplina.');
     }
     
     // Cache

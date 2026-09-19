@@ -1,0 +1,2849 @@
+{
+  "id": "c1u02",
+  "level": "C1",
+  "order": 2,
+  "title": {
+    "pt": "Hedging",
+    "en": "Hedging and stance"
+  },
+  "goal": "Tends to, it appears, it is worth considering.",
+  "cambridgeInspiration": "C1 Advanced (inspired skills, original texts)",
+  "lessonCount": 16,
+  "lessons": [
+    {
+      "id": "c1-c1u02-l01",
+      "unitId": "c1u02",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "Hedging: Texto denso curto",
+        "en": "Hedging and stance: Texto denso curto"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Tends to, it appears, it is worth considering.",
+        "Texto denso curto"
+      ],
+      "newWords": [
+        {
+          "en": "nuance",
+          "pt": "nuance",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l01_w_nuance",
+          "exampleEn": "It is often assumed that growth in a city such as Quelimane automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Quelimane melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "assumption",
+          "pt": "pressuposto",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l01_w_assumption",
+          "exampleEn": "It is often assumed that growth in a city such as Quelimane automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Quelimane melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "implication",
+          "pt": "implicação",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l01_w_implication",
+          "exampleEn": "It is often assumed that growth in a city such as Quelimane automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Quelimane melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "coherent",
+          "pt": "coerente",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l01_w_coherent",
+          "exampleEn": "It is often assumed that growth in a city such as Quelimane automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Quelimane melhora automaticamente a vida diária; o quadro é mais irregular."
+        }
+      ],
+      "guidedReading": {
+        "title": "Hedging and stance",
+        "sentences": [
+          {
+            "id": "c1-c1u02-l01-s1",
+            "en": "It is often assumed that growth in a city such as Quelimane automatically improves daily life; the picture is more uneven.",
+            "pt": "Costuma assumir-se que o crescimento de uma cidade como Quelimane melhora automaticamente a vida diária; o quadro é mais irregular.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l01_s1"
+          },
+          {
+            "id": "c1-c1u02-l01-s2",
+            "en": "Graça tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+            "pt": "Graça tende a descrever a mudança em termos práticos: tempo de espera, distância à escola, custo da viagem.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l01_s2"
+          },
+          {
+            "id": "c1-c1u02-l01-s3",
+            "en": "It is worth asking who benefits first when a new road or a new platform is announced.",
+            "pt": "Vale a pena perguntar quem beneficia primeiro quando se anuncia uma estrada ou uma plataforma nova.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l01_s3"
+          },
+          {
+            "id": "c1-c1u02-l01-s4",
+            "en": "A careful account would separate what has improved from what has merely become more visible.",
+            "pt": "Um relato cuidadoso separaria o que melhorou do que apenas se tornou mais visível.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l01_s4"
+          },
+          {
+            "id": "c1-c1u02-l01-s5",
+            "en": "The language aim is hedging and stance: Tends to, it appears, it is worth considering.",
+            "pt": "Tends to, it appears, it is worth considering.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l01_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "c1-c1u02-l01-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "nuance",
+                "pt": "O que é mais próximo de «nuance»?"
+              },
+              "options": [
+                "nuance",
+                "pressuposto",
+                "implicação",
+                "coerente"
+              ],
+              "answer": "nuance"
+            },
+            {
+              "question": {
+                "en": "assumption",
+                "pt": "O que é mais próximo de «assumption»?"
+              },
+              "options": [
+                "pressuposto",
+                "nuance",
+                "implicação",
+                "coerente"
+              ],
+              "answer": "pressuposto"
+            },
+            {
+              "question": {
+                "en": "implication",
+                "pt": "O que é mais próximo de «implication»?"
+              },
+              "options": [
+                "implicação",
+                "nuance",
+                "pressuposto",
+                "coerente"
+              ],
+              "answer": "implicação"
+            },
+            {
+              "question": {
+                "en": "coherent",
+                "pt": "O que é mais próximo de «coherent»?"
+              },
+              "options": [
+                "coerente",
+                "nuance",
+                "pressuposto",
+                "implicação"
+              ],
+              "answer": "coerente"
+            }
+          ]
+        },
+        {
+          "id": "c1-c1u02-l01-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "It is often assumed that growth in a city such as Quelimane automatically improves daily life; the picture is more uneven.",
+              "answer": true
+            },
+            {
+              "sentence": "Graça tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+              "answer": true
+            },
+            {
+              "sentence": "It is worth asking who benefits first when a new road or a new platform is announced.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to nuance.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 100
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Quelimane"
+      }
+    },
+    {
+      "id": "c1-c1u02-l02",
+      "unitId": "c1u02",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "Hedging: Escolha lexical",
+        "en": "Hedging and stance: Escolha lexical"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Tends to, it appears, it is worth considering.",
+        "Escolha lexical"
+      ],
+      "newWords": [
+        {
+          "en": "coherent",
+          "pt": "coerente",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l02_w_coherent",
+          "exampleEn": "It is often assumed that growth in a city such as Beira automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Beira melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "tentative",
+          "pt": "provisório",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l02_w_tentative",
+          "exampleEn": "It is often assumed that growth in a city such as Beira automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Beira melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "stakeholder",
+          "pt": "parte interessada",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l02_w_stakeholder",
+          "exampleEn": "It is often assumed that growth in a city such as Beira automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Beira melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "trade-off",
+          "pt": "compromisso / troca",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l02_w_trade-off",
+          "exampleEn": "It is often assumed that growth in a city such as Beira automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Beira melhora automaticamente a vida diária; o quadro é mais irregular."
+        }
+      ],
+      "guidedReading": {
+        "title": "Hedging and stance",
+        "sentences": [
+          {
+            "id": "c1-c1u02-l02-s1",
+            "en": "It is often assumed that growth in a city such as Beira automatically improves daily life; the picture is more uneven.",
+            "pt": "Costuma assumir-se que o crescimento de uma cidade como Beira melhora automaticamente a vida diária; o quadro é mais irregular.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l02_s1"
+          },
+          {
+            "id": "c1-c1u02-l02-s2",
+            "en": "Paulo tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+            "pt": "Paulo tende a descrever a mudança em termos práticos: tempo de espera, distância à escola, custo da viagem.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l02_s2"
+          },
+          {
+            "id": "c1-c1u02-l02-s3",
+            "en": "It is worth asking who benefits first when a new road or a new platform is announced.",
+            "pt": "Vale a pena perguntar quem beneficia primeiro quando se anuncia uma estrada ou uma plataforma nova.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l02_s3"
+          },
+          {
+            "id": "c1-c1u02-l02-s4",
+            "en": "A careful account would separate what has improved from what has merely become more visible.",
+            "pt": "Um relato cuidadoso separaria o que melhorou do que apenas se tornou mais visível.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l02_s4"
+          },
+          {
+            "id": "c1-c1u02-l02-s5",
+            "en": "The language aim is hedging and stance: Tends to, it appears, it is worth considering.",
+            "pt": "Tends to, it appears, it is worth considering.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l02_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "c1-c1u02-l02-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (nuance)",
+              "answer": "nuance",
+              "options": [
+                "nuance",
+                "assumption",
+                "implication",
+                "coherent"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (pressuposto)",
+              "answer": "assumption",
+              "options": [
+                "assumption",
+                "nuance",
+                "implication",
+                "coherent"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (implicação)",
+              "answer": "implication",
+              "options": [
+                "implication",
+                "nuance",
+                "assumption",
+                "coherent"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c1-c1u02-l02-a2",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "c1-c1u02-l02_lw_0",
+              "answer": "It is often assumed that growth in a city such as Beira automatically improves daily life; the picture is more uneven.",
+              "hint": "It"
+            },
+            {
+              "audioKey": "c1-c1u02-l02_lw_1",
+              "answer": "Paulo tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+              "hint": "Paulo"
+            },
+            {
+              "audioKey": "c1-c1u02-l02_lw_2",
+              "answer": "It is worth asking who benefits first when a new road or a new platform is announced.",
+              "hint": "It"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 100
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Beira"
+      }
+    },
+    {
+      "id": "c1-c1u02-l03",
+      "unitId": "c1u02",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "Hedging: Posição do autor",
+        "en": "Hedging and stance: Posição do autor"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Tends to, it appears, it is worth considering.",
+        "Posição do autor"
+      ],
+      "newWords": [
+        {
+          "en": "trade-off",
+          "pt": "compromisso / troca",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l03_w_trade-off",
+          "exampleEn": "It is often assumed that growth in a city such as Pemba automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Pemba melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "assess",
+          "pt": "avaliar",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l03_w_assess",
+          "exampleEn": "It is often assumed that growth in a city such as Pemba automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Pemba melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "register",
+          "pt": "registo (de língua)",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l03_w_register",
+          "exampleEn": "It is often assumed that growth in a city such as Pemba automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Pemba melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "briefing",
+          "pt": "nota de síntese",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l03_w_briefing",
+          "exampleEn": "It is often assumed that growth in a city such as Pemba automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Pemba melhora automaticamente a vida diária; o quadro é mais irregular."
+        }
+      ],
+      "guidedReading": {
+        "title": "Hedging and stance",
+        "sentences": [
+          {
+            "id": "c1-c1u02-l03-s1",
+            "en": "It is often assumed that growth in a city such as Pemba automatically improves daily life; the picture is more uneven.",
+            "pt": "Costuma assumir-se que o crescimento de uma cidade como Pemba melhora automaticamente a vida diária; o quadro é mais irregular.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l03_s1"
+          },
+          {
+            "id": "c1-c1u02-l03-s2",
+            "en": "Ibraimo tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+            "pt": "Ibraimo tende a descrever a mudança em termos práticos: tempo de espera, distância à escola, custo da viagem.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l03_s2"
+          },
+          {
+            "id": "c1-c1u02-l03-s3",
+            "en": "It is worth asking who benefits first when a new road or a new platform is announced.",
+            "pt": "Vale a pena perguntar quem beneficia primeiro quando se anuncia uma estrada ou uma plataforma nova.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l03_s3"
+          },
+          {
+            "id": "c1-c1u02-l03-s4",
+            "en": "A careful account would separate what has improved from what has merely become more visible.",
+            "pt": "Um relato cuidadoso separaria o que melhorou do que apenas se tornou mais visível.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l03_s4"
+          },
+          {
+            "id": "c1-c1u02-l03-s5",
+            "en": "The language aim is hedging and stance: Tends to, it appears, it is worth considering.",
+            "pt": "Tends to, it appears, it is worth considering.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l03_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "c1-c1u02-l03-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante 90 seconds.",
+            "en": "Speak for 90 seconds."
+          },
+          "items": [
+            {
+              "en": "It is often assumed that growth in a city such as Pemba automatically improves daily life; the picture is more uneven.",
+              "task": "Qualify a claim and mention who is affected.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        },
+        {
+          "id": "c1-c1u02-l03-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 100
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Pemba"
+      }
+    },
+    {
+      "id": "c1-c1u02-l04",
+      "unitId": "c1u02",
+      "order": 4,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste",
+        "en": "Checkpoint"
+      },
+      "type": "checkpoint",
+      "durationMin": 10,
+      "xp": 22,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing"
+      ],
+      "objectives": [
+        "Tends to, it appears, it is worth considering.",
+        "Coesão do parágrafo"
+      ],
+      "newWords": [
+        {
+          "en": "briefing",
+          "pt": "nota de síntese",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l04_w_briefing",
+          "exampleEn": "It is often assumed that growth in a city such as Tete automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Tete melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "nevertheless",
+          "pt": "ainda assim",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l04_w_nevertheless",
+          "exampleEn": "It is often assumed that growth in a city such as Tete automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Tete melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "substantial",
+          "pt": "substancial",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l04_w_substantial",
+          "exampleEn": "It is often assumed that growth in a city such as Tete automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Tete melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "hedging",
+          "pt": "hedging",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l04_w_hedging",
+          "exampleEn": "It is often assumed that growth in a city such as Tete automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Tete melhora automaticamente a vida diária; o quadro é mais irregular."
+        }
+      ],
+      "guidedReading": {
+        "title": "Hedging and stance",
+        "sentences": [
+          {
+            "id": "c1-c1u02-l04-s1",
+            "en": "It is often assumed that growth in a city such as Tete automatically improves daily life; the picture is more uneven.",
+            "pt": "Costuma assumir-se que o crescimento de uma cidade como Tete melhora automaticamente a vida diária; o quadro é mais irregular.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l04_s1"
+          },
+          {
+            "id": "c1-c1u02-l04-s2",
+            "en": "Lurdes tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+            "pt": "Lurdes tende a descrever a mudança em termos práticos: tempo de espera, distância à escola, custo da viagem.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l04_s2"
+          },
+          {
+            "id": "c1-c1u02-l04-s3",
+            "en": "It is worth asking who benefits first when a new road or a new platform is announced.",
+            "pt": "Vale a pena perguntar quem beneficia primeiro quando se anuncia uma estrada ou uma plataforma nova.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l04_s3"
+          },
+          {
+            "id": "c1-c1u02-l04-s4",
+            "en": "A careful account would separate what has improved from what has merely become more visible.",
+            "pt": "Um relato cuidadoso separaria o que melhorou do que apenas se tornou mais visível.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l04_s4"
+          },
+          {
+            "id": "c1-c1u02-l04-s5",
+            "en": "The language aim is hedging and stance: Tends to, it appears, it is worth considering.",
+            "pt": "Tends to, it appears, it is worth considering.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l04_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "c1-c1u02-l04-a1",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "It",
+                "is",
+                "often",
+                "assumed",
+                "that",
+                "growth",
+                "in",
+                "a"
+              ],
+              "answer": "It is often assumed that growth in a"
+            },
+            {
+              "words": [
+                "Lurdes",
+                "tends",
+                "to",
+                "describe",
+                "the",
+                "change",
+                "in",
+                "practical"
+              ],
+              "answer": "Lurdes tends to describe the change in practical"
+            },
+            {
+              "words": [
+                "It",
+                "is",
+                "worth",
+                "asking",
+                "who",
+                "benefits",
+                "first",
+                "when"
+              ],
+              "answer": "It is worth asking who benefits first when"
+            }
+          ]
+        },
+        {
+          "id": "c1-c1u02-l04-a2",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "nuance",
+              "pt": "nuance"
+            },
+            {
+              "en": "assumption",
+              "pt": "pressuposto"
+            },
+            {
+              "en": "implication",
+              "pt": "implicação"
+            },
+            {
+              "en": "coherent",
+              "pt": "coerente"
+            },
+            {
+              "en": "tentative",
+              "pt": "provisório"
+            },
+            {
+              "en": "stakeholder",
+              "pt": "parte interessada"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 180
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Tete"
+      }
+    },
+    {
+      "id": "c1-c1u02-l05",
+      "unitId": "c1u02",
+      "order": 5,
+      "kind": "content",
+      "title": {
+        "pt": "Hedging: Registo e destinatário",
+        "en": "Hedging and stance: Registo e destinatário"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "speaking"
+      ],
+      "objectives": [
+        "Tends to, it appears, it is worth considering.",
+        "Registo e destinatário"
+      ],
+      "newWords": [
+        {
+          "en": "hedging",
+          "pt": "hedging",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l05_w_hedging",
+          "exampleEn": "It is often assumed that growth in a city such as Chimoio automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Chimoio melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "and",
+          "pt": "and",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l05_w_and",
+          "exampleEn": "It is often assumed that growth in a city such as Chimoio automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Chimoio melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "stance",
+          "pt": "stance",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l05_w_stance",
+          "exampleEn": "It is often assumed that growth in a city such as Chimoio automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Chimoio melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "practice",
+          "pt": "practice",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l05_w_practice",
+          "exampleEn": "It is often assumed that growth in a city such as Chimoio automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Chimoio melhora automaticamente a vida diária; o quadro é mais irregular."
+        }
+      ],
+      "guidedReading": {
+        "title": "Hedging and stance",
+        "sentences": [
+          {
+            "id": "c1-c1u02-l05-s1",
+            "en": "It is often assumed that growth in a city such as Chimoio automatically improves daily life; the picture is more uneven.",
+            "pt": "Costuma assumir-se que o crescimento de uma cidade como Chimoio melhora automaticamente a vida diária; o quadro é mais irregular.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l05_s1"
+          },
+          {
+            "id": "c1-c1u02-l05-s2",
+            "en": "Nélio tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+            "pt": "Nélio tende a descrever a mudança em termos práticos: tempo de espera, distância à escola, custo da viagem.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l05_s2"
+          },
+          {
+            "id": "c1-c1u02-l05-s3",
+            "en": "It is worth asking who benefits first when a new road or a new platform is announced.",
+            "pt": "Vale a pena perguntar quem beneficia primeiro quando se anuncia uma estrada ou uma plataforma nova.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l05_s3"
+          },
+          {
+            "id": "c1-c1u02-l05-s4",
+            "en": "A careful account would separate what has improved from what has merely become more visible.",
+            "pt": "Um relato cuidadoso separaria o que melhorou do que apenas se tornou mais visível.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l05_s4"
+          },
+          {
+            "id": "c1-c1u02-l05-s5",
+            "en": "The language aim is hedging and stance: Tends to, it appears, it is worth considering.",
+            "pt": "Tends to, it appears, it is worth considering.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l05_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "c1-c1u02-l05-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "nuance",
+                "pt": "O que é mais próximo de «nuance»?"
+              },
+              "options": [
+                "nuance",
+                "pressuposto",
+                "implicação",
+                "coerente"
+              ],
+              "answer": "nuance"
+            },
+            {
+              "question": {
+                "en": "assumption",
+                "pt": "O que é mais próximo de «assumption»?"
+              },
+              "options": [
+                "pressuposto",
+                "nuance",
+                "implicação",
+                "coerente"
+              ],
+              "answer": "pressuposto"
+            },
+            {
+              "question": {
+                "en": "implication",
+                "pt": "O que é mais próximo de «implication»?"
+              },
+              "options": [
+                "implicação",
+                "nuance",
+                "pressuposto",
+                "coerente"
+              ],
+              "answer": "implicação"
+            },
+            {
+              "question": {
+                "en": "coherent",
+                "pt": "O que é mais próximo de «coherent»?"
+              },
+              "options": [
+                "coerente",
+                "nuance",
+                "pressuposto",
+                "implicação"
+              ],
+              "answer": "coerente"
+            }
+          ]
+        },
+        {
+          "id": "c1-c1u02-l05-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "It is often assumed that growth in a city such as Chimoio automatically improves daily life; the picture is more uneven.",
+              "answer": true
+            },
+            {
+              "sentence": "Nélio tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+              "answer": true
+            },
+            {
+              "sentence": "It is worth asking who benefits first when a new road or a new platform is announced.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to nuance.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 100
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Chimoio"
+      }
+    },
+    {
+      "id": "c1-c1u02-l06",
+      "unitId": "c1u02",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "Hedging: Ouvir e tomar notas",
+        "en": "Hedging and stance: Ouvir e tomar notas"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Tends to, it appears, it is worth considering.",
+        "Ouvir e tomar notas"
+      ],
+      "newWords": [
+        {
+          "en": "implication",
+          "pt": "implicação",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l06_w_implication",
+          "exampleEn": "It is often assumed that growth in a city such as Matola automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Matola melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "coherent",
+          "pt": "coerente",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l06_w_coherent",
+          "exampleEn": "It is often assumed that growth in a city such as Matola automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Matola melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "tentative",
+          "pt": "provisório",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l06_w_tentative",
+          "exampleEn": "It is often assumed that growth in a city such as Matola automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Matola melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "stakeholder",
+          "pt": "parte interessada",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l06_w_stakeholder",
+          "exampleEn": "It is often assumed that growth in a city such as Matola automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Matola melhora automaticamente a vida diária; o quadro é mais irregular."
+        }
+      ],
+      "guidedReading": {
+        "title": "Hedging and stance",
+        "sentences": [
+          {
+            "id": "c1-c1u02-l06-s1",
+            "en": "It is often assumed that growth in a city such as Matola automatically improves daily life; the picture is more uneven.",
+            "pt": "Costuma assumir-se que o crescimento de uma cidade como Matola melhora automaticamente a vida diária; o quadro é mais irregular.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l06_s1"
+          },
+          {
+            "id": "c1-c1u02-l06-s2",
+            "en": "Esperança tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+            "pt": "Esperança tende a descrever a mudança em termos práticos: tempo de espera, distância à escola, custo da viagem.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l06_s2"
+          },
+          {
+            "id": "c1-c1u02-l06-s3",
+            "en": "It is worth asking who benefits first when a new road or a new platform is announced.",
+            "pt": "Vale a pena perguntar quem beneficia primeiro quando se anuncia uma estrada ou uma plataforma nova.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l06_s3"
+          },
+          {
+            "id": "c1-c1u02-l06-s4",
+            "en": "A careful account would separate what has improved from what has merely become more visible.",
+            "pt": "Um relato cuidadoso separaria o que melhorou do que apenas se tornou mais visível.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l06_s4"
+          },
+          {
+            "id": "c1-c1u02-l06-s5",
+            "en": "The language aim is hedging and stance: Tends to, it appears, it is worth considering.",
+            "pt": "Tends to, it appears, it is worth considering.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l06_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "c1-c1u02-l06-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (nuance)",
+              "answer": "nuance",
+              "options": [
+                "nuance",
+                "assumption",
+                "implication",
+                "coherent"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (pressuposto)",
+              "answer": "assumption",
+              "options": [
+                "assumption",
+                "nuance",
+                "implication",
+                "coherent"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (implicação)",
+              "answer": "implication",
+              "options": [
+                "implication",
+                "nuance",
+                "assumption",
+                "coherent"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c1-c1u02-l06-a2",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "c1-c1u02-l06_lw_0",
+              "answer": "It is often assumed that growth in a city such as Matola automatically improves daily life; the picture is more uneven.",
+              "hint": "It"
+            },
+            {
+              "audioKey": "c1-c1u02-l06_lw_1",
+              "answer": "Esperança tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+              "hint": "Esperança"
+            },
+            {
+              "audioKey": "c1-c1u02-l06_lw_2",
+              "answer": "It is worth asking who benefits first when a new road or a new platform is announced.",
+              "hint": "It"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 100
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Matola"
+      }
+    },
+    {
+      "id": "c1-c1u02-l07",
+      "unitId": "c1u02",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "Hedging: Resumo fiel",
+        "en": "Hedging and stance: Resumo fiel"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Tends to, it appears, it is worth considering.",
+        "Resumo fiel"
+      ],
+      "newWords": [
+        {
+          "en": "stakeholder",
+          "pt": "parte interessada",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l07_w_stakeholder",
+          "exampleEn": "It is often assumed that growth in a city such as Nacala automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Nacala melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "trade-off",
+          "pt": "compromisso / troca",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l07_w_trade-off",
+          "exampleEn": "It is often assumed that growth in a city such as Nacala automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Nacala melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "assess",
+          "pt": "avaliar",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l07_w_assess",
+          "exampleEn": "It is often assumed that growth in a city such as Nacala automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Nacala melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "register",
+          "pt": "registo (de língua)",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l07_w_register",
+          "exampleEn": "It is often assumed that growth in a city such as Nacala automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Nacala melhora automaticamente a vida diária; o quadro é mais irregular."
+        }
+      ],
+      "guidedReading": {
+        "title": "Hedging and stance",
+        "sentences": [
+          {
+            "id": "c1-c1u02-l07-s1",
+            "en": "It is often assumed that growth in a city such as Nacala automatically improves daily life; the picture is more uneven.",
+            "pt": "Costuma assumir-se que o crescimento de uma cidade como Nacala melhora automaticamente a vida diária; o quadro é mais irregular.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l07_s1"
+          },
+          {
+            "id": "c1-c1u02-l07-s2",
+            "en": "Faruk tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+            "pt": "Faruk tende a descrever a mudança em termos práticos: tempo de espera, distância à escola, custo da viagem.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l07_s2"
+          },
+          {
+            "id": "c1-c1u02-l07-s3",
+            "en": "It is worth asking who benefits first when a new road or a new platform is announced.",
+            "pt": "Vale a pena perguntar quem beneficia primeiro quando se anuncia uma estrada ou uma plataforma nova.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l07_s3"
+          },
+          {
+            "id": "c1-c1u02-l07-s4",
+            "en": "A careful account would separate what has improved from what has merely become more visible.",
+            "pt": "Um relato cuidadoso separaria o que melhorou do que apenas se tornou mais visível.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l07_s4"
+          },
+          {
+            "id": "c1-c1u02-l07-s5",
+            "en": "The language aim is hedging and stance: Tends to, it appears, it is worth considering.",
+            "pt": "Tends to, it appears, it is worth considering.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l07_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "c1-c1u02-l07-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante 90 seconds.",
+            "en": "Speak for 90 seconds."
+          },
+          "items": [
+            {
+              "en": "It is often assumed that growth in a city such as Nacala automatically improves daily life; the picture is more uneven.",
+              "task": "Qualify a claim and mention who is affected.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        },
+        {
+          "id": "c1-c1u02-l07-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 100
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Nacala"
+      }
+    },
+    {
+      "id": "c1-c1u02-l08",
+      "unitId": "c1u02",
+      "order": 8,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste",
+        "en": "Checkpoint"
+      },
+      "type": "checkpoint",
+      "durationMin": 10,
+      "xp": 22,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing"
+      ],
+      "objectives": [
+        "Tends to, it appears, it is worth considering.",
+        "Contra-argumento"
+      ],
+      "newWords": [
+        {
+          "en": "register",
+          "pt": "registo (de língua)",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l08_w_register",
+          "exampleEn": "It is often assumed that growth in a city such as Inhambane automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Inhambane melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "briefing",
+          "pt": "nota de síntese",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l08_w_briefing",
+          "exampleEn": "It is often assumed that growth in a city such as Inhambane automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Inhambane melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "nevertheless",
+          "pt": "ainda assim",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l08_w_nevertheless",
+          "exampleEn": "It is often assumed that growth in a city such as Inhambane automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Inhambane melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "substantial",
+          "pt": "substancial",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l08_w_substantial",
+          "exampleEn": "It is often assumed that growth in a city such as Inhambane automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Inhambane melhora automaticamente a vida diária; o quadro é mais irregular."
+        }
+      ],
+      "guidedReading": {
+        "title": "Hedging and stance",
+        "sentences": [
+          {
+            "id": "c1-c1u02-l08-s1",
+            "en": "It is often assumed that growth in a city such as Inhambane automatically improves daily life; the picture is more uneven.",
+            "pt": "Costuma assumir-se que o crescimento de uma cidade como Inhambane melhora automaticamente a vida diária; o quadro é mais irregular.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l08_s1"
+          },
+          {
+            "id": "c1-c1u02-l08-s2",
+            "en": "Belmira tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+            "pt": "Belmira tende a descrever a mudança em termos práticos: tempo de espera, distância à escola, custo da viagem.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l08_s2"
+          },
+          {
+            "id": "c1-c1u02-l08-s3",
+            "en": "It is worth asking who benefits first when a new road or a new platform is announced.",
+            "pt": "Vale a pena perguntar quem beneficia primeiro quando se anuncia uma estrada ou uma plataforma nova.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l08_s3"
+          },
+          {
+            "id": "c1-c1u02-l08-s4",
+            "en": "A careful account would separate what has improved from what has merely become more visible.",
+            "pt": "Um relato cuidadoso separaria o que melhorou do que apenas se tornou mais visível.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l08_s4"
+          },
+          {
+            "id": "c1-c1u02-l08-s5",
+            "en": "The language aim is hedging and stance: Tends to, it appears, it is worth considering.",
+            "pt": "Tends to, it appears, it is worth considering.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l08_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "c1-c1u02-l08-a1",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "It",
+                "is",
+                "often",
+                "assumed",
+                "that",
+                "growth",
+                "in",
+                "a"
+              ],
+              "answer": "It is often assumed that growth in a"
+            },
+            {
+              "words": [
+                "Belmira",
+                "tends",
+                "to",
+                "describe",
+                "the",
+                "change",
+                "in",
+                "practical"
+              ],
+              "answer": "Belmira tends to describe the change in practical"
+            },
+            {
+              "words": [
+                "It",
+                "is",
+                "worth",
+                "asking",
+                "who",
+                "benefits",
+                "first",
+                "when"
+              ],
+              "answer": "It is worth asking who benefits first when"
+            }
+          ]
+        },
+        {
+          "id": "c1-c1u02-l08-a2",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "nuance",
+              "pt": "nuance"
+            },
+            {
+              "en": "assumption",
+              "pt": "pressuposto"
+            },
+            {
+              "en": "implication",
+              "pt": "implicação"
+            },
+            {
+              "en": "coherent",
+              "pt": "coerente"
+            },
+            {
+              "en": "tentative",
+              "pt": "provisório"
+            },
+            {
+              "en": "stakeholder",
+              "pt": "parte interessada"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 180
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Inhambane"
+      }
+    },
+    {
+      "id": "c1-c1u02-l09",
+      "unitId": "c1u02",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Hedging: Proposta escrita",
+        "en": "Hedging and stance: Proposta escrita"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Tends to, it appears, it is worth considering.",
+        "Proposta escrita"
+      ],
+      "newWords": [
+        {
+          "en": "substantial",
+          "pt": "substancial",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l09_w_substantial",
+          "exampleEn": "It is often assumed that growth in a city such as Luanda automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Luanda melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "hedging",
+          "pt": "hedging",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l09_w_hedging",
+          "exampleEn": "It is often assumed that growth in a city such as Luanda automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Luanda melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "and",
+          "pt": "and",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l09_w_and",
+          "exampleEn": "It is often assumed that growth in a city such as Luanda automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Luanda melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "stance",
+          "pt": "stance",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l09_w_stance",
+          "exampleEn": "It is often assumed that growth in a city such as Luanda automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Luanda melhora automaticamente a vida diária; o quadro é mais irregular."
+        }
+      ],
+      "guidedReading": {
+        "title": "Hedging and stance",
+        "sentences": [
+          {
+            "id": "c1-c1u02-l09-s1",
+            "en": "It is often assumed that growth in a city such as Luanda automatically improves daily life; the picture is more uneven.",
+            "pt": "Costuma assumir-se que o crescimento de uma cidade como Luanda melhora automaticamente a vida diária; o quadro é mais irregular.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l09_s1"
+          },
+          {
+            "id": "c1-c1u02-l09-s2",
+            "en": "Carlos tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+            "pt": "Carlos tende a descrever a mudança em termos práticos: tempo de espera, distância à escola, custo da viagem.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l09_s2"
+          },
+          {
+            "id": "c1-c1u02-l09-s3",
+            "en": "It is worth asking who benefits first when a new road or a new platform is announced.",
+            "pt": "Vale a pena perguntar quem beneficia primeiro quando se anuncia uma estrada ou uma plataforma nova.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l09_s3"
+          },
+          {
+            "id": "c1-c1u02-l09-s4",
+            "en": "A careful account would separate what has improved from what has merely become more visible.",
+            "pt": "Um relato cuidadoso separaria o que melhorou do que apenas se tornou mais visível.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l09_s4"
+          },
+          {
+            "id": "c1-c1u02-l09-s5",
+            "en": "The language aim is hedging and stance: Tends to, it appears, it is worth considering.",
+            "pt": "Tends to, it appears, it is worth considering.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l09_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "c1-c1u02-l09-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "nuance",
+                "pt": "O que é mais próximo de «nuance»?"
+              },
+              "options": [
+                "nuance",
+                "pressuposto",
+                "implicação",
+                "coerente"
+              ],
+              "answer": "nuance"
+            },
+            {
+              "question": {
+                "en": "assumption",
+                "pt": "O que é mais próximo de «assumption»?"
+              },
+              "options": [
+                "pressuposto",
+                "nuance",
+                "implicação",
+                "coerente"
+              ],
+              "answer": "pressuposto"
+            },
+            {
+              "question": {
+                "en": "implication",
+                "pt": "O que é mais próximo de «implication»?"
+              },
+              "options": [
+                "implicação",
+                "nuance",
+                "pressuposto",
+                "coerente"
+              ],
+              "answer": "implicação"
+            },
+            {
+              "question": {
+                "en": "coherent",
+                "pt": "O que é mais próximo de «coherent»?"
+              },
+              "options": [
+                "coerente",
+                "nuance",
+                "pressuposto",
+                "implicação"
+              ],
+              "answer": "coerente"
+            }
+          ]
+        },
+        {
+          "id": "c1-c1u02-l09-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "It is often assumed that growth in a city such as Luanda automatically improves daily life; the picture is more uneven.",
+              "answer": true
+            },
+            {
+              "sentence": "Carlos tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+              "answer": true
+            },
+            {
+              "sentence": "It is worth asking who benefits first when a new road or a new platform is announced.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to nuance.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 100
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Luanda"
+      }
+    },
+    {
+      "id": "c1-c1u02-l10",
+      "unitId": "c1u02",
+      "order": 10,
+      "kind": "content",
+      "title": {
+        "pt": "Hedging: Precisão gramatical",
+        "en": "Hedging and stance: Precisão gramatical"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "speaking"
+      ],
+      "objectives": [
+        "Tends to, it appears, it is worth considering.",
+        "Precisão gramatical"
+      ],
+      "newWords": [
+        {
+          "en": "assumption",
+          "pt": "pressuposto",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l10_w_assumption",
+          "exampleEn": "It is often assumed that growth in a city such as Praia automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Praia melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "implication",
+          "pt": "implicação",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l10_w_implication",
+          "exampleEn": "It is often assumed that growth in a city such as Praia automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Praia melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "coherent",
+          "pt": "coerente",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l10_w_coherent",
+          "exampleEn": "It is often assumed that growth in a city such as Praia automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Praia melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "tentative",
+          "pt": "provisório",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l10_w_tentative",
+          "exampleEn": "It is often assumed that growth in a city such as Praia automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Praia melhora automaticamente a vida diária; o quadro é mais irregular."
+        }
+      ],
+      "guidedReading": {
+        "title": "Hedging and stance",
+        "sentences": [
+          {
+            "id": "c1-c1u02-l10-s1",
+            "en": "It is often assumed that growth in a city such as Praia automatically improves daily life; the picture is more uneven.",
+            "pt": "Costuma assumir-se que o crescimento de uma cidade como Praia melhora automaticamente a vida diária; o quadro é mais irregular.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l10_s1"
+          },
+          {
+            "id": "c1-c1u02-l10-s2",
+            "en": "Marta tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+            "pt": "Marta tende a descrever a mudança em termos práticos: tempo de espera, distância à escola, custo da viagem.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l10_s2"
+          },
+          {
+            "id": "c1-c1u02-l10-s3",
+            "en": "It is worth asking who benefits first when a new road or a new platform is announced.",
+            "pt": "Vale a pena perguntar quem beneficia primeiro quando se anuncia uma estrada ou uma plataforma nova.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l10_s3"
+          },
+          {
+            "id": "c1-c1u02-l10-s4",
+            "en": "A careful account would separate what has improved from what has merely become more visible.",
+            "pt": "Um relato cuidadoso separaria o que melhorou do que apenas se tornou mais visível.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l10_s4"
+          },
+          {
+            "id": "c1-c1u02-l10-s5",
+            "en": "The language aim is hedging and stance: Tends to, it appears, it is worth considering.",
+            "pt": "Tends to, it appears, it is worth considering.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l10_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "c1-c1u02-l10-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (nuance)",
+              "answer": "nuance",
+              "options": [
+                "nuance",
+                "assumption",
+                "implication",
+                "coherent"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (pressuposto)",
+              "answer": "assumption",
+              "options": [
+                "assumption",
+                "nuance",
+                "implication",
+                "coherent"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (implicação)",
+              "answer": "implication",
+              "options": [
+                "implication",
+                "nuance",
+                "assumption",
+                "coherent"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c1-c1u02-l10-a2",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "c1-c1u02-l10_lw_0",
+              "answer": "It is often assumed that growth in a city such as Praia automatically improves daily life; the picture is more uneven.",
+              "hint": "It"
+            },
+            {
+              "audioKey": "c1-c1u02-l10_lw_1",
+              "answer": "Marta tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+              "hint": "Marta"
+            },
+            {
+              "audioKey": "c1-c1u02-l10_lw_2",
+              "answer": "It is worth asking who benefits first when a new road or a new platform is announced.",
+              "hint": "It"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 100
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Praia"
+      }
+    },
+    {
+      "id": "c1-c1u02-l11",
+      "unitId": "c1u02",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "Hedging: Caso africano em escala real",
+        "en": "Hedging and stance: Caso africano em escala real"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Tends to, it appears, it is worth considering.",
+        "Caso africano em escala real"
+      ],
+      "newWords": [
+        {
+          "en": "tentative",
+          "pt": "provisório",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l11_w_tentative",
+          "exampleEn": "It is often assumed that growth in a city such as Nampula automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Nampula melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "stakeholder",
+          "pt": "parte interessada",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l11_w_stakeholder",
+          "exampleEn": "It is often assumed that growth in a city such as Nampula automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Nampula melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "trade-off",
+          "pt": "compromisso / troca",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l11_w_trade-off",
+          "exampleEn": "It is often assumed that growth in a city such as Nampula automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Nampula melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "assess",
+          "pt": "avaliar",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l11_w_assess",
+          "exampleEn": "It is often assumed that growth in a city such as Nampula automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Nampula melhora automaticamente a vida diária; o quadro é mais irregular."
+        }
+      ],
+      "guidedReading": {
+        "title": "Hedging and stance",
+        "sentences": [
+          {
+            "id": "c1-c1u02-l11-s1",
+            "en": "It is often assumed that growth in a city such as Nampula automatically improves daily life; the picture is more uneven.",
+            "pt": "Costuma assumir-se que o crescimento de uma cidade como Nampula melhora automaticamente a vida diária; o quadro é mais irregular.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l11_s1"
+          },
+          {
+            "id": "c1-c1u02-l11-s2",
+            "en": "Amina tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+            "pt": "Amina tende a descrever a mudança em termos práticos: tempo de espera, distância à escola, custo da viagem.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l11_s2"
+          },
+          {
+            "id": "c1-c1u02-l11-s3",
+            "en": "It is worth asking who benefits first when a new road or a new platform is announced.",
+            "pt": "Vale a pena perguntar quem beneficia primeiro quando se anuncia uma estrada ou uma plataforma nova.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l11_s3"
+          },
+          {
+            "id": "c1-c1u02-l11-s4",
+            "en": "A careful account would separate what has improved from what has merely become more visible.",
+            "pt": "Um relato cuidadoso separaria o que melhorou do que apenas se tornou mais visível.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l11_s4"
+          },
+          {
+            "id": "c1-c1u02-l11-s5",
+            "en": "The language aim is hedging and stance: Tends to, it appears, it is worth considering.",
+            "pt": "Tends to, it appears, it is worth considering.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l11_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "c1-c1u02-l11-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante 90 seconds.",
+            "en": "Speak for 90 seconds."
+          },
+          "items": [
+            {
+              "en": "It is often assumed that growth in a city such as Nampula automatically improves daily life; the picture is more uneven.",
+              "task": "Qualify a claim and mention who is affected.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        },
+        {
+          "id": "c1-c1u02-l11-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 100
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Nampula"
+      }
+    },
+    {
+      "id": "c1-c1u02-l12",
+      "unitId": "c1u02",
+      "order": 12,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão",
+        "en": "Review"
+      },
+      "type": "review",
+      "durationMin": 9,
+      "xp": 14,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing"
+      ],
+      "objectives": [
+        "Tends to, it appears, it is worth considering.",
+        "Reformular com outro tom"
+      ],
+      "newWords": [
+        {
+          "en": "assess",
+          "pt": "avaliar",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l12_w_assess",
+          "exampleEn": "It is often assumed that growth in a city such as Maputo automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Maputo melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "register",
+          "pt": "registo (de língua)",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l12_w_register",
+          "exampleEn": "It is often assumed that growth in a city such as Maputo automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Maputo melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "briefing",
+          "pt": "nota de síntese",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l12_w_briefing",
+          "exampleEn": "It is often assumed that growth in a city such as Maputo automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Maputo melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "nevertheless",
+          "pt": "ainda assim",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l12_w_nevertheless",
+          "exampleEn": "It is often assumed that growth in a city such as Maputo automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Maputo melhora automaticamente a vida diária; o quadro é mais irregular."
+        }
+      ],
+      "guidedReading": {
+        "title": "Hedging and stance",
+        "sentences": [
+          {
+            "id": "c1-c1u02-l12-s1",
+            "en": "It is often assumed that growth in a city such as Maputo automatically improves daily life; the picture is more uneven.",
+            "pt": "Costuma assumir-se que o crescimento de uma cidade como Maputo melhora automaticamente a vida diária; o quadro é mais irregular.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l12_s1"
+          },
+          {
+            "id": "c1-c1u02-l12-s2",
+            "en": "João tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+            "pt": "João tende a descrever a mudança em termos práticos: tempo de espera, distância à escola, custo da viagem.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l12_s2"
+          },
+          {
+            "id": "c1-c1u02-l12-s3",
+            "en": "It is worth asking who benefits first when a new road or a new platform is announced.",
+            "pt": "Vale a pena perguntar quem beneficia primeiro quando se anuncia uma estrada ou uma plataforma nova.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l12_s3"
+          },
+          {
+            "id": "c1-c1u02-l12-s4",
+            "en": "A careful account would separate what has improved from what has merely become more visible.",
+            "pt": "Um relato cuidadoso separaria o que melhorou do que apenas se tornou mais visível.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l12_s4"
+          },
+          {
+            "id": "c1-c1u02-l12-s5",
+            "en": "The language aim is hedging and stance: Tends to, it appears, it is worth considering.",
+            "pt": "Tends to, it appears, it is worth considering.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l12_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "c1-c1u02-l12-a1",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "It",
+                "is",
+                "often",
+                "assumed",
+                "that",
+                "growth",
+                "in",
+                "a"
+              ],
+              "answer": "It is often assumed that growth in a"
+            },
+            {
+              "words": [
+                "João",
+                "tends",
+                "to",
+                "describe",
+                "the",
+                "change",
+                "in",
+                "practical"
+              ],
+              "answer": "João tends to describe the change in practical"
+            },
+            {
+              "words": [
+                "It",
+                "is",
+                "worth",
+                "asking",
+                "who",
+                "benefits",
+                "first",
+                "when"
+              ],
+              "answer": "It is worth asking who benefits first when"
+            }
+          ]
+        },
+        {
+          "id": "c1-c1u02-l12-a2",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "nuance",
+              "pt": "nuance"
+            },
+            {
+              "en": "assumption",
+              "pt": "pressuposto"
+            },
+            {
+              "en": "implication",
+              "pt": "implicação"
+            },
+            {
+              "en": "coherent",
+              "pt": "coerente"
+            },
+            {
+              "en": "tentative",
+              "pt": "provisório"
+            },
+            {
+              "en": "stakeholder",
+              "pt": "parte interessada"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 100
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Maputo"
+      }
+    },
+    {
+      "id": "c1-c1u02-l13",
+      "unitId": "c1u02",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Hedging: Discussão",
+        "en": "Hedging and stance: Discussão"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Tends to, it appears, it is worth considering.",
+        "Discussão"
+      ],
+      "newWords": [
+        {
+          "en": "nevertheless",
+          "pt": "ainda assim",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l13_w_nevertheless",
+          "exampleEn": "It is often assumed that growth in a city such as Quelimane automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Quelimane melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "substantial",
+          "pt": "substancial",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l13_w_substantial",
+          "exampleEn": "It is often assumed that growth in a city such as Quelimane automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Quelimane melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "hedging",
+          "pt": "hedging",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l13_w_hedging",
+          "exampleEn": "It is often assumed that growth in a city such as Quelimane automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Quelimane melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "and",
+          "pt": "and",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l13_w_and",
+          "exampleEn": "It is often assumed that growth in a city such as Quelimane automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Quelimane melhora automaticamente a vida diária; o quadro é mais irregular."
+        }
+      ],
+      "guidedReading": {
+        "title": "Hedging and stance",
+        "sentences": [
+          {
+            "id": "c1-c1u02-l13-s1",
+            "en": "It is often assumed that growth in a city such as Quelimane automatically improves daily life; the picture is more uneven.",
+            "pt": "Costuma assumir-se que o crescimento de uma cidade como Quelimane melhora automaticamente a vida diária; o quadro é mais irregular.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l13_s1"
+          },
+          {
+            "id": "c1-c1u02-l13-s2",
+            "en": "Graça tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+            "pt": "Graça tende a descrever a mudança em termos práticos: tempo de espera, distância à escola, custo da viagem.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l13_s2"
+          },
+          {
+            "id": "c1-c1u02-l13-s3",
+            "en": "It is worth asking who benefits first when a new road or a new platform is announced.",
+            "pt": "Vale a pena perguntar quem beneficia primeiro quando se anuncia uma estrada ou uma plataforma nova.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l13_s3"
+          },
+          {
+            "id": "c1-c1u02-l13-s4",
+            "en": "A careful account would separate what has improved from what has merely become more visible.",
+            "pt": "Um relato cuidadoso separaria o que melhorou do que apenas se tornou mais visível.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l13_s4"
+          },
+          {
+            "id": "c1-c1u02-l13-s5",
+            "en": "The language aim is hedging and stance: Tends to, it appears, it is worth considering.",
+            "pt": "Tends to, it appears, it is worth considering.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l13_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "c1-c1u02-l13-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "nuance",
+                "pt": "O que é mais próximo de «nuance»?"
+              },
+              "options": [
+                "nuance",
+                "pressuposto",
+                "implicação",
+                "coerente"
+              ],
+              "answer": "nuance"
+            },
+            {
+              "question": {
+                "en": "assumption",
+                "pt": "O que é mais próximo de «assumption»?"
+              },
+              "options": [
+                "pressuposto",
+                "nuance",
+                "implicação",
+                "coerente"
+              ],
+              "answer": "pressuposto"
+            },
+            {
+              "question": {
+                "en": "implication",
+                "pt": "O que é mais próximo de «implication»?"
+              },
+              "options": [
+                "implicação",
+                "nuance",
+                "pressuposto",
+                "coerente"
+              ],
+              "answer": "implicação"
+            },
+            {
+              "question": {
+                "en": "coherent",
+                "pt": "O que é mais próximo de «coherent»?"
+              },
+              "options": [
+                "coerente",
+                "nuance",
+                "pressuposto",
+                "implicação"
+              ],
+              "answer": "coerente"
+            }
+          ]
+        },
+        {
+          "id": "c1-c1u02-l13-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "It is often assumed that growth in a city such as Quelimane automatically improves daily life; the picture is more uneven.",
+              "answer": true
+            },
+            {
+              "sentence": "Graça tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+              "answer": true
+            },
+            {
+              "sentence": "It is worth asking who benefits first when a new road or a new platform is announced.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to nuance.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 100
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Quelimane"
+      }
+    },
+    {
+      "id": "c1-c1u02-l14",
+      "unitId": "c1u02",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Hedging: Revisão de estilo",
+        "en": "Hedging and stance: Revisão de estilo"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Tends to, it appears, it is worth considering.",
+        "Revisão de estilo"
+      ],
+      "newWords": [
+        {
+          "en": "nuance",
+          "pt": "nuance",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l14_w_nuance",
+          "exampleEn": "It is often assumed that growth in a city such as Beira automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Beira melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "assumption",
+          "pt": "pressuposto",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l14_w_assumption",
+          "exampleEn": "It is often assumed that growth in a city such as Beira automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Beira melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "implication",
+          "pt": "implicação",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l14_w_implication",
+          "exampleEn": "It is often assumed that growth in a city such as Beira automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Beira melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "coherent",
+          "pt": "coerente",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l14_w_coherent",
+          "exampleEn": "It is often assumed that growth in a city such as Beira automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Beira melhora automaticamente a vida diária; o quadro é mais irregular."
+        }
+      ],
+      "guidedReading": {
+        "title": "Hedging and stance",
+        "sentences": [
+          {
+            "id": "c1-c1u02-l14-s1",
+            "en": "It is often assumed that growth in a city such as Beira automatically improves daily life; the picture is more uneven.",
+            "pt": "Costuma assumir-se que o crescimento de uma cidade como Beira melhora automaticamente a vida diária; o quadro é mais irregular.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l14_s1"
+          },
+          {
+            "id": "c1-c1u02-l14-s2",
+            "en": "Paulo tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+            "pt": "Paulo tende a descrever a mudança em termos práticos: tempo de espera, distância à escola, custo da viagem.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l14_s2"
+          },
+          {
+            "id": "c1-c1u02-l14-s3",
+            "en": "It is worth asking who benefits first when a new road or a new platform is announced.",
+            "pt": "Vale a pena perguntar quem beneficia primeiro quando se anuncia uma estrada ou uma plataforma nova.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l14_s3"
+          },
+          {
+            "id": "c1-c1u02-l14-s4",
+            "en": "A careful account would separate what has improved from what has merely become more visible.",
+            "pt": "Um relato cuidadoso separaria o que melhorou do que apenas se tornou mais visível.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l14_s4"
+          },
+          {
+            "id": "c1-c1u02-l14-s5",
+            "en": "The language aim is hedging and stance: Tends to, it appears, it is worth considering.",
+            "pt": "Tends to, it appears, it is worth considering.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l14_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "c1-c1u02-l14-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (nuance)",
+              "answer": "nuance",
+              "options": [
+                "nuance",
+                "assumption",
+                "implication",
+                "coherent"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (pressuposto)",
+              "answer": "assumption",
+              "options": [
+                "assumption",
+                "nuance",
+                "implication",
+                "coherent"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (implicação)",
+              "answer": "implication",
+              "options": [
+                "implication",
+                "nuance",
+                "assumption",
+                "coherent"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c1-c1u02-l14-a2",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "c1-c1u02-l14_lw_0",
+              "answer": "It is often assumed that growth in a city such as Beira automatically improves daily life; the picture is more uneven.",
+              "hint": "It"
+            },
+            {
+              "audioKey": "c1-c1u02-l14_lw_1",
+              "answer": "Paulo tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+              "hint": "Paulo"
+            },
+            {
+              "audioKey": "c1-c1u02-l14_lw_2",
+              "answer": "It is worth asking who benefits first when a new road or a new platform is announced.",
+              "hint": "It"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 100
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Beira"
+      }
+    },
+    {
+      "id": "c1-c1u02-l15",
+      "unitId": "c1u02",
+      "order": 15,
+      "kind": "content",
+      "title": {
+        "pt": "Hedging: Mini-teste",
+        "en": "Hedging and stance: Mini-teste"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "speaking"
+      ],
+      "objectives": [
+        "Tends to, it appears, it is worth considering.",
+        "Mini-teste"
+      ],
+      "newWords": [
+        {
+          "en": "coherent",
+          "pt": "coerente",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l15_w_coherent",
+          "exampleEn": "It is often assumed that growth in a city such as Pemba automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Pemba melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "tentative",
+          "pt": "provisório",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l15_w_tentative",
+          "exampleEn": "It is often assumed that growth in a city such as Pemba automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Pemba melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "stakeholder",
+          "pt": "parte interessada",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l15_w_stakeholder",
+          "exampleEn": "It is often assumed that growth in a city such as Pemba automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Pemba melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "trade-off",
+          "pt": "compromisso / troca",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l15_w_trade-off",
+          "exampleEn": "It is often assumed that growth in a city such as Pemba automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Pemba melhora automaticamente a vida diária; o quadro é mais irregular."
+        }
+      ],
+      "guidedReading": {
+        "title": "Hedging and stance",
+        "sentences": [
+          {
+            "id": "c1-c1u02-l15-s1",
+            "en": "It is often assumed that growth in a city such as Pemba automatically improves daily life; the picture is more uneven.",
+            "pt": "Costuma assumir-se que o crescimento de uma cidade como Pemba melhora automaticamente a vida diária; o quadro é mais irregular.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l15_s1"
+          },
+          {
+            "id": "c1-c1u02-l15-s2",
+            "en": "Ibraimo tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+            "pt": "Ibraimo tende a descrever a mudança em termos práticos: tempo de espera, distância à escola, custo da viagem.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l15_s2"
+          },
+          {
+            "id": "c1-c1u02-l15-s3",
+            "en": "It is worth asking who benefits first when a new road or a new platform is announced.",
+            "pt": "Vale a pena perguntar quem beneficia primeiro quando se anuncia uma estrada ou uma plataforma nova.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l15_s3"
+          },
+          {
+            "id": "c1-c1u02-l15-s4",
+            "en": "A careful account would separate what has improved from what has merely become more visible.",
+            "pt": "Um relato cuidadoso separaria o que melhorou do que apenas se tornou mais visível.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l15_s4"
+          },
+          {
+            "id": "c1-c1u02-l15-s5",
+            "en": "The language aim is hedging and stance: Tends to, it appears, it is worth considering.",
+            "pt": "Tends to, it appears, it is worth considering.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l15_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "c1-c1u02-l15-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante 90 seconds.",
+            "en": "Speak for 90 seconds."
+          },
+          "items": [
+            {
+              "en": "It is often assumed that growth in a city such as Pemba automatically improves daily life; the picture is more uneven.",
+              "task": "Qualify a claim and mention who is affected.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        },
+        {
+          "id": "c1-c1u02-l15-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 100
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Pemba"
+      }
+    },
+    {
+      "id": "c1-c1u02-l16",
+      "unitId": "c1u02",
+      "order": 16,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste — Hedging",
+        "en": "Unit Test"
+      },
+      "type": "unit_test",
+      "durationMin": 14,
+      "xp": 40,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing"
+      ],
+      "objectives": [
+        "Tends to, it appears, it is worth considering.",
+        "Peça final da unidade"
+      ],
+      "newWords": [
+        {
+          "en": "trade-off",
+          "pt": "compromisso / troca",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l16_w_trade-off",
+          "exampleEn": "It is often assumed that growth in a city such as Tete automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Tete melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "assess",
+          "pt": "avaliar",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l16_w_assess",
+          "exampleEn": "It is often assumed that growth in a city such as Tete automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Tete melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "register",
+          "pt": "registo (de língua)",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l16_w_register",
+          "exampleEn": "It is often assumed that growth in a city such as Tete automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Tete melhora automaticamente a vida diária; o quadro é mais irregular."
+        },
+        {
+          "en": "briefing",
+          "pt": "nota de síntese",
+          "ipa": "",
+          "audioKey": "c1-c1u02-l16_w_briefing",
+          "exampleEn": "It is often assumed that growth in a city such as Tete automatically improves daily life; the picture is more uneven.",
+          "examplePt": "Costuma assumir-se que o crescimento de uma cidade como Tete melhora automaticamente a vida diária; o quadro é mais irregular."
+        }
+      ],
+      "guidedReading": {
+        "title": "Hedging and stance",
+        "sentences": [
+          {
+            "id": "c1-c1u02-l16-s1",
+            "en": "It is often assumed that growth in a city such as Tete automatically improves daily life; the picture is more uneven.",
+            "pt": "Costuma assumir-se que o crescimento de uma cidade como Tete melhora automaticamente a vida diária; o quadro é mais irregular.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l16_s1"
+          },
+          {
+            "id": "c1-c1u02-l16-s2",
+            "en": "Lurdes tends to describe the change in practical terms: waiting time, school distance, the cost of a journey.",
+            "pt": "Lurdes tende a descrever a mudança em termos práticos: tempo de espera, distância à escola, custo da viagem.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l16_s2"
+          },
+          {
+            "id": "c1-c1u02-l16-s3",
+            "en": "It is worth asking who benefits first when a new road or a new platform is announced.",
+            "pt": "Vale a pena perguntar quem beneficia primeiro quando se anuncia uma estrada ou uma plataforma nova.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l16_s3"
+          },
+          {
+            "id": "c1-c1u02-l16-s4",
+            "en": "A careful account would separate what has improved from what has merely become more visible.",
+            "pt": "Um relato cuidadoso separaria o que melhorou do que apenas se tornou mais visível.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l16_s4"
+          },
+          {
+            "id": "c1-c1u02-l16-s5",
+            "en": "The language aim is hedging and stance: Tends to, it appears, it is worth considering.",
+            "pt": "Tends to, it appears, it is worth considering.",
+            "ipa": "",
+            "audioKey": "c1-c1u02-l16_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "c1-c1u02-l16-a1",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "It",
+                "is",
+                "often",
+                "assumed",
+                "that",
+                "growth",
+                "in",
+                "a"
+              ],
+              "answer": "It is often assumed that growth in a"
+            },
+            {
+              "words": [
+                "Lurdes",
+                "tends",
+                "to",
+                "describe",
+                "the",
+                "change",
+                "in",
+                "practical"
+              ],
+              "answer": "Lurdes tends to describe the change in practical"
+            },
+            {
+              "words": [
+                "It",
+                "is",
+                "worth",
+                "asking",
+                "who",
+                "benefits",
+                "first",
+                "when"
+              ],
+              "answer": "It is worth asking who benefits first when"
+            }
+          ]
+        },
+        {
+          "id": "c1-c1u02-l16-a2",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "nuance",
+              "pt": "nuance"
+            },
+            {
+              "en": "assumption",
+              "pt": "pressuposto"
+            },
+            {
+              "en": "implication",
+              "pt": "implicação"
+            },
+            {
+              "en": "coherent",
+              "pt": "coerente"
+            },
+            {
+              "en": "tentative",
+              "pt": "provisório"
+            },
+            {
+              "en": "stakeholder",
+              "pt": "parte interessada"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 180
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Tete"
+      }
+    }
+  ]
+}

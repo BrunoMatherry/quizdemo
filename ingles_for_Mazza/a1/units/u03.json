@@ -1,0 +1,3484 @@
+{
+  "id": "u03",
+  "level": "A1",
+  "order": 3,
+  "title": {
+    "pt": "Eu sou de…",
+    "en": "I am from…"
+  },
+  "goal": "País, cidade, nacionalidade na CPLP e SADC.",
+  "themeImageHint": "I am from…",
+  "lessonCount": 20,
+  "lessons": [
+    {
+      "id": "a1-u03-l01",
+      "unitId": "u03",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "Eu sou de Moçambique",
+        "en": "Eu sou de Moçambique"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "País, cidade, nacionalidade na CPLP e SADC.",
+        "Eu sou de Moçambique"
+      ],
+      "newWords": [
+        {
+          "en": "country",
+          "pt": "país",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l01_w_country",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "city",
+          "pt": "cidade",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l01_w_city",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "from",
+          "pt": "de",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l01_w_from",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "Mozambican",
+          "pt": "moçambicano/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l01_w_mozambican",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Eu sou de Moçambique",
+        "sentences": [
+          {
+            "id": "a1-u03-l01-s1",
+            "en": "Amina lives in Maputo.",
+            "pt": "Amina mora em Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l01_s1"
+          },
+          {
+            "id": "a1-u03-l01-s2",
+            "en": "Today the lesson is Eu sou de Moçambique.",
+            "pt": "Hoje a lição é: Eu sou de Moçambique.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l01_s2"
+          },
+          {
+            "id": "a1-u03-l01-s3",
+            "en": "We learn 'country' and 'city'.",
+            "pt": "Aprendemos «país» e «cidade».",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l01_s3"
+          },
+          {
+            "id": "a1-u03-l01-s4",
+            "en": "Amina says: I use 'Mozambican' every day.",
+            "pt": "Amina diz: uso «moçambicano/a» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l01_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u03-l01-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u03-l01_repeat",
+          "items": [
+            {
+              "en": "Amina lives in Maputo.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l01-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "country",
+                "pt": "O que significa «country»?"
+              },
+              "options": [
+                "país",
+                "de",
+                "angolano/a",
+                "onde"
+              ],
+              "answer": "país"
+            },
+            {
+              "question": {
+                "en": "city",
+                "pt": "O que significa «city»?"
+              },
+              "options": [
+                "cidade",
+                "moçambicano/a",
+                "português/a",
+                "viver / morar"
+              ],
+              "answer": "cidade"
+            },
+            {
+              "question": {
+                "en": "from",
+                "pt": "O que significa «from»?"
+              },
+              "options": [
+                "de",
+                "angolano/a",
+                "onde",
+                "eu moro em"
+              ],
+              "answer": "de"
+            },
+            {
+              "question": {
+                "en": "Mozambican",
+                "pt": "O que significa «Mozambican»?"
+              },
+              "options": [
+                "moçambicano/a",
+                "português/a",
+                "viver / morar",
+                "África"
+              ],
+              "answer": "moçambicano/a"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-l02",
+      "unitId": "u03",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "Cidades: Maputo a Pemba",
+        "en": "Cidades: Maputo a Pemba"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "País, cidade, nacionalidade na CPLP e SADC.",
+        "Cidades: Maputo a Pemba"
+      ],
+      "newWords": [
+        {
+          "en": "Mozambican",
+          "pt": "moçambicano/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l02_w_mozambican",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "Angolan",
+          "pt": "angolano/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l02_w_angolan",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "Portuguese",
+          "pt": "português/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l02_w_portuguese",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "where",
+          "pt": "onde",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l02_w_where",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Cidades: Maputo a Pemba",
+        "sentences": [
+          {
+            "id": "a1-u03-l02-s1",
+            "en": "João lives in Matola.",
+            "pt": "João mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l02_s1"
+          },
+          {
+            "id": "a1-u03-l02-s2",
+            "en": "Today the lesson is Cidades: Maputo a Pemba.",
+            "pt": "Hoje a lição é: Cidades: Maputo a Pemba.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l02_s2"
+          },
+          {
+            "id": "a1-u03-l02-s3",
+            "en": "We learn 'city' and 'from'.",
+            "pt": "Aprendemos «cidade» e «de».",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l02_s3"
+          },
+          {
+            "id": "a1-u03-l02-s4",
+            "en": "João says: I use 'Angolan' every day.",
+            "pt": "João diz: uso «angolano/a» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l02_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u03-l02-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "country",
+              "options": [
+                "country",
+                "city",
+                "from",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "city",
+              "options": [
+                "city",
+                "from",
+                "Mozambican",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "from",
+              "options": [
+                "from",
+                "Mozambican",
+                "Angolan",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-l03",
+      "unitId": "u03",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "Nacionalidades da CPLP",
+        "en": "Nacionalidades da CPLP"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "País, cidade, nacionalidade na CPLP e SADC.",
+        "Nacionalidades da CPLP"
+      ],
+      "newWords": [
+        {
+          "en": "where",
+          "pt": "onde",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l03_w_where",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "live",
+          "pt": "viver / morar",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l03_w_live",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "I live in",
+          "pt": "eu moro em",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l03_w_i-live-in",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "Africa",
+          "pt": "África",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l03_w_africa",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        }
+      ],
+      "guidedReading": {
+        "title": "Nacionalidades da CPLP",
+        "sentences": [
+          {
+            "id": "a1-u03-l03-s1",
+            "en": "Fátima lives in Xai-Xai.",
+            "pt": "Fátima mora em Xai-Xai.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l03_s1"
+          },
+          {
+            "id": "a1-u03-l03-s2",
+            "en": "Today the lesson is Nacionalidades da CPLP.",
+            "pt": "Hoje a lição é: Nacionalidades da CPLP.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l03_s2"
+          },
+          {
+            "id": "a1-u03-l03-s3",
+            "en": "We learn 'from' and 'Mozambican'.",
+            "pt": "Aprendemos «de» e «moçambicano/a».",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l03_s3"
+          },
+          {
+            "id": "a1-u03-l03-s4",
+            "en": "Fátima says: I use 'Portuguese' every day.",
+            "pt": "Fátima diz: uso «português/a» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l03_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u03-l03-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "country",
+              "pt": "país"
+            },
+            {
+              "en": "city",
+              "pt": "cidade"
+            },
+            {
+              "en": "from",
+              "pt": "de"
+            },
+            {
+              "en": "Mozambican",
+              "pt": "moçambicano/a"
+            },
+            {
+              "en": "Angolan",
+              "pt": "angolano/a"
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l03-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'country' in Portuguese is 'país'.",
+              "answer": true
+            },
+            {
+              "sentence": "'country' means 'moçambicano/a'.",
+              "answer": false
+            },
+            {
+              "sentence": "'city' in Portuguese is 'cidade'.",
+              "answer": true
+            },
+            {
+              "sentence": "'city' means 'angolano/a'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-l04",
+      "unitId": "u03",
+      "order": 4,
+      "kind": "content",
+      "title": {
+        "pt": "Vizinhos da SADC",
+        "en": "Vizinhos da SADC"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "País, cidade, nacionalidade na CPLP e SADC.",
+        "Vizinhos da SADC"
+      ],
+      "newWords": [
+        {
+          "en": "Africa",
+          "pt": "África",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l04_w_africa",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "language",
+          "pt": "língua",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l04_w_language",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "Portuguese",
+          "pt": "português",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l04_w_portuguese",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "English",
+          "pt": "inglês",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l04_w_english",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Vizinhos da SADC",
+        "sentences": [
+          {
+            "id": "a1-u03-l04-s1",
+            "en": "Carlos lives in Inhambane.",
+            "pt": "Carlos mora em Inhambane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l04_s1"
+          },
+          {
+            "id": "a1-u03-l04-s2",
+            "en": "Today the lesson is Vizinhos da SADC.",
+            "pt": "Hoje a lição é: Vizinhos da SADC.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l04_s2"
+          },
+          {
+            "id": "a1-u03-l04-s3",
+            "en": "We learn 'Mozambican' and 'Angolan'.",
+            "pt": "Aprendemos «moçambicano/a» e «angolano/a».",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l04_s3"
+          },
+          {
+            "id": "a1-u03-l04-s4",
+            "en": "Carlos says: I use 'where' every day.",
+            "pt": "Carlos diz: uso «onde» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l04_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u03-l04-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u03-l04_lw_carlos-is-in-inham",
+              "answer": "Carlos is in Inhambane. country.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u03-l04_lw_carlos-is-in-inham",
+              "answer": "Carlos is in Inhambane. city.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u03-l04_lw_carlos-is-in-inham",
+              "answer": "Carlos is in Inhambane. from.",
+              "hint": "Carlos"
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l04-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "country"
+              ],
+              "answer": "I need country"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "city"
+              ],
+              "answer": "I need city"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "from"
+              ],
+              "answer": "I need from"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-l05",
+      "unitId": "u03",
+      "order": 5,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 1",
+        "en": "Checkpoint quiz 1"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "País, cidade, nacionalidade na CPLP e SADC.",
+        "Mini-teste 1"
+      ],
+      "newWords": [
+        {
+          "en": "English",
+          "pt": "inglês",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l05_w_english",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 1",
+        "sentences": [
+          {
+            "id": "a1-u03-l05-s1",
+            "en": "Let’s review. Graça is from Vilankulo.",
+            "pt": "Vamos rever. Graça é de Vilankulo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l05_s1"
+          },
+          {
+            "id": "a1-u03-l05-s2",
+            "en": "This unit is about I am from….",
+            "pt": "Esta unidade é sobre Eu sou de….",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l05_s2"
+          },
+          {
+            "id": "a1-u03-l05-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l05_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u03-l05-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "country",
+                "pt": "O que significa «country»?"
+              },
+              "options": [
+                "país",
+                "de",
+                "angolano/a",
+                "onde"
+              ],
+              "answer": "país"
+            },
+            {
+              "question": {
+                "en": "city",
+                "pt": "O que significa «city»?"
+              },
+              "options": [
+                "cidade",
+                "moçambicano/a",
+                "português/a",
+                "viver / morar"
+              ],
+              "answer": "cidade"
+            },
+            {
+              "question": {
+                "en": "from",
+                "pt": "O que significa «from»?"
+              },
+              "options": [
+                "de",
+                "angolano/a",
+                "onde",
+                "eu moro em"
+              ],
+              "answer": "de"
+            },
+            {
+              "question": {
+                "en": "Mozambican",
+                "pt": "O que significa «Mozambican»?"
+              },
+              "options": [
+                "moçambicano/a",
+                "português/a",
+                "viver / morar",
+                "África"
+              ],
+              "answer": "moçambicano/a"
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l05-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "country",
+              "options": [
+                "country",
+                "city",
+                "from",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "city",
+              "options": [
+                "city",
+                "from",
+                "Mozambican",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "from",
+              "options": [
+                "from",
+                "Mozambican",
+                "Angolan",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l05-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u03-l05_lw_carlos-is-in-inham",
+              "answer": "Carlos is in Inhambane. country.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u03-l05_lw_carlos-is-in-inham",
+              "answer": "Carlos is in Inhambane. city.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u03-l05_lw_carlos-is-in-inham",
+              "answer": "Carlos is in Inhambane. from.",
+              "hint": "Carlos"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-l06",
+      "unitId": "u03",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "Onde moras?",
+        "en": "Onde moras?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "País, cidade, nacionalidade na CPLP e SADC.",
+        "Onde moras?"
+      ],
+      "newWords": [
+        {
+          "en": "from",
+          "pt": "de",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l06_w_from",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "Mozambican",
+          "pt": "moçambicano/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l06_w_mozambican",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "Angolan",
+          "pt": "angolano/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l06_w_angolan",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "Portuguese",
+          "pt": "português/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l06_w_portuguese",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Onde moras?",
+        "sentences": [
+          {
+            "id": "a1-u03-l06-s1",
+            "en": "Ibraimo lives in Beira.",
+            "pt": "Ibraimo mora em Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l06_s1"
+          },
+          {
+            "id": "a1-u03-l06-s2",
+            "en": "Today the lesson is Eu moro em….",
+            "pt": "Hoje a lição é: Eu moro em….",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l06_s2"
+          },
+          {
+            "id": "a1-u03-l06-s3",
+            "en": "We learn 'Portuguese' and 'where'.",
+            "pt": "Aprendemos «português/a» e «onde».",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l06_s3"
+          },
+          {
+            "id": "a1-u03-l06-s4",
+            "en": "Ibraimo says: I use 'I live in' every day.",
+            "pt": "Ibraimo diz: uso «eu moro em» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l06_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u03-l06-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Ibraimo lives in Beira.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l06-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "country",
+                "pt": "O que significa «country»?"
+              },
+              "options": [
+                "país",
+                "de",
+                "angolano/a",
+                "onde"
+              ],
+              "answer": "país"
+            },
+            {
+              "question": {
+                "en": "city",
+                "pt": "O que significa «city»?"
+              },
+              "options": [
+                "cidade",
+                "moçambicano/a",
+                "português/a",
+                "viver / morar"
+              ],
+              "answer": "cidade"
+            },
+            {
+              "question": {
+                "en": "from",
+                "pt": "O que significa «from»?"
+              },
+              "options": [
+                "de",
+                "angolano/a",
+                "onde",
+                "eu moro em"
+              ],
+              "answer": "de"
+            },
+            {
+              "question": {
+                "en": "Mozambican",
+                "pt": "O que significa «Mozambican»?"
+              },
+              "options": [
+                "moçambicano/a",
+                "português/a",
+                "viver / morar",
+                "África"
+              ],
+              "answer": "moçambicano/a"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-l07",
+      "unitId": "u03",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "Eu moro em…",
+        "en": "Eu moro em…"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "País, cidade, nacionalidade na CPLP e SADC.",
+        "Eu moro em…"
+      ],
+      "newWords": [
+        {
+          "en": "Portuguese",
+          "pt": "português/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l07_w_portuguese",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "where",
+          "pt": "onde",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l07_w_where",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "live",
+          "pt": "viver / morar",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l07_w_live",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "I live in",
+          "pt": "eu moro em",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l07_w_i-live-in",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        }
+      ],
+      "guidedReading": {
+        "title": "Eu moro em…",
+        "sentences": [
+          {
+            "id": "a1-u03-l07-s1",
+            "en": "Esperança lives in Chimoio.",
+            "pt": "Esperança mora em Chimoio.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l07_s1"
+          },
+          {
+            "id": "a1-u03-l07-s2",
+            "en": "Today the lesson is Línguas que falo.",
+            "pt": "Hoje a lição é: Línguas que falo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l07_s2"
+          },
+          {
+            "id": "a1-u03-l07-s3",
+            "en": "We learn 'where' and 'live'.",
+            "pt": "Aprendemos «onde» e «viver / morar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l07_s3"
+          },
+          {
+            "id": "a1-u03-l07-s4",
+            "en": "Esperança says: I use 'Africa' every day.",
+            "pt": "Esperança diz: uso «África» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l07_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u03-l07-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u03-l07_repeat",
+          "items": [
+            {
+              "en": "Esperança lives in Chimoio.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l07-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "country",
+                "pt": "O que significa «country»?"
+              },
+              "options": [
+                "país",
+                "de",
+                "angolano/a",
+                "onde"
+              ],
+              "answer": "país"
+            },
+            {
+              "question": {
+                "en": "city",
+                "pt": "O que significa «city»?"
+              },
+              "options": [
+                "cidade",
+                "moçambicano/a",
+                "português/a",
+                "viver / morar"
+              ],
+              "answer": "cidade"
+            },
+            {
+              "question": {
+                "en": "from",
+                "pt": "O que significa «from»?"
+              },
+              "options": [
+                "de",
+                "angolano/a",
+                "onde",
+                "eu moro em"
+              ],
+              "answer": "de"
+            },
+            {
+              "question": {
+                "en": "Mozambican",
+                "pt": "O que significa «Mozambican»?"
+              },
+              "options": [
+                "moçambicano/a",
+                "português/a",
+                "viver / morar",
+                "África"
+              ],
+              "answer": "moçambicano/a"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-l08",
+      "unitId": "u03",
+      "order": 8,
+      "kind": "content",
+      "title": {
+        "pt": "Línguas que falo",
+        "en": "Línguas que falo"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "País, cidade, nacionalidade na CPLP e SADC.",
+        "Línguas que falo"
+      ],
+      "newWords": [
+        {
+          "en": "I live in",
+          "pt": "eu moro em",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l08_w_i-live-in",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "Africa",
+          "pt": "África",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l08_w_africa",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "language",
+          "pt": "língua",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l08_w_language",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "Portuguese",
+          "pt": "português",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l08_w_portuguese",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        }
+      ],
+      "guidedReading": {
+        "title": "Línguas que falo",
+        "sentences": [
+          {
+            "id": "a1-u03-l08-s1",
+            "en": "Paulo lives in Tete.",
+            "pt": "Paulo mora em Tete.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l08_s1"
+          },
+          {
+            "id": "a1-u03-l08-s2",
+            "en": "Today the lesson is Eu falo português.",
+            "pt": "Hoje a lição é: Eu falo português.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l08_s2"
+          },
+          {
+            "id": "a1-u03-l08-s3",
+            "en": "We learn 'live' and 'I live in'.",
+            "pt": "Aprendemos «viver / morar» e «eu moro em».",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l08_s3"
+          },
+          {
+            "id": "a1-u03-l08-s4",
+            "en": "Paulo says: I use 'language' every day.",
+            "pt": "Paulo diz: uso «língua» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l08_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u03-l08-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "country",
+              "options": [
+                "country",
+                "city",
+                "from",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "city",
+              "options": [
+                "city",
+                "from",
+                "Mozambican",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "from",
+              "options": [
+                "from",
+                "Mozambican",
+                "Angolan",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-l09",
+      "unitId": "u03",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Eu falo português",
+        "en": "Eu falo português"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "País, cidade, nacionalidade na CPLP e SADC.",
+        "Eu falo português"
+      ],
+      "newWords": [
+        {
+          "en": "Portuguese",
+          "pt": "português",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l09_w_portuguese",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "English",
+          "pt": "inglês",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l09_w_english",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Eu falo português",
+        "sentences": [
+          {
+            "id": "a1-u03-l09-s1",
+            "en": "Belmira lives in Quelimane.",
+            "pt": "Belmira mora em Quelimane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l09_s1"
+          },
+          {
+            "id": "a1-u03-l09-s2",
+            "en": "Today the lesson is Eu aprendo inglês.",
+            "pt": "Hoje a lição é: Eu aprendo inglês.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l09_s2"
+          },
+          {
+            "id": "a1-u03-l09-s3",
+            "en": "We learn 'I live in' and 'Africa'.",
+            "pt": "Aprendemos «eu moro em» e «África».",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l09_s3"
+          },
+          {
+            "id": "a1-u03-l09-s4",
+            "en": "Belmira says: I use 'Portuguese' every day.",
+            "pt": "Belmira diz: uso «português» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l09_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u03-l09-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "country",
+              "pt": "país"
+            },
+            {
+              "en": "city",
+              "pt": "cidade"
+            },
+            {
+              "en": "from",
+              "pt": "de"
+            },
+            {
+              "en": "Mozambican",
+              "pt": "moçambicano/a"
+            },
+            {
+              "en": "Angolan",
+              "pt": "angolano/a"
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l09-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'country' in Portuguese is 'país'.",
+              "answer": true
+            },
+            {
+              "sentence": "'country' means 'moçambicano/a'.",
+              "answer": false
+            },
+            {
+              "sentence": "'city' in Portuguese is 'cidade'.",
+              "answer": true
+            },
+            {
+              "sentence": "'city' means 'angolano/a'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-l10",
+      "unitId": "u03",
+      "order": 10,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão guiada",
+        "en": "Guided review"
+      },
+      "type": "review",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectives": [
+        "País, cidade, nacionalidade na CPLP e SADC.",
+        "Revisão guiada"
+      ],
+      "newWords": [
+        {
+          "en": "city",
+          "pt": "cidade",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l10_w_city",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "from",
+          "pt": "de",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l10_w_from",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "Mozambican",
+          "pt": "moçambicano/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l10_w_mozambican",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "Angolan",
+          "pt": "angolano/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l10_w_angolan",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        }
+      ],
+      "guidedReading": {
+        "title": "Guided review",
+        "sentences": [
+          {
+            "id": "a1-u03-l10-s1",
+            "en": "Let’s review. Nélio is from Nampula.",
+            "pt": "Vamos rever. Nélio é de Nampula.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l10_s1"
+          },
+          {
+            "id": "a1-u03-l10-s2",
+            "en": "This unit is about I am from….",
+            "pt": "Esta unidade é sobre Eu sou de….",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l10_s2"
+          },
+          {
+            "id": "a1-u03-l10-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l10_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u03-l10-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u03-l10_lw_carlos-is-in-inham",
+              "answer": "Carlos is in Inhambane. country.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u03-l10_lw_carlos-is-in-inham",
+              "answer": "Carlos is in Inhambane. city.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u03-l10_lw_carlos-is-in-inham",
+              "answer": "Carlos is in Inhambane. from.",
+              "hint": "Carlos"
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l10-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "country"
+              ],
+              "answer": "I need country"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "city"
+              ],
+              "answer": "I need city"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "from"
+              ],
+              "answer": "I need from"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-l11",
+      "unitId": "u03",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "Eu aprendo inglês",
+        "en": "Eu aprendo inglês"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "País, cidade, nacionalidade na CPLP e SADC.",
+        "Eu aprendo inglês"
+      ],
+      "newWords": [
+        {
+          "en": "Angolan",
+          "pt": "angolano/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l11_w_angolan",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "Portuguese",
+          "pt": "português/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l11_w_portuguese",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "where",
+          "pt": "onde",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l11_w_where",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "live",
+          "pt": "viver / morar",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l11_w_live",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        }
+      ],
+      "guidedReading": {
+        "title": "Eu aprendo inglês",
+        "sentences": [
+          {
+            "id": "a1-u03-l11-s1",
+            "en": "Lurdes lives in Nacala.",
+            "pt": "Lurdes mora em Nacala.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l11_s1"
+          },
+          {
+            "id": "a1-u03-l11-s2",
+            "en": "Today the lesson is Ela é de Luanda.",
+            "pt": "Hoje a lição é: Ela é de Luanda.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l11_s2"
+          },
+          {
+            "id": "a1-u03-l11-s3",
+            "en": "We learn 'language' and 'Portuguese'.",
+            "pt": "Aprendemos «língua» e «português».",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l11_s3"
+          },
+          {
+            "id": "a1-u03-l11-s4",
+            "en": "Lurdes says: I use 'country' every day.",
+            "pt": "Lurdes diz: uso «país» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l11_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u03-l11-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u03-l11_tap",
+          "items": [
+            {
+              "answer": "country",
+              "options": [
+                "country",
+                "city",
+                "from",
+                "Mozambican"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l11-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-l12",
+      "unitId": "u03",
+      "order": 12,
+      "kind": "content",
+      "title": {
+        "pt": "Ele é de Tete",
+        "en": "Ele é de Tete"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "País, cidade, nacionalidade na CPLP e SADC.",
+        "Ele é de Tete"
+      ],
+      "newWords": [
+        {
+          "en": "live",
+          "pt": "viver / morar",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l12_w_live",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "I live in",
+          "pt": "eu moro em",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l12_w_i-live-in",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "Africa",
+          "pt": "África",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l12_w_africa",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "language",
+          "pt": "língua",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l12_w_language",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        }
+      ],
+      "guidedReading": {
+        "title": "Ele é de Tete",
+        "sentences": [
+          {
+            "id": "a1-u03-l12-s1",
+            "en": "Faruk lives in Pemba.",
+            "pt": "Faruk mora em Pemba.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l12_s1"
+          },
+          {
+            "id": "a1-u03-l12-s2",
+            "en": "Today the lesson is Diálogo: no aeroporto.",
+            "pt": "Hoje a lição é: Diálogo: no aeroporto.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l12_s2"
+          },
+          {
+            "id": "a1-u03-l12-s3",
+            "en": "We learn 'Portuguese' and 'English'.",
+            "pt": "Aprendemos «português» e «inglês».",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l12_s3"
+          },
+          {
+            "id": "a1-u03-l12-s4",
+            "en": "Faruk says: I use 'city' every day.",
+            "pt": "Faruk diz: uso «cidade» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l12_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u03-l12-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Faruk lives in Pemba.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l12-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "country",
+                "pt": "O que significa «country»?"
+              },
+              "options": [
+                "país",
+                "de",
+                "angolano/a",
+                "onde"
+              ],
+              "answer": "país"
+            },
+            {
+              "question": {
+                "en": "city",
+                "pt": "O que significa «city»?"
+              },
+              "options": [
+                "cidade",
+                "moçambicano/a",
+                "português/a",
+                "viver / morar"
+              ],
+              "answer": "cidade"
+            },
+            {
+              "question": {
+                "en": "from",
+                "pt": "O que significa «from»?"
+              },
+              "options": [
+                "de",
+                "angolano/a",
+                "onde",
+                "eu moro em"
+              ],
+              "answer": "de"
+            },
+            {
+              "question": {
+                "en": "Mozambican",
+                "pt": "O que significa «Mozambican»?"
+              },
+              "options": [
+                "moçambicano/a",
+                "português/a",
+                "viver / morar",
+                "África"
+              ],
+              "answer": "moçambicano/a"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-l13",
+      "unitId": "u03",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Ela é de Luanda",
+        "en": "Ela é de Luanda"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "País, cidade, nacionalidade na CPLP e SADC.",
+        "Ela é de Luanda"
+      ],
+      "newWords": [
+        {
+          "en": "language",
+          "pt": "língua",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l13_w_language",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "Portuguese",
+          "pt": "português",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l13_w_portuguese",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "English",
+          "pt": "inglês",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l13_w_english",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        }
+      ],
+      "guidedReading": {
+        "title": "Ela é de Luanda",
+        "sentences": [
+          {
+            "id": "a1-u03-l13-s1",
+            "en": "Josina lives in Lichinga.",
+            "pt": "Josina mora em Lichinga.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l13_s1"
+          },
+          {
+            "id": "a1-u03-l13-s2",
+            "en": "Today the lesson is Diálogo: dois colegas.",
+            "pt": "Hoje a lição é: Diálogo: dois colegas.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l13_s2"
+          },
+          {
+            "id": "a1-u03-l13-s3",
+            "en": "We learn 'English' and 'country'.",
+            "pt": "Aprendemos «inglês» e «país».",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l13_s3"
+          },
+          {
+            "id": "a1-u03-l13-s4",
+            "en": "Josina says: I use 'from' every day.",
+            "pt": "Josina diz: uso «de» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l13_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u03-l13-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u03-l13_repeat",
+          "items": [
+            {
+              "en": "Josina lives in Lichinga.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l13-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "country",
+                "pt": "O que significa «country»?"
+              },
+              "options": [
+                "país",
+                "de",
+                "angolano/a",
+                "onde"
+              ],
+              "answer": "país"
+            },
+            {
+              "question": {
+                "en": "city",
+                "pt": "O que significa «city»?"
+              },
+              "options": [
+                "cidade",
+                "moçambicano/a",
+                "português/a",
+                "viver / morar"
+              ],
+              "answer": "cidade"
+            },
+            {
+              "question": {
+                "en": "from",
+                "pt": "O que significa «from»?"
+              },
+              "options": [
+                "de",
+                "angolano/a",
+                "onde",
+                "eu moro em"
+              ],
+              "answer": "de"
+            },
+            {
+              "question": {
+                "en": "Mozambican",
+                "pt": "O que significa «Mozambican»?"
+              },
+              "options": [
+                "moçambicano/a",
+                "português/a",
+                "viver / morar",
+                "África"
+              ],
+              "answer": "moçambicano/a"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-l14",
+      "unitId": "u03",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: no aeroporto",
+        "en": "Diálogo: no aeroporto"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "País, cidade, nacionalidade na CPLP e SADC.",
+        "Diálogo: no aeroporto"
+      ],
+      "newWords": [
+        {
+          "en": "country",
+          "pt": "país",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l14_w_country",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "city",
+          "pt": "cidade",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l14_w_city",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "from",
+          "pt": "de",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l14_w_from",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "Mozambican",
+          "pt": "moçambicano/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l14_w_mozambican",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: no aeroporto",
+        "sentences": [
+          {
+            "id": "a1-u03-l14-s1",
+            "en": "Tendai lives in Ilha de Moçambique.",
+            "pt": "Tendai mora em Ilha de Moçambique.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l14_s1"
+          },
+          {
+            "id": "a1-u03-l14-s2",
+            "en": "Today the lesson is Mapa mental da África.",
+            "pt": "Hoje a lição é: Mapa mental da África.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l14_s2"
+          },
+          {
+            "id": "a1-u03-l14-s3",
+            "en": "We learn 'country' and 'city'.",
+            "pt": "Aprendemos «país» e «cidade».",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l14_s3"
+          },
+          {
+            "id": "a1-u03-l14-s4",
+            "en": "Tendai says: I use 'Mozambican' every day.",
+            "pt": "Tendai diz: uso «moçambicano/a» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l14_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u03-l14-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "country",
+              "options": [
+                "country",
+                "city",
+                "from",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "city",
+              "options": [
+                "city",
+                "from",
+                "Mozambican",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "from",
+              "options": [
+                "from",
+                "Mozambican",
+                "Angolan",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-l15",
+      "unitId": "u03",
+      "order": 15,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 2",
+        "en": "Checkpoint quiz 2"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "País, cidade, nacionalidade na CPLP e SADC.",
+        "Mini-teste 2"
+      ],
+      "newWords": [
+        {
+          "en": "Mozambican",
+          "pt": "moçambicano/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l15_w_mozambican",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "Angolan",
+          "pt": "angolano/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l15_w_angolan",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "Portuguese",
+          "pt": "português/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l15_w_portuguese",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "where",
+          "pt": "onde",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l15_w_where",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 2",
+        "sentences": [
+          {
+            "id": "a1-u03-l15-s1",
+            "en": "Let’s review. Amélia is from Maputo.",
+            "pt": "Vamos rever. Amélia é de Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l15_s1"
+          },
+          {
+            "id": "a1-u03-l15-s2",
+            "en": "This unit is about I am from….",
+            "pt": "Esta unidade é sobre Eu sou de….",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l15_s2"
+          },
+          {
+            "id": "a1-u03-l15-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l15_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u03-l15-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "country",
+                "pt": "O que significa «country»?"
+              },
+              "options": [
+                "país",
+                "de",
+                "angolano/a",
+                "onde"
+              ],
+              "answer": "país"
+            },
+            {
+              "question": {
+                "en": "city",
+                "pt": "O que significa «city»?"
+              },
+              "options": [
+                "cidade",
+                "moçambicano/a",
+                "português/a",
+                "viver / morar"
+              ],
+              "answer": "cidade"
+            },
+            {
+              "question": {
+                "en": "from",
+                "pt": "O que significa «from»?"
+              },
+              "options": [
+                "de",
+                "angolano/a",
+                "onde",
+                "eu moro em"
+              ],
+              "answer": "de"
+            },
+            {
+              "question": {
+                "en": "Mozambican",
+                "pt": "O que significa «Mozambican»?"
+              },
+              "options": [
+                "moçambicano/a",
+                "português/a",
+                "viver / morar",
+                "África"
+              ],
+              "answer": "moçambicano/a"
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l15-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "country",
+              "options": [
+                "country",
+                "city",
+                "from",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "city",
+              "options": [
+                "city",
+                "from",
+                "Mozambican",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "from",
+              "options": [
+                "from",
+                "Mozambican",
+                "Angolan",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l15-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u03-l15_lw_carlos-is-in-inham",
+              "answer": "Carlos is in Inhambane. country.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u03-l15_lw_carlos-is-in-inham",
+              "answer": "Carlos is in Inhambane. city.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u03-l15_lw_carlos-is-in-inham",
+              "answer": "Carlos is in Inhambane. from.",
+              "hint": "Carlos"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-l16",
+      "unitId": "u03",
+      "order": 16,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: dois colegas",
+        "en": "Diálogo: dois colegas"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "País, cidade, nacionalidade na CPLP e SADC.",
+        "Diálogo: dois colegas"
+      ],
+      "newWords": [
+        {
+          "en": "where",
+          "pt": "onde",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l16_w_where",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "live",
+          "pt": "viver / morar",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l16_w_live",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "I live in",
+          "pt": "eu moro em",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l16_w_i-live-in",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "Africa",
+          "pt": "África",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l16_w_africa",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: dois colegas",
+        "sentences": [
+          {
+            "id": "a1-u03-l16-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l16_s1"
+          },
+          {
+            "id": "a1-u03-l16-s2",
+            "en": "Today the lesson is Apresenta a tua cidade.",
+            "pt": "Hoje a lição é: Apresenta a tua cidade.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l16_s2"
+          },
+          {
+            "id": "a1-u03-l16-s3",
+            "en": "We learn 'from' and 'Mozambican'.",
+            "pt": "Aprendemos «de» e «moçambicano/a».",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l16_s3"
+          },
+          {
+            "id": "a1-u03-l16-s4",
+            "en": "Zacarias says: I use 'Portuguese' every day.",
+            "pt": "Zacarias diz: uso «português/a» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l16_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u03-l16-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u03-l16_lw_carlos-is-in-inham",
+              "answer": "Carlos is in Inhambane. country.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u03-l16_lw_carlos-is-in-inham",
+              "answer": "Carlos is in Inhambane. city.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u03-l16_lw_carlos-is-in-inham",
+              "answer": "Carlos is in Inhambane. from.",
+              "hint": "Carlos"
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l16-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "country"
+              ],
+              "answer": "I need country"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "city"
+              ],
+              "answer": "I need city"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "from"
+              ],
+              "answer": "I need from"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-l17",
+      "unitId": "u03",
+      "order": 17,
+      "kind": "content",
+      "title": {
+        "pt": "Mapa mental da África",
+        "en": "Mapa mental da África"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "País, cidade, nacionalidade na CPLP e SADC.",
+        "Mapa mental da África"
+      ],
+      "newWords": [
+        {
+          "en": "Africa",
+          "pt": "África",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l17_w_africa",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "language",
+          "pt": "língua",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l17_w_language",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "Portuguese",
+          "pt": "português",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l17_w_portuguese",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "English",
+          "pt": "inglês",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l17_w_english",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Mapa mental da África",
+        "sentences": [
+          {
+            "id": "a1-u03-l17-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l17_s1"
+          },
+          {
+            "id": "a1-u03-l17-s2",
+            "en": "Today the lesson is Apresenta a tua cidade.",
+            "pt": "Hoje a lição é: Apresenta a tua cidade.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l17_s2"
+          },
+          {
+            "id": "a1-u03-l17-s3",
+            "en": "We learn 'from' and 'Mozambican'.",
+            "pt": "Aprendemos «de» e «moçambicano/a».",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l17_s3"
+          },
+          {
+            "id": "a1-u03-l17-s4",
+            "en": "Zacarias says: I use 'Portuguese' every day.",
+            "pt": "Zacarias diz: uso «português/a» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l17_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u03-l17-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u03-l17_tap",
+          "items": [
+            {
+              "answer": "country",
+              "options": [
+                "country",
+                "city",
+                "from",
+                "Mozambican"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l17-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-l18",
+      "unitId": "u03",
+      "order": 18,
+      "kind": "content",
+      "title": {
+        "pt": "Sons: from / live",
+        "en": "Sons: from / live"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "País, cidade, nacionalidade na CPLP e SADC.",
+        "Sons: from / live"
+      ],
+      "newWords": [
+        {
+          "en": "English",
+          "pt": "inglês",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l18_w_english",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Sons: from / live",
+        "sentences": [
+          {
+            "id": "a1-u03-l18-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l18_s1"
+          },
+          {
+            "id": "a1-u03-l18-s2",
+            "en": "Today the lesson is Apresenta a tua cidade.",
+            "pt": "Hoje a lição é: Apresenta a tua cidade.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l18_s2"
+          },
+          {
+            "id": "a1-u03-l18-s3",
+            "en": "We learn 'from' and 'Mozambican'.",
+            "pt": "Aprendemos «de» e «moçambicano/a».",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l18_s3"
+          },
+          {
+            "id": "a1-u03-l18-s4",
+            "en": "Zacarias says: I use 'Portuguese' every day.",
+            "pt": "Zacarias diz: uso «português/a» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l18_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u03-l18-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l18-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "country",
+                "pt": "O que significa «country»?"
+              },
+              "options": [
+                "país",
+                "de",
+                "angolano/a",
+                "onde"
+              ],
+              "answer": "país"
+            },
+            {
+              "question": {
+                "en": "city",
+                "pt": "O que significa «city»?"
+              },
+              "options": [
+                "cidade",
+                "moçambicano/a",
+                "português/a",
+                "viver / morar"
+              ],
+              "answer": "cidade"
+            },
+            {
+              "question": {
+                "en": "from",
+                "pt": "O que significa «from»?"
+              },
+              "options": [
+                "de",
+                "angolano/a",
+                "onde",
+                "eu moro em"
+              ],
+              "answer": "de"
+            },
+            {
+              "question": {
+                "en": "Mozambican",
+                "pt": "O que significa «Mozambican»?"
+              },
+              "options": [
+                "moçambicano/a",
+                "português/a",
+                "viver / morar",
+                "África"
+              ],
+              "answer": "moçambicano/a"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-l19",
+      "unitId": "u03",
+      "order": 19,
+      "kind": "content",
+      "title": {
+        "pt": "Apresenta a tua cidade",
+        "en": "Apresenta a tua cidade"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "País, cidade, nacionalidade na CPLP e SADC.",
+        "Apresenta a tua cidade"
+      ],
+      "newWords": [
+        {
+          "en": "from",
+          "pt": "de",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l19_w_from",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "Mozambican",
+          "pt": "moçambicano/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l19_w_mozambican",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "Angolan",
+          "pt": "angolano/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l19_w_angolan",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "Portuguese",
+          "pt": "português/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l19_w_portuguese",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Apresenta a tua cidade",
+        "sentences": [
+          {
+            "id": "a1-u03-l19-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l19_s1"
+          },
+          {
+            "id": "a1-u03-l19-s2",
+            "en": "Today the lesson is Apresenta a tua cidade.",
+            "pt": "Hoje a lição é: Apresenta a tua cidade.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l19_s2"
+          },
+          {
+            "id": "a1-u03-l19-s3",
+            "en": "We learn 'from' and 'Mozambican'.",
+            "pt": "Aprendemos «de» e «moçambicano/a».",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l19_s3"
+          },
+          {
+            "id": "a1-u03-l19-s4",
+            "en": "Zacarias says: I use 'Portuguese' every day.",
+            "pt": "Zacarias diz: uso «português/a» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l19_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u03-l19-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u03-l19_repeat",
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l19-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "country",
+                "pt": "O que significa «country»?"
+              },
+              "options": [
+                "país",
+                "de",
+                "angolano/a",
+                "onde"
+              ],
+              "answer": "país"
+            },
+            {
+              "question": {
+                "en": "city",
+                "pt": "O que significa «city»?"
+              },
+              "options": [
+                "cidade",
+                "moçambicano/a",
+                "português/a",
+                "viver / morar"
+              ],
+              "answer": "cidade"
+            },
+            {
+              "question": {
+                "en": "from",
+                "pt": "O que significa «from»?"
+              },
+              "options": [
+                "de",
+                "angolano/a",
+                "onde",
+                "eu moro em"
+              ],
+              "answer": "de"
+            },
+            {
+              "question": {
+                "en": "Mozambican",
+                "pt": "O que significa «Mozambican»?"
+              },
+              "options": [
+                "moçambicano/a",
+                "português/a",
+                "viver / morar",
+                "África"
+              ],
+              "answer": "moçambicano/a"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-l20",
+      "unitId": "u03",
+      "order": 20,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste da unidade: Eu sou de…",
+        "en": "Unit test: I am from…"
+      },
+      "type": "unit_test",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "listening",
+        "reading",
+        "writing",
+        "grammar"
+      ],
+      "objectives": [
+        "País, cidade, nacionalidade na CPLP e SADC.",
+        "Teste da unidade: Eu sou de…"
+      ],
+      "newWords": [
+        {
+          "en": "Portuguese",
+          "pt": "português/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l20_w_portuguese",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "where",
+          "pt": "onde",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l20_w_where",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "live",
+          "pt": "viver / morar",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l20_w_live",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "I live in",
+          "pt": "eu moro em",
+          "ipa": "",
+          "audioKey": "a1_a1-u03-l20_w_i-live-in",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Unit test: I am from…",
+        "sentences": [
+          {
+            "id": "a1-u03-l20-s1",
+            "en": "Let’s review. Carlos is from Beira.",
+            "pt": "Vamos rever. Carlos é de Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l20_s1"
+          },
+          {
+            "id": "a1-u03-l20-s2",
+            "en": "This unit is about I am from….",
+            "pt": "Esta unidade é sobre Eu sou de….",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l20_s2"
+          },
+          {
+            "id": "a1-u03-l20-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u03-l20_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u03-l20-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "country",
+                "pt": "O que significa «country»?"
+              },
+              "options": [
+                "país",
+                "de",
+                "angolano/a",
+                "onde"
+              ],
+              "answer": "país"
+            },
+            {
+              "question": {
+                "en": "city",
+                "pt": "O que significa «city»?"
+              },
+              "options": [
+                "cidade",
+                "moçambicano/a",
+                "português/a",
+                "viver / morar"
+              ],
+              "answer": "cidade"
+            },
+            {
+              "question": {
+                "en": "from",
+                "pt": "O que significa «from»?"
+              },
+              "options": [
+                "de",
+                "angolano/a",
+                "onde",
+                "eu moro em"
+              ],
+              "answer": "de"
+            },
+            {
+              "question": {
+                "en": "Mozambican",
+                "pt": "O que significa «Mozambican»?"
+              },
+              "options": [
+                "moçambicano/a",
+                "português/a",
+                "viver / morar",
+                "África"
+              ],
+              "answer": "moçambicano/a"
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l20-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "country",
+              "options": [
+                "country",
+                "city",
+                "from",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "city",
+              "options": [
+                "city",
+                "from",
+                "Mozambican",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "from",
+              "options": [
+                "from",
+                "Mozambican",
+                "Angolan",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l20-a3",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'country' in Portuguese is 'país'.",
+              "answer": true
+            },
+            {
+              "sentence": "'country' means 'moçambicano/a'.",
+              "answer": false
+            },
+            {
+              "sentence": "'city' in Portuguese is 'cidade'.",
+              "answer": true
+            },
+            {
+              "sentence": "'city' means 'angolano/a'.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l20-a4",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "country"
+              ],
+              "answer": "I need country"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "city"
+              ],
+              "answer": "I need city"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "from"
+              ],
+              "answer": "I need from"
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l20-a5",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u03-l20_lw_carlos-is-in-inham",
+              "answer": "Carlos is in Inhambane. country.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u03-l20_lw_carlos-is-in-inham",
+              "answer": "Carlos is in Inhambane. city.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u03-l20_lw_carlos-is-in-inham",
+              "answer": "Carlos is in Inhambane. from.",
+              "hint": "Carlos"
+            }
+          ]
+        },
+        {
+          "id": "a1-u03-l20-a6",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    }
+  ]
+}

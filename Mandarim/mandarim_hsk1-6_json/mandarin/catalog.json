@@ -1,0 +1,88 @@
+{
+  "app": "Mandarim África Lusófona",
+  "driveFolder": "Mazza_mandarim — HSK Standard Course + New Practical Chinese Reader (inspiração de níveis; conteúdo original, sem cópia)",
+  "ui": "pt-MZ",
+  "target": "zh-CN",
+  "script": "simplified",
+  "audio": "TTS zh-CN rate 0.85 ou /audio/{audioKey}.mp3",
+  "levels": [
+    {
+      "id": "hsk1",
+      "hsk": "HSK 1",
+      "cefrNeighbour": "A1",
+      "file": "hsk1/manifest.json",
+      "stats": {
+        "units": 20,
+        "lessons": 400,
+        "activities": 800,
+        "guidedSentences": 1600
+      }
+    },
+    {
+      "id": "hsk2",
+      "hsk": "HSK 2",
+      "cefrNeighbour": "A2",
+      "file": "hsk2/manifest.json",
+      "stats": {
+        "units": 18,
+        "lessons": 324,
+        "activities": 648,
+        "guidedSentences": 1296
+      }
+    },
+    {
+      "id": "hsk3",
+      "hsk": "HSK 3",
+      "cefrNeighbour": "B1",
+      "file": "hsk3/manifest.json",
+      "stats": {
+        "units": 16,
+        "lessons": 256,
+        "activities": 512,
+        "guidedSentences": 1024
+      }
+    },
+    {
+      "id": "hsk4",
+      "hsk": "HSK 4",
+      "cefrNeighbour": "B2",
+      "file": "hsk4/manifest.json",
+      "stats": {
+        "units": 14,
+        "lessons": 196,
+        "activities": 392,
+        "guidedSentences": 784
+      }
+    },
+    {
+      "id": "hsk5",
+      "hsk": "HSK 5",
+      "cefrNeighbour": "C1",
+      "file": "hsk5/manifest.json",
+      "stats": {
+        "units": 12,
+        "lessons": 144,
+        "activities": 288,
+        "guidedSentences": 576
+      }
+    },
+    {
+      "id": "hsk6",
+      "hsk": "HSK 6",
+      "cefrNeighbour": "C2",
+      "file": "hsk6/manifest.json",
+      "stats": {
+        "units": 10,
+        "lessons": 100,
+        "activities": 200,
+        "guidedSentences": 400
+      }
+    }
+  ],
+  "totals": {
+    "lessons": 1420,
+    "units": 90,
+    "activities": 2840,
+    "guidedSentences": 5680
+  }
+}

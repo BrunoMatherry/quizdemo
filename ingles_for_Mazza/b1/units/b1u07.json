@@ -1,0 +1,3546 @@
+{
+  "id": "b1u07",
+  "level": "B1",
+  "order": 7,
+  "title": {
+    "pt": "Escola e futuro",
+    "en": "Study and future"
+  },
+  "goal": "Will, going to e escolhas depois da escola.",
+  "cambridgeInspiration": "B1 Preliminary for Schools (inspired by handbook structure)",
+  "lessonCount": 20,
+  "lessons": [
+    {
+      "id": "b1-b1u07-l01",
+      "unitId": "b1u07",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "Escola e futuro: Entrada no tema",
+        "en": "Study and future: Entrada no tema"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Will, going to e escolhas depois da escola.",
+        "Entrada no tema"
+      ],
+      "newWords": [
+        {
+          "en": "experience",
+          "pt": "experiência",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l01_w_experience",
+          "exampleEn": "Esperança has lived in Matola for several years and still notices small changes in the street.",
+          "examplePt": "Esperança vive em Matola há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "already",
+          "pt": "já",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l01_w_already",
+          "exampleEn": "Esperança has lived in Matola for several years and still notices small changes in the street.",
+          "examplePt": "Esperança vive em Matola há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "yet",
+          "pt": "ainda (em perguntas/neg.)",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l01_w_yet",
+          "exampleEn": "Esperança has lived in Matola for several years and still notices small changes in the street.",
+          "examplePt": "Esperança vive em Matola há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "should",
+          "pt": "deveria",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l01_w_should",
+          "exampleEn": "Esperança has lived in Matola for several years and still notices small changes in the street.",
+          "examplePt": "Esperança vive em Matola há alguns anos e ainda repara em mudanças pequenas na rua."
+        }
+      ],
+      "guidedReading": {
+        "title": "Study and future",
+        "sentences": [
+          {
+            "id": "b1-b1u07-l01-s1",
+            "en": "Esperança has lived in Matola for several years and still notices small changes in the street.",
+            "pt": "Esperança vive em Matola há alguns anos e ainda repara em mudanças pequenas na rua.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l01_s1"
+          },
+          {
+            "id": "b1-b1u07-l01-s2",
+            "en": "While she was waiting for the minibus, Carlos called from Luanda.",
+            "pt": "Enquanto esperava o chapa, Carlos ligou de Luanda.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l01_s2"
+          },
+          {
+            "id": "b1-b1u07-l01-s3",
+            "en": "If the rain starts early, the pitch behind the school will be too wet to play.",
+            "pt": "Se a chuva começar cedo, o campo atrás da escola fica demasiado molhado para jogar.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l01_s3"
+          },
+          {
+            "id": "b1-b1u07-l01-s4",
+            "en": "I think public transport in Chimoio works better in the morning than after five.",
+            "pt": "Acho que o transporte em Chimoio funciona melhor de manhã do que depois das cinco.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l01_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b1-b1u07-l01-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "experience",
+                "pt": "O que é mais próximo de «experience»?"
+              },
+              "options": [
+                "experiência",
+                "já",
+                "ainda (em perguntas/neg.)",
+                "deveria"
+              ],
+              "answer": "experiência"
+            },
+            {
+              "question": {
+                "en": "already",
+                "pt": "O que é mais próximo de «already»?"
+              },
+              "options": [
+                "já",
+                "experiência",
+                "ainda (em perguntas/neg.)",
+                "deveria"
+              ],
+              "answer": "já"
+            },
+            {
+              "question": {
+                "en": "yet",
+                "pt": "O que é mais próximo de «yet»?"
+              },
+              "options": [
+                "ainda (em perguntas/neg.)",
+                "experiência",
+                "já",
+                "deveria"
+              ],
+              "answer": "ainda (em perguntas/neg.)"
+            },
+            {
+              "question": {
+                "en": "should",
+                "pt": "O que é mais próximo de «should»?"
+              },
+              "options": [
+                "deveria",
+                "experiência",
+                "já",
+                "ainda (em perguntas/neg.)"
+              ],
+              "answer": "deveria"
+            }
+          ]
+        },
+        {
+          "id": "b1-b1u07-l01-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (experiência)",
+              "answer": "experience",
+              "options": [
+                "experience",
+                "already",
+                "yet",
+                "should"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (já)",
+              "answer": "already",
+              "options": [
+                "already",
+                "experience",
+                "yet",
+                "should"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (ainda (em perguntas/neg.))",
+              "answer": "yet",
+              "options": [
+                "yet",
+                "experience",
+                "already",
+                "should"
+              ]
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 40
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Matola"
+      }
+    },
+    {
+      "id": "b1-b1u07-l02",
+      "unitId": "b1u07",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "Escola e futuro: Padrão gramatical",
+        "en": "Study and future: Padrão gramatical"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Will, going to e escolhas depois da escola.",
+        "Padrão gramatical"
+      ],
+      "newWords": [
+        {
+          "en": "should",
+          "pt": "deveria",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l02_w_should",
+          "exampleEn": "Faruk has lived in Nacala for several years and still notices small changes in the street.",
+          "examplePt": "Faruk vive em Nacala há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "agree",
+          "pt": "concordar",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l02_w_agree",
+          "exampleEn": "Faruk has lived in Nacala for several years and still notices small changes in the street.",
+          "examplePt": "Faruk vive em Nacala há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "however",
+          "pt": "contudo",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l02_w_however",
+          "exampleEn": "Faruk has lived in Nacala for several years and still notices small changes in the street.",
+          "examplePt": "Faruk vive em Nacala há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "improve",
+          "pt": "melhorar",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l02_w_improve",
+          "exampleEn": "Faruk has lived in Nacala for several years and still notices small changes in the street.",
+          "examplePt": "Faruk vive em Nacala há alguns anos e ainda repara em mudanças pequenas na rua."
+        }
+      ],
+      "guidedReading": {
+        "title": "Study and future",
+        "sentences": [
+          {
+            "id": "b1-b1u07-l02-s1",
+            "en": "Faruk has lived in Nacala for several years and still notices small changes in the street.",
+            "pt": "Faruk vive em Nacala há alguns anos e ainda repara em mudanças pequenas na rua.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l02_s1"
+          },
+          {
+            "id": "b1-b1u07-l02-s2",
+            "en": "While he was waiting for the minibus, Marta called from Praia.",
+            "pt": "Enquanto esperava o chapa, Marta ligou de Praia.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l02_s2"
+          },
+          {
+            "id": "b1-b1u07-l02-s3",
+            "en": "If the rain starts early, the pitch behind the school will be too wet to play.",
+            "pt": "Se a chuva começar cedo, o campo atrás da escola fica demasiado molhado para jogar.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l02_s3"
+          },
+          {
+            "id": "b1-b1u07-l02-s4",
+            "en": "I think public transport in Inhambane works better in the morning than after five.",
+            "pt": "Acho que o transporte em Inhambane funciona melhor de manhã do que depois das cinco.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l02_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b1-b1u07-l02-a1",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "Faruk has lived in Nacala for several years and still notices small changes in the street.",
+              "answer": true
+            },
+            {
+              "sentence": "While he was waiting for the minibus, Marta called from Praia.",
+              "answer": true
+            },
+            {
+              "sentence": "If the rain starts early, the pitch behind the school will be too wet to play.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to experience.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b1-b1u07-l02-a2",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "b1-b1u07-l02_lw_0",
+              "answer": "Faruk has lived in Nacala for several years and still notices small changes in the street.",
+              "hint": "Faruk"
+            },
+            {
+              "audioKey": "b1-b1u07-l02_lw_1",
+              "answer": "While he was waiting for the minibus, Marta called from Praia.",
+              "hint": "While"
+            },
+            {
+              "audioKey": "b1-b1u07-l02_lw_2",
+              "answer": "If the rain starts early, the pitch behind the school will be too wet to play.",
+              "hint": "If"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 40
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Nacala"
+      }
+    },
+    {
+      "id": "b1-b1u07-l03",
+      "unitId": "b1u07",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "Escola e futuro: Texto de 6–8 linhas",
+        "en": "Study and future: Texto de 6–8 linhas"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Will, going to e escolhas depois da escola.",
+        "Texto de 6–8 linhas"
+      ],
+      "newWords": [
+        {
+          "en": "improve",
+          "pt": "melhorar",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l03_w_improve",
+          "exampleEn": "Belmira has lived in Inhambane for several years and still notices small changes in the street.",
+          "examplePt": "Belmira vive em Inhambane há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "problem",
+          "pt": "problema",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l03_w_problem",
+          "exampleEn": "Belmira has lived in Inhambane for several years and still notices small changes in the street.",
+          "examplePt": "Belmira vive em Inhambane há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "advice",
+          "pt": "conselho",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l03_w_advice",
+          "exampleEn": "Belmira has lived in Inhambane for several years and still notices small changes in the street.",
+          "examplePt": "Belmira vive em Inhambane há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "describe",
+          "pt": "descrever",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l03_w_describe",
+          "exampleEn": "Belmira has lived in Inhambane for several years and still notices small changes in the street.",
+          "examplePt": "Belmira vive em Inhambane há alguns anos e ainda repara em mudanças pequenas na rua."
+        }
+      ],
+      "guidedReading": {
+        "title": "Study and future",
+        "sentences": [
+          {
+            "id": "b1-b1u07-l03-s1",
+            "en": "Belmira has lived in Inhambane for several years and still notices small changes in the street.",
+            "pt": "Belmira vive em Inhambane há alguns anos e ainda repara em mudanças pequenas na rua.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l03_s1"
+          },
+          {
+            "id": "b1-b1u07-l03-s2",
+            "en": "While she was waiting for the minibus, Amina called from Nampula.",
+            "pt": "Enquanto esperava o chapa, Amina ligou de Nampula.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l03_s2"
+          },
+          {
+            "id": "b1-b1u07-l03-s3",
+            "en": "If the rain starts early, the pitch behind the school will be too wet to play.",
+            "pt": "Se a chuva começar cedo, o campo atrás da escola fica demasiado molhado para jogar.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l03_s3"
+          },
+          {
+            "id": "b1-b1u07-l03-s4",
+            "en": "I think public transport in Xai-Xai works better in the morning than after five.",
+            "pt": "Acho que o transporte em Xai-Xai funciona melhor de manhã do que depois das cinco.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l03_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b1-b1u07-l03-a1",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        },
+        {
+          "id": "b1-b1u07-l03-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "Belmira",
+                "has",
+                "lived",
+                "in",
+                "Inhambane",
+                "for",
+                "several",
+                "years"
+              ],
+              "answer": "Belmira has lived in Inhambane for several years"
+            },
+            {
+              "words": [
+                "While",
+                "she",
+                "was",
+                "waiting",
+                "for",
+                "the",
+                "minibus",
+                "Amina"
+              ],
+              "answer": "While she was waiting for the minibus Amina"
+            },
+            {
+              "words": [
+                "If",
+                "the",
+                "rain",
+                "starts",
+                "early",
+                "the",
+                "pitch",
+                "behind"
+              ],
+              "answer": "If the rain starts early the pitch behind"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 40
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Inhambane"
+      }
+    },
+    {
+      "id": "b1-b1u07-l04",
+      "unitId": "b1u07",
+      "order": 4,
+      "kind": "content",
+      "title": {
+        "pt": "Escola e futuro: Perguntas de detalhe",
+        "en": "Study and future: Perguntas de detalhe"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Will, going to e escolhas depois da escola.",
+        "Perguntas de detalhe"
+      ],
+      "newWords": [
+        {
+          "en": "describe",
+          "pt": "descrever",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l04_w_describe",
+          "exampleEn": "Carlos has lived in Luanda for several years and still notices small changes in the street.",
+          "examplePt": "Carlos vive em Luanda há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "choose",
+          "pt": "escolher",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l04_w_choose",
+          "exampleEn": "Carlos has lived in Luanda for several years and still notices small changes in the street.",
+          "examplePt": "Carlos vive em Luanda há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "reason",
+          "pt": "razão",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l04_w_reason",
+          "exampleEn": "Carlos has lived in Luanda for several years and still notices small changes in the street.",
+          "examplePt": "Carlos vive em Luanda há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "study",
+          "pt": "study",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l04_w_study",
+          "exampleEn": "Carlos has lived in Luanda for several years and still notices small changes in the street.",
+          "examplePt": "Carlos vive em Luanda há alguns anos e ainda repara em mudanças pequenas na rua."
+        }
+      ],
+      "guidedReading": {
+        "title": "Study and future",
+        "sentences": [
+          {
+            "id": "b1-b1u07-l04-s1",
+            "en": "Carlos has lived in Luanda for several years and still notices small changes in the street.",
+            "pt": "Carlos vive em Luanda há alguns anos e ainda repara em mudanças pequenas na rua.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l04_s1"
+          },
+          {
+            "id": "b1-b1u07-l04-s2",
+            "en": "While he was waiting for the minibus, João called from Maputo.",
+            "pt": "Enquanto esperava o chapa, João ligou de Maputo.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l04_s2"
+          },
+          {
+            "id": "b1-b1u07-l04-s3",
+            "en": "If the rain starts early, the pitch behind the school will be too wet to play.",
+            "pt": "Se a chuva começar cedo, o campo atrás da escola fica demasiado molhado para jogar.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l04_s3"
+          },
+          {
+            "id": "b1-b1u07-l04-s4",
+            "en": "I think public transport in Luanda works better in the morning than after five.",
+            "pt": "Acho que o transporte em Luanda funciona melhor de manhã do que depois das cinco.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l04_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b1-b1u07-l04-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante 45 seconds.",
+            "en": "Speak for 45 seconds."
+          },
+          "items": [
+            {
+              "en": "Carlos has lived in Luanda for several years and still notices small changes in the street.",
+              "task": "Give an opinion and one reason from daily life.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        },
+        {
+          "id": "b1-b1u07-l04-a2",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "experience",
+              "pt": "experiência"
+            },
+            {
+              "en": "already",
+              "pt": "já"
+            },
+            {
+              "en": "yet",
+              "pt": "ainda (em perguntas/neg.)"
+            },
+            {
+              "en": "should",
+              "pt": "deveria"
+            },
+            {
+              "en": "agree",
+              "pt": "concordar"
+            },
+            {
+              "en": "however",
+              "pt": "contudo"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 40
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Luanda"
+      }
+    },
+    {
+      "id": "b1-b1u07-l05",
+      "unitId": "b1u07",
+      "order": 5,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste",
+        "en": "Checkpoint"
+      },
+      "type": "checkpoint",
+      "durationMin": 8,
+      "xp": 22,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing",
+        "speaking"
+      ],
+      "objectives": [
+        "Will, going to e escolhas depois da escola.",
+        "Ouvir a ideia geral"
+      ],
+      "newWords": [
+        {
+          "en": "study",
+          "pt": "study",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l05_w_study",
+          "exampleEn": "Marta has lived in Praia for several years and still notices small changes in the street.",
+          "examplePt": "Marta vive em Praia há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "and",
+          "pt": "and",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l05_w_and",
+          "exampleEn": "Marta has lived in Praia for several years and still notices small changes in the street.",
+          "examplePt": "Marta vive em Praia há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "future",
+          "pt": "future",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l05_w_future",
+          "exampleEn": "Marta has lived in Praia for several years and still notices small changes in the street.",
+          "examplePt": "Marta vive em Praia há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "practice",
+          "pt": "practice",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l05_w_practice",
+          "exampleEn": "Marta has lived in Praia for several years and still notices small changes in the street.",
+          "examplePt": "Marta vive em Praia há alguns anos e ainda repara em mudanças pequenas na rua."
+        }
+      ],
+      "guidedReading": {
+        "title": "Study and future",
+        "sentences": [
+          {
+            "id": "b1-b1u07-l05-s1",
+            "en": "Marta has lived in Praia for several years and still notices small changes in the street.",
+            "pt": "Marta vive em Praia há alguns anos e ainda repara em mudanças pequenas na rua.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l05_s1"
+          },
+          {
+            "id": "b1-b1u07-l05-s2",
+            "en": "While she was waiting for the minibus, Graça called from Quelimane.",
+            "pt": "Enquanto esperava o chapa, Graça ligou de Quelimane.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l05_s2"
+          },
+          {
+            "id": "b1-b1u07-l05-s3",
+            "en": "If the rain starts early, the pitch behind the school will be too wet to play.",
+            "pt": "Se a chuva começar cedo, o campo atrás da escola fica demasiado molhado para jogar.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l05_s3"
+          },
+          {
+            "id": "b1-b1u07-l05-s4",
+            "en": "I think public transport in Benguela works better in the morning than after five.",
+            "pt": "Acho que o transporte em Benguela funciona melhor de manhã do que depois das cinco.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l05_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b1-b1u07-l05-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (experiência)",
+              "answer": "experience",
+              "options": [
+                "experience",
+                "already",
+                "yet",
+                "should"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (já)",
+              "answer": "already",
+              "options": [
+                "already",
+                "experience",
+                "yet",
+                "should"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (ainda (em perguntas/neg.))",
+              "answer": "yet",
+              "options": [
+                "yet",
+                "experience",
+                "already",
+                "should"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b1-b1u07-l05-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "experience",
+                "pt": "O que é mais próximo de «experience»?"
+              },
+              "options": [
+                "experiência",
+                "já",
+                "ainda (em perguntas/neg.)",
+                "deveria"
+              ],
+              "answer": "experiência"
+            },
+            {
+              "question": {
+                "en": "already",
+                "pt": "O que é mais próximo de «already»?"
+              },
+              "options": [
+                "já",
+                "experiência",
+                "ainda (em perguntas/neg.)",
+                "deveria"
+              ],
+              "answer": "já"
+            },
+            {
+              "question": {
+                "en": "yet",
+                "pt": "O que é mais próximo de «yet»?"
+              },
+              "options": [
+                "ainda (em perguntas/neg.)",
+                "experiência",
+                "já",
+                "deveria"
+              ],
+              "answer": "ainda (em perguntas/neg.)"
+            },
+            {
+              "question": {
+                "en": "should",
+                "pt": "O que é mais próximo de «should»?"
+              },
+              "options": [
+                "deveria",
+                "experiência",
+                "já",
+                "ainda (em perguntas/neg.)"
+              ],
+              "answer": "deveria"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Praia"
+      }
+    },
+    {
+      "id": "b1-b1u07-l06",
+      "unitId": "b1u07",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "Escola e futuro: Ouvir um detalhe",
+        "en": "Study and future: Ouvir um detalhe"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Will, going to e escolhas depois da escola.",
+        "Ouvir um detalhe"
+      ],
+      "newWords": [
+        {
+          "en": "yet",
+          "pt": "ainda (em perguntas/neg.)",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l06_w_yet",
+          "exampleEn": "Amina has lived in Nampula for several years and still notices small changes in the street.",
+          "examplePt": "Amina vive em Nampula há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "should",
+          "pt": "deveria",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l06_w_should",
+          "exampleEn": "Amina has lived in Nampula for several years and still notices small changes in the street.",
+          "examplePt": "Amina vive em Nampula há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "agree",
+          "pt": "concordar",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l06_w_agree",
+          "exampleEn": "Amina has lived in Nampula for several years and still notices small changes in the street.",
+          "examplePt": "Amina vive em Nampula há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "however",
+          "pt": "contudo",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l06_w_however",
+          "exampleEn": "Amina has lived in Nampula for several years and still notices small changes in the street.",
+          "examplePt": "Amina vive em Nampula há alguns anos e ainda repara em mudanças pequenas na rua."
+        }
+      ],
+      "guidedReading": {
+        "title": "Study and future",
+        "sentences": [
+          {
+            "id": "b1-b1u07-l06-s1",
+            "en": "Amina has lived in Nampula for several years and still notices small changes in the street.",
+            "pt": "Amina vive em Nampula há alguns anos e ainda repara em mudanças pequenas na rua.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l06_s1"
+          },
+          {
+            "id": "b1-b1u07-l06-s2",
+            "en": "While she was waiting for the minibus, Paulo called from Beira.",
+            "pt": "Enquanto esperava o chapa, Paulo ligou de Beira.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l06_s2"
+          },
+          {
+            "id": "b1-b1u07-l06-s3",
+            "en": "If the rain starts early, the pitch behind the school will be too wet to play.",
+            "pt": "Se a chuva começar cedo, o campo atrás da escola fica demasiado molhado para jogar.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l06_s3"
+          },
+          {
+            "id": "b1-b1u07-l06-s4",
+            "en": "I think public transport in Praia works better in the morning than after five.",
+            "pt": "Acho que o transporte em Praia funciona melhor de manhã do que depois das cinco.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l06_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b1-b1u07-l06-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "experience",
+                "pt": "O que é mais próximo de «experience»?"
+              },
+              "options": [
+                "experiência",
+                "já",
+                "ainda (em perguntas/neg.)",
+                "deveria"
+              ],
+              "answer": "experiência"
+            },
+            {
+              "question": {
+                "en": "already",
+                "pt": "O que é mais próximo de «already»?"
+              },
+              "options": [
+                "já",
+                "experiência",
+                "ainda (em perguntas/neg.)",
+                "deveria"
+              ],
+              "answer": "já"
+            },
+            {
+              "question": {
+                "en": "yet",
+                "pt": "O que é mais próximo de «yet»?"
+              },
+              "options": [
+                "ainda (em perguntas/neg.)",
+                "experiência",
+                "já",
+                "deveria"
+              ],
+              "answer": "ainda (em perguntas/neg.)"
+            },
+            {
+              "question": {
+                "en": "should",
+                "pt": "O que é mais próximo de «should»?"
+              },
+              "options": [
+                "deveria",
+                "experiência",
+                "já",
+                "ainda (em perguntas/neg.)"
+              ],
+              "answer": "deveria"
+            }
+          ]
+        },
+        {
+          "id": "b1-b1u07-l06-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (experiência)",
+              "answer": "experience",
+              "options": [
+                "experience",
+                "already",
+                "yet",
+                "should"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (já)",
+              "answer": "already",
+              "options": [
+                "already",
+                "experience",
+                "yet",
+                "should"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (ainda (em perguntas/neg.))",
+              "answer": "yet",
+              "options": [
+                "yet",
+                "experience",
+                "already",
+                "should"
+              ]
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 40
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Nampula"
+      }
+    },
+    {
+      "id": "b1-b1u07-l07",
+      "unitId": "b1u07",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "Escola e futuro: Opinião em duas frases",
+        "en": "Study and future: Opinião em duas frases"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Will, going to e escolhas depois da escola.",
+        "Opinião em duas frases"
+      ],
+      "newWords": [
+        {
+          "en": "however",
+          "pt": "contudo",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l07_w_however",
+          "exampleEn": "João has lived in Maputo for several years and still notices small changes in the street.",
+          "examplePt": "João vive em Maputo há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "improve",
+          "pt": "melhorar",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l07_w_improve",
+          "exampleEn": "João has lived in Maputo for several years and still notices small changes in the street.",
+          "examplePt": "João vive em Maputo há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "problem",
+          "pt": "problema",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l07_w_problem",
+          "exampleEn": "João has lived in Maputo for several years and still notices small changes in the street.",
+          "examplePt": "João vive em Maputo há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "advice",
+          "pt": "conselho",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l07_w_advice",
+          "exampleEn": "João has lived in Maputo for several years and still notices small changes in the street.",
+          "examplePt": "João vive em Maputo há alguns anos e ainda repara em mudanças pequenas na rua."
+        }
+      ],
+      "guidedReading": {
+        "title": "Study and future",
+        "sentences": [
+          {
+            "id": "b1-b1u07-l07-s1",
+            "en": "João has lived in Maputo for several years and still notices small changes in the street.",
+            "pt": "João vive em Maputo há alguns anos e ainda repara em mudanças pequenas na rua.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l07_s1"
+          },
+          {
+            "id": "b1-b1u07-l07-s2",
+            "en": "While he was waiting for the minibus, Ibraimo called from Pemba.",
+            "pt": "Enquanto esperava o chapa, Ibraimo ligou de Pemba.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l07_s2"
+          },
+          {
+            "id": "b1-b1u07-l07-s3",
+            "en": "If the rain starts early, the pitch behind the school will be too wet to play.",
+            "pt": "Se a chuva começar cedo, o campo atrás da escola fica demasiado molhado para jogar.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l07_s3"
+          },
+          {
+            "id": "b1-b1u07-l07-s4",
+            "en": "I think public transport in Mindelo works better in the morning than after five.",
+            "pt": "Acho que o transporte em Mindelo funciona melhor de manhã do que depois das cinco.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l07_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b1-b1u07-l07-a1",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "João has lived in Maputo for several years and still notices small changes in the street.",
+              "answer": true
+            },
+            {
+              "sentence": "While he was waiting for the minibus, Ibraimo called from Pemba.",
+              "answer": true
+            },
+            {
+              "sentence": "If the rain starts early, the pitch behind the school will be too wet to play.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to experience.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b1-b1u07-l07-a2",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "b1-b1u07-l07_lw_0",
+              "answer": "João has lived in Maputo for several years and still notices small changes in the street.",
+              "hint": "João"
+            },
+            {
+              "audioKey": "b1-b1u07-l07_lw_1",
+              "answer": "While he was waiting for the minibus, Ibraimo called from Pemba.",
+              "hint": "While"
+            },
+            {
+              "audioKey": "b1-b1u07-l07_lw_2",
+              "answer": "If the rain starts early, the pitch behind the school will be too wet to play.",
+              "hint": "If"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 40
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Maputo"
+      }
+    },
+    {
+      "id": "b1-b1u07-l08",
+      "unitId": "b1u07",
+      "order": 8,
+      "kind": "content",
+      "title": {
+        "pt": "Escola e futuro: Concordar ou não",
+        "en": "Study and future: Concordar ou não"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Will, going to e escolhas depois da escola.",
+        "Concordar ou não"
+      ],
+      "newWords": [
+        {
+          "en": "advice",
+          "pt": "conselho",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l08_w_advice",
+          "exampleEn": "Graça has lived in Quelimane for several years and still notices small changes in the street.",
+          "examplePt": "Graça vive em Quelimane há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "describe",
+          "pt": "descrever",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l08_w_describe",
+          "exampleEn": "Graça has lived in Quelimane for several years and still notices small changes in the street.",
+          "examplePt": "Graça vive em Quelimane há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "choose",
+          "pt": "escolher",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l08_w_choose",
+          "exampleEn": "Graça has lived in Quelimane for several years and still notices small changes in the street.",
+          "examplePt": "Graça vive em Quelimane há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "reason",
+          "pt": "razão",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l08_w_reason",
+          "exampleEn": "Graça has lived in Quelimane for several years and still notices small changes in the street.",
+          "examplePt": "Graça vive em Quelimane há alguns anos e ainda repara em mudanças pequenas na rua."
+        }
+      ],
+      "guidedReading": {
+        "title": "Study and future",
+        "sentences": [
+          {
+            "id": "b1-b1u07-l08-s1",
+            "en": "Graça has lived in Quelimane for several years and still notices small changes in the street.",
+            "pt": "Graça vive em Quelimane há alguns anos e ainda repara em mudanças pequenas na rua.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l08_s1"
+          },
+          {
+            "id": "b1-b1u07-l08-s2",
+            "en": "While she was waiting for the minibus, Lurdes called from Tete.",
+            "pt": "Enquanto esperava o chapa, Lurdes ligou de Tete.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l08_s2"
+          },
+          {
+            "id": "b1-b1u07-l08-s3",
+            "en": "If the rain starts early, the pitch behind the school will be too wet to play.",
+            "pt": "Se a chuva começar cedo, o campo atrás da escola fica demasiado molhado para jogar.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l08_s3"
+          },
+          {
+            "id": "b1-b1u07-l08-s4",
+            "en": "I think public transport in Johannesburg works better in the morning than after five.",
+            "pt": "Acho que o transporte em Johannesburg funciona melhor de manhã do que depois das cinco.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l08_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b1-b1u07-l08-a1",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        },
+        {
+          "id": "b1-b1u07-l08-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "Graça",
+                "has",
+                "lived",
+                "in",
+                "Quelimane",
+                "for",
+                "several",
+                "years"
+              ],
+              "answer": "Graça has lived in Quelimane for several years"
+            },
+            {
+              "words": [
+                "While",
+                "she",
+                "was",
+                "waiting",
+                "for",
+                "the",
+                "minibus",
+                "Lurdes"
+              ],
+              "answer": "While she was waiting for the minibus Lurdes"
+            },
+            {
+              "words": [
+                "If",
+                "the",
+                "rain",
+                "starts",
+                "early",
+                "the",
+                "pitch",
+                "behind"
+              ],
+              "answer": "If the rain starts early the pitch behind"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 40
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Quelimane"
+      }
+    },
+    {
+      "id": "b1-b1u07-l09",
+      "unitId": "b1u07",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Escola e futuro: Escrever 40 palavras",
+        "en": "Study and future: Escrever 40 palavras"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Will, going to e escolhas depois da escola.",
+        "Escrever 40 palavras"
+      ],
+      "newWords": [
+        {
+          "en": "reason",
+          "pt": "razão",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l09_w_reason",
+          "exampleEn": "Paulo has lived in Beira for several years and still notices small changes in the street.",
+          "examplePt": "Paulo vive em Beira há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "study",
+          "pt": "study",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l09_w_study",
+          "exampleEn": "Paulo has lived in Beira for several years and still notices small changes in the street.",
+          "examplePt": "Paulo vive em Beira há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "and",
+          "pt": "and",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l09_w_and",
+          "exampleEn": "Paulo has lived in Beira for several years and still notices small changes in the street.",
+          "examplePt": "Paulo vive em Beira há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "future",
+          "pt": "future",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l09_w_future",
+          "exampleEn": "Paulo has lived in Beira for several years and still notices small changes in the street.",
+          "examplePt": "Paulo vive em Beira há alguns anos e ainda repara em mudanças pequenas na rua."
+        }
+      ],
+      "guidedReading": {
+        "title": "Study and future",
+        "sentences": [
+          {
+            "id": "b1-b1u07-l09-s1",
+            "en": "Paulo has lived in Beira for several years and still notices small changes in the street.",
+            "pt": "Paulo vive em Beira há alguns anos e ainda repara em mudanças pequenas na rua.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l09_s1"
+          },
+          {
+            "id": "b1-b1u07-l09-s2",
+            "en": "While he was waiting for the minibus, Nélio called from Chimoio.",
+            "pt": "Enquanto esperava o chapa, Nélio ligou de Chimoio.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l09_s2"
+          },
+          {
+            "id": "b1-b1u07-l09-s3",
+            "en": "If the rain starts early, the pitch behind the school will be too wet to play.",
+            "pt": "Se a chuva começar cedo, o campo atrás da escola fica demasiado molhado para jogar.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l09_s3"
+          },
+          {
+            "id": "b1-b1u07-l09-s4",
+            "en": "I think public transport in Harare works better in the morning than after five.",
+            "pt": "Acho que o transporte em Harare funciona melhor de manhã do que depois das cinco.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l09_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b1-b1u07-l09-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante 45 seconds.",
+            "en": "Speak for 45 seconds."
+          },
+          "items": [
+            {
+              "en": "Paulo has lived in Beira for several years and still notices small changes in the street.",
+              "task": "Give an opinion and one reason from daily life.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        },
+        {
+          "id": "b1-b1u07-l09-a2",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "experience",
+              "pt": "experiência"
+            },
+            {
+              "en": "already",
+              "pt": "já"
+            },
+            {
+              "en": "yet",
+              "pt": "ainda (em perguntas/neg.)"
+            },
+            {
+              "en": "should",
+              "pt": "deveria"
+            },
+            {
+              "en": "agree",
+              "pt": "concordar"
+            },
+            {
+              "en": "however",
+              "pt": "contudo"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 40
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Beira"
+      }
+    },
+    {
+      "id": "b1-b1u07-l10",
+      "unitId": "b1u07",
+      "order": 10,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste",
+        "en": "Checkpoint"
+      },
+      "type": "checkpoint",
+      "durationMin": 8,
+      "xp": 22,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing",
+        "speaking"
+      ],
+      "objectives": [
+        "Will, going to e escolhas depois da escola.",
+        "Corrigir um erro"
+      ],
+      "newWords": [
+        {
+          "en": "already",
+          "pt": "já",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l10_w_already",
+          "exampleEn": "Ibraimo has lived in Pemba for several years and still notices small changes in the street.",
+          "examplePt": "Ibraimo vive em Pemba há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "yet",
+          "pt": "ainda (em perguntas/neg.)",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l10_w_yet",
+          "exampleEn": "Ibraimo has lived in Pemba for several years and still notices small changes in the street.",
+          "examplePt": "Ibraimo vive em Pemba há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "should",
+          "pt": "deveria",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l10_w_should",
+          "exampleEn": "Ibraimo has lived in Pemba for several years and still notices small changes in the street.",
+          "examplePt": "Ibraimo vive em Pemba há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "agree",
+          "pt": "concordar",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l10_w_agree",
+          "exampleEn": "Ibraimo has lived in Pemba for several years and still notices small changes in the street.",
+          "examplePt": "Ibraimo vive em Pemba há alguns anos e ainda repara em mudanças pequenas na rua."
+        }
+      ],
+      "guidedReading": {
+        "title": "Study and future",
+        "sentences": [
+          {
+            "id": "b1-b1u07-l10-s1",
+            "en": "Ibraimo has lived in Pemba for several years and still notices small changes in the street.",
+            "pt": "Ibraimo vive em Pemba há alguns anos e ainda repara em mudanças pequenas na rua.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l10_s1"
+          },
+          {
+            "id": "b1-b1u07-l10-s2",
+            "en": "While he was waiting for the minibus, Esperança called from Matola.",
+            "pt": "Enquanto esperava o chapa, Esperança ligou de Matola.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l10_s2"
+          },
+          {
+            "id": "b1-b1u07-l10-s3",
+            "en": "If the rain starts early, the pitch behind the school will be too wet to play.",
+            "pt": "Se a chuva começar cedo, o campo atrás da escola fica demasiado molhado para jogar.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l10_s3"
+          },
+          {
+            "id": "b1-b1u07-l10-s4",
+            "en": "I think public transport in Nairobi works better in the morning than after five.",
+            "pt": "Acho que o transporte em Nairobi funciona melhor de manhã do que depois das cinco.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l10_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b1-b1u07-l10-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (experiência)",
+              "answer": "experience",
+              "options": [
+                "experience",
+                "already",
+                "yet",
+                "should"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (já)",
+              "answer": "already",
+              "options": [
+                "already",
+                "experience",
+                "yet",
+                "should"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (ainda (em perguntas/neg.))",
+              "answer": "yet",
+              "options": [
+                "yet",
+                "experience",
+                "already",
+                "should"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b1-b1u07-l10-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "experience",
+                "pt": "O que é mais próximo de «experience»?"
+              },
+              "options": [
+                "experiência",
+                "já",
+                "ainda (em perguntas/neg.)",
+                "deveria"
+              ],
+              "answer": "experiência"
+            },
+            {
+              "question": {
+                "en": "already",
+                "pt": "O que é mais próximo de «already»?"
+              },
+              "options": [
+                "já",
+                "experiência",
+                "ainda (em perguntas/neg.)",
+                "deveria"
+              ],
+              "answer": "já"
+            },
+            {
+              "question": {
+                "en": "yet",
+                "pt": "O que é mais próximo de «yet»?"
+              },
+              "options": [
+                "ainda (em perguntas/neg.)",
+                "experiência",
+                "já",
+                "deveria"
+              ],
+              "answer": "ainda (em perguntas/neg.)"
+            },
+            {
+              "question": {
+                "en": "should",
+                "pt": "O que é mais próximo de «should»?"
+              },
+              "options": [
+                "deveria",
+                "experiência",
+                "já",
+                "ainda (em perguntas/neg.)"
+              ],
+              "answer": "deveria"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Pemba"
+      }
+    },
+    {
+      "id": "b1-b1u07-l11",
+      "unitId": "b1u07",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "Escola e futuro: Palavras que trabalham juntas",
+        "en": "Study and future: Palavras que trabalham juntas"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Will, going to e escolhas depois da escola.",
+        "Palavras que trabalham juntas"
+      ],
+      "newWords": [
+        {
+          "en": "agree",
+          "pt": "concordar",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l11_w_agree",
+          "exampleEn": "Lurdes has lived in Tete for several years and still notices small changes in the street.",
+          "examplePt": "Lurdes vive em Tete há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "however",
+          "pt": "contudo",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l11_w_however",
+          "exampleEn": "Lurdes has lived in Tete for several years and still notices small changes in the street.",
+          "examplePt": "Lurdes vive em Tete há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "improve",
+          "pt": "melhorar",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l11_w_improve",
+          "exampleEn": "Lurdes has lived in Tete for several years and still notices small changes in the street.",
+          "examplePt": "Lurdes vive em Tete há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "problem",
+          "pt": "problema",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l11_w_problem",
+          "exampleEn": "Lurdes has lived in Tete for several years and still notices small changes in the street.",
+          "examplePt": "Lurdes vive em Tete há alguns anos e ainda repara em mudanças pequenas na rua."
+        }
+      ],
+      "guidedReading": {
+        "title": "Study and future",
+        "sentences": [
+          {
+            "id": "b1-b1u07-l11-s1",
+            "en": "Lurdes has lived in Tete for several years and still notices small changes in the street.",
+            "pt": "Lurdes vive em Tete há alguns anos e ainda repara em mudanças pequenas na rua.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l11_s1"
+          },
+          {
+            "id": "b1-b1u07-l11-s2",
+            "en": "While she was waiting for the minibus, Faruk called from Nacala.",
+            "pt": "Enquanto esperava o chapa, Faruk ligou de Nacala.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l11_s2"
+          },
+          {
+            "id": "b1-b1u07-l11-s3",
+            "en": "If the rain starts early, the pitch behind the school will be too wet to play.",
+            "pt": "Se a chuva começar cedo, o campo atrás da escola fica demasiado molhado para jogar.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l11_s3"
+          },
+          {
+            "id": "b1-b1u07-l11-s4",
+            "en": "I think public transport in Dar es Salaam works better in the morning than after five.",
+            "pt": "Acho que o transporte em Dar es Salaam funciona melhor de manhã do que depois das cinco.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l11_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b1-b1u07-l11-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "experience",
+                "pt": "O que é mais próximo de «experience»?"
+              },
+              "options": [
+                "experiência",
+                "já",
+                "ainda (em perguntas/neg.)",
+                "deveria"
+              ],
+              "answer": "experiência"
+            },
+            {
+              "question": {
+                "en": "already",
+                "pt": "O que é mais próximo de «already»?"
+              },
+              "options": [
+                "já",
+                "experiência",
+                "ainda (em perguntas/neg.)",
+                "deveria"
+              ],
+              "answer": "já"
+            },
+            {
+              "question": {
+                "en": "yet",
+                "pt": "O que é mais próximo de «yet»?"
+              },
+              "options": [
+                "ainda (em perguntas/neg.)",
+                "experiência",
+                "já",
+                "deveria"
+              ],
+              "answer": "ainda (em perguntas/neg.)"
+            },
+            {
+              "question": {
+                "en": "should",
+                "pt": "O que é mais próximo de «should»?"
+              },
+              "options": [
+                "deveria",
+                "experiência",
+                "já",
+                "ainda (em perguntas/neg.)"
+              ],
+              "answer": "deveria"
+            }
+          ]
+        },
+        {
+          "id": "b1-b1u07-l11-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (experiência)",
+              "answer": "experience",
+              "options": [
+                "experience",
+                "already",
+                "yet",
+                "should"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (já)",
+              "answer": "already",
+              "options": [
+                "already",
+                "experience",
+                "yet",
+                "should"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (ainda (em perguntas/neg.))",
+              "answer": "yet",
+              "options": [
+                "yet",
+                "experience",
+                "already",
+                "should"
+              ]
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 40
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Tete"
+      }
+    },
+    {
+      "id": "b1-b1u07-l12",
+      "unitId": "b1u07",
+      "order": 12,
+      "kind": "content",
+      "title": {
+        "pt": "Escola e futuro: Situação real",
+        "en": "Study and future: Situação real"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Will, going to e escolhas depois da escola.",
+        "Situação real"
+      ],
+      "newWords": [
+        {
+          "en": "problem",
+          "pt": "problema",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l12_w_problem",
+          "exampleEn": "Nélio has lived in Chimoio for several years and still notices small changes in the street.",
+          "examplePt": "Nélio vive em Chimoio há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "advice",
+          "pt": "conselho",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l12_w_advice",
+          "exampleEn": "Nélio has lived in Chimoio for several years and still notices small changes in the street.",
+          "examplePt": "Nélio vive em Chimoio há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "describe",
+          "pt": "descrever",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l12_w_describe",
+          "exampleEn": "Nélio has lived in Chimoio for several years and still notices small changes in the street.",
+          "examplePt": "Nélio vive em Chimoio há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "choose",
+          "pt": "escolher",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l12_w_choose",
+          "exampleEn": "Nélio has lived in Chimoio for several years and still notices small changes in the street.",
+          "examplePt": "Nélio vive em Chimoio há alguns anos e ainda repara em mudanças pequenas na rua."
+        }
+      ],
+      "guidedReading": {
+        "title": "Study and future",
+        "sentences": [
+          {
+            "id": "b1-b1u07-l12-s1",
+            "en": "Nélio has lived in Chimoio for several years and still notices small changes in the street.",
+            "pt": "Nélio vive em Chimoio há alguns anos e ainda repara em mudanças pequenas na rua.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l12_s1"
+          },
+          {
+            "id": "b1-b1u07-l12-s2",
+            "en": "While he was waiting for the minibus, Belmira called from Inhambane.",
+            "pt": "Enquanto esperava o chapa, Belmira ligou de Inhambane.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l12_s2"
+          },
+          {
+            "id": "b1-b1u07-l12-s3",
+            "en": "If the rain starts early, the pitch behind the school will be too wet to play.",
+            "pt": "Se a chuva começar cedo, o campo atrás da escola fica demasiado molhado para jogar.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l12_s3"
+          },
+          {
+            "id": "b1-b1u07-l12-s4",
+            "en": "I think public transport in Maputo works better in the morning than after five.",
+            "pt": "Acho que o transporte em Maputo funciona melhor de manhã do que depois das cinco.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l12_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b1-b1u07-l12-a1",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "Nélio has lived in Chimoio for several years and still notices small changes in the street.",
+              "answer": true
+            },
+            {
+              "sentence": "While he was waiting for the minibus, Belmira called from Inhambane.",
+              "answer": true
+            },
+            {
+              "sentence": "If the rain starts early, the pitch behind the school will be too wet to play.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to experience.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b1-b1u07-l12-a2",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "b1-b1u07-l12_lw_0",
+              "answer": "Nélio has lived in Chimoio for several years and still notices small changes in the street.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "b1-b1u07-l12_lw_1",
+              "answer": "While he was waiting for the minibus, Belmira called from Inhambane.",
+              "hint": "While"
+            },
+            {
+              "audioKey": "b1-b1u07-l12_lw_2",
+              "answer": "If the rain starts early, the pitch behind the school will be too wet to play.",
+              "hint": "If"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 40
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Chimoio"
+      }
+    },
+    {
+      "id": "b1-b1u07-l13",
+      "unitId": "b1u07",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Escola e futuro: Situação profissional leve",
+        "en": "Study and future: Situação profissional leve"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Will, going to e escolhas depois da escola.",
+        "Situação profissional leve"
+      ],
+      "newWords": [
+        {
+          "en": "choose",
+          "pt": "escolher",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l13_w_choose",
+          "exampleEn": "Esperança has lived in Matola for several years and still notices small changes in the street.",
+          "examplePt": "Esperança vive em Matola há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "reason",
+          "pt": "razão",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l13_w_reason",
+          "exampleEn": "Esperança has lived in Matola for several years and still notices small changes in the street.",
+          "examplePt": "Esperança vive em Matola há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "study",
+          "pt": "study",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l13_w_study",
+          "exampleEn": "Esperança has lived in Matola for several years and still notices small changes in the street.",
+          "examplePt": "Esperança vive em Matola há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "and",
+          "pt": "and",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l13_w_and",
+          "exampleEn": "Esperança has lived in Matola for several years and still notices small changes in the street.",
+          "examplePt": "Esperança vive em Matola há alguns anos e ainda repara em mudanças pequenas na rua."
+        }
+      ],
+      "guidedReading": {
+        "title": "Study and future",
+        "sentences": [
+          {
+            "id": "b1-b1u07-l13-s1",
+            "en": "Esperança has lived in Matola for several years and still notices small changes in the street.",
+            "pt": "Esperança vive em Matola há alguns anos e ainda repara em mudanças pequenas na rua.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l13_s1"
+          },
+          {
+            "id": "b1-b1u07-l13-s2",
+            "en": "While she was waiting for the minibus, Carlos called from Luanda.",
+            "pt": "Enquanto esperava o chapa, Carlos ligou de Luanda.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l13_s2"
+          },
+          {
+            "id": "b1-b1u07-l13-s3",
+            "en": "If the rain starts early, the pitch behind the school will be too wet to play.",
+            "pt": "Se a chuva começar cedo, o campo atrás da escola fica demasiado molhado para jogar.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l13_s3"
+          },
+          {
+            "id": "b1-b1u07-l13-s4",
+            "en": "I think public transport in Matola works better in the morning than after five.",
+            "pt": "Acho que o transporte em Matola funciona melhor de manhã do que depois das cinco.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l13_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b1-b1u07-l13-a1",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        },
+        {
+          "id": "b1-b1u07-l13-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "Esperança",
+                "has",
+                "lived",
+                "in",
+                "Matola",
+                "for",
+                "several",
+                "years"
+              ],
+              "answer": "Esperança has lived in Matola for several years"
+            },
+            {
+              "words": [
+                "While",
+                "she",
+                "was",
+                "waiting",
+                "for",
+                "the",
+                "minibus",
+                "Carlos"
+              ],
+              "answer": "While she was waiting for the minibus Carlos"
+            },
+            {
+              "words": [
+                "If",
+                "the",
+                "rain",
+                "starts",
+                "early",
+                "the",
+                "pitch",
+                "behind"
+              ],
+              "answer": "If the rain starts early the pitch behind"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 40
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Matola"
+      }
+    },
+    {
+      "id": "b1-b1u07-l14",
+      "unitId": "b1u07",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Escola e futuro: Descrever uma foto (texto)",
+        "en": "Study and future: Descrever uma foto (texto)"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Will, going to e escolhas depois da escola.",
+        "Descrever uma foto (texto)"
+      ],
+      "newWords": [
+        {
+          "en": "experience",
+          "pt": "experiência",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l14_w_experience",
+          "exampleEn": "Faruk has lived in Nacala for several years and still notices small changes in the street.",
+          "examplePt": "Faruk vive em Nacala há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "already",
+          "pt": "já",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l14_w_already",
+          "exampleEn": "Faruk has lived in Nacala for several years and still notices small changes in the street.",
+          "examplePt": "Faruk vive em Nacala há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "yet",
+          "pt": "ainda (em perguntas/neg.)",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l14_w_yet",
+          "exampleEn": "Faruk has lived in Nacala for several years and still notices small changes in the street.",
+          "examplePt": "Faruk vive em Nacala há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "should",
+          "pt": "deveria",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l14_w_should",
+          "exampleEn": "Faruk has lived in Nacala for several years and still notices small changes in the street.",
+          "examplePt": "Faruk vive em Nacala há alguns anos e ainda repara em mudanças pequenas na rua."
+        }
+      ],
+      "guidedReading": {
+        "title": "Study and future",
+        "sentences": [
+          {
+            "id": "b1-b1u07-l14-s1",
+            "en": "Faruk has lived in Nacala for several years and still notices small changes in the street.",
+            "pt": "Faruk vive em Nacala há alguns anos e ainda repara em mudanças pequenas na rua.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l14_s1"
+          },
+          {
+            "id": "b1-b1u07-l14-s2",
+            "en": "While he was waiting for the minibus, Marta called from Praia.",
+            "pt": "Enquanto esperava o chapa, Marta ligou de Praia.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l14_s2"
+          },
+          {
+            "id": "b1-b1u07-l14-s3",
+            "en": "If the rain starts early, the pitch behind the school will be too wet to play.",
+            "pt": "Se a chuva começar cedo, o campo atrás da escola fica demasiado molhado para jogar.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l14_s3"
+          },
+          {
+            "id": "b1-b1u07-l14-s4",
+            "en": "I think public transport in Beira works better in the morning than after five.",
+            "pt": "Acho que o transporte em Beira funciona melhor de manhã do que depois das cinco.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l14_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b1-b1u07-l14-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante 45 seconds.",
+            "en": "Speak for 45 seconds."
+          },
+          "items": [
+            {
+              "en": "Faruk has lived in Nacala for several years and still notices small changes in the street.",
+              "task": "Give an opinion and one reason from daily life.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        },
+        {
+          "id": "b1-b1u07-l14-a2",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "experience",
+              "pt": "experiência"
+            },
+            {
+              "en": "already",
+              "pt": "já"
+            },
+            {
+              "en": "yet",
+              "pt": "ainda (em perguntas/neg.)"
+            },
+            {
+              "en": "should",
+              "pt": "deveria"
+            },
+            {
+              "en": "agree",
+              "pt": "concordar"
+            },
+            {
+              "en": "however",
+              "pt": "contudo"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 40
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Nacala"
+      }
+    },
+    {
+      "id": "b1-b1u07-l15",
+      "unitId": "b1u07",
+      "order": 15,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão",
+        "en": "Review"
+      },
+      "type": "review",
+      "durationMin": 7,
+      "xp": 14,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing",
+        "speaking"
+      ],
+      "objectives": [
+        "Will, going to e escolhas depois da escola.",
+        "Mini-teste"
+      ],
+      "newWords": [
+        {
+          "en": "should",
+          "pt": "deveria",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l15_w_should",
+          "exampleEn": "Belmira has lived in Inhambane for several years and still notices small changes in the street.",
+          "examplePt": "Belmira vive em Inhambane há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "agree",
+          "pt": "concordar",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l15_w_agree",
+          "exampleEn": "Belmira has lived in Inhambane for several years and still notices small changes in the street.",
+          "examplePt": "Belmira vive em Inhambane há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "however",
+          "pt": "contudo",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l15_w_however",
+          "exampleEn": "Belmira has lived in Inhambane for several years and still notices small changes in the street.",
+          "examplePt": "Belmira vive em Inhambane há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "improve",
+          "pt": "melhorar",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l15_w_improve",
+          "exampleEn": "Belmira has lived in Inhambane for several years and still notices small changes in the street.",
+          "examplePt": "Belmira vive em Inhambane há alguns anos e ainda repara em mudanças pequenas na rua."
+        }
+      ],
+      "guidedReading": {
+        "title": "Study and future",
+        "sentences": [
+          {
+            "id": "b1-b1u07-l15-s1",
+            "en": "Belmira has lived in Inhambane for several years and still notices small changes in the street.",
+            "pt": "Belmira vive em Inhambane há alguns anos e ainda repara em mudanças pequenas na rua.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l15_s1"
+          },
+          {
+            "id": "b1-b1u07-l15-s2",
+            "en": "While she was waiting for the minibus, Amina called from Nampula.",
+            "pt": "Enquanto esperava o chapa, Amina ligou de Nampula.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l15_s2"
+          },
+          {
+            "id": "b1-b1u07-l15-s3",
+            "en": "If the rain starts early, the pitch behind the school will be too wet to play.",
+            "pt": "Se a chuva começar cedo, o campo atrás da escola fica demasiado molhado para jogar.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l15_s3"
+          },
+          {
+            "id": "b1-b1u07-l15-s4",
+            "en": "I think public transport in Nampula works better in the morning than after five.",
+            "pt": "Acho que o transporte em Nampula funciona melhor de manhã do que depois das cinco.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l15_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b1-b1u07-l15-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (experiência)",
+              "answer": "experience",
+              "options": [
+                "experience",
+                "already",
+                "yet",
+                "should"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (já)",
+              "answer": "already",
+              "options": [
+                "already",
+                "experience",
+                "yet",
+                "should"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (ainda (em perguntas/neg.))",
+              "answer": "yet",
+              "options": [
+                "yet",
+                "experience",
+                "already",
+                "should"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b1-b1u07-l15-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "experience",
+                "pt": "O que é mais próximo de «experience»?"
+              },
+              "options": [
+                "experiência",
+                "já",
+                "ainda (em perguntas/neg.)",
+                "deveria"
+              ],
+              "answer": "experiência"
+            },
+            {
+              "question": {
+                "en": "already",
+                "pt": "O que é mais próximo de «already»?"
+              },
+              "options": [
+                "já",
+                "experiência",
+                "ainda (em perguntas/neg.)",
+                "deveria"
+              ],
+              "answer": "já"
+            },
+            {
+              "question": {
+                "en": "yet",
+                "pt": "O que é mais próximo de «yet»?"
+              },
+              "options": [
+                "ainda (em perguntas/neg.)",
+                "experiência",
+                "já",
+                "deveria"
+              ],
+              "answer": "ainda (em perguntas/neg.)"
+            },
+            {
+              "question": {
+                "en": "should",
+                "pt": "O que é mais próximo de «should»?"
+              },
+              "options": [
+                "deveria",
+                "experiência",
+                "já",
+                "ainda (em perguntas/neg.)"
+              ],
+              "answer": "deveria"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 40
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Inhambane"
+      }
+    },
+    {
+      "id": "b1-b1u07-l16",
+      "unitId": "b1u07",
+      "order": 16,
+      "kind": "content",
+      "title": {
+        "pt": "Escola e futuro: Transformar a frase",
+        "en": "Study and future: Transformar a frase"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Will, going to e escolhas depois da escola.",
+        "Transformar a frase"
+      ],
+      "newWords": [
+        {
+          "en": "improve",
+          "pt": "melhorar",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l16_w_improve",
+          "exampleEn": "Carlos has lived in Luanda for several years and still notices small changes in the street.",
+          "examplePt": "Carlos vive em Luanda há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "problem",
+          "pt": "problema",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l16_w_problem",
+          "exampleEn": "Carlos has lived in Luanda for several years and still notices small changes in the street.",
+          "examplePt": "Carlos vive em Luanda há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "advice",
+          "pt": "conselho",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l16_w_advice",
+          "exampleEn": "Carlos has lived in Luanda for several years and still notices small changes in the street.",
+          "examplePt": "Carlos vive em Luanda há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "describe",
+          "pt": "descrever",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l16_w_describe",
+          "exampleEn": "Carlos has lived in Luanda for several years and still notices small changes in the street.",
+          "examplePt": "Carlos vive em Luanda há alguns anos e ainda repara em mudanças pequenas na rua."
+        }
+      ],
+      "guidedReading": {
+        "title": "Study and future",
+        "sentences": [
+          {
+            "id": "b1-b1u07-l16-s1",
+            "en": "Carlos has lived in Luanda for several years and still notices small changes in the street.",
+            "pt": "Carlos vive em Luanda há alguns anos e ainda repara em mudanças pequenas na rua.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l16_s1"
+          },
+          {
+            "id": "b1-b1u07-l16-s2",
+            "en": "While he was waiting for the minibus, João called from Maputo.",
+            "pt": "Enquanto esperava o chapa, João ligou de Maputo.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l16_s2"
+          },
+          {
+            "id": "b1-b1u07-l16-s3",
+            "en": "If the rain starts early, the pitch behind the school will be too wet to play.",
+            "pt": "Se a chuva começar cedo, o campo atrás da escola fica demasiado molhado para jogar.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l16_s3"
+          },
+          {
+            "id": "b1-b1u07-l16-s4",
+            "en": "I think public transport in Pemba works better in the morning than after five.",
+            "pt": "Acho que o transporte em Pemba funciona melhor de manhã do que depois das cinco.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l16_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b1-b1u07-l16-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "experience",
+                "pt": "O que é mais próximo de «experience»?"
+              },
+              "options": [
+                "experiência",
+                "já",
+                "ainda (em perguntas/neg.)",
+                "deveria"
+              ],
+              "answer": "experiência"
+            },
+            {
+              "question": {
+                "en": "already",
+                "pt": "O que é mais próximo de «already»?"
+              },
+              "options": [
+                "já",
+                "experiência",
+                "ainda (em perguntas/neg.)",
+                "deveria"
+              ],
+              "answer": "já"
+            },
+            {
+              "question": {
+                "en": "yet",
+                "pt": "O que é mais próximo de «yet»?"
+              },
+              "options": [
+                "ainda (em perguntas/neg.)",
+                "experiência",
+                "já",
+                "deveria"
+              ],
+              "answer": "ainda (em perguntas/neg.)"
+            },
+            {
+              "question": {
+                "en": "should",
+                "pt": "O que é mais próximo de «should»?"
+              },
+              "options": [
+                "deveria",
+                "experiência",
+                "já",
+                "ainda (em perguntas/neg.)"
+              ],
+              "answer": "deveria"
+            }
+          ]
+        },
+        {
+          "id": "b1-b1u07-l16-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (experiência)",
+              "answer": "experience",
+              "options": [
+                "experience",
+                "already",
+                "yet",
+                "should"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (já)",
+              "answer": "already",
+              "options": [
+                "already",
+                "experience",
+                "yet",
+                "should"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (ainda (em perguntas/neg.))",
+              "answer": "yet",
+              "options": [
+                "yet",
+                "experience",
+                "already",
+                "should"
+              ]
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 40
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Luanda"
+      }
+    },
+    {
+      "id": "b1-b1u07-l17",
+      "unitId": "b1u07",
+      "order": 17,
+      "kind": "content",
+      "title": {
+        "pt": "Escola e futuro: História em sequência",
+        "en": "Study and future: História em sequência"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Will, going to e escolhas depois da escola.",
+        "História em sequência"
+      ],
+      "newWords": [
+        {
+          "en": "describe",
+          "pt": "descrever",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l17_w_describe",
+          "exampleEn": "Marta has lived in Praia for several years and still notices small changes in the street.",
+          "examplePt": "Marta vive em Praia há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "choose",
+          "pt": "escolher",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l17_w_choose",
+          "exampleEn": "Marta has lived in Praia for several years and still notices small changes in the street.",
+          "examplePt": "Marta vive em Praia há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "reason",
+          "pt": "razão",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l17_w_reason",
+          "exampleEn": "Marta has lived in Praia for several years and still notices small changes in the street.",
+          "examplePt": "Marta vive em Praia há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "study",
+          "pt": "study",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l17_w_study",
+          "exampleEn": "Marta has lived in Praia for several years and still notices small changes in the street.",
+          "examplePt": "Marta vive em Praia há alguns anos e ainda repara em mudanças pequenas na rua."
+        }
+      ],
+      "guidedReading": {
+        "title": "Study and future",
+        "sentences": [
+          {
+            "id": "b1-b1u07-l17-s1",
+            "en": "Marta has lived in Praia for several years and still notices small changes in the street.",
+            "pt": "Marta vive em Praia há alguns anos e ainda repara em mudanças pequenas na rua.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l17_s1"
+          },
+          {
+            "id": "b1-b1u07-l17-s2",
+            "en": "While she was waiting for the minibus, Graça called from Quelimane.",
+            "pt": "Enquanto esperava o chapa, Graça ligou de Quelimane.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l17_s2"
+          },
+          {
+            "id": "b1-b1u07-l17-s3",
+            "en": "If the rain starts early, the pitch behind the school will be too wet to play.",
+            "pt": "Se a chuva começar cedo, o campo atrás da escola fica demasiado molhado para jogar.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l17_s3"
+          },
+          {
+            "id": "b1-b1u07-l17-s4",
+            "en": "I think public transport in Tete works better in the morning than after five.",
+            "pt": "Acho que o transporte em Tete funciona melhor de manhã do que depois das cinco.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l17_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b1-b1u07-l17-a1",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "Marta has lived in Praia for several years and still notices small changes in the street.",
+              "answer": true
+            },
+            {
+              "sentence": "While she was waiting for the minibus, Graça called from Quelimane.",
+              "answer": true
+            },
+            {
+              "sentence": "If the rain starts early, the pitch behind the school will be too wet to play.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to experience.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b1-b1u07-l17-a2",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "b1-b1u07-l17_lw_0",
+              "answer": "Marta has lived in Praia for several years and still notices small changes in the street.",
+              "hint": "Marta"
+            },
+            {
+              "audioKey": "b1-b1u07-l17_lw_1",
+              "answer": "While she was waiting for the minibus, Graça called from Quelimane.",
+              "hint": "While"
+            },
+            {
+              "audioKey": "b1-b1u07-l17_lw_2",
+              "answer": "If the rain starts early, the pitch behind the school will be too wet to play.",
+              "hint": "If"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 40
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Praia"
+      }
+    },
+    {
+      "id": "b1-b1u07-l18",
+      "unitId": "b1u07",
+      "order": 18,
+      "kind": "content",
+      "title": {
+        "pt": "Escola e futuro: Mensagem formal curta",
+        "en": "Study and future: Mensagem formal curta"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Will, going to e escolhas depois da escola.",
+        "Mensagem formal curta"
+      ],
+      "newWords": [
+        {
+          "en": "study",
+          "pt": "study",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l18_w_study",
+          "exampleEn": "Amina has lived in Nampula for several years and still notices small changes in the street.",
+          "examplePt": "Amina vive em Nampula há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "and",
+          "pt": "and",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l18_w_and",
+          "exampleEn": "Amina has lived in Nampula for several years and still notices small changes in the street.",
+          "examplePt": "Amina vive em Nampula há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "future",
+          "pt": "future",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l18_w_future",
+          "exampleEn": "Amina has lived in Nampula for several years and still notices small changes in the street.",
+          "examplePt": "Amina vive em Nampula há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "practice",
+          "pt": "practice",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l18_w_practice",
+          "exampleEn": "Amina has lived in Nampula for several years and still notices small changes in the street.",
+          "examplePt": "Amina vive em Nampula há alguns anos e ainda repara em mudanças pequenas na rua."
+        }
+      ],
+      "guidedReading": {
+        "title": "Study and future",
+        "sentences": [
+          {
+            "id": "b1-b1u07-l18-s1",
+            "en": "Amina has lived in Nampula for several years and still notices small changes in the street.",
+            "pt": "Amina vive em Nampula há alguns anos e ainda repara em mudanças pequenas na rua.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l18_s1"
+          },
+          {
+            "id": "b1-b1u07-l18-s2",
+            "en": "While she was waiting for the minibus, Paulo called from Beira.",
+            "pt": "Enquanto esperava o chapa, Paulo ligou de Beira.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l18_s2"
+          },
+          {
+            "id": "b1-b1u07-l18-s3",
+            "en": "If the rain starts early, the pitch behind the school will be too wet to play.",
+            "pt": "Se a chuva começar cedo, o campo atrás da escola fica demasiado molhado para jogar.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l18_s3"
+          },
+          {
+            "id": "b1-b1u07-l18-s4",
+            "en": "I think public transport in Quelimane works better in the morning than after five.",
+            "pt": "Acho que o transporte em Quelimane funciona melhor de manhã do que depois das cinco.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l18_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b1-b1u07-l18-a1",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        },
+        {
+          "id": "b1-b1u07-l18-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "Amina",
+                "has",
+                "lived",
+                "in",
+                "Nampula",
+                "for",
+                "several",
+                "years"
+              ],
+              "answer": "Amina has lived in Nampula for several years"
+            },
+            {
+              "words": [
+                "While",
+                "she",
+                "was",
+                "waiting",
+                "for",
+                "the",
+                "minibus",
+                "Paulo"
+              ],
+              "answer": "While she was waiting for the minibus Paulo"
+            },
+            {
+              "words": [
+                "If",
+                "the",
+                "rain",
+                "starts",
+                "early",
+                "the",
+                "pitch",
+                "behind"
+              ],
+              "answer": "If the rain starts early the pitch behind"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 40
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Nampula"
+      }
+    },
+    {
+      "id": "b1-b1u07-l19",
+      "unitId": "b1u07",
+      "order": 19,
+      "kind": "content",
+      "title": {
+        "pt": "Escola e futuro: Fala: 45 segundos",
+        "en": "Study and future: Fala: 45 segundos"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Will, going to e escolhas depois da escola.",
+        "Fala: 45 segundos"
+      ],
+      "newWords": [
+        {
+          "en": "yet",
+          "pt": "ainda (em perguntas/neg.)",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l19_w_yet",
+          "exampleEn": "João has lived in Maputo for several years and still notices small changes in the street.",
+          "examplePt": "João vive em Maputo há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "should",
+          "pt": "deveria",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l19_w_should",
+          "exampleEn": "João has lived in Maputo for several years and still notices small changes in the street.",
+          "examplePt": "João vive em Maputo há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "agree",
+          "pt": "concordar",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l19_w_agree",
+          "exampleEn": "João has lived in Maputo for several years and still notices small changes in the street.",
+          "examplePt": "João vive em Maputo há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "however",
+          "pt": "contudo",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l19_w_however",
+          "exampleEn": "João has lived in Maputo for several years and still notices small changes in the street.",
+          "examplePt": "João vive em Maputo há alguns anos e ainda repara em mudanças pequenas na rua."
+        }
+      ],
+      "guidedReading": {
+        "title": "Study and future",
+        "sentences": [
+          {
+            "id": "b1-b1u07-l19-s1",
+            "en": "João has lived in Maputo for several years and still notices small changes in the street.",
+            "pt": "João vive em Maputo há alguns anos e ainda repara em mudanças pequenas na rua.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l19_s1"
+          },
+          {
+            "id": "b1-b1u07-l19-s2",
+            "en": "While he was waiting for the minibus, Ibraimo called from Pemba.",
+            "pt": "Enquanto esperava o chapa, Ibraimo ligou de Pemba.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l19_s2"
+          },
+          {
+            "id": "b1-b1u07-l19-s3",
+            "en": "If the rain starts early, the pitch behind the school will be too wet to play.",
+            "pt": "Se a chuva começar cedo, o campo atrás da escola fica demasiado molhado para jogar.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l19_s3"
+          },
+          {
+            "id": "b1-b1u07-l19-s4",
+            "en": "I think public transport in Chimoio works better in the morning than after five.",
+            "pt": "Acho que o transporte em Chimoio funciona melhor de manhã do que depois das cinco.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l19_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b1-b1u07-l19-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante 45 seconds.",
+            "en": "Speak for 45 seconds."
+          },
+          "items": [
+            {
+              "en": "João has lived in Maputo for several years and still notices small changes in the street.",
+              "task": "Give an opinion and one reason from daily life.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        },
+        {
+          "id": "b1-b1u07-l19-a2",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "experience",
+              "pt": "experiência"
+            },
+            {
+              "en": "already",
+              "pt": "já"
+            },
+            {
+              "en": "yet",
+              "pt": "ainda (em perguntas/neg.)"
+            },
+            {
+              "en": "should",
+              "pt": "deveria"
+            },
+            {
+              "en": "agree",
+              "pt": "concordar"
+            },
+            {
+              "en": "however",
+              "pt": "contudo"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 40
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Maputo"
+      }
+    },
+    {
+      "id": "b1-b1u07-l20",
+      "unitId": "b1u07",
+      "order": 20,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste — Escola e futuro",
+        "en": "Unit Test"
+      },
+      "type": "unit_test",
+      "durationMin": 12,
+      "xp": 40,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing",
+        "speaking"
+      ],
+      "objectives": [
+        "Will, going to e escolhas depois da escola.",
+        "Teste da unidade"
+      ],
+      "newWords": [
+        {
+          "en": "however",
+          "pt": "contudo",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l20_w_however",
+          "exampleEn": "Graça has lived in Quelimane for several years and still notices small changes in the street.",
+          "examplePt": "Graça vive em Quelimane há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "improve",
+          "pt": "melhorar",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l20_w_improve",
+          "exampleEn": "Graça has lived in Quelimane for several years and still notices small changes in the street.",
+          "examplePt": "Graça vive em Quelimane há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "problem",
+          "pt": "problema",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l20_w_problem",
+          "exampleEn": "Graça has lived in Quelimane for several years and still notices small changes in the street.",
+          "examplePt": "Graça vive em Quelimane há alguns anos e ainda repara em mudanças pequenas na rua."
+        },
+        {
+          "en": "advice",
+          "pt": "conselho",
+          "ipa": "",
+          "audioKey": "b1-b1u07-l20_w_advice",
+          "exampleEn": "Graça has lived in Quelimane for several years and still notices small changes in the street.",
+          "examplePt": "Graça vive em Quelimane há alguns anos e ainda repara em mudanças pequenas na rua."
+        }
+      ],
+      "guidedReading": {
+        "title": "Study and future",
+        "sentences": [
+          {
+            "id": "b1-b1u07-l20-s1",
+            "en": "Graça has lived in Quelimane for several years and still notices small changes in the street.",
+            "pt": "Graça vive em Quelimane há alguns anos e ainda repara em mudanças pequenas na rua.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l20_s1"
+          },
+          {
+            "id": "b1-b1u07-l20-s2",
+            "en": "While she was waiting for the minibus, Lurdes called from Tete.",
+            "pt": "Enquanto esperava o chapa, Lurdes ligou de Tete.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l20_s2"
+          },
+          {
+            "id": "b1-b1u07-l20-s3",
+            "en": "If the rain starts early, the pitch behind the school will be too wet to play.",
+            "pt": "Se a chuva começar cedo, o campo atrás da escola fica demasiado molhado para jogar.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l20_s3"
+          },
+          {
+            "id": "b1-b1u07-l20-s4",
+            "en": "I think public transport in Inhambane works better in the morning than after five.",
+            "pt": "Acho que o transporte em Inhambane funciona melhor de manhã do que depois das cinco.",
+            "ipa": "",
+            "audioKey": "b1-b1u07-l20_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b1-b1u07-l20-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (experiência)",
+              "answer": "experience",
+              "options": [
+                "experience",
+                "already",
+                "yet",
+                "should"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (já)",
+              "answer": "already",
+              "options": [
+                "already",
+                "experience",
+                "yet",
+                "should"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (ainda (em perguntas/neg.))",
+              "answer": "yet",
+              "options": [
+                "yet",
+                "experience",
+                "already",
+                "should"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b1-b1u07-l20-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "experience",
+                "pt": "O que é mais próximo de «experience»?"
+              },
+              "options": [
+                "experiência",
+                "já",
+                "ainda (em perguntas/neg.)",
+                "deveria"
+              ],
+              "answer": "experiência"
+            },
+            {
+              "question": {
+                "en": "already",
+                "pt": "O que é mais próximo de «already»?"
+              },
+              "options": [
+                "já",
+                "experiência",
+                "ainda (em perguntas/neg.)",
+                "deveria"
+              ],
+              "answer": "já"
+            },
+            {
+              "question": {
+                "en": "yet",
+                "pt": "O que é mais próximo de «yet»?"
+              },
+              "options": [
+                "ainda (em perguntas/neg.)",
+                "experiência",
+                "já",
+                "deveria"
+              ],
+              "answer": "ainda (em perguntas/neg.)"
+            },
+            {
+              "question": {
+                "en": "should",
+                "pt": "O que é mais próximo de «should»?"
+              },
+              "options": [
+                "deveria",
+                "experiência",
+                "já",
+                "ainda (em perguntas/neg.)"
+              ],
+              "answer": "deveria"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Quelimane"
+      }
+    }
+  ]
+}

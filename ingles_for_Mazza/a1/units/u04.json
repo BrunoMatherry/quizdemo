@@ -1,0 +1,3480 @@
+{
+  "id": "u04",
+  "level": "A1",
+  "order": 4,
+  "title": {
+    "pt": "O verbo TO BE",
+    "en": "The verb TO BE"
+  },
+  "goal": "am / is / are em frases afirmativas, negativas e perguntas.",
+  "themeImageHint": "The verb TO BE",
+  "lessonCount": 20,
+  "lessons": [
+    {
+      "id": "a1-u04-l01",
+      "unitId": "u04",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "I am / You are",
+        "en": "I am / You are"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "am / is / are em frases afirmativas, negativas e perguntas.",
+        "I am / You are"
+      ],
+      "newWords": [
+        {
+          "en": "I am",
+          "pt": "eu sou/estou",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l01_w_i-am",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "you are",
+          "pt": "tu és/estás",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l01_w_you-are",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "he is",
+          "pt": "ele é/está",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l01_w_he-is",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "she is",
+          "pt": "ela é/está",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l01_w_she-is",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "I am / You are",
+        "sentences": [
+          {
+            "id": "a1-u04-l01-s1",
+            "en": "Amina lives in Maputo.",
+            "pt": "Amina mora em Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l01_s1"
+          },
+          {
+            "id": "a1-u04-l01-s2",
+            "en": "Today the lesson is I am / You are.",
+            "pt": "Hoje a lição é: I am / You are.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l01_s2"
+          },
+          {
+            "id": "a1-u04-l01-s3",
+            "en": "We learn 'I am' and 'you are'.",
+            "pt": "Aprendemos «eu sou/estou» e «tu és/estás».",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l01_s3"
+          },
+          {
+            "id": "a1-u04-l01-s4",
+            "en": "Amina says: I use 'she is' every day.",
+            "pt": "Amina diz: uso «ela é/está» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l01_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u04-l01-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u04-l01_repeat",
+          "items": [
+            {
+              "en": "Amina lives in Maputo.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l01-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "I am",
+                "pt": "O que significa «I am»?"
+              },
+              "options": [
+                "eu sou/estou",
+                "ele é/está",
+                "nós somos/estamos",
+                "não é"
+              ],
+              "answer": "eu sou/estou"
+            },
+            {
+              "question": {
+                "en": "you are",
+                "pt": "O que significa «you are»?"
+              },
+              "options": [
+                "tu és/estás",
+                "ela é/está",
+                "eles são/estão",
+                "não são"
+              ],
+              "answer": "tu és/estás"
+            },
+            {
+              "question": {
+                "en": "he is",
+                "pt": "O que significa «he is»?"
+              },
+              "options": [
+                "ele é/está",
+                "nós somos/estamos",
+                "não é",
+                "feliz"
+              ],
+              "answer": "ele é/está"
+            },
+            {
+              "question": {
+                "en": "she is",
+                "pt": "O que significa «she is»?"
+              },
+              "options": [
+                "ela é/está",
+                "eles são/estão",
+                "não são",
+                "cansado"
+              ],
+              "answer": "ela é/está"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-l02",
+      "unitId": "u04",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "He is / She is",
+        "en": "He is / She is"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "am / is / are em frases afirmativas, negativas e perguntas.",
+        "He is / She is"
+      ],
+      "newWords": [
+        {
+          "en": "she is",
+          "pt": "ela é/está",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l02_w_she-is",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "we are",
+          "pt": "nós somos/estamos",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l02_w_we-are",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "they are",
+          "pt": "eles são/estão",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l02_w_they-are",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "is not",
+          "pt": "não é",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l02_w_is-not",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "He is / She is",
+        "sentences": [
+          {
+            "id": "a1-u04-l02-s1",
+            "en": "João lives in Matola.",
+            "pt": "João mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l02_s1"
+          },
+          {
+            "id": "a1-u04-l02-s2",
+            "en": "Today the lesson is He is / She is.",
+            "pt": "Hoje a lição é: He is / She is.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l02_s2"
+          },
+          {
+            "id": "a1-u04-l02-s3",
+            "en": "We learn 'you are' and 'he is'.",
+            "pt": "Aprendemos «tu és/estás» e «ele é/está».",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l02_s3"
+          },
+          {
+            "id": "a1-u04-l02-s4",
+            "en": "João says: I use 'we are' every day.",
+            "pt": "João diz: uso «nós somos/estamos» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l02_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u04-l02-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "I am",
+              "options": [
+                "I am",
+                "you are",
+                "he is",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "you are",
+              "options": [
+                "you are",
+                "he is",
+                "she is",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "he is",
+              "options": [
+                "he is",
+                "she is",
+                "we are",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-l03",
+      "unitId": "u04",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "We are / They are",
+        "en": "We are / They are"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "am / is / are em frases afirmativas, negativas e perguntas.",
+        "We are / They are"
+      ],
+      "newWords": [
+        {
+          "en": "is not",
+          "pt": "não é",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l03_w_is-not",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "are not",
+          "pt": "não são",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l03_w_are-not",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "happy",
+          "pt": "feliz",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l03_w_happy",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "tired",
+          "pt": "cansado",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l03_w_tired",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        }
+      ],
+      "guidedReading": {
+        "title": "We are / They are",
+        "sentences": [
+          {
+            "id": "a1-u04-l03-s1",
+            "en": "Fátima lives in Xai-Xai.",
+            "pt": "Fátima mora em Xai-Xai.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l03_s1"
+          },
+          {
+            "id": "a1-u04-l03-s2",
+            "en": "Today the lesson is We are / They are.",
+            "pt": "Hoje a lição é: We are / They are.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l03_s2"
+          },
+          {
+            "id": "a1-u04-l03-s3",
+            "en": "We learn 'he is' and 'she is'.",
+            "pt": "Aprendemos «ele é/está» e «ela é/está».",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l03_s3"
+          },
+          {
+            "id": "a1-u04-l03-s4",
+            "en": "Fátima says: I use 'they are' every day.",
+            "pt": "Fátima diz: uso «eles são/estão» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l03_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u04-l03-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "I am",
+              "pt": "eu sou/estou"
+            },
+            {
+              "en": "you are",
+              "pt": "tu és/estás"
+            },
+            {
+              "en": "he is",
+              "pt": "ele é/está"
+            },
+            {
+              "en": "she is",
+              "pt": "ela é/está"
+            },
+            {
+              "en": "we are",
+              "pt": "nós somos/estamos"
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l03-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'I am' in Portuguese is 'eu sou/estou'.",
+              "answer": true
+            },
+            {
+              "sentence": "'I am' means 'ela é/está'.",
+              "answer": false
+            },
+            {
+              "sentence": "'you are' in Portuguese is 'tu és/estás'.",
+              "answer": true
+            },
+            {
+              "sentence": "'you are' means 'nós somos/estamos'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-l04",
+      "unitId": "u04",
+      "order": 4,
+      "kind": "content",
+      "title": {
+        "pt": "Frases com adjetivos",
+        "en": "Frases com adjetivos"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "am / is / are em frases afirmativas, negativas e perguntas.",
+        "Frases com adjetivos"
+      ],
+      "newWords": [
+        {
+          "en": "tired",
+          "pt": "cansado",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l04_w_tired",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "hungry",
+          "pt": "com fome",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l04_w_hungry",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "hot",
+          "pt": "quente",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l04_w_hot",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "cold",
+          "pt": "frio",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l04_w_cold",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Frases com adjetivos",
+        "sentences": [
+          {
+            "id": "a1-u04-l04-s1",
+            "en": "Carlos lives in Inhambane.",
+            "pt": "Carlos mora em Inhambane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l04_s1"
+          },
+          {
+            "id": "a1-u04-l04-s2",
+            "en": "Today the lesson is Frases com adjetivos.",
+            "pt": "Hoje a lição é: Frases com adjetivos.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l04_s2"
+          },
+          {
+            "id": "a1-u04-l04-s3",
+            "en": "We learn 'she is' and 'we are'.",
+            "pt": "Aprendemos «ela é/está» e «nós somos/estamos».",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l04_s3"
+          },
+          {
+            "id": "a1-u04-l04-s4",
+            "en": "Carlos says: I use 'is not' every day.",
+            "pt": "Carlos diz: uso «não é» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l04_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u04-l04-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u04-l04_lw_graça-is-in-vilank",
+              "answer": "Graça is in Vilankulo. I am.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u04-l04_lw_graça-is-in-vilank",
+              "answer": "Graça is in Vilankulo. you are.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u04-l04_lw_graça-is-in-vilank",
+              "answer": "Graça is in Vilankulo. he is.",
+              "hint": "Graça"
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l04-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "am"
+              ],
+              "answer": "I am"
+            },
+            {
+              "words": [
+                "you",
+                "are"
+              ],
+              "answer": "you are"
+            },
+            {
+              "words": [
+                "he",
+                "is"
+              ],
+              "answer": "he is"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-l05",
+      "unitId": "u04",
+      "order": 5,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 1",
+        "en": "Checkpoint quiz 1"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "am / is / are em frases afirmativas, negativas e perguntas.",
+        "Mini-teste 1"
+      ],
+      "newWords": [
+        {
+          "en": "cold",
+          "pt": "frio",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l05_w_cold",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "student",
+          "pt": "estudante",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l05_w_student",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 1",
+        "sentences": [
+          {
+            "id": "a1-u04-l05-s1",
+            "en": "Let’s review. Graça is from Vilankulo.",
+            "pt": "Vamos rever. Graça é de Vilankulo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l05_s1"
+          },
+          {
+            "id": "a1-u04-l05-s2",
+            "en": "This unit is about The verb TO BE.",
+            "pt": "Esta unidade é sobre O verbo TO BE.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l05_s2"
+          },
+          {
+            "id": "a1-u04-l05-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l05_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u04-l05-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "I am",
+                "pt": "O que significa «I am»?"
+              },
+              "options": [
+                "eu sou/estou",
+                "ele é/está",
+                "nós somos/estamos",
+                "não é"
+              ],
+              "answer": "eu sou/estou"
+            },
+            {
+              "question": {
+                "en": "you are",
+                "pt": "O que significa «you are»?"
+              },
+              "options": [
+                "tu és/estás",
+                "ela é/está",
+                "eles são/estão",
+                "não são"
+              ],
+              "answer": "tu és/estás"
+            },
+            {
+              "question": {
+                "en": "he is",
+                "pt": "O que significa «he is»?"
+              },
+              "options": [
+                "ele é/está",
+                "nós somos/estamos",
+                "não é",
+                "feliz"
+              ],
+              "answer": "ele é/está"
+            },
+            {
+              "question": {
+                "en": "she is",
+                "pt": "O que significa «she is»?"
+              },
+              "options": [
+                "ela é/está",
+                "eles são/estão",
+                "não são",
+                "cansado"
+              ],
+              "answer": "ela é/está"
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l05-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "I am",
+              "options": [
+                "I am",
+                "you are",
+                "he is",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "you are",
+              "options": [
+                "you are",
+                "he is",
+                "she is",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "he is",
+              "options": [
+                "he is",
+                "she is",
+                "we are",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l05-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u04-l05_lw_graça-is-in-vilank",
+              "answer": "Graça is in Vilankulo. I am.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u04-l05_lw_graça-is-in-vilank",
+              "answer": "Graça is in Vilankulo. you are.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u04-l05_lw_graça-is-in-vilank",
+              "answer": "Graça is in Vilankulo. he is.",
+              "hint": "Graça"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-l06",
+      "unitId": "u04",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "Negativo: I am not",
+        "en": "Negativo: I am not"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "am / is / are em frases afirmativas, negativas e perguntas.",
+        "Negativo: I am not"
+      ],
+      "newWords": [
+        {
+          "en": "you are",
+          "pt": "tu és/estás",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l06_w_you-are",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "he is",
+          "pt": "ele é/está",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l06_w_he-is",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "she is",
+          "pt": "ela é/está",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l06_w_she-is",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "we are",
+          "pt": "nós somos/estamos",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l06_w_we-are",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Negativo: I am not",
+        "sentences": [
+          {
+            "id": "a1-u04-l06-s1",
+            "en": "Ibraimo lives in Beira.",
+            "pt": "Ibraimo mora em Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l06_s1"
+          },
+          {
+            "id": "a1-u04-l06-s2",
+            "en": "Today the lesson is Negativo: he isn’t.",
+            "pt": "Hoje a lição é: Negativo: he isn’t.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l06_s2"
+          },
+          {
+            "id": "a1-u04-l06-s3",
+            "en": "We learn 'they are' and 'is not'.",
+            "pt": "Aprendemos «eles são/estão» e «não é».",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l06_s3"
+          },
+          {
+            "id": "a1-u04-l06-s4",
+            "en": "Ibraimo says: I use 'happy' every day.",
+            "pt": "Ibraimo diz: uso «feliz» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l06_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u04-l06-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Ibraimo lives in Beira.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l06-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "I am",
+                "pt": "O que significa «I am»?"
+              },
+              "options": [
+                "eu sou/estou",
+                "ele é/está",
+                "nós somos/estamos",
+                "não é"
+              ],
+              "answer": "eu sou/estou"
+            },
+            {
+              "question": {
+                "en": "you are",
+                "pt": "O que significa «you are»?"
+              },
+              "options": [
+                "tu és/estás",
+                "ela é/está",
+                "eles são/estão",
+                "não são"
+              ],
+              "answer": "tu és/estás"
+            },
+            {
+              "question": {
+                "en": "he is",
+                "pt": "O que significa «he is»?"
+              },
+              "options": [
+                "ele é/está",
+                "nós somos/estamos",
+                "não é",
+                "feliz"
+              ],
+              "answer": "ele é/está"
+            },
+            {
+              "question": {
+                "en": "she is",
+                "pt": "O que significa «she is»?"
+              },
+              "options": [
+                "ela é/está",
+                "eles são/estão",
+                "não são",
+                "cansado"
+              ],
+              "answer": "ela é/está"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-l07",
+      "unitId": "u04",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "Negativo: he isn’t",
+        "en": "Negativo: he isn’t"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "am / is / are em frases afirmativas, negativas e perguntas.",
+        "Negativo: he isn’t"
+      ],
+      "newWords": [
+        {
+          "en": "we are",
+          "pt": "nós somos/estamos",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l07_w_we-are",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "they are",
+          "pt": "eles são/estão",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l07_w_they-are",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "is not",
+          "pt": "não é",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l07_w_is-not",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "are not",
+          "pt": "não são",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l07_w_are-not",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        }
+      ],
+      "guidedReading": {
+        "title": "Negativo: he isn’t",
+        "sentences": [
+          {
+            "id": "a1-u04-l07-s1",
+            "en": "Esperança lives in Chimoio.",
+            "pt": "Esperança mora em Chimoio.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l07_s1"
+          },
+          {
+            "id": "a1-u04-l07-s2",
+            "en": "Today the lesson is Pergunta: Are you…?.",
+            "pt": "Hoje a lição é: Pergunta: Are you…?.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l07_s2"
+          },
+          {
+            "id": "a1-u04-l07-s3",
+            "en": "We learn 'is not' and 'are not'.",
+            "pt": "Aprendemos «não é» e «não são».",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l07_s3"
+          },
+          {
+            "id": "a1-u04-l07-s4",
+            "en": "Esperança says: I use 'tired' every day.",
+            "pt": "Esperança diz: uso «cansado» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l07_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u04-l07-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u04-l07_repeat",
+          "items": [
+            {
+              "en": "Esperança lives in Chimoio.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l07-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "I am",
+                "pt": "O que significa «I am»?"
+              },
+              "options": [
+                "eu sou/estou",
+                "ele é/está",
+                "nós somos/estamos",
+                "não é"
+              ],
+              "answer": "eu sou/estou"
+            },
+            {
+              "question": {
+                "en": "you are",
+                "pt": "O que significa «you are»?"
+              },
+              "options": [
+                "tu és/estás",
+                "ela é/está",
+                "eles são/estão",
+                "não são"
+              ],
+              "answer": "tu és/estás"
+            },
+            {
+              "question": {
+                "en": "he is",
+                "pt": "O que significa «he is»?"
+              },
+              "options": [
+                "ele é/está",
+                "nós somos/estamos",
+                "não é",
+                "feliz"
+              ],
+              "answer": "ele é/está"
+            },
+            {
+              "question": {
+                "en": "she is",
+                "pt": "O que significa «she is»?"
+              },
+              "options": [
+                "ela é/está",
+                "eles são/estão",
+                "não são",
+                "cansado"
+              ],
+              "answer": "ela é/está"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-l08",
+      "unitId": "u04",
+      "order": 8,
+      "kind": "content",
+      "title": {
+        "pt": "Pergunta: Are you…?",
+        "en": "Pergunta: Are you…?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "am / is / are em frases afirmativas, negativas e perguntas.",
+        "Pergunta: Are you…?"
+      ],
+      "newWords": [
+        {
+          "en": "are not",
+          "pt": "não são",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l08_w_are-not",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "happy",
+          "pt": "feliz",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l08_w_happy",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "tired",
+          "pt": "cansado",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l08_w_tired",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "hungry",
+          "pt": "com fome",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l08_w_hungry",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        }
+      ],
+      "guidedReading": {
+        "title": "Pergunta: Are you…?",
+        "sentences": [
+          {
+            "id": "a1-u04-l08-s1",
+            "en": "Paulo lives in Tete.",
+            "pt": "Paulo mora em Tete.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l08_s1"
+          },
+          {
+            "id": "a1-u04-l08-s2",
+            "en": "Today the lesson is Pergunta: Is she…?.",
+            "pt": "Hoje a lição é: Pergunta: Is she…?.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l08_s2"
+          },
+          {
+            "id": "a1-u04-l08-s3",
+            "en": "We learn 'are not' and 'happy'.",
+            "pt": "Aprendemos «não são» e «feliz».",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l08_s3"
+          },
+          {
+            "id": "a1-u04-l08-s4",
+            "en": "Paulo says: I use 'hungry' every day.",
+            "pt": "Paulo diz: uso «com fome» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l08_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u04-l08-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "I am",
+              "options": [
+                "I am",
+                "you are",
+                "he is",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "you are",
+              "options": [
+                "you are",
+                "he is",
+                "she is",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "he is",
+              "options": [
+                "he is",
+                "she is",
+                "we are",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-l09",
+      "unitId": "u04",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Pergunta: Is she…?",
+        "en": "Pergunta: Is she…?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "am / is / are em frases afirmativas, negativas e perguntas.",
+        "Pergunta: Is she…?"
+      ],
+      "newWords": [
+        {
+          "en": "hungry",
+          "pt": "com fome",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l09_w_hungry",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "hot",
+          "pt": "quente",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l09_w_hot",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "cold",
+          "pt": "frio",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l09_w_cold",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "student",
+          "pt": "estudante",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l09_w_student",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Pergunta: Is she…?",
+        "sentences": [
+          {
+            "id": "a1-u04-l09-s1",
+            "en": "Belmira lives in Quelimane.",
+            "pt": "Belmira mora em Quelimane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l09_s1"
+          },
+          {
+            "id": "a1-u04-l09-s2",
+            "en": "Today the lesson is Respostas curtas: Yes, I am.",
+            "pt": "Hoje a lição é: Respostas curtas: Yes, I am.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l09_s2"
+          },
+          {
+            "id": "a1-u04-l09-s3",
+            "en": "We learn 'happy' and 'tired'.",
+            "pt": "Aprendemos «feliz» e «cansado».",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l09_s3"
+          },
+          {
+            "id": "a1-u04-l09-s4",
+            "en": "Belmira says: I use 'hot' every day.",
+            "pt": "Belmira diz: uso «quente» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l09_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u04-l09-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "I am",
+              "pt": "eu sou/estou"
+            },
+            {
+              "en": "you are",
+              "pt": "tu és/estás"
+            },
+            {
+              "en": "he is",
+              "pt": "ele é/está"
+            },
+            {
+              "en": "she is",
+              "pt": "ela é/está"
+            },
+            {
+              "en": "we are",
+              "pt": "nós somos/estamos"
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l09-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'I am' in Portuguese is 'eu sou/estou'.",
+              "answer": true
+            },
+            {
+              "sentence": "'I am' means 'ela é/está'.",
+              "answer": false
+            },
+            {
+              "sentence": "'you are' in Portuguese is 'tu és/estás'.",
+              "answer": true
+            },
+            {
+              "sentence": "'you are' means 'nós somos/estamos'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-l10",
+      "unitId": "u04",
+      "order": 10,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão guiada",
+        "en": "Guided review"
+      },
+      "type": "review",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectives": [
+        "am / is / are em frases afirmativas, negativas e perguntas.",
+        "Revisão guiada"
+      ],
+      "newWords": [
+        {
+          "en": "student",
+          "pt": "estudante",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l10_w_student",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        }
+      ],
+      "guidedReading": {
+        "title": "Guided review",
+        "sentences": [
+          {
+            "id": "a1-u04-l10-s1",
+            "en": "Let’s review. Nélio is from Nampula.",
+            "pt": "Vamos rever. Nélio é de Nampula.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l10_s1"
+          },
+          {
+            "id": "a1-u04-l10-s2",
+            "en": "This unit is about The verb TO BE.",
+            "pt": "Esta unidade é sobre O verbo TO BE.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l10_s2"
+          },
+          {
+            "id": "a1-u04-l10-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l10_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u04-l10-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u04-l10_lw_graça-is-in-vilank",
+              "answer": "Graça is in Vilankulo. I am.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u04-l10_lw_graça-is-in-vilank",
+              "answer": "Graça is in Vilankulo. you are.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u04-l10_lw_graça-is-in-vilank",
+              "answer": "Graça is in Vilankulo. he is.",
+              "hint": "Graça"
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l10-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "am"
+              ],
+              "answer": "I am"
+            },
+            {
+              "words": [
+                "you",
+                "are"
+              ],
+              "answer": "you are"
+            },
+            {
+              "words": [
+                "he",
+                "is"
+              ],
+              "answer": "he is"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-l11",
+      "unitId": "u04",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "Respostas curtas: Yes, I am",
+        "en": "Respostas curtas: Yes, I am"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "am / is / are em frases afirmativas, negativas e perguntas.",
+        "Respostas curtas: Yes, I am"
+      ],
+      "newWords": [
+        {
+          "en": "he is",
+          "pt": "ele é/está",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l11_w_he-is",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "she is",
+          "pt": "ela é/está",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l11_w_she-is",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "we are",
+          "pt": "nós somos/estamos",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l11_w_we-are",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "they are",
+          "pt": "eles são/estão",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l11_w_they-are",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        }
+      ],
+      "guidedReading": {
+        "title": "Respostas curtas: Yes, I am",
+        "sentences": [
+          {
+            "id": "a1-u04-l11-s1",
+            "en": "Lurdes lives in Nacala.",
+            "pt": "Lurdes mora em Nacala.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l11_s1"
+          },
+          {
+            "id": "a1-u04-l11-s2",
+            "en": "Today the lesson is Diálogo: no quintal.",
+            "pt": "Hoje a lição é: Diálogo: no quintal.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l11_s2"
+          },
+          {
+            "id": "a1-u04-l11-s3",
+            "en": "We learn 'hungry' and 'hot'.",
+            "pt": "Aprendemos «com fome» e «quente».",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l11_s3"
+          },
+          {
+            "id": "a1-u04-l11-s4",
+            "en": "Lurdes says: I use 'student' every day.",
+            "pt": "Lurdes diz: uso «estudante» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l11_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u04-l11-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u04-l11_tap",
+          "items": [
+            {
+              "answer": "I am",
+              "options": [
+                "I am",
+                "you are",
+                "he is",
+                "she is"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l11-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-l12",
+      "unitId": "u04",
+      "order": 12,
+      "kind": "content",
+      "title": {
+        "pt": "This is / That is",
+        "en": "This is / That is"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "am / is / are em frases afirmativas, negativas e perguntas.",
+        "This is / That is"
+      ],
+      "newWords": [
+        {
+          "en": "they are",
+          "pt": "eles são/estão",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l12_w_they-are",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "is not",
+          "pt": "não é",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l12_w_is-not",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "are not",
+          "pt": "não são",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l12_w_are-not",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "happy",
+          "pt": "feliz",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l12_w_happy",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        }
+      ],
+      "guidedReading": {
+        "title": "This is / That is",
+        "sentences": [
+          {
+            "id": "a1-u04-l12-s1",
+            "en": "Faruk lives in Pemba.",
+            "pt": "Faruk mora em Pemba.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l12_s1"
+          },
+          {
+            "id": "a1-u04-l12-s2",
+            "en": "Today the lesson is Diálogo: dois amigos.",
+            "pt": "Hoje a lição é: Diálogo: dois amigos.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l12_s2"
+          },
+          {
+            "id": "a1-u04-l12-s3",
+            "en": "We learn 'hot' and 'cold'.",
+            "pt": "Aprendemos «quente» e «frio».",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l12_s3"
+          },
+          {
+            "id": "a1-u04-l12-s4",
+            "en": "Faruk says: I use 'I am' every day.",
+            "pt": "Faruk diz: uso «eu sou/estou» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l12_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u04-l12-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Faruk lives in Pemba.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l12-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "I am",
+                "pt": "O que significa «I am»?"
+              },
+              "options": [
+                "eu sou/estou",
+                "ele é/está",
+                "nós somos/estamos",
+                "não é"
+              ],
+              "answer": "eu sou/estou"
+            },
+            {
+              "question": {
+                "en": "you are",
+                "pt": "O que significa «you are»?"
+              },
+              "options": [
+                "tu és/estás",
+                "ela é/está",
+                "eles são/estão",
+                "não são"
+              ],
+              "answer": "tu és/estás"
+            },
+            {
+              "question": {
+                "en": "he is",
+                "pt": "O que significa «he is»?"
+              },
+              "options": [
+                "ele é/está",
+                "nós somos/estamos",
+                "não é",
+                "feliz"
+              ],
+              "answer": "ele é/está"
+            },
+            {
+              "question": {
+                "en": "she is",
+                "pt": "O que significa «she is»?"
+              },
+              "options": [
+                "ela é/está",
+                "eles são/estão",
+                "não são",
+                "cansado"
+              ],
+              "answer": "ela é/está"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-l13",
+      "unitId": "u04",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: no quintal",
+        "en": "Diálogo: no quintal"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "am / is / are em frases afirmativas, negativas e perguntas.",
+        "Diálogo: no quintal"
+      ],
+      "newWords": [
+        {
+          "en": "happy",
+          "pt": "feliz",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l13_w_happy",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "tired",
+          "pt": "cansado",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l13_w_tired",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "hungry",
+          "pt": "com fome",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l13_w_hungry",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "hot",
+          "pt": "quente",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l13_w_hot",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: no quintal",
+        "sentences": [
+          {
+            "id": "a1-u04-l13-s1",
+            "en": "Josina lives in Lichinga.",
+            "pt": "Josina mora em Lichinga.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l13_s1"
+          },
+          {
+            "id": "a1-u04-l13-s2",
+            "en": "Today the lesson is Completa: am, is, are.",
+            "pt": "Hoje a lição é: Completa: am, is, are.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l13_s2"
+          },
+          {
+            "id": "a1-u04-l13-s3",
+            "en": "We learn 'cold' and 'student'.",
+            "pt": "Aprendemos «frio» e «estudante».",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l13_s3"
+          },
+          {
+            "id": "a1-u04-l13-s4",
+            "en": "Josina says: I use 'you are' every day.",
+            "pt": "Josina diz: uso «tu és/estás» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l13_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u04-l13-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u04-l13_repeat",
+          "items": [
+            {
+              "en": "Josina lives in Lichinga.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l13-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "I am",
+                "pt": "O que significa «I am»?"
+              },
+              "options": [
+                "eu sou/estou",
+                "ele é/está",
+                "nós somos/estamos",
+                "não é"
+              ],
+              "answer": "eu sou/estou"
+            },
+            {
+              "question": {
+                "en": "you are",
+                "pt": "O que significa «you are»?"
+              },
+              "options": [
+                "tu és/estás",
+                "ela é/está",
+                "eles são/estão",
+                "não são"
+              ],
+              "answer": "tu és/estás"
+            },
+            {
+              "question": {
+                "en": "he is",
+                "pt": "O que significa «he is»?"
+              },
+              "options": [
+                "ele é/está",
+                "nós somos/estamos",
+                "não é",
+                "feliz"
+              ],
+              "answer": "ele é/está"
+            },
+            {
+              "question": {
+                "en": "she is",
+                "pt": "O que significa «she is»?"
+              },
+              "options": [
+                "ela é/está",
+                "eles são/estão",
+                "não são",
+                "cansado"
+              ],
+              "answer": "ela é/está"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-l14",
+      "unitId": "u04",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: dois amigos",
+        "en": "Diálogo: dois amigos"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "am / is / are em frases afirmativas, negativas e perguntas.",
+        "Diálogo: dois amigos"
+      ],
+      "newWords": [
+        {
+          "en": "hot",
+          "pt": "quente",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l14_w_hot",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "cold",
+          "pt": "frio",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l14_w_cold",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "student",
+          "pt": "estudante",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l14_w_student",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: dois amigos",
+        "sentences": [
+          {
+            "id": "a1-u04-l14-s1",
+            "en": "Tendai lives in Ilha de Moçambique.",
+            "pt": "Tendai mora em Ilha de Moçambique.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l14_s1"
+          },
+          {
+            "id": "a1-u04-l14-s2",
+            "en": "Today the lesson is Erros comuns do to be.",
+            "pt": "Hoje a lição é: Erros comuns do to be.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l14_s2"
+          },
+          {
+            "id": "a1-u04-l14-s3",
+            "en": "We learn 'student' and 'I am'.",
+            "pt": "Aprendemos «estudante» e «eu sou/estou».",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l14_s3"
+          },
+          {
+            "id": "a1-u04-l14-s4",
+            "en": "Tendai says: I use 'he is' every day.",
+            "pt": "Tendai diz: uso «ele é/está» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l14_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u04-l14-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "I am",
+              "options": [
+                "I am",
+                "you are",
+                "he is",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "you are",
+              "options": [
+                "you are",
+                "he is",
+                "she is",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "he is",
+              "options": [
+                "he is",
+                "she is",
+                "we are",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-l15",
+      "unitId": "u04",
+      "order": 15,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 2",
+        "en": "Checkpoint quiz 2"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "am / is / are em frases afirmativas, negativas e perguntas.",
+        "Mini-teste 2"
+      ],
+      "newWords": [
+        {
+          "en": "I am",
+          "pt": "eu sou/estou",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l15_w_i-am",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "you are",
+          "pt": "tu és/estás",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l15_w_you-are",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "he is",
+          "pt": "ele é/está",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l15_w_he-is",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "she is",
+          "pt": "ela é/está",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l15_w_she-is",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 2",
+        "sentences": [
+          {
+            "id": "a1-u04-l15-s1",
+            "en": "Let’s review. Amélia is from Maputo.",
+            "pt": "Vamos rever. Amélia é de Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l15_s1"
+          },
+          {
+            "id": "a1-u04-l15-s2",
+            "en": "This unit is about The verb TO BE.",
+            "pt": "Esta unidade é sobre O verbo TO BE.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l15_s2"
+          },
+          {
+            "id": "a1-u04-l15-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l15_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u04-l15-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "I am",
+                "pt": "O que significa «I am»?"
+              },
+              "options": [
+                "eu sou/estou",
+                "ele é/está",
+                "nós somos/estamos",
+                "não é"
+              ],
+              "answer": "eu sou/estou"
+            },
+            {
+              "question": {
+                "en": "you are",
+                "pt": "O que significa «you are»?"
+              },
+              "options": [
+                "tu és/estás",
+                "ela é/está",
+                "eles são/estão",
+                "não são"
+              ],
+              "answer": "tu és/estás"
+            },
+            {
+              "question": {
+                "en": "he is",
+                "pt": "O que significa «he is»?"
+              },
+              "options": [
+                "ele é/está",
+                "nós somos/estamos",
+                "não é",
+                "feliz"
+              ],
+              "answer": "ele é/está"
+            },
+            {
+              "question": {
+                "en": "she is",
+                "pt": "O que significa «she is»?"
+              },
+              "options": [
+                "ela é/está",
+                "eles são/estão",
+                "não são",
+                "cansado"
+              ],
+              "answer": "ela é/está"
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l15-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "I am",
+              "options": [
+                "I am",
+                "you are",
+                "he is",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "you are",
+              "options": [
+                "you are",
+                "he is",
+                "she is",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "he is",
+              "options": [
+                "he is",
+                "she is",
+                "we are",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l15-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u04-l15_lw_graça-is-in-vilank",
+              "answer": "Graça is in Vilankulo. I am.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u04-l15_lw_graça-is-in-vilank",
+              "answer": "Graça is in Vilankulo. you are.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u04-l15_lw_graça-is-in-vilank",
+              "answer": "Graça is in Vilankulo. he is.",
+              "hint": "Graça"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-l16",
+      "unitId": "u04",
+      "order": 16,
+      "kind": "content",
+      "title": {
+        "pt": "Completa: am, is, are",
+        "en": "Completa: am, is, are"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "am / is / are em frases afirmativas, negativas e perguntas.",
+        "Completa: am, is, are"
+      ],
+      "newWords": [
+        {
+          "en": "she is",
+          "pt": "ela é/está",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l16_w_she-is",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "we are",
+          "pt": "nós somos/estamos",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l16_w_we-are",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "they are",
+          "pt": "eles são/estão",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l16_w_they-are",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "is not",
+          "pt": "não é",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l16_w_is-not",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Completa: am, is, are",
+        "sentences": [
+          {
+            "id": "a1-u04-l16-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l16_s1"
+          },
+          {
+            "id": "a1-u04-l16-s2",
+            "en": "Today the lesson is Dez frases sobre ti.",
+            "pt": "Hoje a lição é: Dez frases sobre ti.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l16_s2"
+          },
+          {
+            "id": "a1-u04-l16-s3",
+            "en": "We learn 'you are' and 'he is'.",
+            "pt": "Aprendemos «tu és/estás» e «ele é/está».",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l16_s3"
+          },
+          {
+            "id": "a1-u04-l16-s4",
+            "en": "Zacarias says: I use 'we are' every day.",
+            "pt": "Zacarias diz: uso «nós somos/estamos» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l16_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u04-l16-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u04-l16_lw_graça-is-in-vilank",
+              "answer": "Graça is in Vilankulo. I am.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u04-l16_lw_graça-is-in-vilank",
+              "answer": "Graça is in Vilankulo. you are.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u04-l16_lw_graça-is-in-vilank",
+              "answer": "Graça is in Vilankulo. he is.",
+              "hint": "Graça"
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l16-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "am"
+              ],
+              "answer": "I am"
+            },
+            {
+              "words": [
+                "you",
+                "are"
+              ],
+              "answer": "you are"
+            },
+            {
+              "words": [
+                "he",
+                "is"
+              ],
+              "answer": "he is"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-l17",
+      "unitId": "u04",
+      "order": 17,
+      "kind": "content",
+      "title": {
+        "pt": "Erros comuns do to be",
+        "en": "Erros comuns do to be"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "am / is / are em frases afirmativas, negativas e perguntas.",
+        "Erros comuns do to be"
+      ],
+      "newWords": [
+        {
+          "en": "is not",
+          "pt": "não é",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l17_w_is-not",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "are not",
+          "pt": "não são",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l17_w_are-not",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "happy",
+          "pt": "feliz",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l17_w_happy",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "tired",
+          "pt": "cansado",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l17_w_tired",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Erros comuns do to be",
+        "sentences": [
+          {
+            "id": "a1-u04-l17-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l17_s1"
+          },
+          {
+            "id": "a1-u04-l17-s2",
+            "en": "Today the lesson is Dez frases sobre ti.",
+            "pt": "Hoje a lição é: Dez frases sobre ti.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l17_s2"
+          },
+          {
+            "id": "a1-u04-l17-s3",
+            "en": "We learn 'you are' and 'he is'.",
+            "pt": "Aprendemos «tu és/estás» e «ele é/está».",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l17_s3"
+          },
+          {
+            "id": "a1-u04-l17-s4",
+            "en": "Zacarias says: I use 'we are' every day.",
+            "pt": "Zacarias diz: uso «nós somos/estamos» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l17_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u04-l17-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u04-l17_tap",
+          "items": [
+            {
+              "answer": "I am",
+              "options": [
+                "I am",
+                "you are",
+                "he is",
+                "she is"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l17-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-l18",
+      "unitId": "u04",
+      "order": 18,
+      "kind": "content",
+      "title": {
+        "pt": "Sons: I’m / she’s / we’re",
+        "en": "Sons: I’m / she’s / we’re"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "am / is / are em frases afirmativas, negativas e perguntas.",
+        "Sons: I’m / she’s / we’re"
+      ],
+      "newWords": [
+        {
+          "en": "tired",
+          "pt": "cansado",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l18_w_tired",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "hungry",
+          "pt": "com fome",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l18_w_hungry",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "hot",
+          "pt": "quente",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l18_w_hot",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "cold",
+          "pt": "frio",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l18_w_cold",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Sons: I’m / she’s / we’re",
+        "sentences": [
+          {
+            "id": "a1-u04-l18-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l18_s1"
+          },
+          {
+            "id": "a1-u04-l18-s2",
+            "en": "Today the lesson is Dez frases sobre ti.",
+            "pt": "Hoje a lição é: Dez frases sobre ti.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l18_s2"
+          },
+          {
+            "id": "a1-u04-l18-s3",
+            "en": "We learn 'you are' and 'he is'.",
+            "pt": "Aprendemos «tu és/estás» e «ele é/está».",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l18_s3"
+          },
+          {
+            "id": "a1-u04-l18-s4",
+            "en": "Zacarias says: I use 'we are' every day.",
+            "pt": "Zacarias diz: uso «nós somos/estamos» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l18_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u04-l18-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l18-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "I am",
+                "pt": "O que significa «I am»?"
+              },
+              "options": [
+                "eu sou/estou",
+                "ele é/está",
+                "nós somos/estamos",
+                "não é"
+              ],
+              "answer": "eu sou/estou"
+            },
+            {
+              "question": {
+                "en": "you are",
+                "pt": "O que significa «you are»?"
+              },
+              "options": [
+                "tu és/estás",
+                "ela é/está",
+                "eles são/estão",
+                "não são"
+              ],
+              "answer": "tu és/estás"
+            },
+            {
+              "question": {
+                "en": "he is",
+                "pt": "O que significa «he is»?"
+              },
+              "options": [
+                "ele é/está",
+                "nós somos/estamos",
+                "não é",
+                "feliz"
+              ],
+              "answer": "ele é/está"
+            },
+            {
+              "question": {
+                "en": "she is",
+                "pt": "O que significa «she is»?"
+              },
+              "options": [
+                "ela é/está",
+                "eles são/estão",
+                "não são",
+                "cansado"
+              ],
+              "answer": "ela é/está"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-l19",
+      "unitId": "u04",
+      "order": 19,
+      "kind": "content",
+      "title": {
+        "pt": "Dez frases sobre ti",
+        "en": "Dez frases sobre ti"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "am / is / are em frases afirmativas, negativas e perguntas.",
+        "Dez frases sobre ti"
+      ],
+      "newWords": [
+        {
+          "en": "cold",
+          "pt": "frio",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l19_w_cold",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "student",
+          "pt": "estudante",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l19_w_student",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Dez frases sobre ti",
+        "sentences": [
+          {
+            "id": "a1-u04-l19-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l19_s1"
+          },
+          {
+            "id": "a1-u04-l19-s2",
+            "en": "Today the lesson is Dez frases sobre ti.",
+            "pt": "Hoje a lição é: Dez frases sobre ti.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l19_s2"
+          },
+          {
+            "id": "a1-u04-l19-s3",
+            "en": "We learn 'you are' and 'he is'.",
+            "pt": "Aprendemos «tu és/estás» e «ele é/está».",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l19_s3"
+          },
+          {
+            "id": "a1-u04-l19-s4",
+            "en": "Zacarias says: I use 'we are' every day.",
+            "pt": "Zacarias diz: uso «nós somos/estamos» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l19_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u04-l19-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u04-l19_repeat",
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l19-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "I am",
+                "pt": "O que significa «I am»?"
+              },
+              "options": [
+                "eu sou/estou",
+                "ele é/está",
+                "nós somos/estamos",
+                "não é"
+              ],
+              "answer": "eu sou/estou"
+            },
+            {
+              "question": {
+                "en": "you are",
+                "pt": "O que significa «you are»?"
+              },
+              "options": [
+                "tu és/estás",
+                "ela é/está",
+                "eles são/estão",
+                "não são"
+              ],
+              "answer": "tu és/estás"
+            },
+            {
+              "question": {
+                "en": "he is",
+                "pt": "O que significa «he is»?"
+              },
+              "options": [
+                "ele é/está",
+                "nós somos/estamos",
+                "não é",
+                "feliz"
+              ],
+              "answer": "ele é/está"
+            },
+            {
+              "question": {
+                "en": "she is",
+                "pt": "O que significa «she is»?"
+              },
+              "options": [
+                "ela é/está",
+                "eles são/estão",
+                "não são",
+                "cansado"
+              ],
+              "answer": "ela é/está"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-l20",
+      "unitId": "u04",
+      "order": 20,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste da unidade: O verbo TO BE",
+        "en": "Unit test: The verb TO BE"
+      },
+      "type": "unit_test",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "listening",
+        "reading",
+        "writing",
+        "grammar"
+      ],
+      "objectives": [
+        "am / is / are em frases afirmativas, negativas e perguntas.",
+        "Teste da unidade: O verbo TO BE"
+      ],
+      "newWords": [
+        {
+          "en": "you are",
+          "pt": "tu és/estás",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l20_w_you-are",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "he is",
+          "pt": "ele é/está",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l20_w_he-is",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "she is",
+          "pt": "ela é/está",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l20_w_she-is",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "we are",
+          "pt": "nós somos/estamos",
+          "ipa": "",
+          "audioKey": "a1_a1-u04-l20_w_we-are",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Unit test: The verb TO BE",
+        "sentences": [
+          {
+            "id": "a1-u04-l20-s1",
+            "en": "Let’s review. Carlos is from Beira.",
+            "pt": "Vamos rever. Carlos é de Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l20_s1"
+          },
+          {
+            "id": "a1-u04-l20-s2",
+            "en": "This unit is about The verb TO BE.",
+            "pt": "Esta unidade é sobre O verbo TO BE.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l20_s2"
+          },
+          {
+            "id": "a1-u04-l20-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u04-l20_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u04-l20-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "I am",
+                "pt": "O que significa «I am»?"
+              },
+              "options": [
+                "eu sou/estou",
+                "ele é/está",
+                "nós somos/estamos",
+                "não é"
+              ],
+              "answer": "eu sou/estou"
+            },
+            {
+              "question": {
+                "en": "you are",
+                "pt": "O que significa «you are»?"
+              },
+              "options": [
+                "tu és/estás",
+                "ela é/está",
+                "eles são/estão",
+                "não são"
+              ],
+              "answer": "tu és/estás"
+            },
+            {
+              "question": {
+                "en": "he is",
+                "pt": "O que significa «he is»?"
+              },
+              "options": [
+                "ele é/está",
+                "nós somos/estamos",
+                "não é",
+                "feliz"
+              ],
+              "answer": "ele é/está"
+            },
+            {
+              "question": {
+                "en": "she is",
+                "pt": "O que significa «she is»?"
+              },
+              "options": [
+                "ela é/está",
+                "eles são/estão",
+                "não são",
+                "cansado"
+              ],
+              "answer": "ela é/está"
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l20-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "I am",
+              "options": [
+                "I am",
+                "you are",
+                "he is",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "you are",
+              "options": [
+                "you are",
+                "he is",
+                "she is",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "he is",
+              "options": [
+                "he is",
+                "she is",
+                "we are",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l20-a3",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'I am' in Portuguese is 'eu sou/estou'.",
+              "answer": true
+            },
+            {
+              "sentence": "'I am' means 'ela é/está'.",
+              "answer": false
+            },
+            {
+              "sentence": "'you are' in Portuguese is 'tu és/estás'.",
+              "answer": true
+            },
+            {
+              "sentence": "'you are' means 'nós somos/estamos'.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l20-a4",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "am"
+              ],
+              "answer": "I am"
+            },
+            {
+              "words": [
+                "you",
+                "are"
+              ],
+              "answer": "you are"
+            },
+            {
+              "words": [
+                "he",
+                "is"
+              ],
+              "answer": "he is"
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l20-a5",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u04-l20_lw_graça-is-in-vilank",
+              "answer": "Graça is in Vilankulo. I am.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u04-l20_lw_graça-is-in-vilank",
+              "answer": "Graça is in Vilankulo. you are.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u04-l20_lw_graça-is-in-vilank",
+              "answer": "Graça is in Vilankulo. he is.",
+              "hint": "Graça"
+            }
+          ]
+        },
+        {
+          "id": "a1-u04-l20-a6",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    }
+  ]
+}

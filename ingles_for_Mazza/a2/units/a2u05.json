@@ -1,0 +1,3382 @@
+{
+  "id": "a2u05",
+  "level": "A2",
+  "order": 5,
+  "title": {
+    "pt": "Comida e quantidades",
+    "en": "Count and uncount"
+  },
+  "goal": "Some, any, much, many no mercado e em casa.",
+  "cambridgeInspiration": "A2 Key for Schools (inspired, not copied)",
+  "lessonCount": 20,
+  "lessons": [
+    {
+      "id": "a2-a2u05-l01",
+      "unitId": "a2u05",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "Comida e quantidades: Vocabulário do tema",
+        "en": "Count and uncount: Vocabulário do tema"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Some, any, much, many no mercado e em casa.",
+        "Vocabulário do tema"
+      ],
+      "newWords": [
+        {
+          "en": "yesterday",
+          "pt": "ontem",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l01_w_yesterday",
+          "exampleEn": "Lurdes lives in Tete, but this week she is visiting Tete.",
+          "examplePt": "Lurdes mora em Tete, mas esta semana está a visitar Tete."
+        },
+        {
+          "en": "already",
+          "pt": "já",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l01_w_already",
+          "exampleEn": "Lurdes lives in Tete, but this week she is visiting Tete.",
+          "examplePt": "Lurdes mora em Tete, mas esta semana está a visitar Tete."
+        },
+        {
+          "en": "still",
+          "pt": "ainda",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l01_w_still",
+          "exampleEn": "Lurdes lives in Tete, but this week she is visiting Tete.",
+          "examplePt": "Lurdes mora em Tete, mas esta semana está a visitar Tete."
+        },
+        {
+          "en": "because",
+          "pt": "porque",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l01_w_because",
+          "exampleEn": "Lurdes lives in Tete, but this week she is visiting Tete.",
+          "examplePt": "Lurdes mora em Tete, mas esta semana está a visitar Tete."
+        }
+      ],
+      "guidedReading": {
+        "title": "Count and uncount",
+        "sentences": [
+          {
+            "id": "a2-a2u05-l01-s1",
+            "en": "Lurdes lives in Tete, but this week she is visiting Tete.",
+            "pt": "Lurdes mora em Tete, mas esta semana está a visitar Tete.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l01_s1"
+          },
+          {
+            "id": "a2-a2u05-l01-s2",
+            "en": "Yesterday she took a chapa at six and arrived late.",
+            "pt": "Ontem she apanhou um chapa às seis e chegou atrasado/a.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l01_s2"
+          },
+          {
+            "id": "a2-a2u05-l01-s3",
+            "en": "She is going to meet Faruk on Saturday.",
+            "pt": "Vai encontrar-se com Faruk no sábado.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l01_s3"
+          },
+          {
+            "id": "a2-a2u05-l01-s4",
+            "en": "The market in Tete is busier than the small shop near home.",
+            "pt": "O mercado em Tete é mais movimentado do que a loja perto de casa.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l01_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a2-a2u05-l01-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a2-a2u05-l01_repeat",
+          "items": [
+            {
+              "en": "Lurdes lives in Tete, but this week she is visiting Tete.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a2-a2u05-l01-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que é mais próximo de «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "já",
+                "ainda",
+                "porque"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "already",
+                "pt": "O que é mais próximo de «already»?"
+              },
+              "options": [
+                "já",
+                "ontem",
+                "ainda",
+                "porque"
+              ],
+              "answer": "já"
+            },
+            {
+              "question": {
+                "en": "still",
+                "pt": "O que é mais próximo de «still»?"
+              },
+              "options": [
+                "ainda",
+                "ontem",
+                "já",
+                "porque"
+              ],
+              "answer": "ainda"
+            },
+            {
+              "question": {
+                "en": "because",
+                "pt": "O que é mais próximo de «because»?"
+              },
+              "options": [
+                "porque",
+                "ontem",
+                "já",
+                "ainda"
+              ],
+              "answer": "porque"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": null,
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Tete"
+      }
+    },
+    {
+      "id": "a2-a2u05-l02",
+      "unitId": "a2u05",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "Comida e quantidades: Gramática em contexto",
+        "en": "Count and uncount: Gramática em contexto"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Some, any, much, many no mercado e em casa.",
+        "Gramática em contexto"
+      ],
+      "newWords": [
+        {
+          "en": "because",
+          "pt": "porque",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l02_w_because",
+          "exampleEn": "Nélio lives in Chimoio, but this week he is visiting Quelimane.",
+          "examplePt": "Nélio mora em Chimoio, mas esta semana está a visitar Quelimane."
+        },
+        {
+          "en": "than",
+          "pt": "do que",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l02_w_than",
+          "exampleEn": "Nélio lives in Chimoio, but this week he is visiting Quelimane.",
+          "examplePt": "Nélio mora em Chimoio, mas esta semana está a visitar Quelimane."
+        },
+        {
+          "en": "must",
+          "pt": "ter de",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l02_w_must",
+          "exampleEn": "Nélio lives in Chimoio, but this week he is visiting Quelimane.",
+          "examplePt": "Nélio mora em Chimoio, mas esta semana está a visitar Quelimane."
+        },
+        {
+          "en": "need",
+          "pt": "precisar",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l02_w_need",
+          "exampleEn": "Nélio lives in Chimoio, but this week he is visiting Quelimane.",
+          "examplePt": "Nélio mora em Chimoio, mas esta semana está a visitar Quelimane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Count and uncount",
+        "sentences": [
+          {
+            "id": "a2-a2u05-l02-s1",
+            "en": "Nélio lives in Chimoio, but this week he is visiting Quelimane.",
+            "pt": "Nélio mora em Chimoio, mas esta semana está a visitar Quelimane.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l02_s1"
+          },
+          {
+            "id": "a2-a2u05-l02-s2",
+            "en": "Yesterday he took a chapa at six and arrived late.",
+            "pt": "Ontem he apanhou um chapa às seis e chegou atrasado/a.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l02_s2"
+          },
+          {
+            "id": "a2-a2u05-l02-s3",
+            "en": "He is going to meet Belmira on Saturday.",
+            "pt": "Vai encontrar-se com Belmira no sábado.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l02_s3"
+          },
+          {
+            "id": "a2-a2u05-l02-s4",
+            "en": "The market in Chimoio is busier than the small shop near home.",
+            "pt": "O mercado em Chimoio é mais movimentado do que a loja perto de casa.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l02_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a2-a2u05-l02-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (ontem)",
+              "answer": "yesterday",
+              "options": [
+                "yesterday",
+                "already",
+                "still",
+                "because"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (já)",
+              "answer": "already",
+              "options": [
+                "already",
+                "yesterday",
+                "still",
+                "because"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (ainda)",
+              "answer": "still",
+              "options": [
+                "still",
+                "yesterday",
+                "already",
+                "because"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a2-a2u05-l02-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "Nélio",
+                "lives",
+                "in",
+                "Chimoio",
+                "but",
+                "this",
+                "week",
+                "he"
+              ],
+              "answer": "Nélio lives in Chimoio but this week he"
+            },
+            {
+              "words": [
+                "Yesterday",
+                "he",
+                "took",
+                "a",
+                "chapa",
+                "at",
+                "six",
+                "and"
+              ],
+              "answer": "Yesterday he took a chapa at six and"
+            },
+            {
+              "words": [
+                "He",
+                "is",
+                "going",
+                "to",
+                "meet",
+                "Belmira",
+                "on",
+                "Saturday"
+              ],
+              "answer": "He is going to meet Belmira on Saturday"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": null,
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Chimoio"
+      }
+    },
+    {
+      "id": "a2-a2u05-l03",
+      "unitId": "a2u05",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "Comida e quantidades: Ouvir um diálogo curto",
+        "en": "Count and uncount: Ouvir um diálogo curto"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Some, any, much, many no mercado e em casa.",
+        "Ouvir um diálogo curto"
+      ],
+      "newWords": [
+        {
+          "en": "need",
+          "pt": "precisar",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l03_w_need",
+          "exampleEn": "Esperança lives in Matola, but this week she is visiting Chimoio.",
+          "examplePt": "Esperança mora em Matola, mas esta semana está a visitar Chimoio."
+        },
+        {
+          "en": "near",
+          "pt": "perto",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l03_w_near",
+          "exampleEn": "Esperança lives in Matola, but this week she is visiting Chimoio.",
+          "examplePt": "Esperança mora em Matola, mas esta semana está a visitar Chimoio."
+        },
+        {
+          "en": "far",
+          "pt": "longe",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l03_w_far",
+          "exampleEn": "Esperança lives in Matola, but this week she is visiting Chimoio.",
+          "examplePt": "Esperança mora em Matola, mas esta semana está a visitar Chimoio."
+        },
+        {
+          "en": "message",
+          "pt": "mensagem",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l03_w_message",
+          "exampleEn": "Esperança lives in Matola, but this week she is visiting Chimoio.",
+          "examplePt": "Esperança mora em Matola, mas esta semana está a visitar Chimoio."
+        }
+      ],
+      "guidedReading": {
+        "title": "Count and uncount",
+        "sentences": [
+          {
+            "id": "a2-a2u05-l03-s1",
+            "en": "Esperança lives in Matola, but this week she is visiting Chimoio.",
+            "pt": "Esperança mora em Matola, mas esta semana está a visitar Chimoio.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l03_s1"
+          },
+          {
+            "id": "a2-a2u05-l03-s2",
+            "en": "Yesterday she took a chapa at six and arrived late.",
+            "pt": "Ontem she apanhou um chapa às seis e chegou atrasado/a.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l03_s2"
+          },
+          {
+            "id": "a2-a2u05-l03-s3",
+            "en": "She is going to meet Carlos on Saturday.",
+            "pt": "Vai encontrar-se com Carlos no sábado.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l03_s3"
+          },
+          {
+            "id": "a2-a2u05-l03-s4",
+            "en": "The market in Matola is busier than the small shop near home.",
+            "pt": "O mercado em Matola é mais movimentado do que a loja perto de casa.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l03_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a2-a2u05-l03-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "a2-a2u05-l03_lw_0",
+              "answer": "Esperança lives in Matola, but this week she is visiting Chimoio.",
+              "hint": "Esperança"
+            },
+            {
+              "audioKey": "a2-a2u05-l03_lw_1",
+              "answer": "Yesterday she took a chapa at six and arrived late.",
+              "hint": "Yesterday"
+            },
+            {
+              "audioKey": "a2-a2u05-l03_lw_2",
+              "answer": "She is going to meet Carlos on Saturday.",
+              "hint": "She"
+            }
+          ]
+        },
+        {
+          "id": "a2-a2u05-l03-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "Esperança lives in Matola, but this week she is visiting Chimoio.",
+              "answer": true
+            },
+            {
+              "sentence": "Tomorrow she took a chapa at six and arrived late.",
+              "answer": false
+            },
+            {
+              "sentence": "She is going to meet Carlos on Saturday.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to yesterday.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "writingPrompt": null,
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Matola"
+      }
+    },
+    {
+      "id": "a2-a2u05-l04",
+      "unitId": "a2u05",
+      "order": 4,
+      "kind": "content",
+      "title": {
+        "pt": "Comida e quantidades: Ler quatro frases",
+        "en": "Count and uncount: Ler quatro frases"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Some, any, much, many no mercado e em casa.",
+        "Ler quatro frases"
+      ],
+      "newWords": [
+        {
+          "en": "message",
+          "pt": "mensagem",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l04_w_message",
+          "exampleEn": "Faruk lives in Nacala, but this week he is visiting Inhambane.",
+          "examplePt": "Faruk mora em Nacala, mas esta semana está a visitar Inhambane."
+        },
+        {
+          "en": "invite",
+          "pt": "convidar",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l04_w_invite",
+          "exampleEn": "Faruk lives in Nacala, but this week he is visiting Inhambane.",
+          "examplePt": "Faruk mora em Nacala, mas esta semana está a visitar Inhambane."
+        },
+        {
+          "en": "travel",
+          "pt": "viajar",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l04_w_travel",
+          "exampleEn": "Faruk lives in Nacala, but this week he is visiting Inhambane.",
+          "examplePt": "Faruk mora em Nacala, mas esta semana está a visitar Inhambane."
+        },
+        {
+          "en": "count",
+          "pt": "count",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l04_w_count",
+          "exampleEn": "Faruk lives in Nacala, but this week he is visiting Inhambane.",
+          "examplePt": "Faruk mora em Nacala, mas esta semana está a visitar Inhambane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Count and uncount",
+        "sentences": [
+          {
+            "id": "a2-a2u05-l04-s1",
+            "en": "Faruk lives in Nacala, but this week he is visiting Inhambane.",
+            "pt": "Faruk mora em Nacala, mas esta semana está a visitar Inhambane.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l04_s1"
+          },
+          {
+            "id": "a2-a2u05-l04-s2",
+            "en": "Yesterday he took a chapa at six and arrived late.",
+            "pt": "Ontem he apanhou um chapa às seis e chegou atrasado/a.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l04_s2"
+          },
+          {
+            "id": "a2-a2u05-l04-s3",
+            "en": "He is going to meet Marta on Saturday.",
+            "pt": "Vai encontrar-se com Marta no sábado.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l04_s3"
+          },
+          {
+            "id": "a2-a2u05-l04-s4",
+            "en": "The market in Nacala is busier than the small shop near home.",
+            "pt": "O mercado em Nacala é mais movimentado do que a loja perto de casa.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l04_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a2-a2u05-l04-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "yesterday",
+              "pt": "ontem"
+            },
+            {
+              "en": "already",
+              "pt": "já"
+            },
+            {
+              "en": "still",
+              "pt": "ainda"
+            },
+            {
+              "en": "because",
+              "pt": "porque"
+            },
+            {
+              "en": "than",
+              "pt": "do que"
+            },
+            {
+              "en": "must",
+              "pt": "ter de"
+            }
+          ]
+        },
+        {
+          "id": "a2-a2u05-l04-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        }
+      ],
+      "writingPrompt": null,
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Nacala"
+      }
+    },
+    {
+      "id": "a2-a2u05-l05",
+      "unitId": "a2u05",
+      "order": 5,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste",
+        "en": "Checkpoint"
+      },
+      "type": "checkpoint",
+      "durationMin": 8,
+      "xp": 22,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing",
+        "speaking"
+      ],
+      "objectives": [
+        "Some, any, much, many no mercado e em casa.",
+        "Completar espaços"
+      ],
+      "newWords": [
+        {
+          "en": "count",
+          "pt": "count",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l05_w_count",
+          "exampleEn": "Belmira lives in Inhambane, but this week she is visiting Xai-Xai.",
+          "examplePt": "Belmira mora em Inhambane, mas esta semana está a visitar Xai-Xai."
+        },
+        {
+          "en": "and",
+          "pt": "and",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l05_w_and",
+          "exampleEn": "Belmira lives in Inhambane, but this week she is visiting Xai-Xai.",
+          "examplePt": "Belmira mora em Inhambane, mas esta semana está a visitar Xai-Xai."
+        },
+        {
+          "en": "uncount",
+          "pt": "uncount",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l05_w_uncount",
+          "exampleEn": "Belmira lives in Inhambane, but this week she is visiting Xai-Xai.",
+          "examplePt": "Belmira mora em Inhambane, mas esta semana está a visitar Xai-Xai."
+        },
+        {
+          "en": "practice",
+          "pt": "practice",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l05_w_practice",
+          "exampleEn": "Belmira lives in Inhambane, but this week she is visiting Xai-Xai.",
+          "examplePt": "Belmira mora em Inhambane, mas esta semana está a visitar Xai-Xai."
+        }
+      ],
+      "guidedReading": {
+        "title": "Count and uncount",
+        "sentences": [
+          {
+            "id": "a2-a2u05-l05-s1",
+            "en": "Belmira lives in Inhambane, but this week she is visiting Xai-Xai.",
+            "pt": "Belmira mora em Inhambane, mas esta semana está a visitar Xai-Xai.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l05_s1"
+          },
+          {
+            "id": "a2-a2u05-l05-s2",
+            "en": "Yesterday she took a chapa at six and arrived late.",
+            "pt": "Ontem she apanhou um chapa às seis e chegou atrasado/a.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l05_s2"
+          },
+          {
+            "id": "a2-a2u05-l05-s3",
+            "en": "She is going to meet Amina on Saturday.",
+            "pt": "Vai encontrar-se com Amina no sábado.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l05_s3"
+          },
+          {
+            "id": "a2-a2u05-l05-s4",
+            "en": "The market in Inhambane is busier than the small shop near home.",
+            "pt": "O mercado em Inhambane é mais movimentado do que a loja perto de casa.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l05_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a2-a2u05-l05-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante 30 seconds.",
+            "en": "Speak for 30 seconds."
+          },
+          "items": [
+            {
+              "en": "Belmira lives in Inhambane, but this week she is visiting Xai-Xai.",
+              "task": "Say what you did yesterday and what you are going to do at the weekend.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        },
+        {
+          "id": "a2-a2u05-l05-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que é mais próximo de «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "já",
+                "ainda",
+                "porque"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "already",
+                "pt": "O que é mais próximo de «already»?"
+              },
+              "options": [
+                "já",
+                "ontem",
+                "ainda",
+                "porque"
+              ],
+              "answer": "já"
+            },
+            {
+              "question": {
+                "en": "still",
+                "pt": "O que é mais próximo de «still»?"
+              },
+              "options": [
+                "ainda",
+                "ontem",
+                "já",
+                "porque"
+              ],
+              "answer": "ainda"
+            },
+            {
+              "question": {
+                "en": "because",
+                "pt": "O que é mais próximo de «because»?"
+              },
+              "options": [
+                "porque",
+                "ontem",
+                "já",
+                "ainda"
+              ],
+              "answer": "porque"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 40
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Inhambane"
+      }
+    },
+    {
+      "id": "a2-a2u05-l06",
+      "unitId": "a2u05",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "Comida e quantidades: Ordenar a história",
+        "en": "Count and uncount: Ordenar a história"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Some, any, much, many no mercado e em casa.",
+        "Ordenar a história"
+      ],
+      "newWords": [
+        {
+          "en": "still",
+          "pt": "ainda",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l06_w_still",
+          "exampleEn": "Carlos lives in Luanda, but this week he is visiting Luanda.",
+          "examplePt": "Carlos mora em Luanda, mas esta semana está a visitar Luanda."
+        },
+        {
+          "en": "because",
+          "pt": "porque",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l06_w_because",
+          "exampleEn": "Carlos lives in Luanda, but this week he is visiting Luanda.",
+          "examplePt": "Carlos mora em Luanda, mas esta semana está a visitar Luanda."
+        },
+        {
+          "en": "than",
+          "pt": "do que",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l06_w_than",
+          "exampleEn": "Carlos lives in Luanda, but this week he is visiting Luanda.",
+          "examplePt": "Carlos mora em Luanda, mas esta semana está a visitar Luanda."
+        },
+        {
+          "en": "must",
+          "pt": "ter de",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l06_w_must",
+          "exampleEn": "Carlos lives in Luanda, but this week he is visiting Luanda.",
+          "examplePt": "Carlos mora em Luanda, mas esta semana está a visitar Luanda."
+        }
+      ],
+      "guidedReading": {
+        "title": "Count and uncount",
+        "sentences": [
+          {
+            "id": "a2-a2u05-l06-s1",
+            "en": "Carlos lives in Luanda, but this week he is visiting Luanda.",
+            "pt": "Carlos mora em Luanda, mas esta semana está a visitar Luanda.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l06_s1"
+          },
+          {
+            "id": "a2-a2u05-l06-s2",
+            "en": "Yesterday he took a chapa at six and arrived late.",
+            "pt": "Ontem he apanhou um chapa às seis e chegou atrasado/a.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l06_s2"
+          },
+          {
+            "id": "a2-a2u05-l06-s3",
+            "en": "He is going to meet João on Saturday.",
+            "pt": "Vai encontrar-se com João no sábado.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l06_s3"
+          },
+          {
+            "id": "a2-a2u05-l06-s4",
+            "en": "The market in Luanda is busier than the small shop near home.",
+            "pt": "O mercado em Luanda é mais movimentado do que a loja perto de casa.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l06_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a2-a2u05-l06-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a2-a2u05-l06_repeat",
+          "items": [
+            {
+              "en": "Carlos lives in Luanda, but this week he is visiting Luanda.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a2-a2u05-l06-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que é mais próximo de «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "já",
+                "ainda",
+                "porque"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "already",
+                "pt": "O que é mais próximo de «already»?"
+              },
+              "options": [
+                "já",
+                "ontem",
+                "ainda",
+                "porque"
+              ],
+              "answer": "já"
+            },
+            {
+              "question": {
+                "en": "still",
+                "pt": "O que é mais próximo de «still»?"
+              },
+              "options": [
+                "ainda",
+                "ontem",
+                "já",
+                "porque"
+              ],
+              "answer": "ainda"
+            },
+            {
+              "question": {
+                "en": "because",
+                "pt": "O que é mais próximo de «because»?"
+              },
+              "options": [
+                "porque",
+                "ontem",
+                "já",
+                "ainda"
+              ],
+              "answer": "porque"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": null,
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Luanda"
+      }
+    },
+    {
+      "id": "a2-a2u05-l07",
+      "unitId": "a2u05",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "Comida e quantidades: Mini-diálogo",
+        "en": "Count and uncount: Mini-diálogo"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Some, any, much, many no mercado e em casa.",
+        "Mini-diálogo"
+      ],
+      "newWords": [
+        {
+          "en": "must",
+          "pt": "ter de",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l07_w_must",
+          "exampleEn": "Marta lives in Praia, but this week she is visiting Benguela.",
+          "examplePt": "Marta mora em Praia, mas esta semana está a visitar Benguela."
+        },
+        {
+          "en": "need",
+          "pt": "precisar",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l07_w_need",
+          "exampleEn": "Marta lives in Praia, but this week she is visiting Benguela.",
+          "examplePt": "Marta mora em Praia, mas esta semana está a visitar Benguela."
+        },
+        {
+          "en": "near",
+          "pt": "perto",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l07_w_near",
+          "exampleEn": "Marta lives in Praia, but this week she is visiting Benguela.",
+          "examplePt": "Marta mora em Praia, mas esta semana está a visitar Benguela."
+        },
+        {
+          "en": "far",
+          "pt": "longe",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l07_w_far",
+          "exampleEn": "Marta lives in Praia, but this week she is visiting Benguela.",
+          "examplePt": "Marta mora em Praia, mas esta semana está a visitar Benguela."
+        }
+      ],
+      "guidedReading": {
+        "title": "Count and uncount",
+        "sentences": [
+          {
+            "id": "a2-a2u05-l07-s1",
+            "en": "Marta lives in Praia, but this week she is visiting Benguela.",
+            "pt": "Marta mora em Praia, mas esta semana está a visitar Benguela.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l07_s1"
+          },
+          {
+            "id": "a2-a2u05-l07-s2",
+            "en": "Yesterday she took a chapa at six and arrived late.",
+            "pt": "Ontem she apanhou um chapa às seis e chegou atrasado/a.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l07_s2"
+          },
+          {
+            "id": "a2-a2u05-l07-s3",
+            "en": "She is going to meet Graça on Saturday.",
+            "pt": "Vai encontrar-se com Graça no sábado.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l07_s3"
+          },
+          {
+            "id": "a2-a2u05-l07-s4",
+            "en": "The market in Praia is busier than the small shop near home.",
+            "pt": "O mercado em Praia é mais movimentado do que a loja perto de casa.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l07_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a2-a2u05-l07-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (ontem)",
+              "answer": "yesterday",
+              "options": [
+                "yesterday",
+                "already",
+                "still",
+                "because"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (já)",
+              "answer": "already",
+              "options": [
+                "already",
+                "yesterday",
+                "still",
+                "because"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (ainda)",
+              "answer": "still",
+              "options": [
+                "still",
+                "yesterday",
+                "already",
+                "because"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a2-a2u05-l07-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "Marta",
+                "lives",
+                "in",
+                "Praia",
+                "but",
+                "this",
+                "week",
+                "she"
+              ],
+              "answer": "Marta lives in Praia but this week she"
+            },
+            {
+              "words": [
+                "Yesterday",
+                "she",
+                "took",
+                "a",
+                "chapa",
+                "at",
+                "six",
+                "and"
+              ],
+              "answer": "Yesterday she took a chapa at six and"
+            },
+            {
+              "words": [
+                "She",
+                "is",
+                "going",
+                "to",
+                "meet",
+                "Graça",
+                "on",
+                "Saturday"
+              ],
+              "answer": "She is going to meet Graça on Saturday"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": null,
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Praia"
+      }
+    },
+    {
+      "id": "a2-a2u05-l08",
+      "unitId": "a2u05",
+      "order": 8,
+      "kind": "content",
+      "title": {
+        "pt": "Comida e quantidades: Escrever 3 frases",
+        "en": "Count and uncount: Escrever 3 frases"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Some, any, much, many no mercado e em casa.",
+        "Escrever 3 frases"
+      ],
+      "newWords": [
+        {
+          "en": "far",
+          "pt": "longe",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l08_w_far",
+          "exampleEn": "Amina lives in Nampula, but this week she is visiting Praia.",
+          "examplePt": "Amina mora em Nampula, mas esta semana está a visitar Praia."
+        },
+        {
+          "en": "message",
+          "pt": "mensagem",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l08_w_message",
+          "exampleEn": "Amina lives in Nampula, but this week she is visiting Praia.",
+          "examplePt": "Amina mora em Nampula, mas esta semana está a visitar Praia."
+        },
+        {
+          "en": "invite",
+          "pt": "convidar",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l08_w_invite",
+          "exampleEn": "Amina lives in Nampula, but this week she is visiting Praia.",
+          "examplePt": "Amina mora em Nampula, mas esta semana está a visitar Praia."
+        },
+        {
+          "en": "travel",
+          "pt": "viajar",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l08_w_travel",
+          "exampleEn": "Amina lives in Nampula, but this week she is visiting Praia.",
+          "examplePt": "Amina mora em Nampula, mas esta semana está a visitar Praia."
+        }
+      ],
+      "guidedReading": {
+        "title": "Count and uncount",
+        "sentences": [
+          {
+            "id": "a2-a2u05-l08-s1",
+            "en": "Amina lives in Nampula, but this week she is visiting Praia.",
+            "pt": "Amina mora em Nampula, mas esta semana está a visitar Praia.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l08_s1"
+          },
+          {
+            "id": "a2-a2u05-l08-s2",
+            "en": "Yesterday she took a chapa at six and arrived late.",
+            "pt": "Ontem she apanhou um chapa às seis e chegou atrasado/a.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l08_s2"
+          },
+          {
+            "id": "a2-a2u05-l08-s3",
+            "en": "She is going to meet Paulo on Saturday.",
+            "pt": "Vai encontrar-se com Paulo no sábado.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l08_s3"
+          },
+          {
+            "id": "a2-a2u05-l08-s4",
+            "en": "The market in Nampula is busier than the small shop near home.",
+            "pt": "O mercado em Nampula é mais movimentado do que a loja perto de casa.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l08_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a2-a2u05-l08-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "a2-a2u05-l08_lw_0",
+              "answer": "Amina lives in Nampula, but this week she is visiting Praia.",
+              "hint": "Amina"
+            },
+            {
+              "audioKey": "a2-a2u05-l08_lw_1",
+              "answer": "Yesterday she took a chapa at six and arrived late.",
+              "hint": "Yesterday"
+            },
+            {
+              "audioKey": "a2-a2u05-l08_lw_2",
+              "answer": "She is going to meet Paulo on Saturday.",
+              "hint": "She"
+            }
+          ]
+        },
+        {
+          "id": "a2-a2u05-l08-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "Amina lives in Nampula, but this week she is visiting Praia.",
+              "answer": true
+            },
+            {
+              "sentence": "Tomorrow she took a chapa at six and arrived late.",
+              "answer": false
+            },
+            {
+              "sentence": "She is going to meet Paulo on Saturday.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to yesterday.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "writingPrompt": null,
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Nampula"
+      }
+    },
+    {
+      "id": "a2-a2u05-l09",
+      "unitId": "a2u05",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Comida e quantidades: Pronúncia e ritmo",
+        "en": "Count and uncount: Pronúncia e ritmo"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Some, any, much, many no mercado e em casa.",
+        "Pronúncia e ritmo"
+      ],
+      "newWords": [
+        {
+          "en": "travel",
+          "pt": "viajar",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l09_w_travel",
+          "exampleEn": "João lives in Maputo, but this week he is visiting Mindelo.",
+          "examplePt": "João mora em Maputo, mas esta semana está a visitar Mindelo."
+        },
+        {
+          "en": "count",
+          "pt": "count",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l09_w_count",
+          "exampleEn": "João lives in Maputo, but this week he is visiting Mindelo.",
+          "examplePt": "João mora em Maputo, mas esta semana está a visitar Mindelo."
+        },
+        {
+          "en": "and",
+          "pt": "and",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l09_w_and",
+          "exampleEn": "João lives in Maputo, but this week he is visiting Mindelo.",
+          "examplePt": "João mora em Maputo, mas esta semana está a visitar Mindelo."
+        },
+        {
+          "en": "uncount",
+          "pt": "uncount",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l09_w_uncount",
+          "exampleEn": "João lives in Maputo, but this week he is visiting Mindelo.",
+          "examplePt": "João mora em Maputo, mas esta semana está a visitar Mindelo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Count and uncount",
+        "sentences": [
+          {
+            "id": "a2-a2u05-l09-s1",
+            "en": "João lives in Maputo, but this week he is visiting Mindelo.",
+            "pt": "João mora em Maputo, mas esta semana está a visitar Mindelo.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l09_s1"
+          },
+          {
+            "id": "a2-a2u05-l09-s2",
+            "en": "Yesterday he took a chapa at six and arrived late.",
+            "pt": "Ontem he apanhou um chapa às seis e chegou atrasado/a.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l09_s2"
+          },
+          {
+            "id": "a2-a2u05-l09-s3",
+            "en": "He is going to meet Ibraimo on Saturday.",
+            "pt": "Vai encontrar-se com Ibraimo no sábado.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l09_s3"
+          },
+          {
+            "id": "a2-a2u05-l09-s4",
+            "en": "The market in Maputo is busier than the small shop near home.",
+            "pt": "O mercado em Maputo é mais movimentado do que a loja perto de casa.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l09_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a2-a2u05-l09-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "yesterday",
+              "pt": "ontem"
+            },
+            {
+              "en": "already",
+              "pt": "já"
+            },
+            {
+              "en": "still",
+              "pt": "ainda"
+            },
+            {
+              "en": "because",
+              "pt": "porque"
+            },
+            {
+              "en": "than",
+              "pt": "do que"
+            },
+            {
+              "en": "must",
+              "pt": "ter de"
+            }
+          ]
+        },
+        {
+          "id": "a2-a2u05-l09-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        }
+      ],
+      "writingPrompt": null,
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Maputo"
+      }
+    },
+    {
+      "id": "a2-a2u05-l10",
+      "unitId": "a2u05",
+      "order": 10,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste",
+        "en": "Checkpoint"
+      },
+      "type": "checkpoint",
+      "durationMin": 8,
+      "xp": 22,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing",
+        "speaking"
+      ],
+      "objectives": [
+        "Some, any, much, many no mercado e em casa.",
+        "Uso no telemóvel"
+      ],
+      "newWords": [
+        {
+          "en": "already",
+          "pt": "já",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l10_w_already",
+          "exampleEn": "Graça lives in Quelimane, but this week she is visiting Johannesburg.",
+          "examplePt": "Graça mora em Quelimane, mas esta semana está a visitar Johannesburg."
+        },
+        {
+          "en": "still",
+          "pt": "ainda",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l10_w_still",
+          "exampleEn": "Graça lives in Quelimane, but this week she is visiting Johannesburg.",
+          "examplePt": "Graça mora em Quelimane, mas esta semana está a visitar Johannesburg."
+        },
+        {
+          "en": "because",
+          "pt": "porque",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l10_w_because",
+          "exampleEn": "Graça lives in Quelimane, but this week she is visiting Johannesburg.",
+          "examplePt": "Graça mora em Quelimane, mas esta semana está a visitar Johannesburg."
+        },
+        {
+          "en": "than",
+          "pt": "do que",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l10_w_than",
+          "exampleEn": "Graça lives in Quelimane, but this week she is visiting Johannesburg.",
+          "examplePt": "Graça mora em Quelimane, mas esta semana está a visitar Johannesburg."
+        }
+      ],
+      "guidedReading": {
+        "title": "Count and uncount",
+        "sentences": [
+          {
+            "id": "a2-a2u05-l10-s1",
+            "en": "Graça lives in Quelimane, but this week she is visiting Johannesburg.",
+            "pt": "Graça mora em Quelimane, mas esta semana está a visitar Johannesburg.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l10_s1"
+          },
+          {
+            "id": "a2-a2u05-l10-s2",
+            "en": "Yesterday she took a chapa at six and arrived late.",
+            "pt": "Ontem she apanhou um chapa às seis e chegou atrasado/a.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l10_s2"
+          },
+          {
+            "id": "a2-a2u05-l10-s3",
+            "en": "She is going to meet Lurdes on Saturday.",
+            "pt": "Vai encontrar-se com Lurdes no sábado.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l10_s3"
+          },
+          {
+            "id": "a2-a2u05-l10-s4",
+            "en": "The market in Quelimane is busier than the small shop near home.",
+            "pt": "O mercado em Quelimane é mais movimentado do que a loja perto de casa.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l10_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a2-a2u05-l10-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante 30 seconds.",
+            "en": "Speak for 30 seconds."
+          },
+          "items": [
+            {
+              "en": "Graça lives in Quelimane, but this week she is visiting Johannesburg.",
+              "task": "Say what you did yesterday and what you are going to do at the weekend.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        },
+        {
+          "id": "a2-a2u05-l10-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que é mais próximo de «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "já",
+                "ainda",
+                "porque"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "already",
+                "pt": "O que é mais próximo de «already»?"
+              },
+              "options": [
+                "já",
+                "ontem",
+                "ainda",
+                "porque"
+              ],
+              "answer": "já"
+            },
+            {
+              "question": {
+                "en": "still",
+                "pt": "O que é mais próximo de «still»?"
+              },
+              "options": [
+                "ainda",
+                "ontem",
+                "já",
+                "porque"
+              ],
+              "answer": "ainda"
+            },
+            {
+              "question": {
+                "en": "because",
+                "pt": "O que é mais próximo de «because»?"
+              },
+              "options": [
+                "porque",
+                "ontem",
+                "já",
+                "ainda"
+              ],
+              "answer": "porque"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 40
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Quelimane"
+      }
+    },
+    {
+      "id": "a2-a2u05-l11",
+      "unitId": "a2u05",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "Comida e quantidades: Situação em casa",
+        "en": "Count and uncount: Situação em casa"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Some, any, much, many no mercado e em casa.",
+        "Situação em casa"
+      ],
+      "newWords": [
+        {
+          "en": "than",
+          "pt": "do que",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l11_w_than",
+          "exampleEn": "Paulo lives in Beira, but this week he is visiting Harare.",
+          "examplePt": "Paulo mora em Beira, mas esta semana está a visitar Harare."
+        },
+        {
+          "en": "must",
+          "pt": "ter de",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l11_w_must",
+          "exampleEn": "Paulo lives in Beira, but this week he is visiting Harare.",
+          "examplePt": "Paulo mora em Beira, mas esta semana está a visitar Harare."
+        },
+        {
+          "en": "need",
+          "pt": "precisar",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l11_w_need",
+          "exampleEn": "Paulo lives in Beira, but this week he is visiting Harare.",
+          "examplePt": "Paulo mora em Beira, mas esta semana está a visitar Harare."
+        },
+        {
+          "en": "near",
+          "pt": "perto",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l11_w_near",
+          "exampleEn": "Paulo lives in Beira, but this week he is visiting Harare.",
+          "examplePt": "Paulo mora em Beira, mas esta semana está a visitar Harare."
+        }
+      ],
+      "guidedReading": {
+        "title": "Count and uncount",
+        "sentences": [
+          {
+            "id": "a2-a2u05-l11-s1",
+            "en": "Paulo lives in Beira, but this week he is visiting Harare.",
+            "pt": "Paulo mora em Beira, mas esta semana está a visitar Harare.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l11_s1"
+          },
+          {
+            "id": "a2-a2u05-l11-s2",
+            "en": "Yesterday he took a chapa at six and arrived late.",
+            "pt": "Ontem he apanhou um chapa às seis e chegou atrasado/a.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l11_s2"
+          },
+          {
+            "id": "a2-a2u05-l11-s3",
+            "en": "He is going to meet Nélio on Saturday.",
+            "pt": "Vai encontrar-se com Nélio no sábado.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l11_s3"
+          },
+          {
+            "id": "a2-a2u05-l11-s4",
+            "en": "The market in Beira is busier than the small shop near home.",
+            "pt": "O mercado em Beira é mais movimentado do que a loja perto de casa.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l11_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a2-a2u05-l11-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a2-a2u05-l11_repeat",
+          "items": [
+            {
+              "en": "Paulo lives in Beira, but this week he is visiting Harare.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a2-a2u05-l11-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que é mais próximo de «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "já",
+                "ainda",
+                "porque"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "already",
+                "pt": "O que é mais próximo de «already»?"
+              },
+              "options": [
+                "já",
+                "ontem",
+                "ainda",
+                "porque"
+              ],
+              "answer": "já"
+            },
+            {
+              "question": {
+                "en": "still",
+                "pt": "O que é mais próximo de «still»?"
+              },
+              "options": [
+                "ainda",
+                "ontem",
+                "já",
+                "porque"
+              ],
+              "answer": "ainda"
+            },
+            {
+              "question": {
+                "en": "because",
+                "pt": "O que é mais próximo de «because»?"
+              },
+              "options": [
+                "porque",
+                "ontem",
+                "já",
+                "ainda"
+              ],
+              "answer": "porque"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": null,
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Beira"
+      }
+    },
+    {
+      "id": "a2-a2u05-l12",
+      "unitId": "a2u05",
+      "order": 12,
+      "kind": "content",
+      "title": {
+        "pt": "Comida e quantidades: Situação na rua",
+        "en": "Count and uncount: Situação na rua"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Some, any, much, many no mercado e em casa.",
+        "Situação na rua"
+      ],
+      "newWords": [
+        {
+          "en": "near",
+          "pt": "perto",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l12_w_near",
+          "exampleEn": "Ibraimo lives in Pemba, but this week he is visiting Nairobi.",
+          "examplePt": "Ibraimo mora em Pemba, mas esta semana está a visitar Nairobi."
+        },
+        {
+          "en": "far",
+          "pt": "longe",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l12_w_far",
+          "exampleEn": "Ibraimo lives in Pemba, but this week he is visiting Nairobi.",
+          "examplePt": "Ibraimo mora em Pemba, mas esta semana está a visitar Nairobi."
+        },
+        {
+          "en": "message",
+          "pt": "mensagem",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l12_w_message",
+          "exampleEn": "Ibraimo lives in Pemba, but this week he is visiting Nairobi.",
+          "examplePt": "Ibraimo mora em Pemba, mas esta semana está a visitar Nairobi."
+        },
+        {
+          "en": "invite",
+          "pt": "convidar",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l12_w_invite",
+          "exampleEn": "Ibraimo lives in Pemba, but this week he is visiting Nairobi.",
+          "examplePt": "Ibraimo mora em Pemba, mas esta semana está a visitar Nairobi."
+        }
+      ],
+      "guidedReading": {
+        "title": "Count and uncount",
+        "sentences": [
+          {
+            "id": "a2-a2u05-l12-s1",
+            "en": "Ibraimo lives in Pemba, but this week he is visiting Nairobi.",
+            "pt": "Ibraimo mora em Pemba, mas esta semana está a visitar Nairobi.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l12_s1"
+          },
+          {
+            "id": "a2-a2u05-l12-s2",
+            "en": "Yesterday he took a chapa at six and arrived late.",
+            "pt": "Ontem he apanhou um chapa às seis e chegou atrasado/a.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l12_s2"
+          },
+          {
+            "id": "a2-a2u05-l12-s3",
+            "en": "He is going to meet Esperança on Saturday.",
+            "pt": "Vai encontrar-se com Esperança no sábado.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l12_s3"
+          },
+          {
+            "id": "a2-a2u05-l12-s4",
+            "en": "The market in Pemba is busier than the small shop near home.",
+            "pt": "O mercado em Pemba é mais movimentado do que a loja perto de casa.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l12_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a2-a2u05-l12-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (ontem)",
+              "answer": "yesterday",
+              "options": [
+                "yesterday",
+                "already",
+                "still",
+                "because"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (já)",
+              "answer": "already",
+              "options": [
+                "already",
+                "yesterday",
+                "still",
+                "because"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (ainda)",
+              "answer": "still",
+              "options": [
+                "still",
+                "yesterday",
+                "already",
+                "because"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a2-a2u05-l12-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "Ibraimo",
+                "lives",
+                "in",
+                "Pemba",
+                "but",
+                "this",
+                "week",
+                "he"
+              ],
+              "answer": "Ibraimo lives in Pemba but this week he"
+            },
+            {
+              "words": [
+                "Yesterday",
+                "he",
+                "took",
+                "a",
+                "chapa",
+                "at",
+                "six",
+                "and"
+              ],
+              "answer": "Yesterday he took a chapa at six and"
+            },
+            {
+              "words": [
+                "He",
+                "is",
+                "going",
+                "to",
+                "meet",
+                "Esperança",
+                "on",
+                "Saturday"
+              ],
+              "answer": "He is going to meet Esperança on Saturday"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": null,
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Pemba"
+      }
+    },
+    {
+      "id": "a2-a2u05-l13",
+      "unitId": "a2u05",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Comida e quantidades: Erro comum",
+        "en": "Count and uncount: Erro comum"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Some, any, much, many no mercado e em casa.",
+        "Erro comum"
+      ],
+      "newWords": [
+        {
+          "en": "invite",
+          "pt": "convidar",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l13_w_invite",
+          "exampleEn": "Lurdes lives in Tete, but this week she is visiting Dar es Salaam.",
+          "examplePt": "Lurdes mora em Tete, mas esta semana está a visitar Dar es Salaam."
+        },
+        {
+          "en": "travel",
+          "pt": "viajar",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l13_w_travel",
+          "exampleEn": "Lurdes lives in Tete, but this week she is visiting Dar es Salaam.",
+          "examplePt": "Lurdes mora em Tete, mas esta semana está a visitar Dar es Salaam."
+        },
+        {
+          "en": "count",
+          "pt": "count",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l13_w_count",
+          "exampleEn": "Lurdes lives in Tete, but this week she is visiting Dar es Salaam.",
+          "examplePt": "Lurdes mora em Tete, mas esta semana está a visitar Dar es Salaam."
+        },
+        {
+          "en": "and",
+          "pt": "and",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l13_w_and",
+          "exampleEn": "Lurdes lives in Tete, but this week she is visiting Dar es Salaam.",
+          "examplePt": "Lurdes mora em Tete, mas esta semana está a visitar Dar es Salaam."
+        }
+      ],
+      "guidedReading": {
+        "title": "Count and uncount",
+        "sentences": [
+          {
+            "id": "a2-a2u05-l13-s1",
+            "en": "Lurdes lives in Tete, but this week she is visiting Dar es Salaam.",
+            "pt": "Lurdes mora em Tete, mas esta semana está a visitar Dar es Salaam.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l13_s1"
+          },
+          {
+            "id": "a2-a2u05-l13-s2",
+            "en": "Yesterday she took a chapa at six and arrived late.",
+            "pt": "Ontem she apanhou um chapa às seis e chegou atrasado/a.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l13_s2"
+          },
+          {
+            "id": "a2-a2u05-l13-s3",
+            "en": "She is going to meet Faruk on Saturday.",
+            "pt": "Vai encontrar-se com Faruk no sábado.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l13_s3"
+          },
+          {
+            "id": "a2-a2u05-l13-s4",
+            "en": "The market in Tete is busier than the small shop near home.",
+            "pt": "O mercado em Tete é mais movimentado do que a loja perto de casa.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l13_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a2-a2u05-l13-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "a2-a2u05-l13_lw_0",
+              "answer": "Lurdes lives in Tete, but this week she is visiting Dar es Salaam.",
+              "hint": "Lurdes"
+            },
+            {
+              "audioKey": "a2-a2u05-l13_lw_1",
+              "answer": "Yesterday she took a chapa at six and arrived late.",
+              "hint": "Yesterday"
+            },
+            {
+              "audioKey": "a2-a2u05-l13_lw_2",
+              "answer": "She is going to meet Faruk on Saturday.",
+              "hint": "She"
+            }
+          ]
+        },
+        {
+          "id": "a2-a2u05-l13-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "Lurdes lives in Tete, but this week she is visiting Dar es Salaam.",
+              "answer": true
+            },
+            {
+              "sentence": "Tomorrow she took a chapa at six and arrived late.",
+              "answer": false
+            },
+            {
+              "sentence": "She is going to meet Faruk on Saturday.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to yesterday.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "writingPrompt": null,
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Tete"
+      }
+    },
+    {
+      "id": "a2-a2u05-l14",
+      "unitId": "a2u05",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Comida e quantidades: Recontar com outras palavras",
+        "en": "Count and uncount: Recontar com outras palavras"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Some, any, much, many no mercado e em casa.",
+        "Recontar com outras palavras"
+      ],
+      "newWords": [
+        {
+          "en": "yesterday",
+          "pt": "ontem",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l14_w_yesterday",
+          "exampleEn": "Nélio lives in Chimoio, but this week he is visiting Maputo.",
+          "examplePt": "Nélio mora em Chimoio, mas esta semana está a visitar Maputo."
+        },
+        {
+          "en": "already",
+          "pt": "já",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l14_w_already",
+          "exampleEn": "Nélio lives in Chimoio, but this week he is visiting Maputo.",
+          "examplePt": "Nélio mora em Chimoio, mas esta semana está a visitar Maputo."
+        },
+        {
+          "en": "still",
+          "pt": "ainda",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l14_w_still",
+          "exampleEn": "Nélio lives in Chimoio, but this week he is visiting Maputo.",
+          "examplePt": "Nélio mora em Chimoio, mas esta semana está a visitar Maputo."
+        },
+        {
+          "en": "because",
+          "pt": "porque",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l14_w_because",
+          "exampleEn": "Nélio lives in Chimoio, but this week he is visiting Maputo.",
+          "examplePt": "Nélio mora em Chimoio, mas esta semana está a visitar Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Count and uncount",
+        "sentences": [
+          {
+            "id": "a2-a2u05-l14-s1",
+            "en": "Nélio lives in Chimoio, but this week he is visiting Maputo.",
+            "pt": "Nélio mora em Chimoio, mas esta semana está a visitar Maputo.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l14_s1"
+          },
+          {
+            "id": "a2-a2u05-l14-s2",
+            "en": "Yesterday he took a chapa at six and arrived late.",
+            "pt": "Ontem he apanhou um chapa às seis e chegou atrasado/a.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l14_s2"
+          },
+          {
+            "id": "a2-a2u05-l14-s3",
+            "en": "He is going to meet Belmira on Saturday.",
+            "pt": "Vai encontrar-se com Belmira no sábado.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l14_s3"
+          },
+          {
+            "id": "a2-a2u05-l14-s4",
+            "en": "The market in Chimoio is busier than the small shop near home.",
+            "pt": "O mercado em Chimoio é mais movimentado do que a loja perto de casa.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l14_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a2-a2u05-l14-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "yesterday",
+              "pt": "ontem"
+            },
+            {
+              "en": "already",
+              "pt": "já"
+            },
+            {
+              "en": "still",
+              "pt": "ainda"
+            },
+            {
+              "en": "because",
+              "pt": "porque"
+            },
+            {
+              "en": "than",
+              "pt": "do que"
+            },
+            {
+              "en": "must",
+              "pt": "ter de"
+            }
+          ]
+        },
+        {
+          "id": "a2-a2u05-l14-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        }
+      ],
+      "writingPrompt": null,
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Chimoio"
+      }
+    },
+    {
+      "id": "a2-a2u05-l15",
+      "unitId": "a2u05",
+      "order": 15,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão",
+        "en": "Review"
+      },
+      "type": "review",
+      "durationMin": 7,
+      "xp": 14,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing",
+        "speaking"
+      ],
+      "objectives": [
+        "Some, any, much, many no mercado e em casa.",
+        "Mini-teste do bloco"
+      ],
+      "newWords": [
+        {
+          "en": "because",
+          "pt": "porque",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l15_w_because",
+          "exampleEn": "Esperança lives in Matola, but this week she is visiting Matola.",
+          "examplePt": "Esperança mora em Matola, mas esta semana está a visitar Matola."
+        },
+        {
+          "en": "than",
+          "pt": "do que",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l15_w_than",
+          "exampleEn": "Esperança lives in Matola, but this week she is visiting Matola.",
+          "examplePt": "Esperança mora em Matola, mas esta semana está a visitar Matola."
+        },
+        {
+          "en": "must",
+          "pt": "ter de",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l15_w_must",
+          "exampleEn": "Esperança lives in Matola, but this week she is visiting Matola.",
+          "examplePt": "Esperança mora em Matola, mas esta semana está a visitar Matola."
+        },
+        {
+          "en": "need",
+          "pt": "precisar",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l15_w_need",
+          "exampleEn": "Esperança lives in Matola, but this week she is visiting Matola.",
+          "examplePt": "Esperança mora em Matola, mas esta semana está a visitar Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Count and uncount",
+        "sentences": [
+          {
+            "id": "a2-a2u05-l15-s1",
+            "en": "Esperança lives in Matola, but this week she is visiting Matola.",
+            "pt": "Esperança mora em Matola, mas esta semana está a visitar Matola.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l15_s1"
+          },
+          {
+            "id": "a2-a2u05-l15-s2",
+            "en": "Yesterday she took a chapa at six and arrived late.",
+            "pt": "Ontem she apanhou um chapa às seis e chegou atrasado/a.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l15_s2"
+          },
+          {
+            "id": "a2-a2u05-l15-s3",
+            "en": "She is going to meet Carlos on Saturday.",
+            "pt": "Vai encontrar-se com Carlos no sábado.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l15_s3"
+          },
+          {
+            "id": "a2-a2u05-l15-s4",
+            "en": "The market in Matola is busier than the small shop near home.",
+            "pt": "O mercado em Matola é mais movimentado do que a loja perto de casa.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l15_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a2-a2u05-l15-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante 30 seconds.",
+            "en": "Speak for 30 seconds."
+          },
+          "items": [
+            {
+              "en": "Esperança lives in Matola, but this week she is visiting Matola.",
+              "task": "Say what you did yesterday and what you are going to do at the weekend.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        },
+        {
+          "id": "a2-a2u05-l15-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que é mais próximo de «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "já",
+                "ainda",
+                "porque"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "already",
+                "pt": "O que é mais próximo de «already»?"
+              },
+              "options": [
+                "já",
+                "ontem",
+                "ainda",
+                "porque"
+              ],
+              "answer": "já"
+            },
+            {
+              "question": {
+                "en": "still",
+                "pt": "O que é mais próximo de «still»?"
+              },
+              "options": [
+                "ainda",
+                "ontem",
+                "já",
+                "porque"
+              ],
+              "answer": "ainda"
+            },
+            {
+              "question": {
+                "en": "because",
+                "pt": "O que é mais próximo de «because»?"
+              },
+              "options": [
+                "porque",
+                "ontem",
+                "já",
+                "ainda"
+              ],
+              "answer": "porque"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 25
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Matola"
+      }
+    },
+    {
+      "id": "a2-a2u05-l16",
+      "unitId": "a2u05",
+      "order": 16,
+      "kind": "content",
+      "title": {
+        "pt": "Comida e quantidades: Ponto de cultura (leve)",
+        "en": "Count and uncount: Ponto de cultura (leve)"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Some, any, much, many no mercado e em casa.",
+        "Ponto de cultura (leve)"
+      ],
+      "newWords": [
+        {
+          "en": "need",
+          "pt": "precisar",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l16_w_need",
+          "exampleEn": "Faruk lives in Nacala, but this week he is visiting Beira.",
+          "examplePt": "Faruk mora em Nacala, mas esta semana está a visitar Beira."
+        },
+        {
+          "en": "near",
+          "pt": "perto",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l16_w_near",
+          "exampleEn": "Faruk lives in Nacala, but this week he is visiting Beira.",
+          "examplePt": "Faruk mora em Nacala, mas esta semana está a visitar Beira."
+        },
+        {
+          "en": "far",
+          "pt": "longe",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l16_w_far",
+          "exampleEn": "Faruk lives in Nacala, but this week he is visiting Beira.",
+          "examplePt": "Faruk mora em Nacala, mas esta semana está a visitar Beira."
+        },
+        {
+          "en": "message",
+          "pt": "mensagem",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l16_w_message",
+          "exampleEn": "Faruk lives in Nacala, but this week he is visiting Beira.",
+          "examplePt": "Faruk mora em Nacala, mas esta semana está a visitar Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Count and uncount",
+        "sentences": [
+          {
+            "id": "a2-a2u05-l16-s1",
+            "en": "Faruk lives in Nacala, but this week he is visiting Beira.",
+            "pt": "Faruk mora em Nacala, mas esta semana está a visitar Beira.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l16_s1"
+          },
+          {
+            "id": "a2-a2u05-l16-s2",
+            "en": "Yesterday he took a chapa at six and arrived late.",
+            "pt": "Ontem he apanhou um chapa às seis e chegou atrasado/a.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l16_s2"
+          },
+          {
+            "id": "a2-a2u05-l16-s3",
+            "en": "He is going to meet Marta on Saturday.",
+            "pt": "Vai encontrar-se com Marta no sábado.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l16_s3"
+          },
+          {
+            "id": "a2-a2u05-l16-s4",
+            "en": "The market in Nacala is busier than the small shop near home.",
+            "pt": "O mercado em Nacala é mais movimentado do que a loja perto de casa.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l16_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a2-a2u05-l16-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a2-a2u05-l16_repeat",
+          "items": [
+            {
+              "en": "Faruk lives in Nacala, but this week he is visiting Beira.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a2-a2u05-l16-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que é mais próximo de «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "já",
+                "ainda",
+                "porque"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "already",
+                "pt": "O que é mais próximo de «already»?"
+              },
+              "options": [
+                "já",
+                "ontem",
+                "ainda",
+                "porque"
+              ],
+              "answer": "já"
+            },
+            {
+              "question": {
+                "en": "still",
+                "pt": "O que é mais próximo de «still»?"
+              },
+              "options": [
+                "ainda",
+                "ontem",
+                "já",
+                "porque"
+              ],
+              "answer": "ainda"
+            },
+            {
+              "question": {
+                "en": "because",
+                "pt": "O que é mais próximo de «because»?"
+              },
+              "options": [
+                "porque",
+                "ontem",
+                "já",
+                "ainda"
+              ],
+              "answer": "porque"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": null,
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Nacala"
+      }
+    },
+    {
+      "id": "a2-a2u05-l17",
+      "unitId": "a2u05",
+      "order": 17,
+      "kind": "content",
+      "title": {
+        "pt": "Comida e quantidades: Revisão espaçada",
+        "en": "Count and uncount: Revisão espaçada"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Some, any, much, many no mercado e em casa.",
+        "Revisão espaçada"
+      ],
+      "newWords": [
+        {
+          "en": "message",
+          "pt": "mensagem",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l17_w_message",
+          "exampleEn": "Belmira lives in Inhambane, but this week she is visiting Nampula.",
+          "examplePt": "Belmira mora em Inhambane, mas esta semana está a visitar Nampula."
+        },
+        {
+          "en": "invite",
+          "pt": "convidar",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l17_w_invite",
+          "exampleEn": "Belmira lives in Inhambane, but this week she is visiting Nampula.",
+          "examplePt": "Belmira mora em Inhambane, mas esta semana está a visitar Nampula."
+        },
+        {
+          "en": "travel",
+          "pt": "viajar",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l17_w_travel",
+          "exampleEn": "Belmira lives in Inhambane, but this week she is visiting Nampula.",
+          "examplePt": "Belmira mora em Inhambane, mas esta semana está a visitar Nampula."
+        },
+        {
+          "en": "count",
+          "pt": "count",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l17_w_count",
+          "exampleEn": "Belmira lives in Inhambane, but this week she is visiting Nampula.",
+          "examplePt": "Belmira mora em Inhambane, mas esta semana está a visitar Nampula."
+        }
+      ],
+      "guidedReading": {
+        "title": "Count and uncount",
+        "sentences": [
+          {
+            "id": "a2-a2u05-l17-s1",
+            "en": "Belmira lives in Inhambane, but this week she is visiting Nampula.",
+            "pt": "Belmira mora em Inhambane, mas esta semana está a visitar Nampula.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l17_s1"
+          },
+          {
+            "id": "a2-a2u05-l17-s2",
+            "en": "Yesterday she took a chapa at six and arrived late.",
+            "pt": "Ontem she apanhou um chapa às seis e chegou atrasado/a.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l17_s2"
+          },
+          {
+            "id": "a2-a2u05-l17-s3",
+            "en": "She is going to meet Amina on Saturday.",
+            "pt": "Vai encontrar-se com Amina no sábado.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l17_s3"
+          },
+          {
+            "id": "a2-a2u05-l17-s4",
+            "en": "The market in Inhambane is busier than the small shop near home.",
+            "pt": "O mercado em Inhambane é mais movimentado do que a loja perto de casa.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l17_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a2-a2u05-l17-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (ontem)",
+              "answer": "yesterday",
+              "options": [
+                "yesterday",
+                "already",
+                "still",
+                "because"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (já)",
+              "answer": "already",
+              "options": [
+                "already",
+                "yesterday",
+                "still",
+                "because"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (ainda)",
+              "answer": "still",
+              "options": [
+                "still",
+                "yesterday",
+                "already",
+                "because"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a2-a2u05-l17-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "Belmira",
+                "lives",
+                "in",
+                "Inhambane",
+                "but",
+                "this",
+                "week",
+                "she"
+              ],
+              "answer": "Belmira lives in Inhambane but this week she"
+            },
+            {
+              "words": [
+                "Yesterday",
+                "she",
+                "took",
+                "a",
+                "chapa",
+                "at",
+                "six",
+                "and"
+              ],
+              "answer": "Yesterday she took a chapa at six and"
+            },
+            {
+              "words": [
+                "She",
+                "is",
+                "going",
+                "to",
+                "meet",
+                "Amina",
+                "on",
+                "Saturday"
+              ],
+              "answer": "She is going to meet Amina on Saturday"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": null,
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Inhambane"
+      }
+    },
+    {
+      "id": "a2-a2u05-l18",
+      "unitId": "a2u05",
+      "order": 18,
+      "kind": "content",
+      "title": {
+        "pt": "Comida e quantidades: Ditado curto",
+        "en": "Count and uncount: Ditado curto"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Some, any, much, many no mercado e em casa.",
+        "Ditado curto"
+      ],
+      "newWords": [
+        {
+          "en": "count",
+          "pt": "count",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l18_w_count",
+          "exampleEn": "Carlos lives in Luanda, but this week he is visiting Pemba.",
+          "examplePt": "Carlos mora em Luanda, mas esta semana está a visitar Pemba."
+        },
+        {
+          "en": "and",
+          "pt": "and",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l18_w_and",
+          "exampleEn": "Carlos lives in Luanda, but this week he is visiting Pemba.",
+          "examplePt": "Carlos mora em Luanda, mas esta semana está a visitar Pemba."
+        },
+        {
+          "en": "uncount",
+          "pt": "uncount",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l18_w_uncount",
+          "exampleEn": "Carlos lives in Luanda, but this week he is visiting Pemba.",
+          "examplePt": "Carlos mora em Luanda, mas esta semana está a visitar Pemba."
+        },
+        {
+          "en": "practice",
+          "pt": "practice",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l18_w_practice",
+          "exampleEn": "Carlos lives in Luanda, but this week he is visiting Pemba.",
+          "examplePt": "Carlos mora em Luanda, mas esta semana está a visitar Pemba."
+        }
+      ],
+      "guidedReading": {
+        "title": "Count and uncount",
+        "sentences": [
+          {
+            "id": "a2-a2u05-l18-s1",
+            "en": "Carlos lives in Luanda, but this week he is visiting Pemba.",
+            "pt": "Carlos mora em Luanda, mas esta semana está a visitar Pemba.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l18_s1"
+          },
+          {
+            "id": "a2-a2u05-l18-s2",
+            "en": "Yesterday he took a chapa at six and arrived late.",
+            "pt": "Ontem he apanhou um chapa às seis e chegou atrasado/a.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l18_s2"
+          },
+          {
+            "id": "a2-a2u05-l18-s3",
+            "en": "He is going to meet João on Saturday.",
+            "pt": "Vai encontrar-se com João no sábado.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l18_s3"
+          },
+          {
+            "id": "a2-a2u05-l18-s4",
+            "en": "The market in Luanda is busier than the small shop near home.",
+            "pt": "O mercado em Luanda é mais movimentado do que a loja perto de casa.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l18_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a2-a2u05-l18-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "a2-a2u05-l18_lw_0",
+              "answer": "Carlos lives in Luanda, but this week he is visiting Pemba.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a2-a2u05-l18_lw_1",
+              "answer": "Yesterday he took a chapa at six and arrived late.",
+              "hint": "Yesterday"
+            },
+            {
+              "audioKey": "a2-a2u05-l18_lw_2",
+              "answer": "He is going to meet João on Saturday.",
+              "hint": "He"
+            }
+          ]
+        },
+        {
+          "id": "a2-a2u05-l18-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "Carlos lives in Luanda, but this week he is visiting Pemba.",
+              "answer": true
+            },
+            {
+              "sentence": "Tomorrow he took a chapa at six and arrived late.",
+              "answer": false
+            },
+            {
+              "sentence": "He is going to meet João on Saturday.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to yesterday.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "writingPrompt": null,
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Luanda"
+      }
+    },
+    {
+      "id": "a2-a2u05-l19",
+      "unitId": "a2u05",
+      "order": 19,
+      "kind": "content",
+      "title": {
+        "pt": "Comida e quantidades: Fala: 30 segundos",
+        "en": "Count and uncount: Fala: 30 segundos"
+      },
+      "type": "content",
+      "durationMin": 6,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Some, any, much, many no mercado e em casa.",
+        "Fala: 30 segundos"
+      ],
+      "newWords": [
+        {
+          "en": "still",
+          "pt": "ainda",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l19_w_still",
+          "exampleEn": "Marta lives in Praia, but this week she is visiting Tete.",
+          "examplePt": "Marta mora em Praia, mas esta semana está a visitar Tete."
+        },
+        {
+          "en": "because",
+          "pt": "porque",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l19_w_because",
+          "exampleEn": "Marta lives in Praia, but this week she is visiting Tete.",
+          "examplePt": "Marta mora em Praia, mas esta semana está a visitar Tete."
+        },
+        {
+          "en": "than",
+          "pt": "do que",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l19_w_than",
+          "exampleEn": "Marta lives in Praia, but this week she is visiting Tete.",
+          "examplePt": "Marta mora em Praia, mas esta semana está a visitar Tete."
+        },
+        {
+          "en": "must",
+          "pt": "ter de",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l19_w_must",
+          "exampleEn": "Marta lives in Praia, but this week she is visiting Tete.",
+          "examplePt": "Marta mora em Praia, mas esta semana está a visitar Tete."
+        }
+      ],
+      "guidedReading": {
+        "title": "Count and uncount",
+        "sentences": [
+          {
+            "id": "a2-a2u05-l19-s1",
+            "en": "Marta lives in Praia, but this week she is visiting Tete.",
+            "pt": "Marta mora em Praia, mas esta semana está a visitar Tete.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l19_s1"
+          },
+          {
+            "id": "a2-a2u05-l19-s2",
+            "en": "Yesterday she took a chapa at six and arrived late.",
+            "pt": "Ontem she apanhou um chapa às seis e chegou atrasado/a.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l19_s2"
+          },
+          {
+            "id": "a2-a2u05-l19-s3",
+            "en": "She is going to meet Graça on Saturday.",
+            "pt": "Vai encontrar-se com Graça no sábado.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l19_s3"
+          },
+          {
+            "id": "a2-a2u05-l19-s4",
+            "en": "The market in Praia is busier than the small shop near home.",
+            "pt": "O mercado em Praia é mais movimentado do que a loja perto de casa.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l19_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a2-a2u05-l19-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "yesterday",
+              "pt": "ontem"
+            },
+            {
+              "en": "already",
+              "pt": "já"
+            },
+            {
+              "en": "still",
+              "pt": "ainda"
+            },
+            {
+              "en": "because",
+              "pt": "porque"
+            },
+            {
+              "en": "than",
+              "pt": "do que"
+            },
+            {
+              "en": "must",
+              "pt": "ter de"
+            }
+          ]
+        },
+        {
+          "id": "a2-a2u05-l19-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        }
+      ],
+      "writingPrompt": null,
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Praia"
+      }
+    },
+    {
+      "id": "a2-a2u05-l20",
+      "unitId": "a2u05",
+      "order": 20,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste — Comida e quantidades",
+        "en": "Unit Test"
+      },
+      "type": "unit_test",
+      "durationMin": 12,
+      "xp": 40,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing",
+        "speaking"
+      ],
+      "objectives": [
+        "Some, any, much, many no mercado e em casa.",
+        "Fecho da unidade"
+      ],
+      "newWords": [
+        {
+          "en": "must",
+          "pt": "ter de",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l20_w_must",
+          "exampleEn": "Amina lives in Nampula, but this week she is visiting Quelimane.",
+          "examplePt": "Amina mora em Nampula, mas esta semana está a visitar Quelimane."
+        },
+        {
+          "en": "need",
+          "pt": "precisar",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l20_w_need",
+          "exampleEn": "Amina lives in Nampula, but this week she is visiting Quelimane.",
+          "examplePt": "Amina mora em Nampula, mas esta semana está a visitar Quelimane."
+        },
+        {
+          "en": "near",
+          "pt": "perto",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l20_w_near",
+          "exampleEn": "Amina lives in Nampula, but this week she is visiting Quelimane.",
+          "examplePt": "Amina mora em Nampula, mas esta semana está a visitar Quelimane."
+        },
+        {
+          "en": "far",
+          "pt": "longe",
+          "ipa": "",
+          "audioKey": "a2-a2u05-l20_w_far",
+          "exampleEn": "Amina lives in Nampula, but this week she is visiting Quelimane.",
+          "examplePt": "Amina mora em Nampula, mas esta semana está a visitar Quelimane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Count and uncount",
+        "sentences": [
+          {
+            "id": "a2-a2u05-l20-s1",
+            "en": "Amina lives in Nampula, but this week she is visiting Quelimane.",
+            "pt": "Amina mora em Nampula, mas esta semana está a visitar Quelimane.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l20_s1"
+          },
+          {
+            "id": "a2-a2u05-l20-s2",
+            "en": "Yesterday she took a chapa at six and arrived late.",
+            "pt": "Ontem she apanhou um chapa às seis e chegou atrasado/a.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l20_s2"
+          },
+          {
+            "id": "a2-a2u05-l20-s3",
+            "en": "She is going to meet Paulo on Saturday.",
+            "pt": "Vai encontrar-se com Paulo no sábado.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l20_s3"
+          },
+          {
+            "id": "a2-a2u05-l20-s4",
+            "en": "The market in Nampula is busier than the small shop near home.",
+            "pt": "O mercado em Nampula é mais movimentado do que a loja perto de casa.",
+            "ipa": "",
+            "audioKey": "a2-a2u05-l20_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a2-a2u05-l20-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante 30 seconds.",
+            "en": "Speak for 30 seconds."
+          },
+          "items": [
+            {
+              "en": "Amina lives in Nampula, but this week she is visiting Quelimane.",
+              "task": "Say what you did yesterday and what you are going to do at the weekend.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        },
+        {
+          "id": "a2-a2u05-l20-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que é mais próximo de «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "já",
+                "ainda",
+                "porque"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "already",
+                "pt": "O que é mais próximo de «already»?"
+              },
+              "options": [
+                "já",
+                "ontem",
+                "ainda",
+                "porque"
+              ],
+              "answer": "já"
+            },
+            {
+              "question": {
+                "en": "still",
+                "pt": "O que é mais próximo de «still»?"
+              },
+              "options": [
+                "ainda",
+                "ontem",
+                "já",
+                "porque"
+              ],
+              "answer": "ainda"
+            },
+            {
+              "question": {
+                "en": "because",
+                "pt": "O que é mais próximo de «because»?"
+              },
+              "options": [
+                "porque",
+                "ontem",
+                "já",
+                "ainda"
+              ],
+              "answer": "porque"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 40
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Nampula"
+      }
+    }
+  ]
+}

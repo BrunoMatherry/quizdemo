@@ -1,0 +1,3500 @@
+{
+  "id": "u07",
+  "level": "A1",
+  "order": 7,
+  "title": {
+    "pt": "Rotina do dia",
+    "en": "Daily routine"
+  },
+  "goal": "Present Simple de hábitos e horas.",
+  "themeImageHint": "Daily routine",
+  "lessonCount": 20,
+  "lessons": [
+    {
+      "id": "a1-u07-l01",
+      "unitId": "u07",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "Eu acordo às cinco",
+        "en": "Eu acordo às cinco"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Present Simple de hábitos e horas.",
+        "Eu acordo às cinco"
+      ],
+      "newWords": [
+        {
+          "en": "wake up",
+          "pt": "acordar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l01_w_wake-up",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "get up",
+          "pt": "levantar-se",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l01_w_get-up",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "eat",
+          "pt": "comer",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l01_w_eat",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "drink",
+          "pt": "beber",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l01_w_drink",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Eu acordo às cinco",
+        "sentences": [
+          {
+            "id": "a1-u07-l01-s1",
+            "en": "Amina lives in Maputo.",
+            "pt": "Amina mora em Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l01_s1"
+          },
+          {
+            "id": "a1-u07-l01-s2",
+            "en": "Today the lesson is Eu acordo às cinco.",
+            "pt": "Hoje a lição é: Eu acordo às cinco.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l01_s2"
+          },
+          {
+            "id": "a1-u07-l01-s3",
+            "en": "We learn 'wake up' and 'get up'.",
+            "pt": "Aprendemos «acordar» e «levantar-se».",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l01_s3"
+          },
+          {
+            "id": "a1-u07-l01-s4",
+            "en": "Amina says: I use 'drink' every day.",
+            "pt": "Amina diz: uso «beber» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l01_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u07-l01-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u07-l01_repeat",
+          "items": [
+            {
+              "en": "Amina lives in Maputo.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l01-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "wake up",
+                "pt": "O que significa «wake up»?"
+              },
+              "options": [
+                "acordar",
+                "comer",
+                "ir",
+                "estudar"
+              ],
+              "answer": "acordar"
+            },
+            {
+              "question": {
+                "en": "get up",
+                "pt": "O que significa «get up»?"
+              },
+              "options": [
+                "levantar-se",
+                "beber",
+                "trabalhar",
+                "dormir"
+              ],
+              "answer": "levantar-se"
+            },
+            {
+              "question": {
+                "en": "eat",
+                "pt": "O que significa «eat»?"
+              },
+              "options": [
+                "comer",
+                "ir",
+                "estudar",
+                "cozinhar"
+              ],
+              "answer": "comer"
+            },
+            {
+              "question": {
+                "en": "drink",
+                "pt": "O que significa «drink»?"
+              },
+              "options": [
+                "beber",
+                "trabalhar",
+                "dormir",
+                "lavar"
+              ],
+              "answer": "beber"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-l02",
+      "unitId": "u07",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "Pequeno-almoço",
+        "en": "Pequeno-almoço"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Present Simple de hábitos e horas.",
+        "Pequeno-almoço"
+      ],
+      "newWords": [
+        {
+          "en": "drink",
+          "pt": "beber",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l02_w_drink",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "go",
+          "pt": "ir",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l02_w_go",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "work",
+          "pt": "trabalhar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l02_w_work",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "study",
+          "pt": "estudar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l02_w_study",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Pequeno-almoço",
+        "sentences": [
+          {
+            "id": "a1-u07-l02-s1",
+            "en": "João lives in Matola.",
+            "pt": "João mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l02_s1"
+          },
+          {
+            "id": "a1-u07-l02-s2",
+            "en": "Today the lesson is Pequeno-almoço.",
+            "pt": "Hoje a lição é: Pequeno-almoço.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l02_s2"
+          },
+          {
+            "id": "a1-u07-l02-s3",
+            "en": "We learn 'get up' and 'eat'.",
+            "pt": "Aprendemos «levantar-se» e «comer».",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l02_s3"
+          },
+          {
+            "id": "a1-u07-l02-s4",
+            "en": "João says: I use 'go' every day.",
+            "pt": "João diz: uso «ir» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l02_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u07-l02-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Paulo uses the word _____.",
+              "answer": "wake up",
+              "options": [
+                "wake up",
+                "get up",
+                "eat",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Paulo uses the word _____.",
+              "answer": "get up",
+              "options": [
+                "get up",
+                "eat",
+                "drink",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Paulo uses the word _____.",
+              "answer": "eat",
+              "options": [
+                "eat",
+                "drink",
+                "go",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-l03",
+      "unitId": "u07",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "Vou à escola / ao trabalho",
+        "en": "Vou à escola / ao trabalho"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Present Simple de hábitos e horas.",
+        "Vou à escola / ao trabalho"
+      ],
+      "newWords": [
+        {
+          "en": "study",
+          "pt": "estudar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l03_w_study",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "sleep",
+          "pt": "dormir",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l03_w_sleep",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "cook",
+          "pt": "cozinhar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l03_w_cook",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "wash",
+          "pt": "lavar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l03_w_wash",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        }
+      ],
+      "guidedReading": {
+        "title": "Vou à escola / ao trabalho",
+        "sentences": [
+          {
+            "id": "a1-u07-l03-s1",
+            "en": "Fátima lives in Xai-Xai.",
+            "pt": "Fátima mora em Xai-Xai.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l03_s1"
+          },
+          {
+            "id": "a1-u07-l03-s2",
+            "en": "Today the lesson is Vou à escola / ao trabalho.",
+            "pt": "Hoje a lição é: Vou à escola / ao trabalho.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l03_s2"
+          },
+          {
+            "id": "a1-u07-l03-s3",
+            "en": "We learn 'eat' and 'drink'.",
+            "pt": "Aprendemos «comer» e «beber».",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l03_s3"
+          },
+          {
+            "id": "a1-u07-l03-s4",
+            "en": "Fátima says: I use 'work' every day.",
+            "pt": "Fátima diz: uso «trabalhar» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l03_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u07-l03-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "wake up",
+              "pt": "acordar"
+            },
+            {
+              "en": "get up",
+              "pt": "levantar-se"
+            },
+            {
+              "en": "eat",
+              "pt": "comer"
+            },
+            {
+              "en": "drink",
+              "pt": "beber"
+            },
+            {
+              "en": "go",
+              "pt": "ir"
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l03-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'wake up' in Portuguese is 'acordar'.",
+              "answer": true
+            },
+            {
+              "sentence": "'wake up' means 'beber'.",
+              "answer": false
+            },
+            {
+              "sentence": "'get up' in Portuguese is 'levantar-se'.",
+              "answer": true
+            },
+            {
+              "sentence": "'get up' means 'ir'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-l04",
+      "unitId": "u07",
+      "order": 4,
+      "kind": "content",
+      "title": {
+        "pt": "Almoço: xima e matapa",
+        "en": "Almoço: xima e matapa"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Present Simple de hábitos e horas.",
+        "Almoço: xima e matapa"
+      ],
+      "newWords": [
+        {
+          "en": "wash",
+          "pt": "lavar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l04_w_wash",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "morning",
+          "pt": "manhã",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l04_w_morning",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "afternoon",
+          "pt": "tarde",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l04_w_afternoon",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "evening",
+          "pt": "fim de tarde/noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l04_w_evening",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Almoço: xima e matapa",
+        "sentences": [
+          {
+            "id": "a1-u07-l04-s1",
+            "en": "Carlos lives in Inhambane.",
+            "pt": "Carlos mora em Inhambane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l04_s1"
+          },
+          {
+            "id": "a1-u07-l04-s2",
+            "en": "Today the lesson is Almoço: xima e matapa.",
+            "pt": "Hoje a lição é: Almoço: xima e matapa.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l04_s2"
+          },
+          {
+            "id": "a1-u07-l04-s3",
+            "en": "We learn 'drink' and 'go'.",
+            "pt": "Aprendemos «beber» e «ir».",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l04_s3"
+          },
+          {
+            "id": "a1-u07-l04-s4",
+            "en": "Carlos says: I use 'study' every day.",
+            "pt": "Carlos diz: uso «estudar» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l04_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u07-l04-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u07-l04_lw_paulo-is-in-tete.-",
+              "answer": "Paulo is in Tete. wake up.",
+              "hint": "Paulo"
+            },
+            {
+              "audioKey": "a1_a1-u07-l04_lw_paulo-is-in-tete.-",
+              "answer": "Paulo is in Tete. get up.",
+              "hint": "Paulo"
+            },
+            {
+              "audioKey": "a1_a1-u07-l04_lw_paulo-is-in-tete.-",
+              "answer": "Paulo is in Tete. eat.",
+              "hint": "Paulo"
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l04-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "wake",
+                "up"
+              ],
+              "answer": "wake up"
+            },
+            {
+              "words": [
+                "get",
+                "up"
+              ],
+              "answer": "get up"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "eat"
+              ],
+              "answer": "I need eat"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-l05",
+      "unitId": "u07",
+      "order": 5,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 1",
+        "en": "Checkpoint quiz 1"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Present Simple de hábitos e horas.",
+        "Mini-teste 1"
+      ],
+      "newWords": [
+        {
+          "en": "evening",
+          "pt": "fim de tarde/noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l05_w_evening",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "night",
+          "pt": "noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l05_w_night",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "every day",
+          "pt": "todos os dias",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l05_w_every-day",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "at",
+          "pt": "às (horas)",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l05_w_at",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 1",
+        "sentences": [
+          {
+            "id": "a1-u07-l05-s1",
+            "en": "Let’s review. Graça is from Vilankulo.",
+            "pt": "Vamos rever. Graça é de Vilankulo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l05_s1"
+          },
+          {
+            "id": "a1-u07-l05-s2",
+            "en": "This unit is about Daily routine.",
+            "pt": "Esta unidade é sobre Rotina do dia.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l05_s2"
+          },
+          {
+            "id": "a1-u07-l05-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l05_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u07-l05-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "wake up",
+                "pt": "O que significa «wake up»?"
+              },
+              "options": [
+                "acordar",
+                "comer",
+                "ir",
+                "estudar"
+              ],
+              "answer": "acordar"
+            },
+            {
+              "question": {
+                "en": "get up",
+                "pt": "O que significa «get up»?"
+              },
+              "options": [
+                "levantar-se",
+                "beber",
+                "trabalhar",
+                "dormir"
+              ],
+              "answer": "levantar-se"
+            },
+            {
+              "question": {
+                "en": "eat",
+                "pt": "O que significa «eat»?"
+              },
+              "options": [
+                "comer",
+                "ir",
+                "estudar",
+                "cozinhar"
+              ],
+              "answer": "comer"
+            },
+            {
+              "question": {
+                "en": "drink",
+                "pt": "O que significa «drink»?"
+              },
+              "options": [
+                "beber",
+                "trabalhar",
+                "dormir",
+                "lavar"
+              ],
+              "answer": "beber"
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l05-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Paulo uses the word _____.",
+              "answer": "wake up",
+              "options": [
+                "wake up",
+                "get up",
+                "eat",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Paulo uses the word _____.",
+              "answer": "get up",
+              "options": [
+                "get up",
+                "eat",
+                "drink",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Paulo uses the word _____.",
+              "answer": "eat",
+              "options": [
+                "eat",
+                "drink",
+                "go",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l05-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u07-l05_lw_paulo-is-in-tete.-",
+              "answer": "Paulo is in Tete. wake up.",
+              "hint": "Paulo"
+            },
+            {
+              "audioKey": "a1_a1-u07-l05_lw_paulo-is-in-tete.-",
+              "answer": "Paulo is in Tete. get up.",
+              "hint": "Paulo"
+            },
+            {
+              "audioKey": "a1_a1-u07-l05_lw_paulo-is-in-tete.-",
+              "answer": "Paulo is in Tete. eat.",
+              "hint": "Paulo"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-l06",
+      "unitId": "u07",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "À tarde",
+        "en": "À tarde"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Present Simple de hábitos e horas.",
+        "À tarde"
+      ],
+      "newWords": [
+        {
+          "en": "at",
+          "pt": "às (horas)",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l06_w_at",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "o'clock",
+          "pt": "em ponto",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l06_w_o'clock",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "À tarde",
+        "sentences": [
+          {
+            "id": "a1-u07-l06-s1",
+            "en": "Ibraimo lives in Beira.",
+            "pt": "Ibraimo mora em Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l06_s1"
+          },
+          {
+            "id": "a1-u07-l06-s2",
+            "en": "Today the lesson is À noite.",
+            "pt": "Hoje a lição é: À noite.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l06_s2"
+          },
+          {
+            "id": "a1-u07-l06-s3",
+            "en": "We learn 'work' and 'study'.",
+            "pt": "Aprendemos «trabalhar» e «estudar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l06_s3"
+          },
+          {
+            "id": "a1-u07-l06-s4",
+            "en": "Ibraimo says: I use 'cook' every day.",
+            "pt": "Ibraimo diz: uso «cozinhar» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l06_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u07-l06-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Ibraimo lives in Beira.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l06-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "wake up",
+                "pt": "O que significa «wake up»?"
+              },
+              "options": [
+                "acordar",
+                "comer",
+                "ir",
+                "estudar"
+              ],
+              "answer": "acordar"
+            },
+            {
+              "question": {
+                "en": "get up",
+                "pt": "O que significa «get up»?"
+              },
+              "options": [
+                "levantar-se",
+                "beber",
+                "trabalhar",
+                "dormir"
+              ],
+              "answer": "levantar-se"
+            },
+            {
+              "question": {
+                "en": "eat",
+                "pt": "O que significa «eat»?"
+              },
+              "options": [
+                "comer",
+                "ir",
+                "estudar",
+                "cozinhar"
+              ],
+              "answer": "comer"
+            },
+            {
+              "question": {
+                "en": "drink",
+                "pt": "O que significa «drink»?"
+              },
+              "options": [
+                "beber",
+                "trabalhar",
+                "dormir",
+                "lavar"
+              ],
+              "answer": "beber"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-l07",
+      "unitId": "u07",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "À noite",
+        "en": "À noite"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Present Simple de hábitos e horas.",
+        "À noite"
+      ],
+      "newWords": [
+        {
+          "en": "get up",
+          "pt": "levantar-se",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l07_w_get-up",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "eat",
+          "pt": "comer",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l07_w_eat",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "drink",
+          "pt": "beber",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l07_w_drink",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "go",
+          "pt": "ir",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l07_w_go",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        }
+      ],
+      "guidedReading": {
+        "title": "À noite",
+        "sentences": [
+          {
+            "id": "a1-u07-l07-s1",
+            "en": "Esperança lives in Chimoio.",
+            "pt": "Esperança mora em Chimoio.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l07_s1"
+          },
+          {
+            "id": "a1-u07-l07-s2",
+            "en": "Today the lesson is Horas em ponto.",
+            "pt": "Hoje a lição é: Horas em ponto.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l07_s2"
+          },
+          {
+            "id": "a1-u07-l07-s3",
+            "en": "We learn 'study' and 'sleep'.",
+            "pt": "Aprendemos «estudar» e «dormir».",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l07_s3"
+          },
+          {
+            "id": "a1-u07-l07-s4",
+            "en": "Esperança says: I use 'wash' every day.",
+            "pt": "Esperança diz: uso «lavar» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l07_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u07-l07-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u07-l07_repeat",
+          "items": [
+            {
+              "en": "Esperança lives in Chimoio.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l07-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "wake up",
+                "pt": "O que significa «wake up»?"
+              },
+              "options": [
+                "acordar",
+                "comer",
+                "ir",
+                "estudar"
+              ],
+              "answer": "acordar"
+            },
+            {
+              "question": {
+                "en": "get up",
+                "pt": "O que significa «get up»?"
+              },
+              "options": [
+                "levantar-se",
+                "beber",
+                "trabalhar",
+                "dormir"
+              ],
+              "answer": "levantar-se"
+            },
+            {
+              "question": {
+                "en": "eat",
+                "pt": "O que significa «eat»?"
+              },
+              "options": [
+                "comer",
+                "ir",
+                "estudar",
+                "cozinhar"
+              ],
+              "answer": "comer"
+            },
+            {
+              "question": {
+                "en": "drink",
+                "pt": "O que significa «drink»?"
+              },
+              "options": [
+                "beber",
+                "trabalhar",
+                "dormir",
+                "lavar"
+              ],
+              "answer": "beber"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-l08",
+      "unitId": "u07",
+      "order": 8,
+      "kind": "content",
+      "title": {
+        "pt": "Horas em ponto",
+        "en": "Horas em ponto"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Present Simple de hábitos e horas.",
+        "Horas em ponto"
+      ],
+      "newWords": [
+        {
+          "en": "go",
+          "pt": "ir",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l08_w_go",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "work",
+          "pt": "trabalhar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l08_w_work",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "study",
+          "pt": "estudar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l08_w_study",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "sleep",
+          "pt": "dormir",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l08_w_sleep",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        }
+      ],
+      "guidedReading": {
+        "title": "Horas em ponto",
+        "sentences": [
+          {
+            "id": "a1-u07-l08-s1",
+            "en": "Paulo lives in Tete.",
+            "pt": "Paulo mora em Tete.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l08_s1"
+          },
+          {
+            "id": "a1-u07-l08-s2",
+            "en": "Today the lesson is Horas e meia.",
+            "pt": "Hoje a lição é: Horas e meia.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l08_s2"
+          },
+          {
+            "id": "a1-u07-l08-s3",
+            "en": "We learn 'sleep' and 'cook'.",
+            "pt": "Aprendemos «dormir» e «cozinhar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l08_s3"
+          },
+          {
+            "id": "a1-u07-l08-s4",
+            "en": "Paulo says: I use 'morning' every day.",
+            "pt": "Paulo diz: uso «manhã» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l08_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u07-l08-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Paulo uses the word _____.",
+              "answer": "wake up",
+              "options": [
+                "wake up",
+                "get up",
+                "eat",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Paulo uses the word _____.",
+              "answer": "get up",
+              "options": [
+                "get up",
+                "eat",
+                "drink",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Paulo uses the word _____.",
+              "answer": "eat",
+              "options": [
+                "eat",
+                "drink",
+                "go",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-l09",
+      "unitId": "u07",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Horas e meia",
+        "en": "Horas e meia"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Present Simple de hábitos e horas.",
+        "Horas e meia"
+      ],
+      "newWords": [
+        {
+          "en": "sleep",
+          "pt": "dormir",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l09_w_sleep",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "cook",
+          "pt": "cozinhar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l09_w_cook",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "wash",
+          "pt": "lavar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l09_w_wash",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "morning",
+          "pt": "manhã",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l09_w_morning",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Horas e meia",
+        "sentences": [
+          {
+            "id": "a1-u07-l09-s1",
+            "en": "Belmira lives in Quelimane.",
+            "pt": "Belmira mora em Quelimane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l09_s1"
+          },
+          {
+            "id": "a1-u07-l09-s2",
+            "en": "Today the lesson is Every day / on Sunday.",
+            "pt": "Hoje a lição é: Every day / on Sunday.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l09_s2"
+          },
+          {
+            "id": "a1-u07-l09-s3",
+            "en": "We learn 'cook' and 'wash'.",
+            "pt": "Aprendemos «cozinhar» e «lavar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l09_s3"
+          },
+          {
+            "id": "a1-u07-l09-s4",
+            "en": "Belmira says: I use 'afternoon' every day.",
+            "pt": "Belmira diz: uso «tarde» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l09_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u07-l09-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "wake up",
+              "pt": "acordar"
+            },
+            {
+              "en": "get up",
+              "pt": "levantar-se"
+            },
+            {
+              "en": "eat",
+              "pt": "comer"
+            },
+            {
+              "en": "drink",
+              "pt": "beber"
+            },
+            {
+              "en": "go",
+              "pt": "ir"
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l09-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'wake up' in Portuguese is 'acordar'.",
+              "answer": true
+            },
+            {
+              "sentence": "'wake up' means 'beber'.",
+              "answer": false
+            },
+            {
+              "sentence": "'get up' in Portuguese is 'levantar-se'.",
+              "answer": true
+            },
+            {
+              "sentence": "'get up' means 'ir'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-l10",
+      "unitId": "u07",
+      "order": 10,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão guiada",
+        "en": "Guided review"
+      },
+      "type": "review",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectives": [
+        "Present Simple de hábitos e horas.",
+        "Revisão guiada"
+      ],
+      "newWords": [
+        {
+          "en": "morning",
+          "pt": "manhã",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l10_w_morning",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "afternoon",
+          "pt": "tarde",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l10_w_afternoon",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "evening",
+          "pt": "fim de tarde/noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l10_w_evening",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "night",
+          "pt": "noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l10_w_night",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        }
+      ],
+      "guidedReading": {
+        "title": "Guided review",
+        "sentences": [
+          {
+            "id": "a1-u07-l10-s1",
+            "en": "Let’s review. Nélio is from Nampula.",
+            "pt": "Vamos rever. Nélio é de Nampula.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l10_s1"
+          },
+          {
+            "id": "a1-u07-l10-s2",
+            "en": "This unit is about Daily routine.",
+            "pt": "Esta unidade é sobre Rotina do dia.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l10_s2"
+          },
+          {
+            "id": "a1-u07-l10-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l10_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u07-l10-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u07-l10_lw_paulo-is-in-tete.-",
+              "answer": "Paulo is in Tete. wake up.",
+              "hint": "Paulo"
+            },
+            {
+              "audioKey": "a1_a1-u07-l10_lw_paulo-is-in-tete.-",
+              "answer": "Paulo is in Tete. get up.",
+              "hint": "Paulo"
+            },
+            {
+              "audioKey": "a1_a1-u07-l10_lw_paulo-is-in-tete.-",
+              "answer": "Paulo is in Tete. eat.",
+              "hint": "Paulo"
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l10-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "wake",
+                "up"
+              ],
+              "answer": "wake up"
+            },
+            {
+              "words": [
+                "get",
+                "up"
+              ],
+              "answer": "get up"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "eat"
+              ],
+              "answer": "I need eat"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-l11",
+      "unitId": "u07",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "Every day / on Sunday",
+        "en": "Every day / on Sunday"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Present Simple de hábitos e horas.",
+        "Every day / on Sunday"
+      ],
+      "newWords": [
+        {
+          "en": "night",
+          "pt": "noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l11_w_night",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "every day",
+          "pt": "todos os dias",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l11_w_every-day",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "at",
+          "pt": "às (horas)",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l11_w_at",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "o'clock",
+          "pt": "em ponto",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l11_w_o'clock",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        }
+      ],
+      "guidedReading": {
+        "title": "Every day / on Sunday",
+        "sentences": [
+          {
+            "id": "a1-u07-l11-s1",
+            "en": "Lurdes lives in Nacala.",
+            "pt": "Lurdes mora em Nacala.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l11_s1"
+          },
+          {
+            "id": "a1-u07-l11-s2",
+            "en": "Today the lesson is Negativo: I don’t.",
+            "pt": "Hoje a lição é: Negativo: I don’t.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l11_s2"
+          },
+          {
+            "id": "a1-u07-l11-s3",
+            "en": "We learn 'morning' and 'afternoon'.",
+            "pt": "Aprendemos «manhã» e «tarde».",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l11_s3"
+          },
+          {
+            "id": "a1-u07-l11-s4",
+            "en": "Lurdes says: I use 'night' every day.",
+            "pt": "Lurdes diz: uso «noite» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l11_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u07-l11-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u07-l11_tap",
+          "items": [
+            {
+              "answer": "wake up",
+              "options": [
+                "wake up",
+                "get up",
+                "eat",
+                "drink"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l11-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-l12",
+      "unitId": "u07",
+      "order": 12,
+      "kind": "content",
+      "title": {
+        "pt": "He works / She studies",
+        "en": "He works / She studies"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Present Simple de hábitos e horas.",
+        "He works / She studies"
+      ],
+      "newWords": [
+        {
+          "en": "o'clock",
+          "pt": "em ponto",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l12_w_o'clock",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        }
+      ],
+      "guidedReading": {
+        "title": "He works / She studies",
+        "sentences": [
+          {
+            "id": "a1-u07-l12-s1",
+            "en": "Faruk lives in Pemba.",
+            "pt": "Faruk mora em Pemba.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l12_s1"
+          },
+          {
+            "id": "a1-u07-l12-s2",
+            "en": "Today the lesson is Pergunta: Do you…?.",
+            "pt": "Hoje a lição é: Pergunta: Do you…?.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l12_s2"
+          },
+          {
+            "id": "a1-u07-l12-s3",
+            "en": "We learn 'afternoon' and 'evening'.",
+            "pt": "Aprendemos «tarde» e «fim de tarde/noite».",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l12_s3"
+          },
+          {
+            "id": "a1-u07-l12-s4",
+            "en": "Faruk says: I use 'every day' every day.",
+            "pt": "Faruk diz: uso «todos os dias» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l12_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u07-l12-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Faruk lives in Pemba.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l12-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "wake up",
+                "pt": "O que significa «wake up»?"
+              },
+              "options": [
+                "acordar",
+                "comer",
+                "ir",
+                "estudar"
+              ],
+              "answer": "acordar"
+            },
+            {
+              "question": {
+                "en": "get up",
+                "pt": "O que significa «get up»?"
+              },
+              "options": [
+                "levantar-se",
+                "beber",
+                "trabalhar",
+                "dormir"
+              ],
+              "answer": "levantar-se"
+            },
+            {
+              "question": {
+                "en": "eat",
+                "pt": "O que significa «eat»?"
+              },
+              "options": [
+                "comer",
+                "ir",
+                "estudar",
+                "cozinhar"
+              ],
+              "answer": "comer"
+            },
+            {
+              "question": {
+                "en": "drink",
+                "pt": "O que significa «drink»?"
+              },
+              "options": [
+                "beber",
+                "trabalhar",
+                "dormir",
+                "lavar"
+              ],
+              "answer": "beber"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-l13",
+      "unitId": "u07",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Negativo: I don’t",
+        "en": "Negativo: I don’t"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Present Simple de hábitos e horas.",
+        "Negativo: I don’t"
+      ],
+      "newWords": [
+        {
+          "en": "eat",
+          "pt": "comer",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l13_w_eat",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "drink",
+          "pt": "beber",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l13_w_drink",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "go",
+          "pt": "ir",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l13_w_go",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "work",
+          "pt": "trabalhar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l13_w_work",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        }
+      ],
+      "guidedReading": {
+        "title": "Negativo: I don’t",
+        "sentences": [
+          {
+            "id": "a1-u07-l13-s1",
+            "en": "Josina lives in Lichinga.",
+            "pt": "Josina mora em Lichinga.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l13_s1"
+          },
+          {
+            "id": "a1-u07-l13-s2",
+            "en": "Today the lesson is Diálogo: a rotina da Amina.",
+            "pt": "Hoje a lição é: Diálogo: a rotina da Amina.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l13_s2"
+          },
+          {
+            "id": "a1-u07-l13-s3",
+            "en": "We learn 'evening' and 'night'.",
+            "pt": "Aprendemos «fim de tarde/noite» e «noite».",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l13_s3"
+          },
+          {
+            "id": "a1-u07-l13-s4",
+            "en": "Josina says: I use 'at' every day.",
+            "pt": "Josina diz: uso «às (horas)» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l13_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u07-l13-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u07-l13_repeat",
+          "items": [
+            {
+              "en": "Josina lives in Lichinga.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l13-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "wake up",
+                "pt": "O que significa «wake up»?"
+              },
+              "options": [
+                "acordar",
+                "comer",
+                "ir",
+                "estudar"
+              ],
+              "answer": "acordar"
+            },
+            {
+              "question": {
+                "en": "get up",
+                "pt": "O que significa «get up»?"
+              },
+              "options": [
+                "levantar-se",
+                "beber",
+                "trabalhar",
+                "dormir"
+              ],
+              "answer": "levantar-se"
+            },
+            {
+              "question": {
+                "en": "eat",
+                "pt": "O que significa «eat»?"
+              },
+              "options": [
+                "comer",
+                "ir",
+                "estudar",
+                "cozinhar"
+              ],
+              "answer": "comer"
+            },
+            {
+              "question": {
+                "en": "drink",
+                "pt": "O que significa «drink»?"
+              },
+              "options": [
+                "beber",
+                "trabalhar",
+                "dormir",
+                "lavar"
+              ],
+              "answer": "beber"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-l14",
+      "unitId": "u07",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Pergunta: Do you…?",
+        "en": "Pergunta: Do you…?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Present Simple de hábitos e horas.",
+        "Pergunta: Do you…?"
+      ],
+      "newWords": [
+        {
+          "en": "work",
+          "pt": "trabalhar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l14_w_work",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "study",
+          "pt": "estudar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l14_w_study",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "sleep",
+          "pt": "dormir",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l14_w_sleep",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "cook",
+          "pt": "cozinhar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l14_w_cook",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        }
+      ],
+      "guidedReading": {
+        "title": "Pergunta: Do you…?",
+        "sentences": [
+          {
+            "id": "a1-u07-l14-s1",
+            "en": "Tendai lives in Ilha de Moçambique.",
+            "pt": "Tendai mora em Ilha de Moçambique.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l14_s1"
+          },
+          {
+            "id": "a1-u07-l14-s2",
+            "en": "Today the lesson is Diálogo: o domingo do João.",
+            "pt": "Hoje a lição é: Diálogo: o domingo do João.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l14_s2"
+          },
+          {
+            "id": "a1-u07-l14-s3",
+            "en": "We learn 'night' and 'every day'.",
+            "pt": "Aprendemos «noite» e «todos os dias».",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l14_s3"
+          },
+          {
+            "id": "a1-u07-l14-s4",
+            "en": "Tendai says: I use 'o'clock' every day.",
+            "pt": "Tendai diz: uso «em ponto» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l14_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u07-l14-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Paulo uses the word _____.",
+              "answer": "wake up",
+              "options": [
+                "wake up",
+                "get up",
+                "eat",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Paulo uses the word _____.",
+              "answer": "get up",
+              "options": [
+                "get up",
+                "eat",
+                "drink",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Paulo uses the word _____.",
+              "answer": "eat",
+              "options": [
+                "eat",
+                "drink",
+                "go",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-l15",
+      "unitId": "u07",
+      "order": 15,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 2",
+        "en": "Checkpoint quiz 2"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Present Simple de hábitos e horas.",
+        "Mini-teste 2"
+      ],
+      "newWords": [
+        {
+          "en": "cook",
+          "pt": "cozinhar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l15_w_cook",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "wash",
+          "pt": "lavar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l15_w_wash",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "morning",
+          "pt": "manhã",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l15_w_morning",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "afternoon",
+          "pt": "tarde",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l15_w_afternoon",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 2",
+        "sentences": [
+          {
+            "id": "a1-u07-l15-s1",
+            "en": "Let’s review. Amélia is from Maputo.",
+            "pt": "Vamos rever. Amélia é de Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l15_s1"
+          },
+          {
+            "id": "a1-u07-l15-s2",
+            "en": "This unit is about Daily routine.",
+            "pt": "Esta unidade é sobre Rotina do dia.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l15_s2"
+          },
+          {
+            "id": "a1-u07-l15-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l15_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u07-l15-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "wake up",
+                "pt": "O que significa «wake up»?"
+              },
+              "options": [
+                "acordar",
+                "comer",
+                "ir",
+                "estudar"
+              ],
+              "answer": "acordar"
+            },
+            {
+              "question": {
+                "en": "get up",
+                "pt": "O que significa «get up»?"
+              },
+              "options": [
+                "levantar-se",
+                "beber",
+                "trabalhar",
+                "dormir"
+              ],
+              "answer": "levantar-se"
+            },
+            {
+              "question": {
+                "en": "eat",
+                "pt": "O que significa «eat»?"
+              },
+              "options": [
+                "comer",
+                "ir",
+                "estudar",
+                "cozinhar"
+              ],
+              "answer": "comer"
+            },
+            {
+              "question": {
+                "en": "drink",
+                "pt": "O que significa «drink»?"
+              },
+              "options": [
+                "beber",
+                "trabalhar",
+                "dormir",
+                "lavar"
+              ],
+              "answer": "beber"
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l15-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Paulo uses the word _____.",
+              "answer": "wake up",
+              "options": [
+                "wake up",
+                "get up",
+                "eat",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Paulo uses the word _____.",
+              "answer": "get up",
+              "options": [
+                "get up",
+                "eat",
+                "drink",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Paulo uses the word _____.",
+              "answer": "eat",
+              "options": [
+                "eat",
+                "drink",
+                "go",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l15-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u07-l15_lw_paulo-is-in-tete.-",
+              "answer": "Paulo is in Tete. wake up.",
+              "hint": "Paulo"
+            },
+            {
+              "audioKey": "a1_a1-u07-l15_lw_paulo-is-in-tete.-",
+              "answer": "Paulo is in Tete. get up.",
+              "hint": "Paulo"
+            },
+            {
+              "audioKey": "a1_a1-u07-l15_lw_paulo-is-in-tete.-",
+              "answer": "Paulo is in Tete. eat.",
+              "hint": "Paulo"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-l16",
+      "unitId": "u07",
+      "order": 16,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: a rotina da Amina",
+        "en": "Diálogo: a rotina da Amina"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Present Simple de hábitos e horas.",
+        "Diálogo: a rotina da Amina"
+      ],
+      "newWords": [
+        {
+          "en": "afternoon",
+          "pt": "tarde",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l16_w_afternoon",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "evening",
+          "pt": "fim de tarde/noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l16_w_evening",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "night",
+          "pt": "noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l16_w_night",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "every day",
+          "pt": "todos os dias",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l16_w_every-day",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: a rotina da Amina",
+        "sentences": [
+          {
+            "id": "a1-u07-l16-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l16_s1"
+          },
+          {
+            "id": "a1-u07-l16-s2",
+            "en": "Today the lesson is A tua rotina em 8 frases.",
+            "pt": "Hoje a lição é: A tua rotina em 8 frases.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l16_s2"
+          },
+          {
+            "id": "a1-u07-l16-s3",
+            "en": "We learn 'at' and 'o'clock'.",
+            "pt": "Aprendemos «às (horas)» e «em ponto».",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l16_s3"
+          },
+          {
+            "id": "a1-u07-l16-s4",
+            "en": "Zacarias says: I use 'get up' every day.",
+            "pt": "Zacarias diz: uso «levantar-se» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l16_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u07-l16-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u07-l16_lw_paulo-is-in-tete.-",
+              "answer": "Paulo is in Tete. wake up.",
+              "hint": "Paulo"
+            },
+            {
+              "audioKey": "a1_a1-u07-l16_lw_paulo-is-in-tete.-",
+              "answer": "Paulo is in Tete. get up.",
+              "hint": "Paulo"
+            },
+            {
+              "audioKey": "a1_a1-u07-l16_lw_paulo-is-in-tete.-",
+              "answer": "Paulo is in Tete. eat.",
+              "hint": "Paulo"
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l16-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "wake",
+                "up"
+              ],
+              "answer": "wake up"
+            },
+            {
+              "words": [
+                "get",
+                "up"
+              ],
+              "answer": "get up"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "eat"
+              ],
+              "answer": "I need eat"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-l17",
+      "unitId": "u07",
+      "order": 17,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: o domingo do João",
+        "en": "Diálogo: o domingo do João"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Present Simple de hábitos e horas.",
+        "Diálogo: o domingo do João"
+      ],
+      "newWords": [
+        {
+          "en": "every day",
+          "pt": "todos os dias",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l17_w_every-day",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "at",
+          "pt": "às (horas)",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l17_w_at",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "o'clock",
+          "pt": "em ponto",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l17_w_o'clock",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: o domingo do João",
+        "sentences": [
+          {
+            "id": "a1-u07-l17-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l17_s1"
+          },
+          {
+            "id": "a1-u07-l17-s2",
+            "en": "Today the lesson is A tua rotina em 8 frases.",
+            "pt": "Hoje a lição é: A tua rotina em 8 frases.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l17_s2"
+          },
+          {
+            "id": "a1-u07-l17-s3",
+            "en": "We learn 'at' and 'o'clock'.",
+            "pt": "Aprendemos «às (horas)» e «em ponto».",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l17_s3"
+          },
+          {
+            "id": "a1-u07-l17-s4",
+            "en": "Zacarias says: I use 'get up' every day.",
+            "pt": "Zacarias diz: uso «levantar-se» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l17_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u07-l17-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u07-l17_tap",
+          "items": [
+            {
+              "answer": "wake up",
+              "options": [
+                "wake up",
+                "get up",
+                "eat",
+                "drink"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l17-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-l18",
+      "unitId": "u07",
+      "order": 18,
+      "kind": "content",
+      "title": {
+        "pt": "Sons: s em works / goes",
+        "en": "Sons: s em works / goes"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Present Simple de hábitos e horas.",
+        "Sons: s em works / goes"
+      ],
+      "newWords": [
+        {
+          "en": "wake up",
+          "pt": "acordar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l18_w_wake-up",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "get up",
+          "pt": "levantar-se",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l18_w_get-up",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "eat",
+          "pt": "comer",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l18_w_eat",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "drink",
+          "pt": "beber",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l18_w_drink",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Sons: s em works / goes",
+        "sentences": [
+          {
+            "id": "a1-u07-l18-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l18_s1"
+          },
+          {
+            "id": "a1-u07-l18-s2",
+            "en": "Today the lesson is A tua rotina em 8 frases.",
+            "pt": "Hoje a lição é: A tua rotina em 8 frases.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l18_s2"
+          },
+          {
+            "id": "a1-u07-l18-s3",
+            "en": "We learn 'at' and 'o'clock'.",
+            "pt": "Aprendemos «às (horas)» e «em ponto».",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l18_s3"
+          },
+          {
+            "id": "a1-u07-l18-s4",
+            "en": "Zacarias says: I use 'get up' every day.",
+            "pt": "Zacarias diz: uso «levantar-se» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l18_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u07-l18-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l18-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "wake up",
+                "pt": "O que significa «wake up»?"
+              },
+              "options": [
+                "acordar",
+                "comer",
+                "ir",
+                "estudar"
+              ],
+              "answer": "acordar"
+            },
+            {
+              "question": {
+                "en": "get up",
+                "pt": "O que significa «get up»?"
+              },
+              "options": [
+                "levantar-se",
+                "beber",
+                "trabalhar",
+                "dormir"
+              ],
+              "answer": "levantar-se"
+            },
+            {
+              "question": {
+                "en": "eat",
+                "pt": "O que significa «eat»?"
+              },
+              "options": [
+                "comer",
+                "ir",
+                "estudar",
+                "cozinhar"
+              ],
+              "answer": "comer"
+            },
+            {
+              "question": {
+                "en": "drink",
+                "pt": "O que significa «drink»?"
+              },
+              "options": [
+                "beber",
+                "trabalhar",
+                "dormir",
+                "lavar"
+              ],
+              "answer": "beber"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-l19",
+      "unitId": "u07",
+      "order": 19,
+      "kind": "content",
+      "title": {
+        "pt": "A tua rotina em 8 frases",
+        "en": "A tua rotina em 8 frases"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Present Simple de hábitos e horas.",
+        "A tua rotina em 8 frases"
+      ],
+      "newWords": [
+        {
+          "en": "drink",
+          "pt": "beber",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l19_w_drink",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "go",
+          "pt": "ir",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l19_w_go",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "work",
+          "pt": "trabalhar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l19_w_work",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "study",
+          "pt": "estudar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l19_w_study",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "A tua rotina em 8 frases",
+        "sentences": [
+          {
+            "id": "a1-u07-l19-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l19_s1"
+          },
+          {
+            "id": "a1-u07-l19-s2",
+            "en": "Today the lesson is A tua rotina em 8 frases.",
+            "pt": "Hoje a lição é: A tua rotina em 8 frases.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l19_s2"
+          },
+          {
+            "id": "a1-u07-l19-s3",
+            "en": "We learn 'at' and 'o'clock'.",
+            "pt": "Aprendemos «às (horas)» e «em ponto».",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l19_s3"
+          },
+          {
+            "id": "a1-u07-l19-s4",
+            "en": "Zacarias says: I use 'get up' every day.",
+            "pt": "Zacarias diz: uso «levantar-se» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l19_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u07-l19-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u07-l19_repeat",
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l19-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "wake up",
+                "pt": "O que significa «wake up»?"
+              },
+              "options": [
+                "acordar",
+                "comer",
+                "ir",
+                "estudar"
+              ],
+              "answer": "acordar"
+            },
+            {
+              "question": {
+                "en": "get up",
+                "pt": "O que significa «get up»?"
+              },
+              "options": [
+                "levantar-se",
+                "beber",
+                "trabalhar",
+                "dormir"
+              ],
+              "answer": "levantar-se"
+            },
+            {
+              "question": {
+                "en": "eat",
+                "pt": "O que significa «eat»?"
+              },
+              "options": [
+                "comer",
+                "ir",
+                "estudar",
+                "cozinhar"
+              ],
+              "answer": "comer"
+            },
+            {
+              "question": {
+                "en": "drink",
+                "pt": "O que significa «drink»?"
+              },
+              "options": [
+                "beber",
+                "trabalhar",
+                "dormir",
+                "lavar"
+              ],
+              "answer": "beber"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-l20",
+      "unitId": "u07",
+      "order": 20,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste da unidade: Rotina do dia",
+        "en": "Unit test: Daily routine"
+      },
+      "type": "unit_test",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "listening",
+        "reading",
+        "writing",
+        "grammar"
+      ],
+      "objectives": [
+        "Present Simple de hábitos e horas.",
+        "Teste da unidade: Rotina do dia"
+      ],
+      "newWords": [
+        {
+          "en": "study",
+          "pt": "estudar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l20_w_study",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "sleep",
+          "pt": "dormir",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l20_w_sleep",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "cook",
+          "pt": "cozinhar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l20_w_cook",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "wash",
+          "pt": "lavar",
+          "ipa": "",
+          "audioKey": "a1_a1-u07-l20_w_wash",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Unit test: Daily routine",
+        "sentences": [
+          {
+            "id": "a1-u07-l20-s1",
+            "en": "Let’s review. Carlos is from Beira.",
+            "pt": "Vamos rever. Carlos é de Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l20_s1"
+          },
+          {
+            "id": "a1-u07-l20-s2",
+            "en": "This unit is about Daily routine.",
+            "pt": "Esta unidade é sobre Rotina do dia.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l20_s2"
+          },
+          {
+            "id": "a1-u07-l20-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u07-l20_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u07-l20-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "wake up",
+                "pt": "O que significa «wake up»?"
+              },
+              "options": [
+                "acordar",
+                "comer",
+                "ir",
+                "estudar"
+              ],
+              "answer": "acordar"
+            },
+            {
+              "question": {
+                "en": "get up",
+                "pt": "O que significa «get up»?"
+              },
+              "options": [
+                "levantar-se",
+                "beber",
+                "trabalhar",
+                "dormir"
+              ],
+              "answer": "levantar-se"
+            },
+            {
+              "question": {
+                "en": "eat",
+                "pt": "O que significa «eat»?"
+              },
+              "options": [
+                "comer",
+                "ir",
+                "estudar",
+                "cozinhar"
+              ],
+              "answer": "comer"
+            },
+            {
+              "question": {
+                "en": "drink",
+                "pt": "O que significa «drink»?"
+              },
+              "options": [
+                "beber",
+                "trabalhar",
+                "dormir",
+                "lavar"
+              ],
+              "answer": "beber"
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l20-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Paulo uses the word _____.",
+              "answer": "wake up",
+              "options": [
+                "wake up",
+                "get up",
+                "eat",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Paulo uses the word _____.",
+              "answer": "get up",
+              "options": [
+                "get up",
+                "eat",
+                "drink",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Paulo uses the word _____.",
+              "answer": "eat",
+              "options": [
+                "eat",
+                "drink",
+                "go",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l20-a3",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'wake up' in Portuguese is 'acordar'.",
+              "answer": true
+            },
+            {
+              "sentence": "'wake up' means 'beber'.",
+              "answer": false
+            },
+            {
+              "sentence": "'get up' in Portuguese is 'levantar-se'.",
+              "answer": true
+            },
+            {
+              "sentence": "'get up' means 'ir'.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l20-a4",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "wake",
+                "up"
+              ],
+              "answer": "wake up"
+            },
+            {
+              "words": [
+                "get",
+                "up"
+              ],
+              "answer": "get up"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "eat"
+              ],
+              "answer": "I need eat"
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l20-a5",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u07-l20_lw_paulo-is-in-tete.-",
+              "answer": "Paulo is in Tete. wake up.",
+              "hint": "Paulo"
+            },
+            {
+              "audioKey": "a1_a1-u07-l20_lw_paulo-is-in-tete.-",
+              "answer": "Paulo is in Tete. get up.",
+              "hint": "Paulo"
+            },
+            {
+              "audioKey": "a1_a1-u07-l20_lw_paulo-is-in-tete.-",
+              "answer": "Paulo is in Tete. eat.",
+              "hint": "Paulo"
+            }
+          ]
+        },
+        {
+          "id": "a1-u07-l20-a6",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,3420 @@
+{
+  "id": "u24",
+  "level": "A1",
+  "order": 24,
+  "title": {
+    "pt": "Ontem foi…",
+    "en": "Yesterday was…"
+  },
+  "goal": "Passado do to be e rotina ontem (A1 leve).",
+  "themeImageHint": "Yesterday was…",
+  "lessonCount": 20,
+  "lessons": [
+    {
+      "id": "a1-u24-l01",
+      "unitId": "u24",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "I was at home",
+        "en": "I was at home"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Passado do to be e rotina ontem (A1 leve).",
+        "I was at home"
+      ],
+      "newWords": [
+        {
+          "en": "yesterday",
+          "pt": "ontem",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l01_w_yesterday",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "was",
+          "pt": "era/esteve",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l01_w_was",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "were",
+          "pt": "eram/estiveram",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l01_w_were",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "last night",
+          "pt": "ontem à noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l01_w_last-night",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "I was at home",
+        "sentences": [
+          {
+            "id": "a1-u24-l01-s1",
+            "en": "Amina lives in Maputo.",
+            "pt": "Amina mora em Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l01_s1"
+          },
+          {
+            "id": "a1-u24-l01-s2",
+            "en": "Today the lesson is I was at home.",
+            "pt": "Hoje a lição é: I was at home.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l01_s2"
+          },
+          {
+            "id": "a1-u24-l01-s3",
+            "en": "We learn 'yesterday' and 'was'.",
+            "pt": "Aprendemos «ontem» e «era/esteve».",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l01_s3"
+          },
+          {
+            "id": "a1-u24-l01-s4",
+            "en": "Amina says: I use 'last night' every day.",
+            "pt": "Amina diz: uso «ontem à noite» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l01_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u24-l01-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u24-l01_repeat",
+          "items": [
+            {
+              "en": "Amina lives in Maputo.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l01-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que significa «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "eram/estiveram",
+                "em casa",
+                "divertido"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "was",
+                "pt": "O que significa «was»?"
+              },
+              "options": [
+                "era/esteve",
+                "ontem à noite",
+                "ocupado",
+                "ontem"
+              ],
+              "answer": "era/esteve"
+            },
+            {
+              "question": {
+                "en": "were",
+                "pt": "O que significa «were»?"
+              },
+              "options": [
+                "eram/estiveram",
+                "em casa",
+                "divertido",
+                "era/esteve"
+              ],
+              "answer": "eram/estiveram"
+            },
+            {
+              "question": {
+                "en": "last night",
+                "pt": "O que significa «last night»?"
+              },
+              "options": [
+                "ontem à noite",
+                "ocupado",
+                "ontem",
+                "eram/estiveram"
+              ],
+              "answer": "ontem à noite"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u24-l02",
+      "unitId": "u24",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "She was in Beira",
+        "en": "She was in Beira"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Passado do to be e rotina ontem (A1 leve).",
+        "She was in Beira"
+      ],
+      "newWords": [
+        {
+          "en": "last night",
+          "pt": "ontem à noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l02_w_last-night",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "at home",
+          "pt": "em casa",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l02_w_at-home",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "busy",
+          "pt": "ocupado",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l02_w_busy",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "fun",
+          "pt": "divertido",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l02_w_fun",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "She was in Beira",
+        "sentences": [
+          {
+            "id": "a1-u24-l02-s1",
+            "en": "João lives in Matola.",
+            "pt": "João mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l02_s1"
+          },
+          {
+            "id": "a1-u24-l02-s2",
+            "en": "Today the lesson is She was in Beira.",
+            "pt": "Hoje a lição é: She was in Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l02_s2"
+          },
+          {
+            "id": "a1-u24-l02-s3",
+            "en": "We learn 'was' and 'were'.",
+            "pt": "Aprendemos «era/esteve» e «eram/estiveram».",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l02_s3"
+          },
+          {
+            "id": "a1-u24-l02-s4",
+            "en": "João says: I use 'at home' every day.",
+            "pt": "João diz: uso «em casa» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l02_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u24-l02-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "yesterday",
+              "options": [
+                "yesterday",
+                "was",
+                "were",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "was",
+              "options": [
+                "was",
+                "were",
+                "last night",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "were",
+              "options": [
+                "were",
+                "last night",
+                "at home",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u24-l03",
+      "unitId": "u24",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "We were happy",
+        "en": "We were happy"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Passado do to be e rotina ontem (A1 leve).",
+        "We were happy"
+      ],
+      "newWords": [
+        {
+          "en": "fun",
+          "pt": "divertido",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l03_w_fun",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        }
+      ],
+      "guidedReading": {
+        "title": "We were happy",
+        "sentences": [
+          {
+            "id": "a1-u24-l03-s1",
+            "en": "Fátima lives in Xai-Xai.",
+            "pt": "Fátima mora em Xai-Xai.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l03_s1"
+          },
+          {
+            "id": "a1-u24-l03-s2",
+            "en": "Today the lesson is We were happy.",
+            "pt": "Hoje a lição é: We were happy.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l03_s2"
+          },
+          {
+            "id": "a1-u24-l03-s3",
+            "en": "We learn 'were' and 'last night'.",
+            "pt": "Aprendemos «eram/estiveram» e «ontem à noite».",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l03_s3"
+          },
+          {
+            "id": "a1-u24-l03-s4",
+            "en": "Fátima says: I use 'busy' every day.",
+            "pt": "Fátima diz: uso «ocupado» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l03_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u24-l03-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "yesterday",
+              "pt": "ontem"
+            },
+            {
+              "en": "was",
+              "pt": "era/esteve"
+            },
+            {
+              "en": "were",
+              "pt": "eram/estiveram"
+            },
+            {
+              "en": "last night",
+              "pt": "ontem à noite"
+            },
+            {
+              "en": "at home",
+              "pt": "em casa"
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l03-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'yesterday' in Portuguese is 'ontem'.",
+              "answer": true
+            },
+            {
+              "sentence": "'yesterday' means 'ontem à noite'.",
+              "answer": false
+            },
+            {
+              "sentence": "'was' in Portuguese is 'era/esteve'.",
+              "answer": true
+            },
+            {
+              "sentence": "'was' means 'em casa'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u24-l04",
+      "unitId": "u24",
+      "order": 4,
+      "kind": "content",
+      "title": {
+        "pt": "It was hot yesterday",
+        "en": "It was hot yesterday"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Passado do to be e rotina ontem (A1 leve).",
+        "It was hot yesterday"
+      ],
+      "newWords": [
+        {
+          "en": "were",
+          "pt": "eram/estiveram",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l04_w_were",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "last night",
+          "pt": "ontem à noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l04_w_last-night",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "at home",
+          "pt": "em casa",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l04_w_at-home",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "busy",
+          "pt": "ocupado",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l04_w_busy",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        }
+      ],
+      "guidedReading": {
+        "title": "It was hot yesterday",
+        "sentences": [
+          {
+            "id": "a1-u24-l04-s1",
+            "en": "Carlos lives in Inhambane.",
+            "pt": "Carlos mora em Inhambane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l04_s1"
+          },
+          {
+            "id": "a1-u24-l04-s2",
+            "en": "Today the lesson is It was hot yesterday.",
+            "pt": "Hoje a lição é: It was hot yesterday.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l04_s2"
+          },
+          {
+            "id": "a1-u24-l04-s3",
+            "en": "We learn 'last night' and 'at home'.",
+            "pt": "Aprendemos «ontem à noite» e «em casa».",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l04_s3"
+          },
+          {
+            "id": "a1-u24-l04-s4",
+            "en": "Carlos says: I use 'fun' every day.",
+            "pt": "Carlos diz: uso «divertido» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l04_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u24-l04-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u24-l04_lw_belmira-is-in-naca",
+              "answer": "Belmira is in Nacala. yesterday.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u24-l04_lw_belmira-is-in-naca",
+              "answer": "Belmira is in Nacala. was.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u24-l04_lw_belmira-is-in-naca",
+              "answer": "Belmira is in Nacala. were.",
+              "hint": "Belmira"
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l04-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "yesterday"
+              ],
+              "answer": "I need yesterday"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "was"
+              ],
+              "answer": "I need was"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "were"
+              ],
+              "answer": "I need were"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u24-l05",
+      "unitId": "u24",
+      "order": 5,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 1",
+        "en": "Checkpoint quiz 1"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Passado do to be e rotina ontem (A1 leve).",
+        "Mini-teste 1"
+      ],
+      "newWords": [
+        {
+          "en": "busy",
+          "pt": "ocupado",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l05_w_busy",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "fun",
+          "pt": "divertido",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l05_w_fun",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 1",
+        "sentences": [
+          {
+            "id": "a1-u24-l05-s1",
+            "en": "Let’s review. Graça is from Vilankulo.",
+            "pt": "Vamos rever. Graça é de Vilankulo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l05_s1"
+          },
+          {
+            "id": "a1-u24-l05-s2",
+            "en": "This unit is about Yesterday was….",
+            "pt": "Esta unidade é sobre Ontem foi….",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l05_s2"
+          },
+          {
+            "id": "a1-u24-l05-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l05_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u24-l05-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que significa «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "eram/estiveram",
+                "em casa",
+                "divertido"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "was",
+                "pt": "O que significa «was»?"
+              },
+              "options": [
+                "era/esteve",
+                "ontem à noite",
+                "ocupado",
+                "ontem"
+              ],
+              "answer": "era/esteve"
+            },
+            {
+              "question": {
+                "en": "were",
+                "pt": "O que significa «were»?"
+              },
+              "options": [
+                "eram/estiveram",
+                "em casa",
+                "divertido",
+                "era/esteve"
+              ],
+              "answer": "eram/estiveram"
+            },
+            {
+              "question": {
+                "en": "last night",
+                "pt": "O que significa «last night»?"
+              },
+              "options": [
+                "ontem à noite",
+                "ocupado",
+                "ontem",
+                "eram/estiveram"
+              ],
+              "answer": "ontem à noite"
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l05-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "yesterday",
+              "options": [
+                "yesterday",
+                "was",
+                "were",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "was",
+              "options": [
+                "was",
+                "were",
+                "last night",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "were",
+              "options": [
+                "were",
+                "last night",
+                "at home",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l05-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u24-l05_lw_belmira-is-in-naca",
+              "answer": "Belmira is in Nacala. yesterday.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u24-l05_lw_belmira-is-in-naca",
+              "answer": "Belmira is in Nacala. was.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u24-l05_lw_belmira-is-in-naca",
+              "answer": "Belmira is in Nacala. were.",
+              "hint": "Belmira"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u24-l06",
+      "unitId": "u24",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "I was not tired",
+        "en": "I was not tired"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Passado do to be e rotina ontem (A1 leve).",
+        "I was not tired"
+      ],
+      "newWords": [
+        {
+          "en": "was",
+          "pt": "era/esteve",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l06_w_was",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "were",
+          "pt": "eram/estiveram",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l06_w_were",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "last night",
+          "pt": "ontem à noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l06_w_last-night",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "at home",
+          "pt": "em casa",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l06_w_at-home",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "I was not tired",
+        "sentences": [
+          {
+            "id": "a1-u24-l06-s1",
+            "en": "Ibraimo lives in Beira.",
+            "pt": "Ibraimo mora em Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l06_s1"
+          },
+          {
+            "id": "a1-u24-l06-s2",
+            "en": "Today the lesson is Were you at school?.",
+            "pt": "Hoje a lição é: Were you at school?.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l06_s2"
+          },
+          {
+            "id": "a1-u24-l06-s3",
+            "en": "We learn 'busy' and 'fun'.",
+            "pt": "Aprendemos «ocupado» e «divertido».",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l06_s3"
+          },
+          {
+            "id": "a1-u24-l06-s4",
+            "en": "Ibraimo says: I use 'was' every day.",
+            "pt": "Ibraimo diz: uso «era/esteve» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l06_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u24-l06-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Ibraimo lives in Beira.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l06-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que significa «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "eram/estiveram",
+                "em casa",
+                "divertido"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "was",
+                "pt": "O que significa «was»?"
+              },
+              "options": [
+                "era/esteve",
+                "ontem à noite",
+                "ocupado",
+                "ontem"
+              ],
+              "answer": "era/esteve"
+            },
+            {
+              "question": {
+                "en": "were",
+                "pt": "O que significa «were»?"
+              },
+              "options": [
+                "eram/estiveram",
+                "em casa",
+                "divertido",
+                "era/esteve"
+              ],
+              "answer": "eram/estiveram"
+            },
+            {
+              "question": {
+                "en": "last night",
+                "pt": "O que significa «last night»?"
+              },
+              "options": [
+                "ontem à noite",
+                "ocupado",
+                "ontem",
+                "eram/estiveram"
+              ],
+              "answer": "ontem à noite"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u24-l07",
+      "unitId": "u24",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "Were you at school?",
+        "en": "Were you at school?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Passado do to be e rotina ontem (A1 leve).",
+        "Were you at school?"
+      ],
+      "newWords": [
+        {
+          "en": "at home",
+          "pt": "em casa",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l07_w_at-home",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "busy",
+          "pt": "ocupado",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l07_w_busy",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "fun",
+          "pt": "divertido",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l07_w_fun",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        }
+      ],
+      "guidedReading": {
+        "title": "Were you at school?",
+        "sentences": [
+          {
+            "id": "a1-u24-l07-s1",
+            "en": "Esperança lives in Chimoio.",
+            "pt": "Esperança mora em Chimoio.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l07_s1"
+          },
+          {
+            "id": "a1-u24-l07-s2",
+            "en": "Today the lesson is Yes, I was.",
+            "pt": "Hoje a lição é: Yes, I was.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l07_s2"
+          },
+          {
+            "id": "a1-u24-l07-s3",
+            "en": "We learn 'fun' and 'yesterday'.",
+            "pt": "Aprendemos «divertido» e «ontem».",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l07_s3"
+          },
+          {
+            "id": "a1-u24-l07-s4",
+            "en": "Esperança says: I use 'were' every day.",
+            "pt": "Esperança diz: uso «eram/estiveram» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l07_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u24-l07-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u24-l07_repeat",
+          "items": [
+            {
+              "en": "Esperança lives in Chimoio.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l07-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que significa «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "eram/estiveram",
+                "em casa",
+                "divertido"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "was",
+                "pt": "O que significa «was»?"
+              },
+              "options": [
+                "era/esteve",
+                "ontem à noite",
+                "ocupado",
+                "ontem"
+              ],
+              "answer": "era/esteve"
+            },
+            {
+              "question": {
+                "en": "were",
+                "pt": "O que significa «were»?"
+              },
+              "options": [
+                "eram/estiveram",
+                "em casa",
+                "divertido",
+                "era/esteve"
+              ],
+              "answer": "eram/estiveram"
+            },
+            {
+              "question": {
+                "en": "last night",
+                "pt": "O que significa «last night»?"
+              },
+              "options": [
+                "ontem à noite",
+                "ocupado",
+                "ontem",
+                "eram/estiveram"
+              ],
+              "answer": "ontem à noite"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u24-l08",
+      "unitId": "u24",
+      "order": 8,
+      "kind": "content",
+      "title": {
+        "pt": "Yes, I was",
+        "en": "Yes, I was"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Passado do to be e rotina ontem (A1 leve).",
+        "Yes, I was"
+      ],
+      "newWords": [
+        {
+          "en": "yesterday",
+          "pt": "ontem",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l08_w_yesterday",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "was",
+          "pt": "era/esteve",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l08_w_was",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "were",
+          "pt": "eram/estiveram",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l08_w_were",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "last night",
+          "pt": "ontem à noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l08_w_last-night",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        }
+      ],
+      "guidedReading": {
+        "title": "Yes, I was",
+        "sentences": [
+          {
+            "id": "a1-u24-l08-s1",
+            "en": "Paulo lives in Tete.",
+            "pt": "Paulo mora em Tete.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l08_s1"
+          },
+          {
+            "id": "a1-u24-l08-s2",
+            "en": "Today the lesson is Last night.",
+            "pt": "Hoje a lição é: Last night.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l08_s2"
+          },
+          {
+            "id": "a1-u24-l08-s3",
+            "en": "We learn 'yesterday' and 'was'.",
+            "pt": "Aprendemos «ontem» e «era/esteve».",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l08_s3"
+          },
+          {
+            "id": "a1-u24-l08-s4",
+            "en": "Paulo says: I use 'last night' every day.",
+            "pt": "Paulo diz: uso «ontem à noite» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l08_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u24-l08-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "yesterday",
+              "options": [
+                "yesterday",
+                "was",
+                "were",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "was",
+              "options": [
+                "was",
+                "were",
+                "last night",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "were",
+              "options": [
+                "were",
+                "last night",
+                "at home",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u24-l09",
+      "unitId": "u24",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Last night",
+        "en": "Last night"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Passado do to be e rotina ontem (A1 leve).",
+        "Last night"
+      ],
+      "newWords": [
+        {
+          "en": "last night",
+          "pt": "ontem à noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l09_w_last-night",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "at home",
+          "pt": "em casa",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l09_w_at-home",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "busy",
+          "pt": "ocupado",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l09_w_busy",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "fun",
+          "pt": "divertido",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l09_w_fun",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Last night",
+        "sentences": [
+          {
+            "id": "a1-u24-l09-s1",
+            "en": "Belmira lives in Quelimane.",
+            "pt": "Belmira mora em Quelimane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l09_s1"
+          },
+          {
+            "id": "a1-u24-l09-s2",
+            "en": "Today the lesson is Ontem no mercado.",
+            "pt": "Hoje a lição é: Ontem no mercado.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l09_s2"
+          },
+          {
+            "id": "a1-u24-l09-s3",
+            "en": "We learn 'was' and 'were'.",
+            "pt": "Aprendemos «era/esteve» e «eram/estiveram».",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l09_s3"
+          },
+          {
+            "id": "a1-u24-l09-s4",
+            "en": "Belmira says: I use 'at home' every day.",
+            "pt": "Belmira diz: uso «em casa» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l09_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u24-l09-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "yesterday",
+              "pt": "ontem"
+            },
+            {
+              "en": "was",
+              "pt": "era/esteve"
+            },
+            {
+              "en": "were",
+              "pt": "eram/estiveram"
+            },
+            {
+              "en": "last night",
+              "pt": "ontem à noite"
+            },
+            {
+              "en": "at home",
+              "pt": "em casa"
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l09-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'yesterday' in Portuguese is 'ontem'.",
+              "answer": true
+            },
+            {
+              "sentence": "'yesterday' means 'ontem à noite'.",
+              "answer": false
+            },
+            {
+              "sentence": "'was' in Portuguese is 'era/esteve'.",
+              "answer": true
+            },
+            {
+              "sentence": "'was' means 'em casa'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u24-l10",
+      "unitId": "u24",
+      "order": 10,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão guiada",
+        "en": "Guided review"
+      },
+      "type": "review",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectives": [
+        "Passado do to be e rotina ontem (A1 leve).",
+        "Revisão guiada"
+      ],
+      "newWords": [
+        {
+          "en": "fun",
+          "pt": "divertido",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l10_w_fun",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        }
+      ],
+      "guidedReading": {
+        "title": "Guided review",
+        "sentences": [
+          {
+            "id": "a1-u24-l10-s1",
+            "en": "Let’s review. Nélio is from Nampula.",
+            "pt": "Vamos rever. Nélio é de Nampula.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l10_s1"
+          },
+          {
+            "id": "a1-u24-l10-s2",
+            "en": "This unit is about Yesterday was….",
+            "pt": "Esta unidade é sobre Ontem foi….",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l10_s2"
+          },
+          {
+            "id": "a1-u24-l10-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l10_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u24-l10-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u24-l10_lw_belmira-is-in-naca",
+              "answer": "Belmira is in Nacala. yesterday.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u24-l10_lw_belmira-is-in-naca",
+              "answer": "Belmira is in Nacala. was.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u24-l10_lw_belmira-is-in-naca",
+              "answer": "Belmira is in Nacala. were.",
+              "hint": "Belmira"
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l10-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "yesterday"
+              ],
+              "answer": "I need yesterday"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "was"
+              ],
+              "answer": "I need was"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "were"
+              ],
+              "answer": "I need were"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u24-l11",
+      "unitId": "u24",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "Ontem no mercado",
+        "en": "Ontem no mercado"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Passado do to be e rotina ontem (A1 leve).",
+        "Ontem no mercado"
+      ],
+      "newWords": [
+        {
+          "en": "were",
+          "pt": "eram/estiveram",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l11_w_were",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "last night",
+          "pt": "ontem à noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l11_w_last-night",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "at home",
+          "pt": "em casa",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l11_w_at-home",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "busy",
+          "pt": "ocupado",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l11_w_busy",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        }
+      ],
+      "guidedReading": {
+        "title": "Ontem no mercado",
+        "sentences": [
+          {
+            "id": "a1-u24-l11-s1",
+            "en": "Lurdes lives in Nacala.",
+            "pt": "Lurdes mora em Nacala.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l11_s1"
+          },
+          {
+            "id": "a1-u24-l11-s2",
+            "en": "Today the lesson is Diálogo: onde estiveste?.",
+            "pt": "Hoje a lição é: Diálogo: onde estiveste?.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l11_s2"
+          },
+          {
+            "id": "a1-u24-l11-s3",
+            "en": "We learn 'last night' and 'at home'.",
+            "pt": "Aprendemos «ontem à noite» e «em casa».",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l11_s3"
+          },
+          {
+            "id": "a1-u24-l11-s4",
+            "en": "Lurdes says: I use 'fun' every day.",
+            "pt": "Lurdes diz: uso «divertido» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l11_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u24-l11-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u24-l11_tap",
+          "items": [
+            {
+              "answer": "yesterday",
+              "options": [
+                "yesterday",
+                "was",
+                "were",
+                "last night"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l11-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u24-l12",
+      "unitId": "u24",
+      "order": 12,
+      "kind": "content",
+      "title": {
+        "pt": "Ontem no jogo",
+        "en": "Ontem no jogo"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Passado do to be e rotina ontem (A1 leve).",
+        "Ontem no jogo"
+      ],
+      "newWords": [
+        {
+          "en": "busy",
+          "pt": "ocupado",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l12_w_busy",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "fun",
+          "pt": "divertido",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l12_w_fun",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        }
+      ],
+      "guidedReading": {
+        "title": "Ontem no jogo",
+        "sentences": [
+          {
+            "id": "a1-u24-l12-s1",
+            "en": "Faruk lives in Pemba.",
+            "pt": "Faruk mora em Pemba.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l12_s1"
+          },
+          {
+            "id": "a1-u24-l12-s2",
+            "en": "Today the lesson is Diálogo: o fim de semana.",
+            "pt": "Hoje a lição é: Diálogo: o fim de semana.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l12_s2"
+          },
+          {
+            "id": "a1-u24-l12-s3",
+            "en": "We learn 'at home' and 'busy'.",
+            "pt": "Aprendemos «em casa» e «ocupado».",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l12_s3"
+          },
+          {
+            "id": "a1-u24-l12-s4",
+            "en": "Faruk says: I use 'yesterday' every day.",
+            "pt": "Faruk diz: uso «ontem» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l12_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u24-l12-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Faruk lives in Pemba.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l12-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que significa «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "eram/estiveram",
+                "em casa",
+                "divertido"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "was",
+                "pt": "O que significa «was»?"
+              },
+              "options": [
+                "era/esteve",
+                "ontem à noite",
+                "ocupado",
+                "ontem"
+              ],
+              "answer": "era/esteve"
+            },
+            {
+              "question": {
+                "en": "were",
+                "pt": "O que significa «were»?"
+              },
+              "options": [
+                "eram/estiveram",
+                "em casa",
+                "divertido",
+                "era/esteve"
+              ],
+              "answer": "eram/estiveram"
+            },
+            {
+              "question": {
+                "en": "last night",
+                "pt": "O que significa «last night»?"
+              },
+              "options": [
+                "ontem à noite",
+                "ocupado",
+                "ontem",
+                "eram/estiveram"
+              ],
+              "answer": "ontem à noite"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u24-l13",
+      "unitId": "u24",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: onde estiveste?",
+        "en": "Diálogo: onde estiveste?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Passado do to be e rotina ontem (A1 leve).",
+        "Diálogo: onde estiveste?"
+      ],
+      "newWords": [
+        {
+          "en": "was",
+          "pt": "era/esteve",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l13_w_was",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "were",
+          "pt": "eram/estiveram",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l13_w_were",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "last night",
+          "pt": "ontem à noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l13_w_last-night",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "at home",
+          "pt": "em casa",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l13_w_at-home",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: onde estiveste?",
+        "sentences": [
+          {
+            "id": "a1-u24-l13-s1",
+            "en": "Josina lives in Lichinga.",
+            "pt": "Josina mora em Lichinga.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l13_s1"
+          },
+          {
+            "id": "a1-u24-l13-s2",
+            "en": "Today the lesson is Was ou were?.",
+            "pt": "Hoje a lição é: Was ou were?.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l13_s2"
+          },
+          {
+            "id": "a1-u24-l13-s3",
+            "en": "We learn 'busy' and 'fun'.",
+            "pt": "Aprendemos «ocupado» e «divertido».",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l13_s3"
+          },
+          {
+            "id": "a1-u24-l13-s4",
+            "en": "Josina says: I use 'was' every day.",
+            "pt": "Josina diz: uso «era/esteve» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l13_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u24-l13-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u24-l13_repeat",
+          "items": [
+            {
+              "en": "Josina lives in Lichinga.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l13-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que significa «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "eram/estiveram",
+                "em casa",
+                "divertido"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "was",
+                "pt": "O que significa «was»?"
+              },
+              "options": [
+                "era/esteve",
+                "ontem à noite",
+                "ocupado",
+                "ontem"
+              ],
+              "answer": "era/esteve"
+            },
+            {
+              "question": {
+                "en": "were",
+                "pt": "O que significa «were»?"
+              },
+              "options": [
+                "eram/estiveram",
+                "em casa",
+                "divertido",
+                "era/esteve"
+              ],
+              "answer": "eram/estiveram"
+            },
+            {
+              "question": {
+                "en": "last night",
+                "pt": "O que significa «last night»?"
+              },
+              "options": [
+                "ontem à noite",
+                "ocupado",
+                "ontem",
+                "eram/estiveram"
+              ],
+              "answer": "ontem à noite"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u24-l14",
+      "unitId": "u24",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: o fim de semana",
+        "en": "Diálogo: o fim de semana"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Passado do to be e rotina ontem (A1 leve).",
+        "Diálogo: o fim de semana"
+      ],
+      "newWords": [
+        {
+          "en": "at home",
+          "pt": "em casa",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l14_w_at-home",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "busy",
+          "pt": "ocupado",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l14_w_busy",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "fun",
+          "pt": "divertido",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l14_w_fun",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: o fim de semana",
+        "sentences": [
+          {
+            "id": "a1-u24-l14-s1",
+            "en": "Tendai lives in Ilha de Moçambique.",
+            "pt": "Tendai mora em Ilha de Moçambique.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l14_s1"
+          },
+          {
+            "id": "a1-u24-l14-s2",
+            "en": "Today the lesson is Linha do tempo de ontem.",
+            "pt": "Hoje a lição é: Linha do tempo de ontem.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l14_s2"
+          },
+          {
+            "id": "a1-u24-l14-s3",
+            "en": "We learn 'fun' and 'yesterday'.",
+            "pt": "Aprendemos «divertido» e «ontem».",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l14_s3"
+          },
+          {
+            "id": "a1-u24-l14-s4",
+            "en": "Tendai says: I use 'were' every day.",
+            "pt": "Tendai diz: uso «eram/estiveram» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l14_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u24-l14-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "yesterday",
+              "options": [
+                "yesterday",
+                "was",
+                "were",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "was",
+              "options": [
+                "was",
+                "were",
+                "last night",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "were",
+              "options": [
+                "were",
+                "last night",
+                "at home",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u24-l15",
+      "unitId": "u24",
+      "order": 15,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 2",
+        "en": "Checkpoint quiz 2"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Passado do to be e rotina ontem (A1 leve).",
+        "Mini-teste 2"
+      ],
+      "newWords": [
+        {
+          "en": "yesterday",
+          "pt": "ontem",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l15_w_yesterday",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "was",
+          "pt": "era/esteve",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l15_w_was",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "were",
+          "pt": "eram/estiveram",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l15_w_were",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "last night",
+          "pt": "ontem à noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l15_w_last-night",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 2",
+        "sentences": [
+          {
+            "id": "a1-u24-l15-s1",
+            "en": "Let’s review. Amélia is from Maputo.",
+            "pt": "Vamos rever. Amélia é de Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l15_s1"
+          },
+          {
+            "id": "a1-u24-l15-s2",
+            "en": "This unit is about Yesterday was….",
+            "pt": "Esta unidade é sobre Ontem foi….",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l15_s2"
+          },
+          {
+            "id": "a1-u24-l15-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l15_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u24-l15-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que significa «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "eram/estiveram",
+                "em casa",
+                "divertido"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "was",
+                "pt": "O que significa «was»?"
+              },
+              "options": [
+                "era/esteve",
+                "ontem à noite",
+                "ocupado",
+                "ontem"
+              ],
+              "answer": "era/esteve"
+            },
+            {
+              "question": {
+                "en": "were",
+                "pt": "O que significa «were»?"
+              },
+              "options": [
+                "eram/estiveram",
+                "em casa",
+                "divertido",
+                "era/esteve"
+              ],
+              "answer": "eram/estiveram"
+            },
+            {
+              "question": {
+                "en": "last night",
+                "pt": "O que significa «last night»?"
+              },
+              "options": [
+                "ontem à noite",
+                "ocupado",
+                "ontem",
+                "eram/estiveram"
+              ],
+              "answer": "ontem à noite"
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l15-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "yesterday",
+              "options": [
+                "yesterday",
+                "was",
+                "were",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "was",
+              "options": [
+                "was",
+                "were",
+                "last night",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "were",
+              "options": [
+                "were",
+                "last night",
+                "at home",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l15-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u24-l15_lw_belmira-is-in-naca",
+              "answer": "Belmira is in Nacala. yesterday.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u24-l15_lw_belmira-is-in-naca",
+              "answer": "Belmira is in Nacala. was.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u24-l15_lw_belmira-is-in-naca",
+              "answer": "Belmira is in Nacala. were.",
+              "hint": "Belmira"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u24-l16",
+      "unitId": "u24",
+      "order": 16,
+      "kind": "content",
+      "title": {
+        "pt": "Was ou were?",
+        "en": "Was ou were?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Passado do to be e rotina ontem (A1 leve).",
+        "Was ou were?"
+      ],
+      "newWords": [
+        {
+          "en": "last night",
+          "pt": "ontem à noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l16_w_last-night",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "at home",
+          "pt": "em casa",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l16_w_at-home",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "busy",
+          "pt": "ocupado",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l16_w_busy",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "fun",
+          "pt": "divertido",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l16_w_fun",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Was ou were?",
+        "sentences": [
+          {
+            "id": "a1-u24-l16-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l16_s1"
+          },
+          {
+            "id": "a1-u24-l16-s2",
+            "en": "Today the lesson is Ontem em 6 frases.",
+            "pt": "Hoje a lição é: Ontem em 6 frases.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l16_s2"
+          },
+          {
+            "id": "a1-u24-l16-s3",
+            "en": "We learn 'was' and 'were'.",
+            "pt": "Aprendemos «era/esteve» e «eram/estiveram».",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l16_s3"
+          },
+          {
+            "id": "a1-u24-l16-s4",
+            "en": "Zacarias says: I use 'at home' every day.",
+            "pt": "Zacarias diz: uso «em casa» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l16_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u24-l16-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u24-l16_lw_belmira-is-in-naca",
+              "answer": "Belmira is in Nacala. yesterday.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u24-l16_lw_belmira-is-in-naca",
+              "answer": "Belmira is in Nacala. was.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u24-l16_lw_belmira-is-in-naca",
+              "answer": "Belmira is in Nacala. were.",
+              "hint": "Belmira"
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l16-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "yesterday"
+              ],
+              "answer": "I need yesterday"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "was"
+              ],
+              "answer": "I need was"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "were"
+              ],
+              "answer": "I need were"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u24-l17",
+      "unitId": "u24",
+      "order": 17,
+      "kind": "content",
+      "title": {
+        "pt": "Linha do tempo de ontem",
+        "en": "Linha do tempo de ontem"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Passado do to be e rotina ontem (A1 leve).",
+        "Linha do tempo de ontem"
+      ],
+      "newWords": [
+        {
+          "en": "fun",
+          "pt": "divertido",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l17_w_fun",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Linha do tempo de ontem",
+        "sentences": [
+          {
+            "id": "a1-u24-l17-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l17_s1"
+          },
+          {
+            "id": "a1-u24-l17-s2",
+            "en": "Today the lesson is Ontem em 6 frases.",
+            "pt": "Hoje a lição é: Ontem em 6 frases.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l17_s2"
+          },
+          {
+            "id": "a1-u24-l17-s3",
+            "en": "We learn 'was' and 'were'.",
+            "pt": "Aprendemos «era/esteve» e «eram/estiveram».",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l17_s3"
+          },
+          {
+            "id": "a1-u24-l17-s4",
+            "en": "Zacarias says: I use 'at home' every day.",
+            "pt": "Zacarias diz: uso «em casa» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l17_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u24-l17-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u24-l17_tap",
+          "items": [
+            {
+              "answer": "yesterday",
+              "options": [
+                "yesterday",
+                "was",
+                "were",
+                "last night"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l17-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u24-l18",
+      "unitId": "u24",
+      "order": 18,
+      "kind": "content",
+      "title": {
+        "pt": "Sons: was / were",
+        "en": "Sons: was / were"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Passado do to be e rotina ontem (A1 leve).",
+        "Sons: was / were"
+      ],
+      "newWords": [
+        {
+          "en": "were",
+          "pt": "eram/estiveram",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l18_w_were",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "last night",
+          "pt": "ontem à noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l18_w_last-night",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "at home",
+          "pt": "em casa",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l18_w_at-home",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "busy",
+          "pt": "ocupado",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l18_w_busy",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Sons: was / were",
+        "sentences": [
+          {
+            "id": "a1-u24-l18-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l18_s1"
+          },
+          {
+            "id": "a1-u24-l18-s2",
+            "en": "Today the lesson is Ontem em 6 frases.",
+            "pt": "Hoje a lição é: Ontem em 6 frases.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l18_s2"
+          },
+          {
+            "id": "a1-u24-l18-s3",
+            "en": "We learn 'was' and 'were'.",
+            "pt": "Aprendemos «era/esteve» e «eram/estiveram».",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l18_s3"
+          },
+          {
+            "id": "a1-u24-l18-s4",
+            "en": "Zacarias says: I use 'at home' every day.",
+            "pt": "Zacarias diz: uso «em casa» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l18_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u24-l18-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l18-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que significa «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "eram/estiveram",
+                "em casa",
+                "divertido"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "was",
+                "pt": "O que significa «was»?"
+              },
+              "options": [
+                "era/esteve",
+                "ontem à noite",
+                "ocupado",
+                "ontem"
+              ],
+              "answer": "era/esteve"
+            },
+            {
+              "question": {
+                "en": "were",
+                "pt": "O que significa «were»?"
+              },
+              "options": [
+                "eram/estiveram",
+                "em casa",
+                "divertido",
+                "era/esteve"
+              ],
+              "answer": "eram/estiveram"
+            },
+            {
+              "question": {
+                "en": "last night",
+                "pt": "O que significa «last night»?"
+              },
+              "options": [
+                "ontem à noite",
+                "ocupado",
+                "ontem",
+                "eram/estiveram"
+              ],
+              "answer": "ontem à noite"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u24-l19",
+      "unitId": "u24",
+      "order": 19,
+      "kind": "content",
+      "title": {
+        "pt": "Ontem em 6 frases",
+        "en": "Ontem em 6 frases"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Passado do to be e rotina ontem (A1 leve).",
+        "Ontem em 6 frases"
+      ],
+      "newWords": [
+        {
+          "en": "busy",
+          "pt": "ocupado",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l19_w_busy",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "fun",
+          "pt": "divertido",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l19_w_fun",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Ontem em 6 frases",
+        "sentences": [
+          {
+            "id": "a1-u24-l19-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l19_s1"
+          },
+          {
+            "id": "a1-u24-l19-s2",
+            "en": "Today the lesson is Ontem em 6 frases.",
+            "pt": "Hoje a lição é: Ontem em 6 frases.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l19_s2"
+          },
+          {
+            "id": "a1-u24-l19-s3",
+            "en": "We learn 'was' and 'were'.",
+            "pt": "Aprendemos «era/esteve» e «eram/estiveram».",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l19_s3"
+          },
+          {
+            "id": "a1-u24-l19-s4",
+            "en": "Zacarias says: I use 'at home' every day.",
+            "pt": "Zacarias diz: uso «em casa» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l19_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u24-l19-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u24-l19_repeat",
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l19-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que significa «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "eram/estiveram",
+                "em casa",
+                "divertido"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "was",
+                "pt": "O que significa «was»?"
+              },
+              "options": [
+                "era/esteve",
+                "ontem à noite",
+                "ocupado",
+                "ontem"
+              ],
+              "answer": "era/esteve"
+            },
+            {
+              "question": {
+                "en": "were",
+                "pt": "O que significa «were»?"
+              },
+              "options": [
+                "eram/estiveram",
+                "em casa",
+                "divertido",
+                "era/esteve"
+              ],
+              "answer": "eram/estiveram"
+            },
+            {
+              "question": {
+                "en": "last night",
+                "pt": "O que significa «last night»?"
+              },
+              "options": [
+                "ontem à noite",
+                "ocupado",
+                "ontem",
+                "eram/estiveram"
+              ],
+              "answer": "ontem à noite"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u24-l20",
+      "unitId": "u24",
+      "order": 20,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste da unidade: Ontem foi…",
+        "en": "Unit test: Yesterday was…"
+      },
+      "type": "unit_test",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "listening",
+        "reading",
+        "writing",
+        "grammar"
+      ],
+      "objectives": [
+        "Passado do to be e rotina ontem (A1 leve).",
+        "Teste da unidade: Ontem foi…"
+      ],
+      "newWords": [
+        {
+          "en": "was",
+          "pt": "era/esteve",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l20_w_was",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "were",
+          "pt": "eram/estiveram",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l20_w_were",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "last night",
+          "pt": "ontem à noite",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l20_w_last-night",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "at home",
+          "pt": "em casa",
+          "ipa": "",
+          "audioKey": "a1_a1-u24-l20_w_at-home",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Unit test: Yesterday was…",
+        "sentences": [
+          {
+            "id": "a1-u24-l20-s1",
+            "en": "Let’s review. Carlos is from Beira.",
+            "pt": "Vamos rever. Carlos é de Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l20_s1"
+          },
+          {
+            "id": "a1-u24-l20-s2",
+            "en": "This unit is about Yesterday was….",
+            "pt": "Esta unidade é sobre Ontem foi….",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l20_s2"
+          },
+          {
+            "id": "a1-u24-l20-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u24-l20_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u24-l20-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que significa «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "eram/estiveram",
+                "em casa",
+                "divertido"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "was",
+                "pt": "O que significa «was»?"
+              },
+              "options": [
+                "era/esteve",
+                "ontem à noite",
+                "ocupado",
+                "ontem"
+              ],
+              "answer": "era/esteve"
+            },
+            {
+              "question": {
+                "en": "were",
+                "pt": "O que significa «were»?"
+              },
+              "options": [
+                "eram/estiveram",
+                "em casa",
+                "divertido",
+                "era/esteve"
+              ],
+              "answer": "eram/estiveram"
+            },
+            {
+              "question": {
+                "en": "last night",
+                "pt": "O que significa «last night»?"
+              },
+              "options": [
+                "ontem à noite",
+                "ocupado",
+                "ontem",
+                "eram/estiveram"
+              ],
+              "answer": "ontem à noite"
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l20-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "yesterday",
+              "options": [
+                "yesterday",
+                "was",
+                "were",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "was",
+              "options": [
+                "was",
+                "were",
+                "last night",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "were",
+              "options": [
+                "were",
+                "last night",
+                "at home",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l20-a3",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'yesterday' in Portuguese is 'ontem'.",
+              "answer": true
+            },
+            {
+              "sentence": "'yesterday' means 'ontem à noite'.",
+              "answer": false
+            },
+            {
+              "sentence": "'was' in Portuguese is 'era/esteve'.",
+              "answer": true
+            },
+            {
+              "sentence": "'was' means 'em casa'.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l20-a4",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "yesterday"
+              ],
+              "answer": "I need yesterday"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "was"
+              ],
+              "answer": "I need was"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "were"
+              ],
+              "answer": "I need were"
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l20-a5",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u24-l20_lw_belmira-is-in-naca",
+              "answer": "Belmira is in Nacala. yesterday.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u24-l20_lw_belmira-is-in-naca",
+              "answer": "Belmira is in Nacala. was.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u24-l20_lw_belmira-is-in-naca",
+              "answer": "Belmira is in Nacala. were.",
+              "hint": "Belmira"
+            }
+          ]
+        },
+        {
+          "id": "a1-u24-l20-a6",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    }
+  ]
+}

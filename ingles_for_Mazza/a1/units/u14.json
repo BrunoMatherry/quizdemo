@@ -1,0 +1,3492 @@
+{
+  "id": "u14",
+  "level": "A1",
+  "order": 14,
+  "title": {
+    "pt": "Tempo e clima",
+    "en": "Time and weather"
+  },
+  "goal": "Dias, meses, estações e It’s hot / It’s raining.",
+  "themeImageHint": "Time and weather",
+  "lessonCount": 20,
+  "lessons": [
+    {
+      "id": "a1-u14-l01",
+      "unitId": "u14",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "Dias da semana",
+        "en": "Dias da semana"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Dias, meses, estações e It’s hot / It’s raining.",
+        "Dias da semana"
+      ],
+      "newWords": [
+        {
+          "en": "today",
+          "pt": "hoje",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l01_w_today",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "tomorrow",
+          "pt": "amanhã",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l01_w_tomorrow",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "yesterday",
+          "pt": "ontem",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l01_w_yesterday",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "week",
+          "pt": "semana",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l01_w_week",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Dias da semana",
+        "sentences": [
+          {
+            "id": "a1-u14-l01-s1",
+            "en": "Amina lives in Maputo.",
+            "pt": "Amina mora em Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l01_s1"
+          },
+          {
+            "id": "a1-u14-l01-s2",
+            "en": "Today the lesson is Dias da semana.",
+            "pt": "Hoje a lição é: Dias da semana.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l01_s2"
+          },
+          {
+            "id": "a1-u14-l01-s3",
+            "en": "We learn 'today' and 'tomorrow'.",
+            "pt": "Aprendemos «hoje» e «amanhã».",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l01_s3"
+          },
+          {
+            "id": "a1-u14-l01-s4",
+            "en": "Amina says: I use 'week' every day.",
+            "pt": "Amina diz: uso «semana» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l01_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u14-l01-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u14-l01_repeat",
+          "items": [
+            {
+              "en": "Amina lives in Maputo.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l01-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "today",
+                "pt": "O que significa «today»?"
+              },
+              "options": [
+                "hoje",
+                "ontem",
+                "mês",
+                "segunda"
+              ],
+              "answer": "hoje"
+            },
+            {
+              "question": {
+                "en": "tomorrow",
+                "pt": "O que significa «tomorrow»?"
+              },
+              "options": [
+                "amanhã",
+                "semana",
+                "ano",
+                "domingo"
+              ],
+              "answer": "amanhã"
+            },
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que significa «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "mês",
+                "segunda",
+                "quente"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "week",
+                "pt": "O que significa «week»?"
+              },
+              "options": [
+                "semana",
+                "ano",
+                "domingo",
+                "frio"
+              ],
+              "answer": "semana"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-l02",
+      "unitId": "u14",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "Meses do ano",
+        "en": "Meses do ano"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Dias, meses, estações e It’s hot / It’s raining.",
+        "Meses do ano"
+      ],
+      "newWords": [
+        {
+          "en": "week",
+          "pt": "semana",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l02_w_week",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "month",
+          "pt": "mês",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l02_w_month",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "year",
+          "pt": "ano",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l02_w_year",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "Monday",
+          "pt": "segunda",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l02_w_monday",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Meses do ano",
+        "sentences": [
+          {
+            "id": "a1-u14-l02-s1",
+            "en": "João lives in Matola.",
+            "pt": "João mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l02_s1"
+          },
+          {
+            "id": "a1-u14-l02-s2",
+            "en": "Today the lesson is Meses do ano.",
+            "pt": "Hoje a lição é: Meses do ano.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l02_s2"
+          },
+          {
+            "id": "a1-u14-l02-s3",
+            "en": "We learn 'tomorrow' and 'yesterday'.",
+            "pt": "Aprendemos «amanhã» e «ontem».",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l02_s3"
+          },
+          {
+            "id": "a1-u14-l02-s4",
+            "en": "João says: I use 'month' every day.",
+            "pt": "João diz: uso «mês» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l02_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u14-l02-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Amélia uses the word _____.",
+              "answer": "today",
+              "options": [
+                "today",
+                "tomorrow",
+                "yesterday",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amélia uses the word _____.",
+              "answer": "tomorrow",
+              "options": [
+                "tomorrow",
+                "yesterday",
+                "week",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amélia uses the word _____.",
+              "answer": "yesterday",
+              "options": [
+                "yesterday",
+                "week",
+                "month",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-l03",
+      "unitId": "u14",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "Hoje, amanhã, ontem",
+        "en": "Hoje, amanhã, ontem"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Dias, meses, estações e It’s hot / It’s raining.",
+        "Hoje, amanhã, ontem"
+      ],
+      "newWords": [
+        {
+          "en": "Monday",
+          "pt": "segunda",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l03_w_monday",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "Sunday",
+          "pt": "domingo",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l03_w_sunday",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "hot",
+          "pt": "quente",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l03_w_hot",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "cold",
+          "pt": "frio",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l03_w_cold",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        }
+      ],
+      "guidedReading": {
+        "title": "Hoje, amanhã, ontem",
+        "sentences": [
+          {
+            "id": "a1-u14-l03-s1",
+            "en": "Fátima lives in Xai-Xai.",
+            "pt": "Fátima mora em Xai-Xai.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l03_s1"
+          },
+          {
+            "id": "a1-u14-l03-s2",
+            "en": "Today the lesson is Hoje, amanhã, ontem.",
+            "pt": "Hoje a lição é: Hoje, amanhã, ontem.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l03_s2"
+          },
+          {
+            "id": "a1-u14-l03-s3",
+            "en": "We learn 'yesterday' and 'week'.",
+            "pt": "Aprendemos «ontem» e «semana».",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l03_s3"
+          },
+          {
+            "id": "a1-u14-l03-s4",
+            "en": "Fátima says: I use 'year' every day.",
+            "pt": "Fátima diz: uso «ano» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l03_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u14-l03-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "today",
+              "pt": "hoje"
+            },
+            {
+              "en": "tomorrow",
+              "pt": "amanhã"
+            },
+            {
+              "en": "yesterday",
+              "pt": "ontem"
+            },
+            {
+              "en": "week",
+              "pt": "semana"
+            },
+            {
+              "en": "month",
+              "pt": "mês"
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l03-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'today' in Portuguese is 'hoje'.",
+              "answer": true
+            },
+            {
+              "sentence": "'today' means 'semana'.",
+              "answer": false
+            },
+            {
+              "sentence": "'tomorrow' in Portuguese is 'amanhã'.",
+              "answer": true
+            },
+            {
+              "sentence": "'tomorrow' means 'mês'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-l04",
+      "unitId": "u14",
+      "order": 4,
+      "kind": "content",
+      "title": {
+        "pt": "Que dia é hoje?",
+        "en": "Que dia é hoje?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Dias, meses, estações e It’s hot / It’s raining.",
+        "Que dia é hoje?"
+      ],
+      "newWords": [
+        {
+          "en": "cold",
+          "pt": "frio",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l04_w_cold",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "rain",
+          "pt": "chuva",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l04_w_rain",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "sun",
+          "pt": "sol",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l04_w_sun",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "wind",
+          "pt": "vento",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l04_w_wind",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Que dia é hoje?",
+        "sentences": [
+          {
+            "id": "a1-u14-l04-s1",
+            "en": "Carlos lives in Inhambane.",
+            "pt": "Carlos mora em Inhambane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l04_s1"
+          },
+          {
+            "id": "a1-u14-l04-s2",
+            "en": "Today the lesson is Que dia é hoje?.",
+            "pt": "Hoje a lição é: Que dia é hoje?.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l04_s2"
+          },
+          {
+            "id": "a1-u14-l04-s3",
+            "en": "We learn 'week' and 'month'.",
+            "pt": "Aprendemos «semana» e «mês».",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l04_s3"
+          },
+          {
+            "id": "a1-u14-l04-s4",
+            "en": "Carlos says: I use 'Monday' every day.",
+            "pt": "Carlos diz: uso «segunda» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l04_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u14-l04-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u14-l04_lw_amélia-is-in-maput",
+              "answer": "Amélia is in Maputo. today.",
+              "hint": "Amélia"
+            },
+            {
+              "audioKey": "a1_a1-u14-l04_lw_amélia-is-in-maput",
+              "answer": "Amélia is in Maputo. tomorrow.",
+              "hint": "Amélia"
+            },
+            {
+              "audioKey": "a1_a1-u14-l04_lw_amélia-is-in-maput",
+              "answer": "Amélia is in Maputo. yesterday.",
+              "hint": "Amélia"
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l04-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "today"
+              ],
+              "answer": "I need today"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "tomorrow"
+              ],
+              "answer": "I need tomorrow"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "yesterday"
+              ],
+              "answer": "I need yesterday"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-l05",
+      "unitId": "u14",
+      "order": 5,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 1",
+        "en": "Checkpoint quiz 1"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Dias, meses, estações e It’s hot / It’s raining.",
+        "Mini-teste 1"
+      ],
+      "newWords": [
+        {
+          "en": "wind",
+          "pt": "vento",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l05_w_wind",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "rainy season",
+          "pt": "estação das chuvas",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l05_w_rainy-season",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 1",
+        "sentences": [
+          {
+            "id": "a1-u14-l05-s1",
+            "en": "Let’s review. Graça is from Vilankulo.",
+            "pt": "Vamos rever. Graça é de Vilankulo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l05_s1"
+          },
+          {
+            "id": "a1-u14-l05-s2",
+            "en": "This unit is about Time and weather.",
+            "pt": "Esta unidade é sobre Tempo e clima.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l05_s2"
+          },
+          {
+            "id": "a1-u14-l05-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l05_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u14-l05-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "today",
+                "pt": "O que significa «today»?"
+              },
+              "options": [
+                "hoje",
+                "ontem",
+                "mês",
+                "segunda"
+              ],
+              "answer": "hoje"
+            },
+            {
+              "question": {
+                "en": "tomorrow",
+                "pt": "O que significa «tomorrow»?"
+              },
+              "options": [
+                "amanhã",
+                "semana",
+                "ano",
+                "domingo"
+              ],
+              "answer": "amanhã"
+            },
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que significa «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "mês",
+                "segunda",
+                "quente"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "week",
+                "pt": "O que significa «week»?"
+              },
+              "options": [
+                "semana",
+                "ano",
+                "domingo",
+                "frio"
+              ],
+              "answer": "semana"
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l05-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Amélia uses the word _____.",
+              "answer": "today",
+              "options": [
+                "today",
+                "tomorrow",
+                "yesterday",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amélia uses the word _____.",
+              "answer": "tomorrow",
+              "options": [
+                "tomorrow",
+                "yesterday",
+                "week",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amélia uses the word _____.",
+              "answer": "yesterday",
+              "options": [
+                "yesterday",
+                "week",
+                "month",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l05-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u14-l05_lw_amélia-is-in-maput",
+              "answer": "Amélia is in Maputo. today.",
+              "hint": "Amélia"
+            },
+            {
+              "audioKey": "a1_a1-u14-l05_lw_amélia-is-in-maput",
+              "answer": "Amélia is in Maputo. tomorrow.",
+              "hint": "Amélia"
+            },
+            {
+              "audioKey": "a1_a1-u14-l05_lw_amélia-is-in-maput",
+              "answer": "Amélia is in Maputo. yesterday.",
+              "hint": "Amélia"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-l06",
+      "unitId": "u14",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "Está calor",
+        "en": "Está calor"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Dias, meses, estações e It’s hot / It’s raining.",
+        "Está calor"
+      ],
+      "newWords": [
+        {
+          "en": "tomorrow",
+          "pt": "amanhã",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l06_w_tomorrow",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "yesterday",
+          "pt": "ontem",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l06_w_yesterday",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "week",
+          "pt": "semana",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l06_w_week",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "month",
+          "pt": "mês",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l06_w_month",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Está calor",
+        "sentences": [
+          {
+            "id": "a1-u14-l06-s1",
+            "en": "Ibraimo lives in Beira.",
+            "pt": "Ibraimo mora em Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l06_s1"
+          },
+          {
+            "id": "a1-u14-l06-s2",
+            "en": "Today the lesson is Está a chover.",
+            "pt": "Hoje a lição é: Está a chover.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l06_s2"
+          },
+          {
+            "id": "a1-u14-l06-s3",
+            "en": "We learn 'year' and 'Monday'.",
+            "pt": "Aprendemos «ano» e «segunda».",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l06_s3"
+          },
+          {
+            "id": "a1-u14-l06-s4",
+            "en": "Ibraimo says: I use 'hot' every day.",
+            "pt": "Ibraimo diz: uso «quente» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l06_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u14-l06-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Ibraimo lives in Beira.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l06-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "today",
+                "pt": "O que significa «today»?"
+              },
+              "options": [
+                "hoje",
+                "ontem",
+                "mês",
+                "segunda"
+              ],
+              "answer": "hoje"
+            },
+            {
+              "question": {
+                "en": "tomorrow",
+                "pt": "O que significa «tomorrow»?"
+              },
+              "options": [
+                "amanhã",
+                "semana",
+                "ano",
+                "domingo"
+              ],
+              "answer": "amanhã"
+            },
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que significa «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "mês",
+                "segunda",
+                "quente"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "week",
+                "pt": "O que significa «week»?"
+              },
+              "options": [
+                "semana",
+                "ano",
+                "domingo",
+                "frio"
+              ],
+              "answer": "semana"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-l07",
+      "unitId": "u14",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "Está a chover",
+        "en": "Está a chover"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Dias, meses, estações e It’s hot / It’s raining.",
+        "Está a chover"
+      ],
+      "newWords": [
+        {
+          "en": "month",
+          "pt": "mês",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l07_w_month",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "year",
+          "pt": "ano",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l07_w_year",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "Monday",
+          "pt": "segunda",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l07_w_monday",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "Sunday",
+          "pt": "domingo",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l07_w_sunday",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        }
+      ],
+      "guidedReading": {
+        "title": "Está a chover",
+        "sentences": [
+          {
+            "id": "a1-u14-l07-s1",
+            "en": "Esperança lives in Chimoio.",
+            "pt": "Esperança mora em Chimoio.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l07_s1"
+          },
+          {
+            "id": "a1-u14-l07-s2",
+            "en": "Today the lesson is Estação das chuvas.",
+            "pt": "Hoje a lição é: Estação das chuvas.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l07_s2"
+          },
+          {
+            "id": "a1-u14-l07-s3",
+            "en": "We learn 'Monday' and 'Sunday'.",
+            "pt": "Aprendemos «segunda» e «domingo».",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l07_s3"
+          },
+          {
+            "id": "a1-u14-l07-s4",
+            "en": "Esperança says: I use 'cold' every day.",
+            "pt": "Esperança diz: uso «frio» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l07_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u14-l07-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u14-l07_repeat",
+          "items": [
+            {
+              "en": "Esperança lives in Chimoio.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l07-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "today",
+                "pt": "O que significa «today»?"
+              },
+              "options": [
+                "hoje",
+                "ontem",
+                "mês",
+                "segunda"
+              ],
+              "answer": "hoje"
+            },
+            {
+              "question": {
+                "en": "tomorrow",
+                "pt": "O que significa «tomorrow»?"
+              },
+              "options": [
+                "amanhã",
+                "semana",
+                "ano",
+                "domingo"
+              ],
+              "answer": "amanhã"
+            },
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que significa «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "mês",
+                "segunda",
+                "quente"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "week",
+                "pt": "O que significa «week»?"
+              },
+              "options": [
+                "semana",
+                "ano",
+                "domingo",
+                "frio"
+              ],
+              "answer": "semana"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-l08",
+      "unitId": "u14",
+      "order": 8,
+      "kind": "content",
+      "title": {
+        "pt": "Estação das chuvas",
+        "en": "Estação das chuvas"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Dias, meses, estações e It’s hot / It’s raining.",
+        "Estação das chuvas"
+      ],
+      "newWords": [
+        {
+          "en": "Sunday",
+          "pt": "domingo",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l08_w_sunday",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "hot",
+          "pt": "quente",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l08_w_hot",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "cold",
+          "pt": "frio",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l08_w_cold",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "rain",
+          "pt": "chuva",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l08_w_rain",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        }
+      ],
+      "guidedReading": {
+        "title": "Estação das chuvas",
+        "sentences": [
+          {
+            "id": "a1-u14-l08-s1",
+            "en": "Paulo lives in Tete.",
+            "pt": "Paulo mora em Tete.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l08_s1"
+          },
+          {
+            "id": "a1-u14-l08-s2",
+            "en": "Today the lesson is Estação seca.",
+            "pt": "Hoje a lição é: Estação seca.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l08_s2"
+          },
+          {
+            "id": "a1-u14-l08-s3",
+            "en": "We learn 'Sunday' and 'hot'.",
+            "pt": "Aprendemos «domingo» e «quente».",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l08_s3"
+          },
+          {
+            "id": "a1-u14-l08-s4",
+            "en": "Paulo says: I use 'rain' every day.",
+            "pt": "Paulo diz: uso «chuva» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l08_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u14-l08-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Amélia uses the word _____.",
+              "answer": "today",
+              "options": [
+                "today",
+                "tomorrow",
+                "yesterday",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amélia uses the word _____.",
+              "answer": "tomorrow",
+              "options": [
+                "tomorrow",
+                "yesterday",
+                "week",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amélia uses the word _____.",
+              "answer": "yesterday",
+              "options": [
+                "yesterday",
+                "week",
+                "month",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-l09",
+      "unitId": "u14",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Estação seca",
+        "en": "Estação seca"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Dias, meses, estações e It’s hot / It’s raining.",
+        "Estação seca"
+      ],
+      "newWords": [
+        {
+          "en": "rain",
+          "pt": "chuva",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l09_w_rain",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "sun",
+          "pt": "sol",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l09_w_sun",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "wind",
+          "pt": "vento",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l09_w_wind",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "rainy season",
+          "pt": "estação das chuvas",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l09_w_rainy-season",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Estação seca",
+        "sentences": [
+          {
+            "id": "a1-u14-l09-s1",
+            "en": "Belmira lives in Quelimane.",
+            "pt": "Belmira mora em Quelimane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l09_s1"
+          },
+          {
+            "id": "a1-u14-l09-s2",
+            "en": "Today the lesson is O sol em Tete.",
+            "pt": "Hoje a lição é: O sol em Tete.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l09_s2"
+          },
+          {
+            "id": "a1-u14-l09-s3",
+            "en": "We learn 'hot' and 'cold'.",
+            "pt": "Aprendemos «quente» e «frio».",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l09_s3"
+          },
+          {
+            "id": "a1-u14-l09-s4",
+            "en": "Belmira says: I use 'sun' every day.",
+            "pt": "Belmira diz: uso «sol» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l09_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u14-l09-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "today",
+              "pt": "hoje"
+            },
+            {
+              "en": "tomorrow",
+              "pt": "amanhã"
+            },
+            {
+              "en": "yesterday",
+              "pt": "ontem"
+            },
+            {
+              "en": "week",
+              "pt": "semana"
+            },
+            {
+              "en": "month",
+              "pt": "mês"
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l09-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'today' in Portuguese is 'hoje'.",
+              "answer": true
+            },
+            {
+              "sentence": "'today' means 'semana'.",
+              "answer": false
+            },
+            {
+              "sentence": "'tomorrow' in Portuguese is 'amanhã'.",
+              "answer": true
+            },
+            {
+              "sentence": "'tomorrow' means 'mês'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-l10",
+      "unitId": "u14",
+      "order": 10,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão guiada",
+        "en": "Guided review"
+      },
+      "type": "review",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectives": [
+        "Dias, meses, estações e It’s hot / It’s raining.",
+        "Revisão guiada"
+      ],
+      "newWords": [
+        {
+          "en": "rainy season",
+          "pt": "estação das chuvas",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l10_w_rainy-season",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        }
+      ],
+      "guidedReading": {
+        "title": "Guided review",
+        "sentences": [
+          {
+            "id": "a1-u14-l10-s1",
+            "en": "Let’s review. Nélio is from Nampula.",
+            "pt": "Vamos rever. Nélio é de Nampula.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l10_s1"
+          },
+          {
+            "id": "a1-u14-l10-s2",
+            "en": "This unit is about Time and weather.",
+            "pt": "Esta unidade é sobre Tempo e clima.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l10_s2"
+          },
+          {
+            "id": "a1-u14-l10-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l10_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u14-l10-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u14-l10_lw_amélia-is-in-maput",
+              "answer": "Amélia is in Maputo. today.",
+              "hint": "Amélia"
+            },
+            {
+              "audioKey": "a1_a1-u14-l10_lw_amélia-is-in-maput",
+              "answer": "Amélia is in Maputo. tomorrow.",
+              "hint": "Amélia"
+            },
+            {
+              "audioKey": "a1_a1-u14-l10_lw_amélia-is-in-maput",
+              "answer": "Amélia is in Maputo. yesterday.",
+              "hint": "Amélia"
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l10-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "today"
+              ],
+              "answer": "I need today"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "tomorrow"
+              ],
+              "answer": "I need tomorrow"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "yesterday"
+              ],
+              "answer": "I need yesterday"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-l11",
+      "unitId": "u14",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "O sol em Tete",
+        "en": "O sol em Tete"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Dias, meses, estações e It’s hot / It’s raining.",
+        "O sol em Tete"
+      ],
+      "newWords": [
+        {
+          "en": "yesterday",
+          "pt": "ontem",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l11_w_yesterday",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "week",
+          "pt": "semana",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l11_w_week",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "month",
+          "pt": "mês",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l11_w_month",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "year",
+          "pt": "ano",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l11_w_year",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        }
+      ],
+      "guidedReading": {
+        "title": "O sol em Tete",
+        "sentences": [
+          {
+            "id": "a1-u14-l11-s1",
+            "en": "Lurdes lives in Nacala.",
+            "pt": "Lurdes mora em Nacala.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l11_s1"
+          },
+          {
+            "id": "a1-u14-l11-s2",
+            "en": "Today the lesson is Diálogo: vamos à praia?.",
+            "pt": "Hoje a lição é: Diálogo: vamos à praia?.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l11_s2"
+          },
+          {
+            "id": "a1-u14-l11-s3",
+            "en": "We learn 'rain' and 'sun'.",
+            "pt": "Aprendemos «chuva» e «sol».",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l11_s3"
+          },
+          {
+            "id": "a1-u14-l11-s4",
+            "en": "Lurdes says: I use 'rainy season' every day.",
+            "pt": "Lurdes diz: uso «estação das chuvas» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l11_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u14-l11-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u14-l11_tap",
+          "items": [
+            {
+              "answer": "today",
+              "options": [
+                "today",
+                "tomorrow",
+                "yesterday",
+                "week"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l11-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-l12",
+      "unitId": "u14",
+      "order": 12,
+      "kind": "content",
+      "title": {
+        "pt": "O vento na Beira",
+        "en": "O vento na Beira"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Dias, meses, estações e It’s hot / It’s raining.",
+        "O vento na Beira"
+      ],
+      "newWords": [
+        {
+          "en": "year",
+          "pt": "ano",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l12_w_year",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "Monday",
+          "pt": "segunda",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l12_w_monday",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "Sunday",
+          "pt": "domingo",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l12_w_sunday",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "hot",
+          "pt": "quente",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l12_w_hot",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        }
+      ],
+      "guidedReading": {
+        "title": "O vento na Beira",
+        "sentences": [
+          {
+            "id": "a1-u14-l12-s1",
+            "en": "Faruk lives in Pemba.",
+            "pt": "Faruk mora em Pemba.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l12_s1"
+          },
+          {
+            "id": "a1-u14-l12-s2",
+            "en": "Today the lesson is Diálogo: leva o guarda-chuva.",
+            "pt": "Hoje a lição é: Diálogo: leva o guarda-chuva.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l12_s2"
+          },
+          {
+            "id": "a1-u14-l12-s3",
+            "en": "We learn 'sun' and 'wind'.",
+            "pt": "Aprendemos «sol» e «vento».",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l12_s3"
+          },
+          {
+            "id": "a1-u14-l12-s4",
+            "en": "Faruk says: I use 'today' every day.",
+            "pt": "Faruk diz: uso «hoje» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l12_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u14-l12-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Faruk lives in Pemba.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l12-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "today",
+                "pt": "O que significa «today»?"
+              },
+              "options": [
+                "hoje",
+                "ontem",
+                "mês",
+                "segunda"
+              ],
+              "answer": "hoje"
+            },
+            {
+              "question": {
+                "en": "tomorrow",
+                "pt": "O que significa «tomorrow»?"
+              },
+              "options": [
+                "amanhã",
+                "semana",
+                "ano",
+                "domingo"
+              ],
+              "answer": "amanhã"
+            },
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que significa «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "mês",
+                "segunda",
+                "quente"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "week",
+                "pt": "O que significa «week»?"
+              },
+              "options": [
+                "semana",
+                "ano",
+                "domingo",
+                "frio"
+              ],
+              "answer": "semana"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-l13",
+      "unitId": "u14",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: vamos à praia?",
+        "en": "Diálogo: vamos à praia?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Dias, meses, estações e It’s hot / It’s raining.",
+        "Diálogo: vamos à praia?"
+      ],
+      "newWords": [
+        {
+          "en": "hot",
+          "pt": "quente",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l13_w_hot",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "cold",
+          "pt": "frio",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l13_w_cold",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "rain",
+          "pt": "chuva",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l13_w_rain",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "sun",
+          "pt": "sol",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l13_w_sun",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: vamos à praia?",
+        "sentences": [
+          {
+            "id": "a1-u14-l13-s1",
+            "en": "Josina lives in Lichinga.",
+            "pt": "Josina mora em Lichinga.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l13_s1"
+          },
+          {
+            "id": "a1-u14-l13-s2",
+            "en": "Today the lesson is O meu calendário.",
+            "pt": "Hoje a lição é: O meu calendário.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l13_s2"
+          },
+          {
+            "id": "a1-u14-l13-s3",
+            "en": "We learn 'wind' and 'rainy season'.",
+            "pt": "Aprendemos «vento» e «estação das chuvas».",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l13_s3"
+          },
+          {
+            "id": "a1-u14-l13-s4",
+            "en": "Josina says: I use 'tomorrow' every day.",
+            "pt": "Josina diz: uso «amanhã» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l13_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u14-l13-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u14-l13_repeat",
+          "items": [
+            {
+              "en": "Josina lives in Lichinga.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l13-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "today",
+                "pt": "O que significa «today»?"
+              },
+              "options": [
+                "hoje",
+                "ontem",
+                "mês",
+                "segunda"
+              ],
+              "answer": "hoje"
+            },
+            {
+              "question": {
+                "en": "tomorrow",
+                "pt": "O que significa «tomorrow»?"
+              },
+              "options": [
+                "amanhã",
+                "semana",
+                "ano",
+                "domingo"
+              ],
+              "answer": "amanhã"
+            },
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que significa «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "mês",
+                "segunda",
+                "quente"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "week",
+                "pt": "O que significa «week»?"
+              },
+              "options": [
+                "semana",
+                "ano",
+                "domingo",
+                "frio"
+              ],
+              "answer": "semana"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-l14",
+      "unitId": "u14",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: leva o guarda-chuva",
+        "en": "Diálogo: leva o guarda-chuva"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Dias, meses, estações e It’s hot / It’s raining.",
+        "Diálogo: leva o guarda-chuva"
+      ],
+      "newWords": [
+        {
+          "en": "sun",
+          "pt": "sol",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l14_w_sun",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "wind",
+          "pt": "vento",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l14_w_wind",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "rainy season",
+          "pt": "estação das chuvas",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l14_w_rainy-season",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: leva o guarda-chuva",
+        "sentences": [
+          {
+            "id": "a1-u14-l14-s1",
+            "en": "Tendai lives in Ilha de Moçambique.",
+            "pt": "Tendai mora em Ilha de Moçambique.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l14_s1"
+          },
+          {
+            "id": "a1-u14-l14-s2",
+            "en": "Today the lesson is Clima das províncias.",
+            "pt": "Hoje a lição é: Clima das províncias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l14_s2"
+          },
+          {
+            "id": "a1-u14-l14-s3",
+            "en": "We learn 'rainy season' and 'today'.",
+            "pt": "Aprendemos «estação das chuvas» e «hoje».",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l14_s3"
+          },
+          {
+            "id": "a1-u14-l14-s4",
+            "en": "Tendai says: I use 'yesterday' every day.",
+            "pt": "Tendai diz: uso «ontem» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l14_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u14-l14-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Amélia uses the word _____.",
+              "answer": "today",
+              "options": [
+                "today",
+                "tomorrow",
+                "yesterday",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amélia uses the word _____.",
+              "answer": "tomorrow",
+              "options": [
+                "tomorrow",
+                "yesterday",
+                "week",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amélia uses the word _____.",
+              "answer": "yesterday",
+              "options": [
+                "yesterday",
+                "week",
+                "month",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-l15",
+      "unitId": "u14",
+      "order": 15,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 2",
+        "en": "Checkpoint quiz 2"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Dias, meses, estações e It’s hot / It’s raining.",
+        "Mini-teste 2"
+      ],
+      "newWords": [
+        {
+          "en": "today",
+          "pt": "hoje",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l15_w_today",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "tomorrow",
+          "pt": "amanhã",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l15_w_tomorrow",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "yesterday",
+          "pt": "ontem",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l15_w_yesterday",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "week",
+          "pt": "semana",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l15_w_week",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 2",
+        "sentences": [
+          {
+            "id": "a1-u14-l15-s1",
+            "en": "Let’s review. Amélia is from Maputo.",
+            "pt": "Vamos rever. Amélia é de Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l15_s1"
+          },
+          {
+            "id": "a1-u14-l15-s2",
+            "en": "This unit is about Time and weather.",
+            "pt": "Esta unidade é sobre Tempo e clima.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l15_s2"
+          },
+          {
+            "id": "a1-u14-l15-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l15_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u14-l15-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "today",
+                "pt": "O que significa «today»?"
+              },
+              "options": [
+                "hoje",
+                "ontem",
+                "mês",
+                "segunda"
+              ],
+              "answer": "hoje"
+            },
+            {
+              "question": {
+                "en": "tomorrow",
+                "pt": "O que significa «tomorrow»?"
+              },
+              "options": [
+                "amanhã",
+                "semana",
+                "ano",
+                "domingo"
+              ],
+              "answer": "amanhã"
+            },
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que significa «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "mês",
+                "segunda",
+                "quente"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "week",
+                "pt": "O que significa «week»?"
+              },
+              "options": [
+                "semana",
+                "ano",
+                "domingo",
+                "frio"
+              ],
+              "answer": "semana"
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l15-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Amélia uses the word _____.",
+              "answer": "today",
+              "options": [
+                "today",
+                "tomorrow",
+                "yesterday",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amélia uses the word _____.",
+              "answer": "tomorrow",
+              "options": [
+                "tomorrow",
+                "yesterday",
+                "week",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amélia uses the word _____.",
+              "answer": "yesterday",
+              "options": [
+                "yesterday",
+                "week",
+                "month",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l15-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u14-l15_lw_amélia-is-in-maput",
+              "answer": "Amélia is in Maputo. today.",
+              "hint": "Amélia"
+            },
+            {
+              "audioKey": "a1_a1-u14-l15_lw_amélia-is-in-maput",
+              "answer": "Amélia is in Maputo. tomorrow.",
+              "hint": "Amélia"
+            },
+            {
+              "audioKey": "a1_a1-u14-l15_lw_amélia-is-in-maput",
+              "answer": "Amélia is in Maputo. yesterday.",
+              "hint": "Amélia"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-l16",
+      "unitId": "u14",
+      "order": 16,
+      "kind": "content",
+      "title": {
+        "pt": "O meu calendário",
+        "en": "O meu calendário"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Dias, meses, estações e It’s hot / It’s raining.",
+        "O meu calendário"
+      ],
+      "newWords": [
+        {
+          "en": "week",
+          "pt": "semana",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l16_w_week",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "month",
+          "pt": "mês",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l16_w_month",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "year",
+          "pt": "ano",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l16_w_year",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "Monday",
+          "pt": "segunda",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l16_w_monday",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "O meu calendário",
+        "sentences": [
+          {
+            "id": "a1-u14-l16-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l16_s1"
+          },
+          {
+            "id": "a1-u14-l16-s2",
+            "en": "Today the lesson is O tempo hoje em 4 frases.",
+            "pt": "Hoje a lição é: O tempo hoje em 4 frases.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l16_s2"
+          },
+          {
+            "id": "a1-u14-l16-s3",
+            "en": "We learn 'tomorrow' and 'yesterday'.",
+            "pt": "Aprendemos «amanhã» e «ontem».",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l16_s3"
+          },
+          {
+            "id": "a1-u14-l16-s4",
+            "en": "Zacarias says: I use 'month' every day.",
+            "pt": "Zacarias diz: uso «mês» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l16_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u14-l16-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u14-l16_lw_amélia-is-in-maput",
+              "answer": "Amélia is in Maputo. today.",
+              "hint": "Amélia"
+            },
+            {
+              "audioKey": "a1_a1-u14-l16_lw_amélia-is-in-maput",
+              "answer": "Amélia is in Maputo. tomorrow.",
+              "hint": "Amélia"
+            },
+            {
+              "audioKey": "a1_a1-u14-l16_lw_amélia-is-in-maput",
+              "answer": "Amélia is in Maputo. yesterday.",
+              "hint": "Amélia"
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l16-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "today"
+              ],
+              "answer": "I need today"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "tomorrow"
+              ],
+              "answer": "I need tomorrow"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "yesterday"
+              ],
+              "answer": "I need yesterday"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-l17",
+      "unitId": "u14",
+      "order": 17,
+      "kind": "content",
+      "title": {
+        "pt": "Clima das províncias",
+        "en": "Clima das províncias"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Dias, meses, estações e It’s hot / It’s raining.",
+        "Clima das províncias"
+      ],
+      "newWords": [
+        {
+          "en": "Monday",
+          "pt": "segunda",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l17_w_monday",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "Sunday",
+          "pt": "domingo",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l17_w_sunday",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "hot",
+          "pt": "quente",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l17_w_hot",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "cold",
+          "pt": "frio",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l17_w_cold",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Clima das províncias",
+        "sentences": [
+          {
+            "id": "a1-u14-l17-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l17_s1"
+          },
+          {
+            "id": "a1-u14-l17-s2",
+            "en": "Today the lesson is O tempo hoje em 4 frases.",
+            "pt": "Hoje a lição é: O tempo hoje em 4 frases.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l17_s2"
+          },
+          {
+            "id": "a1-u14-l17-s3",
+            "en": "We learn 'tomorrow' and 'yesterday'.",
+            "pt": "Aprendemos «amanhã» e «ontem».",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l17_s3"
+          },
+          {
+            "id": "a1-u14-l17-s4",
+            "en": "Zacarias says: I use 'month' every day.",
+            "pt": "Zacarias diz: uso «mês» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l17_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u14-l17-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u14-l17_tap",
+          "items": [
+            {
+              "answer": "today",
+              "options": [
+                "today",
+                "tomorrow",
+                "yesterday",
+                "week"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l17-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-l18",
+      "unitId": "u14",
+      "order": 18,
+      "kind": "content",
+      "title": {
+        "pt": "Sons: th em Thursday / weather",
+        "en": "Sons: th em Thursday / weather"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Dias, meses, estações e It’s hot / It’s raining.",
+        "Sons: th em Thursday / weather"
+      ],
+      "newWords": [
+        {
+          "en": "cold",
+          "pt": "frio",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l18_w_cold",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "rain",
+          "pt": "chuva",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l18_w_rain",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "sun",
+          "pt": "sol",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l18_w_sun",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "wind",
+          "pt": "vento",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l18_w_wind",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Sons: th em Thursday / weather",
+        "sentences": [
+          {
+            "id": "a1-u14-l18-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l18_s1"
+          },
+          {
+            "id": "a1-u14-l18-s2",
+            "en": "Today the lesson is O tempo hoje em 4 frases.",
+            "pt": "Hoje a lição é: O tempo hoje em 4 frases.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l18_s2"
+          },
+          {
+            "id": "a1-u14-l18-s3",
+            "en": "We learn 'tomorrow' and 'yesterday'.",
+            "pt": "Aprendemos «amanhã» e «ontem».",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l18_s3"
+          },
+          {
+            "id": "a1-u14-l18-s4",
+            "en": "Zacarias says: I use 'month' every day.",
+            "pt": "Zacarias diz: uso «mês» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l18_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u14-l18-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l18-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "today",
+                "pt": "O que significa «today»?"
+              },
+              "options": [
+                "hoje",
+                "ontem",
+                "mês",
+                "segunda"
+              ],
+              "answer": "hoje"
+            },
+            {
+              "question": {
+                "en": "tomorrow",
+                "pt": "O que significa «tomorrow»?"
+              },
+              "options": [
+                "amanhã",
+                "semana",
+                "ano",
+                "domingo"
+              ],
+              "answer": "amanhã"
+            },
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que significa «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "mês",
+                "segunda",
+                "quente"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "week",
+                "pt": "O que significa «week»?"
+              },
+              "options": [
+                "semana",
+                "ano",
+                "domingo",
+                "frio"
+              ],
+              "answer": "semana"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-l19",
+      "unitId": "u14",
+      "order": 19,
+      "kind": "content",
+      "title": {
+        "pt": "O tempo hoje em 4 frases",
+        "en": "O tempo hoje em 4 frases"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Dias, meses, estações e It’s hot / It’s raining.",
+        "O tempo hoje em 4 frases"
+      ],
+      "newWords": [
+        {
+          "en": "wind",
+          "pt": "vento",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l19_w_wind",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "rainy season",
+          "pt": "estação das chuvas",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l19_w_rainy-season",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "O tempo hoje em 4 frases",
+        "sentences": [
+          {
+            "id": "a1-u14-l19-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l19_s1"
+          },
+          {
+            "id": "a1-u14-l19-s2",
+            "en": "Today the lesson is O tempo hoje em 4 frases.",
+            "pt": "Hoje a lição é: O tempo hoje em 4 frases.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l19_s2"
+          },
+          {
+            "id": "a1-u14-l19-s3",
+            "en": "We learn 'tomorrow' and 'yesterday'.",
+            "pt": "Aprendemos «amanhã» e «ontem».",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l19_s3"
+          },
+          {
+            "id": "a1-u14-l19-s4",
+            "en": "Zacarias says: I use 'month' every day.",
+            "pt": "Zacarias diz: uso «mês» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l19_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u14-l19-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u14-l19_repeat",
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l19-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "today",
+                "pt": "O que significa «today»?"
+              },
+              "options": [
+                "hoje",
+                "ontem",
+                "mês",
+                "segunda"
+              ],
+              "answer": "hoje"
+            },
+            {
+              "question": {
+                "en": "tomorrow",
+                "pt": "O que significa «tomorrow»?"
+              },
+              "options": [
+                "amanhã",
+                "semana",
+                "ano",
+                "domingo"
+              ],
+              "answer": "amanhã"
+            },
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que significa «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "mês",
+                "segunda",
+                "quente"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "week",
+                "pt": "O que significa «week»?"
+              },
+              "options": [
+                "semana",
+                "ano",
+                "domingo",
+                "frio"
+              ],
+              "answer": "semana"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-l20",
+      "unitId": "u14",
+      "order": 20,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste da unidade: Tempo e clima",
+        "en": "Unit test: Time and weather"
+      },
+      "type": "unit_test",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "listening",
+        "reading",
+        "writing",
+        "grammar"
+      ],
+      "objectives": [
+        "Dias, meses, estações e It’s hot / It’s raining.",
+        "Teste da unidade: Tempo e clima"
+      ],
+      "newWords": [
+        {
+          "en": "tomorrow",
+          "pt": "amanhã",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l20_w_tomorrow",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "yesterday",
+          "pt": "ontem",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l20_w_yesterday",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "week",
+          "pt": "semana",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l20_w_week",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "month",
+          "pt": "mês",
+          "ipa": "",
+          "audioKey": "a1_a1-u14-l20_w_month",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Unit test: Time and weather",
+        "sentences": [
+          {
+            "id": "a1-u14-l20-s1",
+            "en": "Let’s review. Carlos is from Beira.",
+            "pt": "Vamos rever. Carlos é de Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l20_s1"
+          },
+          {
+            "id": "a1-u14-l20-s2",
+            "en": "This unit is about Time and weather.",
+            "pt": "Esta unidade é sobre Tempo e clima.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l20_s2"
+          },
+          {
+            "id": "a1-u14-l20-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u14-l20_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u14-l20-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "today",
+                "pt": "O que significa «today»?"
+              },
+              "options": [
+                "hoje",
+                "ontem",
+                "mês",
+                "segunda"
+              ],
+              "answer": "hoje"
+            },
+            {
+              "question": {
+                "en": "tomorrow",
+                "pt": "O que significa «tomorrow»?"
+              },
+              "options": [
+                "amanhã",
+                "semana",
+                "ano",
+                "domingo"
+              ],
+              "answer": "amanhã"
+            },
+            {
+              "question": {
+                "en": "yesterday",
+                "pt": "O que significa «yesterday»?"
+              },
+              "options": [
+                "ontem",
+                "mês",
+                "segunda",
+                "quente"
+              ],
+              "answer": "ontem"
+            },
+            {
+              "question": {
+                "en": "week",
+                "pt": "O que significa «week»?"
+              },
+              "options": [
+                "semana",
+                "ano",
+                "domingo",
+                "frio"
+              ],
+              "answer": "semana"
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l20-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Amélia uses the word _____.",
+              "answer": "today",
+              "options": [
+                "today",
+                "tomorrow",
+                "yesterday",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amélia uses the word _____.",
+              "answer": "tomorrow",
+              "options": [
+                "tomorrow",
+                "yesterday",
+                "week",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amélia uses the word _____.",
+              "answer": "yesterday",
+              "options": [
+                "yesterday",
+                "week",
+                "month",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l20-a3",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'today' in Portuguese is 'hoje'.",
+              "answer": true
+            },
+            {
+              "sentence": "'today' means 'semana'.",
+              "answer": false
+            },
+            {
+              "sentence": "'tomorrow' in Portuguese is 'amanhã'.",
+              "answer": true
+            },
+            {
+              "sentence": "'tomorrow' means 'mês'.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l20-a4",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "today"
+              ],
+              "answer": "I need today"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "tomorrow"
+              ],
+              "answer": "I need tomorrow"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "yesterday"
+              ],
+              "answer": "I need yesterday"
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l20-a5",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u14-l20_lw_amélia-is-in-maput",
+              "answer": "Amélia is in Maputo. today.",
+              "hint": "Amélia"
+            },
+            {
+              "audioKey": "a1_a1-u14-l20_lw_amélia-is-in-maput",
+              "answer": "Amélia is in Maputo. tomorrow.",
+              "hint": "Amélia"
+            },
+            {
+              "audioKey": "a1_a1-u14-l20_lw_amélia-is-in-maput",
+              "answer": "Amélia is in Maputo. yesterday.",
+              "hint": "Amélia"
+            }
+          ]
+        },
+        {
+          "id": "a1-u14-l20-a6",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    }
+  ]
+}

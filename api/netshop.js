@@ -1,6 +1,6 @@
 // QuizMoz — Unified Hybrid Payment Proxy (Vercel Serverless Function)
 // Proxies payment requests to DebitoPay (for direct M-Pesa/e-Mola STK push and Hosted Checkouts) securely.
-// Maintains backward compatibility with NetShop and ZumboPay transactions.
+// Maintains backward compatibility with NetShop transactions.
 
 const DEBITOPAY_API_KEY = process.env.DEBITOPAY_API_KEY || Buffer.from('c2tfbGl2ZV9YSGVmMFpwSWt1UlJnUURRUEZ4RkpWRHd3dU0yVHNRSQ==', 'base64').toString('utf8');
 const DEBITOPAY_WALLET_CODE = process.env.DEBITOPAY_WALLET_CODE || '23077';
@@ -30,6 +30,14 @@ export default async function handler(req, res) {
 
             const paymentMethod = method.toLowerCase();
             const amountInMZN = Math.round(Number(amount));
+
+            if (paymentMethod === 'emola' || paymentMethod === 'emola_link') {
+                return res.status(400).json({
+                    success: false,
+                    message: 'O pagamento via e-Mola está temporariamente indisponível. Por favor, tente efetuar o pagamento utilizando M-Pesa.',
+                    error: 'O pagamento via e-Mola está temporariamente indisponível. Por favor, tente efetuar o pagamento utilizando M-Pesa.'
+                });
+            }
 
             // 1. e-Mola Link Fallback (DebitoPay static payment links mapped by price)
             if (paymentMethod === 'emola_link') {

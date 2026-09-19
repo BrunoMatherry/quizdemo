@@ -1,0 +1,2737 @@
+{
+  "id": "b2u07",
+  "level": "B2",
+  "order": 7,
+  "title": {
+    "pt": "Dinheiro e decisões",
+    "en": "Money decisions"
+  },
+  "goal": "Poupar, enviar, comparar opções com calma.",
+  "cambridgeInspiration": "B2 First (inspired task types)",
+  "lessonCount": 16,
+  "lessons": [
+    {
+      "id": "b2-b2u07-l01",
+      "unitId": "b2u07",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "Dinheiro e decisões: Texto de abertura",
+        "en": "Money decisions: Texto de abertura"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Poupar, enviar, comparar opções com calma.",
+        "Texto de abertura"
+      ],
+      "newWords": [
+        {
+          "en": "although",
+          "pt": "embora",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l01_w_although",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "therefore",
+          "pt": "por isso",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l01_w_therefore",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "claim",
+          "pt": "afirmar",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l01_w_claim",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "evidence",
+          "pt": "prova/indício",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l01_w_evidence",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        }
+      ],
+      "guidedReading": {
+        "title": "Money decisions",
+        "sentences": [
+          {
+            "id": "b2-b2u07-l01-s1",
+            "en": "Compare the fee before you send money; the fastest option is not always cheaper.",
+            "pt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l01_s1"
+          },
+          {
+            "id": "b2-b2u07-l01-s2",
+            "en": "Esperança argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Esperança sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l01_s2"
+          },
+          {
+            "id": "b2-b2u07-l01-s3",
+            "en": "However, Carlos pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Carlos lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l01_s3"
+          },
+          {
+            "id": "b2-b2u07-l01-s4",
+            "en": "In this unit you practise money decisions with clear reasons and a calm tone.",
+            "pt": "Poupar, enviar, comparar opções com calma.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l01_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u07-l01-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "although",
+                "pt": "O que é mais próximo de «although»?"
+              },
+              "options": [
+                "embora",
+                "por isso",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "embora"
+            },
+            {
+              "question": {
+                "en": "therefore",
+                "pt": "O que é mais próximo de «therefore»?"
+              },
+              "options": [
+                "por isso",
+                "embora",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "por isso"
+            },
+            {
+              "question": {
+                "en": "claim",
+                "pt": "O que é mais próximo de «claim»?"
+              },
+              "options": [
+                "afirmar",
+                "embora",
+                "por isso",
+                "prova/indício"
+              ],
+              "answer": "afirmar"
+            },
+            {
+              "question": {
+                "en": "evidence",
+                "pt": "O que é mais próximo de «evidence»?"
+              },
+              "options": [
+                "prova/indício",
+                "embora",
+                "por isso",
+                "afirmar"
+              ],
+              "answer": "prova/indício"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u07-l01-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (embora)",
+              "answer": "although",
+              "options": [
+                "although",
+                "therefore",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (por isso)",
+              "answer": "therefore",
+              "options": [
+                "therefore",
+                "although",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (afirmar)",
+              "answer": "claim",
+              "options": [
+                "claim",
+                "although",
+                "therefore",
+                "evidence"
+              ]
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Matola"
+      }
+    },
+    {
+      "id": "b2-b2u07-l02",
+      "unitId": "b2u07",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "Dinheiro e decisões: Gramática do argumento",
+        "en": "Money decisions: Gramática do argumento"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Poupar, enviar, comparar opções com calma.",
+        "Gramática do argumento"
+      ],
+      "newWords": [
+        {
+          "en": "evidence",
+          "pt": "prova/indício",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l02_w_evidence",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "report",
+          "pt": "relatar/relatório",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l02_w_report",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "reliable",
+          "pt": "fiável",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l02_w_reliable",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "increase",
+          "pt": "aumentar",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l02_w_increase",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        }
+      ],
+      "guidedReading": {
+        "title": "Money decisions",
+        "sentences": [
+          {
+            "id": "b2-b2u07-l02-s1",
+            "en": "Compare the fee before you send money; the fastest option is not always cheaper.",
+            "pt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l02_s1"
+          },
+          {
+            "id": "b2-b2u07-l02-s2",
+            "en": "Faruk argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Faruk sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l02_s2"
+          },
+          {
+            "id": "b2-b2u07-l02-s3",
+            "en": "However, Marta pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Marta lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l02_s3"
+          },
+          {
+            "id": "b2-b2u07-l02-s4",
+            "en": "In this unit you practise money decisions with clear reasons and a calm tone.",
+            "pt": "Poupar, enviar, comparar opções com calma.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l02_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u07-l02-a1",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "Compare the fee before you send money; the fastest option is not always cheaper.",
+              "answer": true
+            },
+            {
+              "sentence": "Faruk argued that cheaper data matters more for students than a new shopping centre.",
+              "answer": true
+            },
+            {
+              "sentence": "However, Marta pointed out that local shops also need customers in the evening.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to although.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u07-l02-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "Compare",
+                "the",
+                "fee",
+                "before",
+                "you",
+                "send",
+                "money",
+                "the"
+              ],
+              "answer": "Compare the fee before you send money the"
+            },
+            {
+              "words": [
+                "Faruk",
+                "argued",
+                "that",
+                "cheaper",
+                "data",
+                "matters",
+                "more",
+                "for"
+              ],
+              "answer": "Faruk argued that cheaper data matters more for"
+            },
+            {
+              "words": [
+                "However",
+                "Marta",
+                "pointed",
+                "out",
+                "that",
+                "local",
+                "shops",
+                "also"
+              ],
+              "answer": "However Marta pointed out that local shops also"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Nacala"
+      }
+    },
+    {
+      "id": "b2-b2u07-l03",
+      "unitId": "b2u07",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "Dinheiro e decisões: Marcadores de discurso",
+        "en": "Money decisions: Marcadores de discurso"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Poupar, enviar, comparar opções com calma.",
+        "Marcadores de discurso"
+      ],
+      "newWords": [
+        {
+          "en": "increase",
+          "pt": "aumentar",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l03_w_increase",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "reduce",
+          "pt": "reduzir",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l03_w_reduce",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "formal",
+          "pt": "formal",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l03_w_formal",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "summarise",
+          "pt": "resumir",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l03_w_summarise",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        }
+      ],
+      "guidedReading": {
+        "title": "Money decisions",
+        "sentences": [
+          {
+            "id": "b2-b2u07-l03-s1",
+            "en": "Compare the fee before you send money; the fastest option is not always cheaper.",
+            "pt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l03_s1"
+          },
+          {
+            "id": "b2-b2u07-l03-s2",
+            "en": "Belmira argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Belmira sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l03_s2"
+          },
+          {
+            "id": "b2-b2u07-l03-s3",
+            "en": "However, Amina pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Amina lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l03_s3"
+          },
+          {
+            "id": "b2-b2u07-l03-s4",
+            "en": "In this unit you practise money decisions with clear reasons and a calm tone.",
+            "pt": "Poupar, enviar, comparar opções com calma.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l03_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u07-l03-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "b2-b2u07-l03_lw_0",
+              "answer": "Compare the fee before you send money; the fastest option is not always cheaper.",
+              "hint": "Compare"
+            },
+            {
+              "audioKey": "b2-b2u07-l03_lw_1",
+              "answer": "Belmira argued that cheaper data matters more for students than a new shopping centre.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "b2-b2u07-l03_lw_2",
+              "answer": "However, Amina pointed out that local shops also need customers in the evening.",
+              "hint": "However,"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u07-l03-a2",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante one minute.",
+            "en": "Speak for one minute."
+          },
+          "items": [
+            {
+              "en": "Compare the fee before you send money; the fastest option is not always cheaper.",
+              "task": "State a view, give an example, acknowledge another side.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Inhambane"
+      }
+    },
+    {
+      "id": "b2-b2u07-l04",
+      "unitId": "b2u07",
+      "order": 4,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste",
+        "en": "Checkpoint"
+      },
+      "type": "checkpoint",
+      "durationMin": 10,
+      "xp": 22,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing"
+      ],
+      "objectives": [
+        "Poupar, enviar, comparar opções com calma.",
+        "Ler e inferir"
+      ],
+      "newWords": [
+        {
+          "en": "summarise",
+          "pt": "resumir",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l04_w_summarise",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "challenge",
+          "pt": "desafio",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l04_w_challenge",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "policy",
+          "pt": "política pública",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l04_w_policy",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "money",
+          "pt": "money",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l04_w_money",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        }
+      ],
+      "guidedReading": {
+        "title": "Money decisions",
+        "sentences": [
+          {
+            "id": "b2-b2u07-l04-s1",
+            "en": "Compare the fee before you send money; the fastest option is not always cheaper.",
+            "pt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l04_s1"
+          },
+          {
+            "id": "b2-b2u07-l04-s2",
+            "en": "Carlos argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Carlos sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l04_s2"
+          },
+          {
+            "id": "b2-b2u07-l04-s3",
+            "en": "However, João pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, João lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l04_s3"
+          },
+          {
+            "id": "b2-b2u07-l04-s4",
+            "en": "In this unit you practise money decisions with clear reasons and a calm tone.",
+            "pt": "Poupar, enviar, comparar opções com calma.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l04_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u07-l04-a1",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u07-l04-a2",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "although",
+              "pt": "embora"
+            },
+            {
+              "en": "therefore",
+              "pt": "por isso"
+            },
+            {
+              "en": "claim",
+              "pt": "afirmar"
+            },
+            {
+              "en": "evidence",
+              "pt": "prova/indício"
+            },
+            {
+              "en": "report",
+              "pt": "relatar/relatório"
+            },
+            {
+              "en": "reliable",
+              "pt": "fiável"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 140
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Luanda"
+      }
+    },
+    {
+      "id": "b2-b2u07-l05",
+      "unitId": "b2u07",
+      "order": 5,
+      "kind": "content",
+      "title": {
+        "pt": "Dinheiro e decisões: Ouvir um ponto de vista",
+        "en": "Money decisions: Ouvir um ponto de vista"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "speaking"
+      ],
+      "objectives": [
+        "Poupar, enviar, comparar opções com calma.",
+        "Ouvir um ponto de vista"
+      ],
+      "newWords": [
+        {
+          "en": "money",
+          "pt": "money",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l05_w_money",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "decisions",
+          "pt": "decisions",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l05_w_decisions",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "practice",
+          "pt": "practice",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l05_w_practice",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "example",
+          "pt": "example",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l05_w_example",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        }
+      ],
+      "guidedReading": {
+        "title": "Money decisions",
+        "sentences": [
+          {
+            "id": "b2-b2u07-l05-s1",
+            "en": "Compare the fee before you send money; the fastest option is not always cheaper.",
+            "pt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l05_s1"
+          },
+          {
+            "id": "b2-b2u07-l05-s2",
+            "en": "Marta argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Marta sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l05_s2"
+          },
+          {
+            "id": "b2-b2u07-l05-s3",
+            "en": "However, Graça pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Graça lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l05_s3"
+          },
+          {
+            "id": "b2-b2u07-l05-s4",
+            "en": "In this unit you practise money decisions with clear reasons and a calm tone.",
+            "pt": "Poupar, enviar, comparar opções com calma.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l05_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u07-l05-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "although",
+                "pt": "O que é mais próximo de «although»?"
+              },
+              "options": [
+                "embora",
+                "por isso",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "embora"
+            },
+            {
+              "question": {
+                "en": "therefore",
+                "pt": "O que é mais próximo de «therefore»?"
+              },
+              "options": [
+                "por isso",
+                "embora",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "por isso"
+            },
+            {
+              "question": {
+                "en": "claim",
+                "pt": "O que é mais próximo de «claim»?"
+              },
+              "options": [
+                "afirmar",
+                "embora",
+                "por isso",
+                "prova/indício"
+              ],
+              "answer": "afirmar"
+            },
+            {
+              "question": {
+                "en": "evidence",
+                "pt": "O que é mais próximo de «evidence»?"
+              },
+              "options": [
+                "prova/indício",
+                "embora",
+                "por isso",
+                "afirmar"
+              ],
+              "answer": "prova/indício"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u07-l05-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (embora)",
+              "answer": "although",
+              "options": [
+                "although",
+                "therefore",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (por isso)",
+              "answer": "therefore",
+              "options": [
+                "therefore",
+                "although",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (afirmar)",
+              "answer": "claim",
+              "options": [
+                "claim",
+                "although",
+                "therefore",
+                "evidence"
+              ]
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Praia"
+      }
+    },
+    {
+      "id": "b2-b2u07-l06",
+      "unitId": "b2u07",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "Dinheiro e decisões: Resumir em 2 frases",
+        "en": "Money decisions: Resumir em 2 frases"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Poupar, enviar, comparar opções com calma.",
+        "Resumir em 2 frases"
+      ],
+      "newWords": [
+        {
+          "en": "claim",
+          "pt": "afirmar",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l06_w_claim",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "evidence",
+          "pt": "prova/indício",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l06_w_evidence",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "report",
+          "pt": "relatar/relatório",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l06_w_report",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "reliable",
+          "pt": "fiável",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l06_w_reliable",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        }
+      ],
+      "guidedReading": {
+        "title": "Money decisions",
+        "sentences": [
+          {
+            "id": "b2-b2u07-l06-s1",
+            "en": "Compare the fee before you send money; the fastest option is not always cheaper.",
+            "pt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l06_s1"
+          },
+          {
+            "id": "b2-b2u07-l06-s2",
+            "en": "Amina argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Amina sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l06_s2"
+          },
+          {
+            "id": "b2-b2u07-l06-s3",
+            "en": "However, Paulo pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Paulo lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l06_s3"
+          },
+          {
+            "id": "b2-b2u07-l06-s4",
+            "en": "In this unit you practise money decisions with clear reasons and a calm tone.",
+            "pt": "Poupar, enviar, comparar opções com calma.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l06_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u07-l06-a1",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "Compare the fee before you send money; the fastest option is not always cheaper.",
+              "answer": true
+            },
+            {
+              "sentence": "Amina argued that cheaper data matters more for students than a new shopping centre.",
+              "answer": true
+            },
+            {
+              "sentence": "However, Paulo pointed out that local shops also need customers in the evening.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to although.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u07-l06-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "Compare",
+                "the",
+                "fee",
+                "before",
+                "you",
+                "send",
+                "money",
+                "the"
+              ],
+              "answer": "Compare the fee before you send money the"
+            },
+            {
+              "words": [
+                "Amina",
+                "argued",
+                "that",
+                "cheaper",
+                "data",
+                "matters",
+                "more",
+                "for"
+              ],
+              "answer": "Amina argued that cheaper data matters more for"
+            },
+            {
+              "words": [
+                "However",
+                "Paulo",
+                "pointed",
+                "out",
+                "that",
+                "local",
+                "shops",
+                "also"
+              ],
+              "answer": "However Paulo pointed out that local shops also"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Nampula"
+      }
+    },
+    {
+      "id": "b2-b2u07-l07",
+      "unitId": "b2u07",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "Dinheiro e decisões: Escrever um parágrafo",
+        "en": "Money decisions: Escrever um parágrafo"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Poupar, enviar, comparar opções com calma.",
+        "Escrever um parágrafo"
+      ],
+      "newWords": [
+        {
+          "en": "reliable",
+          "pt": "fiável",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l07_w_reliable",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "increase",
+          "pt": "aumentar",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l07_w_increase",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "reduce",
+          "pt": "reduzir",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l07_w_reduce",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "formal",
+          "pt": "formal",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l07_w_formal",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        }
+      ],
+      "guidedReading": {
+        "title": "Money decisions",
+        "sentences": [
+          {
+            "id": "b2-b2u07-l07-s1",
+            "en": "Compare the fee before you send money; the fastest option is not always cheaper.",
+            "pt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l07_s1"
+          },
+          {
+            "id": "b2-b2u07-l07-s2",
+            "en": "João argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "João sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l07_s2"
+          },
+          {
+            "id": "b2-b2u07-l07-s3",
+            "en": "However, Ibraimo pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Ibraimo lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l07_s3"
+          },
+          {
+            "id": "b2-b2u07-l07-s4",
+            "en": "In this unit you practise money decisions with clear reasons and a calm tone.",
+            "pt": "Poupar, enviar, comparar opções com calma.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l07_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u07-l07-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "b2-b2u07-l07_lw_0",
+              "answer": "Compare the fee before you send money; the fastest option is not always cheaper.",
+              "hint": "Compare"
+            },
+            {
+              "audioKey": "b2-b2u07-l07_lw_1",
+              "answer": "João argued that cheaper data matters more for students than a new shopping centre.",
+              "hint": "João"
+            },
+            {
+              "audioKey": "b2-b2u07-l07_lw_2",
+              "answer": "However, Ibraimo pointed out that local shops also need customers in the evening.",
+              "hint": "However,"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u07-l07-a2",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante one minute.",
+            "en": "Speak for one minute."
+          },
+          "items": [
+            {
+              "en": "Compare the fee before you send money; the fastest option is not always cheaper.",
+              "task": "State a view, give an example, acknowledge another side.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Maputo"
+      }
+    },
+    {
+      "id": "b2-b2u07-l08",
+      "unitId": "b2u07",
+      "order": 8,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste",
+        "en": "Checkpoint"
+      },
+      "type": "checkpoint",
+      "durationMin": 10,
+      "xp": 22,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing"
+      ],
+      "objectives": [
+        "Poupar, enviar, comparar opções com calma.",
+        "Tom formal"
+      ],
+      "newWords": [
+        {
+          "en": "formal",
+          "pt": "formal",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l08_w_formal",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "summarise",
+          "pt": "resumir",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l08_w_summarise",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "challenge",
+          "pt": "desafio",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l08_w_challenge",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "policy",
+          "pt": "política pública",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l08_w_policy",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        }
+      ],
+      "guidedReading": {
+        "title": "Money decisions",
+        "sentences": [
+          {
+            "id": "b2-b2u07-l08-s1",
+            "en": "Compare the fee before you send money; the fastest option is not always cheaper.",
+            "pt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l08_s1"
+          },
+          {
+            "id": "b2-b2u07-l08-s2",
+            "en": "Graça argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Graça sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l08_s2"
+          },
+          {
+            "id": "b2-b2u07-l08-s3",
+            "en": "However, Lurdes pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Lurdes lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l08_s3"
+          },
+          {
+            "id": "b2-b2u07-l08-s4",
+            "en": "In this unit you practise money decisions with clear reasons and a calm tone.",
+            "pt": "Poupar, enviar, comparar opções com calma.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l08_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u07-l08-a1",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u07-l08-a2",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "although",
+              "pt": "embora"
+            },
+            {
+              "en": "therefore",
+              "pt": "por isso"
+            },
+            {
+              "en": "claim",
+              "pt": "afirmar"
+            },
+            {
+              "en": "evidence",
+              "pt": "prova/indício"
+            },
+            {
+              "en": "report",
+              "pt": "relatar/relatório"
+            },
+            {
+              "en": "reliable",
+              "pt": "fiável"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 140
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Quelimane"
+      }
+    },
+    {
+      "id": "b2-b2u07-l09",
+      "unitId": "b2u07",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Dinheiro e decisões: Tom informal",
+        "en": "Money decisions: Tom informal"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Poupar, enviar, comparar opções com calma.",
+        "Tom informal"
+      ],
+      "newWords": [
+        {
+          "en": "policy",
+          "pt": "política pública",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l09_w_policy",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "money",
+          "pt": "money",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l09_w_money",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "decisions",
+          "pt": "decisions",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l09_w_decisions",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "practice",
+          "pt": "practice",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l09_w_practice",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        }
+      ],
+      "guidedReading": {
+        "title": "Money decisions",
+        "sentences": [
+          {
+            "id": "b2-b2u07-l09-s1",
+            "en": "Compare the fee before you send money; the fastest option is not always cheaper.",
+            "pt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l09_s1"
+          },
+          {
+            "id": "b2-b2u07-l09-s2",
+            "en": "Paulo argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Paulo sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l09_s2"
+          },
+          {
+            "id": "b2-b2u07-l09-s3",
+            "en": "However, Nélio pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Nélio lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l09_s3"
+          },
+          {
+            "id": "b2-b2u07-l09-s4",
+            "en": "In this unit you practise money decisions with clear reasons and a calm tone.",
+            "pt": "Poupar, enviar, comparar opções com calma.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l09_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u07-l09-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "although",
+                "pt": "O que é mais próximo de «although»?"
+              },
+              "options": [
+                "embora",
+                "por isso",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "embora"
+            },
+            {
+              "question": {
+                "en": "therefore",
+                "pt": "O que é mais próximo de «therefore»?"
+              },
+              "options": [
+                "por isso",
+                "embora",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "por isso"
+            },
+            {
+              "question": {
+                "en": "claim",
+                "pt": "O que é mais próximo de «claim»?"
+              },
+              "options": [
+                "afirmar",
+                "embora",
+                "por isso",
+                "prova/indício"
+              ],
+              "answer": "afirmar"
+            },
+            {
+              "question": {
+                "en": "evidence",
+                "pt": "O que é mais próximo de «evidence»?"
+              },
+              "options": [
+                "prova/indício",
+                "embora",
+                "por isso",
+                "afirmar"
+              ],
+              "answer": "prova/indício"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u07-l09-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (embora)",
+              "answer": "although",
+              "options": [
+                "although",
+                "therefore",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (por isso)",
+              "answer": "therefore",
+              "options": [
+                "therefore",
+                "although",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (afirmar)",
+              "answer": "claim",
+              "options": [
+                "claim",
+                "although",
+                "therefore",
+                "evidence"
+              ]
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Beira"
+      }
+    },
+    {
+      "id": "b2-b2u07-l10",
+      "unitId": "b2u07",
+      "order": 10,
+      "kind": "content",
+      "title": {
+        "pt": "Dinheiro e decisões: Erro subtil",
+        "en": "Money decisions: Erro subtil"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "speaking"
+      ],
+      "objectives": [
+        "Poupar, enviar, comparar opções com calma.",
+        "Erro subtil"
+      ],
+      "newWords": [
+        {
+          "en": "therefore",
+          "pt": "por isso",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l10_w_therefore",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "claim",
+          "pt": "afirmar",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l10_w_claim",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "evidence",
+          "pt": "prova/indício",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l10_w_evidence",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "report",
+          "pt": "relatar/relatório",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l10_w_report",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        }
+      ],
+      "guidedReading": {
+        "title": "Money decisions",
+        "sentences": [
+          {
+            "id": "b2-b2u07-l10-s1",
+            "en": "Compare the fee before you send money; the fastest option is not always cheaper.",
+            "pt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l10_s1"
+          },
+          {
+            "id": "b2-b2u07-l10-s2",
+            "en": "Ibraimo argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Ibraimo sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l10_s2"
+          },
+          {
+            "id": "b2-b2u07-l10-s3",
+            "en": "However, Esperança pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Esperança lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l10_s3"
+          },
+          {
+            "id": "b2-b2u07-l10-s4",
+            "en": "In this unit you practise money decisions with clear reasons and a calm tone.",
+            "pt": "Poupar, enviar, comparar opções com calma.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l10_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u07-l10-a1",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "Compare the fee before you send money; the fastest option is not always cheaper.",
+              "answer": true
+            },
+            {
+              "sentence": "Ibraimo argued that cheaper data matters more for students than a new shopping centre.",
+              "answer": true
+            },
+            {
+              "sentence": "However, Esperança pointed out that local shops also need customers in the evening.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to although.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u07-l10-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "Compare",
+                "the",
+                "fee",
+                "before",
+                "you",
+                "send",
+                "money",
+                "the"
+              ],
+              "answer": "Compare the fee before you send money the"
+            },
+            {
+              "words": [
+                "Ibraimo",
+                "argued",
+                "that",
+                "cheaper",
+                "data",
+                "matters",
+                "more",
+                "for"
+              ],
+              "answer": "Ibraimo argued that cheaper data matters more for"
+            },
+            {
+              "words": [
+                "However",
+                "Esperança",
+                "pointed",
+                "out",
+                "that",
+                "local",
+                "shops",
+                "also"
+              ],
+              "answer": "However Esperança pointed out that local shops also"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Pemba"
+      }
+    },
+    {
+      "id": "b2-b2u07-l11",
+      "unitId": "b2u07",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "Dinheiro e decisões: Caso prático",
+        "en": "Money decisions: Caso prático"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Poupar, enviar, comparar opções com calma.",
+        "Caso prático"
+      ],
+      "newWords": [
+        {
+          "en": "report",
+          "pt": "relatar/relatório",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l11_w_report",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "reliable",
+          "pt": "fiável",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l11_w_reliable",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "increase",
+          "pt": "aumentar",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l11_w_increase",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "reduce",
+          "pt": "reduzir",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l11_w_reduce",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        }
+      ],
+      "guidedReading": {
+        "title": "Money decisions",
+        "sentences": [
+          {
+            "id": "b2-b2u07-l11-s1",
+            "en": "Compare the fee before you send money; the fastest option is not always cheaper.",
+            "pt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l11_s1"
+          },
+          {
+            "id": "b2-b2u07-l11-s2",
+            "en": "Lurdes argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Lurdes sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l11_s2"
+          },
+          {
+            "id": "b2-b2u07-l11-s3",
+            "en": "However, Faruk pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Faruk lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l11_s3"
+          },
+          {
+            "id": "b2-b2u07-l11-s4",
+            "en": "In this unit you practise money decisions with clear reasons and a calm tone.",
+            "pt": "Poupar, enviar, comparar opções com calma.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l11_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u07-l11-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "b2-b2u07-l11_lw_0",
+              "answer": "Compare the fee before you send money; the fastest option is not always cheaper.",
+              "hint": "Compare"
+            },
+            {
+              "audioKey": "b2-b2u07-l11_lw_1",
+              "answer": "Lurdes argued that cheaper data matters more for students than a new shopping centre.",
+              "hint": "Lurdes"
+            },
+            {
+              "audioKey": "b2-b2u07-l11_lw_2",
+              "answer": "However, Faruk pointed out that local shops also need customers in the evening.",
+              "hint": "However,"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u07-l11-a2",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante one minute.",
+            "en": "Speak for one minute."
+          },
+          "items": [
+            {
+              "en": "Compare the fee before you send money; the fastest option is not always cheaper.",
+              "task": "State a view, give an example, acknowledge another side.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Tete"
+      }
+    },
+    {
+      "id": "b2-b2u07-l12",
+      "unitId": "b2u07",
+      "order": 12,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão",
+        "en": "Review"
+      },
+      "type": "review",
+      "durationMin": 9,
+      "xp": 14,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing"
+      ],
+      "objectives": [
+        "Poupar, enviar, comparar opções com calma.",
+        "Dados em palavras"
+      ],
+      "newWords": [
+        {
+          "en": "reduce",
+          "pt": "reduzir",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l12_w_reduce",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "formal",
+          "pt": "formal",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l12_w_formal",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "summarise",
+          "pt": "resumir",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l12_w_summarise",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "challenge",
+          "pt": "desafio",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l12_w_challenge",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        }
+      ],
+      "guidedReading": {
+        "title": "Money decisions",
+        "sentences": [
+          {
+            "id": "b2-b2u07-l12-s1",
+            "en": "Compare the fee before you send money; the fastest option is not always cheaper.",
+            "pt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l12_s1"
+          },
+          {
+            "id": "b2-b2u07-l12-s2",
+            "en": "Nélio argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Nélio sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l12_s2"
+          },
+          {
+            "id": "b2-b2u07-l12-s3",
+            "en": "However, Belmira pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Belmira lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l12_s3"
+          },
+          {
+            "id": "b2-b2u07-l12-s4",
+            "en": "In this unit you practise money decisions with clear reasons and a calm tone.",
+            "pt": "Poupar, enviar, comparar opções com calma.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l12_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u07-l12-a1",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u07-l12-a2",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "although",
+              "pt": "embora"
+            },
+            {
+              "en": "therefore",
+              "pt": "por isso"
+            },
+            {
+              "en": "claim",
+              "pt": "afirmar"
+            },
+            {
+              "en": "evidence",
+              "pt": "prova/indício"
+            },
+            {
+              "en": "report",
+              "pt": "relatar/relatório"
+            },
+            {
+              "en": "reliable",
+              "pt": "fiável"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Chimoio"
+      }
+    },
+    {
+      "id": "b2-b2u07-l13",
+      "unitId": "b2u07",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Dinheiro e decisões: Discussão guiada",
+        "en": "Money decisions: Discussão guiada"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Poupar, enviar, comparar opções com calma.",
+        "Discussão guiada"
+      ],
+      "newWords": [
+        {
+          "en": "challenge",
+          "pt": "desafio",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l13_w_challenge",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "policy",
+          "pt": "política pública",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l13_w_policy",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "money",
+          "pt": "money",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l13_w_money",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "decisions",
+          "pt": "decisions",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l13_w_decisions",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        }
+      ],
+      "guidedReading": {
+        "title": "Money decisions",
+        "sentences": [
+          {
+            "id": "b2-b2u07-l13-s1",
+            "en": "Compare the fee before you send money; the fastest option is not always cheaper.",
+            "pt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l13_s1"
+          },
+          {
+            "id": "b2-b2u07-l13-s2",
+            "en": "Esperança argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Esperança sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l13_s2"
+          },
+          {
+            "id": "b2-b2u07-l13-s3",
+            "en": "However, Carlos pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Carlos lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l13_s3"
+          },
+          {
+            "id": "b2-b2u07-l13-s4",
+            "en": "In this unit you practise money decisions with clear reasons and a calm tone.",
+            "pt": "Poupar, enviar, comparar opções com calma.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l13_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u07-l13-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "although",
+                "pt": "O que é mais próximo de «although»?"
+              },
+              "options": [
+                "embora",
+                "por isso",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "embora"
+            },
+            {
+              "question": {
+                "en": "therefore",
+                "pt": "O que é mais próximo de «therefore»?"
+              },
+              "options": [
+                "por isso",
+                "embora",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "por isso"
+            },
+            {
+              "question": {
+                "en": "claim",
+                "pt": "O que é mais próximo de «claim»?"
+              },
+              "options": [
+                "afirmar",
+                "embora",
+                "por isso",
+                "prova/indício"
+              ],
+              "answer": "afirmar"
+            },
+            {
+              "question": {
+                "en": "evidence",
+                "pt": "O que é mais próximo de «evidence»?"
+              },
+              "options": [
+                "prova/indício",
+                "embora",
+                "por isso",
+                "afirmar"
+              ],
+              "answer": "prova/indício"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u07-l13-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (embora)",
+              "answer": "although",
+              "options": [
+                "although",
+                "therefore",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (por isso)",
+              "answer": "therefore",
+              "options": [
+                "therefore",
+                "although",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (afirmar)",
+              "answer": "claim",
+              "options": [
+                "claim",
+                "although",
+                "therefore",
+                "evidence"
+              ]
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Matola"
+      }
+    },
+    {
+      "id": "b2-b2u07-l14",
+      "unitId": "b2u07",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Dinheiro e decisões: Reescrita",
+        "en": "Money decisions: Reescrita"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Poupar, enviar, comparar opções com calma.",
+        "Reescrita"
+      ],
+      "newWords": [
+        {
+          "en": "although",
+          "pt": "embora",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l14_w_although",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "therefore",
+          "pt": "por isso",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l14_w_therefore",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "claim",
+          "pt": "afirmar",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l14_w_claim",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "evidence",
+          "pt": "prova/indício",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l14_w_evidence",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        }
+      ],
+      "guidedReading": {
+        "title": "Money decisions",
+        "sentences": [
+          {
+            "id": "b2-b2u07-l14-s1",
+            "en": "Compare the fee before you send money; the fastest option is not always cheaper.",
+            "pt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l14_s1"
+          },
+          {
+            "id": "b2-b2u07-l14-s2",
+            "en": "Faruk argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Faruk sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l14_s2"
+          },
+          {
+            "id": "b2-b2u07-l14-s3",
+            "en": "However, Marta pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Marta lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l14_s3"
+          },
+          {
+            "id": "b2-b2u07-l14-s4",
+            "en": "In this unit you practise money decisions with clear reasons and a calm tone.",
+            "pt": "Poupar, enviar, comparar opções com calma.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l14_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u07-l14-a1",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "Compare the fee before you send money; the fastest option is not always cheaper.",
+              "answer": true
+            },
+            {
+              "sentence": "Faruk argued that cheaper data matters more for students than a new shopping centre.",
+              "answer": true
+            },
+            {
+              "sentence": "However, Marta pointed out that local shops also need customers in the evening.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to although.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u07-l14-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "Compare",
+                "the",
+                "fee",
+                "before",
+                "you",
+                "send",
+                "money",
+                "the"
+              ],
+              "answer": "Compare the fee before you send money the"
+            },
+            {
+              "words": [
+                "Faruk",
+                "argued",
+                "that",
+                "cheaper",
+                "data",
+                "matters",
+                "more",
+                "for"
+              ],
+              "answer": "Faruk argued that cheaper data matters more for"
+            },
+            {
+              "words": [
+                "However",
+                "Marta",
+                "pointed",
+                "out",
+                "that",
+                "local",
+                "shops",
+                "also"
+              ],
+              "answer": "However Marta pointed out that local shops also"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Nacala"
+      }
+    },
+    {
+      "id": "b2-b2u07-l15",
+      "unitId": "b2u07",
+      "order": 15,
+      "kind": "content",
+      "title": {
+        "pt": "Dinheiro e decisões: Mini-teste",
+        "en": "Money decisions: Mini-teste"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "speaking"
+      ],
+      "objectives": [
+        "Poupar, enviar, comparar opções com calma.",
+        "Mini-teste"
+      ],
+      "newWords": [
+        {
+          "en": "evidence",
+          "pt": "prova/indício",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l15_w_evidence",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "report",
+          "pt": "relatar/relatório",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l15_w_report",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "reliable",
+          "pt": "fiável",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l15_w_reliable",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "increase",
+          "pt": "aumentar",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l15_w_increase",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        }
+      ],
+      "guidedReading": {
+        "title": "Money decisions",
+        "sentences": [
+          {
+            "id": "b2-b2u07-l15-s1",
+            "en": "Compare the fee before you send money; the fastest option is not always cheaper.",
+            "pt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l15_s1"
+          },
+          {
+            "id": "b2-b2u07-l15-s2",
+            "en": "Belmira argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Belmira sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l15_s2"
+          },
+          {
+            "id": "b2-b2u07-l15-s3",
+            "en": "However, Amina pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Amina lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l15_s3"
+          },
+          {
+            "id": "b2-b2u07-l15-s4",
+            "en": "In this unit you practise money decisions with clear reasons and a calm tone.",
+            "pt": "Poupar, enviar, comparar opções com calma.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l15_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u07-l15-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "b2-b2u07-l15_lw_0",
+              "answer": "Compare the fee before you send money; the fastest option is not always cheaper.",
+              "hint": "Compare"
+            },
+            {
+              "audioKey": "b2-b2u07-l15_lw_1",
+              "answer": "Belmira argued that cheaper data matters more for students than a new shopping centre.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "b2-b2u07-l15_lw_2",
+              "answer": "However, Amina pointed out that local shops also need customers in the evening.",
+              "hint": "However,"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u07-l15-a2",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante one minute.",
+            "en": "Speak for one minute."
+          },
+          "items": [
+            {
+              "en": "Compare the fee before you send money; the fastest option is not always cheaper.",
+              "task": "State a view, give an example, acknowledge another side.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Inhambane"
+      }
+    },
+    {
+      "id": "b2-b2u07-l16",
+      "unitId": "b2u07",
+      "order": 16,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste — Dinheiro e decisões",
+        "en": "Unit Test"
+      },
+      "type": "unit_test",
+      "durationMin": 14,
+      "xp": 40,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing"
+      ],
+      "objectives": [
+        "Poupar, enviar, comparar opções com calma.",
+        "Fecho da unidade"
+      ],
+      "newWords": [
+        {
+          "en": "increase",
+          "pt": "aumentar",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l16_w_increase",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "reduce",
+          "pt": "reduzir",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l16_w_reduce",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "formal",
+          "pt": "formal",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l16_w_formal",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        },
+        {
+          "en": "summarise",
+          "pt": "resumir",
+          "ipa": "",
+          "audioKey": "b2-b2u07-l16_w_summarise",
+          "exampleEn": "Compare the fee before you send money; the fastest option is not always cheaper.",
+          "examplePt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata."
+        }
+      ],
+      "guidedReading": {
+        "title": "Money decisions",
+        "sentences": [
+          {
+            "id": "b2-b2u07-l16-s1",
+            "en": "Compare the fee before you send money; the fastest option is not always cheaper.",
+            "pt": "Compara a taxa antes de enviar dinheiro; a opção mais rápida nem sempre é a mais barata.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l16_s1"
+          },
+          {
+            "id": "b2-b2u07-l16-s2",
+            "en": "Carlos argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Carlos sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l16_s2"
+          },
+          {
+            "id": "b2-b2u07-l16-s3",
+            "en": "However, João pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, João lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l16_s3"
+          },
+          {
+            "id": "b2-b2u07-l16-s4",
+            "en": "In this unit you practise money decisions with clear reasons and a calm tone.",
+            "pt": "Poupar, enviar, comparar opções com calma.",
+            "ipa": "",
+            "audioKey": "b2-b2u07-l16_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u07-l16-a1",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u07-l16-a2",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "although",
+              "pt": "embora"
+            },
+            {
+              "en": "therefore",
+              "pt": "por isso"
+            },
+            {
+              "en": "claim",
+              "pt": "afirmar"
+            },
+            {
+              "en": "evidence",
+              "pt": "prova/indício"
+            },
+            {
+              "en": "report",
+              "pt": "relatar/relatório"
+            },
+            {
+              "en": "reliable",
+              "pt": "fiável"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 140
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Luanda"
+      }
+    }
+  ]
+}

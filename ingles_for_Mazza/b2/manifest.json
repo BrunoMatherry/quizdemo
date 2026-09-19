@@ -1,0 +1,488 @@
+{
+  "app": "Inglés África Lusófona",
+  "level": "B2",
+  "version": "1.0.0",
+  "languageUI": "pt-MZ",
+  "languageTarget": "en",
+  "cambridgeInspiration": "B2 First (inspired task types)",
+  "audio": {
+    "strategy": "Resolve audioKey via TTS or CDN. Preferred voice en-ZA or en-GB, rate slowing down for A2.",
+    "urlPattern": "/audio/{audioKey}.mp3"
+  },
+  "pedagogy": {
+    "passScore": 0.7,
+    "localColour": "use when the scene is local; do not decorate every sentence"
+  },
+  "stats": {
+    "units": 16,
+    "lessons": 256,
+    "activities": 512,
+    "guidedSentences": 1264
+  },
+  "units": [
+    {
+      "id": "b2u01",
+      "order": 1,
+      "title": {
+        "pt": "Argumentar",
+        "en": "Building an argument"
+      },
+      "goal": "Tese curta, exemplo, conclusão.",
+      "file": "units/b2u01.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "b2-b2u01-l01",
+        "b2-b2u01-l02",
+        "b2-b2u01-l03",
+        "b2-b2u01-l04",
+        "b2-b2u01-l05",
+        "b2-b2u01-l06",
+        "b2-b2u01-l07",
+        "b2-b2u01-l08",
+        "b2-b2u01-l09",
+        "b2-b2u01-l10",
+        "b2-b2u01-l11",
+        "b2-b2u01-l12",
+        "b2-b2u01-l13",
+        "b2-b2u01-l14",
+        "b2-b2u01-l15",
+        "b2-b2u01-l16"
+      ]
+    },
+    {
+      "id": "b2u02",
+      "order": 2,
+      "title": {
+        "pt": "Contrastar",
+        "en": "Contrast and concession"
+      },
+      "goal": "Although, however, whereas.",
+      "file": "units/b2u02.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "b2-b2u02-l01",
+        "b2-b2u02-l02",
+        "b2-b2u02-l03",
+        "b2-b2u02-l04",
+        "b2-b2u02-l05",
+        "b2-b2u02-l06",
+        "b2-b2u02-l07",
+        "b2-b2u02-l08",
+        "b2-b2u02-l09",
+        "b2-b2u02-l10",
+        "b2-b2u02-l11",
+        "b2-b2u02-l12",
+        "b2-b2u02-l13",
+        "b2-b2u02-l14",
+        "b2-b2u02-l15",
+        "b2-b2u02-l16"
+      ]
+    },
+    {
+      "id": "b2u03",
+      "order": 3,
+      "title": {
+        "pt": "Passiva no jornal",
+        "en": "Passive in news"
+      },
+      "goal": "A estrada foi fechada; o jogo foi adiado.",
+      "file": "units/b2u03.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "b2-b2u03-l01",
+        "b2-b2u03-l02",
+        "b2-b2u03-l03",
+        "b2-b2u03-l04",
+        "b2-b2u03-l05",
+        "b2-b2u03-l06",
+        "b2-b2u03-l07",
+        "b2-b2u03-l08",
+        "b2-b2u03-l09",
+        "b2-b2u03-l10",
+        "b2-b2u03-l11",
+        "b2-b2u03-l12",
+        "b2-b2u03-l13",
+        "b2-b2u03-l14",
+        "b2-b2u03-l15",
+        "b2-b2u03-l16"
+      ]
+    },
+    {
+      "id": "b2u04",
+      "order": 4,
+      "title": {
+        "pt": "Dizer o que alguém disse",
+        "en": "Reported speech"
+      },
+      "goal": "Transmitir recados e entrevistas curtas.",
+      "file": "units/b2u04.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "b2-b2u04-l01",
+        "b2-b2u04-l02",
+        "b2-b2u04-l03",
+        "b2-b2u04-l04",
+        "b2-b2u04-l05",
+        "b2-b2u04-l06",
+        "b2-b2u04-l07",
+        "b2-b2u04-l08",
+        "b2-b2u04-l09",
+        "b2-b2u04-l10",
+        "b2-b2u04-l11",
+        "b2-b2u04-l12",
+        "b2-b2u04-l13",
+        "b2-b2u04-l14",
+        "b2-b2u04-l15",
+        "b2-b2u04-l16"
+      ]
+    },
+    {
+      "id": "b2u05",
+      "order": 5,
+      "title": {
+        "pt": "Se eu fosse…",
+        "en": "Second conditional"
+      },
+      "goal": "Hipóteses sobre cidade, estudo e trabalho.",
+      "file": "units/b2u05.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "b2-b2u05-l01",
+        "b2-b2u05-l02",
+        "b2-b2u05-l03",
+        "b2-b2u05-l04",
+        "b2-b2u05-l05",
+        "b2-b2u05-l06",
+        "b2-b2u05-l07",
+        "b2-b2u05-l08",
+        "b2-b2u05-l09",
+        "b2-b2u05-l10",
+        "b2-b2u05-l11",
+        "b2-b2u05-l12",
+        "b2-b2u05-l13",
+        "b2-b2u05-l14",
+        "b2-b2u05-l15",
+        "b2-b2u05-l16"
+      ]
+    },
+    {
+      "id": "b2u06",
+      "order": 6,
+      "title": {
+        "pt": "Universidade e ofício",
+        "en": "Study and skilled work"
+      },
+      "goal": "Candidatar-se, prazo, requisitos.",
+      "file": "units/b2u06.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "b2-b2u06-l01",
+        "b2-b2u06-l02",
+        "b2-b2u06-l03",
+        "b2-b2u06-l04",
+        "b2-b2u06-l05",
+        "b2-b2u06-l06",
+        "b2-b2u06-l07",
+        "b2-b2u06-l08",
+        "b2-b2u06-l09",
+        "b2-b2u06-l10",
+        "b2-b2u06-l11",
+        "b2-b2u06-l12",
+        "b2-b2u06-l13",
+        "b2-b2u06-l14",
+        "b2-b2u06-l15",
+        "b2-b2u06-l16"
+      ]
+    },
+    {
+      "id": "b2u07",
+      "order": 7,
+      "title": {
+        "pt": "Dinheiro e decisões",
+        "en": "Money decisions"
+      },
+      "goal": "Poupar, enviar, comparar opções com calma.",
+      "file": "units/b2u07.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "b2-b2u07-l01",
+        "b2-b2u07-l02",
+        "b2-b2u07-l03",
+        "b2-b2u07-l04",
+        "b2-b2u07-l05",
+        "b2-b2u07-l06",
+        "b2-b2u07-l07",
+        "b2-b2u07-l08",
+        "b2-b2u07-l09",
+        "b2-b2u07-l10",
+        "b2-b2u07-l11",
+        "b2-b2u07-l12",
+        "b2-b2u07-l13",
+        "b2-b2u07-l14",
+        "b2-b2u07-l15",
+        "b2-b2u07-l16"
+      ]
+    },
+    {
+      "id": "b2u08",
+      "order": 8,
+      "title": {
+        "pt": "Media e rumores",
+        "en": "Media literacy"
+      },
+      "goal": "Fonte, facto, opinião.",
+      "file": "units/b2u08.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "b2-b2u08-l01",
+        "b2-b2u08-l02",
+        "b2-b2u08-l03",
+        "b2-b2u08-l04",
+        "b2-b2u08-l05",
+        "b2-b2u08-l06",
+        "b2-b2u08-l07",
+        "b2-b2u08-l08",
+        "b2-b2u08-l09",
+        "b2-b2u08-l10",
+        "b2-b2u08-l11",
+        "b2-b2u08-l12",
+        "b2-b2u08-l13",
+        "b2-b2u08-l14",
+        "b2-b2u08-l15",
+        "b2-b2u08-l16"
+      ]
+    },
+    {
+      "id": "b2u09",
+      "order": 9,
+      "title": {
+        "pt": "Clima e energia",
+        "en": "Climate and energy"
+      },
+      "goal": "Calor, cheias, electricidade — factos locais + língua precisa.",
+      "file": "units/b2u09.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "b2-b2u09-l01",
+        "b2-b2u09-l02",
+        "b2-b2u09-l03",
+        "b2-b2u09-l04",
+        "b2-b2u09-l05",
+        "b2-b2u09-l06",
+        "b2-b2u09-l07",
+        "b2-b2u09-l08",
+        "b2-b2u09-l09",
+        "b2-b2u09-l10",
+        "b2-b2u09-l11",
+        "b2-b2u09-l12",
+        "b2-b2u09-l13",
+        "b2-b2u09-l14",
+        "b2-b2u09-l15",
+        "b2-b2u09-l16"
+      ]
+    },
+    {
+      "id": "b2u10",
+      "order": 10,
+      "title": {
+        "pt": "Trabalho em equipa",
+        "en": "Workplace English"
+      },
+      "goal": "Reunião curta, pedido formal, desacordo educado.",
+      "file": "units/b2u10.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "b2-b2u10-l01",
+        "b2-b2u10-l02",
+        "b2-b2u10-l03",
+        "b2-b2u10-l04",
+        "b2-b2u10-l05",
+        "b2-b2u10-l06",
+        "b2-b2u10-l07",
+        "b2-b2u10-l08",
+        "b2-b2u10-l09",
+        "b2-b2u10-l10",
+        "b2-b2u10-l11",
+        "b2-b2u10-l12",
+        "b2-b2u10-l13",
+        "b2-b2u10-l14",
+        "b2-b2u10-l15",
+        "b2-b2u10-l16"
+      ]
+    },
+    {
+      "id": "b2u11",
+      "order": 11,
+      "title": {
+        "pt": "Relatório curto",
+        "en": "Short report"
+      },
+      "goal": "Organizar dados simples em texto.",
+      "file": "units/b2u11.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "b2-b2u11-l01",
+        "b2-b2u11-l02",
+        "b2-b2u11-l03",
+        "b2-b2u11-l04",
+        "b2-b2u11-l05",
+        "b2-b2u11-l06",
+        "b2-b2u11-l07",
+        "b2-b2u11-l08",
+        "b2-b2u11-l09",
+        "b2-b2u11-l10",
+        "b2-b2u11-l11",
+        "b2-b2u11-l12",
+        "b2-b2u11-l13",
+        "b2-b2u11-l14",
+        "b2-b2u11-l15",
+        "b2-b2u11-l16"
+      ]
+    },
+    {
+      "id": "b2u12",
+      "order": 12,
+      "title": {
+        "pt": "Review",
+        "en": "Review a film or place"
+      },
+      "goal": "Opinião estruturada sobre um sítio ou um filme.",
+      "file": "units/b2u12.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "b2-b2u12-l01",
+        "b2-b2u12-l02",
+        "b2-b2u12-l03",
+        "b2-b2u12-l04",
+        "b2-b2u12-l05",
+        "b2-b2u12-l06",
+        "b2-b2u12-l07",
+        "b2-b2u12-l08",
+        "b2-b2u12-l09",
+        "b2-b2u12-l10",
+        "b2-b2u12-l11",
+        "b2-b2u12-l12",
+        "b2-b2u12-l13",
+        "b2-b2u12-l14",
+        "b2-b2u12-l15",
+        "b2-b2u12-l16"
+      ]
+    },
+    {
+      "id": "b2u13",
+      "order": 13,
+      "title": {
+        "pt": "Hipótese passada",
+        "en": "Third conditional intro"
+      },
+      "goal": "O que teria sido diferente.",
+      "file": "units/b2u13.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "b2-b2u13-l01",
+        "b2-b2u13-l02",
+        "b2-b2u13-l03",
+        "b2-b2u13-l04",
+        "b2-b2u13-l05",
+        "b2-b2u13-l06",
+        "b2-b2u13-l07",
+        "b2-b2u13-l08",
+        "b2-b2u13-l09",
+        "b2-b2u13-l10",
+        "b2-b2u13-l11",
+        "b2-b2u13-l12",
+        "b2-b2u13-l13",
+        "b2-b2u13-l14",
+        "b2-b2u13-l15",
+        "b2-b2u13-l16"
+      ]
+    },
+    {
+      "id": "b2u14",
+      "order": 14,
+      "title": {
+        "pt": "Registo formal e informal",
+        "en": "Formal and informal"
+      },
+      "goal": "A mesma ideia em dois tons.",
+      "file": "units/b2u14.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "b2-b2u14-l01",
+        "b2-b2u14-l02",
+        "b2-b2u14-l03",
+        "b2-b2u14-l04",
+        "b2-b2u14-l05",
+        "b2-b2u14-l06",
+        "b2-b2u14-l07",
+        "b2-b2u14-l08",
+        "b2-b2u14-l09",
+        "b2-b2u14-l10",
+        "b2-b2u14-l11",
+        "b2-b2u14-l12",
+        "b2-b2u14-l13",
+        "b2-b2u14-l14",
+        "b2-b2u14-l15",
+        "b2-b2u14-l16"
+      ]
+    },
+    {
+      "id": "b2u15",
+      "order": 15,
+      "title": {
+        "pt": "Ler um artigo",
+        "en": "Article reading"
+      },
+      "goal": "Dois parágrafos e perguntas de inferência leve.",
+      "file": "units/b2u15.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "b2-b2u15-l01",
+        "b2-b2u15-l02",
+        "b2-b2u15-l03",
+        "b2-b2u15-l04",
+        "b2-b2u15-l05",
+        "b2-b2u15-l06",
+        "b2-b2u15-l07",
+        "b2-b2u15-l08",
+        "b2-b2u15-l09",
+        "b2-b2u15-l10",
+        "b2-b2u15-l11",
+        "b2-b2u15-l12",
+        "b2-b2u15-l13",
+        "b2-b2u15-l14",
+        "b2-b2u15-l15",
+        "b2-b2u15-l16"
+      ]
+    },
+    {
+      "id": "b2u16",
+      "order": 16,
+      "title": {
+        "pt": "Simulacro B2",
+        "en": "B2 wrap-up"
+      },
+      "goal": "Argumento, passiva, e-mail formal, discussão.",
+      "file": "units/b2u16.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "b2-b2u16-l01",
+        "b2-b2u16-l02",
+        "b2-b2u16-l03",
+        "b2-b2u16-l04",
+        "b2-b2u16-l05",
+        "b2-b2u16-l06",
+        "b2-b2u16-l07",
+        "b2-b2u16-l08",
+        "b2-b2u16-l09",
+        "b2-b2u16-l10",
+        "b2-b2u16-l11",
+        "b2-b2u16-l12",
+        "b2-b2u16-l13",
+        "b2-b2u16-l14",
+        "b2-b2u16-l15",
+        "b2-b2u16-l16"
+      ]
+    }
+  ]
+}

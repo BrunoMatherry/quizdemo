@@ -1,0 +1,372 @@
+{
+  "app": "Inglés África Lusófona",
+  "level": "C1",
+  "version": "1.0.0",
+  "languageUI": "pt-MZ",
+  "languageTarget": "en",
+  "cambridgeInspiration": "C1 Advanced (inspired skills, original texts)",
+  "audio": {
+    "strategy": "Resolve audioKey via TTS or CDN. Preferred voice en-ZA or en-GB, rate slowing down for A2.",
+    "urlPattern": "/audio/{audioKey}.mp3"
+  },
+  "pedagogy": {
+    "passScore": 0.7,
+    "localColour": "use when the scene is local; do not decorate every sentence"
+  },
+  "stats": {
+    "units": 12,
+    "lessons": 192,
+    "activities": 384,
+    "guidedSentences": 944
+  },
+  "units": [
+    {
+      "id": "c1u01",
+      "order": 1,
+      "title": {
+        "pt": "Precisão",
+        "en": "Precision"
+      },
+      "goal": "Escolher o verbo certo e evitar generalizações vazias.",
+      "file": "units/c1u01.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "c1-c1u01-l01",
+        "c1-c1u01-l02",
+        "c1-c1u01-l03",
+        "c1-c1u01-l04",
+        "c1-c1u01-l05",
+        "c1-c1u01-l06",
+        "c1-c1u01-l07",
+        "c1-c1u01-l08",
+        "c1-c1u01-l09",
+        "c1-c1u01-l10",
+        "c1-c1u01-l11",
+        "c1-c1u01-l12",
+        "c1-c1u01-l13",
+        "c1-c1u01-l14",
+        "c1-c1u01-l15",
+        "c1-c1u01-l16"
+      ]
+    },
+    {
+      "id": "c1u02",
+      "order": 2,
+      "title": {
+        "pt": "Hedging",
+        "en": "Hedging and stance"
+      },
+      "goal": "Tends to, it appears, it is worth considering.",
+      "file": "units/c1u02.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "c1-c1u02-l01",
+        "c1-c1u02-l02",
+        "c1-c1u02-l03",
+        "c1-c1u02-l04",
+        "c1-c1u02-l05",
+        "c1-c1u02-l06",
+        "c1-c1u02-l07",
+        "c1-c1u02-l08",
+        "c1-c1u02-l09",
+        "c1-c1u02-l10",
+        "c1-c1u02-l11",
+        "c1-c1u02-l12",
+        "c1-c1u02-l13",
+        "c1-c1u02-l14",
+        "c1-c1u02-l15",
+        "c1-c1u02-l16"
+      ]
+    },
+    {
+      "id": "c1u03",
+      "order": 3,
+      "title": {
+        "pt": "Coesão",
+        "en": "Cohesion"
+      },
+      "goal": "Referência, substituição, parágrafo que anda para a frente.",
+      "file": "units/c1u03.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "c1-c1u03-l01",
+        "c1-c1u03-l02",
+        "c1-c1u03-l03",
+        "c1-c1u03-l04",
+        "c1-c1u03-l05",
+        "c1-c1u03-l06",
+        "c1-c1u03-l07",
+        "c1-c1u03-l08",
+        "c1-c1u03-l09",
+        "c1-c1u03-l10",
+        "c1-c1u03-l11",
+        "c1-c1u03-l12",
+        "c1-c1u03-l13",
+        "c1-c1u03-l14",
+        "c1-c1u03-l15",
+        "c1-c1u03-l16"
+      ]
+    },
+    {
+      "id": "c1u04",
+      "order": 4,
+      "title": {
+        "pt": "Dois registos",
+        "en": "Shifting register"
+      },
+      "goal": "WhatsApp, e-mail profissional, texto público.",
+      "file": "units/c1u04.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "c1-c1u04-l01",
+        "c1-c1u04-l02",
+        "c1-c1u04-l03",
+        "c1-c1u04-l04",
+        "c1-c1u04-l05",
+        "c1-c1u04-l06",
+        "c1-c1u04-l07",
+        "c1-c1u04-l08",
+        "c1-c1u04-l09",
+        "c1-c1u04-l10",
+        "c1-c1u04-l11",
+        "c1-c1u04-l12",
+        "c1-c1u04-l13",
+        "c1-c1u04-l14",
+        "c1-c1u04-l15",
+        "c1-c1u04-l16"
+      ]
+    },
+    {
+      "id": "c1u05",
+      "order": 5,
+      "title": {
+        "pt": "Dados e gráfico",
+        "en": "Describing data"
+      },
+      "goal": "Subida, queda, excepção — sem inventar estatísticas falsas.",
+      "file": "units/c1u05.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "c1-c1u05-l01",
+        "c1-c1u05-l02",
+        "c1-c1u05-l03",
+        "c1-c1u05-l04",
+        "c1-c1u05-l05",
+        "c1-c1u05-l06",
+        "c1-c1u05-l07",
+        "c1-c1u05-l08",
+        "c1-c1u05-l09",
+        "c1-c1u05-l10",
+        "c1-c1u05-l11",
+        "c1-c1u05-l12",
+        "c1-c1u05-l13",
+        "c1-c1u05-l14",
+        "c1-c1u05-l15",
+        "c1-c1u05-l16"
+      ]
+    },
+    {
+      "id": "c1u06",
+      "order": 6,
+      "title": {
+        "pt": "Problema público",
+        "en": "Public problems"
+      },
+      "goal": "Transporte, água, emprego jovem — análise, não slogan.",
+      "file": "units/c1u06.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "c1-c1u06-l01",
+        "c1-c1u06-l02",
+        "c1-c1u06-l03",
+        "c1-c1u06-l04",
+        "c1-c1u06-l05",
+        "c1-c1u06-l06",
+        "c1-c1u06-l07",
+        "c1-c1u06-l08",
+        "c1-c1u06-l09",
+        "c1-c1u06-l10",
+        "c1-c1u06-l11",
+        "c1-c1u06-l12",
+        "c1-c1u06-l13",
+        "c1-c1u06-l14",
+        "c1-c1u06-l15",
+        "c1-c1u06-l16"
+      ]
+    },
+    {
+      "id": "c1u07",
+      "order": 7,
+      "title": {
+        "pt": "Investigação curta",
+        "en": "Short research"
+      },
+      "goal": "Ler um resumo e avaliar a afirmação.",
+      "file": "units/c1u07.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "c1-c1u07-l01",
+        "c1-c1u07-l02",
+        "c1-c1u07-l03",
+        "c1-c1u07-l04",
+        "c1-c1u07-l05",
+        "c1-c1u07-l06",
+        "c1-c1u07-l07",
+        "c1-c1u07-l08",
+        "c1-c1u07-l09",
+        "c1-c1u07-l10",
+        "c1-c1u07-l11",
+        "c1-c1u07-l12",
+        "c1-c1u07-l13",
+        "c1-c1u07-l14",
+        "c1-c1u07-l15",
+        "c1-c1u07-l16"
+      ]
+    },
+    {
+      "id": "c1u08",
+      "order": 8,
+      "title": {
+        "pt": "Negociar",
+        "en": "Negotiation language"
+      },
+      "goal": "Propor, ceder, resumir o acordo.",
+      "file": "units/c1u08.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "c1-c1u08-l01",
+        "c1-c1u08-l02",
+        "c1-c1u08-l03",
+        "c1-c1u08-l04",
+        "c1-c1u08-l05",
+        "c1-c1u08-l06",
+        "c1-c1u08-l07",
+        "c1-c1u08-l08",
+        "c1-c1u08-l09",
+        "c1-c1u08-l10",
+        "c1-c1u08-l11",
+        "c1-c1u08-l12",
+        "c1-c1u08-l13",
+        "c1-c1u08-l14",
+        "c1-c1u08-l15",
+        "c1-c1u08-l16"
+      ]
+    },
+    {
+      "id": "c1u09",
+      "order": 9,
+      "title": {
+        "pt": "Cultura em conversa",
+        "en": "Culture in conversation"
+      },
+      "goal": "Tradição e mudança sem essência fixa.",
+      "file": "units/c1u09.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "c1-c1u09-l01",
+        "c1-c1u09-l02",
+        "c1-c1u09-l03",
+        "c1-c1u09-l04",
+        "c1-c1u09-l05",
+        "c1-c1u09-l06",
+        "c1-c1u09-l07",
+        "c1-c1u09-l08",
+        "c1-c1u09-l09",
+        "c1-c1u09-l10",
+        "c1-c1u09-l11",
+        "c1-c1u09-l12",
+        "c1-c1u09-l13",
+        "c1-c1u09-l14",
+        "c1-c1u09-l15",
+        "c1-c1u09-l16"
+      ]
+    },
+    {
+      "id": "c1u10",
+      "order": 10,
+      "title": {
+        "pt": "Texto longo",
+        "en": "Extended reading"
+      },
+      "goal": "500–700 caracteres, ideia principal e tom.",
+      "file": "units/c1u10.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "c1-c1u10-l01",
+        "c1-c1u10-l02",
+        "c1-c1u10-l03",
+        "c1-c1u10-l04",
+        "c1-c1u10-l05",
+        "c1-c1u10-l06",
+        "c1-c1u10-l07",
+        "c1-c1u10-l08",
+        "c1-c1u10-l09",
+        "c1-c1u10-l10",
+        "c1-c1u10-l11",
+        "c1-c1u10-l12",
+        "c1-c1u10-l13",
+        "c1-c1u10-l14",
+        "c1-c1u10-l15",
+        "c1-c1u10-l16"
+      ]
+    },
+    {
+      "id": "c1u11",
+      "order": 11,
+      "title": {
+        "pt": "Escrever com propósito",
+        "en": "Purposeful writing"
+      },
+      "goal": "Proposta, artigo de opinião, briefing.",
+      "file": "units/c1u11.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "c1-c1u11-l01",
+        "c1-c1u11-l02",
+        "c1-c1u11-l03",
+        "c1-c1u11-l04",
+        "c1-c1u11-l05",
+        "c1-c1u11-l06",
+        "c1-c1u11-l07",
+        "c1-c1u11-l08",
+        "c1-c1u11-l09",
+        "c1-c1u11-l10",
+        "c1-c1u11-l11",
+        "c1-c1u11-l12",
+        "c1-c1u11-l13",
+        "c1-c1u11-l14",
+        "c1-c1u11-l15",
+        "c1-c1u11-l16"
+      ]
+    },
+    {
+      "id": "c1u12",
+      "order": 12,
+      "title": {
+        "pt": "Simulacro C1",
+        "en": "C1 wrap-up"
+      },
+      "goal": "Registo, hedging, texto longo, discussão.",
+      "file": "units/c1u12.json",
+      "lessonCount": 16,
+      "lessonIds": [
+        "c1-c1u12-l01",
+        "c1-c1u12-l02",
+        "c1-c1u12-l03",
+        "c1-c1u12-l04",
+        "c1-c1u12-l05",
+        "c1-c1u12-l06",
+        "c1-c1u12-l07",
+        "c1-c1u12-l08",
+        "c1-c1u12-l09",
+        "c1-c1u12-l10",
+        "c1-c1u12-l11",
+        "c1-c1u12-l12",
+        "c1-c1u12-l13",
+        "c1-c1u12-l14",
+        "c1-c1u12-l15",
+        "c1-c1u12-l16"
+      ]
+    }
+  ]
+}

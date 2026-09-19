@@ -1,0 +1,3508 @@
+{
+  "id": "u05",
+  "level": "A1",
+  "order": 5,
+  "title": {
+    "pt": "Família",
+    "en": "Family"
+  },
+  "goal": "Membros da família e possessivos my/your/his/her.",
+  "themeImageHint": "Family",
+  "lessonCount": 20,
+  "lessons": [
+    {
+      "id": "a1-u05-l01",
+      "unitId": "u05",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "Mãe e pai",
+        "en": "Mãe e pai"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Membros da família e possessivos my/your/his/her.",
+        "Mãe e pai"
+      ],
+      "newWords": [
+        {
+          "en": "mother",
+          "pt": "mãe",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l01_w_mother",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "father",
+          "pt": "pai",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l01_w_father",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "parents",
+          "pt": "pais",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l01_w_parents",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "sister",
+          "pt": "irmã",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l01_w_sister",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Mãe e pai",
+        "sentences": [
+          {
+            "id": "a1-u05-l01-s1",
+            "en": "Amina lives in Maputo.",
+            "pt": "Amina mora em Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l01_s1"
+          },
+          {
+            "id": "a1-u05-l01-s2",
+            "en": "Today the lesson is Mãe e pai.",
+            "pt": "Hoje a lição é: Mãe e pai.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l01_s2"
+          },
+          {
+            "id": "a1-u05-l01-s3",
+            "en": "We learn 'mother' and 'father'.",
+            "pt": "Aprendemos «mãe» e «pai».",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l01_s3"
+          },
+          {
+            "id": "a1-u05-l01-s4",
+            "en": "Amina says: I use 'sister' every day.",
+            "pt": "Amina diz: uso «irmã» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l01_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u05-l01-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u05-l01_repeat",
+          "items": [
+            {
+              "en": "Amina lives in Maputo.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l01-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "mother",
+                "pt": "O que significa «mother»?"
+              },
+              "options": [
+                "mãe",
+                "pais",
+                "irmão",
+                "filha"
+              ],
+              "answer": "mãe"
+            },
+            {
+              "question": {
+                "en": "father",
+                "pt": "O que significa «father»?"
+              },
+              "options": [
+                "pai",
+                "irmã",
+                "filho",
+                "bebê"
+              ],
+              "answer": "pai"
+            },
+            {
+              "question": {
+                "en": "parents",
+                "pt": "O que significa «parents»?"
+              },
+              "options": [
+                "pais",
+                "irmão",
+                "filha",
+                "avó"
+              ],
+              "answer": "pais"
+            },
+            {
+              "question": {
+                "en": "sister",
+                "pt": "O que significa «sister»?"
+              },
+              "options": [
+                "irmã",
+                "filho",
+                "bebê",
+                "avô"
+              ],
+              "answer": "irmã"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-l02",
+      "unitId": "u05",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "Irmãos e irmãs",
+        "en": "Irmãos e irmãs"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Membros da família e possessivos my/your/his/her.",
+        "Irmãos e irmãs"
+      ],
+      "newWords": [
+        {
+          "en": "sister",
+          "pt": "irmã",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l02_w_sister",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "brother",
+          "pt": "irmão",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l02_w_brother",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "son",
+          "pt": "filho",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l02_w_son",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "daughter",
+          "pt": "filha",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l02_w_daughter",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Irmãos e irmãs",
+        "sentences": [
+          {
+            "id": "a1-u05-l02-s1",
+            "en": "João lives in Matola.",
+            "pt": "João mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l02_s1"
+          },
+          {
+            "id": "a1-u05-l02-s2",
+            "en": "Today the lesson is Irmãos e irmãs.",
+            "pt": "Hoje a lição é: Irmãos e irmãs.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l02_s2"
+          },
+          {
+            "id": "a1-u05-l02-s3",
+            "en": "We learn 'father' and 'parents'.",
+            "pt": "Aprendemos «pai» e «pais».",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l02_s3"
+          },
+          {
+            "id": "a1-u05-l02-s4",
+            "en": "João says: I use 'brother' every day.",
+            "pt": "João diz: uso «irmão» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l02_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u05-l02-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Ibraimo uses the word _____.",
+              "answer": "mother",
+              "options": [
+                "mother",
+                "father",
+                "parents",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Ibraimo uses the word _____.",
+              "answer": "father",
+              "options": [
+                "father",
+                "parents",
+                "sister",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Ibraimo uses the word _____.",
+              "answer": "parents",
+              "options": [
+                "parents",
+                "sister",
+                "brother",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-l03",
+      "unitId": "u05",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "Avós",
+        "en": "Avós"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Membros da família e possessivos my/your/his/her.",
+        "Avós"
+      ],
+      "newWords": [
+        {
+          "en": "daughter",
+          "pt": "filha",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l03_w_daughter",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "baby",
+          "pt": "bebê",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l03_w_baby",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "grandmother",
+          "pt": "avó",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l03_w_grandmother",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "grandfather",
+          "pt": "avô",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l03_w_grandfather",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        }
+      ],
+      "guidedReading": {
+        "title": "Avós",
+        "sentences": [
+          {
+            "id": "a1-u05-l03-s1",
+            "en": "Fátima lives in Xai-Xai.",
+            "pt": "Fátima mora em Xai-Xai.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l03_s1"
+          },
+          {
+            "id": "a1-u05-l03-s2",
+            "en": "Today the lesson is Avós.",
+            "pt": "Hoje a lição é: Avós.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l03_s2"
+          },
+          {
+            "id": "a1-u05-l03-s3",
+            "en": "We learn 'parents' and 'sister'.",
+            "pt": "Aprendemos «pais» e «irmã».",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l03_s3"
+          },
+          {
+            "id": "a1-u05-l03-s4",
+            "en": "Fátima says: I use 'son' every day.",
+            "pt": "Fátima diz: uso «filho» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l03_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u05-l03-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "mother",
+              "pt": "mãe"
+            },
+            {
+              "en": "father",
+              "pt": "pai"
+            },
+            {
+              "en": "parents",
+              "pt": "pais"
+            },
+            {
+              "en": "sister",
+              "pt": "irmã"
+            },
+            {
+              "en": "brother",
+              "pt": "irmão"
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l03-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'mother' in Portuguese is 'mãe'.",
+              "answer": true
+            },
+            {
+              "sentence": "'mother' means 'irmã'.",
+              "answer": false
+            },
+            {
+              "sentence": "'father' in Portuguese is 'pai'.",
+              "answer": true
+            },
+            {
+              "sentence": "'father' means 'irmão'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-l04",
+      "unitId": "u05",
+      "order": 4,
+      "kind": "content",
+      "title": {
+        "pt": "Filhos",
+        "en": "Filhos"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Membros da família e possessivos my/your/his/her.",
+        "Filhos"
+      ],
+      "newWords": [
+        {
+          "en": "grandfather",
+          "pt": "avô",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l04_w_grandfather",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "family",
+          "pt": "família",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l04_w_family",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "my",
+          "pt": "meu/minha",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l04_w_my",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "your",
+          "pt": "teu/tua",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l04_w_your",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Filhos",
+        "sentences": [
+          {
+            "id": "a1-u05-l04-s1",
+            "en": "Carlos lives in Inhambane.",
+            "pt": "Carlos mora em Inhambane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l04_s1"
+          },
+          {
+            "id": "a1-u05-l04-s2",
+            "en": "Today the lesson is Filhos.",
+            "pt": "Hoje a lição é: Filhos.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l04_s2"
+          },
+          {
+            "id": "a1-u05-l04-s3",
+            "en": "We learn 'sister' and 'brother'.",
+            "pt": "Aprendemos «irmã» e «irmão».",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l04_s3"
+          },
+          {
+            "id": "a1-u05-l04-s4",
+            "en": "Carlos says: I use 'daughter' every day.",
+            "pt": "Carlos diz: uso «filha» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l04_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u05-l04-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u05-l04_lw_ibraimo-is-in-beir",
+              "answer": "Ibraimo is in Beira. mother.",
+              "hint": "Ibraimo"
+            },
+            {
+              "audioKey": "a1_a1-u05-l04_lw_ibraimo-is-in-beir",
+              "answer": "Ibraimo is in Beira. father.",
+              "hint": "Ibraimo"
+            },
+            {
+              "audioKey": "a1_a1-u05-l04_lw_ibraimo-is-in-beir",
+              "answer": "Ibraimo is in Beira. parents.",
+              "hint": "Ibraimo"
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l04-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "mother"
+              ],
+              "answer": "I need mother"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "father"
+              ],
+              "answer": "I need father"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "parents"
+              ],
+              "answer": "I need parents"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-l05",
+      "unitId": "u05",
+      "order": 5,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 1",
+        "en": "Checkpoint quiz 1"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Membros da família e possessivos my/your/his/her.",
+        "Mini-teste 1"
+      ],
+      "newWords": [
+        {
+          "en": "your",
+          "pt": "teu/tua",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l05_w_your",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "his",
+          "pt": "dele",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l05_w_his",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "her",
+          "pt": "dela",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l05_w_her",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "our",
+          "pt": "nosso",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l05_w_our",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 1",
+        "sentences": [
+          {
+            "id": "a1-u05-l05-s1",
+            "en": "Let’s review. Graça is from Vilankulo.",
+            "pt": "Vamos rever. Graça é de Vilankulo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l05_s1"
+          },
+          {
+            "id": "a1-u05-l05-s2",
+            "en": "This unit is about Family.",
+            "pt": "Esta unidade é sobre Família.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l05_s2"
+          },
+          {
+            "id": "a1-u05-l05-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l05_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u05-l05-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "mother",
+                "pt": "O que significa «mother»?"
+              },
+              "options": [
+                "mãe",
+                "pais",
+                "irmão",
+                "filha"
+              ],
+              "answer": "mãe"
+            },
+            {
+              "question": {
+                "en": "father",
+                "pt": "O que significa «father»?"
+              },
+              "options": [
+                "pai",
+                "irmã",
+                "filho",
+                "bebê"
+              ],
+              "answer": "pai"
+            },
+            {
+              "question": {
+                "en": "parents",
+                "pt": "O que significa «parents»?"
+              },
+              "options": [
+                "pais",
+                "irmão",
+                "filha",
+                "avó"
+              ],
+              "answer": "pais"
+            },
+            {
+              "question": {
+                "en": "sister",
+                "pt": "O que significa «sister»?"
+              },
+              "options": [
+                "irmã",
+                "filho",
+                "bebê",
+                "avô"
+              ],
+              "answer": "irmã"
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l05-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Ibraimo uses the word _____.",
+              "answer": "mother",
+              "options": [
+                "mother",
+                "father",
+                "parents",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Ibraimo uses the word _____.",
+              "answer": "father",
+              "options": [
+                "father",
+                "parents",
+                "sister",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Ibraimo uses the word _____.",
+              "answer": "parents",
+              "options": [
+                "parents",
+                "sister",
+                "brother",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l05-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u05-l05_lw_ibraimo-is-in-beir",
+              "answer": "Ibraimo is in Beira. mother.",
+              "hint": "Ibraimo"
+            },
+            {
+              "audioKey": "a1_a1-u05-l05_lw_ibraimo-is-in-beir",
+              "answer": "Ibraimo is in Beira. father.",
+              "hint": "Ibraimo"
+            },
+            {
+              "audioKey": "a1_a1-u05-l05_lw_ibraimo-is-in-beir",
+              "answer": "Ibraimo is in Beira. parents.",
+              "hint": "Ibraimo"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-l06",
+      "unitId": "u05",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "My e your",
+        "en": "My e your"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Membros da família e possessivos my/your/his/her.",
+        "My e your"
+      ],
+      "newWords": [
+        {
+          "en": "our",
+          "pt": "nosso",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l06_w_our",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "friend",
+          "pt": "amigo/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l06_w_friend",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "wife",
+          "pt": "esposa",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l06_w_wife",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "husband",
+          "pt": "marido",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l06_w_husband",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "My e your",
+        "sentences": [
+          {
+            "id": "a1-u05-l06-s1",
+            "en": "Ibraimo lives in Beira.",
+            "pt": "Ibraimo mora em Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l06_s1"
+          },
+          {
+            "id": "a1-u05-l06-s2",
+            "en": "Today the lesson is His e her.",
+            "pt": "Hoje a lição é: His e her.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l06_s2"
+          },
+          {
+            "id": "a1-u05-l06-s3",
+            "en": "We learn 'son' and 'daughter'.",
+            "pt": "Aprendemos «filho» e «filha».",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l06_s3"
+          },
+          {
+            "id": "a1-u05-l06-s4",
+            "en": "Ibraimo says: I use 'grandmother' every day.",
+            "pt": "Ibraimo diz: uso «avó» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l06_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u05-l06-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Ibraimo lives in Beira.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l06-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "mother",
+                "pt": "O que significa «mother»?"
+              },
+              "options": [
+                "mãe",
+                "pais",
+                "irmão",
+                "filha"
+              ],
+              "answer": "mãe"
+            },
+            {
+              "question": {
+                "en": "father",
+                "pt": "O que significa «father»?"
+              },
+              "options": [
+                "pai",
+                "irmã",
+                "filho",
+                "bebê"
+              ],
+              "answer": "pai"
+            },
+            {
+              "question": {
+                "en": "parents",
+                "pt": "O que significa «parents»?"
+              },
+              "options": [
+                "pais",
+                "irmão",
+                "filha",
+                "avó"
+              ],
+              "answer": "pais"
+            },
+            {
+              "question": {
+                "en": "sister",
+                "pt": "O que significa «sister»?"
+              },
+              "options": [
+                "irmã",
+                "filho",
+                "bebê",
+                "avô"
+              ],
+              "answer": "irmã"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-l07",
+      "unitId": "u05",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "His e her",
+        "en": "His e her"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Membros da família e possessivos my/your/his/her.",
+        "His e her"
+      ],
+      "newWords": [
+        {
+          "en": "husband",
+          "pt": "marido",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l07_w_husband",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        }
+      ],
+      "guidedReading": {
+        "title": "His e her",
+        "sentences": [
+          {
+            "id": "a1-u05-l07-s1",
+            "en": "Esperança lives in Chimoio.",
+            "pt": "Esperança mora em Chimoio.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l07_s1"
+          },
+          {
+            "id": "a1-u05-l07-s2",
+            "en": "Today the lesson is Our family.",
+            "pt": "Hoje a lição é: Our family.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l07_s2"
+          },
+          {
+            "id": "a1-u05-l07-s3",
+            "en": "We learn 'daughter' and 'baby'.",
+            "pt": "Aprendemos «filha» e «bebê».",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l07_s3"
+          },
+          {
+            "id": "a1-u05-l07-s4",
+            "en": "Esperança says: I use 'grandfather' every day.",
+            "pt": "Esperança diz: uso «avô» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l07_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u05-l07-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u05-l07_repeat",
+          "items": [
+            {
+              "en": "Esperança lives in Chimoio.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l07-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "mother",
+                "pt": "O que significa «mother»?"
+              },
+              "options": [
+                "mãe",
+                "pais",
+                "irmão",
+                "filha"
+              ],
+              "answer": "mãe"
+            },
+            {
+              "question": {
+                "en": "father",
+                "pt": "O que significa «father»?"
+              },
+              "options": [
+                "pai",
+                "irmã",
+                "filho",
+                "bebê"
+              ],
+              "answer": "pai"
+            },
+            {
+              "question": {
+                "en": "parents",
+                "pt": "O que significa «parents»?"
+              },
+              "options": [
+                "pais",
+                "irmão",
+                "filha",
+                "avó"
+              ],
+              "answer": "pais"
+            },
+            {
+              "question": {
+                "en": "sister",
+                "pt": "O que significa «sister»?"
+              },
+              "options": [
+                "irmã",
+                "filho",
+                "bebê",
+                "avô"
+              ],
+              "answer": "irmã"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-l08",
+      "unitId": "u05",
+      "order": 8,
+      "kind": "content",
+      "title": {
+        "pt": "Our family",
+        "en": "Our family"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Membros da família e possessivos my/your/his/her.",
+        "Our family"
+      ],
+      "newWords": [
+        {
+          "en": "parents",
+          "pt": "pais",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l08_w_parents",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "sister",
+          "pt": "irmã",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l08_w_sister",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "brother",
+          "pt": "irmão",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l08_w_brother",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "son",
+          "pt": "filho",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l08_w_son",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        }
+      ],
+      "guidedReading": {
+        "title": "Our family",
+        "sentences": [
+          {
+            "id": "a1-u05-l08-s1",
+            "en": "Paulo lives in Tete.",
+            "pt": "Paulo mora em Tete.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l08_s1"
+          },
+          {
+            "id": "a1-u05-l08-s2",
+            "en": "Today the lesson is Esta é a minha família.",
+            "pt": "Hoje a lição é: Esta é a minha família.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l08_s2"
+          },
+          {
+            "id": "a1-u05-l08-s3",
+            "en": "We learn 'baby' and 'grandmother'.",
+            "pt": "Aprendemos «bebê» e «avó».",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l08_s3"
+          },
+          {
+            "id": "a1-u05-l08-s4",
+            "en": "Paulo says: I use 'family' every day.",
+            "pt": "Paulo diz: uso «família» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l08_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u05-l08-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Ibraimo uses the word _____.",
+              "answer": "mother",
+              "options": [
+                "mother",
+                "father",
+                "parents",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Ibraimo uses the word _____.",
+              "answer": "father",
+              "options": [
+                "father",
+                "parents",
+                "sister",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Ibraimo uses the word _____.",
+              "answer": "parents",
+              "options": [
+                "parents",
+                "sister",
+                "brother",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-l09",
+      "unitId": "u05",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Esta é a minha família",
+        "en": "Esta é a minha família"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Membros da família e possessivos my/your/his/her.",
+        "Esta é a minha família"
+      ],
+      "newWords": [
+        {
+          "en": "son",
+          "pt": "filho",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l09_w_son",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "daughter",
+          "pt": "filha",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l09_w_daughter",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "baby",
+          "pt": "bebê",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l09_w_baby",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "grandmother",
+          "pt": "avó",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l09_w_grandmother",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Esta é a minha família",
+        "sentences": [
+          {
+            "id": "a1-u05-l09-s1",
+            "en": "Belmira lives in Quelimane.",
+            "pt": "Belmira mora em Quelimane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l09_s1"
+          },
+          {
+            "id": "a1-u05-l09-s2",
+            "en": "Today the lesson is Quantos irmãos tens?.",
+            "pt": "Hoje a lição é: Quantos irmãos tens?.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l09_s2"
+          },
+          {
+            "id": "a1-u05-l09-s3",
+            "en": "We learn 'grandmother' and 'grandfather'.",
+            "pt": "Aprendemos «avó» e «avô».",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l09_s3"
+          },
+          {
+            "id": "a1-u05-l09-s4",
+            "en": "Belmira says: I use 'my' every day.",
+            "pt": "Belmira diz: uso «meu/minha» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l09_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u05-l09-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "mother",
+              "pt": "mãe"
+            },
+            {
+              "en": "father",
+              "pt": "pai"
+            },
+            {
+              "en": "parents",
+              "pt": "pais"
+            },
+            {
+              "en": "sister",
+              "pt": "irmã"
+            },
+            {
+              "en": "brother",
+              "pt": "irmão"
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l09-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'mother' in Portuguese is 'mãe'.",
+              "answer": true
+            },
+            {
+              "sentence": "'mother' means 'irmã'.",
+              "answer": false
+            },
+            {
+              "sentence": "'father' in Portuguese is 'pai'.",
+              "answer": true
+            },
+            {
+              "sentence": "'father' means 'irmão'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-l10",
+      "unitId": "u05",
+      "order": 10,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão guiada",
+        "en": "Guided review"
+      },
+      "type": "review",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectives": [
+        "Membros da família e possessivos my/your/his/her.",
+        "Revisão guiada"
+      ],
+      "newWords": [
+        {
+          "en": "grandmother",
+          "pt": "avó",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l10_w_grandmother",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "grandfather",
+          "pt": "avô",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l10_w_grandfather",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "family",
+          "pt": "família",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l10_w_family",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "my",
+          "pt": "meu/minha",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l10_w_my",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        }
+      ],
+      "guidedReading": {
+        "title": "Guided review",
+        "sentences": [
+          {
+            "id": "a1-u05-l10-s1",
+            "en": "Let’s review. Nélio is from Nampula.",
+            "pt": "Vamos rever. Nélio é de Nampula.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l10_s1"
+          },
+          {
+            "id": "a1-u05-l10-s2",
+            "en": "This unit is about Family.",
+            "pt": "Esta unidade é sobre Família.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l10_s2"
+          },
+          {
+            "id": "a1-u05-l10-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l10_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u05-l10-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u05-l10_lw_ibraimo-is-in-beir",
+              "answer": "Ibraimo is in Beira. mother.",
+              "hint": "Ibraimo"
+            },
+            {
+              "audioKey": "a1_a1-u05-l10_lw_ibraimo-is-in-beir",
+              "answer": "Ibraimo is in Beira. father.",
+              "hint": "Ibraimo"
+            },
+            {
+              "audioKey": "a1_a1-u05-l10_lw_ibraimo-is-in-beir",
+              "answer": "Ibraimo is in Beira. parents.",
+              "hint": "Ibraimo"
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l10-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "mother"
+              ],
+              "answer": "I need mother"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "father"
+              ],
+              "answer": "I need father"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "parents"
+              ],
+              "answer": "I need parents"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-l11",
+      "unitId": "u05",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "Quantos irmãos tens?",
+        "en": "Quantos irmãos tens?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Membros da família e possessivos my/your/his/her.",
+        "Quantos irmãos tens?"
+      ],
+      "newWords": [
+        {
+          "en": "my",
+          "pt": "meu/minha",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l11_w_my",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "your",
+          "pt": "teu/tua",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l11_w_your",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "his",
+          "pt": "dele",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l11_w_his",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "her",
+          "pt": "dela",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l11_w_her",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        }
+      ],
+      "guidedReading": {
+        "title": "Quantos irmãos tens?",
+        "sentences": [
+          {
+            "id": "a1-u05-l11-s1",
+            "en": "Lurdes lives in Nacala.",
+            "pt": "Lurdes mora em Nacala.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l11_s1"
+          },
+          {
+            "id": "a1-u05-l11-s2",
+            "en": "Today the lesson is Diálogo: foto de família.",
+            "pt": "Hoje a lição é: Diálogo: foto de família.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l11_s2"
+          },
+          {
+            "id": "a1-u05-l11-s3",
+            "en": "We learn 'family' and 'my'.",
+            "pt": "Aprendemos «família» e «meu/minha».",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l11_s3"
+          },
+          {
+            "id": "a1-u05-l11-s4",
+            "en": "Lurdes says: I use 'his' every day.",
+            "pt": "Lurdes diz: uso «dele» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l11_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u05-l11-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u05-l11_tap",
+          "items": [
+            {
+              "answer": "mother",
+              "options": [
+                "mother",
+                "father",
+                "parents",
+                "sister"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l11-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-l12",
+      "unitId": "u05",
+      "order": 12,
+      "kind": "content",
+      "title": {
+        "pt": "O meu amigo Tendai",
+        "en": "O meu amigo Tendai"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Membros da família e possessivos my/your/his/her.",
+        "O meu amigo Tendai"
+      ],
+      "newWords": [
+        {
+          "en": "her",
+          "pt": "dela",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l12_w_her",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "our",
+          "pt": "nosso",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l12_w_our",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "friend",
+          "pt": "amigo/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l12_w_friend",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "wife",
+          "pt": "esposa",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l12_w_wife",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        }
+      ],
+      "guidedReading": {
+        "title": "O meu amigo Tendai",
+        "sentences": [
+          {
+            "id": "a1-u05-l12-s1",
+            "en": "Faruk lives in Pemba.",
+            "pt": "Faruk mora em Pemba.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l12_s1"
+          },
+          {
+            "id": "a1-u05-l12-s2",
+            "en": "Today the lesson is Diálogo: em casa da avó.",
+            "pt": "Hoje a lição é: Diálogo: em casa da avó.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l12_s2"
+          },
+          {
+            "id": "a1-u05-l12-s3",
+            "en": "We learn 'my' and 'your'.",
+            "pt": "Aprendemos «meu/minha» e «teu/tua».",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l12_s3"
+          },
+          {
+            "id": "a1-u05-l12-s4",
+            "en": "Faruk says: I use 'her' every day.",
+            "pt": "Faruk diz: uso «dela» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l12_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u05-l12-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Faruk lives in Pemba.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l12-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "mother",
+                "pt": "O que significa «mother»?"
+              },
+              "options": [
+                "mãe",
+                "pais",
+                "irmão",
+                "filha"
+              ],
+              "answer": "mãe"
+            },
+            {
+              "question": {
+                "en": "father",
+                "pt": "O que significa «father»?"
+              },
+              "options": [
+                "pai",
+                "irmã",
+                "filho",
+                "bebê"
+              ],
+              "answer": "pai"
+            },
+            {
+              "question": {
+                "en": "parents",
+                "pt": "O que significa «parents»?"
+              },
+              "options": [
+                "pais",
+                "irmão",
+                "filha",
+                "avó"
+              ],
+              "answer": "pais"
+            },
+            {
+              "question": {
+                "en": "sister",
+                "pt": "O que significa «sister»?"
+              },
+              "options": [
+                "irmã",
+                "filho",
+                "bebê",
+                "avô"
+              ],
+              "answer": "irmã"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-l13",
+      "unitId": "u05",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: foto de família",
+        "en": "Diálogo: foto de família"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Membros da família e possessivos my/your/his/her.",
+        "Diálogo: foto de família"
+      ],
+      "newWords": [
+        {
+          "en": "wife",
+          "pt": "esposa",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l13_w_wife",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "husband",
+          "pt": "marido",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l13_w_husband",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: foto de família",
+        "sentences": [
+          {
+            "id": "a1-u05-l13-s1",
+            "en": "Josina lives in Lichinga.",
+            "pt": "Josina mora em Lichinga.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l13_s1"
+          },
+          {
+            "id": "a1-u05-l13-s2",
+            "en": "Today the lesson is Árvore da família.",
+            "pt": "Hoje a lição é: Árvore da família.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l13_s2"
+          },
+          {
+            "id": "a1-u05-l13-s3",
+            "en": "We learn 'your' and 'his'.",
+            "pt": "Aprendemos «teu/tua» e «dele».",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l13_s3"
+          },
+          {
+            "id": "a1-u05-l13-s4",
+            "en": "Josina says: I use 'our' every day.",
+            "pt": "Josina diz: uso «nosso» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l13_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u05-l13-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u05-l13_repeat",
+          "items": [
+            {
+              "en": "Josina lives in Lichinga.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l13-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "mother",
+                "pt": "O que significa «mother»?"
+              },
+              "options": [
+                "mãe",
+                "pais",
+                "irmão",
+                "filha"
+              ],
+              "answer": "mãe"
+            },
+            {
+              "question": {
+                "en": "father",
+                "pt": "O que significa «father»?"
+              },
+              "options": [
+                "pai",
+                "irmã",
+                "filho",
+                "bebê"
+              ],
+              "answer": "pai"
+            },
+            {
+              "question": {
+                "en": "parents",
+                "pt": "O que significa «parents»?"
+              },
+              "options": [
+                "pais",
+                "irmão",
+                "filha",
+                "avó"
+              ],
+              "answer": "pais"
+            },
+            {
+              "question": {
+                "en": "sister",
+                "pt": "O que significa «sister»?"
+              },
+              "options": [
+                "irmã",
+                "filho",
+                "bebê",
+                "avô"
+              ],
+              "answer": "irmã"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-l14",
+      "unitId": "u05",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: em casa da avó",
+        "en": "Diálogo: em casa da avó"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Membros da família e possessivos my/your/his/her.",
+        "Diálogo: em casa da avó"
+      ],
+      "newWords": [
+        {
+          "en": "father",
+          "pt": "pai",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l14_w_father",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "parents",
+          "pt": "pais",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l14_w_parents",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "sister",
+          "pt": "irmã",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l14_w_sister",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "brother",
+          "pt": "irmão",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l14_w_brother",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: em casa da avó",
+        "sentences": [
+          {
+            "id": "a1-u05-l14-s1",
+            "en": "Tendai lives in Ilha de Moçambique.",
+            "pt": "Tendai mora em Ilha de Moçambique.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l14_s1"
+          },
+          {
+            "id": "a1-u05-l14-s2",
+            "en": "Today the lesson is Possessivos em frases.",
+            "pt": "Hoje a lição é: Possessivos em frases.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l14_s2"
+          },
+          {
+            "id": "a1-u05-l14-s3",
+            "en": "We learn 'his' and 'her'.",
+            "pt": "Aprendemos «dele» e «dela».",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l14_s3"
+          },
+          {
+            "id": "a1-u05-l14-s4",
+            "en": "Tendai says: I use 'friend' every day.",
+            "pt": "Tendai diz: uso «amigo/a» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l14_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u05-l14-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Ibraimo uses the word _____.",
+              "answer": "mother",
+              "options": [
+                "mother",
+                "father",
+                "parents",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Ibraimo uses the word _____.",
+              "answer": "father",
+              "options": [
+                "father",
+                "parents",
+                "sister",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Ibraimo uses the word _____.",
+              "answer": "parents",
+              "options": [
+                "parents",
+                "sister",
+                "brother",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-l15",
+      "unitId": "u05",
+      "order": 15,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 2",
+        "en": "Checkpoint quiz 2"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Membros da família e possessivos my/your/his/her.",
+        "Mini-teste 2"
+      ],
+      "newWords": [
+        {
+          "en": "brother",
+          "pt": "irmão",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l15_w_brother",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "son",
+          "pt": "filho",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l15_w_son",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "daughter",
+          "pt": "filha",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l15_w_daughter",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "baby",
+          "pt": "bebê",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l15_w_baby",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 2",
+        "sentences": [
+          {
+            "id": "a1-u05-l15-s1",
+            "en": "Let’s review. Amélia is from Maputo.",
+            "pt": "Vamos rever. Amélia é de Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l15_s1"
+          },
+          {
+            "id": "a1-u05-l15-s2",
+            "en": "This unit is about Family.",
+            "pt": "Esta unidade é sobre Família.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l15_s2"
+          },
+          {
+            "id": "a1-u05-l15-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l15_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u05-l15-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "mother",
+                "pt": "O que significa «mother»?"
+              },
+              "options": [
+                "mãe",
+                "pais",
+                "irmão",
+                "filha"
+              ],
+              "answer": "mãe"
+            },
+            {
+              "question": {
+                "en": "father",
+                "pt": "O que significa «father»?"
+              },
+              "options": [
+                "pai",
+                "irmã",
+                "filho",
+                "bebê"
+              ],
+              "answer": "pai"
+            },
+            {
+              "question": {
+                "en": "parents",
+                "pt": "O que significa «parents»?"
+              },
+              "options": [
+                "pais",
+                "irmão",
+                "filha",
+                "avó"
+              ],
+              "answer": "pais"
+            },
+            {
+              "question": {
+                "en": "sister",
+                "pt": "O que significa «sister»?"
+              },
+              "options": [
+                "irmã",
+                "filho",
+                "bebê",
+                "avô"
+              ],
+              "answer": "irmã"
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l15-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Ibraimo uses the word _____.",
+              "answer": "mother",
+              "options": [
+                "mother",
+                "father",
+                "parents",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Ibraimo uses the word _____.",
+              "answer": "father",
+              "options": [
+                "father",
+                "parents",
+                "sister",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Ibraimo uses the word _____.",
+              "answer": "parents",
+              "options": [
+                "parents",
+                "sister",
+                "brother",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l15-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u05-l15_lw_ibraimo-is-in-beir",
+              "answer": "Ibraimo is in Beira. mother.",
+              "hint": "Ibraimo"
+            },
+            {
+              "audioKey": "a1_a1-u05-l15_lw_ibraimo-is-in-beir",
+              "answer": "Ibraimo is in Beira. father.",
+              "hint": "Ibraimo"
+            },
+            {
+              "audioKey": "a1_a1-u05-l15_lw_ibraimo-is-in-beir",
+              "answer": "Ibraimo is in Beira. parents.",
+              "hint": "Ibraimo"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-l16",
+      "unitId": "u05",
+      "order": 16,
+      "kind": "content",
+      "title": {
+        "pt": "Árvore da família",
+        "en": "Árvore da família"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Membros da família e possessivos my/your/his/her.",
+        "Árvore da família"
+      ],
+      "newWords": [
+        {
+          "en": "baby",
+          "pt": "bebê",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l16_w_baby",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "grandmother",
+          "pt": "avó",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l16_w_grandmother",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "grandfather",
+          "pt": "avô",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l16_w_grandfather",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "family",
+          "pt": "família",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l16_w_family",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Árvore da família",
+        "sentences": [
+          {
+            "id": "a1-u05-l16-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l16_s1"
+          },
+          {
+            "id": "a1-u05-l16-s2",
+            "en": "Today the lesson is Apresenta a tua família.",
+            "pt": "Hoje a lição é: Apresenta a tua família.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l16_s2"
+          },
+          {
+            "id": "a1-u05-l16-s3",
+            "en": "We learn 'our' and 'friend'.",
+            "pt": "Aprendemos «nosso» e «amigo/a».",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l16_s3"
+          },
+          {
+            "id": "a1-u05-l16-s4",
+            "en": "Zacarias says: I use 'husband' every day.",
+            "pt": "Zacarias diz: uso «marido» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l16_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u05-l16-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u05-l16_lw_ibraimo-is-in-beir",
+              "answer": "Ibraimo is in Beira. mother.",
+              "hint": "Ibraimo"
+            },
+            {
+              "audioKey": "a1_a1-u05-l16_lw_ibraimo-is-in-beir",
+              "answer": "Ibraimo is in Beira. father.",
+              "hint": "Ibraimo"
+            },
+            {
+              "audioKey": "a1_a1-u05-l16_lw_ibraimo-is-in-beir",
+              "answer": "Ibraimo is in Beira. parents.",
+              "hint": "Ibraimo"
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l16-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "mother"
+              ],
+              "answer": "I need mother"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "father"
+              ],
+              "answer": "I need father"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "parents"
+              ],
+              "answer": "I need parents"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-l17",
+      "unitId": "u05",
+      "order": 17,
+      "kind": "content",
+      "title": {
+        "pt": "Possessivos em frases",
+        "en": "Possessivos em frases"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Membros da família e possessivos my/your/his/her.",
+        "Possessivos em frases"
+      ],
+      "newWords": [
+        {
+          "en": "family",
+          "pt": "família",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l17_w_family",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "my",
+          "pt": "meu/minha",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l17_w_my",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "your",
+          "pt": "teu/tua",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l17_w_your",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "his",
+          "pt": "dele",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l17_w_his",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Possessivos em frases",
+        "sentences": [
+          {
+            "id": "a1-u05-l17-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l17_s1"
+          },
+          {
+            "id": "a1-u05-l17-s2",
+            "en": "Today the lesson is Apresenta a tua família.",
+            "pt": "Hoje a lição é: Apresenta a tua família.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l17_s2"
+          },
+          {
+            "id": "a1-u05-l17-s3",
+            "en": "We learn 'our' and 'friend'.",
+            "pt": "Aprendemos «nosso» e «amigo/a».",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l17_s3"
+          },
+          {
+            "id": "a1-u05-l17-s4",
+            "en": "Zacarias says: I use 'husband' every day.",
+            "pt": "Zacarias diz: uso «marido» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l17_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u05-l17-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u05-l17_tap",
+          "items": [
+            {
+              "answer": "mother",
+              "options": [
+                "mother",
+                "father",
+                "parents",
+                "sister"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l17-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-l18",
+      "unitId": "u05",
+      "order": 18,
+      "kind": "content",
+      "title": {
+        "pt": "Sons: th em mother / father / brother",
+        "en": "Sons: th em mother / father / brother"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Membros da família e possessivos my/your/his/her.",
+        "Sons: th em mother / father / brother"
+      ],
+      "newWords": [
+        {
+          "en": "his",
+          "pt": "dele",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l18_w_his",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "her",
+          "pt": "dela",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l18_w_her",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "our",
+          "pt": "nosso",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l18_w_our",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "friend",
+          "pt": "amigo/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l18_w_friend",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Sons: th em mother / father / brother",
+        "sentences": [
+          {
+            "id": "a1-u05-l18-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l18_s1"
+          },
+          {
+            "id": "a1-u05-l18-s2",
+            "en": "Today the lesson is Apresenta a tua família.",
+            "pt": "Hoje a lição é: Apresenta a tua família.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l18_s2"
+          },
+          {
+            "id": "a1-u05-l18-s3",
+            "en": "We learn 'our' and 'friend'.",
+            "pt": "Aprendemos «nosso» e «amigo/a».",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l18_s3"
+          },
+          {
+            "id": "a1-u05-l18-s4",
+            "en": "Zacarias says: I use 'husband' every day.",
+            "pt": "Zacarias diz: uso «marido» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l18_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u05-l18-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l18-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "mother",
+                "pt": "O que significa «mother»?"
+              },
+              "options": [
+                "mãe",
+                "pais",
+                "irmão",
+                "filha"
+              ],
+              "answer": "mãe"
+            },
+            {
+              "question": {
+                "en": "father",
+                "pt": "O que significa «father»?"
+              },
+              "options": [
+                "pai",
+                "irmã",
+                "filho",
+                "bebê"
+              ],
+              "answer": "pai"
+            },
+            {
+              "question": {
+                "en": "parents",
+                "pt": "O que significa «parents»?"
+              },
+              "options": [
+                "pais",
+                "irmão",
+                "filha",
+                "avó"
+              ],
+              "answer": "pais"
+            },
+            {
+              "question": {
+                "en": "sister",
+                "pt": "O que significa «sister»?"
+              },
+              "options": [
+                "irmã",
+                "filho",
+                "bebê",
+                "avô"
+              ],
+              "answer": "irmã"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-l19",
+      "unitId": "u05",
+      "order": 19,
+      "kind": "content",
+      "title": {
+        "pt": "Apresenta a tua família",
+        "en": "Apresenta a tua família"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Membros da família e possessivos my/your/his/her.",
+        "Apresenta a tua família"
+      ],
+      "newWords": [
+        {
+          "en": "friend",
+          "pt": "amigo/a",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l19_w_friend",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "wife",
+          "pt": "esposa",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l19_w_wife",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "husband",
+          "pt": "marido",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l19_w_husband",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Apresenta a tua família",
+        "sentences": [
+          {
+            "id": "a1-u05-l19-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l19_s1"
+          },
+          {
+            "id": "a1-u05-l19-s2",
+            "en": "Today the lesson is Apresenta a tua família.",
+            "pt": "Hoje a lição é: Apresenta a tua família.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l19_s2"
+          },
+          {
+            "id": "a1-u05-l19-s3",
+            "en": "We learn 'our' and 'friend'.",
+            "pt": "Aprendemos «nosso» e «amigo/a».",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l19_s3"
+          },
+          {
+            "id": "a1-u05-l19-s4",
+            "en": "Zacarias says: I use 'husband' every day.",
+            "pt": "Zacarias diz: uso «marido» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l19_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u05-l19-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u05-l19_repeat",
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l19-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "mother",
+                "pt": "O que significa «mother»?"
+              },
+              "options": [
+                "mãe",
+                "pais",
+                "irmão",
+                "filha"
+              ],
+              "answer": "mãe"
+            },
+            {
+              "question": {
+                "en": "father",
+                "pt": "O que significa «father»?"
+              },
+              "options": [
+                "pai",
+                "irmã",
+                "filho",
+                "bebê"
+              ],
+              "answer": "pai"
+            },
+            {
+              "question": {
+                "en": "parents",
+                "pt": "O que significa «parents»?"
+              },
+              "options": [
+                "pais",
+                "irmão",
+                "filha",
+                "avó"
+              ],
+              "answer": "pais"
+            },
+            {
+              "question": {
+                "en": "sister",
+                "pt": "O que significa «sister»?"
+              },
+              "options": [
+                "irmã",
+                "filho",
+                "bebê",
+                "avô"
+              ],
+              "answer": "irmã"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-l20",
+      "unitId": "u05",
+      "order": 20,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste da unidade: Família",
+        "en": "Unit test: Family"
+      },
+      "type": "unit_test",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "listening",
+        "reading",
+        "writing",
+        "grammar"
+      ],
+      "objectives": [
+        "Membros da família e possessivos my/your/his/her.",
+        "Teste da unidade: Família"
+      ],
+      "newWords": [
+        {
+          "en": "mother",
+          "pt": "mãe",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l20_w_mother",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "father",
+          "pt": "pai",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l20_w_father",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "parents",
+          "pt": "pais",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l20_w_parents",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "sister",
+          "pt": "irmã",
+          "ipa": "",
+          "audioKey": "a1_a1-u05-l20_w_sister",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Unit test: Family",
+        "sentences": [
+          {
+            "id": "a1-u05-l20-s1",
+            "en": "Let’s review. Carlos is from Beira.",
+            "pt": "Vamos rever. Carlos é de Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l20_s1"
+          },
+          {
+            "id": "a1-u05-l20-s2",
+            "en": "This unit is about Family.",
+            "pt": "Esta unidade é sobre Família.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l20_s2"
+          },
+          {
+            "id": "a1-u05-l20-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u05-l20_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u05-l20-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "mother",
+                "pt": "O que significa «mother»?"
+              },
+              "options": [
+                "mãe",
+                "pais",
+                "irmão",
+                "filha"
+              ],
+              "answer": "mãe"
+            },
+            {
+              "question": {
+                "en": "father",
+                "pt": "O que significa «father»?"
+              },
+              "options": [
+                "pai",
+                "irmã",
+                "filho",
+                "bebê"
+              ],
+              "answer": "pai"
+            },
+            {
+              "question": {
+                "en": "parents",
+                "pt": "O que significa «parents»?"
+              },
+              "options": [
+                "pais",
+                "irmão",
+                "filha",
+                "avó"
+              ],
+              "answer": "pais"
+            },
+            {
+              "question": {
+                "en": "sister",
+                "pt": "O que significa «sister»?"
+              },
+              "options": [
+                "irmã",
+                "filho",
+                "bebê",
+                "avô"
+              ],
+              "answer": "irmã"
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l20-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Ibraimo uses the word _____.",
+              "answer": "mother",
+              "options": [
+                "mother",
+                "father",
+                "parents",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Ibraimo uses the word _____.",
+              "answer": "father",
+              "options": [
+                "father",
+                "parents",
+                "sister",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Ibraimo uses the word _____.",
+              "answer": "parents",
+              "options": [
+                "parents",
+                "sister",
+                "brother",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l20-a3",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'mother' in Portuguese is 'mãe'.",
+              "answer": true
+            },
+            {
+              "sentence": "'mother' means 'irmã'.",
+              "answer": false
+            },
+            {
+              "sentence": "'father' in Portuguese is 'pai'.",
+              "answer": true
+            },
+            {
+              "sentence": "'father' means 'irmão'.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l20-a4",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "mother"
+              ],
+              "answer": "I need mother"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "father"
+              ],
+              "answer": "I need father"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "parents"
+              ],
+              "answer": "I need parents"
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l20-a5",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u05-l20_lw_ibraimo-is-in-beir",
+              "answer": "Ibraimo is in Beira. mother.",
+              "hint": "Ibraimo"
+            },
+            {
+              "audioKey": "a1_a1-u05-l20_lw_ibraimo-is-in-beir",
+              "answer": "Ibraimo is in Beira. father.",
+              "hint": "Ibraimo"
+            },
+            {
+              "audioKey": "a1_a1-u05-l20_lw_ibraimo-is-in-beir",
+              "answer": "Ibraimo is in Beira. parents.",
+              "hint": "Ibraimo"
+            }
+          ]
+        },
+        {
+          "id": "a1-u05-l20-a6",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    }
+  ]
+}

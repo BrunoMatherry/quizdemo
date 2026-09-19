@@ -1,0 +1,2849 @@
+{
+  "id": "b2u11",
+  "level": "B2",
+  "order": 11,
+  "title": {
+    "pt": "Relatório curto",
+    "en": "Short report"
+  },
+  "goal": "Organizar dados simples em texto.",
+  "cambridgeInspiration": "B2 First (inspired task types)",
+  "lessonCount": 16,
+  "lessons": [
+    {
+      "id": "b2-b2u11-l01",
+      "unitId": "b2u11",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "Relatório curto: Texto de abertura",
+        "en": "Short report: Texto de abertura"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Organizar dados simples em texto.",
+        "Texto de abertura"
+      ],
+      "newWords": [
+        {
+          "en": "although",
+          "pt": "embora",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l01_w_although",
+          "exampleEn": "Although Praia has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Praia tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "therefore",
+          "pt": "por isso",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l01_w_therefore",
+          "exampleEn": "Although Praia has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Praia tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "claim",
+          "pt": "afirmar",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l01_w_claim",
+          "exampleEn": "Although Praia has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Praia tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "evidence",
+          "pt": "prova/indício",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l01_w_evidence",
+          "exampleEn": "Although Praia has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Praia tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        }
+      ],
+      "guidedReading": {
+        "title": "Short report",
+        "sentences": [
+          {
+            "id": "b2-b2u11-l01-s1",
+            "en": "Although Praia has grown quickly, many people still organise the day around walking distance and shared transport.",
+            "pt": "Embora Praia tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l01_s1"
+          },
+          {
+            "id": "b2-b2u11-l01-s2",
+            "en": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+            "pt": "Foi anunciado um horário novo na semana passada, mas vários passageiros disseram que os autocarros da noite continuavam irregulares.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l01_s2"
+          },
+          {
+            "id": "b2-b2u11-l01-s3",
+            "en": "Marta argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Marta sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l01_s3"
+          },
+          {
+            "id": "b2-b2u11-l01-s4",
+            "en": "However, Graça pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Graça lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l01_s4"
+          },
+          {
+            "id": "b2-b2u11-l01-s5",
+            "en": "In this unit you practise short report with clear reasons and a calm tone.",
+            "pt": "Organizar dados simples em texto.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l01_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u11-l01-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "although",
+                "pt": "O que é mais próximo de «although»?"
+              },
+              "options": [
+                "embora",
+                "por isso",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "embora"
+            },
+            {
+              "question": {
+                "en": "therefore",
+                "pt": "O que é mais próximo de «therefore»?"
+              },
+              "options": [
+                "por isso",
+                "embora",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "por isso"
+            },
+            {
+              "question": {
+                "en": "claim",
+                "pt": "O que é mais próximo de «claim»?"
+              },
+              "options": [
+                "afirmar",
+                "embora",
+                "por isso",
+                "prova/indício"
+              ],
+              "answer": "afirmar"
+            },
+            {
+              "question": {
+                "en": "evidence",
+                "pt": "O que é mais próximo de «evidence»?"
+              },
+              "options": [
+                "prova/indício",
+                "embora",
+                "por isso",
+                "afirmar"
+              ],
+              "answer": "prova/indício"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u11-l01-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (embora)",
+              "answer": "although",
+              "options": [
+                "although",
+                "therefore",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (por isso)",
+              "answer": "therefore",
+              "options": [
+                "therefore",
+                "although",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (afirmar)",
+              "answer": "claim",
+              "options": [
+                "claim",
+                "although",
+                "therefore",
+                "evidence"
+              ]
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Praia"
+      }
+    },
+    {
+      "id": "b2-b2u11-l02",
+      "unitId": "b2u11",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "Relatório curto: Gramática do argumento",
+        "en": "Short report: Gramática do argumento"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Organizar dados simples em texto.",
+        "Gramática do argumento"
+      ],
+      "newWords": [
+        {
+          "en": "evidence",
+          "pt": "prova/indício",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l02_w_evidence",
+          "exampleEn": "Although Nampula has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Nampula tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "report",
+          "pt": "relatar/relatório",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l02_w_report",
+          "exampleEn": "Although Nampula has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Nampula tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "reliable",
+          "pt": "fiável",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l02_w_reliable",
+          "exampleEn": "Although Nampula has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Nampula tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "increase",
+          "pt": "aumentar",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l02_w_increase",
+          "exampleEn": "Although Nampula has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Nampula tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        }
+      ],
+      "guidedReading": {
+        "title": "Short report",
+        "sentences": [
+          {
+            "id": "b2-b2u11-l02-s1",
+            "en": "Although Nampula has grown quickly, many people still organise the day around walking distance and shared transport.",
+            "pt": "Embora Nampula tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l02_s1"
+          },
+          {
+            "id": "b2-b2u11-l02-s2",
+            "en": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+            "pt": "Foi anunciado um horário novo na semana passada, mas vários passageiros disseram que os autocarros da noite continuavam irregulares.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l02_s2"
+          },
+          {
+            "id": "b2-b2u11-l02-s3",
+            "en": "Amina argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Amina sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l02_s3"
+          },
+          {
+            "id": "b2-b2u11-l02-s4",
+            "en": "However, Paulo pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Paulo lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l02_s4"
+          },
+          {
+            "id": "b2-b2u11-l02-s5",
+            "en": "In this unit you practise short report with clear reasons and a calm tone.",
+            "pt": "Organizar dados simples em texto.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l02_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u11-l02-a1",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "Although Nampula has grown quickly, many people still organise the day around walking distance and shared transport.",
+              "answer": true
+            },
+            {
+              "sentence": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+              "answer": true
+            },
+            {
+              "sentence": "Amina argued that cheaper data matters more for students than a new shopping centre.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to although.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u11-l02-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "Although",
+                "Nampula",
+                "has",
+                "grown",
+                "quickly",
+                "many",
+                "people",
+                "still"
+              ],
+              "answer": "Although Nampula has grown quickly many people still"
+            },
+            {
+              "words": [
+                "A",
+                "new",
+                "timetable",
+                "was",
+                "announced",
+                "last",
+                "week",
+                "but"
+              ],
+              "answer": "A new timetable was announced last week but"
+            },
+            {
+              "words": [
+                "Amina",
+                "argued",
+                "that",
+                "cheaper",
+                "data",
+                "matters",
+                "more",
+                "for"
+              ],
+              "answer": "Amina argued that cheaper data matters more for"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Nampula"
+      }
+    },
+    {
+      "id": "b2-b2u11-l03",
+      "unitId": "b2u11",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "Relatório curto: Marcadores de discurso",
+        "en": "Short report: Marcadores de discurso"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Organizar dados simples em texto.",
+        "Marcadores de discurso"
+      ],
+      "newWords": [
+        {
+          "en": "increase",
+          "pt": "aumentar",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l03_w_increase",
+          "exampleEn": "Although Maputo has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Maputo tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "reduce",
+          "pt": "reduzir",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l03_w_reduce",
+          "exampleEn": "Although Maputo has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Maputo tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "formal",
+          "pt": "formal",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l03_w_formal",
+          "exampleEn": "Although Maputo has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Maputo tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "summarise",
+          "pt": "resumir",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l03_w_summarise",
+          "exampleEn": "Although Maputo has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Maputo tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        }
+      ],
+      "guidedReading": {
+        "title": "Short report",
+        "sentences": [
+          {
+            "id": "b2-b2u11-l03-s1",
+            "en": "Although Maputo has grown quickly, many people still organise the day around walking distance and shared transport.",
+            "pt": "Embora Maputo tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l03_s1"
+          },
+          {
+            "id": "b2-b2u11-l03-s2",
+            "en": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+            "pt": "Foi anunciado um horário novo na semana passada, mas vários passageiros disseram que os autocarros da noite continuavam irregulares.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l03_s2"
+          },
+          {
+            "id": "b2-b2u11-l03-s3",
+            "en": "João argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "João sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l03_s3"
+          },
+          {
+            "id": "b2-b2u11-l03-s4",
+            "en": "However, Ibraimo pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Ibraimo lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l03_s4"
+          },
+          {
+            "id": "b2-b2u11-l03-s5",
+            "en": "In this unit you practise short report with clear reasons and a calm tone.",
+            "pt": "Organizar dados simples em texto.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l03_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u11-l03-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "b2-b2u11-l03_lw_0",
+              "answer": "Although Maputo has grown quickly, many people still organise the day around walking distance and shared transport.",
+              "hint": "Although"
+            },
+            {
+              "audioKey": "b2-b2u11-l03_lw_1",
+              "answer": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+              "hint": "A"
+            },
+            {
+              "audioKey": "b2-b2u11-l03_lw_2",
+              "answer": "João argued that cheaper data matters more for students than a new shopping centre.",
+              "hint": "João"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u11-l03-a2",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante one minute.",
+            "en": "Speak for one minute."
+          },
+          "items": [
+            {
+              "en": "Although Maputo has grown quickly, many people still organise the day around walking distance and shared transport.",
+              "task": "State a view, give an example, acknowledge another side.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Maputo"
+      }
+    },
+    {
+      "id": "b2-b2u11-l04",
+      "unitId": "b2u11",
+      "order": 4,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste",
+        "en": "Checkpoint"
+      },
+      "type": "checkpoint",
+      "durationMin": 10,
+      "xp": 22,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing"
+      ],
+      "objectives": [
+        "Organizar dados simples em texto.",
+        "Ler e inferir"
+      ],
+      "newWords": [
+        {
+          "en": "summarise",
+          "pt": "resumir",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l04_w_summarise",
+          "exampleEn": "Although Quelimane has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Quelimane tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "challenge",
+          "pt": "desafio",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l04_w_challenge",
+          "exampleEn": "Although Quelimane has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Quelimane tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "policy",
+          "pt": "política pública",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l04_w_policy",
+          "exampleEn": "Although Quelimane has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Quelimane tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "short",
+          "pt": "short",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l04_w_short",
+          "exampleEn": "Although Quelimane has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Quelimane tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        }
+      ],
+      "guidedReading": {
+        "title": "Short report",
+        "sentences": [
+          {
+            "id": "b2-b2u11-l04-s1",
+            "en": "Although Quelimane has grown quickly, many people still organise the day around walking distance and shared transport.",
+            "pt": "Embora Quelimane tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l04_s1"
+          },
+          {
+            "id": "b2-b2u11-l04-s2",
+            "en": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+            "pt": "Foi anunciado um horário novo na semana passada, mas vários passageiros disseram que os autocarros da noite continuavam irregulares.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l04_s2"
+          },
+          {
+            "id": "b2-b2u11-l04-s3",
+            "en": "Graça argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Graça sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l04_s3"
+          },
+          {
+            "id": "b2-b2u11-l04-s4",
+            "en": "However, Lurdes pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Lurdes lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l04_s4"
+          },
+          {
+            "id": "b2-b2u11-l04-s5",
+            "en": "In this unit you practise short report with clear reasons and a calm tone.",
+            "pt": "Organizar dados simples em texto.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l04_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u11-l04-a1",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u11-l04-a2",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "although",
+              "pt": "embora"
+            },
+            {
+              "en": "therefore",
+              "pt": "por isso"
+            },
+            {
+              "en": "claim",
+              "pt": "afirmar"
+            },
+            {
+              "en": "evidence",
+              "pt": "prova/indício"
+            },
+            {
+              "en": "report",
+              "pt": "relatar/relatório"
+            },
+            {
+              "en": "reliable",
+              "pt": "fiável"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 140
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Quelimane"
+      }
+    },
+    {
+      "id": "b2-b2u11-l05",
+      "unitId": "b2u11",
+      "order": 5,
+      "kind": "content",
+      "title": {
+        "pt": "Relatório curto: Ouvir um ponto de vista",
+        "en": "Short report: Ouvir um ponto de vista"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "speaking"
+      ],
+      "objectives": [
+        "Organizar dados simples em texto.",
+        "Ouvir um ponto de vista"
+      ],
+      "newWords": [
+        {
+          "en": "short",
+          "pt": "short",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l05_w_short",
+          "exampleEn": "Although Beira has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Beira tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "report",
+          "pt": "report",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l05_w_report",
+          "exampleEn": "Although Beira has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Beira tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "practice",
+          "pt": "practice",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l05_w_practice",
+          "exampleEn": "Although Beira has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Beira tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "example",
+          "pt": "example",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l05_w_example",
+          "exampleEn": "Although Beira has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Beira tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        }
+      ],
+      "guidedReading": {
+        "title": "Short report",
+        "sentences": [
+          {
+            "id": "b2-b2u11-l05-s1",
+            "en": "Although Beira has grown quickly, many people still organise the day around walking distance and shared transport.",
+            "pt": "Embora Beira tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l05_s1"
+          },
+          {
+            "id": "b2-b2u11-l05-s2",
+            "en": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+            "pt": "Foi anunciado um horário novo na semana passada, mas vários passageiros disseram que os autocarros da noite continuavam irregulares.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l05_s2"
+          },
+          {
+            "id": "b2-b2u11-l05-s3",
+            "en": "Paulo argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Paulo sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l05_s3"
+          },
+          {
+            "id": "b2-b2u11-l05-s4",
+            "en": "However, Nélio pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Nélio lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l05_s4"
+          },
+          {
+            "id": "b2-b2u11-l05-s5",
+            "en": "In this unit you practise short report with clear reasons and a calm tone.",
+            "pt": "Organizar dados simples em texto.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l05_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u11-l05-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "although",
+                "pt": "O que é mais próximo de «although»?"
+              },
+              "options": [
+                "embora",
+                "por isso",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "embora"
+            },
+            {
+              "question": {
+                "en": "therefore",
+                "pt": "O que é mais próximo de «therefore»?"
+              },
+              "options": [
+                "por isso",
+                "embora",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "por isso"
+            },
+            {
+              "question": {
+                "en": "claim",
+                "pt": "O que é mais próximo de «claim»?"
+              },
+              "options": [
+                "afirmar",
+                "embora",
+                "por isso",
+                "prova/indício"
+              ],
+              "answer": "afirmar"
+            },
+            {
+              "question": {
+                "en": "evidence",
+                "pt": "O que é mais próximo de «evidence»?"
+              },
+              "options": [
+                "prova/indício",
+                "embora",
+                "por isso",
+                "afirmar"
+              ],
+              "answer": "prova/indício"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u11-l05-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (embora)",
+              "answer": "although",
+              "options": [
+                "although",
+                "therefore",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (por isso)",
+              "answer": "therefore",
+              "options": [
+                "therefore",
+                "although",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (afirmar)",
+              "answer": "claim",
+              "options": [
+                "claim",
+                "although",
+                "therefore",
+                "evidence"
+              ]
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Beira"
+      }
+    },
+    {
+      "id": "b2-b2u11-l06",
+      "unitId": "b2u11",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "Relatório curto: Resumir em 2 frases",
+        "en": "Short report: Resumir em 2 frases"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Organizar dados simples em texto.",
+        "Resumir em 2 frases"
+      ],
+      "newWords": [
+        {
+          "en": "claim",
+          "pt": "afirmar",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l06_w_claim",
+          "exampleEn": "Although Pemba has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Pemba tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "evidence",
+          "pt": "prova/indício",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l06_w_evidence",
+          "exampleEn": "Although Pemba has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Pemba tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "report",
+          "pt": "relatar/relatório",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l06_w_report",
+          "exampleEn": "Although Pemba has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Pemba tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "reliable",
+          "pt": "fiável",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l06_w_reliable",
+          "exampleEn": "Although Pemba has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Pemba tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        }
+      ],
+      "guidedReading": {
+        "title": "Short report",
+        "sentences": [
+          {
+            "id": "b2-b2u11-l06-s1",
+            "en": "Although Pemba has grown quickly, many people still organise the day around walking distance and shared transport.",
+            "pt": "Embora Pemba tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l06_s1"
+          },
+          {
+            "id": "b2-b2u11-l06-s2",
+            "en": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+            "pt": "Foi anunciado um horário novo na semana passada, mas vários passageiros disseram que os autocarros da noite continuavam irregulares.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l06_s2"
+          },
+          {
+            "id": "b2-b2u11-l06-s3",
+            "en": "Ibraimo argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Ibraimo sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l06_s3"
+          },
+          {
+            "id": "b2-b2u11-l06-s4",
+            "en": "However, Esperança pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Esperança lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l06_s4"
+          },
+          {
+            "id": "b2-b2u11-l06-s5",
+            "en": "In this unit you practise short report with clear reasons and a calm tone.",
+            "pt": "Organizar dados simples em texto.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l06_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u11-l06-a1",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "Although Pemba has grown quickly, many people still organise the day around walking distance and shared transport.",
+              "answer": true
+            },
+            {
+              "sentence": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+              "answer": true
+            },
+            {
+              "sentence": "Ibraimo argued that cheaper data matters more for students than a new shopping centre.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to although.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u11-l06-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "Although",
+                "Pemba",
+                "has",
+                "grown",
+                "quickly",
+                "many",
+                "people",
+                "still"
+              ],
+              "answer": "Although Pemba has grown quickly many people still"
+            },
+            {
+              "words": [
+                "A",
+                "new",
+                "timetable",
+                "was",
+                "announced",
+                "last",
+                "week",
+                "but"
+              ],
+              "answer": "A new timetable was announced last week but"
+            },
+            {
+              "words": [
+                "Ibraimo",
+                "argued",
+                "that",
+                "cheaper",
+                "data",
+                "matters",
+                "more",
+                "for"
+              ],
+              "answer": "Ibraimo argued that cheaper data matters more for"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Pemba"
+      }
+    },
+    {
+      "id": "b2-b2u11-l07",
+      "unitId": "b2u11",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "Relatório curto: Escrever um parágrafo",
+        "en": "Short report: Escrever um parágrafo"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Organizar dados simples em texto.",
+        "Escrever um parágrafo"
+      ],
+      "newWords": [
+        {
+          "en": "reliable",
+          "pt": "fiável",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l07_w_reliable",
+          "exampleEn": "Although Tete has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Tete tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "increase",
+          "pt": "aumentar",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l07_w_increase",
+          "exampleEn": "Although Tete has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Tete tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "reduce",
+          "pt": "reduzir",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l07_w_reduce",
+          "exampleEn": "Although Tete has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Tete tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "formal",
+          "pt": "formal",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l07_w_formal",
+          "exampleEn": "Although Tete has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Tete tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        }
+      ],
+      "guidedReading": {
+        "title": "Short report",
+        "sentences": [
+          {
+            "id": "b2-b2u11-l07-s1",
+            "en": "Although Tete has grown quickly, many people still organise the day around walking distance and shared transport.",
+            "pt": "Embora Tete tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l07_s1"
+          },
+          {
+            "id": "b2-b2u11-l07-s2",
+            "en": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+            "pt": "Foi anunciado um horário novo na semana passada, mas vários passageiros disseram que os autocarros da noite continuavam irregulares.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l07_s2"
+          },
+          {
+            "id": "b2-b2u11-l07-s3",
+            "en": "Lurdes argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Lurdes sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l07_s3"
+          },
+          {
+            "id": "b2-b2u11-l07-s4",
+            "en": "However, Faruk pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Faruk lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l07_s4"
+          },
+          {
+            "id": "b2-b2u11-l07-s5",
+            "en": "In this unit you practise short report with clear reasons and a calm tone.",
+            "pt": "Organizar dados simples em texto.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l07_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u11-l07-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "b2-b2u11-l07_lw_0",
+              "answer": "Although Tete has grown quickly, many people still organise the day around walking distance and shared transport.",
+              "hint": "Although"
+            },
+            {
+              "audioKey": "b2-b2u11-l07_lw_1",
+              "answer": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+              "hint": "A"
+            },
+            {
+              "audioKey": "b2-b2u11-l07_lw_2",
+              "answer": "Lurdes argued that cheaper data matters more for students than a new shopping centre.",
+              "hint": "Lurdes"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u11-l07-a2",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante one minute.",
+            "en": "Speak for one minute."
+          },
+          "items": [
+            {
+              "en": "Although Tete has grown quickly, many people still organise the day around walking distance and shared transport.",
+              "task": "State a view, give an example, acknowledge another side.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Tete"
+      }
+    },
+    {
+      "id": "b2-b2u11-l08",
+      "unitId": "b2u11",
+      "order": 8,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste",
+        "en": "Checkpoint"
+      },
+      "type": "checkpoint",
+      "durationMin": 10,
+      "xp": 22,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing"
+      ],
+      "objectives": [
+        "Organizar dados simples em texto.",
+        "Tom formal"
+      ],
+      "newWords": [
+        {
+          "en": "formal",
+          "pt": "formal",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l08_w_formal",
+          "exampleEn": "Although Chimoio has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Chimoio tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "summarise",
+          "pt": "resumir",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l08_w_summarise",
+          "exampleEn": "Although Chimoio has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Chimoio tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "challenge",
+          "pt": "desafio",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l08_w_challenge",
+          "exampleEn": "Although Chimoio has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Chimoio tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "policy",
+          "pt": "política pública",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l08_w_policy",
+          "exampleEn": "Although Chimoio has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Chimoio tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        }
+      ],
+      "guidedReading": {
+        "title": "Short report",
+        "sentences": [
+          {
+            "id": "b2-b2u11-l08-s1",
+            "en": "Although Chimoio has grown quickly, many people still organise the day around walking distance and shared transport.",
+            "pt": "Embora Chimoio tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l08_s1"
+          },
+          {
+            "id": "b2-b2u11-l08-s2",
+            "en": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+            "pt": "Foi anunciado um horário novo na semana passada, mas vários passageiros disseram que os autocarros da noite continuavam irregulares.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l08_s2"
+          },
+          {
+            "id": "b2-b2u11-l08-s3",
+            "en": "Nélio argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Nélio sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l08_s3"
+          },
+          {
+            "id": "b2-b2u11-l08-s4",
+            "en": "However, Belmira pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Belmira lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l08_s4"
+          },
+          {
+            "id": "b2-b2u11-l08-s5",
+            "en": "In this unit you practise short report with clear reasons and a calm tone.",
+            "pt": "Organizar dados simples em texto.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l08_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u11-l08-a1",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u11-l08-a2",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "although",
+              "pt": "embora"
+            },
+            {
+              "en": "therefore",
+              "pt": "por isso"
+            },
+            {
+              "en": "claim",
+              "pt": "afirmar"
+            },
+            {
+              "en": "evidence",
+              "pt": "prova/indício"
+            },
+            {
+              "en": "report",
+              "pt": "relatar/relatório"
+            },
+            {
+              "en": "reliable",
+              "pt": "fiável"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 140
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Chimoio"
+      }
+    },
+    {
+      "id": "b2-b2u11-l09",
+      "unitId": "b2u11",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Relatório curto: Tom informal",
+        "en": "Short report: Tom informal"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Organizar dados simples em texto.",
+        "Tom informal"
+      ],
+      "newWords": [
+        {
+          "en": "policy",
+          "pt": "política pública",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l09_w_policy",
+          "exampleEn": "Although Matola has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Matola tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "short",
+          "pt": "short",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l09_w_short",
+          "exampleEn": "Although Matola has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Matola tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "report",
+          "pt": "report",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l09_w_report",
+          "exampleEn": "Although Matola has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Matola tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "practice",
+          "pt": "practice",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l09_w_practice",
+          "exampleEn": "Although Matola has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Matola tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        }
+      ],
+      "guidedReading": {
+        "title": "Short report",
+        "sentences": [
+          {
+            "id": "b2-b2u11-l09-s1",
+            "en": "Although Matola has grown quickly, many people still organise the day around walking distance and shared transport.",
+            "pt": "Embora Matola tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l09_s1"
+          },
+          {
+            "id": "b2-b2u11-l09-s2",
+            "en": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+            "pt": "Foi anunciado um horário novo na semana passada, mas vários passageiros disseram que os autocarros da noite continuavam irregulares.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l09_s2"
+          },
+          {
+            "id": "b2-b2u11-l09-s3",
+            "en": "Esperança argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Esperança sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l09_s3"
+          },
+          {
+            "id": "b2-b2u11-l09-s4",
+            "en": "However, Carlos pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Carlos lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l09_s4"
+          },
+          {
+            "id": "b2-b2u11-l09-s5",
+            "en": "In this unit you practise short report with clear reasons and a calm tone.",
+            "pt": "Organizar dados simples em texto.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l09_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u11-l09-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "although",
+                "pt": "O que é mais próximo de «although»?"
+              },
+              "options": [
+                "embora",
+                "por isso",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "embora"
+            },
+            {
+              "question": {
+                "en": "therefore",
+                "pt": "O que é mais próximo de «therefore»?"
+              },
+              "options": [
+                "por isso",
+                "embora",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "por isso"
+            },
+            {
+              "question": {
+                "en": "claim",
+                "pt": "O que é mais próximo de «claim»?"
+              },
+              "options": [
+                "afirmar",
+                "embora",
+                "por isso",
+                "prova/indício"
+              ],
+              "answer": "afirmar"
+            },
+            {
+              "question": {
+                "en": "evidence",
+                "pt": "O que é mais próximo de «evidence»?"
+              },
+              "options": [
+                "prova/indício",
+                "embora",
+                "por isso",
+                "afirmar"
+              ],
+              "answer": "prova/indício"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u11-l09-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (embora)",
+              "answer": "although",
+              "options": [
+                "although",
+                "therefore",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (por isso)",
+              "answer": "therefore",
+              "options": [
+                "therefore",
+                "although",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (afirmar)",
+              "answer": "claim",
+              "options": [
+                "claim",
+                "although",
+                "therefore",
+                "evidence"
+              ]
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Matola"
+      }
+    },
+    {
+      "id": "b2-b2u11-l10",
+      "unitId": "b2u11",
+      "order": 10,
+      "kind": "content",
+      "title": {
+        "pt": "Relatório curto: Erro subtil",
+        "en": "Short report: Erro subtil"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "speaking"
+      ],
+      "objectives": [
+        "Organizar dados simples em texto.",
+        "Erro subtil"
+      ],
+      "newWords": [
+        {
+          "en": "therefore",
+          "pt": "por isso",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l10_w_therefore",
+          "exampleEn": "Although Nacala has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Nacala tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "claim",
+          "pt": "afirmar",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l10_w_claim",
+          "exampleEn": "Although Nacala has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Nacala tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "evidence",
+          "pt": "prova/indício",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l10_w_evidence",
+          "exampleEn": "Although Nacala has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Nacala tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "report",
+          "pt": "relatar/relatório",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l10_w_report",
+          "exampleEn": "Although Nacala has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Nacala tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        }
+      ],
+      "guidedReading": {
+        "title": "Short report",
+        "sentences": [
+          {
+            "id": "b2-b2u11-l10-s1",
+            "en": "Although Nacala has grown quickly, many people still organise the day around walking distance and shared transport.",
+            "pt": "Embora Nacala tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l10_s1"
+          },
+          {
+            "id": "b2-b2u11-l10-s2",
+            "en": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+            "pt": "Foi anunciado um horário novo na semana passada, mas vários passageiros disseram que os autocarros da noite continuavam irregulares.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l10_s2"
+          },
+          {
+            "id": "b2-b2u11-l10-s3",
+            "en": "Faruk argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Faruk sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l10_s3"
+          },
+          {
+            "id": "b2-b2u11-l10-s4",
+            "en": "However, Marta pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Marta lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l10_s4"
+          },
+          {
+            "id": "b2-b2u11-l10-s5",
+            "en": "In this unit you practise short report with clear reasons and a calm tone.",
+            "pt": "Organizar dados simples em texto.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l10_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u11-l10-a1",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "Although Nacala has grown quickly, many people still organise the day around walking distance and shared transport.",
+              "answer": true
+            },
+            {
+              "sentence": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+              "answer": true
+            },
+            {
+              "sentence": "Faruk argued that cheaper data matters more for students than a new shopping centre.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to although.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u11-l10-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "Although",
+                "Nacala",
+                "has",
+                "grown",
+                "quickly",
+                "many",
+                "people",
+                "still"
+              ],
+              "answer": "Although Nacala has grown quickly many people still"
+            },
+            {
+              "words": [
+                "A",
+                "new",
+                "timetable",
+                "was",
+                "announced",
+                "last",
+                "week",
+                "but"
+              ],
+              "answer": "A new timetable was announced last week but"
+            },
+            {
+              "words": [
+                "Faruk",
+                "argued",
+                "that",
+                "cheaper",
+                "data",
+                "matters",
+                "more",
+                "for"
+              ],
+              "answer": "Faruk argued that cheaper data matters more for"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Nacala"
+      }
+    },
+    {
+      "id": "b2-b2u11-l11",
+      "unitId": "b2u11",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "Relatório curto: Caso prático",
+        "en": "Short report: Caso prático"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Organizar dados simples em texto.",
+        "Caso prático"
+      ],
+      "newWords": [
+        {
+          "en": "report",
+          "pt": "relatar/relatório",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l11_w_report",
+          "exampleEn": "Although Inhambane has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Inhambane tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "reliable",
+          "pt": "fiável",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l11_w_reliable",
+          "exampleEn": "Although Inhambane has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Inhambane tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "increase",
+          "pt": "aumentar",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l11_w_increase",
+          "exampleEn": "Although Inhambane has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Inhambane tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "reduce",
+          "pt": "reduzir",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l11_w_reduce",
+          "exampleEn": "Although Inhambane has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Inhambane tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        }
+      ],
+      "guidedReading": {
+        "title": "Short report",
+        "sentences": [
+          {
+            "id": "b2-b2u11-l11-s1",
+            "en": "Although Inhambane has grown quickly, many people still organise the day around walking distance and shared transport.",
+            "pt": "Embora Inhambane tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l11_s1"
+          },
+          {
+            "id": "b2-b2u11-l11-s2",
+            "en": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+            "pt": "Foi anunciado um horário novo na semana passada, mas vários passageiros disseram que os autocarros da noite continuavam irregulares.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l11_s2"
+          },
+          {
+            "id": "b2-b2u11-l11-s3",
+            "en": "Belmira argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Belmira sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l11_s3"
+          },
+          {
+            "id": "b2-b2u11-l11-s4",
+            "en": "However, Amina pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Amina lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l11_s4"
+          },
+          {
+            "id": "b2-b2u11-l11-s5",
+            "en": "In this unit you practise short report with clear reasons and a calm tone.",
+            "pt": "Organizar dados simples em texto.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l11_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u11-l11-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "b2-b2u11-l11_lw_0",
+              "answer": "Although Inhambane has grown quickly, many people still organise the day around walking distance and shared transport.",
+              "hint": "Although"
+            },
+            {
+              "audioKey": "b2-b2u11-l11_lw_1",
+              "answer": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+              "hint": "A"
+            },
+            {
+              "audioKey": "b2-b2u11-l11_lw_2",
+              "answer": "Belmira argued that cheaper data matters more for students than a new shopping centre.",
+              "hint": "Belmira"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u11-l11-a2",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante one minute.",
+            "en": "Speak for one minute."
+          },
+          "items": [
+            {
+              "en": "Although Inhambane has grown quickly, many people still organise the day around walking distance and shared transport.",
+              "task": "State a view, give an example, acknowledge another side.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Inhambane"
+      }
+    },
+    {
+      "id": "b2-b2u11-l12",
+      "unitId": "b2u11",
+      "order": 12,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão",
+        "en": "Review"
+      },
+      "type": "review",
+      "durationMin": 9,
+      "xp": 14,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing"
+      ],
+      "objectives": [
+        "Organizar dados simples em texto.",
+        "Dados em palavras"
+      ],
+      "newWords": [
+        {
+          "en": "reduce",
+          "pt": "reduzir",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l12_w_reduce",
+          "exampleEn": "Although Luanda has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Luanda tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "formal",
+          "pt": "formal",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l12_w_formal",
+          "exampleEn": "Although Luanda has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Luanda tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "summarise",
+          "pt": "resumir",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l12_w_summarise",
+          "exampleEn": "Although Luanda has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Luanda tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "challenge",
+          "pt": "desafio",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l12_w_challenge",
+          "exampleEn": "Although Luanda has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Luanda tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        }
+      ],
+      "guidedReading": {
+        "title": "Short report",
+        "sentences": [
+          {
+            "id": "b2-b2u11-l12-s1",
+            "en": "Although Luanda has grown quickly, many people still organise the day around walking distance and shared transport.",
+            "pt": "Embora Luanda tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l12_s1"
+          },
+          {
+            "id": "b2-b2u11-l12-s2",
+            "en": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+            "pt": "Foi anunciado um horário novo na semana passada, mas vários passageiros disseram que os autocarros da noite continuavam irregulares.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l12_s2"
+          },
+          {
+            "id": "b2-b2u11-l12-s3",
+            "en": "Carlos argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Carlos sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l12_s3"
+          },
+          {
+            "id": "b2-b2u11-l12-s4",
+            "en": "However, João pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, João lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l12_s4"
+          },
+          {
+            "id": "b2-b2u11-l12-s5",
+            "en": "In this unit you practise short report with clear reasons and a calm tone.",
+            "pt": "Organizar dados simples em texto.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l12_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u11-l12-a1",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u11-l12-a2",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "although",
+              "pt": "embora"
+            },
+            {
+              "en": "therefore",
+              "pt": "por isso"
+            },
+            {
+              "en": "claim",
+              "pt": "afirmar"
+            },
+            {
+              "en": "evidence",
+              "pt": "prova/indício"
+            },
+            {
+              "en": "report",
+              "pt": "relatar/relatório"
+            },
+            {
+              "en": "reliable",
+              "pt": "fiável"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Luanda"
+      }
+    },
+    {
+      "id": "b2-b2u11-l13",
+      "unitId": "b2u11",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Relatório curto: Discussão guiada",
+        "en": "Short report: Discussão guiada"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Organizar dados simples em texto.",
+        "Discussão guiada"
+      ],
+      "newWords": [
+        {
+          "en": "challenge",
+          "pt": "desafio",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l13_w_challenge",
+          "exampleEn": "Although Praia has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Praia tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "policy",
+          "pt": "política pública",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l13_w_policy",
+          "exampleEn": "Although Praia has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Praia tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "short",
+          "pt": "short",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l13_w_short",
+          "exampleEn": "Although Praia has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Praia tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "report",
+          "pt": "report",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l13_w_report",
+          "exampleEn": "Although Praia has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Praia tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        }
+      ],
+      "guidedReading": {
+        "title": "Short report",
+        "sentences": [
+          {
+            "id": "b2-b2u11-l13-s1",
+            "en": "Although Praia has grown quickly, many people still organise the day around walking distance and shared transport.",
+            "pt": "Embora Praia tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l13_s1"
+          },
+          {
+            "id": "b2-b2u11-l13-s2",
+            "en": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+            "pt": "Foi anunciado um horário novo na semana passada, mas vários passageiros disseram que os autocarros da noite continuavam irregulares.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l13_s2"
+          },
+          {
+            "id": "b2-b2u11-l13-s3",
+            "en": "Marta argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Marta sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l13_s3"
+          },
+          {
+            "id": "b2-b2u11-l13-s4",
+            "en": "However, Graça pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Graça lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l13_s4"
+          },
+          {
+            "id": "b2-b2u11-l13-s5",
+            "en": "In this unit you practise short report with clear reasons and a calm tone.",
+            "pt": "Organizar dados simples em texto.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l13_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u11-l13-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o sentido mais próximo.",
+            "en": "Choose the closest meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "although",
+                "pt": "O que é mais próximo de «although»?"
+              },
+              "options": [
+                "embora",
+                "por isso",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "embora"
+            },
+            {
+              "question": {
+                "en": "therefore",
+                "pt": "O que é mais próximo de «therefore»?"
+              },
+              "options": [
+                "por isso",
+                "embora",
+                "afirmar",
+                "prova/indício"
+              ],
+              "answer": "por isso"
+            },
+            {
+              "question": {
+                "en": "claim",
+                "pt": "O que é mais próximo de «claim»?"
+              },
+              "options": [
+                "afirmar",
+                "embora",
+                "por isso",
+                "prova/indício"
+              ],
+              "answer": "afirmar"
+            },
+            {
+              "question": {
+                "en": "evidence",
+                "pt": "O que é mais próximo de «evidence»?"
+              },
+              "options": [
+                "prova/indício",
+                "embora",
+                "por isso",
+                "afirmar"
+              ],
+              "answer": "prova/indício"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u11-l13-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa com a palavra da lição.",
+            "en": "Complete with a word from the lesson."
+          },
+          "items": [
+            {
+              "sentence": "In this lesson we focus on _____. (embora)",
+              "answer": "although",
+              "options": [
+                "although",
+                "therefore",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (por isso)",
+              "answer": "therefore",
+              "options": [
+                "therefore",
+                "although",
+                "claim",
+                "evidence"
+              ]
+            },
+            {
+              "sentence": "In this lesson we focus on _____. (afirmar)",
+              "answer": "claim",
+              "options": [
+                "claim",
+                "although",
+                "therefore",
+                "evidence"
+              ]
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Praia"
+      }
+    },
+    {
+      "id": "b2-b2u11-l14",
+      "unitId": "b2u11",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Relatório curto: Reescrita",
+        "en": "Short report: Reescrita"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Organizar dados simples em texto.",
+        "Reescrita"
+      ],
+      "newWords": [
+        {
+          "en": "although",
+          "pt": "embora",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l14_w_although",
+          "exampleEn": "Although Nampula has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Nampula tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "therefore",
+          "pt": "por isso",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l14_w_therefore",
+          "exampleEn": "Although Nampula has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Nampula tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "claim",
+          "pt": "afirmar",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l14_w_claim",
+          "exampleEn": "Although Nampula has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Nampula tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "evidence",
+          "pt": "prova/indício",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l14_w_evidence",
+          "exampleEn": "Although Nampula has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Nampula tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        }
+      ],
+      "guidedReading": {
+        "title": "Short report",
+        "sentences": [
+          {
+            "id": "b2-b2u11-l14-s1",
+            "en": "Although Nampula has grown quickly, many people still organise the day around walking distance and shared transport.",
+            "pt": "Embora Nampula tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l14_s1"
+          },
+          {
+            "id": "b2-b2u11-l14-s2",
+            "en": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+            "pt": "Foi anunciado um horário novo na semana passada, mas vários passageiros disseram que os autocarros da noite continuavam irregulares.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l14_s2"
+          },
+          {
+            "id": "b2-b2u11-l14-s3",
+            "en": "Amina argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Amina sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l14_s3"
+          },
+          {
+            "id": "b2-b2u11-l14-s4",
+            "en": "However, Paulo pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Paulo lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l14_s4"
+          },
+          {
+            "id": "b2-b2u11-l14-s5",
+            "en": "In this unit you practise short report with clear reasons and a calm tone.",
+            "pt": "Organizar dados simples em texto.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l14_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u11-l14-a1",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso em relação ao texto.",
+            "en": "True or false based on the text."
+          },
+          "items": [
+            {
+              "sentence": "Although Nampula has grown quickly, many people still organise the day around walking distance and shared transport.",
+              "answer": true
+            },
+            {
+              "sentence": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+              "answer": true
+            },
+            {
+              "sentence": "Amina argued that cheaper data matters more for students than a new shopping centre.",
+              "answer": true
+            },
+            {
+              "sentence": "This unit is unrelated to although.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u11-l14-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Reconstrói a frase.",
+            "en": "Rebuild the sentence."
+          },
+          "items": [
+            {
+              "words": [
+                "Although",
+                "Nampula",
+                "has",
+                "grown",
+                "quickly",
+                "many",
+                "people",
+                "still"
+              ],
+              "answer": "Although Nampula has grown quickly many people still"
+            },
+            {
+              "words": [
+                "A",
+                "new",
+                "timetable",
+                "was",
+                "announced",
+                "last",
+                "week",
+                "but"
+              ],
+              "answer": "A new timetable was announced last week but"
+            },
+            {
+              "words": [
+                "Amina",
+                "argued",
+                "that",
+                "cheaper",
+                "data",
+                "matters",
+                "more",
+                "for"
+              ],
+              "answer": "Amina argued that cheaper data matters more for"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Nampula"
+      }
+    },
+    {
+      "id": "b2-b2u11-l15",
+      "unitId": "b2u11",
+      "order": 15,
+      "kind": "content",
+      "title": {
+        "pt": "Relatório curto: Mini-teste",
+        "en": "Short report: Mini-teste"
+      },
+      "type": "content",
+      "durationMin": 8,
+      "xp": 12,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "speaking"
+      ],
+      "objectives": [
+        "Organizar dados simples em texto.",
+        "Mini-teste"
+      ],
+      "newWords": [
+        {
+          "en": "evidence",
+          "pt": "prova/indício",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l15_w_evidence",
+          "exampleEn": "Although Maputo has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Maputo tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "report",
+          "pt": "relatar/relatório",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l15_w_report",
+          "exampleEn": "Although Maputo has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Maputo tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "reliable",
+          "pt": "fiável",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l15_w_reliable",
+          "exampleEn": "Although Maputo has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Maputo tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "increase",
+          "pt": "aumentar",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l15_w_increase",
+          "exampleEn": "Although Maputo has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Maputo tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        }
+      ],
+      "guidedReading": {
+        "title": "Short report",
+        "sentences": [
+          {
+            "id": "b2-b2u11-l15-s1",
+            "en": "Although Maputo has grown quickly, many people still organise the day around walking distance and shared transport.",
+            "pt": "Embora Maputo tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l15_s1"
+          },
+          {
+            "id": "b2-b2u11-l15-s2",
+            "en": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+            "pt": "Foi anunciado um horário novo na semana passada, mas vários passageiros disseram que os autocarros da noite continuavam irregulares.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l15_s2"
+          },
+          {
+            "id": "b2-b2u11-l15-s3",
+            "en": "João argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "João sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l15_s3"
+          },
+          {
+            "id": "b2-b2u11-l15-s4",
+            "en": "However, Ibraimo pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Ibraimo lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l15_s4"
+          },
+          {
+            "id": "b2-b2u11-l15-s5",
+            "en": "In this unit you practise short report with clear reasons and a calm tone.",
+            "pt": "Organizar dados simples em texto.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l15_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u11-l15-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve a frase.",
+            "en": "Listen and write the sentence."
+          },
+          "items": [
+            {
+              "audioKey": "b2-b2u11-l15_lw_0",
+              "answer": "Although Maputo has grown quickly, many people still organise the day around walking distance and shared transport.",
+              "hint": "Although"
+            },
+            {
+              "audioKey": "b2-b2u11-l15_lw_1",
+              "answer": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+              "hint": "A"
+            },
+            {
+              "audioKey": "b2-b2u11-l15_lw_2",
+              "answer": "João argued that cheaper data matters more for students than a new shopping centre.",
+              "hint": "João"
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u11-l15-a2",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Fala durante one minute.",
+            "en": "Speak for one minute."
+          },
+          "items": [
+            {
+              "en": "Although Maputo has grown quickly, many people still organise the day around walking distance and shared transport.",
+              "task": "State a view, give an example, acknowledge another side.",
+              "rubric": "Clareza vale mais do que sotaque nativo."
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 80
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Maputo"
+      }
+    },
+    {
+      "id": "b2-b2u11-l16",
+      "unitId": "b2u11",
+      "order": 16,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste — Relatório curto",
+        "en": "Unit Test"
+      },
+      "type": "unit_test",
+      "durationMin": 14,
+      "xp": 40,
+      "skills": [
+        "reading",
+        "listening",
+        "vocabulary",
+        "writing"
+      ],
+      "objectives": [
+        "Organizar dados simples em texto.",
+        "Fecho da unidade"
+      ],
+      "newWords": [
+        {
+          "en": "increase",
+          "pt": "aumentar",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l16_w_increase",
+          "exampleEn": "Although Quelimane has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Quelimane tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "reduce",
+          "pt": "reduzir",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l16_w_reduce",
+          "exampleEn": "Although Quelimane has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Quelimane tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "formal",
+          "pt": "formal",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l16_w_formal",
+          "exampleEn": "Although Quelimane has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Quelimane tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        },
+        {
+          "en": "summarise",
+          "pt": "resumir",
+          "ipa": "",
+          "audioKey": "b2-b2u11-l16_w_summarise",
+          "exampleEn": "Although Quelimane has grown quickly, many people still organise the day around walking distance and shared transport.",
+          "examplePt": "Embora Quelimane tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado."
+        }
+      ],
+      "guidedReading": {
+        "title": "Short report",
+        "sentences": [
+          {
+            "id": "b2-b2u11-l16-s1",
+            "en": "Although Quelimane has grown quickly, many people still organise the day around walking distance and shared transport.",
+            "pt": "Embora Quelimane tenha crescido depressa, muita gente ainda organiza o dia em função da distância a pé e do transporte partilhado.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l16_s1"
+          },
+          {
+            "id": "b2-b2u11-l16-s2",
+            "en": "A new timetable was announced last week, but several passengers said the evening buses were still irregular.",
+            "pt": "Foi anunciado um horário novo na semana passada, mas vários passageiros disseram que os autocarros da noite continuavam irregulares.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l16_s2"
+          },
+          {
+            "id": "b2-b2u11-l16-s3",
+            "en": "Graça argued that cheaper data matters more for students than a new shopping centre.",
+            "pt": "Graça sustentou que dados mais baratos importam mais para os estudantes do que um centro comercial novo.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l16_s3"
+          },
+          {
+            "id": "b2-b2u11-l16-s4",
+            "en": "However, Lurdes pointed out that local shops also need customers in the evening.",
+            "pt": "Contudo, Lurdes lembrou que as lojas do bairro também precisam de clientes à noite.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l16_s4"
+          },
+          {
+            "id": "b2-b2u11-l16-s5",
+            "en": "In this unit you practise short report with clear reasons and a calm tone.",
+            "pt": "Organizar dados simples em texto.",
+            "ipa": "",
+            "audioKey": "b2-b2u11-l16_s5"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "b2-b2u11-l16-a1",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta adequada.",
+            "en": "Choose a suitable reply."
+          },
+          "items": [
+            {
+              "line": "Shall we meet after work?",
+              "options": [
+                "Yes, at five near the market.",
+                "I am a river.",
+                "Because Thursday."
+              ],
+              "answer": "Yes, at five near the market."
+            },
+            {
+              "line": "What do you think about the new timetable?",
+              "options": [
+                "I think it helps in the morning.",
+                "My shoe is blue tomorrow.",
+                "Close the mango."
+              ],
+              "answer": "I think it helps in the morning."
+            }
+          ]
+        },
+        {
+          "id": "b2-b2u11-l16-a2",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga inglês e português.",
+            "en": "Match English and Portuguese."
+          },
+          "items": [
+            {
+              "en": "although",
+              "pt": "embora"
+            },
+            {
+              "en": "therefore",
+              "pt": "por isso"
+            },
+            {
+              "en": "claim",
+              "pt": "afirmar"
+            },
+            {
+              "en": "evidence",
+              "pt": "prova/indício"
+            },
+            {
+              "en": "report",
+              "pt": "relatar/relatório"
+            },
+            {
+              "en": "reliable",
+              "pt": "fiável"
+            }
+          ]
+        }
+      ],
+      "writingPrompt": {
+        "pt": "Escreve 5–12 linhas com uma ideia e um exemplo da tua vida.",
+        "en": "Write 5–12 lines with one idea and one example from your life.",
+        "minWords": 140
+      },
+      "localeNotes": {
+        "principle": "Local detail only when the situation is local. International English otherwise.",
+        "settingHint": "Quelimane"
+      }
+    }
+  ]
+}

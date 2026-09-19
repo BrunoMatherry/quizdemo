@@ -1,0 +1,68 @@
+{
+  "app": "Inglés África Lusófona",
+  "mission": "Best English app for Lusophone Africa — original content, Cambridge-shaped skills, local life without costume.",
+  "ui": "pt-MZ",
+  "target": "en",
+  "levels": [
+    {
+      "id": "A1",
+      "file": "a1/manifest.json",
+      "cambridgeNeighbour": "Pre-A1 Starters / A1 Movers",
+      "stats": {
+        "units": 25,
+        "lessons": 500,
+        "activities": 1075,
+        "guidedSentences": 1888
+      }
+    },
+    {
+      "id": "A2",
+      "file": "a2/manifest.json",
+      "cambridgeNeighbour": "A2 Key for Schools (inspired, not copied)",
+      "stats": {
+        "units": 20,
+        "lessons": 400,
+        "activities": 800,
+        "guidedSentences": 1600
+      }
+    },
+    {
+      "id": "B1",
+      "file": "b1/manifest.json",
+      "cambridgeNeighbour": "B1 Preliminary for Schools (inspired by handbook structure)",
+      "stats": {
+        "units": 20,
+        "lessons": 400,
+        "activities": 800,
+        "guidedSentences": 1600
+      }
+    },
+    {
+      "id": "B2",
+      "file": "b2/manifest.json",
+      "cambridgeNeighbour": "B2 First (inspired task types)",
+      "stats": {
+        "units": 16,
+        "lessons": 256,
+        "activities": 512,
+        "guidedSentences": 1264
+      }
+    },
+    {
+      "id": "C1",
+      "file": "c1/manifest.json",
+      "cambridgeNeighbour": "C1 Advanced (inspired skills, original texts)",
+      "stats": {
+        "units": 12,
+        "lessons": 192,
+        "activities": 384,
+        "guidedSentences": 944
+      }
+    }
+  ],
+  "totals": {
+    "lessons": 1748,
+    "units": 93,
+    "activities": 3571
+  }
+}

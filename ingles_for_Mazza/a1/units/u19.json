@@ -1,0 +1,3484 @@
+{
+  "id": "u19",
+  "level": "A1",
+  "order": 19,
+  "title": {
+    "pt": "Natureza",
+    "en": "Nature"
+  },
+  "goal": "Animais, mar, parque e o país.",
+  "themeImageHint": "Nature",
+  "lessonCount": 20,
+  "lessons": [
+    {
+      "id": "a1-u19-l01",
+      "unitId": "u19",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "Animais de Moçambique",
+        "en": "Animais de Moçambique"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Animais, mar, parque e o país.",
+        "Animais de Moçambique"
+      ],
+      "newWords": [
+        {
+          "en": "animal",
+          "pt": "animal",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l01_w_animal",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "lion",
+          "pt": "leão",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l01_w_lion",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "elephant",
+          "pt": "elefante",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l01_w_elephant",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "bird",
+          "pt": "pássaro",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l01_w_bird",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Animais de Moçambique",
+        "sentences": [
+          {
+            "id": "a1-u19-l01-s1",
+            "en": "Amina lives in Maputo.",
+            "pt": "Amina mora em Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l01_s1"
+          },
+          {
+            "id": "a1-u19-l01-s2",
+            "en": "Today the lesson is Animais de Moçambique.",
+            "pt": "Hoje a lição é: Animais de Moçambique.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l01_s2"
+          },
+          {
+            "id": "a1-u19-l01-s3",
+            "en": "We learn 'animal' and 'lion'.",
+            "pt": "Aprendemos «animal» e «leão».",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l01_s3"
+          },
+          {
+            "id": "a1-u19-l01-s4",
+            "en": "Amina says: I use 'bird' every day.",
+            "pt": "Amina diz: uso «pássaro» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l01_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u19-l01-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u19-l01_repeat",
+          "items": [
+            {
+              "en": "Amina lives in Maputo.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l01-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "animal",
+                "pt": "O que significa «animal»?"
+              },
+              "options": [
+                "animal",
+                "elefante",
+                "peixe",
+                "rio"
+              ],
+              "answer": "animal"
+            },
+            {
+              "question": {
+                "en": "lion",
+                "pt": "O que significa «lion»?"
+              },
+              "options": [
+                "leão",
+                "pássaro",
+                "árvore",
+                "mar"
+              ],
+              "answer": "leão"
+            },
+            {
+              "question": {
+                "en": "elephant",
+                "pt": "O que significa «elephant»?"
+              },
+              "options": [
+                "elefante",
+                "peixe",
+                "rio",
+                "parque"
+              ],
+              "answer": "elefante"
+            },
+            {
+              "question": {
+                "en": "bird",
+                "pt": "O que significa «bird»?"
+              },
+              "options": [
+                "pássaro",
+                "árvore",
+                "mar",
+                "montanha"
+              ],
+              "answer": "pássaro"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-l02",
+      "unitId": "u19",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "O elefante",
+        "en": "O elefante"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Animais, mar, parque e o país.",
+        "O elefante"
+      ],
+      "newWords": [
+        {
+          "en": "bird",
+          "pt": "pássaro",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l02_w_bird",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "fish",
+          "pt": "peixe",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l02_w_fish",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "tree",
+          "pt": "árvore",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l02_w_tree",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "river",
+          "pt": "rio",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l02_w_river",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "O elefante",
+        "sentences": [
+          {
+            "id": "a1-u19-l02-s1",
+            "en": "João lives in Matola.",
+            "pt": "João mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l02_s1"
+          },
+          {
+            "id": "a1-u19-l02-s2",
+            "en": "Today the lesson is O elefante.",
+            "pt": "Hoje a lição é: O elefante.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l02_s2"
+          },
+          {
+            "id": "a1-u19-l02-s3",
+            "en": "We learn 'lion' and 'elephant'.",
+            "pt": "Aprendemos «leão» e «elefante».",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l02_s3"
+          },
+          {
+            "id": "a1-u19-l02-s4",
+            "en": "João says: I use 'fish' every day.",
+            "pt": "João diz: uso «peixe» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l02_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u19-l02-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "animal",
+              "options": [
+                "animal",
+                "lion",
+                "elephant",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "lion",
+              "options": [
+                "lion",
+                "elephant",
+                "bird",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "elephant",
+              "options": [
+                "elephant",
+                "bird",
+                "fish",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-l03",
+      "unitId": "u19",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "O leão",
+        "en": "O leão"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Animais, mar, parque e o país.",
+        "O leão"
+      ],
+      "newWords": [
+        {
+          "en": "river",
+          "pt": "rio",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l03_w_river",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "sea",
+          "pt": "mar",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l03_w_sea",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "park",
+          "pt": "parque",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l03_w_park",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "mountain",
+          "pt": "montanha",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l03_w_mountain",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        }
+      ],
+      "guidedReading": {
+        "title": "O leão",
+        "sentences": [
+          {
+            "id": "a1-u19-l03-s1",
+            "en": "Fátima lives in Xai-Xai.",
+            "pt": "Fátima mora em Xai-Xai.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l03_s1"
+          },
+          {
+            "id": "a1-u19-l03-s2",
+            "en": "Today the lesson is O leão.",
+            "pt": "Hoje a lição é: O leão.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l03_s2"
+          },
+          {
+            "id": "a1-u19-l03-s3",
+            "en": "We learn 'elephant' and 'bird'.",
+            "pt": "Aprendemos «elefante» e «pássaro».",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l03_s3"
+          },
+          {
+            "id": "a1-u19-l03-s4",
+            "en": "Fátima says: I use 'tree' every day.",
+            "pt": "Fátima diz: uso «árvore» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l03_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u19-l03-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "animal",
+              "pt": "animal"
+            },
+            {
+              "en": "lion",
+              "pt": "leão"
+            },
+            {
+              "en": "elephant",
+              "pt": "elefante"
+            },
+            {
+              "en": "bird",
+              "pt": "pássaro"
+            },
+            {
+              "en": "fish",
+              "pt": "peixe"
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l03-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'animal' in Portuguese is 'animal'.",
+              "answer": true
+            },
+            {
+              "sentence": "'animal' means 'pássaro'.",
+              "answer": false
+            },
+            {
+              "sentence": "'lion' in Portuguese is 'leão'.",
+              "answer": true
+            },
+            {
+              "sentence": "'lion' means 'peixe'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-l04",
+      "unitId": "u19",
+      "order": 4,
+      "kind": "content",
+      "title": {
+        "pt": "Pássaros e peixes",
+        "en": "Pássaros e peixes"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Animais, mar, parque e o país.",
+        "Pássaros e peixes"
+      ],
+      "newWords": [
+        {
+          "en": "mountain",
+          "pt": "montanha",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l04_w_mountain",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "beautiful",
+          "pt": "bonito",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l04_w_beautiful",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "big",
+          "pt": "grande",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l04_w_big",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "small",
+          "pt": "pequeno",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l04_w_small",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Pássaros e peixes",
+        "sentences": [
+          {
+            "id": "a1-u19-l04-s1",
+            "en": "Carlos lives in Inhambane.",
+            "pt": "Carlos mora em Inhambane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l04_s1"
+          },
+          {
+            "id": "a1-u19-l04-s2",
+            "en": "Today the lesson is Pássaros e peixes.",
+            "pt": "Hoje a lição é: Pássaros e peixes.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l04_s2"
+          },
+          {
+            "id": "a1-u19-l04-s3",
+            "en": "We learn 'bird' and 'fish'.",
+            "pt": "Aprendemos «pássaro» e «peixe».",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l04_s3"
+          },
+          {
+            "id": "a1-u19-l04-s4",
+            "en": "Carlos says: I use 'river' every day.",
+            "pt": "Carlos diz: uso «rio» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l04_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u19-l04-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u19-l04_lw_carlos-is-in-beira",
+              "answer": "Carlos is in Beira. animal.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u19-l04_lw_carlos-is-in-beira",
+              "answer": "Carlos is in Beira. lion.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u19-l04_lw_carlos-is-in-beira",
+              "answer": "Carlos is in Beira. elephant.",
+              "hint": "Carlos"
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l04-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "animal"
+              ],
+              "answer": "I need animal"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "lion"
+              ],
+              "answer": "I need lion"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "elephant"
+              ],
+              "answer": "I need elephant"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-l05",
+      "unitId": "u19",
+      "order": 5,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 1",
+        "en": "Checkpoint quiz 1"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Animais, mar, parque e o país.",
+        "Mini-teste 1"
+      ],
+      "newWords": [
+        {
+          "en": "small",
+          "pt": "pequeno",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l05_w_small",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 1",
+        "sentences": [
+          {
+            "id": "a1-u19-l05-s1",
+            "en": "Let’s review. Graça is from Vilankulo.",
+            "pt": "Vamos rever. Graça é de Vilankulo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l05_s1"
+          },
+          {
+            "id": "a1-u19-l05-s2",
+            "en": "This unit is about Nature.",
+            "pt": "Esta unidade é sobre Natureza.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l05_s2"
+          },
+          {
+            "id": "a1-u19-l05-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l05_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u19-l05-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "animal",
+                "pt": "O que significa «animal»?"
+              },
+              "options": [
+                "animal",
+                "elefante",
+                "peixe",
+                "rio"
+              ],
+              "answer": "animal"
+            },
+            {
+              "question": {
+                "en": "lion",
+                "pt": "O que significa «lion»?"
+              },
+              "options": [
+                "leão",
+                "pássaro",
+                "árvore",
+                "mar"
+              ],
+              "answer": "leão"
+            },
+            {
+              "question": {
+                "en": "elephant",
+                "pt": "O que significa «elephant»?"
+              },
+              "options": [
+                "elefante",
+                "peixe",
+                "rio",
+                "parque"
+              ],
+              "answer": "elefante"
+            },
+            {
+              "question": {
+                "en": "bird",
+                "pt": "O que significa «bird»?"
+              },
+              "options": [
+                "pássaro",
+                "árvore",
+                "mar",
+                "montanha"
+              ],
+              "answer": "pássaro"
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l05-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "animal",
+              "options": [
+                "animal",
+                "lion",
+                "elephant",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "lion",
+              "options": [
+                "lion",
+                "elephant",
+                "bird",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "elephant",
+              "options": [
+                "elephant",
+                "bird",
+                "fish",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l05-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u19-l05_lw_carlos-is-in-beira",
+              "answer": "Carlos is in Beira. animal.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u19-l05_lw_carlos-is-in-beira",
+              "answer": "Carlos is in Beira. lion.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u19-l05_lw_carlos-is-in-beira",
+              "answer": "Carlos is in Beira. elephant.",
+              "hint": "Carlos"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-l06",
+      "unitId": "u19",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "O rio Zambeze",
+        "en": "O rio Zambeze"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Animais, mar, parque e o país.",
+        "O rio Zambeze"
+      ],
+      "newWords": [
+        {
+          "en": "elephant",
+          "pt": "elefante",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l06_w_elephant",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "bird",
+          "pt": "pássaro",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l06_w_bird",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "fish",
+          "pt": "peixe",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l06_w_fish",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "tree",
+          "pt": "árvore",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l06_w_tree",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "O rio Zambeze",
+        "sentences": [
+          {
+            "id": "a1-u19-l06-s1",
+            "en": "Ibraimo lives in Beira.",
+            "pt": "Ibraimo mora em Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l06_s1"
+          },
+          {
+            "id": "a1-u19-l06-s2",
+            "en": "Today the lesson is O Índico.",
+            "pt": "Hoje a lição é: O Índico.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l06_s2"
+          },
+          {
+            "id": "a1-u19-l06-s3",
+            "en": "We learn 'tree' and 'river'.",
+            "pt": "Aprendemos «árvore» e «rio».",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l06_s3"
+          },
+          {
+            "id": "a1-u19-l06-s4",
+            "en": "Ibraimo says: I use 'park' every day.",
+            "pt": "Ibraimo diz: uso «parque» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l06_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u19-l06-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Ibraimo lives in Beira.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l06-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "animal",
+                "pt": "O que significa «animal»?"
+              },
+              "options": [
+                "animal",
+                "elefante",
+                "peixe",
+                "rio"
+              ],
+              "answer": "animal"
+            },
+            {
+              "question": {
+                "en": "lion",
+                "pt": "O que significa «lion»?"
+              },
+              "options": [
+                "leão",
+                "pássaro",
+                "árvore",
+                "mar"
+              ],
+              "answer": "leão"
+            },
+            {
+              "question": {
+                "en": "elephant",
+                "pt": "O que significa «elephant»?"
+              },
+              "options": [
+                "elefante",
+                "peixe",
+                "rio",
+                "parque"
+              ],
+              "answer": "elefante"
+            },
+            {
+              "question": {
+                "en": "bird",
+                "pt": "O que significa «bird»?"
+              },
+              "options": [
+                "pássaro",
+                "árvore",
+                "mar",
+                "montanha"
+              ],
+              "answer": "pássaro"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-l07",
+      "unitId": "u19",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "O Índico",
+        "en": "O Índico"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Animais, mar, parque e o país.",
+        "O Índico"
+      ],
+      "newWords": [
+        {
+          "en": "tree",
+          "pt": "árvore",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l07_w_tree",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "river",
+          "pt": "rio",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l07_w_river",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "sea",
+          "pt": "mar",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l07_w_sea",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "park",
+          "pt": "parque",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l07_w_park",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        }
+      ],
+      "guidedReading": {
+        "title": "O Índico",
+        "sentences": [
+          {
+            "id": "a1-u19-l07-s1",
+            "en": "Esperança lives in Chimoio.",
+            "pt": "Esperança mora em Chimoio.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l07_s1"
+          },
+          {
+            "id": "a1-u19-l07-s2",
+            "en": "Today the lesson is Gorongosa.",
+            "pt": "Hoje a lição é: Gorongosa.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l07_s2"
+          },
+          {
+            "id": "a1-u19-l07-s3",
+            "en": "We learn 'river' and 'sea'.",
+            "pt": "Aprendemos «rio» e «mar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l07_s3"
+          },
+          {
+            "id": "a1-u19-l07-s4",
+            "en": "Esperança says: I use 'mountain' every day.",
+            "pt": "Esperança diz: uso «montanha» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l07_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u19-l07-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u19-l07_repeat",
+          "items": [
+            {
+              "en": "Esperança lives in Chimoio.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l07-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "animal",
+                "pt": "O que significa «animal»?"
+              },
+              "options": [
+                "animal",
+                "elefante",
+                "peixe",
+                "rio"
+              ],
+              "answer": "animal"
+            },
+            {
+              "question": {
+                "en": "lion",
+                "pt": "O que significa «lion»?"
+              },
+              "options": [
+                "leão",
+                "pássaro",
+                "árvore",
+                "mar"
+              ],
+              "answer": "leão"
+            },
+            {
+              "question": {
+                "en": "elephant",
+                "pt": "O que significa «elephant»?"
+              },
+              "options": [
+                "elefante",
+                "peixe",
+                "rio",
+                "parque"
+              ],
+              "answer": "elefante"
+            },
+            {
+              "question": {
+                "en": "bird",
+                "pt": "O que significa «bird»?"
+              },
+              "options": [
+                "pássaro",
+                "árvore",
+                "mar",
+                "montanha"
+              ],
+              "answer": "pássaro"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-l08",
+      "unitId": "u19",
+      "order": 8,
+      "kind": "content",
+      "title": {
+        "pt": "Gorongosa",
+        "en": "Gorongosa"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Animais, mar, parque e o país.",
+        "Gorongosa"
+      ],
+      "newWords": [
+        {
+          "en": "park",
+          "pt": "parque",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l08_w_park",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "mountain",
+          "pt": "montanha",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l08_w_mountain",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "beautiful",
+          "pt": "bonito",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l08_w_beautiful",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "big",
+          "pt": "grande",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l08_w_big",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        }
+      ],
+      "guidedReading": {
+        "title": "Gorongosa",
+        "sentences": [
+          {
+            "id": "a1-u19-l08-s1",
+            "en": "Paulo lives in Tete.",
+            "pt": "Paulo mora em Tete.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l08_s1"
+          },
+          {
+            "id": "a1-u19-l08-s2",
+            "en": "Today the lesson is Bazaruto.",
+            "pt": "Hoje a lição é: Bazaruto.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l08_s2"
+          },
+          {
+            "id": "a1-u19-l08-s3",
+            "en": "We learn 'sea' and 'park'.",
+            "pt": "Aprendemos «mar» e «parque».",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l08_s3"
+          },
+          {
+            "id": "a1-u19-l08-s4",
+            "en": "Paulo says: I use 'beautiful' every day.",
+            "pt": "Paulo diz: uso «bonito» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l08_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u19-l08-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "animal",
+              "options": [
+                "animal",
+                "lion",
+                "elephant",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "lion",
+              "options": [
+                "lion",
+                "elephant",
+                "bird",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "elephant",
+              "options": [
+                "elephant",
+                "bird",
+                "fish",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-l09",
+      "unitId": "u19",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Bazaruto",
+        "en": "Bazaruto"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Animais, mar, parque e o país.",
+        "Bazaruto"
+      ],
+      "newWords": [
+        {
+          "en": "big",
+          "pt": "grande",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l09_w_big",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "small",
+          "pt": "pequeno",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l09_w_small",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Bazaruto",
+        "sentences": [
+          {
+            "id": "a1-u19-l09-s1",
+            "en": "Belmira lives in Quelimane.",
+            "pt": "Belmira mora em Quelimane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l09_s1"
+          },
+          {
+            "id": "a1-u19-l09-s2",
+            "en": "Today the lesson is Árvores e coco.",
+            "pt": "Hoje a lição é: Árvores e coco.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l09_s2"
+          },
+          {
+            "id": "a1-u19-l09-s3",
+            "en": "We learn 'park' and 'mountain'.",
+            "pt": "Aprendemos «parque» e «montanha».",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l09_s3"
+          },
+          {
+            "id": "a1-u19-l09-s4",
+            "en": "Belmira says: I use 'big' every day.",
+            "pt": "Belmira diz: uso «grande» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l09_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u19-l09-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "animal",
+              "pt": "animal"
+            },
+            {
+              "en": "lion",
+              "pt": "leão"
+            },
+            {
+              "en": "elephant",
+              "pt": "elefante"
+            },
+            {
+              "en": "bird",
+              "pt": "pássaro"
+            },
+            {
+              "en": "fish",
+              "pt": "peixe"
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l09-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'animal' in Portuguese is 'animal'.",
+              "answer": true
+            },
+            {
+              "sentence": "'animal' means 'pássaro'.",
+              "answer": false
+            },
+            {
+              "sentence": "'lion' in Portuguese is 'leão'.",
+              "answer": true
+            },
+            {
+              "sentence": "'lion' means 'peixe'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-l10",
+      "unitId": "u19",
+      "order": 10,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão guiada",
+        "en": "Guided review"
+      },
+      "type": "review",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectives": [
+        "Animais, mar, parque e o país.",
+        "Revisão guiada"
+      ],
+      "newWords": [
+        {
+          "en": "lion",
+          "pt": "leão",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l10_w_lion",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "elephant",
+          "pt": "elefante",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l10_w_elephant",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "bird",
+          "pt": "pássaro",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l10_w_bird",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "fish",
+          "pt": "peixe",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l10_w_fish",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        }
+      ],
+      "guidedReading": {
+        "title": "Guided review",
+        "sentences": [
+          {
+            "id": "a1-u19-l10-s1",
+            "en": "Let’s review. Nélio is from Nampula.",
+            "pt": "Vamos rever. Nélio é de Nampula.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l10_s1"
+          },
+          {
+            "id": "a1-u19-l10-s2",
+            "en": "This unit is about Nature.",
+            "pt": "Esta unidade é sobre Natureza.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l10_s2"
+          },
+          {
+            "id": "a1-u19-l10-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l10_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u19-l10-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u19-l10_lw_carlos-is-in-beira",
+              "answer": "Carlos is in Beira. animal.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u19-l10_lw_carlos-is-in-beira",
+              "answer": "Carlos is in Beira. lion.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u19-l10_lw_carlos-is-in-beira",
+              "answer": "Carlos is in Beira. elephant.",
+              "hint": "Carlos"
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l10-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "animal"
+              ],
+              "answer": "I need animal"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "lion"
+              ],
+              "answer": "I need lion"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "elephant"
+              ],
+              "answer": "I need elephant"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-l11",
+      "unitId": "u19",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "Árvores e coco",
+        "en": "Árvores e coco"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Animais, mar, parque e o país.",
+        "Árvores e coco"
+      ],
+      "newWords": [
+        {
+          "en": "fish",
+          "pt": "peixe",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l11_w_fish",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "tree",
+          "pt": "árvore",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l11_w_tree",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "river",
+          "pt": "rio",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l11_w_river",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "sea",
+          "pt": "mar",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l11_w_sea",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        }
+      ],
+      "guidedReading": {
+        "title": "Árvores e coco",
+        "sentences": [
+          {
+            "id": "a1-u19-l11-s1",
+            "en": "Lurdes lives in Nacala.",
+            "pt": "Lurdes mora em Nacala.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l11_s1"
+          },
+          {
+            "id": "a1-u19-l11-s2",
+            "en": "Today the lesson is Diálogo: no parque.",
+            "pt": "Hoje a lição é: Diálogo: no parque.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l11_s2"
+          },
+          {
+            "id": "a1-u19-l11-s3",
+            "en": "We learn 'beautiful' and 'big'.",
+            "pt": "Aprendemos «bonito» e «grande».",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l11_s3"
+          },
+          {
+            "id": "a1-u19-l11-s4",
+            "en": "Lurdes says: I use 'animal' every day.",
+            "pt": "Lurdes diz: uso «animal» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l11_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u19-l11-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u19-l11_tap",
+          "items": [
+            {
+              "answer": "animal",
+              "options": [
+                "animal",
+                "lion",
+                "elephant",
+                "bird"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l11-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-l12",
+      "unitId": "u19",
+      "order": 12,
+      "kind": "content",
+      "title": {
+        "pt": "É grande / é pequeno",
+        "en": "É grande / é pequeno"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Animais, mar, parque e o país.",
+        "É grande / é pequeno"
+      ],
+      "newWords": [
+        {
+          "en": "sea",
+          "pt": "mar",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l12_w_sea",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "park",
+          "pt": "parque",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l12_w_park",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "mountain",
+          "pt": "montanha",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l12_w_mountain",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "beautiful",
+          "pt": "bonito",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l12_w_beautiful",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        }
+      ],
+      "guidedReading": {
+        "title": "É grande / é pequeno",
+        "sentences": [
+          {
+            "id": "a1-u19-l12-s1",
+            "en": "Faruk lives in Pemba.",
+            "pt": "Faruk mora em Pemba.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l12_s1"
+          },
+          {
+            "id": "a1-u19-l12-s2",
+            "en": "Today the lesson is Diálogo: no mar.",
+            "pt": "Hoje a lição é: Diálogo: no mar.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l12_s2"
+          },
+          {
+            "id": "a1-u19-l12-s3",
+            "en": "We learn 'big' and 'small'.",
+            "pt": "Aprendemos «grande» e «pequeno».",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l12_s3"
+          },
+          {
+            "id": "a1-u19-l12-s4",
+            "en": "Faruk says: I use 'lion' every day.",
+            "pt": "Faruk diz: uso «leão» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l12_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u19-l12-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Faruk lives in Pemba.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l12-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "animal",
+                "pt": "O que significa «animal»?"
+              },
+              "options": [
+                "animal",
+                "elefante",
+                "peixe",
+                "rio"
+              ],
+              "answer": "animal"
+            },
+            {
+              "question": {
+                "en": "lion",
+                "pt": "O que significa «lion»?"
+              },
+              "options": [
+                "leão",
+                "pássaro",
+                "árvore",
+                "mar"
+              ],
+              "answer": "leão"
+            },
+            {
+              "question": {
+                "en": "elephant",
+                "pt": "O que significa «elephant»?"
+              },
+              "options": [
+                "elefante",
+                "peixe",
+                "rio",
+                "parque"
+              ],
+              "answer": "elefante"
+            },
+            {
+              "question": {
+                "en": "bird",
+                "pt": "O que significa «bird»?"
+              },
+              "options": [
+                "pássaro",
+                "árvore",
+                "mar",
+                "montanha"
+              ],
+              "answer": "pássaro"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-l13",
+      "unitId": "u19",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: no parque",
+        "en": "Diálogo: no parque"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Animais, mar, parque e o país.",
+        "Diálogo: no parque"
+      ],
+      "newWords": [
+        {
+          "en": "beautiful",
+          "pt": "bonito",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l13_w_beautiful",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "big",
+          "pt": "grande",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l13_w_big",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "small",
+          "pt": "pequeno",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l13_w_small",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: no parque",
+        "sentences": [
+          {
+            "id": "a1-u19-l13-s1",
+            "en": "Josina lives in Lichinga.",
+            "pt": "Josina mora em Lichinga.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l13_s1"
+          },
+          {
+            "id": "a1-u19-l13-s2",
+            "en": "Today the lesson is A natureza da tua província.",
+            "pt": "Hoje a lição é: A natureza da tua província.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l13_s2"
+          },
+          {
+            "id": "a1-u19-l13-s3",
+            "en": "We learn 'small' and 'animal'.",
+            "pt": "Aprendemos «pequeno» e «animal».",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l13_s3"
+          },
+          {
+            "id": "a1-u19-l13-s4",
+            "en": "Josina says: I use 'elephant' every day.",
+            "pt": "Josina diz: uso «elefante» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l13_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u19-l13-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u19-l13_repeat",
+          "items": [
+            {
+              "en": "Josina lives in Lichinga.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l13-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "animal",
+                "pt": "O que significa «animal»?"
+              },
+              "options": [
+                "animal",
+                "elefante",
+                "peixe",
+                "rio"
+              ],
+              "answer": "animal"
+            },
+            {
+              "question": {
+                "en": "lion",
+                "pt": "O que significa «lion»?"
+              },
+              "options": [
+                "leão",
+                "pássaro",
+                "árvore",
+                "mar"
+              ],
+              "answer": "leão"
+            },
+            {
+              "question": {
+                "en": "elephant",
+                "pt": "O que significa «elephant»?"
+              },
+              "options": [
+                "elefante",
+                "peixe",
+                "rio",
+                "parque"
+              ],
+              "answer": "elefante"
+            },
+            {
+              "question": {
+                "en": "bird",
+                "pt": "O que significa «bird»?"
+              },
+              "options": [
+                "pássaro",
+                "árvore",
+                "mar",
+                "montanha"
+              ],
+              "answer": "pássaro"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-l14",
+      "unitId": "u19",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: no mar",
+        "en": "Diálogo: no mar"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Animais, mar, parque e o país.",
+        "Diálogo: no mar"
+      ],
+      "newWords": [
+        {
+          "en": "animal",
+          "pt": "animal",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l14_w_animal",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "lion",
+          "pt": "leão",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l14_w_lion",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "elephant",
+          "pt": "elefante",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l14_w_elephant",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "bird",
+          "pt": "pássaro",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l14_w_bird",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: no mar",
+        "sentences": [
+          {
+            "id": "a1-u19-l14-s1",
+            "en": "Tendai lives in Ilha de Moçambique.",
+            "pt": "Tendai mora em Ilha de Moçambique.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l14_s1"
+          },
+          {
+            "id": "a1-u19-l14-s2",
+            "en": "Today the lesson is Adjetivos da natureza.",
+            "pt": "Hoje a lição é: Adjetivos da natureza.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l14_s2"
+          },
+          {
+            "id": "a1-u19-l14-s3",
+            "en": "We learn 'animal' and 'lion'.",
+            "pt": "Aprendemos «animal» e «leão».",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l14_s3"
+          },
+          {
+            "id": "a1-u19-l14-s4",
+            "en": "Tendai says: I use 'bird' every day.",
+            "pt": "Tendai diz: uso «pássaro» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l14_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u19-l14-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "animal",
+              "options": [
+                "animal",
+                "lion",
+                "elephant",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "lion",
+              "options": [
+                "lion",
+                "elephant",
+                "bird",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "elephant",
+              "options": [
+                "elephant",
+                "bird",
+                "fish",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-l15",
+      "unitId": "u19",
+      "order": 15,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 2",
+        "en": "Checkpoint quiz 2"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Animais, mar, parque e o país.",
+        "Mini-teste 2"
+      ],
+      "newWords": [
+        {
+          "en": "bird",
+          "pt": "pássaro",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l15_w_bird",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "fish",
+          "pt": "peixe",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l15_w_fish",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "tree",
+          "pt": "árvore",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l15_w_tree",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "river",
+          "pt": "rio",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l15_w_river",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 2",
+        "sentences": [
+          {
+            "id": "a1-u19-l15-s1",
+            "en": "Let’s review. Amélia is from Maputo.",
+            "pt": "Vamos rever. Amélia é de Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l15_s1"
+          },
+          {
+            "id": "a1-u19-l15-s2",
+            "en": "This unit is about Nature.",
+            "pt": "Esta unidade é sobre Natureza.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l15_s2"
+          },
+          {
+            "id": "a1-u19-l15-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l15_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u19-l15-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "animal",
+                "pt": "O que significa «animal»?"
+              },
+              "options": [
+                "animal",
+                "elefante",
+                "peixe",
+                "rio"
+              ],
+              "answer": "animal"
+            },
+            {
+              "question": {
+                "en": "lion",
+                "pt": "O que significa «lion»?"
+              },
+              "options": [
+                "leão",
+                "pássaro",
+                "árvore",
+                "mar"
+              ],
+              "answer": "leão"
+            },
+            {
+              "question": {
+                "en": "elephant",
+                "pt": "O que significa «elephant»?"
+              },
+              "options": [
+                "elefante",
+                "peixe",
+                "rio",
+                "parque"
+              ],
+              "answer": "elefante"
+            },
+            {
+              "question": {
+                "en": "bird",
+                "pt": "O que significa «bird»?"
+              },
+              "options": [
+                "pássaro",
+                "árvore",
+                "mar",
+                "montanha"
+              ],
+              "answer": "pássaro"
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l15-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "animal",
+              "options": [
+                "animal",
+                "lion",
+                "elephant",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "lion",
+              "options": [
+                "lion",
+                "elephant",
+                "bird",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "elephant",
+              "options": [
+                "elephant",
+                "bird",
+                "fish",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l15-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u19-l15_lw_carlos-is-in-beira",
+              "answer": "Carlos is in Beira. animal.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u19-l15_lw_carlos-is-in-beira",
+              "answer": "Carlos is in Beira. lion.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u19-l15_lw_carlos-is-in-beira",
+              "answer": "Carlos is in Beira. elephant.",
+              "hint": "Carlos"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-l16",
+      "unitId": "u19",
+      "order": 16,
+      "kind": "content",
+      "title": {
+        "pt": "A natureza da tua província",
+        "en": "A natureza da tua província"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Animais, mar, parque e o país.",
+        "A natureza da tua província"
+      ],
+      "newWords": [
+        {
+          "en": "river",
+          "pt": "rio",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l16_w_river",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "sea",
+          "pt": "mar",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l16_w_sea",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "park",
+          "pt": "parque",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l16_w_park",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "mountain",
+          "pt": "montanha",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l16_w_mountain",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "A natureza da tua província",
+        "sentences": [
+          {
+            "id": "a1-u19-l16-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l16_s1"
+          },
+          {
+            "id": "a1-u19-l16-s2",
+            "en": "Today the lesson is Um lugar bonito.",
+            "pt": "Hoje a lição é: Um lugar bonito.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l16_s2"
+          },
+          {
+            "id": "a1-u19-l16-s3",
+            "en": "We learn 'elephant' and 'bird'.",
+            "pt": "Aprendemos «elefante» e «pássaro».",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l16_s3"
+          },
+          {
+            "id": "a1-u19-l16-s4",
+            "en": "Zacarias says: I use 'tree' every day.",
+            "pt": "Zacarias diz: uso «árvore» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l16_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u19-l16-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u19-l16_lw_carlos-is-in-beira",
+              "answer": "Carlos is in Beira. animal.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u19-l16_lw_carlos-is-in-beira",
+              "answer": "Carlos is in Beira. lion.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u19-l16_lw_carlos-is-in-beira",
+              "answer": "Carlos is in Beira. elephant.",
+              "hint": "Carlos"
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l16-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "animal"
+              ],
+              "answer": "I need animal"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "lion"
+              ],
+              "answer": "I need lion"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "elephant"
+              ],
+              "answer": "I need elephant"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-l17",
+      "unitId": "u19",
+      "order": 17,
+      "kind": "content",
+      "title": {
+        "pt": "Adjetivos da natureza",
+        "en": "Adjetivos da natureza"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Animais, mar, parque e o país.",
+        "Adjetivos da natureza"
+      ],
+      "newWords": [
+        {
+          "en": "mountain",
+          "pt": "montanha",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l17_w_mountain",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "beautiful",
+          "pt": "bonito",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l17_w_beautiful",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "big",
+          "pt": "grande",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l17_w_big",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "small",
+          "pt": "pequeno",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l17_w_small",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Adjetivos da natureza",
+        "sentences": [
+          {
+            "id": "a1-u19-l17-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l17_s1"
+          },
+          {
+            "id": "a1-u19-l17-s2",
+            "en": "Today the lesson is Um lugar bonito.",
+            "pt": "Hoje a lição é: Um lugar bonito.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l17_s2"
+          },
+          {
+            "id": "a1-u19-l17-s3",
+            "en": "We learn 'elephant' and 'bird'.",
+            "pt": "Aprendemos «elefante» e «pássaro».",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l17_s3"
+          },
+          {
+            "id": "a1-u19-l17-s4",
+            "en": "Zacarias says: I use 'tree' every day.",
+            "pt": "Zacarias diz: uso «árvore» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l17_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u19-l17-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u19-l17_tap",
+          "items": [
+            {
+              "answer": "animal",
+              "options": [
+                "animal",
+                "lion",
+                "elephant",
+                "bird"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l17-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-l18",
+      "unitId": "u19",
+      "order": 18,
+      "kind": "content",
+      "title": {
+        "pt": "Sons: lion / river / beach",
+        "en": "Sons: lion / river / beach"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Animais, mar, parque e o país.",
+        "Sons: lion / river / beach"
+      ],
+      "newWords": [
+        {
+          "en": "small",
+          "pt": "pequeno",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l18_w_small",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Sons: lion / river / beach",
+        "sentences": [
+          {
+            "id": "a1-u19-l18-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l18_s1"
+          },
+          {
+            "id": "a1-u19-l18-s2",
+            "en": "Today the lesson is Um lugar bonito.",
+            "pt": "Hoje a lição é: Um lugar bonito.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l18_s2"
+          },
+          {
+            "id": "a1-u19-l18-s3",
+            "en": "We learn 'elephant' and 'bird'.",
+            "pt": "Aprendemos «elefante» e «pássaro».",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l18_s3"
+          },
+          {
+            "id": "a1-u19-l18-s4",
+            "en": "Zacarias says: I use 'tree' every day.",
+            "pt": "Zacarias diz: uso «árvore» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l18_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u19-l18-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l18-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "animal",
+                "pt": "O que significa «animal»?"
+              },
+              "options": [
+                "animal",
+                "elefante",
+                "peixe",
+                "rio"
+              ],
+              "answer": "animal"
+            },
+            {
+              "question": {
+                "en": "lion",
+                "pt": "O que significa «lion»?"
+              },
+              "options": [
+                "leão",
+                "pássaro",
+                "árvore",
+                "mar"
+              ],
+              "answer": "leão"
+            },
+            {
+              "question": {
+                "en": "elephant",
+                "pt": "O que significa «elephant»?"
+              },
+              "options": [
+                "elefante",
+                "peixe",
+                "rio",
+                "parque"
+              ],
+              "answer": "elefante"
+            },
+            {
+              "question": {
+                "en": "bird",
+                "pt": "O que significa «bird»?"
+              },
+              "options": [
+                "pássaro",
+                "árvore",
+                "mar",
+                "montanha"
+              ],
+              "answer": "pássaro"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-l19",
+      "unitId": "u19",
+      "order": 19,
+      "kind": "content",
+      "title": {
+        "pt": "Um lugar bonito",
+        "en": "Um lugar bonito"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Animais, mar, parque e o país.",
+        "Um lugar bonito"
+      ],
+      "newWords": [
+        {
+          "en": "elephant",
+          "pt": "elefante",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l19_w_elephant",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "bird",
+          "pt": "pássaro",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l19_w_bird",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "fish",
+          "pt": "peixe",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l19_w_fish",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "tree",
+          "pt": "árvore",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l19_w_tree",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Um lugar bonito",
+        "sentences": [
+          {
+            "id": "a1-u19-l19-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l19_s1"
+          },
+          {
+            "id": "a1-u19-l19-s2",
+            "en": "Today the lesson is Um lugar bonito.",
+            "pt": "Hoje a lição é: Um lugar bonito.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l19_s2"
+          },
+          {
+            "id": "a1-u19-l19-s3",
+            "en": "We learn 'elephant' and 'bird'.",
+            "pt": "Aprendemos «elefante» e «pássaro».",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l19_s3"
+          },
+          {
+            "id": "a1-u19-l19-s4",
+            "en": "Zacarias says: I use 'tree' every day.",
+            "pt": "Zacarias diz: uso «árvore» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l19_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u19-l19-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u19-l19_repeat",
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l19-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "animal",
+                "pt": "O que significa «animal»?"
+              },
+              "options": [
+                "animal",
+                "elefante",
+                "peixe",
+                "rio"
+              ],
+              "answer": "animal"
+            },
+            {
+              "question": {
+                "en": "lion",
+                "pt": "O que significa «lion»?"
+              },
+              "options": [
+                "leão",
+                "pássaro",
+                "árvore",
+                "mar"
+              ],
+              "answer": "leão"
+            },
+            {
+              "question": {
+                "en": "elephant",
+                "pt": "O que significa «elephant»?"
+              },
+              "options": [
+                "elefante",
+                "peixe",
+                "rio",
+                "parque"
+              ],
+              "answer": "elefante"
+            },
+            {
+              "question": {
+                "en": "bird",
+                "pt": "O que significa «bird»?"
+              },
+              "options": [
+                "pássaro",
+                "árvore",
+                "mar",
+                "montanha"
+              ],
+              "answer": "pássaro"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-l20",
+      "unitId": "u19",
+      "order": 20,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste da unidade: Natureza",
+        "en": "Unit test: Nature"
+      },
+      "type": "unit_test",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "listening",
+        "reading",
+        "writing",
+        "grammar"
+      ],
+      "objectives": [
+        "Animais, mar, parque e o país.",
+        "Teste da unidade: Natureza"
+      ],
+      "newWords": [
+        {
+          "en": "tree",
+          "pt": "árvore",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l20_w_tree",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "river",
+          "pt": "rio",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l20_w_river",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "sea",
+          "pt": "mar",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l20_w_sea",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "park",
+          "pt": "parque",
+          "ipa": "",
+          "audioKey": "a1_a1-u19-l20_w_park",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Unit test: Nature",
+        "sentences": [
+          {
+            "id": "a1-u19-l20-s1",
+            "en": "Let’s review. Carlos is from Beira.",
+            "pt": "Vamos rever. Carlos é de Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l20_s1"
+          },
+          {
+            "id": "a1-u19-l20-s2",
+            "en": "This unit is about Nature.",
+            "pt": "Esta unidade é sobre Natureza.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l20_s2"
+          },
+          {
+            "id": "a1-u19-l20-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u19-l20_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u19-l20-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "animal",
+                "pt": "O que significa «animal»?"
+              },
+              "options": [
+                "animal",
+                "elefante",
+                "peixe",
+                "rio"
+              ],
+              "answer": "animal"
+            },
+            {
+              "question": {
+                "en": "lion",
+                "pt": "O que significa «lion»?"
+              },
+              "options": [
+                "leão",
+                "pássaro",
+                "árvore",
+                "mar"
+              ],
+              "answer": "leão"
+            },
+            {
+              "question": {
+                "en": "elephant",
+                "pt": "O que significa «elephant»?"
+              },
+              "options": [
+                "elefante",
+                "peixe",
+                "rio",
+                "parque"
+              ],
+              "answer": "elefante"
+            },
+            {
+              "question": {
+                "en": "bird",
+                "pt": "O que significa «bird»?"
+              },
+              "options": [
+                "pássaro",
+                "árvore",
+                "mar",
+                "montanha"
+              ],
+              "answer": "pássaro"
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l20-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "animal",
+              "options": [
+                "animal",
+                "lion",
+                "elephant",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "lion",
+              "options": [
+                "lion",
+                "elephant",
+                "bird",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Carlos uses the word _____.",
+              "answer": "elephant",
+              "options": [
+                "elephant",
+                "bird",
+                "fish",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l20-a3",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'animal' in Portuguese is 'animal'.",
+              "answer": true
+            },
+            {
+              "sentence": "'animal' means 'pássaro'.",
+              "answer": false
+            },
+            {
+              "sentence": "'lion' in Portuguese is 'leão'.",
+              "answer": true
+            },
+            {
+              "sentence": "'lion' means 'peixe'.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l20-a4",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "animal"
+              ],
+              "answer": "I need animal"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "lion"
+              ],
+              "answer": "I need lion"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "elephant"
+              ],
+              "answer": "I need elephant"
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l20-a5",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u19-l20_lw_carlos-is-in-beira",
+              "answer": "Carlos is in Beira. animal.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u19-l20_lw_carlos-is-in-beira",
+              "answer": "Carlos is in Beira. lion.",
+              "hint": "Carlos"
+            },
+            {
+              "audioKey": "a1_a1-u19-l20_lw_carlos-is-in-beira",
+              "answer": "Carlos is in Beira. elephant.",
+              "hint": "Carlos"
+            }
+          ]
+        },
+        {
+          "id": "a1-u19-l20-a6",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    }
+  ]
+}

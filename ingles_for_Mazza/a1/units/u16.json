@@ -1,0 +1,3492 @@
+{
+  "id": "u16",
+  "level": "A1",
+  "order": 16,
+  "title": {
+    "pt": "Corpo e saúde",
+    "en": "Body and health"
+  },
+  "goal": "Partes do corpo e I’m sick / My head hurts.",
+  "themeImageHint": "Body and health",
+  "lessonCount": 20,
+  "lessons": [
+    {
+      "id": "a1-u16-l01",
+      "unitId": "u16",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "A cabeça e o rosto",
+        "en": "A cabeça e o rosto"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Partes do corpo e I’m sick / My head hurts.",
+        "A cabeça e o rosto"
+      ],
+      "newWords": [
+        {
+          "en": "head",
+          "pt": "cabeça",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l01_w_head",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "eye",
+          "pt": "olho",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l01_w_eye",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "hand",
+          "pt": "mão",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l01_w_hand",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "leg",
+          "pt": "perna",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l01_w_leg",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "A cabeça e o rosto",
+        "sentences": [
+          {
+            "id": "a1-u16-l01-s1",
+            "en": "Amina lives in Maputo.",
+            "pt": "Amina mora em Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l01_s1"
+          },
+          {
+            "id": "a1-u16-l01-s2",
+            "en": "Today the lesson is A cabeça e o rosto.",
+            "pt": "Hoje a lição é: A cabeça e o rosto.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l01_s2"
+          },
+          {
+            "id": "a1-u16-l01-s3",
+            "en": "We learn 'head' and 'eye'.",
+            "pt": "Aprendemos «cabeça» e «olho».",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l01_s3"
+          },
+          {
+            "id": "a1-u16-l01-s4",
+            "en": "Amina says: I use 'leg' every day.",
+            "pt": "Amina diz: uso «perna» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l01_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u16-l01-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u16-l01_repeat",
+          "items": [
+            {
+              "en": "Amina lives in Maputo.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l01-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "head",
+                "pt": "O que significa «head»?"
+              },
+              "options": [
+                "cabeça",
+                "mão",
+                "estômago",
+                "doente"
+              ],
+              "answer": "cabeça"
+            },
+            {
+              "question": {
+                "en": "eye",
+                "pt": "O que significa «eye»?"
+              },
+              "options": [
+                "olho",
+                "perna",
+                "corpo",
+                "doer"
+              ],
+              "answer": "olho"
+            },
+            {
+              "question": {
+                "en": "hand",
+                "pt": "O que significa «hand»?"
+              },
+              "options": [
+                "mão",
+                "estômago",
+                "doente",
+                "médico"
+              ],
+              "answer": "mão"
+            },
+            {
+              "question": {
+                "en": "leg",
+                "pt": "O que significa «leg»?"
+              },
+              "options": [
+                "perna",
+                "corpo",
+                "doer",
+                "hospital"
+              ],
+              "answer": "perna"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-l02",
+      "unitId": "u16",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "Mãos e pés",
+        "en": "Mãos e pés"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Partes do corpo e I’m sick / My head hurts.",
+        "Mãos e pés"
+      ],
+      "newWords": [
+        {
+          "en": "leg",
+          "pt": "perna",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l02_w_leg",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "stomach",
+          "pt": "estômago",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l02_w_stomach",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "body",
+          "pt": "corpo",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l02_w_body",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "sick",
+          "pt": "doente",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l02_w_sick",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Mãos e pés",
+        "sentences": [
+          {
+            "id": "a1-u16-l02-s1",
+            "en": "João lives in Matola.",
+            "pt": "João mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l02_s1"
+          },
+          {
+            "id": "a1-u16-l02-s2",
+            "en": "Today the lesson is Mãos e pés.",
+            "pt": "Hoje a lição é: Mãos e pés.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l02_s2"
+          },
+          {
+            "id": "a1-u16-l02-s3",
+            "en": "We learn 'eye' and 'hand'.",
+            "pt": "Aprendemos «olho» e «mão».",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l02_s3"
+          },
+          {
+            "id": "a1-u16-l02-s4",
+            "en": "João says: I use 'stomach' every day.",
+            "pt": "João diz: uso «estômago» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l02_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u16-l02-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Amina uses the word _____.",
+              "answer": "head",
+              "options": [
+                "head",
+                "eye",
+                "hand",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amina uses the word _____.",
+              "answer": "eye",
+              "options": [
+                "eye",
+                "hand",
+                "leg",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amina uses the word _____.",
+              "answer": "hand",
+              "options": [
+                "hand",
+                "leg",
+                "stomach",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-l03",
+      "unitId": "u16",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "O corpo",
+        "en": "O corpo"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Partes do corpo e I’m sick / My head hurts.",
+        "O corpo"
+      ],
+      "newWords": [
+        {
+          "en": "sick",
+          "pt": "doente",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l03_w_sick",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "hurt",
+          "pt": "doer",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l03_w_hurt",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "doctor",
+          "pt": "médico",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l03_w_doctor",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "hospital",
+          "pt": "hospital",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l03_w_hospital",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        }
+      ],
+      "guidedReading": {
+        "title": "O corpo",
+        "sentences": [
+          {
+            "id": "a1-u16-l03-s1",
+            "en": "Fátima lives in Xai-Xai.",
+            "pt": "Fátima mora em Xai-Xai.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l03_s1"
+          },
+          {
+            "id": "a1-u16-l03-s2",
+            "en": "Today the lesson is O corpo.",
+            "pt": "Hoje a lição é: O corpo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l03_s2"
+          },
+          {
+            "id": "a1-u16-l03-s3",
+            "en": "We learn 'hand' and 'leg'.",
+            "pt": "Aprendemos «mão» e «perna».",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l03_s3"
+          },
+          {
+            "id": "a1-u16-l03-s4",
+            "en": "Fátima says: I use 'body' every day.",
+            "pt": "Fátima diz: uso «corpo» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l03_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u16-l03-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "head",
+              "pt": "cabeça"
+            },
+            {
+              "en": "eye",
+              "pt": "olho"
+            },
+            {
+              "en": "hand",
+              "pt": "mão"
+            },
+            {
+              "en": "leg",
+              "pt": "perna"
+            },
+            {
+              "en": "stomach",
+              "pt": "estômago"
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l03-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'head' in Portuguese is 'cabeça'.",
+              "answer": true
+            },
+            {
+              "sentence": "'head' means 'perna'.",
+              "answer": false
+            },
+            {
+              "sentence": "'eye' in Portuguese is 'olho'.",
+              "answer": true
+            },
+            {
+              "sentence": "'eye' means 'estômago'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-l04",
+      "unitId": "u16",
+      "order": 4,
+      "kind": "content",
+      "title": {
+        "pt": "Estou doente",
+        "en": "Estou doente"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Partes do corpo e I’m sick / My head hurts.",
+        "Estou doente"
+      ],
+      "newWords": [
+        {
+          "en": "hospital",
+          "pt": "hospital",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l04_w_hospital",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "pharmacy",
+          "pt": "farmácia",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l04_w_pharmacy",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "medicine",
+          "pt": "remédio",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l04_w_medicine",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "water",
+          "pt": "água",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l04_w_water",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Estou doente",
+        "sentences": [
+          {
+            "id": "a1-u16-l04-s1",
+            "en": "Carlos lives in Inhambane.",
+            "pt": "Carlos mora em Inhambane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l04_s1"
+          },
+          {
+            "id": "a1-u16-l04-s2",
+            "en": "Today the lesson is Estou doente.",
+            "pt": "Hoje a lição é: Estou doente.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l04_s2"
+          },
+          {
+            "id": "a1-u16-l04-s3",
+            "en": "We learn 'leg' and 'stomach'.",
+            "pt": "Aprendemos «perna» e «estômago».",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l04_s3"
+          },
+          {
+            "id": "a1-u16-l04-s4",
+            "en": "Carlos says: I use 'sick' every day.",
+            "pt": "Carlos diz: uso «doente» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l04_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u16-l04-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u16-l04_lw_amina-is-in-xai-xa",
+              "answer": "Amina is in Xai-Xai. head.",
+              "hint": "Amina"
+            },
+            {
+              "audioKey": "a1_a1-u16-l04_lw_amina-is-in-xai-xa",
+              "answer": "Amina is in Xai-Xai. eye.",
+              "hint": "Amina"
+            },
+            {
+              "audioKey": "a1_a1-u16-l04_lw_amina-is-in-xai-xa",
+              "answer": "Amina is in Xai-Xai. hand.",
+              "hint": "Amina"
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l04-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "head"
+              ],
+              "answer": "I need head"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "eye"
+              ],
+              "answer": "I need eye"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "hand"
+              ],
+              "answer": "I need hand"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-l05",
+      "unitId": "u16",
+      "order": 5,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 1",
+        "en": "Checkpoint quiz 1"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Partes do corpo e I’m sick / My head hurts.",
+        "Mini-teste 1"
+      ],
+      "newWords": [
+        {
+          "en": "water",
+          "pt": "água",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l05_w_water",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "rest",
+          "pt": "descansar",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l05_w_rest",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 1",
+        "sentences": [
+          {
+            "id": "a1-u16-l05-s1",
+            "en": "Let’s review. Graça is from Vilankulo.",
+            "pt": "Vamos rever. Graça é de Vilankulo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l05_s1"
+          },
+          {
+            "id": "a1-u16-l05-s2",
+            "en": "This unit is about Body and health.",
+            "pt": "Esta unidade é sobre Corpo e saúde.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l05_s2"
+          },
+          {
+            "id": "a1-u16-l05-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l05_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u16-l05-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "head",
+                "pt": "O que significa «head»?"
+              },
+              "options": [
+                "cabeça",
+                "mão",
+                "estômago",
+                "doente"
+              ],
+              "answer": "cabeça"
+            },
+            {
+              "question": {
+                "en": "eye",
+                "pt": "O que significa «eye»?"
+              },
+              "options": [
+                "olho",
+                "perna",
+                "corpo",
+                "doer"
+              ],
+              "answer": "olho"
+            },
+            {
+              "question": {
+                "en": "hand",
+                "pt": "O que significa «hand»?"
+              },
+              "options": [
+                "mão",
+                "estômago",
+                "doente",
+                "médico"
+              ],
+              "answer": "mão"
+            },
+            {
+              "question": {
+                "en": "leg",
+                "pt": "O que significa «leg»?"
+              },
+              "options": [
+                "perna",
+                "corpo",
+                "doer",
+                "hospital"
+              ],
+              "answer": "perna"
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l05-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Amina uses the word _____.",
+              "answer": "head",
+              "options": [
+                "head",
+                "eye",
+                "hand",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amina uses the word _____.",
+              "answer": "eye",
+              "options": [
+                "eye",
+                "hand",
+                "leg",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amina uses the word _____.",
+              "answer": "hand",
+              "options": [
+                "hand",
+                "leg",
+                "stomach",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l05-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u16-l05_lw_amina-is-in-xai-xa",
+              "answer": "Amina is in Xai-Xai. head.",
+              "hint": "Amina"
+            },
+            {
+              "audioKey": "a1_a1-u16-l05_lw_amina-is-in-xai-xa",
+              "answer": "Amina is in Xai-Xai. eye.",
+              "hint": "Amina"
+            },
+            {
+              "audioKey": "a1_a1-u16-l05_lw_amina-is-in-xai-xa",
+              "answer": "Amina is in Xai-Xai. hand.",
+              "hint": "Amina"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-l06",
+      "unitId": "u16",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "Dói-me a cabeça",
+        "en": "Dói-me a cabeça"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Partes do corpo e I’m sick / My head hurts.",
+        "Dói-me a cabeça"
+      ],
+      "newWords": [
+        {
+          "en": "eye",
+          "pt": "olho",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l06_w_eye",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "hand",
+          "pt": "mão",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l06_w_hand",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "leg",
+          "pt": "perna",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l06_w_leg",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "stomach",
+          "pt": "estômago",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l06_w_stomach",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Dói-me a cabeça",
+        "sentences": [
+          {
+            "id": "a1-u16-l06-s1",
+            "en": "Ibraimo lives in Beira.",
+            "pt": "Ibraimo mora em Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l06_s1"
+          },
+          {
+            "id": "a1-u16-l06-s2",
+            "en": "Today the lesson is Dói-me a barriga.",
+            "pt": "Hoje a lição é: Dói-me a barriga.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l06_s2"
+          },
+          {
+            "id": "a1-u16-l06-s3",
+            "en": "We learn 'body' and 'sick'.",
+            "pt": "Aprendemos «corpo» e «doente».",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l06_s3"
+          },
+          {
+            "id": "a1-u16-l06-s4",
+            "en": "Ibraimo says: I use 'doctor' every day.",
+            "pt": "Ibraimo diz: uso «médico» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l06_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u16-l06-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Ibraimo lives in Beira.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l06-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "head",
+                "pt": "O que significa «head»?"
+              },
+              "options": [
+                "cabeça",
+                "mão",
+                "estômago",
+                "doente"
+              ],
+              "answer": "cabeça"
+            },
+            {
+              "question": {
+                "en": "eye",
+                "pt": "O que significa «eye»?"
+              },
+              "options": [
+                "olho",
+                "perna",
+                "corpo",
+                "doer"
+              ],
+              "answer": "olho"
+            },
+            {
+              "question": {
+                "en": "hand",
+                "pt": "O que significa «hand»?"
+              },
+              "options": [
+                "mão",
+                "estômago",
+                "doente",
+                "médico"
+              ],
+              "answer": "mão"
+            },
+            {
+              "question": {
+                "en": "leg",
+                "pt": "O que significa «leg»?"
+              },
+              "options": [
+                "perna",
+                "corpo",
+                "doer",
+                "hospital"
+              ],
+              "answer": "perna"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-l07",
+      "unitId": "u16",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "Dói-me a barriga",
+        "en": "Dói-me a barriga"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Partes do corpo e I’m sick / My head hurts.",
+        "Dói-me a barriga"
+      ],
+      "newWords": [
+        {
+          "en": "stomach",
+          "pt": "estômago",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l07_w_stomach",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "body",
+          "pt": "corpo",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l07_w_body",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "sick",
+          "pt": "doente",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l07_w_sick",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "hurt",
+          "pt": "doer",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l07_w_hurt",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        }
+      ],
+      "guidedReading": {
+        "title": "Dói-me a barriga",
+        "sentences": [
+          {
+            "id": "a1-u16-l07-s1",
+            "en": "Esperança lives in Chimoio.",
+            "pt": "Esperança mora em Chimoio.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l07_s1"
+          },
+          {
+            "id": "a1-u16-l07-s2",
+            "en": "Today the lesson is No hospital.",
+            "pt": "Hoje a lição é: No hospital.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l07_s2"
+          },
+          {
+            "id": "a1-u16-l07-s3",
+            "en": "We learn 'sick' and 'hurt'.",
+            "pt": "Aprendemos «doente» e «doer».",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l07_s3"
+          },
+          {
+            "id": "a1-u16-l07-s4",
+            "en": "Esperança says: I use 'hospital' every day.",
+            "pt": "Esperança diz: uso «hospital» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l07_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u16-l07-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u16-l07_repeat",
+          "items": [
+            {
+              "en": "Esperança lives in Chimoio.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l07-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "head",
+                "pt": "O que significa «head»?"
+              },
+              "options": [
+                "cabeça",
+                "mão",
+                "estômago",
+                "doente"
+              ],
+              "answer": "cabeça"
+            },
+            {
+              "question": {
+                "en": "eye",
+                "pt": "O que significa «eye»?"
+              },
+              "options": [
+                "olho",
+                "perna",
+                "corpo",
+                "doer"
+              ],
+              "answer": "olho"
+            },
+            {
+              "question": {
+                "en": "hand",
+                "pt": "O que significa «hand»?"
+              },
+              "options": [
+                "mão",
+                "estômago",
+                "doente",
+                "médico"
+              ],
+              "answer": "mão"
+            },
+            {
+              "question": {
+                "en": "leg",
+                "pt": "O que significa «leg»?"
+              },
+              "options": [
+                "perna",
+                "corpo",
+                "doer",
+                "hospital"
+              ],
+              "answer": "perna"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-l08",
+      "unitId": "u16",
+      "order": 8,
+      "kind": "content",
+      "title": {
+        "pt": "No hospital",
+        "en": "No hospital"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Partes do corpo e I’m sick / My head hurts.",
+        "No hospital"
+      ],
+      "newWords": [
+        {
+          "en": "hurt",
+          "pt": "doer",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l08_w_hurt",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "doctor",
+          "pt": "médico",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l08_w_doctor",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "hospital",
+          "pt": "hospital",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l08_w_hospital",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "pharmacy",
+          "pt": "farmácia",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l08_w_pharmacy",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        }
+      ],
+      "guidedReading": {
+        "title": "No hospital",
+        "sentences": [
+          {
+            "id": "a1-u16-l08-s1",
+            "en": "Paulo lives in Tete.",
+            "pt": "Paulo mora em Tete.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l08_s1"
+          },
+          {
+            "id": "a1-u16-l08-s2",
+            "en": "Today the lesson is Na farmácia.",
+            "pt": "Hoje a lição é: Na farmácia.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l08_s2"
+          },
+          {
+            "id": "a1-u16-l08-s3",
+            "en": "We learn 'hurt' and 'doctor'.",
+            "pt": "Aprendemos «doer» e «médico».",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l08_s3"
+          },
+          {
+            "id": "a1-u16-l08-s4",
+            "en": "Paulo says: I use 'pharmacy' every day.",
+            "pt": "Paulo diz: uso «farmácia» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l08_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u16-l08-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Amina uses the word _____.",
+              "answer": "head",
+              "options": [
+                "head",
+                "eye",
+                "hand",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amina uses the word _____.",
+              "answer": "eye",
+              "options": [
+                "eye",
+                "hand",
+                "leg",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amina uses the word _____.",
+              "answer": "hand",
+              "options": [
+                "hand",
+                "leg",
+                "stomach",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-l09",
+      "unitId": "u16",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Na farmácia",
+        "en": "Na farmácia"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Partes do corpo e I’m sick / My head hurts.",
+        "Na farmácia"
+      ],
+      "newWords": [
+        {
+          "en": "pharmacy",
+          "pt": "farmácia",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l09_w_pharmacy",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "medicine",
+          "pt": "remédio",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l09_w_medicine",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "water",
+          "pt": "água",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l09_w_water",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "rest",
+          "pt": "descansar",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l09_w_rest",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Na farmácia",
+        "sentences": [
+          {
+            "id": "a1-u16-l09-s1",
+            "en": "Belmira lives in Quelimane.",
+            "pt": "Belmira mora em Quelimane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l09_s1"
+          },
+          {
+            "id": "a1-u16-l09-s2",
+            "en": "Today the lesson is Bebe água.",
+            "pt": "Hoje a lição é: Bebe água.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l09_s2"
+          },
+          {
+            "id": "a1-u16-l09-s3",
+            "en": "We learn 'doctor' and 'hospital'.",
+            "pt": "Aprendemos «médico» e «hospital».",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l09_s3"
+          },
+          {
+            "id": "a1-u16-l09-s4",
+            "en": "Belmira says: I use 'medicine' every day.",
+            "pt": "Belmira diz: uso «remédio» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l09_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u16-l09-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "head",
+              "pt": "cabeça"
+            },
+            {
+              "en": "eye",
+              "pt": "olho"
+            },
+            {
+              "en": "hand",
+              "pt": "mão"
+            },
+            {
+              "en": "leg",
+              "pt": "perna"
+            },
+            {
+              "en": "stomach",
+              "pt": "estômago"
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l09-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'head' in Portuguese is 'cabeça'.",
+              "answer": true
+            },
+            {
+              "sentence": "'head' means 'perna'.",
+              "answer": false
+            },
+            {
+              "sentence": "'eye' in Portuguese is 'olho'.",
+              "answer": true
+            },
+            {
+              "sentence": "'eye' means 'estômago'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-l10",
+      "unitId": "u16",
+      "order": 10,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão guiada",
+        "en": "Guided review"
+      },
+      "type": "review",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectives": [
+        "Partes do corpo e I’m sick / My head hurts.",
+        "Revisão guiada"
+      ],
+      "newWords": [
+        {
+          "en": "rest",
+          "pt": "descansar",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l10_w_rest",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        }
+      ],
+      "guidedReading": {
+        "title": "Guided review",
+        "sentences": [
+          {
+            "id": "a1-u16-l10-s1",
+            "en": "Let’s review. Nélio is from Nampula.",
+            "pt": "Vamos rever. Nélio é de Nampula.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l10_s1"
+          },
+          {
+            "id": "a1-u16-l10-s2",
+            "en": "This unit is about Body and health.",
+            "pt": "Esta unidade é sobre Corpo e saúde.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l10_s2"
+          },
+          {
+            "id": "a1-u16-l10-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l10_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u16-l10-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u16-l10_lw_amina-is-in-xai-xa",
+              "answer": "Amina is in Xai-Xai. head.",
+              "hint": "Amina"
+            },
+            {
+              "audioKey": "a1_a1-u16-l10_lw_amina-is-in-xai-xa",
+              "answer": "Amina is in Xai-Xai. eye.",
+              "hint": "Amina"
+            },
+            {
+              "audioKey": "a1_a1-u16-l10_lw_amina-is-in-xai-xa",
+              "answer": "Amina is in Xai-Xai. hand.",
+              "hint": "Amina"
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l10-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "head"
+              ],
+              "answer": "I need head"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "eye"
+              ],
+              "answer": "I need eye"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "hand"
+              ],
+              "answer": "I need hand"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-l11",
+      "unitId": "u16",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "Bebe água",
+        "en": "Bebe água"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Partes do corpo e I’m sick / My head hurts.",
+        "Bebe água"
+      ],
+      "newWords": [
+        {
+          "en": "hand",
+          "pt": "mão",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l11_w_hand",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "leg",
+          "pt": "perna",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l11_w_leg",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "stomach",
+          "pt": "estômago",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l11_w_stomach",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "body",
+          "pt": "corpo",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l11_w_body",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        }
+      ],
+      "guidedReading": {
+        "title": "Bebe água",
+        "sentences": [
+          {
+            "id": "a1-u16-l11-s1",
+            "en": "Lurdes lives in Nacala.",
+            "pt": "Lurdes mora em Nacala.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l11_s1"
+          },
+          {
+            "id": "a1-u16-l11-s2",
+            "en": "Today the lesson is Diálogo: no clínico.",
+            "pt": "Hoje a lição é: Diálogo: no clínico.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l11_s2"
+          },
+          {
+            "id": "a1-u16-l11-s3",
+            "en": "We learn 'pharmacy' and 'medicine'.",
+            "pt": "Aprendemos «farmácia» e «remédio».",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l11_s3"
+          },
+          {
+            "id": "a1-u16-l11-s4",
+            "en": "Lurdes says: I use 'rest' every day.",
+            "pt": "Lurdes diz: uso «descansar» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l11_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u16-l11-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u16-l11_tap",
+          "items": [
+            {
+              "answer": "head",
+              "options": [
+                "head",
+                "eye",
+                "hand",
+                "leg"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l11-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-l12",
+      "unitId": "u16",
+      "order": 12,
+      "kind": "content",
+      "title": {
+        "pt": "Descansa",
+        "en": "Descansa"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Partes do corpo e I’m sick / My head hurts.",
+        "Descansa"
+      ],
+      "newWords": [
+        {
+          "en": "body",
+          "pt": "corpo",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l12_w_body",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "sick",
+          "pt": "doente",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l12_w_sick",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "hurt",
+          "pt": "doer",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l12_w_hurt",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "doctor",
+          "pt": "médico",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l12_w_doctor",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        }
+      ],
+      "guidedReading": {
+        "title": "Descansa",
+        "sentences": [
+          {
+            "id": "a1-u16-l12-s1",
+            "en": "Faruk lives in Pemba.",
+            "pt": "Faruk mora em Pemba.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l12_s1"
+          },
+          {
+            "id": "a1-u16-l12-s2",
+            "en": "Today the lesson is Diálogo: a mãe e o filho.",
+            "pt": "Hoje a lição é: Diálogo: a mãe e o filho.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l12_s2"
+          },
+          {
+            "id": "a1-u16-l12-s3",
+            "en": "We learn 'medicine' and 'water'.",
+            "pt": "Aprendemos «remédio» e «água».",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l12_s3"
+          },
+          {
+            "id": "a1-u16-l12-s4",
+            "en": "Faruk says: I use 'head' every day.",
+            "pt": "Faruk diz: uso «cabeça» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l12_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u16-l12-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Faruk lives in Pemba.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l12-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "head",
+                "pt": "O que significa «head»?"
+              },
+              "options": [
+                "cabeça",
+                "mão",
+                "estômago",
+                "doente"
+              ],
+              "answer": "cabeça"
+            },
+            {
+              "question": {
+                "en": "eye",
+                "pt": "O que significa «eye»?"
+              },
+              "options": [
+                "olho",
+                "perna",
+                "corpo",
+                "doer"
+              ],
+              "answer": "olho"
+            },
+            {
+              "question": {
+                "en": "hand",
+                "pt": "O que significa «hand»?"
+              },
+              "options": [
+                "mão",
+                "estômago",
+                "doente",
+                "médico"
+              ],
+              "answer": "mão"
+            },
+            {
+              "question": {
+                "en": "leg",
+                "pt": "O que significa «leg»?"
+              },
+              "options": [
+                "perna",
+                "corpo",
+                "doer",
+                "hospital"
+              ],
+              "answer": "perna"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-l13",
+      "unitId": "u16",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: no clínico",
+        "en": "Diálogo: no clínico"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Partes do corpo e I’m sick / My head hurts.",
+        "Diálogo: no clínico"
+      ],
+      "newWords": [
+        {
+          "en": "doctor",
+          "pt": "médico",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l13_w_doctor",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "hospital",
+          "pt": "hospital",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l13_w_hospital",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "pharmacy",
+          "pt": "farmácia",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l13_w_pharmacy",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "medicine",
+          "pt": "remédio",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l13_w_medicine",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: no clínico",
+        "sentences": [
+          {
+            "id": "a1-u16-l13-s1",
+            "en": "Josina lives in Lichinga.",
+            "pt": "Josina mora em Lichinga.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l13_s1"
+          },
+          {
+            "id": "a1-u16-l13-s2",
+            "en": "Today the lesson is Partes do corpo — quiz.",
+            "pt": "Hoje a lição é: Partes do corpo — quiz.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l13_s2"
+          },
+          {
+            "id": "a1-u16-l13-s3",
+            "en": "We learn 'water' and 'rest'.",
+            "pt": "Aprendemos «água» e «descansar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l13_s3"
+          },
+          {
+            "id": "a1-u16-l13-s4",
+            "en": "Josina says: I use 'eye' every day.",
+            "pt": "Josina diz: uso «olho» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l13_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u16-l13-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u16-l13_repeat",
+          "items": [
+            {
+              "en": "Josina lives in Lichinga.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l13-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "head",
+                "pt": "O que significa «head»?"
+              },
+              "options": [
+                "cabeça",
+                "mão",
+                "estômago",
+                "doente"
+              ],
+              "answer": "cabeça"
+            },
+            {
+              "question": {
+                "en": "eye",
+                "pt": "O que significa «eye»?"
+              },
+              "options": [
+                "olho",
+                "perna",
+                "corpo",
+                "doer"
+              ],
+              "answer": "olho"
+            },
+            {
+              "question": {
+                "en": "hand",
+                "pt": "O que significa «hand»?"
+              },
+              "options": [
+                "mão",
+                "estômago",
+                "doente",
+                "médico"
+              ],
+              "answer": "mão"
+            },
+            {
+              "question": {
+                "en": "leg",
+                "pt": "O que significa «leg»?"
+              },
+              "options": [
+                "perna",
+                "corpo",
+                "doer",
+                "hospital"
+              ],
+              "answer": "perna"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-l14",
+      "unitId": "u16",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: a mãe e o filho",
+        "en": "Diálogo: a mãe e o filho"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Partes do corpo e I’m sick / My head hurts.",
+        "Diálogo: a mãe e o filho"
+      ],
+      "newWords": [
+        {
+          "en": "medicine",
+          "pt": "remédio",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l14_w_medicine",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "water",
+          "pt": "água",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l14_w_water",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "rest",
+          "pt": "descansar",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l14_w_rest",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: a mãe e o filho",
+        "sentences": [
+          {
+            "id": "a1-u16-l14-s1",
+            "en": "Tendai lives in Ilha de Moçambique.",
+            "pt": "Tendai mora em Ilha de Moçambique.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l14_s1"
+          },
+          {
+            "id": "a1-u16-l14-s2",
+            "en": "Today the lesson is Conselhos simples.",
+            "pt": "Hoje a lição é: Conselhos simples.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l14_s2"
+          },
+          {
+            "id": "a1-u16-l14-s3",
+            "en": "We learn 'rest' and 'head'.",
+            "pt": "Aprendemos «descansar» e «cabeça».",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l14_s3"
+          },
+          {
+            "id": "a1-u16-l14-s4",
+            "en": "Tendai says: I use 'hand' every day.",
+            "pt": "Tendai diz: uso «mão» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l14_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u16-l14-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Amina uses the word _____.",
+              "answer": "head",
+              "options": [
+                "head",
+                "eye",
+                "hand",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amina uses the word _____.",
+              "answer": "eye",
+              "options": [
+                "eye",
+                "hand",
+                "leg",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amina uses the word _____.",
+              "answer": "hand",
+              "options": [
+                "hand",
+                "leg",
+                "stomach",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-l15",
+      "unitId": "u16",
+      "order": 15,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 2",
+        "en": "Checkpoint quiz 2"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Partes do corpo e I’m sick / My head hurts.",
+        "Mini-teste 2"
+      ],
+      "newWords": [
+        {
+          "en": "head",
+          "pt": "cabeça",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l15_w_head",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "eye",
+          "pt": "olho",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l15_w_eye",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "hand",
+          "pt": "mão",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l15_w_hand",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "leg",
+          "pt": "perna",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l15_w_leg",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 2",
+        "sentences": [
+          {
+            "id": "a1-u16-l15-s1",
+            "en": "Let’s review. Amélia is from Maputo.",
+            "pt": "Vamos rever. Amélia é de Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l15_s1"
+          },
+          {
+            "id": "a1-u16-l15-s2",
+            "en": "This unit is about Body and health.",
+            "pt": "Esta unidade é sobre Corpo e saúde.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l15_s2"
+          },
+          {
+            "id": "a1-u16-l15-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l15_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u16-l15-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "head",
+                "pt": "O que significa «head»?"
+              },
+              "options": [
+                "cabeça",
+                "mão",
+                "estômago",
+                "doente"
+              ],
+              "answer": "cabeça"
+            },
+            {
+              "question": {
+                "en": "eye",
+                "pt": "O que significa «eye»?"
+              },
+              "options": [
+                "olho",
+                "perna",
+                "corpo",
+                "doer"
+              ],
+              "answer": "olho"
+            },
+            {
+              "question": {
+                "en": "hand",
+                "pt": "O que significa «hand»?"
+              },
+              "options": [
+                "mão",
+                "estômago",
+                "doente",
+                "médico"
+              ],
+              "answer": "mão"
+            },
+            {
+              "question": {
+                "en": "leg",
+                "pt": "O que significa «leg»?"
+              },
+              "options": [
+                "perna",
+                "corpo",
+                "doer",
+                "hospital"
+              ],
+              "answer": "perna"
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l15-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Amina uses the word _____.",
+              "answer": "head",
+              "options": [
+                "head",
+                "eye",
+                "hand",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amina uses the word _____.",
+              "answer": "eye",
+              "options": [
+                "eye",
+                "hand",
+                "leg",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amina uses the word _____.",
+              "answer": "hand",
+              "options": [
+                "hand",
+                "leg",
+                "stomach",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l15-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u16-l15_lw_amina-is-in-xai-xa",
+              "answer": "Amina is in Xai-Xai. head.",
+              "hint": "Amina"
+            },
+            {
+              "audioKey": "a1_a1-u16-l15_lw_amina-is-in-xai-xa",
+              "answer": "Amina is in Xai-Xai. eye.",
+              "hint": "Amina"
+            },
+            {
+              "audioKey": "a1_a1-u16-l15_lw_amina-is-in-xai-xa",
+              "answer": "Amina is in Xai-Xai. hand.",
+              "hint": "Amina"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-l16",
+      "unitId": "u16",
+      "order": 16,
+      "kind": "content",
+      "title": {
+        "pt": "Partes do corpo — quiz",
+        "en": "Partes do corpo — quiz"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Partes do corpo e I’m sick / My head hurts.",
+        "Partes do corpo — quiz"
+      ],
+      "newWords": [
+        {
+          "en": "leg",
+          "pt": "perna",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l16_w_leg",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "stomach",
+          "pt": "estômago",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l16_w_stomach",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "body",
+          "pt": "corpo",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l16_w_body",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "sick",
+          "pt": "doente",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l16_w_sick",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Partes do corpo — quiz",
+        "sentences": [
+          {
+            "id": "a1-u16-l16-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l16_s1"
+          },
+          {
+            "id": "a1-u16-l16-s2",
+            "en": "Today the lesson is Diz o que sentes.",
+            "pt": "Hoje a lição é: Diz o que sentes.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l16_s2"
+          },
+          {
+            "id": "a1-u16-l16-s3",
+            "en": "We learn 'eye' and 'hand'.",
+            "pt": "Aprendemos «olho» e «mão».",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l16_s3"
+          },
+          {
+            "id": "a1-u16-l16-s4",
+            "en": "Zacarias says: I use 'stomach' every day.",
+            "pt": "Zacarias diz: uso «estômago» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l16_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u16-l16-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u16-l16_lw_amina-is-in-xai-xa",
+              "answer": "Amina is in Xai-Xai. head.",
+              "hint": "Amina"
+            },
+            {
+              "audioKey": "a1_a1-u16-l16_lw_amina-is-in-xai-xa",
+              "answer": "Amina is in Xai-Xai. eye.",
+              "hint": "Amina"
+            },
+            {
+              "audioKey": "a1_a1-u16-l16_lw_amina-is-in-xai-xa",
+              "answer": "Amina is in Xai-Xai. hand.",
+              "hint": "Amina"
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l16-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "head"
+              ],
+              "answer": "I need head"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "eye"
+              ],
+              "answer": "I need eye"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "hand"
+              ],
+              "answer": "I need hand"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-l17",
+      "unitId": "u16",
+      "order": 17,
+      "kind": "content",
+      "title": {
+        "pt": "Conselhos simples",
+        "en": "Conselhos simples"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Partes do corpo e I’m sick / My head hurts.",
+        "Conselhos simples"
+      ],
+      "newWords": [
+        {
+          "en": "sick",
+          "pt": "doente",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l17_w_sick",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "hurt",
+          "pt": "doer",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l17_w_hurt",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "doctor",
+          "pt": "médico",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l17_w_doctor",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "hospital",
+          "pt": "hospital",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l17_w_hospital",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Conselhos simples",
+        "sentences": [
+          {
+            "id": "a1-u16-l17-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l17_s1"
+          },
+          {
+            "id": "a1-u16-l17-s2",
+            "en": "Today the lesson is Diz o que sentes.",
+            "pt": "Hoje a lição é: Diz o que sentes.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l17_s2"
+          },
+          {
+            "id": "a1-u16-l17-s3",
+            "en": "We learn 'eye' and 'hand'.",
+            "pt": "Aprendemos «olho» e «mão».",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l17_s3"
+          },
+          {
+            "id": "a1-u16-l17-s4",
+            "en": "Zacarias says: I use 'stomach' every day.",
+            "pt": "Zacarias diz: uso «estômago» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l17_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u16-l17-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u16-l17_tap",
+          "items": [
+            {
+              "answer": "head",
+              "options": [
+                "head",
+                "eye",
+                "hand",
+                "leg"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l17-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-l18",
+      "unitId": "u16",
+      "order": 18,
+      "kind": "content",
+      "title": {
+        "pt": "Sons: head / hand / hurt",
+        "en": "Sons: head / hand / hurt"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Partes do corpo e I’m sick / My head hurts.",
+        "Sons: head / hand / hurt"
+      ],
+      "newWords": [
+        {
+          "en": "hospital",
+          "pt": "hospital",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l18_w_hospital",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "pharmacy",
+          "pt": "farmácia",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l18_w_pharmacy",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "medicine",
+          "pt": "remédio",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l18_w_medicine",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "water",
+          "pt": "água",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l18_w_water",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Sons: head / hand / hurt",
+        "sentences": [
+          {
+            "id": "a1-u16-l18-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l18_s1"
+          },
+          {
+            "id": "a1-u16-l18-s2",
+            "en": "Today the lesson is Diz o que sentes.",
+            "pt": "Hoje a lição é: Diz o que sentes.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l18_s2"
+          },
+          {
+            "id": "a1-u16-l18-s3",
+            "en": "We learn 'eye' and 'hand'.",
+            "pt": "Aprendemos «olho» e «mão».",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l18_s3"
+          },
+          {
+            "id": "a1-u16-l18-s4",
+            "en": "Zacarias says: I use 'stomach' every day.",
+            "pt": "Zacarias diz: uso «estômago» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l18_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u16-l18-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l18-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "head",
+                "pt": "O que significa «head»?"
+              },
+              "options": [
+                "cabeça",
+                "mão",
+                "estômago",
+                "doente"
+              ],
+              "answer": "cabeça"
+            },
+            {
+              "question": {
+                "en": "eye",
+                "pt": "O que significa «eye»?"
+              },
+              "options": [
+                "olho",
+                "perna",
+                "corpo",
+                "doer"
+              ],
+              "answer": "olho"
+            },
+            {
+              "question": {
+                "en": "hand",
+                "pt": "O que significa «hand»?"
+              },
+              "options": [
+                "mão",
+                "estômago",
+                "doente",
+                "médico"
+              ],
+              "answer": "mão"
+            },
+            {
+              "question": {
+                "en": "leg",
+                "pt": "O que significa «leg»?"
+              },
+              "options": [
+                "perna",
+                "corpo",
+                "doer",
+                "hospital"
+              ],
+              "answer": "perna"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-l19",
+      "unitId": "u16",
+      "order": 19,
+      "kind": "content",
+      "title": {
+        "pt": "Diz o que sentes",
+        "en": "Diz o que sentes"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Partes do corpo e I’m sick / My head hurts.",
+        "Diz o que sentes"
+      ],
+      "newWords": [
+        {
+          "en": "water",
+          "pt": "água",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l19_w_water",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "rest",
+          "pt": "descansar",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l19_w_rest",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diz o que sentes",
+        "sentences": [
+          {
+            "id": "a1-u16-l19-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l19_s1"
+          },
+          {
+            "id": "a1-u16-l19-s2",
+            "en": "Today the lesson is Diz o que sentes.",
+            "pt": "Hoje a lição é: Diz o que sentes.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l19_s2"
+          },
+          {
+            "id": "a1-u16-l19-s3",
+            "en": "We learn 'eye' and 'hand'.",
+            "pt": "Aprendemos «olho» e «mão».",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l19_s3"
+          },
+          {
+            "id": "a1-u16-l19-s4",
+            "en": "Zacarias says: I use 'stomach' every day.",
+            "pt": "Zacarias diz: uso «estômago» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l19_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u16-l19-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u16-l19_repeat",
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l19-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "head",
+                "pt": "O que significa «head»?"
+              },
+              "options": [
+                "cabeça",
+                "mão",
+                "estômago",
+                "doente"
+              ],
+              "answer": "cabeça"
+            },
+            {
+              "question": {
+                "en": "eye",
+                "pt": "O que significa «eye»?"
+              },
+              "options": [
+                "olho",
+                "perna",
+                "corpo",
+                "doer"
+              ],
+              "answer": "olho"
+            },
+            {
+              "question": {
+                "en": "hand",
+                "pt": "O que significa «hand»?"
+              },
+              "options": [
+                "mão",
+                "estômago",
+                "doente",
+                "médico"
+              ],
+              "answer": "mão"
+            },
+            {
+              "question": {
+                "en": "leg",
+                "pt": "O que significa «leg»?"
+              },
+              "options": [
+                "perna",
+                "corpo",
+                "doer",
+                "hospital"
+              ],
+              "answer": "perna"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-l20",
+      "unitId": "u16",
+      "order": 20,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste da unidade: Corpo e saúde",
+        "en": "Unit test: Body and health"
+      },
+      "type": "unit_test",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "listening",
+        "reading",
+        "writing",
+        "grammar"
+      ],
+      "objectives": [
+        "Partes do corpo e I’m sick / My head hurts.",
+        "Teste da unidade: Corpo e saúde"
+      ],
+      "newWords": [
+        {
+          "en": "eye",
+          "pt": "olho",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l20_w_eye",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "hand",
+          "pt": "mão",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l20_w_hand",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "leg",
+          "pt": "perna",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l20_w_leg",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "stomach",
+          "pt": "estômago",
+          "ipa": "",
+          "audioKey": "a1_a1-u16-l20_w_stomach",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Unit test: Body and health",
+        "sentences": [
+          {
+            "id": "a1-u16-l20-s1",
+            "en": "Let’s review. Carlos is from Beira.",
+            "pt": "Vamos rever. Carlos é de Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l20_s1"
+          },
+          {
+            "id": "a1-u16-l20-s2",
+            "en": "This unit is about Body and health.",
+            "pt": "Esta unidade é sobre Corpo e saúde.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l20_s2"
+          },
+          {
+            "id": "a1-u16-l20-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u16-l20_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u16-l20-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "head",
+                "pt": "O que significa «head»?"
+              },
+              "options": [
+                "cabeça",
+                "mão",
+                "estômago",
+                "doente"
+              ],
+              "answer": "cabeça"
+            },
+            {
+              "question": {
+                "en": "eye",
+                "pt": "O que significa «eye»?"
+              },
+              "options": [
+                "olho",
+                "perna",
+                "corpo",
+                "doer"
+              ],
+              "answer": "olho"
+            },
+            {
+              "question": {
+                "en": "hand",
+                "pt": "O que significa «hand»?"
+              },
+              "options": [
+                "mão",
+                "estômago",
+                "doente",
+                "médico"
+              ],
+              "answer": "mão"
+            },
+            {
+              "question": {
+                "en": "leg",
+                "pt": "O que significa «leg»?"
+              },
+              "options": [
+                "perna",
+                "corpo",
+                "doer",
+                "hospital"
+              ],
+              "answer": "perna"
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l20-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Amina uses the word _____.",
+              "answer": "head",
+              "options": [
+                "head",
+                "eye",
+                "hand",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amina uses the word _____.",
+              "answer": "eye",
+              "options": [
+                "eye",
+                "hand",
+                "leg",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Amina uses the word _____.",
+              "answer": "hand",
+              "options": [
+                "hand",
+                "leg",
+                "stomach",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l20-a3",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'head' in Portuguese is 'cabeça'.",
+              "answer": true
+            },
+            {
+              "sentence": "'head' means 'perna'.",
+              "answer": false
+            },
+            {
+              "sentence": "'eye' in Portuguese is 'olho'.",
+              "answer": true
+            },
+            {
+              "sentence": "'eye' means 'estômago'.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l20-a4",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "head"
+              ],
+              "answer": "I need head"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "eye"
+              ],
+              "answer": "I need eye"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "hand"
+              ],
+              "answer": "I need hand"
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l20-a5",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u16-l20_lw_amina-is-in-xai-xa",
+              "answer": "Amina is in Xai-Xai. head.",
+              "hint": "Amina"
+            },
+            {
+              "audioKey": "a1_a1-u16-l20_lw_amina-is-in-xai-xa",
+              "answer": "Amina is in Xai-Xai. eye.",
+              "hint": "Amina"
+            },
+            {
+              "audioKey": "a1_a1-u16-l20_lw_amina-is-in-xai-xa",
+              "answer": "Amina is in Xai-Xai. hand.",
+              "hint": "Amina"
+            }
+          ]
+        },
+        {
+          "id": "a1-u16-l20-a6",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    }
+  ]
+}

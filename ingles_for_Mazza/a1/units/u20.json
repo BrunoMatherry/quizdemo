@@ -1,0 +1,3460 @@
+{
+  "id": "u20",
+  "level": "A1",
+  "order": 20,
+  "title": {
+    "pt": "Telemóvel",
+    "en": "Mobile phone"
+  },
+  "goal": "Chamadas, SMS e WhatsApp em inglês simples.",
+  "themeImageHint": "Mobile phone",
+  "lessonCount": 20,
+  "lessons": [
+    {
+      "id": "a1-u20-l01",
+      "unitId": "u20",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "O meu telemóvel",
+        "en": "O meu telemóvel"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Chamadas, SMS e WhatsApp em inglês simples.",
+        "O meu telemóvel"
+      ],
+      "newWords": [
+        {
+          "en": "phone",
+          "pt": "telemóvel",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l01_w_phone",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "call",
+          "pt": "ligar",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l01_w_call",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "message",
+          "pt": "mensagem",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l01_w_message",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "send",
+          "pt": "enviar",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l01_w_send",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "O meu telemóvel",
+        "sentences": [
+          {
+            "id": "a1-u20-l01-s1",
+            "en": "Amina lives in Maputo.",
+            "pt": "Amina mora em Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l01_s1"
+          },
+          {
+            "id": "a1-u20-l01-s2",
+            "en": "Today the lesson is O meu telemóvel.",
+            "pt": "Hoje a lição é: O meu telemóvel.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l01_s2"
+          },
+          {
+            "id": "a1-u20-l01-s3",
+            "en": "We learn 'phone' and 'call'.",
+            "pt": "Aprendemos «telemóvel» e «ligar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l01_s3"
+          },
+          {
+            "id": "a1-u20-l01-s4",
+            "en": "Amina says: I use 'send' every day.",
+            "pt": "Amina diz: uso «enviar» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l01_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u20-l01-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u20-l01_repeat",
+          "items": [
+            {
+              "en": "Amina lives in Maputo.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l01-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "phone",
+                "pt": "O que significa «phone»?"
+              },
+              "options": [
+                "telemóvel",
+                "mensagem",
+                "foto",
+                "bateria"
+              ],
+              "answer": "telemóvel"
+            },
+            {
+              "question": {
+                "en": "call",
+                "pt": "O que significa «call»?"
+              },
+              "options": [
+                "ligar",
+                "enviar",
+                "internet",
+                "número"
+              ],
+              "answer": "ligar"
+            },
+            {
+              "question": {
+                "en": "message",
+                "pt": "O que significa «message»?"
+              },
+              "options": [
+                "mensagem",
+                "foto",
+                "bateria",
+                "esperar"
+              ],
+              "answer": "mensagem"
+            },
+            {
+              "question": {
+                "en": "send",
+                "pt": "O que significa «send»?"
+              },
+              "options": [
+                "enviar",
+                "internet",
+                "número",
+                "ocupado"
+              ],
+              "answer": "enviar"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-l02",
+      "unitId": "u20",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "Qual é o teu número?",
+        "en": "Qual é o teu número?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Chamadas, SMS e WhatsApp em inglês simples.",
+        "Qual é o teu número?"
+      ],
+      "newWords": [
+        {
+          "en": "send",
+          "pt": "enviar",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l02_w_send",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "photo",
+          "pt": "foto",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l02_w_photo",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "internet",
+          "pt": "internet",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l02_w_internet",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "battery",
+          "pt": "bateria",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l02_w_battery",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Qual é o teu número?",
+        "sentences": [
+          {
+            "id": "a1-u20-l02-s1",
+            "en": "João lives in Matola.",
+            "pt": "João mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l02_s1"
+          },
+          {
+            "id": "a1-u20-l02-s2",
+            "en": "Today the lesson is Qual é o teu número?.",
+            "pt": "Hoje a lição é: Qual é o teu número?.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l02_s2"
+          },
+          {
+            "id": "a1-u20-l02-s3",
+            "en": "We learn 'call' and 'message'.",
+            "pt": "Aprendemos «ligar» e «mensagem».",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l02_s3"
+          },
+          {
+            "id": "a1-u20-l02-s4",
+            "en": "João says: I use 'photo' every day.",
+            "pt": "João diz: uso «foto» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l02_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u20-l02-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "phone",
+              "options": [
+                "phone",
+                "call",
+                "message",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "call",
+              "options": [
+                "call",
+                "message",
+                "send",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "message",
+              "options": [
+                "message",
+                "send",
+                "photo",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-l03",
+      "unitId": "u20",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "Liga-me",
+        "en": "Liga-me"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Chamadas, SMS e WhatsApp em inglês simples.",
+        "Liga-me"
+      ],
+      "newWords": [
+        {
+          "en": "battery",
+          "pt": "bateria",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l03_w_battery",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "number",
+          "pt": "número",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l03_w_number",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "wait",
+          "pt": "esperar",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l03_w_wait",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "busy",
+          "pt": "ocupado",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l03_w_busy",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        }
+      ],
+      "guidedReading": {
+        "title": "Liga-me",
+        "sentences": [
+          {
+            "id": "a1-u20-l03-s1",
+            "en": "Fátima lives in Xai-Xai.",
+            "pt": "Fátima mora em Xai-Xai.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l03_s1"
+          },
+          {
+            "id": "a1-u20-l03-s2",
+            "en": "Today the lesson is Liga-me.",
+            "pt": "Hoje a lição é: Liga-me.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l03_s2"
+          },
+          {
+            "id": "a1-u20-l03-s3",
+            "en": "We learn 'message' and 'send'.",
+            "pt": "Aprendemos «mensagem» e «enviar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l03_s3"
+          },
+          {
+            "id": "a1-u20-l03-s4",
+            "en": "Fátima says: I use 'internet' every day.",
+            "pt": "Fátima diz: uso «internet» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l03_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u20-l03-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "phone",
+              "pt": "telemóvel"
+            },
+            {
+              "en": "call",
+              "pt": "ligar"
+            },
+            {
+              "en": "message",
+              "pt": "mensagem"
+            },
+            {
+              "en": "send",
+              "pt": "enviar"
+            },
+            {
+              "en": "photo",
+              "pt": "foto"
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l03-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'phone' in Portuguese is 'telemóvel'.",
+              "answer": true
+            },
+            {
+              "sentence": "'phone' means 'enviar'.",
+              "answer": false
+            },
+            {
+              "sentence": "'call' in Portuguese is 'ligar'.",
+              "answer": true
+            },
+            {
+              "sentence": "'call' means 'foto'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-l04",
+      "unitId": "u20",
+      "order": 4,
+      "kind": "content",
+      "title": {
+        "pt": "Envia uma mensagem",
+        "en": "Envia uma mensagem"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Chamadas, SMS e WhatsApp em inglês simples.",
+        "Envia uma mensagem"
+      ],
+      "newWords": [
+        {
+          "en": "busy",
+          "pt": "ocupado",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l04_w_busy",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Envia uma mensagem",
+        "sentences": [
+          {
+            "id": "a1-u20-l04-s1",
+            "en": "Carlos lives in Inhambane.",
+            "pt": "Carlos mora em Inhambane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l04_s1"
+          },
+          {
+            "id": "a1-u20-l04-s2",
+            "en": "Today the lesson is Envia uma mensagem.",
+            "pt": "Hoje a lição é: Envia uma mensagem.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l04_s2"
+          },
+          {
+            "id": "a1-u20-l04-s3",
+            "en": "We learn 'send' and 'photo'.",
+            "pt": "Aprendemos «enviar» e «foto».",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l04_s3"
+          },
+          {
+            "id": "a1-u20-l04-s4",
+            "en": "Carlos says: I use 'battery' every day.",
+            "pt": "Carlos diz: uso «bateria» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l04_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u20-l04-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u20-l04_lw_graça-is-in-chimoi",
+              "answer": "Graça is in Chimoio. phone.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u20-l04_lw_graça-is-in-chimoi",
+              "answer": "Graça is in Chimoio. call.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u20-l04_lw_graça-is-in-chimoi",
+              "answer": "Graça is in Chimoio. message.",
+              "hint": "Graça"
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l04-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "phone"
+              ],
+              "answer": "I need phone"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "call"
+              ],
+              "answer": "I need call"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "message"
+              ],
+              "answer": "I need message"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-l05",
+      "unitId": "u20",
+      "order": 5,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 1",
+        "en": "Checkpoint quiz 1"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Chamadas, SMS e WhatsApp em inglês simples.",
+        "Mini-teste 1"
+      ],
+      "newWords": [
+        {
+          "en": "message",
+          "pt": "mensagem",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l05_w_message",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "send",
+          "pt": "enviar",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l05_w_send",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "photo",
+          "pt": "foto",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l05_w_photo",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "internet",
+          "pt": "internet",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l05_w_internet",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 1",
+        "sentences": [
+          {
+            "id": "a1-u20-l05-s1",
+            "en": "Let’s review. Graça is from Vilankulo.",
+            "pt": "Vamos rever. Graça é de Vilankulo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l05_s1"
+          },
+          {
+            "id": "a1-u20-l05-s2",
+            "en": "This unit is about Mobile phone.",
+            "pt": "Esta unidade é sobre Telemóvel.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l05_s2"
+          },
+          {
+            "id": "a1-u20-l05-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l05_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u20-l05-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "phone",
+                "pt": "O que significa «phone»?"
+              },
+              "options": [
+                "telemóvel",
+                "mensagem",
+                "foto",
+                "bateria"
+              ],
+              "answer": "telemóvel"
+            },
+            {
+              "question": {
+                "en": "call",
+                "pt": "O que significa «call»?"
+              },
+              "options": [
+                "ligar",
+                "enviar",
+                "internet",
+                "número"
+              ],
+              "answer": "ligar"
+            },
+            {
+              "question": {
+                "en": "message",
+                "pt": "O que significa «message»?"
+              },
+              "options": [
+                "mensagem",
+                "foto",
+                "bateria",
+                "esperar"
+              ],
+              "answer": "mensagem"
+            },
+            {
+              "question": {
+                "en": "send",
+                "pt": "O que significa «send»?"
+              },
+              "options": [
+                "enviar",
+                "internet",
+                "número",
+                "ocupado"
+              ],
+              "answer": "enviar"
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l05-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "phone",
+              "options": [
+                "phone",
+                "call",
+                "message",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "call",
+              "options": [
+                "call",
+                "message",
+                "send",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "message",
+              "options": [
+                "message",
+                "send",
+                "photo",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l05-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u20-l05_lw_graça-is-in-chimoi",
+              "answer": "Graça is in Chimoio. phone.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u20-l05_lw_graça-is-in-chimoi",
+              "answer": "Graça is in Chimoio. call.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u20-l05_lw_graça-is-in-chimoi",
+              "answer": "Graça is in Chimoio. message.",
+              "hint": "Graça"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-l06",
+      "unitId": "u20",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "Envia uma foto",
+        "en": "Envia uma foto"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Chamadas, SMS e WhatsApp em inglês simples.",
+        "Envia uma foto"
+      ],
+      "newWords": [
+        {
+          "en": "internet",
+          "pt": "internet",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l06_w_internet",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "battery",
+          "pt": "bateria",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l06_w_battery",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "number",
+          "pt": "número",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l06_w_number",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "wait",
+          "pt": "esperar",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l06_w_wait",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Envia uma foto",
+        "sentences": [
+          {
+            "id": "a1-u20-l06-s1",
+            "en": "Ibraimo lives in Beira.",
+            "pt": "Ibraimo mora em Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l06_s1"
+          },
+          {
+            "id": "a1-u20-l06-s2",
+            "en": "Today the lesson is Não tenho saldo.",
+            "pt": "Hoje a lição é: Não tenho saldo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l06_s2"
+          },
+          {
+            "id": "a1-u20-l06-s3",
+            "en": "We learn 'internet' and 'battery'.",
+            "pt": "Aprendemos «internet» e «bateria».",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l06_s3"
+          },
+          {
+            "id": "a1-u20-l06-s4",
+            "en": "Ibraimo says: I use 'wait' every day.",
+            "pt": "Ibraimo diz: uso «esperar» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l06_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u20-l06-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Ibraimo lives in Beira.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l06-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "phone",
+                "pt": "O que significa «phone»?"
+              },
+              "options": [
+                "telemóvel",
+                "mensagem",
+                "foto",
+                "bateria"
+              ],
+              "answer": "telemóvel"
+            },
+            {
+              "question": {
+                "en": "call",
+                "pt": "O que significa «call»?"
+              },
+              "options": [
+                "ligar",
+                "enviar",
+                "internet",
+                "número"
+              ],
+              "answer": "ligar"
+            },
+            {
+              "question": {
+                "en": "message",
+                "pt": "O que significa «message»?"
+              },
+              "options": [
+                "mensagem",
+                "foto",
+                "bateria",
+                "esperar"
+              ],
+              "answer": "mensagem"
+            },
+            {
+              "question": {
+                "en": "send",
+                "pt": "O que significa «send»?"
+              },
+              "options": [
+                "enviar",
+                "internet",
+                "número",
+                "ocupado"
+              ],
+              "answer": "enviar"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-l07",
+      "unitId": "u20",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "Não tenho saldo",
+        "en": "Não tenho saldo"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Chamadas, SMS e WhatsApp em inglês simples.",
+        "Não tenho saldo"
+      ],
+      "newWords": [
+        {
+          "en": "wait",
+          "pt": "esperar",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l07_w_wait",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "busy",
+          "pt": "ocupado",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l07_w_busy",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        }
+      ],
+      "guidedReading": {
+        "title": "Não tenho saldo",
+        "sentences": [
+          {
+            "id": "a1-u20-l07-s1",
+            "en": "Esperança lives in Chimoio.",
+            "pt": "Esperança mora em Chimoio.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l07_s1"
+          },
+          {
+            "id": "a1-u20-l07-s2",
+            "en": "Today the lesson is A bateria está fraca.",
+            "pt": "Hoje a lição é: A bateria está fraca.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l07_s2"
+          },
+          {
+            "id": "a1-u20-l07-s3",
+            "en": "We learn 'battery' and 'number'.",
+            "pt": "Aprendemos «bateria» e «número».",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l07_s3"
+          },
+          {
+            "id": "a1-u20-l07-s4",
+            "en": "Esperança says: I use 'busy' every day.",
+            "pt": "Esperança diz: uso «ocupado» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l07_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u20-l07-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u20-l07_repeat",
+          "items": [
+            {
+              "en": "Esperança lives in Chimoio.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l07-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "phone",
+                "pt": "O que significa «phone»?"
+              },
+              "options": [
+                "telemóvel",
+                "mensagem",
+                "foto",
+                "bateria"
+              ],
+              "answer": "telemóvel"
+            },
+            {
+              "question": {
+                "en": "call",
+                "pt": "O que significa «call»?"
+              },
+              "options": [
+                "ligar",
+                "enviar",
+                "internet",
+                "número"
+              ],
+              "answer": "ligar"
+            },
+            {
+              "question": {
+                "en": "message",
+                "pt": "O que significa «message»?"
+              },
+              "options": [
+                "mensagem",
+                "foto",
+                "bateria",
+                "esperar"
+              ],
+              "answer": "mensagem"
+            },
+            {
+              "question": {
+                "en": "send",
+                "pt": "O que significa «send»?"
+              },
+              "options": [
+                "enviar",
+                "internet",
+                "número",
+                "ocupado"
+              ],
+              "answer": "enviar"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-l08",
+      "unitId": "u20",
+      "order": 8,
+      "kind": "content",
+      "title": {
+        "pt": "A bateria está fraca",
+        "en": "A bateria está fraca"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Chamadas, SMS e WhatsApp em inglês simples.",
+        "A bateria está fraca"
+      ],
+      "newWords": [
+        {
+          "en": "call",
+          "pt": "ligar",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l08_w_call",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "message",
+          "pt": "mensagem",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l08_w_message",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "send",
+          "pt": "enviar",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l08_w_send",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "photo",
+          "pt": "foto",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l08_w_photo",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        }
+      ],
+      "guidedReading": {
+        "title": "A bateria está fraca",
+        "sentences": [
+          {
+            "id": "a1-u20-l08-s1",
+            "en": "Paulo lives in Tete.",
+            "pt": "Paulo mora em Tete.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l08_s1"
+          },
+          {
+            "id": "a1-u20-l08-s2",
+            "en": "Today the lesson is Está ocupado.",
+            "pt": "Hoje a lição é: Está ocupado.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l08_s2"
+          },
+          {
+            "id": "a1-u20-l08-s3",
+            "en": "We learn 'number' and 'wait'.",
+            "pt": "Aprendemos «número» e «esperar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l08_s3"
+          },
+          {
+            "id": "a1-u20-l08-s4",
+            "en": "Paulo says: I use 'phone' every day.",
+            "pt": "Paulo diz: uso «telemóvel» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l08_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u20-l08-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "phone",
+              "options": [
+                "phone",
+                "call",
+                "message",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "call",
+              "options": [
+                "call",
+                "message",
+                "send",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "message",
+              "options": [
+                "message",
+                "send",
+                "photo",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-l09",
+      "unitId": "u20",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Está ocupado",
+        "en": "Está ocupado"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Chamadas, SMS e WhatsApp em inglês simples.",
+        "Está ocupado"
+      ],
+      "newWords": [
+        {
+          "en": "photo",
+          "pt": "foto",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l09_w_photo",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "internet",
+          "pt": "internet",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l09_w_internet",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "battery",
+          "pt": "bateria",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l09_w_battery",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "number",
+          "pt": "número",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l09_w_number",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Está ocupado",
+        "sentences": [
+          {
+            "id": "a1-u20-l09-s1",
+            "en": "Belmira lives in Quelimane.",
+            "pt": "Belmira mora em Quelimane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l09_s1"
+          },
+          {
+            "id": "a1-u20-l09-s2",
+            "en": "Today the lesson is Espera um pouco.",
+            "pt": "Hoje a lição é: Espera um pouco.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l09_s2"
+          },
+          {
+            "id": "a1-u20-l09-s3",
+            "en": "We learn 'wait' and 'busy'.",
+            "pt": "Aprendemos «esperar» e «ocupado».",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l09_s3"
+          },
+          {
+            "id": "a1-u20-l09-s4",
+            "en": "Belmira says: I use 'call' every day.",
+            "pt": "Belmira diz: uso «ligar» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l09_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u20-l09-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "phone",
+              "pt": "telemóvel"
+            },
+            {
+              "en": "call",
+              "pt": "ligar"
+            },
+            {
+              "en": "message",
+              "pt": "mensagem"
+            },
+            {
+              "en": "send",
+              "pt": "enviar"
+            },
+            {
+              "en": "photo",
+              "pt": "foto"
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l09-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'phone' in Portuguese is 'telemóvel'.",
+              "answer": true
+            },
+            {
+              "sentence": "'phone' means 'enviar'.",
+              "answer": false
+            },
+            {
+              "sentence": "'call' in Portuguese is 'ligar'.",
+              "answer": true
+            },
+            {
+              "sentence": "'call' means 'foto'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-l10",
+      "unitId": "u20",
+      "order": 10,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão guiada",
+        "en": "Guided review"
+      },
+      "type": "review",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectives": [
+        "Chamadas, SMS e WhatsApp em inglês simples.",
+        "Revisão guiada"
+      ],
+      "newWords": [
+        {
+          "en": "number",
+          "pt": "número",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l10_w_number",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "wait",
+          "pt": "esperar",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l10_w_wait",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "busy",
+          "pt": "ocupado",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l10_w_busy",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        }
+      ],
+      "guidedReading": {
+        "title": "Guided review",
+        "sentences": [
+          {
+            "id": "a1-u20-l10-s1",
+            "en": "Let’s review. Nélio is from Nampula.",
+            "pt": "Vamos rever. Nélio é de Nampula.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l10_s1"
+          },
+          {
+            "id": "a1-u20-l10-s2",
+            "en": "This unit is about Mobile phone.",
+            "pt": "Esta unidade é sobre Telemóvel.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l10_s2"
+          },
+          {
+            "id": "a1-u20-l10-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l10_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u20-l10-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u20-l10_lw_graça-is-in-chimoi",
+              "answer": "Graça is in Chimoio. phone.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u20-l10_lw_graça-is-in-chimoi",
+              "answer": "Graça is in Chimoio. call.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u20-l10_lw_graça-is-in-chimoi",
+              "answer": "Graça is in Chimoio. message.",
+              "hint": "Graça"
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l10-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "phone"
+              ],
+              "answer": "I need phone"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "call"
+              ],
+              "answer": "I need call"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "message"
+              ],
+              "answer": "I need message"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-l11",
+      "unitId": "u20",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "Espera um pouco",
+        "en": "Espera um pouco"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Chamadas, SMS e WhatsApp em inglês simples.",
+        "Espera um pouco"
+      ],
+      "newWords": [
+        {
+          "en": "phone",
+          "pt": "telemóvel",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l11_w_phone",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "call",
+          "pt": "ligar",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l11_w_call",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "message",
+          "pt": "mensagem",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l11_w_message",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "send",
+          "pt": "enviar",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l11_w_send",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        }
+      ],
+      "guidedReading": {
+        "title": "Espera um pouco",
+        "sentences": [
+          {
+            "id": "a1-u20-l11-s1",
+            "en": "Lurdes lives in Nacala.",
+            "pt": "Lurdes mora em Nacala.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l11_s1"
+          },
+          {
+            "id": "a1-u20-l11-s2",
+            "en": "Today the lesson is Diálogo: não ouço bem.",
+            "pt": "Hoje a lição é: Diálogo: não ouço bem.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l11_s2"
+          },
+          {
+            "id": "a1-u20-l11-s3",
+            "en": "We learn 'phone' and 'call'.",
+            "pt": "Aprendemos «telemóvel» e «ligar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l11_s3"
+          },
+          {
+            "id": "a1-u20-l11-s4",
+            "en": "Lurdes says: I use 'send' every day.",
+            "pt": "Lurdes diz: uso «enviar» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l11_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u20-l11-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u20-l11_tap",
+          "items": [
+            {
+              "answer": "phone",
+              "options": [
+                "phone",
+                "call",
+                "message",
+                "send"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l11-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-l12",
+      "unitId": "u20",
+      "order": 12,
+      "kind": "content",
+      "title": {
+        "pt": "WhatsApp em inglês",
+        "en": "WhatsApp em inglês"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Chamadas, SMS e WhatsApp em inglês simples.",
+        "WhatsApp em inglês"
+      ],
+      "newWords": [
+        {
+          "en": "send",
+          "pt": "enviar",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l12_w_send",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "photo",
+          "pt": "foto",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l12_w_photo",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "internet",
+          "pt": "internet",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l12_w_internet",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "battery",
+          "pt": "bateria",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l12_w_battery",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        }
+      ],
+      "guidedReading": {
+        "title": "WhatsApp em inglês",
+        "sentences": [
+          {
+            "id": "a1-u20-l12-s1",
+            "en": "Faruk lives in Pemba.",
+            "pt": "Faruk mora em Pemba.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l12_s1"
+          },
+          {
+            "id": "a1-u20-l12-s2",
+            "en": "Today the lesson is Diálogo: mando a localização.",
+            "pt": "Hoje a lição é: Diálogo: mando a localização.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l12_s2"
+          },
+          {
+            "id": "a1-u20-l12-s3",
+            "en": "We learn 'call' and 'message'.",
+            "pt": "Aprendemos «ligar» e «mensagem».",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l12_s3"
+          },
+          {
+            "id": "a1-u20-l12-s4",
+            "en": "Faruk says: I use 'photo' every day.",
+            "pt": "Faruk diz: uso «foto» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l12_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u20-l12-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Faruk lives in Pemba.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l12-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "phone",
+                "pt": "O que significa «phone»?"
+              },
+              "options": [
+                "telemóvel",
+                "mensagem",
+                "foto",
+                "bateria"
+              ],
+              "answer": "telemóvel"
+            },
+            {
+              "question": {
+                "en": "call",
+                "pt": "O que significa «call»?"
+              },
+              "options": [
+                "ligar",
+                "enviar",
+                "internet",
+                "número"
+              ],
+              "answer": "ligar"
+            },
+            {
+              "question": {
+                "en": "message",
+                "pt": "O que significa «message»?"
+              },
+              "options": [
+                "mensagem",
+                "foto",
+                "bateria",
+                "esperar"
+              ],
+              "answer": "mensagem"
+            },
+            {
+              "question": {
+                "en": "send",
+                "pt": "O que significa «send»?"
+              },
+              "options": [
+                "enviar",
+                "internet",
+                "número",
+                "ocupado"
+              ],
+              "answer": "enviar"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-l13",
+      "unitId": "u20",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: não ouço bem",
+        "en": "Diálogo: não ouço bem"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Chamadas, SMS e WhatsApp em inglês simples.",
+        "Diálogo: não ouço bem"
+      ],
+      "newWords": [
+        {
+          "en": "battery",
+          "pt": "bateria",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l13_w_battery",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "number",
+          "pt": "número",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l13_w_number",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "wait",
+          "pt": "esperar",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l13_w_wait",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "busy",
+          "pt": "ocupado",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l13_w_busy",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: não ouço bem",
+        "sentences": [
+          {
+            "id": "a1-u20-l13-s1",
+            "en": "Josina lives in Lichinga.",
+            "pt": "Josina mora em Lichinga.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l13_s1"
+          },
+          {
+            "id": "a1-u20-l13-s2",
+            "en": "Today the lesson is Frases de chat.",
+            "pt": "Hoje a lição é: Frases de chat.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l13_s2"
+          },
+          {
+            "id": "a1-u20-l13-s3",
+            "en": "We learn 'message' and 'send'.",
+            "pt": "Aprendemos «mensagem» e «enviar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l13_s3"
+          },
+          {
+            "id": "a1-u20-l13-s4",
+            "en": "Josina says: I use 'internet' every day.",
+            "pt": "Josina diz: uso «internet» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l13_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u20-l13-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u20-l13_repeat",
+          "items": [
+            {
+              "en": "Josina lives in Lichinga.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l13-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "phone",
+                "pt": "O que significa «phone»?"
+              },
+              "options": [
+                "telemóvel",
+                "mensagem",
+                "foto",
+                "bateria"
+              ],
+              "answer": "telemóvel"
+            },
+            {
+              "question": {
+                "en": "call",
+                "pt": "O que significa «call»?"
+              },
+              "options": [
+                "ligar",
+                "enviar",
+                "internet",
+                "número"
+              ],
+              "answer": "ligar"
+            },
+            {
+              "question": {
+                "en": "message",
+                "pt": "O que significa «message»?"
+              },
+              "options": [
+                "mensagem",
+                "foto",
+                "bateria",
+                "esperar"
+              ],
+              "answer": "mensagem"
+            },
+            {
+              "question": {
+                "en": "send",
+                "pt": "O que significa «send»?"
+              },
+              "options": [
+                "enviar",
+                "internet",
+                "número",
+                "ocupado"
+              ],
+              "answer": "enviar"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-l14",
+      "unitId": "u20",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: mando a localização",
+        "en": "Diálogo: mando a localização"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Chamadas, SMS e WhatsApp em inglês simples.",
+        "Diálogo: mando a localização"
+      ],
+      "newWords": [
+        {
+          "en": "busy",
+          "pt": "ocupado",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l14_w_busy",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: mando a localização",
+        "sentences": [
+          {
+            "id": "a1-u20-l14-s1",
+            "en": "Tendai lives in Ilha de Moçambique.",
+            "pt": "Tendai mora em Ilha de Moçambique.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l14_s1"
+          },
+          {
+            "id": "a1-u20-l14-s2",
+            "en": "Today the lesson is Ouvir recados.",
+            "pt": "Hoje a lição é: Ouvir recados.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l14_s2"
+          },
+          {
+            "id": "a1-u20-l14-s3",
+            "en": "We learn 'send' and 'photo'.",
+            "pt": "Aprendemos «enviar» e «foto».",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l14_s3"
+          },
+          {
+            "id": "a1-u20-l14-s4",
+            "en": "Tendai says: I use 'battery' every day.",
+            "pt": "Tendai diz: uso «bateria» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l14_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u20-l14-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "phone",
+              "options": [
+                "phone",
+                "call",
+                "message",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "call",
+              "options": [
+                "call",
+                "message",
+                "send",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "message",
+              "options": [
+                "message",
+                "send",
+                "photo",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-l15",
+      "unitId": "u20",
+      "order": 15,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 2",
+        "en": "Checkpoint quiz 2"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Chamadas, SMS e WhatsApp em inglês simples.",
+        "Mini-teste 2"
+      ],
+      "newWords": [
+        {
+          "en": "message",
+          "pt": "mensagem",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l15_w_message",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "send",
+          "pt": "enviar",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l15_w_send",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "photo",
+          "pt": "foto",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l15_w_photo",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "internet",
+          "pt": "internet",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l15_w_internet",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 2",
+        "sentences": [
+          {
+            "id": "a1-u20-l15-s1",
+            "en": "Let’s review. Amélia is from Maputo.",
+            "pt": "Vamos rever. Amélia é de Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l15_s1"
+          },
+          {
+            "id": "a1-u20-l15-s2",
+            "en": "This unit is about Mobile phone.",
+            "pt": "Esta unidade é sobre Telemóvel.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l15_s2"
+          },
+          {
+            "id": "a1-u20-l15-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l15_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u20-l15-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "phone",
+                "pt": "O que significa «phone»?"
+              },
+              "options": [
+                "telemóvel",
+                "mensagem",
+                "foto",
+                "bateria"
+              ],
+              "answer": "telemóvel"
+            },
+            {
+              "question": {
+                "en": "call",
+                "pt": "O que significa «call»?"
+              },
+              "options": [
+                "ligar",
+                "enviar",
+                "internet",
+                "número"
+              ],
+              "answer": "ligar"
+            },
+            {
+              "question": {
+                "en": "message",
+                "pt": "O que significa «message»?"
+              },
+              "options": [
+                "mensagem",
+                "foto",
+                "bateria",
+                "esperar"
+              ],
+              "answer": "mensagem"
+            },
+            {
+              "question": {
+                "en": "send",
+                "pt": "O que significa «send»?"
+              },
+              "options": [
+                "enviar",
+                "internet",
+                "número",
+                "ocupado"
+              ],
+              "answer": "enviar"
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l15-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "phone",
+              "options": [
+                "phone",
+                "call",
+                "message",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "call",
+              "options": [
+                "call",
+                "message",
+                "send",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "message",
+              "options": [
+                "message",
+                "send",
+                "photo",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l15-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u20-l15_lw_graça-is-in-chimoi",
+              "answer": "Graça is in Chimoio. phone.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u20-l15_lw_graça-is-in-chimoi",
+              "answer": "Graça is in Chimoio. call.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u20-l15_lw_graça-is-in-chimoi",
+              "answer": "Graça is in Chimoio. message.",
+              "hint": "Graça"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-l16",
+      "unitId": "u20",
+      "order": 16,
+      "kind": "content",
+      "title": {
+        "pt": "Frases de chat",
+        "en": "Frases de chat"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Chamadas, SMS e WhatsApp em inglês simples.",
+        "Frases de chat"
+      ],
+      "newWords": [
+        {
+          "en": "internet",
+          "pt": "internet",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l16_w_internet",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "battery",
+          "pt": "bateria",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l16_w_battery",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "number",
+          "pt": "número",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l16_w_number",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "wait",
+          "pt": "esperar",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l16_w_wait",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Frases de chat",
+        "sentences": [
+          {
+            "id": "a1-u20-l16-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l16_s1"
+          },
+          {
+            "id": "a1-u20-l16-s2",
+            "en": "Today the lesson is Uma mensagem real.",
+            "pt": "Hoje a lição é: Uma mensagem real.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l16_s2"
+          },
+          {
+            "id": "a1-u20-l16-s3",
+            "en": "We learn 'internet' and 'battery'.",
+            "pt": "Aprendemos «internet» e «bateria».",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l16_s3"
+          },
+          {
+            "id": "a1-u20-l16-s4",
+            "en": "Zacarias says: I use 'wait' every day.",
+            "pt": "Zacarias diz: uso «esperar» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l16_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u20-l16-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u20-l16_lw_graça-is-in-chimoi",
+              "answer": "Graça is in Chimoio. phone.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u20-l16_lw_graça-is-in-chimoi",
+              "answer": "Graça is in Chimoio. call.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u20-l16_lw_graça-is-in-chimoi",
+              "answer": "Graça is in Chimoio. message.",
+              "hint": "Graça"
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l16-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "phone"
+              ],
+              "answer": "I need phone"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "call"
+              ],
+              "answer": "I need call"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "message"
+              ],
+              "answer": "I need message"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-l17",
+      "unitId": "u20",
+      "order": 17,
+      "kind": "content",
+      "title": {
+        "pt": "Ouvir recados",
+        "en": "Ouvir recados"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Chamadas, SMS e WhatsApp em inglês simples.",
+        "Ouvir recados"
+      ],
+      "newWords": [
+        {
+          "en": "wait",
+          "pt": "esperar",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l17_w_wait",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "busy",
+          "pt": "ocupado",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l17_w_busy",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Ouvir recados",
+        "sentences": [
+          {
+            "id": "a1-u20-l17-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l17_s1"
+          },
+          {
+            "id": "a1-u20-l17-s2",
+            "en": "Today the lesson is Uma mensagem real.",
+            "pt": "Hoje a lição é: Uma mensagem real.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l17_s2"
+          },
+          {
+            "id": "a1-u20-l17-s3",
+            "en": "We learn 'internet' and 'battery'.",
+            "pt": "Aprendemos «internet» e «bateria».",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l17_s3"
+          },
+          {
+            "id": "a1-u20-l17-s4",
+            "en": "Zacarias says: I use 'wait' every day.",
+            "pt": "Zacarias diz: uso «esperar» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l17_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u20-l17-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u20-l17_tap",
+          "items": [
+            {
+              "answer": "phone",
+              "options": [
+                "phone",
+                "call",
+                "message",
+                "send"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l17-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-l18",
+      "unitId": "u20",
+      "order": 18,
+      "kind": "content",
+      "title": {
+        "pt": "Sons: phone / photo / send",
+        "en": "Sons: phone / photo / send"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Chamadas, SMS e WhatsApp em inglês simples.",
+        "Sons: phone / photo / send"
+      ],
+      "newWords": [
+        {
+          "en": "call",
+          "pt": "ligar",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l18_w_call",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "message",
+          "pt": "mensagem",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l18_w_message",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "send",
+          "pt": "enviar",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l18_w_send",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "photo",
+          "pt": "foto",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l18_w_photo",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Sons: phone / photo / send",
+        "sentences": [
+          {
+            "id": "a1-u20-l18-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l18_s1"
+          },
+          {
+            "id": "a1-u20-l18-s2",
+            "en": "Today the lesson is Uma mensagem real.",
+            "pt": "Hoje a lição é: Uma mensagem real.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l18_s2"
+          },
+          {
+            "id": "a1-u20-l18-s3",
+            "en": "We learn 'internet' and 'battery'.",
+            "pt": "Aprendemos «internet» e «bateria».",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l18_s3"
+          },
+          {
+            "id": "a1-u20-l18-s4",
+            "en": "Zacarias says: I use 'wait' every day.",
+            "pt": "Zacarias diz: uso «esperar» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l18_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u20-l18-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l18-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "phone",
+                "pt": "O que significa «phone»?"
+              },
+              "options": [
+                "telemóvel",
+                "mensagem",
+                "foto",
+                "bateria"
+              ],
+              "answer": "telemóvel"
+            },
+            {
+              "question": {
+                "en": "call",
+                "pt": "O que significa «call»?"
+              },
+              "options": [
+                "ligar",
+                "enviar",
+                "internet",
+                "número"
+              ],
+              "answer": "ligar"
+            },
+            {
+              "question": {
+                "en": "message",
+                "pt": "O que significa «message»?"
+              },
+              "options": [
+                "mensagem",
+                "foto",
+                "bateria",
+                "esperar"
+              ],
+              "answer": "mensagem"
+            },
+            {
+              "question": {
+                "en": "send",
+                "pt": "O que significa «send»?"
+              },
+              "options": [
+                "enviar",
+                "internet",
+                "número",
+                "ocupado"
+              ],
+              "answer": "enviar"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-l19",
+      "unitId": "u20",
+      "order": 19,
+      "kind": "content",
+      "title": {
+        "pt": "Uma mensagem real",
+        "en": "Uma mensagem real"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Chamadas, SMS e WhatsApp em inglês simples.",
+        "Uma mensagem real"
+      ],
+      "newWords": [
+        {
+          "en": "photo",
+          "pt": "foto",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l19_w_photo",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "internet",
+          "pt": "internet",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l19_w_internet",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "battery",
+          "pt": "bateria",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l19_w_battery",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "number",
+          "pt": "número",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l19_w_number",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Uma mensagem real",
+        "sentences": [
+          {
+            "id": "a1-u20-l19-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l19_s1"
+          },
+          {
+            "id": "a1-u20-l19-s2",
+            "en": "Today the lesson is Uma mensagem real.",
+            "pt": "Hoje a lição é: Uma mensagem real.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l19_s2"
+          },
+          {
+            "id": "a1-u20-l19-s3",
+            "en": "We learn 'internet' and 'battery'.",
+            "pt": "Aprendemos «internet» e «bateria».",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l19_s3"
+          },
+          {
+            "id": "a1-u20-l19-s4",
+            "en": "Zacarias says: I use 'wait' every day.",
+            "pt": "Zacarias diz: uso «esperar» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l19_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u20-l19-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u20-l19_repeat",
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l19-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "phone",
+                "pt": "O que significa «phone»?"
+              },
+              "options": [
+                "telemóvel",
+                "mensagem",
+                "foto",
+                "bateria"
+              ],
+              "answer": "telemóvel"
+            },
+            {
+              "question": {
+                "en": "call",
+                "pt": "O que significa «call»?"
+              },
+              "options": [
+                "ligar",
+                "enviar",
+                "internet",
+                "número"
+              ],
+              "answer": "ligar"
+            },
+            {
+              "question": {
+                "en": "message",
+                "pt": "O que significa «message»?"
+              },
+              "options": [
+                "mensagem",
+                "foto",
+                "bateria",
+                "esperar"
+              ],
+              "answer": "mensagem"
+            },
+            {
+              "question": {
+                "en": "send",
+                "pt": "O que significa «send»?"
+              },
+              "options": [
+                "enviar",
+                "internet",
+                "número",
+                "ocupado"
+              ],
+              "answer": "enviar"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-l20",
+      "unitId": "u20",
+      "order": 20,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste da unidade: Telemóvel",
+        "en": "Unit test: Mobile phone"
+      },
+      "type": "unit_test",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "listening",
+        "reading",
+        "writing",
+        "grammar"
+      ],
+      "objectives": [
+        "Chamadas, SMS e WhatsApp em inglês simples.",
+        "Teste da unidade: Telemóvel"
+      ],
+      "newWords": [
+        {
+          "en": "number",
+          "pt": "número",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l20_w_number",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "wait",
+          "pt": "esperar",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l20_w_wait",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "busy",
+          "pt": "ocupado",
+          "ipa": "",
+          "audioKey": "a1_a1-u20-l20_w_busy",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Unit test: Mobile phone",
+        "sentences": [
+          {
+            "id": "a1-u20-l20-s1",
+            "en": "Let’s review. Carlos is from Beira.",
+            "pt": "Vamos rever. Carlos é de Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l20_s1"
+          },
+          {
+            "id": "a1-u20-l20-s2",
+            "en": "This unit is about Mobile phone.",
+            "pt": "Esta unidade é sobre Telemóvel.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l20_s2"
+          },
+          {
+            "id": "a1-u20-l20-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u20-l20_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u20-l20-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "phone",
+                "pt": "O que significa «phone»?"
+              },
+              "options": [
+                "telemóvel",
+                "mensagem",
+                "foto",
+                "bateria"
+              ],
+              "answer": "telemóvel"
+            },
+            {
+              "question": {
+                "en": "call",
+                "pt": "O que significa «call»?"
+              },
+              "options": [
+                "ligar",
+                "enviar",
+                "internet",
+                "número"
+              ],
+              "answer": "ligar"
+            },
+            {
+              "question": {
+                "en": "message",
+                "pt": "O que significa «message»?"
+              },
+              "options": [
+                "mensagem",
+                "foto",
+                "bateria",
+                "esperar"
+              ],
+              "answer": "mensagem"
+            },
+            {
+              "question": {
+                "en": "send",
+                "pt": "O que significa «send»?"
+              },
+              "options": [
+                "enviar",
+                "internet",
+                "número",
+                "ocupado"
+              ],
+              "answer": "enviar"
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l20-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "phone",
+              "options": [
+                "phone",
+                "call",
+                "message",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "call",
+              "options": [
+                "call",
+                "message",
+                "send",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Graça uses the word _____.",
+              "answer": "message",
+              "options": [
+                "message",
+                "send",
+                "photo",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l20-a3",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'phone' in Portuguese is 'telemóvel'.",
+              "answer": true
+            },
+            {
+              "sentence": "'phone' means 'enviar'.",
+              "answer": false
+            },
+            {
+              "sentence": "'call' in Portuguese is 'ligar'.",
+              "answer": true
+            },
+            {
+              "sentence": "'call' means 'foto'.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l20-a4",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "phone"
+              ],
+              "answer": "I need phone"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "call"
+              ],
+              "answer": "I need call"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "message"
+              ],
+              "answer": "I need message"
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l20-a5",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u20-l20_lw_graça-is-in-chimoi",
+              "answer": "Graça is in Chimoio. phone.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u20-l20_lw_graça-is-in-chimoi",
+              "answer": "Graça is in Chimoio. call.",
+              "hint": "Graça"
+            },
+            {
+              "audioKey": "a1_a1-u20-l20_lw_graça-is-in-chimoi",
+              "answer": "Graça is in Chimoio. message.",
+              "hint": "Graça"
+            }
+          ]
+        },
+        {
+          "id": "a1-u20-l20-a6",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    }
+  ]
+}

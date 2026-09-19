@@ -1,0 +1,3460 @@
+{
+  "id": "u08",
+  "level": "A1",
+  "order": 8,
+  "title": {
+    "pt": "Comida de casa",
+    "en": "Food at home"
+  },
+  "goal": "Comida moçambicana, I like / I don’t like, I want.",
+  "themeImageHint": "Food at home",
+  "lessonCount": 20,
+  "lessons": [
+    {
+      "id": "a1-u08-l01",
+      "unitId": "u08",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "Xima e matapa",
+        "en": "Xima e matapa"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comida moçambicana, I like / I don’t like, I want.",
+        "Xima e matapa"
+      ],
+      "newWords": [
+        {
+          "en": "food",
+          "pt": "comida",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l01_w_food",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "breakfast",
+          "pt": "pequeno-almoço",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l01_w_breakfast",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "lunch",
+          "pt": "almoço",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l01_w_lunch",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "dinner",
+          "pt": "jantar",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l01_w_dinner",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Xima e matapa",
+        "sentences": [
+          {
+            "id": "a1-u08-l01-s1",
+            "en": "Amina lives in Maputo.",
+            "pt": "Amina mora em Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l01_s1"
+          },
+          {
+            "id": "a1-u08-l01-s2",
+            "en": "Today the lesson is Xima e matapa.",
+            "pt": "Hoje a lição é: Xima e matapa.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l01_s2"
+          },
+          {
+            "id": "a1-u08-l01-s3",
+            "en": "We learn 'food' and 'breakfast'.",
+            "pt": "Aprendemos «comida» e «pequeno-almoço».",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l01_s3"
+          },
+          {
+            "id": "a1-u08-l01-s4",
+            "en": "Amina says: I use 'dinner' every day.",
+            "pt": "Amina diz: uso «jantar» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l01_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u08-l01-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u08-l01_repeat",
+          "items": [
+            {
+              "en": "Amina lives in Maputo.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l01-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "food",
+                "pt": "O que significa «food»?"
+              },
+              "options": [
+                "comida",
+                "almoço",
+                "com fome",
+                "gostar"
+              ],
+              "answer": "comida"
+            },
+            {
+              "question": {
+                "en": "breakfast",
+                "pt": "O que significa «breakfast»?"
+              },
+              "options": [
+                "pequeno-almoço",
+                "jantar",
+                "com sede",
+                "querer"
+              ],
+              "answer": "pequeno-almoço"
+            },
+            {
+              "question": {
+                "en": "lunch",
+                "pt": "O que significa «lunch»?"
+              },
+              "options": [
+                "almoço",
+                "com fome",
+                "gostar",
+                "delicioso"
+              ],
+              "answer": "almoço"
+            },
+            {
+              "question": {
+                "en": "dinner",
+                "pt": "O que significa «dinner»?"
+              },
+              "options": [
+                "jantar",
+                "com sede",
+                "querer",
+                "picante"
+              ],
+              "answer": "jantar"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-l02",
+      "unitId": "u08",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "Peixe e camarão",
+        "en": "Peixe e camarão"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comida moçambicana, I like / I don’t like, I want.",
+        "Peixe e camarão"
+      ],
+      "newWords": [
+        {
+          "en": "dinner",
+          "pt": "jantar",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l02_w_dinner",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "hungry",
+          "pt": "com fome",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l02_w_hungry",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "thirsty",
+          "pt": "com sede",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l02_w_thirsty",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "like",
+          "pt": "gostar",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l02_w_like",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Peixe e camarão",
+        "sentences": [
+          {
+            "id": "a1-u08-l02-s1",
+            "en": "João lives in Matola.",
+            "pt": "João mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l02_s1"
+          },
+          {
+            "id": "a1-u08-l02-s2",
+            "en": "Today the lesson is Peixe e camarão.",
+            "pt": "Hoje a lição é: Peixe e camarão.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l02_s2"
+          },
+          {
+            "id": "a1-u08-l02-s3",
+            "en": "We learn 'breakfast' and 'lunch'.",
+            "pt": "Aprendemos «pequeno-almoço» e «almoço».",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l02_s3"
+          },
+          {
+            "id": "a1-u08-l02-s4",
+            "en": "João says: I use 'hungry' every day.",
+            "pt": "João diz: uso «com fome» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l02_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u08-l02-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "food",
+              "options": [
+                "food",
+                "breakfast",
+                "lunch",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "breakfast",
+              "options": [
+                "breakfast",
+                "lunch",
+                "dinner",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "lunch",
+              "options": [
+                "lunch",
+                "dinner",
+                "hungry",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-l03",
+      "unitId": "u08",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "Frutas: manga, papaia, caju",
+        "en": "Frutas: manga, papaia, caju"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comida moçambicana, I like / I don’t like, I want.",
+        "Frutas: manga, papaia, caju"
+      ],
+      "newWords": [
+        {
+          "en": "like",
+          "pt": "gostar",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l03_w_like",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "want",
+          "pt": "querer",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l03_w_want",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "delicious",
+          "pt": "delicioso",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l03_w_delicious",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "spicy",
+          "pt": "picante",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l03_w_spicy",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        }
+      ],
+      "guidedReading": {
+        "title": "Frutas: manga, papaia, caju",
+        "sentences": [
+          {
+            "id": "a1-u08-l03-s1",
+            "en": "Fátima lives in Xai-Xai.",
+            "pt": "Fátima mora em Xai-Xai.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l03_s1"
+          },
+          {
+            "id": "a1-u08-l03-s2",
+            "en": "Today the lesson is Frutas: manga, papaia, caju.",
+            "pt": "Hoje a lição é: Frutas: manga, papaia, caju.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l03_s2"
+          },
+          {
+            "id": "a1-u08-l03-s3",
+            "en": "We learn 'lunch' and 'dinner'.",
+            "pt": "Aprendemos «almoço» e «jantar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l03_s3"
+          },
+          {
+            "id": "a1-u08-l03-s4",
+            "en": "Fátima says: I use 'thirsty' every day.",
+            "pt": "Fátima diz: uso «com sede» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l03_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u08-l03-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "food",
+              "pt": "comida"
+            },
+            {
+              "en": "breakfast",
+              "pt": "pequeno-almoço"
+            },
+            {
+              "en": "lunch",
+              "pt": "almoço"
+            },
+            {
+              "en": "dinner",
+              "pt": "jantar"
+            },
+            {
+              "en": "hungry",
+              "pt": "com fome"
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l03-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'food' in Portuguese is 'comida'.",
+              "answer": true
+            },
+            {
+              "sentence": "'food' means 'jantar'.",
+              "answer": false
+            },
+            {
+              "sentence": "'breakfast' in Portuguese is 'pequeno-almoço'.",
+              "answer": true
+            },
+            {
+              "sentence": "'breakfast' means 'com fome'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-l04",
+      "unitId": "u08",
+      "order": 4,
+      "kind": "content",
+      "title": {
+        "pt": "Bebidas",
+        "en": "Bebidas"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comida moçambicana, I like / I don’t like, I want.",
+        "Bebidas"
+      ],
+      "newWords": [
+        {
+          "en": "spicy",
+          "pt": "picante",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l04_w_spicy",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Bebidas",
+        "sentences": [
+          {
+            "id": "a1-u08-l04-s1",
+            "en": "Carlos lives in Inhambane.",
+            "pt": "Carlos mora em Inhambane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l04_s1"
+          },
+          {
+            "id": "a1-u08-l04-s2",
+            "en": "Today the lesson is Bebidas.",
+            "pt": "Hoje a lição é: Bebidas.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l04_s2"
+          },
+          {
+            "id": "a1-u08-l04-s3",
+            "en": "We learn 'dinner' and 'hungry'.",
+            "pt": "Aprendemos «jantar» e «com fome».",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l04_s3"
+          },
+          {
+            "id": "a1-u08-l04-s4",
+            "en": "Carlos says: I use 'like' every day.",
+            "pt": "Carlos diz: uso «gostar» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l04_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u08-l04-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u08-l04_lw_belmira-is-in-quel",
+              "answer": "Belmira is in Quelimane. food.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u08-l04_lw_belmira-is-in-quel",
+              "answer": "Belmira is in Quelimane. breakfast.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u08-l04_lw_belmira-is-in-quel",
+              "answer": "Belmira is in Quelimane. lunch.",
+              "hint": "Belmira"
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l04-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "food"
+              ],
+              "answer": "I need food"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "breakfast"
+              ],
+              "answer": "I need breakfast"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "lunch"
+              ],
+              "answer": "I need lunch"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-l05",
+      "unitId": "u08",
+      "order": 5,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 1",
+        "en": "Checkpoint quiz 1"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comida moçambicana, I like / I don’t like, I want.",
+        "Mini-teste 1"
+      ],
+      "newWords": [
+        {
+          "en": "lunch",
+          "pt": "almoço",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l05_w_lunch",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "dinner",
+          "pt": "jantar",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l05_w_dinner",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "hungry",
+          "pt": "com fome",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l05_w_hungry",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "thirsty",
+          "pt": "com sede",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l05_w_thirsty",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 1",
+        "sentences": [
+          {
+            "id": "a1-u08-l05-s1",
+            "en": "Let’s review. Graça is from Vilankulo.",
+            "pt": "Vamos rever. Graça é de Vilankulo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l05_s1"
+          },
+          {
+            "id": "a1-u08-l05-s2",
+            "en": "This unit is about Food at home.",
+            "pt": "Esta unidade é sobre Comida de casa.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l05_s2"
+          },
+          {
+            "id": "a1-u08-l05-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l05_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u08-l05-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "food",
+                "pt": "O que significa «food»?"
+              },
+              "options": [
+                "comida",
+                "almoço",
+                "com fome",
+                "gostar"
+              ],
+              "answer": "comida"
+            },
+            {
+              "question": {
+                "en": "breakfast",
+                "pt": "O que significa «breakfast»?"
+              },
+              "options": [
+                "pequeno-almoço",
+                "jantar",
+                "com sede",
+                "querer"
+              ],
+              "answer": "pequeno-almoço"
+            },
+            {
+              "question": {
+                "en": "lunch",
+                "pt": "O que significa «lunch»?"
+              },
+              "options": [
+                "almoço",
+                "com fome",
+                "gostar",
+                "delicioso"
+              ],
+              "answer": "almoço"
+            },
+            {
+              "question": {
+                "en": "dinner",
+                "pt": "O que significa «dinner»?"
+              },
+              "options": [
+                "jantar",
+                "com sede",
+                "querer",
+                "picante"
+              ],
+              "answer": "jantar"
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l05-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "food",
+              "options": [
+                "food",
+                "breakfast",
+                "lunch",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "breakfast",
+              "options": [
+                "breakfast",
+                "lunch",
+                "dinner",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "lunch",
+              "options": [
+                "lunch",
+                "dinner",
+                "hungry",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l05-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u08-l05_lw_belmira-is-in-quel",
+              "answer": "Belmira is in Quelimane. food.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u08-l05_lw_belmira-is-in-quel",
+              "answer": "Belmira is in Quelimane. breakfast.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u08-l05_lw_belmira-is-in-quel",
+              "answer": "Belmira is in Quelimane. lunch.",
+              "hint": "Belmira"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-l06",
+      "unitId": "u08",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "I like / I don’t like",
+        "en": "I like / I don’t like"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comida moçambicana, I like / I don’t like, I want.",
+        "I like / I don’t like"
+      ],
+      "newWords": [
+        {
+          "en": "thirsty",
+          "pt": "com sede",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l06_w_thirsty",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "like",
+          "pt": "gostar",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l06_w_like",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "want",
+          "pt": "querer",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l06_w_want",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "delicious",
+          "pt": "delicioso",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l06_w_delicious",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "I like / I don’t like",
+        "sentences": [
+          {
+            "id": "a1-u08-l06-s1",
+            "en": "Ibraimo lives in Beira.",
+            "pt": "Ibraimo mora em Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l06_s1"
+          },
+          {
+            "id": "a1-u08-l06-s2",
+            "en": "Today the lesson is I want / I need.",
+            "pt": "Hoje a lição é: I want / I need.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l06_s2"
+          },
+          {
+            "id": "a1-u08-l06-s3",
+            "en": "We learn 'thirsty' and 'like'.",
+            "pt": "Aprendemos «com sede» e «gostar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l06_s3"
+          },
+          {
+            "id": "a1-u08-l06-s4",
+            "en": "Ibraimo says: I use 'delicious' every day.",
+            "pt": "Ibraimo diz: uso «delicioso» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l06_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u08-l06-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Ibraimo lives in Beira.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l06-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "food",
+                "pt": "O que significa «food»?"
+              },
+              "options": [
+                "comida",
+                "almoço",
+                "com fome",
+                "gostar"
+              ],
+              "answer": "comida"
+            },
+            {
+              "question": {
+                "en": "breakfast",
+                "pt": "O que significa «breakfast»?"
+              },
+              "options": [
+                "pequeno-almoço",
+                "jantar",
+                "com sede",
+                "querer"
+              ],
+              "answer": "pequeno-almoço"
+            },
+            {
+              "question": {
+                "en": "lunch",
+                "pt": "O que significa «lunch»?"
+              },
+              "options": [
+                "almoço",
+                "com fome",
+                "gostar",
+                "delicioso"
+              ],
+              "answer": "almoço"
+            },
+            {
+              "question": {
+                "en": "dinner",
+                "pt": "O que significa «dinner»?"
+              },
+              "options": [
+                "jantar",
+                "com sede",
+                "querer",
+                "picante"
+              ],
+              "answer": "jantar"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-l07",
+      "unitId": "u08",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "I want / I need",
+        "en": "I want / I need"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comida moçambicana, I like / I don’t like, I want.",
+        "I want / I need"
+      ],
+      "newWords": [
+        {
+          "en": "delicious",
+          "pt": "delicioso",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l07_w_delicious",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "spicy",
+          "pt": "picante",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l07_w_spicy",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        }
+      ],
+      "guidedReading": {
+        "title": "I want / I need",
+        "sentences": [
+          {
+            "id": "a1-u08-l07-s1",
+            "en": "Esperança lives in Chimoio.",
+            "pt": "Esperança mora em Chimoio.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l07_s1"
+          },
+          {
+            "id": "a1-u08-l07-s2",
+            "en": "Today the lesson is Café da manhã.",
+            "pt": "Hoje a lição é: Café da manhã.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l07_s2"
+          },
+          {
+            "id": "a1-u08-l07-s3",
+            "en": "We learn 'like' and 'want'.",
+            "pt": "Aprendemos «gostar» e «querer».",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l07_s3"
+          },
+          {
+            "id": "a1-u08-l07-s4",
+            "en": "Esperança says: I use 'spicy' every day.",
+            "pt": "Esperança diz: uso «picante» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l07_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u08-l07-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u08-l07_repeat",
+          "items": [
+            {
+              "en": "Esperança lives in Chimoio.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l07-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "food",
+                "pt": "O que significa «food»?"
+              },
+              "options": [
+                "comida",
+                "almoço",
+                "com fome",
+                "gostar"
+              ],
+              "answer": "comida"
+            },
+            {
+              "question": {
+                "en": "breakfast",
+                "pt": "O que significa «breakfast»?"
+              },
+              "options": [
+                "pequeno-almoço",
+                "jantar",
+                "com sede",
+                "querer"
+              ],
+              "answer": "pequeno-almoço"
+            },
+            {
+              "question": {
+                "en": "lunch",
+                "pt": "O que significa «lunch»?"
+              },
+              "options": [
+                "almoço",
+                "com fome",
+                "gostar",
+                "delicioso"
+              ],
+              "answer": "almoço"
+            },
+            {
+              "question": {
+                "en": "dinner",
+                "pt": "O que significa «dinner»?"
+              },
+              "options": [
+                "jantar",
+                "com sede",
+                "querer",
+                "picante"
+              ],
+              "answer": "jantar"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-l08",
+      "unitId": "u08",
+      "order": 8,
+      "kind": "content",
+      "title": {
+        "pt": "Café da manhã",
+        "en": "Café da manhã"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comida moçambicana, I like / I don’t like, I want.",
+        "Café da manhã"
+      ],
+      "newWords": [
+        {
+          "en": "breakfast",
+          "pt": "pequeno-almoço",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l08_w_breakfast",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "lunch",
+          "pt": "almoço",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l08_w_lunch",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "dinner",
+          "pt": "jantar",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l08_w_dinner",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "hungry",
+          "pt": "com fome",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l08_w_hungry",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        }
+      ],
+      "guidedReading": {
+        "title": "Café da manhã",
+        "sentences": [
+          {
+            "id": "a1-u08-l08-s1",
+            "en": "Paulo lives in Tete.",
+            "pt": "Paulo mora em Tete.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l08_s1"
+          },
+          {
+            "id": "a1-u08-l08-s2",
+            "en": "Today the lesson is Almoço em família.",
+            "pt": "Hoje a lição é: Almoço em família.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l08_s2"
+          },
+          {
+            "id": "a1-u08-l08-s3",
+            "en": "We learn 'want' and 'delicious'.",
+            "pt": "Aprendemos «querer» e «delicioso».",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l08_s3"
+          },
+          {
+            "id": "a1-u08-l08-s4",
+            "en": "Paulo says: I use 'food' every day.",
+            "pt": "Paulo diz: uso «comida» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l08_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u08-l08-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "food",
+              "options": [
+                "food",
+                "breakfast",
+                "lunch",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "breakfast",
+              "options": [
+                "breakfast",
+                "lunch",
+                "dinner",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "lunch",
+              "options": [
+                "lunch",
+                "dinner",
+                "hungry",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-l09",
+      "unitId": "u08",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Almoço em família",
+        "en": "Almoço em família"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comida moçambicana, I like / I don’t like, I want.",
+        "Almoço em família"
+      ],
+      "newWords": [
+        {
+          "en": "hungry",
+          "pt": "com fome",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l09_w_hungry",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "thirsty",
+          "pt": "com sede",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l09_w_thirsty",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "like",
+          "pt": "gostar",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l09_w_like",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "want",
+          "pt": "querer",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l09_w_want",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Almoço em família",
+        "sentences": [
+          {
+            "id": "a1-u08-l09-s1",
+            "en": "Belmira lives in Quelimane.",
+            "pt": "Belmira mora em Quelimane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l09_s1"
+          },
+          {
+            "id": "a1-u08-l09-s2",
+            "en": "Today the lesson is Jantar.",
+            "pt": "Hoje a lição é: Jantar.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l09_s2"
+          },
+          {
+            "id": "a1-u08-l09-s3",
+            "en": "We learn 'delicious' and 'spicy'.",
+            "pt": "Aprendemos «delicioso» e «picante».",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l09_s3"
+          },
+          {
+            "id": "a1-u08-l09-s4",
+            "en": "Belmira says: I use 'breakfast' every day.",
+            "pt": "Belmira diz: uso «pequeno-almoço» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l09_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u08-l09-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "food",
+              "pt": "comida"
+            },
+            {
+              "en": "breakfast",
+              "pt": "pequeno-almoço"
+            },
+            {
+              "en": "lunch",
+              "pt": "almoço"
+            },
+            {
+              "en": "dinner",
+              "pt": "jantar"
+            },
+            {
+              "en": "hungry",
+              "pt": "com fome"
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l09-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'food' in Portuguese is 'comida'.",
+              "answer": true
+            },
+            {
+              "sentence": "'food' means 'jantar'.",
+              "answer": false
+            },
+            {
+              "sentence": "'breakfast' in Portuguese is 'pequeno-almoço'.",
+              "answer": true
+            },
+            {
+              "sentence": "'breakfast' means 'com fome'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-l10",
+      "unitId": "u08",
+      "order": 10,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão guiada",
+        "en": "Guided review"
+      },
+      "type": "review",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectives": [
+        "Comida moçambicana, I like / I don’t like, I want.",
+        "Revisão guiada"
+      ],
+      "newWords": [
+        {
+          "en": "want",
+          "pt": "querer",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l10_w_want",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "delicious",
+          "pt": "delicioso",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l10_w_delicious",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "spicy",
+          "pt": "picante",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l10_w_spicy",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        }
+      ],
+      "guidedReading": {
+        "title": "Guided review",
+        "sentences": [
+          {
+            "id": "a1-u08-l10-s1",
+            "en": "Let’s review. Nélio is from Nampula.",
+            "pt": "Vamos rever. Nélio é de Nampula.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l10_s1"
+          },
+          {
+            "id": "a1-u08-l10-s2",
+            "en": "This unit is about Food at home.",
+            "pt": "Esta unidade é sobre Comida de casa.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l10_s2"
+          },
+          {
+            "id": "a1-u08-l10-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l10_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u08-l10-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u08-l10_lw_belmira-is-in-quel",
+              "answer": "Belmira is in Quelimane. food.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u08-l10_lw_belmira-is-in-quel",
+              "answer": "Belmira is in Quelimane. breakfast.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u08-l10_lw_belmira-is-in-quel",
+              "answer": "Belmira is in Quelimane. lunch.",
+              "hint": "Belmira"
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l10-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "food"
+              ],
+              "answer": "I need food"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "breakfast"
+              ],
+              "answer": "I need breakfast"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "lunch"
+              ],
+              "answer": "I need lunch"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-l11",
+      "unitId": "u08",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "Jantar",
+        "en": "Jantar"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comida moçambicana, I like / I don’t like, I want.",
+        "Jantar"
+      ],
+      "newWords": [
+        {
+          "en": "food",
+          "pt": "comida",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l11_w_food",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "breakfast",
+          "pt": "pequeno-almoço",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l11_w_breakfast",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "lunch",
+          "pt": "almoço",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l11_w_lunch",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "dinner",
+          "pt": "jantar",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l11_w_dinner",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        }
+      ],
+      "guidedReading": {
+        "title": "Jantar",
+        "sentences": [
+          {
+            "id": "a1-u08-l11-s1",
+            "en": "Lurdes lives in Nacala.",
+            "pt": "Lurdes mora em Nacala.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l11_s1"
+          },
+          {
+            "id": "a1-u08-l11-s2",
+            "en": "Today the lesson is Diálogo: na mesa.",
+            "pt": "Hoje a lição é: Diálogo: na mesa.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l11_s2"
+          },
+          {
+            "id": "a1-u08-l11-s3",
+            "en": "We learn 'food' and 'breakfast'.",
+            "pt": "Aprendemos «comida» e «pequeno-almoço».",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l11_s3"
+          },
+          {
+            "id": "a1-u08-l11-s4",
+            "en": "Lurdes says: I use 'dinner' every day.",
+            "pt": "Lurdes diz: uso «jantar» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l11_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u08-l11-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u08-l11_tap",
+          "items": [
+            {
+              "answer": "food",
+              "options": [
+                "food",
+                "breakfast",
+                "lunch",
+                "dinner"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l11-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-l12",
+      "unitId": "u08",
+      "order": 12,
+      "kind": "content",
+      "title": {
+        "pt": "Comida picante",
+        "en": "Comida picante"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comida moçambicana, I like / I don’t like, I want.",
+        "Comida picante"
+      ],
+      "newWords": [
+        {
+          "en": "dinner",
+          "pt": "jantar",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l12_w_dinner",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "hungry",
+          "pt": "com fome",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l12_w_hungry",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "thirsty",
+          "pt": "com sede",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l12_w_thirsty",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "like",
+          "pt": "gostar",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l12_w_like",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        }
+      ],
+      "guidedReading": {
+        "title": "Comida picante",
+        "sentences": [
+          {
+            "id": "a1-u08-l12-s1",
+            "en": "Faruk lives in Pemba.",
+            "pt": "Faruk mora em Pemba.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l12_s1"
+          },
+          {
+            "id": "a1-u08-l12-s2",
+            "en": "Today the lesson is Diálogo: o que queres comer?.",
+            "pt": "Hoje a lição é: Diálogo: o que queres comer?.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l12_s2"
+          },
+          {
+            "id": "a1-u08-l12-s3",
+            "en": "We learn 'breakfast' and 'lunch'.",
+            "pt": "Aprendemos «pequeno-almoço» e «almoço».",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l12_s3"
+          },
+          {
+            "id": "a1-u08-l12-s4",
+            "en": "Faruk says: I use 'hungry' every day.",
+            "pt": "Faruk diz: uso «com fome» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l12_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u08-l12-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Faruk lives in Pemba.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l12-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "food",
+                "pt": "O que significa «food»?"
+              },
+              "options": [
+                "comida",
+                "almoço",
+                "com fome",
+                "gostar"
+              ],
+              "answer": "comida"
+            },
+            {
+              "question": {
+                "en": "breakfast",
+                "pt": "O que significa «breakfast»?"
+              },
+              "options": [
+                "pequeno-almoço",
+                "jantar",
+                "com sede",
+                "querer"
+              ],
+              "answer": "pequeno-almoço"
+            },
+            {
+              "question": {
+                "en": "lunch",
+                "pt": "O que significa «lunch»?"
+              },
+              "options": [
+                "almoço",
+                "com fome",
+                "gostar",
+                "delicioso"
+              ],
+              "answer": "almoço"
+            },
+            {
+              "question": {
+                "en": "dinner",
+                "pt": "O que significa «dinner»?"
+              },
+              "options": [
+                "jantar",
+                "com sede",
+                "querer",
+                "picante"
+              ],
+              "answer": "jantar"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-l13",
+      "unitId": "u08",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: na mesa",
+        "en": "Diálogo: na mesa"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comida moçambicana, I like / I don’t like, I want.",
+        "Diálogo: na mesa"
+      ],
+      "newWords": [
+        {
+          "en": "like",
+          "pt": "gostar",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l13_w_like",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "want",
+          "pt": "querer",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l13_w_want",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "delicious",
+          "pt": "delicioso",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l13_w_delicious",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "spicy",
+          "pt": "picante",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l13_w_spicy",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: na mesa",
+        "sentences": [
+          {
+            "id": "a1-u08-l13-s1",
+            "en": "Josina lives in Lichinga.",
+            "pt": "Josina mora em Lichinga.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l13_s1"
+          },
+          {
+            "id": "a1-u08-l13-s2",
+            "en": "Today the lesson is Gosto e não gosto.",
+            "pt": "Hoje a lição é: Gosto e não gosto.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l13_s2"
+          },
+          {
+            "id": "a1-u08-l13-s3",
+            "en": "We learn 'lunch' and 'dinner'.",
+            "pt": "Aprendemos «almoço» e «jantar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l13_s3"
+          },
+          {
+            "id": "a1-u08-l13-s4",
+            "en": "Josina says: I use 'thirsty' every day.",
+            "pt": "Josina diz: uso «com sede» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l13_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u08-l13-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u08-l13_repeat",
+          "items": [
+            {
+              "en": "Josina lives in Lichinga.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l13-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "food",
+                "pt": "O que significa «food»?"
+              },
+              "options": [
+                "comida",
+                "almoço",
+                "com fome",
+                "gostar"
+              ],
+              "answer": "comida"
+            },
+            {
+              "question": {
+                "en": "breakfast",
+                "pt": "O que significa «breakfast»?"
+              },
+              "options": [
+                "pequeno-almoço",
+                "jantar",
+                "com sede",
+                "querer"
+              ],
+              "answer": "pequeno-almoço"
+            },
+            {
+              "question": {
+                "en": "lunch",
+                "pt": "O que significa «lunch»?"
+              },
+              "options": [
+                "almoço",
+                "com fome",
+                "gostar",
+                "delicioso"
+              ],
+              "answer": "almoço"
+            },
+            {
+              "question": {
+                "en": "dinner",
+                "pt": "O que significa «dinner»?"
+              },
+              "options": [
+                "jantar",
+                "com sede",
+                "querer",
+                "picante"
+              ],
+              "answer": "jantar"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-l14",
+      "unitId": "u08",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: o que queres comer?",
+        "en": "Diálogo: o que queres comer?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comida moçambicana, I like / I don’t like, I want.",
+        "Diálogo: o que queres comer?"
+      ],
+      "newWords": [
+        {
+          "en": "spicy",
+          "pt": "picante",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l14_w_spicy",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: o que queres comer?",
+        "sentences": [
+          {
+            "id": "a1-u08-l14-s1",
+            "en": "Tendai lives in Ilha de Moçambique.",
+            "pt": "Tendai mora em Ilha de Moçambique.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l14_s1"
+          },
+          {
+            "id": "a1-u08-l14-s2",
+            "en": "Today the lesson is Receita simples em inglês.",
+            "pt": "Hoje a lição é: Receita simples em inglês.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l14_s2"
+          },
+          {
+            "id": "a1-u08-l14-s3",
+            "en": "We learn 'dinner' and 'hungry'.",
+            "pt": "Aprendemos «jantar» e «com fome».",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l14_s3"
+          },
+          {
+            "id": "a1-u08-l14-s4",
+            "en": "Tendai says: I use 'like' every day.",
+            "pt": "Tendai diz: uso «gostar» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l14_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u08-l14-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "food",
+              "options": [
+                "food",
+                "breakfast",
+                "lunch",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "breakfast",
+              "options": [
+                "breakfast",
+                "lunch",
+                "dinner",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "lunch",
+              "options": [
+                "lunch",
+                "dinner",
+                "hungry",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-l15",
+      "unitId": "u08",
+      "order": 15,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 2",
+        "en": "Checkpoint quiz 2"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comida moçambicana, I like / I don’t like, I want.",
+        "Mini-teste 2"
+      ],
+      "newWords": [
+        {
+          "en": "lunch",
+          "pt": "almoço",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l15_w_lunch",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "dinner",
+          "pt": "jantar",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l15_w_dinner",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "hungry",
+          "pt": "com fome",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l15_w_hungry",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "thirsty",
+          "pt": "com sede",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l15_w_thirsty",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 2",
+        "sentences": [
+          {
+            "id": "a1-u08-l15-s1",
+            "en": "Let’s review. Amélia is from Maputo.",
+            "pt": "Vamos rever. Amélia é de Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l15_s1"
+          },
+          {
+            "id": "a1-u08-l15-s2",
+            "en": "This unit is about Food at home.",
+            "pt": "Esta unidade é sobre Comida de casa.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l15_s2"
+          },
+          {
+            "id": "a1-u08-l15-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l15_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u08-l15-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "food",
+                "pt": "O que significa «food»?"
+              },
+              "options": [
+                "comida",
+                "almoço",
+                "com fome",
+                "gostar"
+              ],
+              "answer": "comida"
+            },
+            {
+              "question": {
+                "en": "breakfast",
+                "pt": "O que significa «breakfast»?"
+              },
+              "options": [
+                "pequeno-almoço",
+                "jantar",
+                "com sede",
+                "querer"
+              ],
+              "answer": "pequeno-almoço"
+            },
+            {
+              "question": {
+                "en": "lunch",
+                "pt": "O que significa «lunch»?"
+              },
+              "options": [
+                "almoço",
+                "com fome",
+                "gostar",
+                "delicioso"
+              ],
+              "answer": "almoço"
+            },
+            {
+              "question": {
+                "en": "dinner",
+                "pt": "O que significa «dinner»?"
+              },
+              "options": [
+                "jantar",
+                "com sede",
+                "querer",
+                "picante"
+              ],
+              "answer": "jantar"
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l15-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "food",
+              "options": [
+                "food",
+                "breakfast",
+                "lunch",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "breakfast",
+              "options": [
+                "breakfast",
+                "lunch",
+                "dinner",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "lunch",
+              "options": [
+                "lunch",
+                "dinner",
+                "hungry",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l15-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u08-l15_lw_belmira-is-in-quel",
+              "answer": "Belmira is in Quelimane. food.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u08-l15_lw_belmira-is-in-quel",
+              "answer": "Belmira is in Quelimane. breakfast.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u08-l15_lw_belmira-is-in-quel",
+              "answer": "Belmira is in Quelimane. lunch.",
+              "hint": "Belmira"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-l16",
+      "unitId": "u08",
+      "order": 16,
+      "kind": "content",
+      "title": {
+        "pt": "Gosto e não gosto",
+        "en": "Gosto e não gosto"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comida moçambicana, I like / I don’t like, I want.",
+        "Gosto e não gosto"
+      ],
+      "newWords": [
+        {
+          "en": "thirsty",
+          "pt": "com sede",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l16_w_thirsty",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "like",
+          "pt": "gostar",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l16_w_like",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "want",
+          "pt": "querer",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l16_w_want",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "delicious",
+          "pt": "delicioso",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l16_w_delicious",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Gosto e não gosto",
+        "sentences": [
+          {
+            "id": "a1-u08-l16-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l16_s1"
+          },
+          {
+            "id": "a1-u08-l16-s2",
+            "en": "Today the lesson is A tua comida favorita.",
+            "pt": "Hoje a lição é: A tua comida favorita.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l16_s2"
+          },
+          {
+            "id": "a1-u08-l16-s3",
+            "en": "We learn 'thirsty' and 'like'.",
+            "pt": "Aprendemos «com sede» e «gostar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l16_s3"
+          },
+          {
+            "id": "a1-u08-l16-s4",
+            "en": "Zacarias says: I use 'delicious' every day.",
+            "pt": "Zacarias diz: uso «delicioso» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l16_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u08-l16-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u08-l16_lw_belmira-is-in-quel",
+              "answer": "Belmira is in Quelimane. food.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u08-l16_lw_belmira-is-in-quel",
+              "answer": "Belmira is in Quelimane. breakfast.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u08-l16_lw_belmira-is-in-quel",
+              "answer": "Belmira is in Quelimane. lunch.",
+              "hint": "Belmira"
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l16-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "food"
+              ],
+              "answer": "I need food"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "breakfast"
+              ],
+              "answer": "I need breakfast"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "lunch"
+              ],
+              "answer": "I need lunch"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-l17",
+      "unitId": "u08",
+      "order": 17,
+      "kind": "content",
+      "title": {
+        "pt": "Receita simples em inglês",
+        "en": "Receita simples em inglês"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comida moçambicana, I like / I don’t like, I want.",
+        "Receita simples em inglês"
+      ],
+      "newWords": [
+        {
+          "en": "delicious",
+          "pt": "delicioso",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l17_w_delicious",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "spicy",
+          "pt": "picante",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l17_w_spicy",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Receita simples em inglês",
+        "sentences": [
+          {
+            "id": "a1-u08-l17-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l17_s1"
+          },
+          {
+            "id": "a1-u08-l17-s2",
+            "en": "Today the lesson is A tua comida favorita.",
+            "pt": "Hoje a lição é: A tua comida favorita.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l17_s2"
+          },
+          {
+            "id": "a1-u08-l17-s3",
+            "en": "We learn 'thirsty' and 'like'.",
+            "pt": "Aprendemos «com sede» e «gostar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l17_s3"
+          },
+          {
+            "id": "a1-u08-l17-s4",
+            "en": "Zacarias says: I use 'delicious' every day.",
+            "pt": "Zacarias diz: uso «delicioso» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l17_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u08-l17-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u08-l17_tap",
+          "items": [
+            {
+              "answer": "food",
+              "options": [
+                "food",
+                "breakfast",
+                "lunch",
+                "dinner"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l17-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-l18",
+      "unitId": "u08",
+      "order": 18,
+      "kind": "content",
+      "title": {
+        "pt": "Sons: like / rice / fish",
+        "en": "Sons: like / rice / fish"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comida moçambicana, I like / I don’t like, I want.",
+        "Sons: like / rice / fish"
+      ],
+      "newWords": [
+        {
+          "en": "breakfast",
+          "pt": "pequeno-almoço",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l18_w_breakfast",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "lunch",
+          "pt": "almoço",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l18_w_lunch",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "dinner",
+          "pt": "jantar",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l18_w_dinner",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "hungry",
+          "pt": "com fome",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l18_w_hungry",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Sons: like / rice / fish",
+        "sentences": [
+          {
+            "id": "a1-u08-l18-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l18_s1"
+          },
+          {
+            "id": "a1-u08-l18-s2",
+            "en": "Today the lesson is A tua comida favorita.",
+            "pt": "Hoje a lição é: A tua comida favorita.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l18_s2"
+          },
+          {
+            "id": "a1-u08-l18-s3",
+            "en": "We learn 'thirsty' and 'like'.",
+            "pt": "Aprendemos «com sede» e «gostar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l18_s3"
+          },
+          {
+            "id": "a1-u08-l18-s4",
+            "en": "Zacarias says: I use 'delicious' every day.",
+            "pt": "Zacarias diz: uso «delicioso» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l18_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u08-l18-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l18-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "food",
+                "pt": "O que significa «food»?"
+              },
+              "options": [
+                "comida",
+                "almoço",
+                "com fome",
+                "gostar"
+              ],
+              "answer": "comida"
+            },
+            {
+              "question": {
+                "en": "breakfast",
+                "pt": "O que significa «breakfast»?"
+              },
+              "options": [
+                "pequeno-almoço",
+                "jantar",
+                "com sede",
+                "querer"
+              ],
+              "answer": "pequeno-almoço"
+            },
+            {
+              "question": {
+                "en": "lunch",
+                "pt": "O que significa «lunch»?"
+              },
+              "options": [
+                "almoço",
+                "com fome",
+                "gostar",
+                "delicioso"
+              ],
+              "answer": "almoço"
+            },
+            {
+              "question": {
+                "en": "dinner",
+                "pt": "O que significa «dinner»?"
+              },
+              "options": [
+                "jantar",
+                "com sede",
+                "querer",
+                "picante"
+              ],
+              "answer": "jantar"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-l19",
+      "unitId": "u08",
+      "order": 19,
+      "kind": "content",
+      "title": {
+        "pt": "A tua comida favorita",
+        "en": "A tua comida favorita"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comida moçambicana, I like / I don’t like, I want.",
+        "A tua comida favorita"
+      ],
+      "newWords": [
+        {
+          "en": "hungry",
+          "pt": "com fome",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l19_w_hungry",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "thirsty",
+          "pt": "com sede",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l19_w_thirsty",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "like",
+          "pt": "gostar",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l19_w_like",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "want",
+          "pt": "querer",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l19_w_want",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "A tua comida favorita",
+        "sentences": [
+          {
+            "id": "a1-u08-l19-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l19_s1"
+          },
+          {
+            "id": "a1-u08-l19-s2",
+            "en": "Today the lesson is A tua comida favorita.",
+            "pt": "Hoje a lição é: A tua comida favorita.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l19_s2"
+          },
+          {
+            "id": "a1-u08-l19-s3",
+            "en": "We learn 'thirsty' and 'like'.",
+            "pt": "Aprendemos «com sede» e «gostar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l19_s3"
+          },
+          {
+            "id": "a1-u08-l19-s4",
+            "en": "Zacarias says: I use 'delicious' every day.",
+            "pt": "Zacarias diz: uso «delicioso» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l19_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u08-l19-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u08-l19_repeat",
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l19-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "food",
+                "pt": "O que significa «food»?"
+              },
+              "options": [
+                "comida",
+                "almoço",
+                "com fome",
+                "gostar"
+              ],
+              "answer": "comida"
+            },
+            {
+              "question": {
+                "en": "breakfast",
+                "pt": "O que significa «breakfast»?"
+              },
+              "options": [
+                "pequeno-almoço",
+                "jantar",
+                "com sede",
+                "querer"
+              ],
+              "answer": "pequeno-almoço"
+            },
+            {
+              "question": {
+                "en": "lunch",
+                "pt": "O que significa «lunch»?"
+              },
+              "options": [
+                "almoço",
+                "com fome",
+                "gostar",
+                "delicioso"
+              ],
+              "answer": "almoço"
+            },
+            {
+              "question": {
+                "en": "dinner",
+                "pt": "O que significa «dinner»?"
+              },
+              "options": [
+                "jantar",
+                "com sede",
+                "querer",
+                "picante"
+              ],
+              "answer": "jantar"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-l20",
+      "unitId": "u08",
+      "order": 20,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste da unidade: Comida de casa",
+        "en": "Unit test: Food at home"
+      },
+      "type": "unit_test",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "listening",
+        "reading",
+        "writing",
+        "grammar"
+      ],
+      "objectives": [
+        "Comida moçambicana, I like / I don’t like, I want.",
+        "Teste da unidade: Comida de casa"
+      ],
+      "newWords": [
+        {
+          "en": "want",
+          "pt": "querer",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l20_w_want",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "delicious",
+          "pt": "delicioso",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l20_w_delicious",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "spicy",
+          "pt": "picante",
+          "ipa": "",
+          "audioKey": "a1_a1-u08-l20_w_spicy",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Unit test: Food at home",
+        "sentences": [
+          {
+            "id": "a1-u08-l20-s1",
+            "en": "Let’s review. Carlos is from Beira.",
+            "pt": "Vamos rever. Carlos é de Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l20_s1"
+          },
+          {
+            "id": "a1-u08-l20-s2",
+            "en": "This unit is about Food at home.",
+            "pt": "Esta unidade é sobre Comida de casa.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l20_s2"
+          },
+          {
+            "id": "a1-u08-l20-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u08-l20_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u08-l20-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "food",
+                "pt": "O que significa «food»?"
+              },
+              "options": [
+                "comida",
+                "almoço",
+                "com fome",
+                "gostar"
+              ],
+              "answer": "comida"
+            },
+            {
+              "question": {
+                "en": "breakfast",
+                "pt": "O que significa «breakfast»?"
+              },
+              "options": [
+                "pequeno-almoço",
+                "jantar",
+                "com sede",
+                "querer"
+              ],
+              "answer": "pequeno-almoço"
+            },
+            {
+              "question": {
+                "en": "lunch",
+                "pt": "O que significa «lunch»?"
+              },
+              "options": [
+                "almoço",
+                "com fome",
+                "gostar",
+                "delicioso"
+              ],
+              "answer": "almoço"
+            },
+            {
+              "question": {
+                "en": "dinner",
+                "pt": "O que significa «dinner»?"
+              },
+              "options": [
+                "jantar",
+                "com sede",
+                "querer",
+                "picante"
+              ],
+              "answer": "jantar"
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l20-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "food",
+              "options": [
+                "food",
+                "breakfast",
+                "lunch",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "breakfast",
+              "options": [
+                "breakfast",
+                "lunch",
+                "dinner",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Belmira uses the word _____.",
+              "answer": "lunch",
+              "options": [
+                "lunch",
+                "dinner",
+                "hungry",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l20-a3",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'food' in Portuguese is 'comida'.",
+              "answer": true
+            },
+            {
+              "sentence": "'food' means 'jantar'.",
+              "answer": false
+            },
+            {
+              "sentence": "'breakfast' in Portuguese is 'pequeno-almoço'.",
+              "answer": true
+            },
+            {
+              "sentence": "'breakfast' means 'com fome'.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l20-a4",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "food"
+              ],
+              "answer": "I need food"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "breakfast"
+              ],
+              "answer": "I need breakfast"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "lunch"
+              ],
+              "answer": "I need lunch"
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l20-a5",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u08-l20_lw_belmira-is-in-quel",
+              "answer": "Belmira is in Quelimane. food.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u08-l20_lw_belmira-is-in-quel",
+              "answer": "Belmira is in Quelimane. breakfast.",
+              "hint": "Belmira"
+            },
+            {
+              "audioKey": "a1_a1-u08-l20_lw_belmira-is-in-quel",
+              "answer": "Belmira is in Quelimane. lunch.",
+              "hint": "Belmira"
+            }
+          ]
+        },
+        {
+          "id": "a1-u08-l20-a6",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    }
+  ]
+}

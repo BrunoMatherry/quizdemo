@@ -1,0 +1,3516 @@
+{
+  "id": "u09",
+  "level": "A1",
+  "order": 9,
+  "title": {
+    "pt": "Mercado e preços",
+    "en": "Market and prices"
+  },
+  "goal": "Comprar no mercado com meticais e How much.",
+  "themeImageHint": "Market and prices",
+  "lessonCount": 20,
+  "lessons": [
+    {
+      "id": "a1-u09-l01",
+      "unitId": "u09",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "No mercado do povo",
+        "en": "No mercado do povo"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comprar no mercado com meticais e How much.",
+        "No mercado do povo"
+      ],
+      "newWords": [
+        {
+          "en": "market",
+          "pt": "mercado",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l01_w_market",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "shop",
+          "pt": "loja",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l01_w_shop",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "buy",
+          "pt": "comprar",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l01_w_buy",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "sell",
+          "pt": "vender",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l01_w_sell",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "No mercado do povo",
+        "sentences": [
+          {
+            "id": "a1-u09-l01-s1",
+            "en": "Amina lives in Maputo.",
+            "pt": "Amina mora em Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l01_s1"
+          },
+          {
+            "id": "a1-u09-l01-s2",
+            "en": "Today the lesson is No mercado do povo.",
+            "pt": "Hoje a lição é: No mercado do povo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l01_s2"
+          },
+          {
+            "id": "a1-u09-l01-s3",
+            "en": "We learn 'market' and 'shop'.",
+            "pt": "Aprendemos «mercado» e «loja».",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l01_s3"
+          },
+          {
+            "id": "a1-u09-l01-s4",
+            "en": "Amina says: I use 'sell' every day.",
+            "pt": "Amina diz: uso «vender» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l01_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u09-l01-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u09-l01_repeat",
+          "items": [
+            {
+              "en": "Amina lives in Maputo.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l01-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "market",
+                "pt": "O que significa «market»?"
+              },
+              "options": [
+                "mercado",
+                "comprar",
+                "preço",
+                "barato"
+              ],
+              "answer": "mercado"
+            },
+            {
+              "question": {
+                "en": "shop",
+                "pt": "O que significa «shop»?"
+              },
+              "options": [
+                "loja",
+                "vender",
+                "quanto custa",
+                "caro"
+              ],
+              "answer": "loja"
+            },
+            {
+              "question": {
+                "en": "buy",
+                "pt": "O que significa «buy»?"
+              },
+              "options": [
+                "comprar",
+                "preço",
+                "barato",
+                "metical"
+              ],
+              "answer": "comprar"
+            },
+            {
+              "question": {
+                "en": "sell",
+                "pt": "O que significa «sell»?"
+              },
+              "options": [
+                "vender",
+                "quanto custa",
+                "caro",
+                "troco"
+              ],
+              "answer": "vender"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-l02",
+      "unitId": "u09",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "How much is this?",
+        "en": "How much is this?"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comprar no mercado com meticais e How much.",
+        "How much is this?"
+      ],
+      "newWords": [
+        {
+          "en": "sell",
+          "pt": "vender",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l02_w_sell",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "price",
+          "pt": "preço",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l02_w_price",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "how much",
+          "pt": "quanto custa",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l02_w_how-much",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "cheap",
+          "pt": "barato",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l02_w_cheap",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "How much is this?",
+        "sentences": [
+          {
+            "id": "a1-u09-l02-s1",
+            "en": "João lives in Matola.",
+            "pt": "João mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l02_s1"
+          },
+          {
+            "id": "a1-u09-l02-s2",
+            "en": "Today the lesson is How much is this?.",
+            "pt": "Hoje a lição é: How much is this?.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l02_s2"
+          },
+          {
+            "id": "a1-u09-l02-s3",
+            "en": "We learn 'shop' and 'buy'.",
+            "pt": "Aprendemos «loja» e «comprar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l02_s3"
+          },
+          {
+            "id": "a1-u09-l02-s4",
+            "en": "João says: I use 'price' every day.",
+            "pt": "João diz: uso «preço» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l02_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u09-l02-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "market",
+              "options": [
+                "market",
+                "shop",
+                "buy",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "shop",
+              "options": [
+                "shop",
+                "buy",
+                "sell",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "buy",
+              "options": [
+                "buy",
+                "sell",
+                "price",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-l03",
+      "unitId": "u09",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "Barato e caro",
+        "en": "Barato e caro"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comprar no mercado com meticais e How much.",
+        "Barato e caro"
+      ],
+      "newWords": [
+        {
+          "en": "cheap",
+          "pt": "barato",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l03_w_cheap",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "expensive",
+          "pt": "caro",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l03_w_expensive",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "metical",
+          "pt": "metical",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l03_w_metical",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        },
+        {
+          "en": "change",
+          "pt": "troco",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l03_w_change",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        }
+      ],
+      "guidedReading": {
+        "title": "Barato e caro",
+        "sentences": [
+          {
+            "id": "a1-u09-l03-s1",
+            "en": "Fátima lives in Xai-Xai.",
+            "pt": "Fátima mora em Xai-Xai.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l03_s1"
+          },
+          {
+            "id": "a1-u09-l03-s2",
+            "en": "Today the lesson is Barato e caro.",
+            "pt": "Hoje a lição é: Barato e caro.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l03_s2"
+          },
+          {
+            "id": "a1-u09-l03-s3",
+            "en": "We learn 'buy' and 'sell'.",
+            "pt": "Aprendemos «comprar» e «vender».",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l03_s3"
+          },
+          {
+            "id": "a1-u09-l03-s4",
+            "en": "Fátima says: I use 'how much' every day.",
+            "pt": "Fátima diz: uso «quanto custa» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l03_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u09-l03-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "market",
+              "pt": "mercado"
+            },
+            {
+              "en": "shop",
+              "pt": "loja"
+            },
+            {
+              "en": "buy",
+              "pt": "comprar"
+            },
+            {
+              "en": "sell",
+              "pt": "vender"
+            },
+            {
+              "en": "price",
+              "pt": "preço"
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l03-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'market' in Portuguese is 'mercado'.",
+              "answer": true
+            },
+            {
+              "sentence": "'market' means 'vender'.",
+              "answer": false
+            },
+            {
+              "sentence": "'shop' in Portuguese is 'loja'.",
+              "answer": true
+            },
+            {
+              "sentence": "'shop' means 'preço'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-l04",
+      "unitId": "u09",
+      "order": 4,
+      "kind": "content",
+      "title": {
+        "pt": "Quilos e números",
+        "en": "Quilos e números"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comprar no mercado com meticais e How much.",
+        "Quilos e números"
+      ],
+      "newWords": [
+        {
+          "en": "change",
+          "pt": "troco",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l04_w_change",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "bag",
+          "pt": "saco",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l04_w_bag",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "kilo",
+          "pt": "quilo",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l04_w_kilo",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Quilos e números",
+        "sentences": [
+          {
+            "id": "a1-u09-l04-s1",
+            "en": "Carlos lives in Inhambane.",
+            "pt": "Carlos mora em Inhambane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l04_s1"
+          },
+          {
+            "id": "a1-u09-l04-s2",
+            "en": "Today the lesson is Quilos e números.",
+            "pt": "Hoje a lição é: Quilos e números.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l04_s2"
+          },
+          {
+            "id": "a1-u09-l04-s3",
+            "en": "We learn 'sell' and 'price'.",
+            "pt": "Aprendemos «vender» e «preço».",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l04_s3"
+          },
+          {
+            "id": "a1-u09-l04-s4",
+            "en": "Carlos says: I use 'cheap' every day.",
+            "pt": "Carlos diz: uso «barato» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l04_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u09-l04-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u09-l04_lw_nélio-is-in-nampul",
+              "answer": "Nélio is in Nampula. market.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u09-l04_lw_nélio-is-in-nampul",
+              "answer": "Nélio is in Nampula. shop.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u09-l04_lw_nélio-is-in-nampul",
+              "answer": "Nélio is in Nampula. buy.",
+              "hint": "Nélio"
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l04-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "market"
+              ],
+              "answer": "I need market"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "shop"
+              ],
+              "answer": "I need shop"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "buy"
+              ],
+              "answer": "I need buy"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-l05",
+      "unitId": "u09",
+      "order": 5,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 1",
+        "en": "Checkpoint quiz 1"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comprar no mercado com meticais e How much.",
+        "Mini-teste 1"
+      ],
+      "newWords": [
+        {
+          "en": "market",
+          "pt": "mercado",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l05_w_market",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "shop",
+          "pt": "loja",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l05_w_shop",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "buy",
+          "pt": "comprar",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l05_w_buy",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "sell",
+          "pt": "vender",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l05_w_sell",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 1",
+        "sentences": [
+          {
+            "id": "a1-u09-l05-s1",
+            "en": "Let’s review. Graça is from Vilankulo.",
+            "pt": "Vamos rever. Graça é de Vilankulo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l05_s1"
+          },
+          {
+            "id": "a1-u09-l05-s2",
+            "en": "This unit is about Market and prices.",
+            "pt": "Esta unidade é sobre Mercado e preços.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l05_s2"
+          },
+          {
+            "id": "a1-u09-l05-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l05_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u09-l05-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "market",
+                "pt": "O que significa «market»?"
+              },
+              "options": [
+                "mercado",
+                "comprar",
+                "preço",
+                "barato"
+              ],
+              "answer": "mercado"
+            },
+            {
+              "question": {
+                "en": "shop",
+                "pt": "O que significa «shop»?"
+              },
+              "options": [
+                "loja",
+                "vender",
+                "quanto custa",
+                "caro"
+              ],
+              "answer": "loja"
+            },
+            {
+              "question": {
+                "en": "buy",
+                "pt": "O que significa «buy»?"
+              },
+              "options": [
+                "comprar",
+                "preço",
+                "barato",
+                "metical"
+              ],
+              "answer": "comprar"
+            },
+            {
+              "question": {
+                "en": "sell",
+                "pt": "O que significa «sell»?"
+              },
+              "options": [
+                "vender",
+                "quanto custa",
+                "caro",
+                "troco"
+              ],
+              "answer": "vender"
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l05-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "market",
+              "options": [
+                "market",
+                "shop",
+                "buy",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "shop",
+              "options": [
+                "shop",
+                "buy",
+                "sell",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "buy",
+              "options": [
+                "buy",
+                "sell",
+                "price",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l05-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u09-l05_lw_nélio-is-in-nampul",
+              "answer": "Nélio is in Nampula. market.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u09-l05_lw_nélio-is-in-nampul",
+              "answer": "Nélio is in Nampula. shop.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u09-l05_lw_nélio-is-in-nampul",
+              "answer": "Nélio is in Nampula. buy.",
+              "hint": "Nélio"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-l06",
+      "unitId": "u09",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "Meticais",
+        "en": "Meticais"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comprar no mercado com meticais e How much.",
+        "Meticais"
+      ],
+      "newWords": [
+        {
+          "en": "sell",
+          "pt": "vender",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l06_w_sell",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "price",
+          "pt": "preço",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l06_w_price",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "how much",
+          "pt": "quanto custa",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l06_w_how-much",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "cheap",
+          "pt": "barato",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l06_w_cheap",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Meticais",
+        "sentences": [
+          {
+            "id": "a1-u09-l06-s1",
+            "en": "Ibraimo lives in Beira.",
+            "pt": "Ibraimo mora em Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l06_s1"
+          },
+          {
+            "id": "a1-u09-l06-s2",
+            "en": "Today the lesson is Quero isto, por favor.",
+            "pt": "Hoje a lição é: Quero isto, por favor.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l06_s2"
+          },
+          {
+            "id": "a1-u09-l06-s3",
+            "en": "We learn 'how much' and 'cheap'.",
+            "pt": "Aprendemos «quanto custa» e «barato».",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l06_s3"
+          },
+          {
+            "id": "a1-u09-l06-s4",
+            "en": "Ibraimo says: I use 'metical' every day.",
+            "pt": "Ibraimo diz: uso «metical» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l06_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u09-l06-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Ibraimo lives in Beira.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l06-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "market",
+                "pt": "O que significa «market»?"
+              },
+              "options": [
+                "mercado",
+                "comprar",
+                "preço",
+                "barato"
+              ],
+              "answer": "mercado"
+            },
+            {
+              "question": {
+                "en": "shop",
+                "pt": "O que significa «shop»?"
+              },
+              "options": [
+                "loja",
+                "vender",
+                "quanto custa",
+                "caro"
+              ],
+              "answer": "loja"
+            },
+            {
+              "question": {
+                "en": "buy",
+                "pt": "O que significa «buy»?"
+              },
+              "options": [
+                "comprar",
+                "preço",
+                "barato",
+                "metical"
+              ],
+              "answer": "comprar"
+            },
+            {
+              "question": {
+                "en": "sell",
+                "pt": "O que significa «sell»?"
+              },
+              "options": [
+                "vender",
+                "quanto custa",
+                "caro",
+                "troco"
+              ],
+              "answer": "vender"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-l07",
+      "unitId": "u09",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "Quero isto, por favor",
+        "en": "Quero isto, por favor"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comprar no mercado com meticais e How much.",
+        "Quero isto, por favor"
+      ],
+      "newWords": [
+        {
+          "en": "cheap",
+          "pt": "barato",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l07_w_cheap",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "expensive",
+          "pt": "caro",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l07_w_expensive",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "metical",
+          "pt": "metical",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l07_w_metical",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "change",
+          "pt": "troco",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l07_w_change",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        }
+      ],
+      "guidedReading": {
+        "title": "Quero isto, por favor",
+        "sentences": [
+          {
+            "id": "a1-u09-l07-s1",
+            "en": "Esperança lives in Chimoio.",
+            "pt": "Esperança mora em Chimoio.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l07_s1"
+          },
+          {
+            "id": "a1-u09-l07-s2",
+            "en": "Today the lesson is Não quero isso.",
+            "pt": "Hoje a lição é: Não quero isso.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l07_s2"
+          },
+          {
+            "id": "a1-u09-l07-s3",
+            "en": "We learn 'cheap' and 'expensive'.",
+            "pt": "Aprendemos «barato» e «caro».",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l07_s3"
+          },
+          {
+            "id": "a1-u09-l07-s4",
+            "en": "Esperança says: I use 'change' every day.",
+            "pt": "Esperança diz: uso «troco» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l07_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u09-l07-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u09-l07_repeat",
+          "items": [
+            {
+              "en": "Esperança lives in Chimoio.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l07-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "market",
+                "pt": "O que significa «market»?"
+              },
+              "options": [
+                "mercado",
+                "comprar",
+                "preço",
+                "barato"
+              ],
+              "answer": "mercado"
+            },
+            {
+              "question": {
+                "en": "shop",
+                "pt": "O que significa «shop»?"
+              },
+              "options": [
+                "loja",
+                "vender",
+                "quanto custa",
+                "caro"
+              ],
+              "answer": "loja"
+            },
+            {
+              "question": {
+                "en": "buy",
+                "pt": "O que significa «buy»?"
+              },
+              "options": [
+                "comprar",
+                "preço",
+                "barato",
+                "metical"
+              ],
+              "answer": "comprar"
+            },
+            {
+              "question": {
+                "en": "sell",
+                "pt": "O que significa «sell»?"
+              },
+              "options": [
+                "vender",
+                "quanto custa",
+                "caro",
+                "troco"
+              ],
+              "answer": "vender"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-l08",
+      "unitId": "u09",
+      "order": 8,
+      "kind": "content",
+      "title": {
+        "pt": "Não quero isso",
+        "en": "Não quero isso"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comprar no mercado com meticais e How much.",
+        "Não quero isso"
+      ],
+      "newWords": [
+        {
+          "en": "change",
+          "pt": "troco",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l08_w_change",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "bag",
+          "pt": "saco",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l08_w_bag",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "kilo",
+          "pt": "quilo",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l08_w_kilo",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        }
+      ],
+      "guidedReading": {
+        "title": "Não quero isso",
+        "sentences": [
+          {
+            "id": "a1-u09-l08-s1",
+            "en": "Paulo lives in Tete.",
+            "pt": "Paulo mora em Tete.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l08_s1"
+          },
+          {
+            "id": "a1-u09-l08-s2",
+            "en": "Today the lesson is Troco, por favor.",
+            "pt": "Hoje a lição é: Troco, por favor.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l08_s2"
+          },
+          {
+            "id": "a1-u09-l08-s3",
+            "en": "We learn 'expensive' and 'metical'.",
+            "pt": "Aprendemos «caro» e «metical».",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l08_s3"
+          },
+          {
+            "id": "a1-u09-l08-s4",
+            "en": "Paulo says: I use 'bag' every day.",
+            "pt": "Paulo diz: uso «saco» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l08_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u09-l08-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "market",
+              "options": [
+                "market",
+                "shop",
+                "buy",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "shop",
+              "options": [
+                "shop",
+                "buy",
+                "sell",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "buy",
+              "options": [
+                "buy",
+                "sell",
+                "price",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-l09",
+      "unitId": "u09",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Troco, por favor",
+        "en": "Troco, por favor"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comprar no mercado com meticais e How much.",
+        "Troco, por favor"
+      ],
+      "newWords": [
+        {
+          "en": "market",
+          "pt": "mercado",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l09_w_market",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "shop",
+          "pt": "loja",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l09_w_shop",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "buy",
+          "pt": "comprar",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l09_w_buy",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "sell",
+          "pt": "vender",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l09_w_sell",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Troco, por favor",
+        "sentences": [
+          {
+            "id": "a1-u09-l09-s1",
+            "en": "Belmira lives in Quelimane.",
+            "pt": "Belmira mora em Quelimane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l09_s1"
+          },
+          {
+            "id": "a1-u09-l09-s2",
+            "en": "Today the lesson is Fruta no mercado.",
+            "pt": "Hoje a lição é: Fruta no mercado.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l09_s2"
+          },
+          {
+            "id": "a1-u09-l09-s3",
+            "en": "We learn 'metical' and 'change'.",
+            "pt": "Aprendemos «metical» e «troco».",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l09_s3"
+          },
+          {
+            "id": "a1-u09-l09-s4",
+            "en": "Belmira says: I use 'kilo' every day.",
+            "pt": "Belmira diz: uso «quilo» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l09_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u09-l09-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "market",
+              "pt": "mercado"
+            },
+            {
+              "en": "shop",
+              "pt": "loja"
+            },
+            {
+              "en": "buy",
+              "pt": "comprar"
+            },
+            {
+              "en": "sell",
+              "pt": "vender"
+            },
+            {
+              "en": "price",
+              "pt": "preço"
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l09-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'market' in Portuguese is 'mercado'.",
+              "answer": true
+            },
+            {
+              "sentence": "'market' means 'vender'.",
+              "answer": false
+            },
+            {
+              "sentence": "'shop' in Portuguese is 'loja'.",
+              "answer": true
+            },
+            {
+              "sentence": "'shop' means 'preço'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-l10",
+      "unitId": "u09",
+      "order": 10,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão guiada",
+        "en": "Guided review"
+      },
+      "type": "review",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectives": [
+        "Comprar no mercado com meticais e How much.",
+        "Revisão guiada"
+      ],
+      "newWords": [
+        {
+          "en": "sell",
+          "pt": "vender",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l10_w_sell",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "price",
+          "pt": "preço",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l10_w_price",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "how much",
+          "pt": "quanto custa",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l10_w_how-much",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        },
+        {
+          "en": "cheap",
+          "pt": "barato",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l10_w_cheap",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        }
+      ],
+      "guidedReading": {
+        "title": "Guided review",
+        "sentences": [
+          {
+            "id": "a1-u09-l10-s1",
+            "en": "Let’s review. Nélio is from Nampula.",
+            "pt": "Vamos rever. Nélio é de Nampula.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l10_s1"
+          },
+          {
+            "id": "a1-u09-l10-s2",
+            "en": "This unit is about Market and prices.",
+            "pt": "Esta unidade é sobre Mercado e preços.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l10_s2"
+          },
+          {
+            "id": "a1-u09-l10-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l10_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u09-l10-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u09-l10_lw_nélio-is-in-nampul",
+              "answer": "Nélio is in Nampula. market.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u09-l10_lw_nélio-is-in-nampul",
+              "answer": "Nélio is in Nampula. shop.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u09-l10_lw_nélio-is-in-nampul",
+              "answer": "Nélio is in Nampula. buy.",
+              "hint": "Nélio"
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l10-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "market"
+              ],
+              "answer": "I need market"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "shop"
+              ],
+              "answer": "I need shop"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "buy"
+              ],
+              "answer": "I need buy"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-l11",
+      "unitId": "u09",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "Fruta no mercado",
+        "en": "Fruta no mercado"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comprar no mercado com meticais e How much.",
+        "Fruta no mercado"
+      ],
+      "newWords": [
+        {
+          "en": "cheap",
+          "pt": "barato",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l11_w_cheap",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "expensive",
+          "pt": "caro",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l11_w_expensive",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "metical",
+          "pt": "metical",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l11_w_metical",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "change",
+          "pt": "troco",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l11_w_change",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        }
+      ],
+      "guidedReading": {
+        "title": "Fruta no mercado",
+        "sentences": [
+          {
+            "id": "a1-u09-l11-s1",
+            "en": "Lurdes lives in Nacala.",
+            "pt": "Lurdes mora em Nacala.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l11_s1"
+          },
+          {
+            "id": "a1-u09-l11-s2",
+            "en": "Today the lesson is Diálogo: comprar pão.",
+            "pt": "Hoje a lição é: Diálogo: comprar pão.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l11_s2"
+          },
+          {
+            "id": "a1-u09-l11-s3",
+            "en": "We learn 'bag' and 'kilo'.",
+            "pt": "Aprendemos «saco» e «quilo».",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l11_s3"
+          },
+          {
+            "id": "a1-u09-l11-s4",
+            "en": "Lurdes says: I use 'shop' every day.",
+            "pt": "Lurdes diz: uso «loja» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l11_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u09-l11-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u09-l11_tap",
+          "items": [
+            {
+              "answer": "market",
+              "options": [
+                "market",
+                "shop",
+                "buy",
+                "sell"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l11-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-l12",
+      "unitId": "u09",
+      "order": 12,
+      "kind": "content",
+      "title": {
+        "pt": "Peixe no mercado",
+        "en": "Peixe no mercado"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comprar no mercado com meticais e How much.",
+        "Peixe no mercado"
+      ],
+      "newWords": [
+        {
+          "en": "change",
+          "pt": "troco",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l12_w_change",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "bag",
+          "pt": "saco",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l12_w_bag",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "kilo",
+          "pt": "quilo",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l12_w_kilo",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        }
+      ],
+      "guidedReading": {
+        "title": "Peixe no mercado",
+        "sentences": [
+          {
+            "id": "a1-u09-l12-s1",
+            "en": "Faruk lives in Pemba.",
+            "pt": "Faruk mora em Pemba.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l12_s1"
+          },
+          {
+            "id": "a1-u09-l12-s2",
+            "en": "Today the lesson is Diálogo: negociar o preço.",
+            "pt": "Hoje a lição é: Diálogo: negociar o preço.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l12_s2"
+          },
+          {
+            "id": "a1-u09-l12-s3",
+            "en": "We learn 'kilo' and 'market'.",
+            "pt": "Aprendemos «quilo» e «mercado».",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l12_s3"
+          },
+          {
+            "id": "a1-u09-l12-s4",
+            "en": "Faruk says: I use 'buy' every day.",
+            "pt": "Faruk diz: uso «comprar» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l12_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u09-l12-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Faruk lives in Pemba.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l12-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "market",
+                "pt": "O que significa «market»?"
+              },
+              "options": [
+                "mercado",
+                "comprar",
+                "preço",
+                "barato"
+              ],
+              "answer": "mercado"
+            },
+            {
+              "question": {
+                "en": "shop",
+                "pt": "O que significa «shop»?"
+              },
+              "options": [
+                "loja",
+                "vender",
+                "quanto custa",
+                "caro"
+              ],
+              "answer": "loja"
+            },
+            {
+              "question": {
+                "en": "buy",
+                "pt": "O que significa «buy»?"
+              },
+              "options": [
+                "comprar",
+                "preço",
+                "barato",
+                "metical"
+              ],
+              "answer": "comprar"
+            },
+            {
+              "question": {
+                "en": "sell",
+                "pt": "O que significa «sell»?"
+              },
+              "options": [
+                "vender",
+                "quanto custa",
+                "caro",
+                "troco"
+              ],
+              "answer": "vender"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-l13",
+      "unitId": "u09",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: comprar pão",
+        "en": "Diálogo: comprar pão"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comprar no mercado com meticais e How much.",
+        "Diálogo: comprar pão"
+      ],
+      "newWords": [
+        {
+          "en": "market",
+          "pt": "mercado",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l13_w_market",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "shop",
+          "pt": "loja",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l13_w_shop",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "buy",
+          "pt": "comprar",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l13_w_buy",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "sell",
+          "pt": "vender",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l13_w_sell",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: comprar pão",
+        "sentences": [
+          {
+            "id": "a1-u09-l13-s1",
+            "en": "Josina lives in Lichinga.",
+            "pt": "Josina mora em Lichinga.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l13_s1"
+          },
+          {
+            "id": "a1-u09-l13-s2",
+            "en": "Today the lesson is Lista de compras.",
+            "pt": "Hoje a lição é: Lista de compras.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l13_s2"
+          },
+          {
+            "id": "a1-u09-l13-s3",
+            "en": "We learn 'market' and 'shop'.",
+            "pt": "Aprendemos «mercado» e «loja».",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l13_s3"
+          },
+          {
+            "id": "a1-u09-l13-s4",
+            "en": "Josina says: I use 'sell' every day.",
+            "pt": "Josina diz: uso «vender» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l13_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u09-l13-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u09-l13_repeat",
+          "items": [
+            {
+              "en": "Josina lives in Lichinga.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l13-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "market",
+                "pt": "O que significa «market»?"
+              },
+              "options": [
+                "mercado",
+                "comprar",
+                "preço",
+                "barato"
+              ],
+              "answer": "mercado"
+            },
+            {
+              "question": {
+                "en": "shop",
+                "pt": "O que significa «shop»?"
+              },
+              "options": [
+                "loja",
+                "vender",
+                "quanto custa",
+                "caro"
+              ],
+              "answer": "loja"
+            },
+            {
+              "question": {
+                "en": "buy",
+                "pt": "O que significa «buy»?"
+              },
+              "options": [
+                "comprar",
+                "preço",
+                "barato",
+                "metical"
+              ],
+              "answer": "comprar"
+            },
+            {
+              "question": {
+                "en": "sell",
+                "pt": "O que significa «sell»?"
+              },
+              "options": [
+                "vender",
+                "quanto custa",
+                "caro",
+                "troco"
+              ],
+              "answer": "vender"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-l14",
+      "unitId": "u09",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Diálogo: negociar o preço",
+        "en": "Diálogo: negociar o preço"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comprar no mercado com meticais e How much.",
+        "Diálogo: negociar o preço"
+      ],
+      "newWords": [
+        {
+          "en": "sell",
+          "pt": "vender",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l14_w_sell",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "price",
+          "pt": "preço",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l14_w_price",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "how much",
+          "pt": "quanto custa",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l14_w_how-much",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "cheap",
+          "pt": "barato",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l14_w_cheap",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diálogo: negociar o preço",
+        "sentences": [
+          {
+            "id": "a1-u09-l14-s1",
+            "en": "Tendai lives in Ilha de Moçambique.",
+            "pt": "Tendai mora em Ilha de Moçambique.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l14_s1"
+          },
+          {
+            "id": "a1-u09-l14-s2",
+            "en": "Today the lesson is Ouvir preços.",
+            "pt": "Hoje a lição é: Ouvir preços.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l14_s2"
+          },
+          {
+            "id": "a1-u09-l14-s3",
+            "en": "We learn 'shop' and 'buy'.",
+            "pt": "Aprendemos «loja» e «comprar».",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l14_s3"
+          },
+          {
+            "id": "a1-u09-l14-s4",
+            "en": "Tendai says: I use 'price' every day.",
+            "pt": "Tendai diz: uso «preço» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l14_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u09-l14-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "market",
+              "options": [
+                "market",
+                "shop",
+                "buy",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "shop",
+              "options": [
+                "shop",
+                "buy",
+                "sell",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "buy",
+              "options": [
+                "buy",
+                "sell",
+                "price",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-l15",
+      "unitId": "u09",
+      "order": 15,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 2",
+        "en": "Checkpoint quiz 2"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comprar no mercado com meticais e How much.",
+        "Mini-teste 2"
+      ],
+      "newWords": [
+        {
+          "en": "cheap",
+          "pt": "barato",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l15_w_cheap",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "expensive",
+          "pt": "caro",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l15_w_expensive",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "metical",
+          "pt": "metical",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l15_w_metical",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "change",
+          "pt": "troco",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l15_w_change",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 2",
+        "sentences": [
+          {
+            "id": "a1-u09-l15-s1",
+            "en": "Let’s review. Amélia is from Maputo.",
+            "pt": "Vamos rever. Amélia é de Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l15_s1"
+          },
+          {
+            "id": "a1-u09-l15-s2",
+            "en": "This unit is about Market and prices.",
+            "pt": "Esta unidade é sobre Mercado e preços.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l15_s2"
+          },
+          {
+            "id": "a1-u09-l15-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l15_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u09-l15-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "market",
+                "pt": "O que significa «market»?"
+              },
+              "options": [
+                "mercado",
+                "comprar",
+                "preço",
+                "barato"
+              ],
+              "answer": "mercado"
+            },
+            {
+              "question": {
+                "en": "shop",
+                "pt": "O que significa «shop»?"
+              },
+              "options": [
+                "loja",
+                "vender",
+                "quanto custa",
+                "caro"
+              ],
+              "answer": "loja"
+            },
+            {
+              "question": {
+                "en": "buy",
+                "pt": "O que significa «buy»?"
+              },
+              "options": [
+                "comprar",
+                "preço",
+                "barato",
+                "metical"
+              ],
+              "answer": "comprar"
+            },
+            {
+              "question": {
+                "en": "sell",
+                "pt": "O que significa «sell»?"
+              },
+              "options": [
+                "vender",
+                "quanto custa",
+                "caro",
+                "troco"
+              ],
+              "answer": "vender"
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l15-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "market",
+              "options": [
+                "market",
+                "shop",
+                "buy",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "shop",
+              "options": [
+                "shop",
+                "buy",
+                "sell",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "buy",
+              "options": [
+                "buy",
+                "sell",
+                "price",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l15-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u09-l15_lw_nélio-is-in-nampul",
+              "answer": "Nélio is in Nampula. market.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u09-l15_lw_nélio-is-in-nampul",
+              "answer": "Nélio is in Nampula. shop.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u09-l15_lw_nélio-is-in-nampul",
+              "answer": "Nélio is in Nampula. buy.",
+              "hint": "Nélio"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-l16",
+      "unitId": "u09",
+      "order": 16,
+      "kind": "content",
+      "title": {
+        "pt": "Lista de compras",
+        "en": "Lista de compras"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comprar no mercado com meticais e How much.",
+        "Lista de compras"
+      ],
+      "newWords": [
+        {
+          "en": "change",
+          "pt": "troco",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l16_w_change",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "bag",
+          "pt": "saco",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l16_w_bag",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "kilo",
+          "pt": "quilo",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l16_w_kilo",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Lista de compras",
+        "sentences": [
+          {
+            "id": "a1-u09-l16-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l16_s1"
+          },
+          {
+            "id": "a1-u09-l16-s2",
+            "en": "Today the lesson is Faz uma compra em 6 falas.",
+            "pt": "Hoje a lição é: Faz uma compra em 6 falas.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l16_s2"
+          },
+          {
+            "id": "a1-u09-l16-s3",
+            "en": "We learn 'sell' and 'price'.",
+            "pt": "Aprendemos «vender» e «preço».",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l16_s3"
+          },
+          {
+            "id": "a1-u09-l16-s4",
+            "en": "Zacarias says: I use 'cheap' every day.",
+            "pt": "Zacarias diz: uso «barato» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l16_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u09-l16-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u09-l16_lw_nélio-is-in-nampul",
+              "answer": "Nélio is in Nampula. market.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u09-l16_lw_nélio-is-in-nampul",
+              "answer": "Nélio is in Nampula. shop.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u09-l16_lw_nélio-is-in-nampul",
+              "answer": "Nélio is in Nampula. buy.",
+              "hint": "Nélio"
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l16-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "market"
+              ],
+              "answer": "I need market"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "shop"
+              ],
+              "answer": "I need shop"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "buy"
+              ],
+              "answer": "I need buy"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-l17",
+      "unitId": "u09",
+      "order": 17,
+      "kind": "content",
+      "title": {
+        "pt": "Ouvir preços",
+        "en": "Ouvir preços"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comprar no mercado com meticais e How much.",
+        "Ouvir preços"
+      ],
+      "newWords": [
+        {
+          "en": "market",
+          "pt": "mercado",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l17_w_market",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "shop",
+          "pt": "loja",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l17_w_shop",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "buy",
+          "pt": "comprar",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l17_w_buy",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "sell",
+          "pt": "vender",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l17_w_sell",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Ouvir preços",
+        "sentences": [
+          {
+            "id": "a1-u09-l17-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l17_s1"
+          },
+          {
+            "id": "a1-u09-l17-s2",
+            "en": "Today the lesson is Faz uma compra em 6 falas.",
+            "pt": "Hoje a lição é: Faz uma compra em 6 falas.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l17_s2"
+          },
+          {
+            "id": "a1-u09-l17-s3",
+            "en": "We learn 'sell' and 'price'.",
+            "pt": "Aprendemos «vender» e «preço».",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l17_s3"
+          },
+          {
+            "id": "a1-u09-l17-s4",
+            "en": "Zacarias says: I use 'cheap' every day.",
+            "pt": "Zacarias diz: uso «barato» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l17_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u09-l17-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u09-l17_tap",
+          "items": [
+            {
+              "answer": "market",
+              "options": [
+                "market",
+                "shop",
+                "buy",
+                "sell"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l17-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-l18",
+      "unitId": "u09",
+      "order": 18,
+      "kind": "content",
+      "title": {
+        "pt": "Sons: much / cheap",
+        "en": "Sons: much / cheap"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comprar no mercado com meticais e How much.",
+        "Sons: much / cheap"
+      ],
+      "newWords": [
+        {
+          "en": "sell",
+          "pt": "vender",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l18_w_sell",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "price",
+          "pt": "preço",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l18_w_price",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "how much",
+          "pt": "quanto custa",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l18_w_how-much",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "cheap",
+          "pt": "barato",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l18_w_cheap",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Sons: much / cheap",
+        "sentences": [
+          {
+            "id": "a1-u09-l18-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l18_s1"
+          },
+          {
+            "id": "a1-u09-l18-s2",
+            "en": "Today the lesson is Faz uma compra em 6 falas.",
+            "pt": "Hoje a lição é: Faz uma compra em 6 falas.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l18_s2"
+          },
+          {
+            "id": "a1-u09-l18-s3",
+            "en": "We learn 'sell' and 'price'.",
+            "pt": "Aprendemos «vender» e «preço».",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l18_s3"
+          },
+          {
+            "id": "a1-u09-l18-s4",
+            "en": "Zacarias says: I use 'cheap' every day.",
+            "pt": "Zacarias diz: uso «barato» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l18_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u09-l18-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l18-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "market",
+                "pt": "O que significa «market»?"
+              },
+              "options": [
+                "mercado",
+                "comprar",
+                "preço",
+                "barato"
+              ],
+              "answer": "mercado"
+            },
+            {
+              "question": {
+                "en": "shop",
+                "pt": "O que significa «shop»?"
+              },
+              "options": [
+                "loja",
+                "vender",
+                "quanto custa",
+                "caro"
+              ],
+              "answer": "loja"
+            },
+            {
+              "question": {
+                "en": "buy",
+                "pt": "O que significa «buy»?"
+              },
+              "options": [
+                "comprar",
+                "preço",
+                "barato",
+                "metical"
+              ],
+              "answer": "comprar"
+            },
+            {
+              "question": {
+                "en": "sell",
+                "pt": "O que significa «sell»?"
+              },
+              "options": [
+                "vender",
+                "quanto custa",
+                "caro",
+                "troco"
+              ],
+              "answer": "vender"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-l19",
+      "unitId": "u09",
+      "order": 19,
+      "kind": "content",
+      "title": {
+        "pt": "Faz uma compra em 6 falas",
+        "en": "Faz uma compra em 6 falas"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Comprar no mercado com meticais e How much.",
+        "Faz uma compra em 6 falas"
+      ],
+      "newWords": [
+        {
+          "en": "cheap",
+          "pt": "barato",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l19_w_cheap",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "expensive",
+          "pt": "caro",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l19_w_expensive",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "metical",
+          "pt": "metical",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l19_w_metical",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "change",
+          "pt": "troco",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l19_w_change",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Faz uma compra em 6 falas",
+        "sentences": [
+          {
+            "id": "a1-u09-l19-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l19_s1"
+          },
+          {
+            "id": "a1-u09-l19-s2",
+            "en": "Today the lesson is Faz uma compra em 6 falas.",
+            "pt": "Hoje a lição é: Faz uma compra em 6 falas.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l19_s2"
+          },
+          {
+            "id": "a1-u09-l19-s3",
+            "en": "We learn 'sell' and 'price'.",
+            "pt": "Aprendemos «vender» e «preço».",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l19_s3"
+          },
+          {
+            "id": "a1-u09-l19-s4",
+            "en": "Zacarias says: I use 'cheap' every day.",
+            "pt": "Zacarias diz: uso «barato» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l19_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u09-l19-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u09-l19_repeat",
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l19-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "market",
+                "pt": "O que significa «market»?"
+              },
+              "options": [
+                "mercado",
+                "comprar",
+                "preço",
+                "barato"
+              ],
+              "answer": "mercado"
+            },
+            {
+              "question": {
+                "en": "shop",
+                "pt": "O que significa «shop»?"
+              },
+              "options": [
+                "loja",
+                "vender",
+                "quanto custa",
+                "caro"
+              ],
+              "answer": "loja"
+            },
+            {
+              "question": {
+                "en": "buy",
+                "pt": "O que significa «buy»?"
+              },
+              "options": [
+                "comprar",
+                "preço",
+                "barato",
+                "metical"
+              ],
+              "answer": "comprar"
+            },
+            {
+              "question": {
+                "en": "sell",
+                "pt": "O que significa «sell»?"
+              },
+              "options": [
+                "vender",
+                "quanto custa",
+                "caro",
+                "troco"
+              ],
+              "answer": "vender"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-l20",
+      "unitId": "u09",
+      "order": 20,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste da unidade: Mercado e preços",
+        "en": "Unit test: Market and prices"
+      },
+      "type": "unit_test",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "listening",
+        "reading",
+        "writing",
+        "grammar"
+      ],
+      "objectives": [
+        "Comprar no mercado com meticais e How much.",
+        "Teste da unidade: Mercado e preços"
+      ],
+      "newWords": [
+        {
+          "en": "change",
+          "pt": "troco",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l20_w_change",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "bag",
+          "pt": "saco",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l20_w_bag",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "kilo",
+          "pt": "quilo",
+          "ipa": "",
+          "audioKey": "a1_a1-u09-l20_w_kilo",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Unit test: Market and prices",
+        "sentences": [
+          {
+            "id": "a1-u09-l20-s1",
+            "en": "Let’s review. Carlos is from Beira.",
+            "pt": "Vamos rever. Carlos é de Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l20_s1"
+          },
+          {
+            "id": "a1-u09-l20-s2",
+            "en": "This unit is about Market and prices.",
+            "pt": "Esta unidade é sobre Mercado e preços.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l20_s2"
+          },
+          {
+            "id": "a1-u09-l20-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u09-l20_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u09-l20-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "market",
+                "pt": "O que significa «market»?"
+              },
+              "options": [
+                "mercado",
+                "comprar",
+                "preço",
+                "barato"
+              ],
+              "answer": "mercado"
+            },
+            {
+              "question": {
+                "en": "shop",
+                "pt": "O que significa «shop»?"
+              },
+              "options": [
+                "loja",
+                "vender",
+                "quanto custa",
+                "caro"
+              ],
+              "answer": "loja"
+            },
+            {
+              "question": {
+                "en": "buy",
+                "pt": "O que significa «buy»?"
+              },
+              "options": [
+                "comprar",
+                "preço",
+                "barato",
+                "metical"
+              ],
+              "answer": "comprar"
+            },
+            {
+              "question": {
+                "en": "sell",
+                "pt": "O que significa «sell»?"
+              },
+              "options": [
+                "vender",
+                "quanto custa",
+                "caro",
+                "troco"
+              ],
+              "answer": "vender"
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l20-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "market",
+              "options": [
+                "market",
+                "shop",
+                "buy",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "shop",
+              "options": [
+                "shop",
+                "buy",
+                "sell",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "buy",
+              "options": [
+                "buy",
+                "sell",
+                "price",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l20-a3",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'market' in Portuguese is 'mercado'.",
+              "answer": true
+            },
+            {
+              "sentence": "'market' means 'vender'.",
+              "answer": false
+            },
+            {
+              "sentence": "'shop' in Portuguese is 'loja'.",
+              "answer": true
+            },
+            {
+              "sentence": "'shop' means 'preço'.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l20-a4",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "need",
+                "market"
+              ],
+              "answer": "I need market"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "shop"
+              ],
+              "answer": "I need shop"
+            },
+            {
+              "words": [
+                "I",
+                "need",
+                "buy"
+              ],
+              "answer": "I need buy"
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l20-a5",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u09-l20_lw_nélio-is-in-nampul",
+              "answer": "Nélio is in Nampula. market.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u09-l20_lw_nélio-is-in-nampul",
+              "answer": "Nélio is in Nampula. shop.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u09-l20_lw_nélio-is-in-nampul",
+              "answer": "Nélio is in Nampula. buy.",
+              "hint": "Nélio"
+            }
+          ]
+        },
+        {
+          "id": "a1-u09-l20-a6",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    }
+  ]
+}

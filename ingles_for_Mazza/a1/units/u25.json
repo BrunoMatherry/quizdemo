@@ -1,0 +1,3408 @@
+{
+  "id": "u25",
+  "level": "A1",
+  "order": 25,
+  "title": {
+    "pt": "Eu no mundo",
+    "en": "Me in the world"
+  },
+  "goal": "Revisão A1 e apresentação pessoal de 8 frases.",
+  "themeImageHint": "Me in the world",
+  "lessonCount": 20,
+  "lessons": [
+    {
+      "id": "a1-u25-l01",
+      "unitId": "u25",
+      "order": 1,
+      "kind": "content",
+      "title": {
+        "pt": "Revisão: cumprimentos",
+        "en": "Revisão: cumprimentos"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Revisão A1 e apresentação pessoal de 8 frases.",
+        "Revisão: cumprimentos"
+      ],
+      "newWords": [
+        {
+          "en": "I am",
+          "pt": "eu sou",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l01_w_i-am",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "I live",
+          "pt": "eu moro",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l01_w_i-live",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "I like",
+          "pt": "eu gosto",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l01_w_i-like",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        },
+        {
+          "en": "I can",
+          "pt": "eu sei/posso",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l01_w_i-can",
+          "exampleEn": "Amina lives in Maputo.",
+          "examplePt": "Amina mora em Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Revisão: cumprimentos",
+        "sentences": [
+          {
+            "id": "a1-u25-l01-s1",
+            "en": "Amina lives in Maputo.",
+            "pt": "Amina mora em Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l01_s1"
+          },
+          {
+            "id": "a1-u25-l01-s2",
+            "en": "Today the lesson is Revisão: cumprimentos.",
+            "pt": "Hoje a lição é: Revisão: cumprimentos.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l01_s2"
+          },
+          {
+            "id": "a1-u25-l01-s3",
+            "en": "We learn 'I am' and 'I live'.",
+            "pt": "Aprendemos «eu sou» e «eu moro».",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l01_s3"
+          },
+          {
+            "id": "a1-u25-l01-s4",
+            "en": "Amina says: I use 'I can' every day.",
+            "pt": "Amina diz: uso «eu sei/posso» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l01_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u25-l01-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u25-l01_repeat",
+          "items": [
+            {
+              "en": "Amina lives in Maputo.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l01-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "I am",
+                "pt": "O que significa «I am»?"
+              },
+              "options": [
+                "eu sou",
+                "eu gosto",
+                "a minha família",
+                "o meu sonho"
+              ],
+              "answer": "eu sou"
+            },
+            {
+              "question": {
+                "en": "I live",
+                "pt": "O que significa «I live»?"
+              },
+              "options": [
+                "eu moro",
+                "eu sei/posso",
+                "a minha cidade",
+                "eu sou"
+              ],
+              "answer": "eu moro"
+            },
+            {
+              "question": {
+                "en": "I like",
+                "pt": "O que significa «I like»?"
+              },
+              "options": [
+                "eu gosto",
+                "a minha família",
+                "o meu sonho",
+                "eu moro"
+              ],
+              "answer": "eu gosto"
+            },
+            {
+              "question": {
+                "en": "I can",
+                "pt": "O que significa «I can»?"
+              },
+              "options": [
+                "eu sei/posso",
+                "a minha cidade",
+                "eu sou",
+                "eu gosto"
+              ],
+              "answer": "eu sei/posso"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u25-l02",
+      "unitId": "u25",
+      "order": 2,
+      "kind": "content",
+      "title": {
+        "pt": "Revisão: to be",
+        "en": "Revisão: to be"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Revisão A1 e apresentação pessoal de 8 frases.",
+        "Revisão: to be"
+      ],
+      "newWords": [
+        {
+          "en": "I can",
+          "pt": "eu sei/posso",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l02_w_i-can",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "my family",
+          "pt": "a minha família",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l02_w_my-family",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "my city",
+          "pt": "a minha cidade",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l02_w_my-city",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        },
+        {
+          "en": "my dream",
+          "pt": "o meu sonho",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l02_w_my-dream",
+          "exampleEn": "João lives in Matola.",
+          "examplePt": "João mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Revisão: to be",
+        "sentences": [
+          {
+            "id": "a1-u25-l02-s1",
+            "en": "João lives in Matola.",
+            "pt": "João mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l02_s1"
+          },
+          {
+            "id": "a1-u25-l02-s2",
+            "en": "Today the lesson is Revisão: to be.",
+            "pt": "Hoje a lição é: Revisão: to be.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l02_s2"
+          },
+          {
+            "id": "a1-u25-l02-s3",
+            "en": "We learn 'I live' and 'I like'.",
+            "pt": "Aprendemos «eu moro» e «eu gosto».",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l02_s3"
+          },
+          {
+            "id": "a1-u25-l02-s4",
+            "en": "João says: I use 'my family' every day.",
+            "pt": "João diz: uso «a minha família» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l02_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u25-l02-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "I am",
+              "options": [
+                "I am",
+                "I live",
+                "I like",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "I live",
+              "options": [
+                "I live",
+                "I like",
+                "I can",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "I like",
+              "options": [
+                "I like",
+                "I can",
+                "my family",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u25-l03",
+      "unitId": "u25",
+      "order": 3,
+      "kind": "content",
+      "title": {
+        "pt": "Revisão: família e casa",
+        "en": "Revisão: família e casa"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Revisão A1 e apresentação pessoal de 8 frases.",
+        "Revisão: família e casa"
+      ],
+      "newWords": [
+        {
+          "en": "my dream",
+          "pt": "o meu sonho",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l03_w_my-dream",
+          "exampleEn": "Fátima lives in Xai-Xai.",
+          "examplePt": "Fátima mora em Xai-Xai."
+        }
+      ],
+      "guidedReading": {
+        "title": "Revisão: família e casa",
+        "sentences": [
+          {
+            "id": "a1-u25-l03-s1",
+            "en": "Fátima lives in Xai-Xai.",
+            "pt": "Fátima mora em Xai-Xai.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l03_s1"
+          },
+          {
+            "id": "a1-u25-l03-s2",
+            "en": "Today the lesson is Revisão: família e casa.",
+            "pt": "Hoje a lição é: Revisão: família e casa.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l03_s2"
+          },
+          {
+            "id": "a1-u25-l03-s3",
+            "en": "We learn 'I like' and 'I can'.",
+            "pt": "Aprendemos «eu gosto» e «eu sei/posso».",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l03_s3"
+          },
+          {
+            "id": "a1-u25-l03-s4",
+            "en": "Fátima says: I use 'my city' every day.",
+            "pt": "Fátima diz: uso «a minha cidade» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l03_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u25-l03-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "I am",
+              "pt": "eu sou"
+            },
+            {
+              "en": "I live",
+              "pt": "eu moro"
+            },
+            {
+              "en": "I like",
+              "pt": "eu gosto"
+            },
+            {
+              "en": "I can",
+              "pt": "eu sei/posso"
+            },
+            {
+              "en": "my family",
+              "pt": "a minha família"
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l03-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'I am' in Portuguese is 'eu sou'.",
+              "answer": true
+            },
+            {
+              "sentence": "'I am' means 'eu sei/posso'.",
+              "answer": false
+            },
+            {
+              "sentence": "'I live' in Portuguese is 'eu moro'.",
+              "answer": true
+            },
+            {
+              "sentence": "'I live' means 'a minha família'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u25-l04",
+      "unitId": "u25",
+      "order": 4,
+      "kind": "content",
+      "title": {
+        "pt": "Revisão: rotina e comida",
+        "en": "Revisão: rotina e comida"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Revisão A1 e apresentação pessoal de 8 frases.",
+        "Revisão: rotina e comida"
+      ],
+      "newWords": [
+        {
+          "en": "I like",
+          "pt": "eu gosto",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l04_w_i-like",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "I can",
+          "pt": "eu sei/posso",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l04_w_i-can",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "my family",
+          "pt": "a minha família",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l04_w_my-family",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        },
+        {
+          "en": "my city",
+          "pt": "a minha cidade",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l04_w_my-city",
+          "exampleEn": "Carlos lives in Inhambane.",
+          "examplePt": "Carlos mora em Inhambane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Revisão: rotina e comida",
+        "sentences": [
+          {
+            "id": "a1-u25-l04-s1",
+            "en": "Carlos lives in Inhambane.",
+            "pt": "Carlos mora em Inhambane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l04_s1"
+          },
+          {
+            "id": "a1-u25-l04-s2",
+            "en": "Today the lesson is Revisão: rotina e comida.",
+            "pt": "Hoje a lição é: Revisão: rotina e comida.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l04_s2"
+          },
+          {
+            "id": "a1-u25-l04-s3",
+            "en": "We learn 'I can' and 'my family'.",
+            "pt": "Aprendemos «eu sei/posso» e «a minha família».",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l04_s3"
+          },
+          {
+            "id": "a1-u25-l04-s4",
+            "en": "Carlos says: I use 'my dream' every day.",
+            "pt": "Carlos diz: uso «o meu sonho» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l04_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u25-l04-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u25-l04_lw_nélio-is-in-pemba.",
+              "answer": "Nélio is in Pemba. I am.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u25-l04_lw_nélio-is-in-pemba.",
+              "answer": "Nélio is in Pemba. I live.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u25-l04_lw_nélio-is-in-pemba.",
+              "answer": "Nélio is in Pemba. I like.",
+              "hint": "Nélio"
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l04-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "am"
+              ],
+              "answer": "I am"
+            },
+            {
+              "words": [
+                "I",
+                "live"
+              ],
+              "answer": "I live"
+            },
+            {
+              "words": [
+                "I",
+                "like"
+              ],
+              "answer": "I like"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u25-l05",
+      "unitId": "u25",
+      "order": 5,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 1",
+        "en": "Checkpoint quiz 1"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Revisão A1 e apresentação pessoal de 8 frases.",
+        "Mini-teste 1"
+      ],
+      "newWords": [
+        {
+          "en": "my city",
+          "pt": "a minha cidade",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l05_w_my-city",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        },
+        {
+          "en": "my dream",
+          "pt": "o meu sonho",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l05_w_my-dream",
+          "exampleEn": "Let’s review. Graça is from Vilankulo.",
+          "examplePt": "Vamos rever. Graça é de Vilankulo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 1",
+        "sentences": [
+          {
+            "id": "a1-u25-l05-s1",
+            "en": "Let’s review. Graça is from Vilankulo.",
+            "pt": "Vamos rever. Graça é de Vilankulo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l05_s1"
+          },
+          {
+            "id": "a1-u25-l05-s2",
+            "en": "This unit is about Me in the world.",
+            "pt": "Esta unidade é sobre Eu no mundo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l05_s2"
+          },
+          {
+            "id": "a1-u25-l05-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l05_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u25-l05-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "I am",
+                "pt": "O que significa «I am»?"
+              },
+              "options": [
+                "eu sou",
+                "eu gosto",
+                "a minha família",
+                "o meu sonho"
+              ],
+              "answer": "eu sou"
+            },
+            {
+              "question": {
+                "en": "I live",
+                "pt": "O que significa «I live»?"
+              },
+              "options": [
+                "eu moro",
+                "eu sei/posso",
+                "a minha cidade",
+                "eu sou"
+              ],
+              "answer": "eu moro"
+            },
+            {
+              "question": {
+                "en": "I like",
+                "pt": "O que significa «I like»?"
+              },
+              "options": [
+                "eu gosto",
+                "a minha família",
+                "o meu sonho",
+                "eu moro"
+              ],
+              "answer": "eu gosto"
+            },
+            {
+              "question": {
+                "en": "I can",
+                "pt": "O que significa «I can»?"
+              },
+              "options": [
+                "eu sei/posso",
+                "a minha cidade",
+                "eu sou",
+                "eu gosto"
+              ],
+              "answer": "eu sei/posso"
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l05-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "I am",
+              "options": [
+                "I am",
+                "I live",
+                "I like",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "I live",
+              "options": [
+                "I live",
+                "I like",
+                "I can",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "I like",
+              "options": [
+                "I like",
+                "I can",
+                "my family",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l05-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u25-l05_lw_nélio-is-in-pemba.",
+              "answer": "Nélio is in Pemba. I am.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u25-l05_lw_nélio-is-in-pemba.",
+              "answer": "Nélio is in Pemba. I live.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u25-l05_lw_nélio-is-in-pemba.",
+              "answer": "Nélio is in Pemba. I like.",
+              "hint": "Nélio"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u25-l06",
+      "unitId": "u25",
+      "order": 6,
+      "kind": "content",
+      "title": {
+        "pt": "Revisão: mercado e cidade",
+        "en": "Revisão: mercado e cidade"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Revisão A1 e apresentação pessoal de 8 frases.",
+        "Revisão: mercado e cidade"
+      ],
+      "newWords": [
+        {
+          "en": "I live",
+          "pt": "eu moro",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l06_w_i-live",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "I like",
+          "pt": "eu gosto",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l06_w_i-like",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "I can",
+          "pt": "eu sei/posso",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l06_w_i-can",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        },
+        {
+          "en": "my family",
+          "pt": "a minha família",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l06_w_my-family",
+          "exampleEn": "Ibraimo lives in Beira.",
+          "examplePt": "Ibraimo mora em Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Revisão: mercado e cidade",
+        "sentences": [
+          {
+            "id": "a1-u25-l06-s1",
+            "en": "Ibraimo lives in Beira.",
+            "pt": "Ibraimo mora em Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l06_s1"
+          },
+          {
+            "id": "a1-u25-l06-s2",
+            "en": "Today the lesson is Revisão: perguntas.",
+            "pt": "Hoje a lição é: Revisão: perguntas.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l06_s2"
+          },
+          {
+            "id": "a1-u25-l06-s3",
+            "en": "We learn 'my city' and 'my dream'.",
+            "pt": "Aprendemos «a minha cidade» e «o meu sonho».",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l06_s3"
+          },
+          {
+            "id": "a1-u25-l06-s4",
+            "en": "Ibraimo says: I use 'I live' every day.",
+            "pt": "Ibraimo diz: uso «eu moro» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l06_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u25-l06-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Ibraimo lives in Beira.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l06-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "I am",
+                "pt": "O que significa «I am»?"
+              },
+              "options": [
+                "eu sou",
+                "eu gosto",
+                "a minha família",
+                "o meu sonho"
+              ],
+              "answer": "eu sou"
+            },
+            {
+              "question": {
+                "en": "I live",
+                "pt": "O que significa «I live»?"
+              },
+              "options": [
+                "eu moro",
+                "eu sei/posso",
+                "a minha cidade",
+                "eu sou"
+              ],
+              "answer": "eu moro"
+            },
+            {
+              "question": {
+                "en": "I like",
+                "pt": "O que significa «I like»?"
+              },
+              "options": [
+                "eu gosto",
+                "a minha família",
+                "o meu sonho",
+                "eu moro"
+              ],
+              "answer": "eu gosto"
+            },
+            {
+              "question": {
+                "en": "I can",
+                "pt": "O que significa «I can»?"
+              },
+              "options": [
+                "eu sei/posso",
+                "a minha cidade",
+                "eu sou",
+                "eu gosto"
+              ],
+              "answer": "eu sei/posso"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u25-l07",
+      "unitId": "u25",
+      "order": 7,
+      "kind": "content",
+      "title": {
+        "pt": "Revisão: perguntas",
+        "en": "Revisão: perguntas"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Revisão A1 e apresentação pessoal de 8 frases.",
+        "Revisão: perguntas"
+      ],
+      "newWords": [
+        {
+          "en": "my family",
+          "pt": "a minha família",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l07_w_my-family",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "my city",
+          "pt": "a minha cidade",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l07_w_my-city",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        },
+        {
+          "en": "my dream",
+          "pt": "o meu sonho",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l07_w_my-dream",
+          "exampleEn": "Esperança lives in Chimoio.",
+          "examplePt": "Esperança mora em Chimoio."
+        }
+      ],
+      "guidedReading": {
+        "title": "Revisão: perguntas",
+        "sentences": [
+          {
+            "id": "a1-u25-l07-s1",
+            "en": "Esperança lives in Chimoio.",
+            "pt": "Esperança mora em Chimoio.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l07_s1"
+          },
+          {
+            "id": "a1-u25-l07-s2",
+            "en": "Today the lesson is Revisão: can e was.",
+            "pt": "Hoje a lição é: Revisão: can e was.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l07_s2"
+          },
+          {
+            "id": "a1-u25-l07-s3",
+            "en": "We learn 'my dream' and 'I am'.",
+            "pt": "Aprendemos «o meu sonho» e «eu sou».",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l07_s3"
+          },
+          {
+            "id": "a1-u25-l07-s4",
+            "en": "Esperança says: I use 'I like' every day.",
+            "pt": "Esperança diz: uso «eu gosto» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l07_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u25-l07-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u25-l07_repeat",
+          "items": [
+            {
+              "en": "Esperança lives in Chimoio.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l07-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "I am",
+                "pt": "O que significa «I am»?"
+              },
+              "options": [
+                "eu sou",
+                "eu gosto",
+                "a minha família",
+                "o meu sonho"
+              ],
+              "answer": "eu sou"
+            },
+            {
+              "question": {
+                "en": "I live",
+                "pt": "O que significa «I live»?"
+              },
+              "options": [
+                "eu moro",
+                "eu sei/posso",
+                "a minha cidade",
+                "eu sou"
+              ],
+              "answer": "eu moro"
+            },
+            {
+              "question": {
+                "en": "I like",
+                "pt": "O que significa «I like»?"
+              },
+              "options": [
+                "eu gosto",
+                "a minha família",
+                "o meu sonho",
+                "eu moro"
+              ],
+              "answer": "eu gosto"
+            },
+            {
+              "question": {
+                "en": "I can",
+                "pt": "O que significa «I can»?"
+              },
+              "options": [
+                "eu sei/posso",
+                "a minha cidade",
+                "eu sou",
+                "eu gosto"
+              ],
+              "answer": "eu sei/posso"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u25-l08",
+      "unitId": "u25",
+      "order": 8,
+      "kind": "content",
+      "title": {
+        "pt": "Revisão: can e was",
+        "en": "Revisão: can e was"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Revisão A1 e apresentação pessoal de 8 frases.",
+        "Revisão: can e was"
+      ],
+      "newWords": [
+        {
+          "en": "I am",
+          "pt": "eu sou",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l08_w_i-am",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "I live",
+          "pt": "eu moro",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l08_w_i-live",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "I like",
+          "pt": "eu gosto",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l08_w_i-like",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        },
+        {
+          "en": "I can",
+          "pt": "eu sei/posso",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l08_w_i-can",
+          "exampleEn": "Paulo lives in Tete.",
+          "examplePt": "Paulo mora em Tete."
+        }
+      ],
+      "guidedReading": {
+        "title": "Revisão: can e was",
+        "sentences": [
+          {
+            "id": "a1-u25-l08-s1",
+            "en": "Paulo lives in Tete.",
+            "pt": "Paulo mora em Tete.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l08_s1"
+          },
+          {
+            "id": "a1-u25-l08-s2",
+            "en": "Today the lesson is Texto: Amina de Nampula.",
+            "pt": "Hoje a lição é: Texto: Amina de Nampula.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l08_s2"
+          },
+          {
+            "id": "a1-u25-l08-s3",
+            "en": "We learn 'I am' and 'I live'.",
+            "pt": "Aprendemos «eu sou» e «eu moro».",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l08_s3"
+          },
+          {
+            "id": "a1-u25-l08-s4",
+            "en": "Paulo says: I use 'I can' every day.",
+            "pt": "Paulo diz: uso «eu sei/posso» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l08_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u25-l08-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "I am",
+              "options": [
+                "I am",
+                "I live",
+                "I like",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "I live",
+              "options": [
+                "I live",
+                "I like",
+                "I can",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "I like",
+              "options": [
+                "I like",
+                "I can",
+                "my family",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u25-l09",
+      "unitId": "u25",
+      "order": 9,
+      "kind": "content",
+      "title": {
+        "pt": "Texto: Amina de Nampula",
+        "en": "Texto: Amina de Nampula"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Revisão A1 e apresentação pessoal de 8 frases.",
+        "Texto: Amina de Nampula"
+      ],
+      "newWords": [
+        {
+          "en": "I can",
+          "pt": "eu sei/posso",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l09_w_i-can",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "my family",
+          "pt": "a minha família",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l09_w_my-family",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "my city",
+          "pt": "a minha cidade",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l09_w_my-city",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        },
+        {
+          "en": "my dream",
+          "pt": "o meu sonho",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l09_w_my-dream",
+          "exampleEn": "Belmira lives in Quelimane.",
+          "examplePt": "Belmira mora em Quelimane."
+        }
+      ],
+      "guidedReading": {
+        "title": "Texto: Amina de Nampula",
+        "sentences": [
+          {
+            "id": "a1-u25-l09-s1",
+            "en": "Belmira lives in Quelimane.",
+            "pt": "Belmira mora em Quelimane.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l09_s1"
+          },
+          {
+            "id": "a1-u25-l09-s2",
+            "en": "Today the lesson is Texto: João de Maputo.",
+            "pt": "Hoje a lição é: Texto: João de Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l09_s2"
+          },
+          {
+            "id": "a1-u25-l09-s3",
+            "en": "We learn 'I live' and 'I like'.",
+            "pt": "Aprendemos «eu moro» e «eu gosto».",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l09_s3"
+          },
+          {
+            "id": "a1-u25-l09-s4",
+            "en": "Belmira says: I use 'my family' every day.",
+            "pt": "Belmira diz: uso «a minha família» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l09_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u25-l09-a1",
+          "type": "match_pairs",
+          "prompt": {
+            "pt": "Liga o inglês ao português.",
+            "en": "Match English to Portuguese."
+          },
+          "items": [
+            {
+              "en": "I am",
+              "pt": "eu sou"
+            },
+            {
+              "en": "I live",
+              "pt": "eu moro"
+            },
+            {
+              "en": "I like",
+              "pt": "eu gosto"
+            },
+            {
+              "en": "I can",
+              "pt": "eu sei/posso"
+            },
+            {
+              "en": "my family",
+              "pt": "a minha família"
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l09-a2",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'I am' in Portuguese is 'eu sou'.",
+              "answer": true
+            },
+            {
+              "sentence": "'I am' means 'eu sei/posso'.",
+              "answer": false
+            },
+            {
+              "sentence": "'I live' in Portuguese is 'eu moro'.",
+              "answer": true
+            },
+            {
+              "sentence": "'I live' means 'a minha família'.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u25-l10",
+      "unitId": "u25",
+      "order": 10,
+      "kind": "review",
+      "title": {
+        "pt": "Revisão guiada",
+        "en": "Guided review"
+      },
+      "type": "review",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "vocabulary",
+        "reading"
+      ],
+      "objectives": [
+        "Revisão A1 e apresentação pessoal de 8 frases.",
+        "Revisão guiada"
+      ],
+      "newWords": [
+        {
+          "en": "my dream",
+          "pt": "o meu sonho",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l10_w_my-dream",
+          "exampleEn": "Let’s review. Nélio is from Nampula.",
+          "examplePt": "Vamos rever. Nélio é de Nampula."
+        }
+      ],
+      "guidedReading": {
+        "title": "Guided review",
+        "sentences": [
+          {
+            "id": "a1-u25-l10-s1",
+            "en": "Let’s review. Nélio is from Nampula.",
+            "pt": "Vamos rever. Nélio é de Nampula.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l10_s1"
+          },
+          {
+            "id": "a1-u25-l10-s2",
+            "en": "This unit is about Me in the world.",
+            "pt": "Esta unidade é sobre Eu no mundo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l10_s2"
+          },
+          {
+            "id": "a1-u25-l10-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l10_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u25-l10-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u25-l10_lw_nélio-is-in-pemba.",
+              "answer": "Nélio is in Pemba. I am.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u25-l10_lw_nélio-is-in-pemba.",
+              "answer": "Nélio is in Pemba. I live.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u25-l10_lw_nélio-is-in-pemba.",
+              "answer": "Nélio is in Pemba. I like.",
+              "hint": "Nélio"
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l10-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "am"
+              ],
+              "answer": "I am"
+            },
+            {
+              "words": [
+                "I",
+                "live"
+              ],
+              "answer": "I live"
+            },
+            {
+              "words": [
+                "I",
+                "like"
+              ],
+              "answer": "I like"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u25-l11",
+      "unitId": "u25",
+      "order": 11,
+      "kind": "content",
+      "title": {
+        "pt": "Texto: João de Maputo",
+        "en": "Texto: João de Maputo"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Revisão A1 e apresentação pessoal de 8 frases.",
+        "Texto: João de Maputo"
+      ],
+      "newWords": [
+        {
+          "en": "I like",
+          "pt": "eu gosto",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l11_w_i-like",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "I can",
+          "pt": "eu sei/posso",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l11_w_i-can",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "my family",
+          "pt": "a minha família",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l11_w_my-family",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        },
+        {
+          "en": "my city",
+          "pt": "a minha cidade",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l11_w_my-city",
+          "exampleEn": "Lurdes lives in Nacala.",
+          "examplePt": "Lurdes mora em Nacala."
+        }
+      ],
+      "guidedReading": {
+        "title": "Texto: João de Maputo",
+        "sentences": [
+          {
+            "id": "a1-u25-l11-s1",
+            "en": "Lurdes lives in Nacala.",
+            "pt": "Lurdes mora em Nacala.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l11_s1"
+          },
+          {
+            "id": "a1-u25-l11-s2",
+            "en": "Today the lesson is Escreve sobre ti (1).",
+            "pt": "Hoje a lição é: Escreve sobre ti (1).",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l11_s2"
+          },
+          {
+            "id": "a1-u25-l11-s3",
+            "en": "We learn 'I can' and 'my family'.",
+            "pt": "Aprendemos «eu sei/posso» e «a minha família».",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l11_s3"
+          },
+          {
+            "id": "a1-u25-l11-s4",
+            "en": "Lurdes says: I use 'my dream' every day.",
+            "pt": "Lurdes diz: uso «o meu sonho» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l11_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u25-l11-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u25-l11_tap",
+          "items": [
+            {
+              "answer": "I am",
+              "options": [
+                "I am",
+                "I live",
+                "I like",
+                "I can"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l11-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u25-l12",
+      "unitId": "u25",
+      "order": 12,
+      "kind": "content",
+      "title": {
+        "pt": "Texto: Graça de Quelimane",
+        "en": "Texto: Graça de Quelimane"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Revisão A1 e apresentação pessoal de 8 frases.",
+        "Texto: Graça de Quelimane"
+      ],
+      "newWords": [
+        {
+          "en": "my city",
+          "pt": "a minha cidade",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l12_w_my-city",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        },
+        {
+          "en": "my dream",
+          "pt": "o meu sonho",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l12_w_my-dream",
+          "exampleEn": "Faruk lives in Pemba.",
+          "examplePt": "Faruk mora em Pemba."
+        }
+      ],
+      "guidedReading": {
+        "title": "Texto: Graça de Quelimane",
+        "sentences": [
+          {
+            "id": "a1-u25-l12-s1",
+            "en": "Faruk lives in Pemba.",
+            "pt": "Faruk mora em Pemba.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l12_s1"
+          },
+          {
+            "id": "a1-u25-l12-s2",
+            "en": "Today the lesson is Escreve sobre ti (2).",
+            "pt": "Hoje a lição é: Escreve sobre ti (2).",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l12_s2"
+          },
+          {
+            "id": "a1-u25-l12-s3",
+            "en": "We learn 'my family' and 'my city'.",
+            "pt": "Aprendemos «a minha família» e «a minha cidade».",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l12_s3"
+          },
+          {
+            "id": "a1-u25-l12-s4",
+            "en": "Faruk says: I use 'I am' every day.",
+            "pt": "Faruk diz: uso «eu sou» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l12_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u25-l12-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Faruk lives in Pemba.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l12-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "I am",
+                "pt": "O que significa «I am»?"
+              },
+              "options": [
+                "eu sou",
+                "eu gosto",
+                "a minha família",
+                "o meu sonho"
+              ],
+              "answer": "eu sou"
+            },
+            {
+              "question": {
+                "en": "I live",
+                "pt": "O que significa «I live»?"
+              },
+              "options": [
+                "eu moro",
+                "eu sei/posso",
+                "a minha cidade",
+                "eu sou"
+              ],
+              "answer": "eu moro"
+            },
+            {
+              "question": {
+                "en": "I like",
+                "pt": "O que significa «I like»?"
+              },
+              "options": [
+                "eu gosto",
+                "a minha família",
+                "o meu sonho",
+                "eu moro"
+              ],
+              "answer": "eu gosto"
+            },
+            {
+              "question": {
+                "en": "I can",
+                "pt": "O que significa «I can»?"
+              },
+              "options": [
+                "eu sei/posso",
+                "a minha cidade",
+                "eu sou",
+                "eu gosto"
+              ],
+              "answer": "eu sei/posso"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u25-l13",
+      "unitId": "u25",
+      "order": 13,
+      "kind": "content",
+      "title": {
+        "pt": "Escreve sobre ti (1)",
+        "en": "Escreve sobre ti (1)"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Revisão A1 e apresentação pessoal de 8 frases.",
+        "Escreve sobre ti (1)"
+      ],
+      "newWords": [
+        {
+          "en": "I live",
+          "pt": "eu moro",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l13_w_i-live",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "I like",
+          "pt": "eu gosto",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l13_w_i-like",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "I can",
+          "pt": "eu sei/posso",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l13_w_i-can",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        },
+        {
+          "en": "my family",
+          "pt": "a minha família",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l13_w_my-family",
+          "exampleEn": "Josina lives in Lichinga.",
+          "examplePt": "Josina mora em Lichinga."
+        }
+      ],
+      "guidedReading": {
+        "title": "Escreve sobre ti (1)",
+        "sentences": [
+          {
+            "id": "a1-u25-l13-s1",
+            "en": "Josina lives in Lichinga.",
+            "pt": "Josina mora em Lichinga.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l13_s1"
+          },
+          {
+            "id": "a1-u25-l13-s2",
+            "en": "Today the lesson is Diz sobre ti (speak).",
+            "pt": "Hoje a lição é: Diz sobre ti (speak).",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l13_s2"
+          },
+          {
+            "id": "a1-u25-l13-s3",
+            "en": "We learn 'my city' and 'my dream'.",
+            "pt": "Aprendemos «a minha cidade» e «o meu sonho».",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l13_s3"
+          },
+          {
+            "id": "a1-u25-l13-s4",
+            "en": "Josina says: I use 'I live' every day.",
+            "pt": "Josina diz: uso «eu moro» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l13_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u25-l13-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u25-l13_repeat",
+          "items": [
+            {
+              "en": "Josina lives in Lichinga.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l13-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "I am",
+                "pt": "O que significa «I am»?"
+              },
+              "options": [
+                "eu sou",
+                "eu gosto",
+                "a minha família",
+                "o meu sonho"
+              ],
+              "answer": "eu sou"
+            },
+            {
+              "question": {
+                "en": "I live",
+                "pt": "O que significa «I live»?"
+              },
+              "options": [
+                "eu moro",
+                "eu sei/posso",
+                "a minha cidade",
+                "eu sou"
+              ],
+              "answer": "eu moro"
+            },
+            {
+              "question": {
+                "en": "I like",
+                "pt": "O que significa «I like»?"
+              },
+              "options": [
+                "eu gosto",
+                "a minha família",
+                "o meu sonho",
+                "eu moro"
+              ],
+              "answer": "eu gosto"
+            },
+            {
+              "question": {
+                "en": "I can",
+                "pt": "O que significa «I can»?"
+              },
+              "options": [
+                "eu sei/posso",
+                "a minha cidade",
+                "eu sou",
+                "eu gosto"
+              ],
+              "answer": "eu sei/posso"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u25-l14",
+      "unitId": "u25",
+      "order": 14,
+      "kind": "content",
+      "title": {
+        "pt": "Escreve sobre ti (2)",
+        "en": "Escreve sobre ti (2)"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Revisão A1 e apresentação pessoal de 8 frases.",
+        "Escreve sobre ti (2)"
+      ],
+      "newWords": [
+        {
+          "en": "my family",
+          "pt": "a minha família",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l14_w_my-family",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "my city",
+          "pt": "a minha cidade",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l14_w_my-city",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        },
+        {
+          "en": "my dream",
+          "pt": "o meu sonho",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l14_w_my-dream",
+          "exampleEn": "Tendai lives in Ilha de Moçambique.",
+          "examplePt": "Tendai mora em Ilha de Moçambique."
+        }
+      ],
+      "guidedReading": {
+        "title": "Escreve sobre ti (2)",
+        "sentences": [
+          {
+            "id": "a1-u25-l14-s1",
+            "en": "Tendai lives in Ilha de Moçambique.",
+            "pt": "Tendai mora em Ilha de Moçambique.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l14_s1"
+          },
+          {
+            "id": "a1-u25-l14-s2",
+            "en": "Today the lesson is Mini exame A1 — parte 1.",
+            "pt": "Hoje a lição é: Mini exame A1 — parte 1.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l14_s2"
+          },
+          {
+            "id": "a1-u25-l14-s3",
+            "en": "We learn 'my dream' and 'I am'.",
+            "pt": "Aprendemos «o meu sonho» e «eu sou».",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l14_s3"
+          },
+          {
+            "id": "a1-u25-l14-s4",
+            "en": "Tendai says: I use 'I like' every day.",
+            "pt": "Tendai diz: uso «eu gosto» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l14_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u25-l14-a1",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "I am",
+              "options": [
+                "I am",
+                "I live",
+                "I like",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "I live",
+              "options": [
+                "I live",
+                "I like",
+                "I can",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "I like",
+              "options": [
+                "I like",
+                "I can",
+                "my family",
+                "banana"
+              ]
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u25-l15",
+      "unitId": "u25",
+      "order": 15,
+      "kind": "checkpoint",
+      "title": {
+        "pt": "Mini-teste 2",
+        "en": "Checkpoint quiz 2"
+      },
+      "type": "checkpoint",
+      "durationMin": 6,
+      "xp": 20,
+      "skills": [
+        "listening",
+        "grammar",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Revisão A1 e apresentação pessoal de 8 frases.",
+        "Mini-teste 2"
+      ],
+      "newWords": [
+        {
+          "en": "I am",
+          "pt": "eu sou",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l15_w_i-am",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "I live",
+          "pt": "eu moro",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l15_w_i-live",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "I like",
+          "pt": "eu gosto",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l15_w_i-like",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        },
+        {
+          "en": "I can",
+          "pt": "eu sei/posso",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l15_w_i-can",
+          "exampleEn": "Let’s review. Amélia is from Maputo.",
+          "examplePt": "Vamos rever. Amélia é de Maputo."
+        }
+      ],
+      "guidedReading": {
+        "title": "Checkpoint quiz 2",
+        "sentences": [
+          {
+            "id": "a1-u25-l15-s1",
+            "en": "Let’s review. Amélia is from Maputo.",
+            "pt": "Vamos rever. Amélia é de Maputo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l15_s1"
+          },
+          {
+            "id": "a1-u25-l15-s2",
+            "en": "This unit is about Me in the world.",
+            "pt": "Esta unidade é sobre Eu no mundo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l15_s2"
+          },
+          {
+            "id": "a1-u25-l15-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l15_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u25-l15-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "I am",
+                "pt": "O que significa «I am»?"
+              },
+              "options": [
+                "eu sou",
+                "eu gosto",
+                "a minha família",
+                "o meu sonho"
+              ],
+              "answer": "eu sou"
+            },
+            {
+              "question": {
+                "en": "I live",
+                "pt": "O que significa «I live»?"
+              },
+              "options": [
+                "eu moro",
+                "eu sei/posso",
+                "a minha cidade",
+                "eu sou"
+              ],
+              "answer": "eu moro"
+            },
+            {
+              "question": {
+                "en": "I like",
+                "pt": "O que significa «I like»?"
+              },
+              "options": [
+                "eu gosto",
+                "a minha família",
+                "o meu sonho",
+                "eu moro"
+              ],
+              "answer": "eu gosto"
+            },
+            {
+              "question": {
+                "en": "I can",
+                "pt": "O que significa «I can»?"
+              },
+              "options": [
+                "eu sei/posso",
+                "a minha cidade",
+                "eu sou",
+                "eu gosto"
+              ],
+              "answer": "eu sei/posso"
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l15-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "I am",
+              "options": [
+                "I am",
+                "I live",
+                "I like",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "I live",
+              "options": [
+                "I live",
+                "I like",
+                "I can",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "I like",
+              "options": [
+                "I like",
+                "I can",
+                "my family",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l15-a3",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u25-l15_lw_nélio-is-in-pemba.",
+              "answer": "Nélio is in Pemba. I am.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u25-l15_lw_nélio-is-in-pemba.",
+              "answer": "Nélio is in Pemba. I live.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u25-l15_lw_nélio-is-in-pemba.",
+              "answer": "Nélio is in Pemba. I like.",
+              "hint": "Nélio"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u25-l16",
+      "unitId": "u25",
+      "order": 16,
+      "kind": "content",
+      "title": {
+        "pt": "Diz sobre ti (speak)",
+        "en": "Diz sobre ti (speak)"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Revisão A1 e apresentação pessoal de 8 frases.",
+        "Diz sobre ti (speak)"
+      ],
+      "newWords": [
+        {
+          "en": "I can",
+          "pt": "eu sei/posso",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l16_w_i-can",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "my family",
+          "pt": "a minha família",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l16_w_my-family",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "my city",
+          "pt": "a minha cidade",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l16_w_my-city",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "my dream",
+          "pt": "o meu sonho",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l16_w_my-dream",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Diz sobre ti (speak)",
+        "sentences": [
+          {
+            "id": "a1-u25-l16-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l16_s1"
+          },
+          {
+            "id": "a1-u25-l16-s2",
+            "en": "Today the lesson is A tua apresentação final.",
+            "pt": "Hoje a lição é: A tua apresentação final.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l16_s2"
+          },
+          {
+            "id": "a1-u25-l16-s3",
+            "en": "We learn 'I live' and 'I like'.",
+            "pt": "Aprendemos «eu moro» e «eu gosto».",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l16_s3"
+          },
+          {
+            "id": "a1-u25-l16-s4",
+            "en": "Zacarias says: I use 'my family' every day.",
+            "pt": "Zacarias diz: uso «a minha família» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l16_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u25-l16-a1",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u25-l16_lw_nélio-is-in-pemba.",
+              "answer": "Nélio is in Pemba. I am.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u25-l16_lw_nélio-is-in-pemba.",
+              "answer": "Nélio is in Pemba. I live.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u25-l16_lw_nélio-is-in-pemba.",
+              "answer": "Nélio is in Pemba. I like.",
+              "hint": "Nélio"
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l16-a2",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "am"
+              ],
+              "answer": "I am"
+            },
+            {
+              "words": [
+                "I",
+                "live"
+              ],
+              "answer": "I live"
+            },
+            {
+              "words": [
+                "I",
+                "like"
+              ],
+              "answer": "I like"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u25-l17",
+      "unitId": "u25",
+      "order": 17,
+      "kind": "content",
+      "title": {
+        "pt": "Mini exame A1 — parte 1",
+        "en": "Mini exame A1 — parte 1"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Revisão A1 e apresentação pessoal de 8 frases.",
+        "Mini exame A1 — parte 1"
+      ],
+      "newWords": [
+        {
+          "en": "my dream",
+          "pt": "o meu sonho",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l17_w_my-dream",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Mini exame A1 — parte 1",
+        "sentences": [
+          {
+            "id": "a1-u25-l17-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l17_s1"
+          },
+          {
+            "id": "a1-u25-l17-s2",
+            "en": "Today the lesson is A tua apresentação final.",
+            "pt": "Hoje a lição é: A tua apresentação final.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l17_s2"
+          },
+          {
+            "id": "a1-u25-l17-s3",
+            "en": "We learn 'I live' and 'I like'.",
+            "pt": "Aprendemos «eu moro» e «eu gosto».",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l17_s3"
+          },
+          {
+            "id": "a1-u25-l17-s4",
+            "en": "Zacarias says: I use 'my family' every day.",
+            "pt": "Zacarias diz: uso «a minha família» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l17_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u25-l17-a1",
+          "type": "tap_what_you_hear",
+          "prompt": {
+            "pt": "Ouve e toca a palavra certa.",
+            "en": "Tap what you hear."
+          },
+          "audioKey": "a1_a1-u25-l17_tap",
+          "items": [
+            {
+              "answer": "I am",
+              "options": [
+                "I am",
+                "I live",
+                "I like",
+                "I can"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l17-a2",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u25-l18",
+      "unitId": "u25",
+      "order": 18,
+      "kind": "content",
+      "title": {
+        "pt": "Mini exame A1 — parte 2",
+        "en": "Mini exame A1 — parte 2"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Revisão A1 e apresentação pessoal de 8 frases.",
+        "Mini exame A1 — parte 2"
+      ],
+      "newWords": [
+        {
+          "en": "I like",
+          "pt": "eu gosto",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l18_w_i-like",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "I can",
+          "pt": "eu sei/posso",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l18_w_i-can",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "my family",
+          "pt": "a minha família",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l18_w_my-family",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "my city",
+          "pt": "a minha cidade",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l18_w_my-city",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "Mini exame A1 — parte 2",
+        "sentences": [
+          {
+            "id": "a1-u25-l18-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l18_s1"
+          },
+          {
+            "id": "a1-u25-l18-s2",
+            "en": "Today the lesson is A tua apresentação final.",
+            "pt": "Hoje a lição é: A tua apresentação final.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l18_s2"
+          },
+          {
+            "id": "a1-u25-l18-s3",
+            "en": "We learn 'I live' and 'I like'.",
+            "pt": "Aprendemos «eu moro» e «eu gosto».",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l18_s3"
+          },
+          {
+            "id": "a1-u25-l18-s4",
+            "en": "Zacarias says: I use 'my family' every day.",
+            "pt": "Zacarias diz: uso «a minha família» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l18_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u25-l18-a1",
+          "type": "speak_prompt",
+          "prompt": {
+            "pt": "Diz esta frase em voz alta.",
+            "en": "Say this sentence aloud."
+          },
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "rubric": "Pronúncia compreensível basta para passar."
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l18-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "I am",
+                "pt": "O que significa «I am»?"
+              },
+              "options": [
+                "eu sou",
+                "eu gosto",
+                "a minha família",
+                "o meu sonho"
+              ],
+              "answer": "eu sou"
+            },
+            {
+              "question": {
+                "en": "I live",
+                "pt": "O que significa «I live»?"
+              },
+              "options": [
+                "eu moro",
+                "eu sei/posso",
+                "a minha cidade",
+                "eu sou"
+              ],
+              "answer": "eu moro"
+            },
+            {
+              "question": {
+                "en": "I like",
+                "pt": "O que significa «I like»?"
+              },
+              "options": [
+                "eu gosto",
+                "a minha família",
+                "o meu sonho",
+                "eu moro"
+              ],
+              "answer": "eu gosto"
+            },
+            {
+              "question": {
+                "en": "I can",
+                "pt": "O que significa «I can»?"
+              },
+              "options": [
+                "eu sei/posso",
+                "a minha cidade",
+                "eu sou",
+                "eu gosto"
+              ],
+              "answer": "eu sei/posso"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u25-l19",
+      "unitId": "u25",
+      "order": 19,
+      "kind": "content",
+      "title": {
+        "pt": "A tua apresentação final",
+        "en": "A tua apresentação final"
+      },
+      "type": "content",
+      "durationMin": 4,
+      "xp": 10,
+      "skills": [
+        "listening",
+        "reading",
+        "vocabulary"
+      ],
+      "objectives": [
+        "Revisão A1 e apresentação pessoal de 8 frases.",
+        "A tua apresentação final"
+      ],
+      "newWords": [
+        {
+          "en": "my city",
+          "pt": "a minha cidade",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l19_w_my-city",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        },
+        {
+          "en": "my dream",
+          "pt": "o meu sonho",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l19_w_my-dream",
+          "exampleEn": "Zacarias lives in Matola.",
+          "examplePt": "Zacarias mora em Matola."
+        }
+      ],
+      "guidedReading": {
+        "title": "A tua apresentação final",
+        "sentences": [
+          {
+            "id": "a1-u25-l19-s1",
+            "en": "Zacarias lives in Matola.",
+            "pt": "Zacarias mora em Matola.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l19_s1"
+          },
+          {
+            "id": "a1-u25-l19-s2",
+            "en": "Today the lesson is A tua apresentação final.",
+            "pt": "Hoje a lição é: A tua apresentação final.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l19_s2"
+          },
+          {
+            "id": "a1-u25-l19-s3",
+            "en": "We learn 'I live' and 'I like'.",
+            "pt": "Aprendemos «eu moro» e «eu gosto».",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l19_s3"
+          },
+          {
+            "id": "a1-u25-l19-s4",
+            "en": "Zacarias says: I use 'my family' every day.",
+            "pt": "Zacarias diz: uso «a minha família» todos os dias.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l19_s4"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u25-l19-a1",
+          "type": "listen_repeat",
+          "prompt": {
+            "pt": "Ouve e repete em voz alta.",
+            "en": "Listen and repeat."
+          },
+          "audioKey": "a1_a1-u25-l19_repeat",
+          "items": [
+            {
+              "en": "Zacarias lives in Matola.",
+              "slow": true
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l19-a2",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "I am",
+                "pt": "O que significa «I am»?"
+              },
+              "options": [
+                "eu sou",
+                "eu gosto",
+                "a minha família",
+                "o meu sonho"
+              ],
+              "answer": "eu sou"
+            },
+            {
+              "question": {
+                "en": "I live",
+                "pt": "O que significa «I live»?"
+              },
+              "options": [
+                "eu moro",
+                "eu sei/posso",
+                "a minha cidade",
+                "eu sou"
+              ],
+              "answer": "eu moro"
+            },
+            {
+              "question": {
+                "en": "I like",
+                "pt": "O que significa «I like»?"
+              },
+              "options": [
+                "eu gosto",
+                "a minha família",
+                "o meu sonho",
+                "eu moro"
+              ],
+              "answer": "eu gosto"
+            },
+            {
+              "question": {
+                "en": "I can",
+                "pt": "O que significa «I can»?"
+              },
+              "options": [
+                "eu sei/posso",
+                "a minha cidade",
+                "eu sou",
+                "eu gosto"
+              ],
+              "answer": "eu sei/posso"
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    },
+    {
+      "id": "a1-u25-l20",
+      "unitId": "u25",
+      "order": 20,
+      "kind": "unit_test",
+      "title": {
+        "pt": "Teste da unidade: Eu no mundo",
+        "en": "Unit test: Me in the world"
+      },
+      "type": "unit_test",
+      "durationMin": 10,
+      "xp": 40,
+      "skills": [
+        "listening",
+        "reading",
+        "writing",
+        "grammar"
+      ],
+      "objectives": [
+        "Revisão A1 e apresentação pessoal de 8 frases.",
+        "Teste da unidade: Eu no mundo"
+      ],
+      "newWords": [
+        {
+          "en": "I live",
+          "pt": "eu moro",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l20_w_i-live",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "I like",
+          "pt": "eu gosto",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l20_w_i-like",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "I can",
+          "pt": "eu sei/posso",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l20_w_i-can",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        },
+        {
+          "en": "my family",
+          "pt": "a minha família",
+          "ipa": "",
+          "audioKey": "a1_a1-u25-l20_w_my-family",
+          "exampleEn": "Let’s review. Carlos is from Beira.",
+          "examplePt": "Vamos rever. Carlos é de Beira."
+        }
+      ],
+      "guidedReading": {
+        "title": "Unit test: Me in the world",
+        "sentences": [
+          {
+            "id": "a1-u25-l20-s1",
+            "en": "Let’s review. Carlos is from Beira.",
+            "pt": "Vamos rever. Carlos é de Beira.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l20_s1"
+          },
+          {
+            "id": "a1-u25-l20-s2",
+            "en": "This unit is about Me in the world.",
+            "pt": "Esta unidade é sobre Eu no mundo.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l20_s2"
+          },
+          {
+            "id": "a1-u25-l20-s3",
+            "en": "Listen, read and try again.",
+            "pt": "Ouve, lê e tenta outra vez.",
+            "ipa": "",
+            "audioKey": "a1_a1-u25-l20_s3"
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "a1-u25-l20-a1",
+          "type": "multiple_choice",
+          "prompt": {
+            "pt": "Escolhe o significado certo.",
+            "en": "Choose the correct meaning."
+          },
+          "items": [
+            {
+              "question": {
+                "en": "I am",
+                "pt": "O que significa «I am»?"
+              },
+              "options": [
+                "eu sou",
+                "eu gosto",
+                "a minha família",
+                "o meu sonho"
+              ],
+              "answer": "eu sou"
+            },
+            {
+              "question": {
+                "en": "I live",
+                "pt": "O que significa «I live»?"
+              },
+              "options": [
+                "eu moro",
+                "eu sei/posso",
+                "a minha cidade",
+                "eu sou"
+              ],
+              "answer": "eu moro"
+            },
+            {
+              "question": {
+                "en": "I like",
+                "pt": "O que significa «I like»?"
+              },
+              "options": [
+                "eu gosto",
+                "a minha família",
+                "o meu sonho",
+                "eu moro"
+              ],
+              "answer": "eu gosto"
+            },
+            {
+              "question": {
+                "en": "I can",
+                "pt": "O que significa «I can»?"
+              },
+              "options": [
+                "eu sei/posso",
+                "a minha cidade",
+                "eu sou",
+                "eu gosto"
+              ],
+              "answer": "eu sei/posso"
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l20-a2",
+          "type": "fill_blank",
+          "prompt": {
+            "pt": "Completa a frase.",
+            "en": "Complete the sentence."
+          },
+          "items": [
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "I am",
+              "options": [
+                "I am",
+                "I live",
+                "I like",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "I live",
+              "options": [
+                "I live",
+                "I like",
+                "I can",
+                "banana"
+              ]
+            },
+            {
+              "sentence": "Nélio uses the word _____.",
+              "answer": "I like",
+              "options": [
+                "I like",
+                "I can",
+                "my family",
+                "banana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l20-a3",
+          "type": "true_false",
+          "prompt": {
+            "pt": "Verdadeiro ou falso?",
+            "en": "True or false?"
+          },
+          "items": [
+            {
+              "sentence": "'I am' in Portuguese is 'eu sou'.",
+              "answer": true
+            },
+            {
+              "sentence": "'I am' means 'eu sei/posso'.",
+              "answer": false
+            },
+            {
+              "sentence": "'I live' in Portuguese is 'eu moro'.",
+              "answer": true
+            },
+            {
+              "sentence": "'I live' means 'a minha família'.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l20-a4",
+          "type": "order_words",
+          "prompt": {
+            "pt": "Ordena as palavras.",
+            "en": "Put the words in order."
+          },
+          "items": [
+            {
+              "words": [
+                "I",
+                "am"
+              ],
+              "answer": "I am"
+            },
+            {
+              "words": [
+                "I",
+                "live"
+              ],
+              "answer": "I live"
+            },
+            {
+              "words": [
+                "I",
+                "like"
+              ],
+              "answer": "I like"
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l20-a5",
+          "type": "listen_write",
+          "prompt": {
+            "pt": "Ouve e escreve.",
+            "en": "Listen and write."
+          },
+          "items": [
+            {
+              "audioKey": "a1_a1-u25-l20_lw_nélio-is-in-pemba.",
+              "answer": "Nélio is in Pemba. I am.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u25-l20_lw_nélio-is-in-pemba.",
+              "answer": "Nélio is in Pemba. I live.",
+              "hint": "Nélio"
+            },
+            {
+              "audioKey": "a1_a1-u25-l20_lw_nélio-is-in-pemba.",
+              "answer": "Nélio is in Pemba. I like.",
+              "hint": "Nélio"
+            }
+          ]
+        },
+        {
+          "id": "a1-u25-l20-a6",
+          "type": "mini_dialogue",
+          "prompt": {
+            "pt": "Escolhe a resposta certa no diálogo.",
+            "en": "Choose the best reply."
+          },
+          "items": [
+            {
+              "line": "Hello. How are you?",
+              "options": [
+                "I am fine, thank you.",
+                "I am a mango.",
+                "Five meticais."
+              ],
+              "answer": "I am fine, thank you."
+            },
+            {
+              "line": "What is your name?",
+              "options": [
+                "My name is Amina.",
+                "It is hot.",
+                "Goodbye."
+              ],
+              "answer": "My name is Amina."
+            }
+          ]
+        }
+      ],
+      "localeExamples": {
+        "country": "Mozambique",
+        "currency": "MZN",
+        "cities": [
+          "Maputo",
+          "Matola",
+          "Xai-Xai",
+          "Inhambane",
+          "Vilankulo",
+          "Beira"
+        ]
+      }
+    }
+  ]
+}

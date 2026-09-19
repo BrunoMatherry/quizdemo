@@ -1,0 +1,3559 @@
+{
+  "versao": "1.0",
+  "titulo": "Quiz África",
+  "total": 222,
+  "perguntas": [
+    {
+      "categoria": "Geografia",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o maior deserto quente do mundo, localizado principalmente no Norte da África?",
+      "opcoes": [
+        "Kalahari",
+        "Saara",
+        "Namibe",
+        "Karoo"
+      ],
+      "resposta": "Saara",
+      "explicacao": "O Saara cobre grande parte do Norte da África e é o maior deserto quente do planeta.",
+      "fonte": "Africa in World History / conhecimento geográfico",
+      "id": 1
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o rio geralmente considerado o mais longo do mundo, que atravessa o Nordeste da África?",
+      "opcoes": [
+        "Congo",
+        "Níger",
+        "Nilo",
+        "Zambeze"
+      ],
+      "resposta": "Nilo",
+      "explicacao": "O Nilo nasce no interior da África Oriental e deságua no Mediterrâneo, no Egito.",
+      "fonte": "Exploring World History AFRICA / Story of Africa",
+      "id": 2
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a montanha mais alta da África?",
+      "opcoes": [
+        "Monte Quênia",
+        "Monte Kilimanjaro",
+        "Drakensberg",
+        "Montes Atlas"
+      ],
+      "resposta": "Monte Kilimanjaro",
+      "explicacao": "O Kilimanjaro, na Tanzânia, chega a cerca de 5.895 m e é um vulcão inativo com neves no cume.",
+      "fonte": "Africa Mountains Atlas (UNEP)",
+      "id": 3
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em que país fica o Monte Kilimanjaro?",
+      "opcoes": [
+        "Quênia",
+        "Uganda",
+        "Tanzânia",
+        "Etiópia"
+      ],
+      "resposta": "Tanzânia",
+      "explicacao": "O maciço do Kilimanjaro está no nordeste da Tanzânia, perto da fronteira com o Quênia.",
+      "fonte": "Africa Mountains Atlas (UNEP)",
+      "id": 4
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual lago africano é o segundo maior de água doce do mundo em superfície?",
+      "opcoes": [
+        "Lago Tanganica",
+        "Lago Malaui",
+        "Lago Vitória",
+        "Lago Chade"
+      ],
+      "resposta": "Lago Vitória",
+      "explicacao": "O Lago Vitória, partilhado por Uganda, Quênia e Tanzânia, é o maior da África e o segundo de água doce no mundo em área.",
+      "fonte": "Africa Mountains Atlas / Africa in World History",
+      "id": 5
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o lago mais profundo da África?",
+      "opcoes": [
+        "Lago Vitória",
+        "Lago Tanganica",
+        "Lago Natron",
+        "Lago Tana"
+      ],
+      "resposta": "Lago Tanganica",
+      "explicacao": "O Tanganica, no Grande Vale do Rift, é o segundo lago mais profundo do mundo e o mais profundo da África.",
+      "fonte": "Africa Mountains Atlas (UNEP)",
+      "id": 6
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os Montes Atlas ficam principalmente em qual região da África?",
+      "opcoes": [
+        "África Austral",
+        "África Ocidental",
+        "Norte da África",
+        "Chifre da África"
+      ],
+      "resposta": "Norte da África",
+      "explicacao": "A cordilheira do Atlas atravessa Marrocos, Argélia e Tunísia.",
+      "fonte": "Africa Mountains Atlas (UNEP)",
+      "id": 7
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual deserto costeiro do Sudoeste africano é considerado um dos mais antigos do mundo?",
+      "opcoes": [
+        "Saara",
+        "Kalahari",
+        "Namibe",
+        "Danakil"
+      ],
+      "resposta": "Namibe",
+      "explicacao": "O deserto do Namibe, na Namíbia e Angola, existe há dezenas de milhões de anos.",
+      "fonte": "Africa Mountains Atlas / geografia física",
+      "id": 8
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual queda d'água famosa fica no rio Zambeze, na fronteira entre Zâmbia e Zimbábue?",
+      "opcoes": [
+        "Cataratas do Niágara",
+        "Cataratas de Tugela",
+        "Cataratas Vitória",
+        "Cachoeira de Kalambo"
+      ],
+      "resposta": "Cataratas Vitória",
+      "explicacao": "As Cataratas Vitória (Mosi-oa-Tunya, 'a fumaça que troveja') estão no Zambeze.",
+      "fonte": "Story of Africa / geografia",
+      "id": 9
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Grande Vale do Rift é uma das feições geológicas mais importantes da África. Ele está associado principalmente a qual processo?",
+      "opcoes": [
+        "Formação do Saara",
+        "Separação da placa africana e criação de um novo oceano",
+        "Derretimento das geleiras do Kilimanjaro",
+        "Desvio do rio Nilo"
+      ],
+      "resposta": "Separação da placa africana e criação de um novo oceano",
+      "explicacao": "O rift está afastando a África Oriental do restante do continente, com vulcões, lagos profundos e sismos.",
+      "fonte": "Africa Mountains Atlas (UNEP)",
+      "id": 10
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual cadeia montanhosa da África Oriental também é chamada de 'Montanhas da Lua'?",
+      "opcoes": [
+        "Simien",
+        "Virunga",
+        "Rwenzori",
+        "Drakensberg"
+      ],
+      "resposta": "Rwenzori",
+      "explicacao": "Os montes Rwenzori, entre Uganda e a RDC, foram associados por geógrafos antigos às 'Montanhas da Lua', fontes do Nilo.",
+      "fonte": "Africa Mountains Atlas (UNEP)",
+      "id": 11
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Planalto Etíope é crucial porque:",
+      "opcoes": [
+        "É o único deserto da África Oriental",
+        "Alimenta as cheias do Nilo Azul",
+        "É a origem do rio Congo",
+        "Não possui população humana"
+      ],
+      "resposta": "Alimenta as cheias do Nilo Azul",
+      "explicacao": "As chuvas no planalto etíope alimentam o Nilo Azul, essencial para o Egito e o Sudão.",
+      "fonte": "Africa Mountains Atlas / Africa in World History",
+      "id": 12
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual oceano banha a costa leste da África?",
+      "opcoes": [
+        "Atlântico",
+        "Pacífico",
+        "Índico",
+        "Ártico"
+      ],
+      "resposta": "Índico",
+      "explicacao": "O oceano Índico banha países como Moçambique, Tanzânia, Quênia, Somália e África do Sul (leste).",
+      "fonte": "Exploring World History AFRICA",
+      "id": 13
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual oceano banha a maior parte da costa oeste da África?",
+      "opcoes": [
+        "Índico",
+        "Atlântico",
+        "Pacífico",
+        "Antártico"
+      ],
+      "resposta": "Atlântico",
+      "explicacao": "Do Marrocos à África do Sul, a fachada ocidental é atlântica.",
+      "fonte": "Exploring World History AFRICA",
+      "id": 14
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Sahel é:",
+      "opcoes": [
+        "Uma cordilheira no Magrebe",
+        "Uma faixa semiárida entre o Saara e a savana",
+        "O maior lago da África",
+        "Uma ilha no Índico"
+      ],
+      "resposta": "Uma faixa semiárida entre o Saara e a savana",
+      "explicacao": "O Sahel atravessa o continente de oeste a leste e é zona de transição ecológica e cultural.",
+      "fonte": "Africa in World History",
+      "id": 15
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual país africano é uma ilha no oceano Índico, famosa pela biodiversidade única?",
+      "opcoes": [
+        "Maurício",
+        "Madagáscar",
+        "Comores",
+        "Seicheles"
+      ],
+      "resposta": "Madagáscar",
+      "explicacao": "Madagáscar é a quarta maior ilha do mundo e tem flora e fauna em grande parte endêmicas (lêmures, baobás).",
+      "fonte": "Africa in World History",
+      "id": 16
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Monte Camarões (Fako) é notável porque:",
+      "opcoes": [
+        "É a montanha mais alta da África",
+        "É um dos vulcões ativos mais próximos do nível do mar na África Ocidental",
+        "Fica no deserto do Saara",
+        "Não possui vegetação"
+      ],
+      "resposta": "É um dos vulcões ativos mais próximos do nível do mar na África Ocidental",
+      "explicacao": "O Monte Camarões é um estratovulcão ativo na costa do Golfo da Guiné.",
+      "fonte": "Africa Mountains Atlas (UNEP)",
+      "id": 17
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A Montanha da Mesa (Table Mountain) é um símbolo de qual cidade?",
+      "opcoes": [
+        "Joanesburgo",
+        "Durban",
+        "Cidade do Cabo",
+        "Pretória"
+      ],
+      "resposta": "Cidade do Cabo",
+      "explicacao": "A Table Mountain domina a Cidade do Cabo, na África do Sul.",
+      "fonte": "Africa Mountains Atlas / Born a Crime (contexto sul-africano)",
+      "id": 18
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os montes Simien, patrimônio mundial, ficam em qual país?",
+      "opcoes": [
+        "Quênia",
+        "Etiópia",
+        "Lesoto",
+        "Marrocos"
+      ],
+      "resposta": "Etiópia",
+      "explicacao": "Os Simien, no norte da Etiópia, abrigam o lobo-etíope e o gelada.",
+      "fonte": "Africa Mountains Atlas (UNEP)",
+      "id": 19
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O reino montanhoso do Lesoto é especial porque:",
+      "opcoes": [
+        "Não tem fronteiras com a África do Sul",
+        "Todo o seu território está acima de cerca de 1.000 m de altitude",
+        "É uma ilha",
+        "Fica no Saara"
+      ],
+      "resposta": "Todo o seu território está acima de cerca de 1.000 m de altitude",
+      "explicacao": "O Lesoto é um enclave da África do Sul e o único país do mundo inteiramente acima de ~1.000 m.",
+      "fonte": "Africa Mountains Atlas (UNEP)",
+      "id": 20
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o maior país da África em área?",
+      "opcoes": [
+        "Nigéria",
+        "Egito",
+        "Argélia",
+        "África do Sul"
+      ],
+      "resposta": "Argélia",
+      "explicacao": "A Argélia é o maior país africano em superfície (após a divisão do Sudão).",
+      "fonte": "conhecimento geográfico / manuais de história",
+      "id": 21
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o país mais populoso da África?",
+      "opcoes": [
+        "Egito",
+        "Etiópia",
+        "Nigéria",
+        "África do Sul"
+      ],
+      "resposta": "Nigéria",
+      "explicacao": "A Nigéria ultrapassa 200 milhões de habitantes e é o país mais populoso do continente.",
+      "fonte": "Africa in World History / atualidade",
+      "id": 22
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O rio Congo é especialmente importante porque:",
+      "opcoes": [
+        "É o mais longo do mundo",
+        "Tem a segunda maior vazão do mundo e drena a maior floresta da África",
+        "Nasce no Kilimanjaro",
+        "Deságua no Mediterrâneo"
+      ],
+      "resposta": "Tem a segunda maior vazão do mundo e drena a maior floresta da África",
+      "explicacao": "A bacia do Congo abriga a segunda maior floresta tropical do planeta.",
+      "fonte": "Africa Mountains Atlas / Africa in World History",
+      "id": 23
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual estreito separa o Norte da África da Europa?",
+      "opcoes": [
+        "Bab-el-Mandeb",
+        "Estreito de Gibraltar",
+        "Canal de Moçambique",
+        "Estreito de Ormuz"
+      ],
+      "resposta": "Estreito de Gibraltar",
+      "explicacao": "Gibraltar separa Marrocos da Espanha e liga o Atlântico ao Mediterrâneo.",
+      "fonte": "Africa in World History",
+      "id": 24
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Depressão de Danakil, uma das regiões mais quentes da Terra, fica principalmente em:",
+      "opcoes": [
+        "Namíbia",
+        "Líbia",
+        "Etiópia e Eritreia",
+        "Mali"
+      ],
+      "resposta": "Etiópia e Eritreia",
+      "explicacao": "A Danakil, no Afar, tem vulcões, lagos de lava e extração tradicional de sal.",
+      "fonte": "Africa Mountains Atlas (UNEP)",
+      "id": 25
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quantos países a África tem aproximadamente (incluindo Estados reconhecidos pela UA)?",
+      "opcoes": [
+        "27",
+        "36",
+        "54",
+        "72"
+      ],
+      "resposta": "54",
+      "explicacao": "A União Africana reconhece 55 membros se incluirmos a República Árabe Saaraui Democrática; o número usual em quizzes é 54 países.",
+      "fonte": "conhecimento geral",
+      "id": 26
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual país africano não tem litoral (é um Estado interior)?",
+      "opcoes": [
+        "Gana",
+        "Uganda",
+        "Senegal",
+        "Namíbia"
+      ],
+      "resposta": "Uganda",
+      "explicacao": "Uganda é um país interior da África Oriental, embora tenha costa no Lago Vitória.",
+      "fonte": "conhecimento geográfico",
+      "id": 27
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A corrente de Benguela influencia o clima de qual costa?",
+      "opcoes": [
+        "Costa da Somália",
+        "Costa sudoeste da África (Namíbia/Angola)",
+        "Delta do Nilo",
+        "Costa do Quênia"
+      ],
+      "resposta": "Costa sudoeste da África (Namíbia/Angola)",
+      "explicacao": "A corrente fria de Benguela ajuda a manter o deserto do Namibe seco.",
+      "fonte": "Africa Mountains Atlas / climatologia",
+      "id": 28
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O pico Margherita, ponto mais alto da RDC e de Uganda, pertence a qual maciço?",
+      "opcoes": [
+        "Kilimanjaro",
+        "Monte Quênia",
+        "Rwenzori",
+        "Virunga"
+      ],
+      "resposta": "Rwenzori",
+      "explicacao": "O pico Margherita (~5.109 m) fica nos Rwenzori.",
+      "fonte": "Africa Mountains Atlas (UNEP)",
+      "id": 29
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual desses biomas é típico de grandes áreas da África Oriental e Austral e abriga a 'Big Five' da fauna?",
+      "opcoes": [
+        "Tundra",
+        "Savana",
+        "Taiga",
+        "Manguezal exclusivamente"
+      ],
+      "resposta": "Savana",
+      "explicacao": "A savana africana (com acácias e baobás) é o cenário clássico de leões, elefantes, rinocerontes, búfalos e leopardos.",
+      "fonte": "African Culture / manuais",
+      "id": 30
+    },
+    {
+      "categoria": "Países e capitais",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a capital do Egito?",
+      "opcoes": [
+        "Alexandria",
+        "Cairo",
+        "Luxor",
+        "Cartum"
+      ],
+      "resposta": "Cairo",
+      "explicacao": "O Cairo é a maior cidade do mundo árabe e capital do Egito.",
+      "fonte": "conhecimento geral",
+      "id": 31
+    },
+    {
+      "categoria": "Países e capitais",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a capital da África do Sul que sedia o governo (executivo)?",
+      "opcoes": [
+        "Joanesburgo",
+        "Cidade do Cabo",
+        "Pretória",
+        "Bloemfontein"
+      ],
+      "resposta": "Pretória",
+      "explicacao": "A África do Sul tem três capitais: Pretória (executivo), Cidade do Cabo (legislativo) e Bloemfontein (judiciário).",
+      "fonte": "Born a Crime / conhecimento geral",
+      "id": 32
+    },
+    {
+      "categoria": "Países e capitais",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a capital da Nigéria?",
+      "opcoes": [
+        "Lagos",
+        "Abuja",
+        "Kano",
+        "Ibadan"
+      ],
+      "resposta": "Abuja",
+      "explicacao": "Abuja substituiu Lagos como capital em 1991, por ser mais central.",
+      "fonte": "conhecimento geral",
+      "id": 33
+    },
+    {
+      "categoria": "Países e capitais",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a capital da Etiópia e sede da União Africana?",
+      "opcoes": [
+        "Asmara",
+        "Adis Abeba",
+        "Djibuti",
+        "Nairobi"
+      ],
+      "resposta": "Adis Abeba",
+      "explicacao": "Adis Abeba abriga a Comissão da União Africana e a Comissão Econômica da ONU para a África.",
+      "fonte": "Africa in World History",
+      "id": 34
+    },
+    {
+      "categoria": "Países e capitais",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a capital de Moçambique?",
+      "opcoes": [
+        "Beira",
+        "Nampula",
+        "Maputo",
+        "Pemba"
+      ],
+      "resposta": "Maputo",
+      "explicacao": "Maputo, antiga Lourenço Marques, é a capital moçambicana.",
+      "fonte": "conhecimento geral",
+      "id": 35
+    },
+    {
+      "categoria": "Países e capitais",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a capital de Angola?",
+      "opcoes": [
+        "Huambo",
+        "Luanda",
+        "Lobito",
+        "Lubango"
+      ],
+      "resposta": "Luanda",
+      "explicacao": "Luanda é a capital e principal porto de Angola.",
+      "fonte": "conhecimento geral",
+      "id": 36
+    },
+    {
+      "categoria": "Países e capitais",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a capital de Marrocos?",
+      "opcoes": [
+        "Casablanca",
+        "Marrakech",
+        "Rabat",
+        "Fez"
+      ],
+      "resposta": "Rabat",
+      "explicacao": "Rabat é a capital política; Casablanca é a maior cidade econômica.",
+      "fonte": "conhecimento geral",
+      "id": 37
+    },
+    {
+      "categoria": "Países e capitais",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a capital do Quênia?",
+      "opcoes": [
+        "Mombasa",
+        "Nairobi",
+        "Kisumu",
+        "Nakuru"
+      ],
+      "resposta": "Nairobi",
+      "explicacao": "Nairobi é um dos principais centros diplomáticos e econômicos da África Oriental.",
+      "fonte": "conhecimento geral",
+      "id": 38
+    },
+    {
+      "categoria": "Países e capitais",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a capital de Gana?",
+      "opcoes": [
+        "Kumasi",
+        "Tamale",
+        "Acra",
+        "Cape Coast"
+      ],
+      "resposta": "Acra",
+      "explicacao": "Acra é a capital de Gana, primeiro país da África subsaariana a se tornar independente em 1957.",
+      "fonte": "Story of Africa",
+      "id": 39
+    },
+    {
+      "categoria": "Países e capitais",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a capital de Burkina Faso?",
+      "opcoes": [
+        "Bamako",
+        "Niamey",
+        "Uagadugu",
+        "Lomé"
+      ],
+      "resposta": "Uagadugu",
+      "explicacao": "Uagadugu (Ouagadougou) é a capital de Burkina Faso.",
+      "fonte": "conhecimento geral",
+      "id": 40
+    },
+    {
+      "categoria": "Países e capitais",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual país africano tem capital em Dodoma, embora Dar es Salaam continue sendo o principal centro econômico?",
+      "opcoes": [
+        "Quênia",
+        "Tanzânia",
+        "Malaui",
+        "Ruanda"
+      ],
+      "resposta": "Tanzânia",
+      "explicacao": "A capital oficial da Tanzânia é Dodoma; Dar es Salaam permanece o maior polo urbano.",
+      "fonte": "conhecimento geral",
+      "id": 41
+    },
+    {
+      "categoria": "Países e capitais",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual país africano é atravessado pela linha do Equador e tem capital em Yaoundé?",
+      "opcoes": [
+        "Gabão",
+        "Camarões",
+        "Guiné Equatorial",
+        "Congo"
+      ],
+      "resposta": "Camarões",
+      "explicacao": "Camarões fica no Golfo da Guiné; Yaoundé é a capital e Duala o principal porto.",
+      "fonte": "conhecimento geral",
+      "id": 42
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual civilização africana construiu as pirâmides de Gizé?",
+      "opcoes": [
+        "Reino de Axum",
+        "Antigo Egito",
+        "Grande Zimbábue",
+        "Cartago"
+      ],
+      "resposta": "Antigo Egito",
+      "explicacao": "As pirâmides de Gizé foram erguidas no Império Antigo egípcio, no vale do Nilo.",
+      "fonte": "Africa in World History / Exploring World History AFRICA",
+      "id": 43
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Reino de Cuxe, rival e por vezes dominador do Egito, tinha centros importantes em Kerma, Napata e:",
+      "opcoes": [
+        "Timbuktu",
+        "Meróe",
+        "Ife",
+        "Kilwa"
+      ],
+      "resposta": "Meróe",
+      "explicacao": "Meróe foi capital cuxita e um grande centro siderúrgico no atual Sudão.",
+      "fonte": "Africa in World History",
+      "id": 44
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual reino do Chifre da África cunhou moedas, adotou o cristianismo no século IV e ergueu grandes estelas?",
+      "opcoes": [
+        "Mali",
+        "Axum (Aksum)",
+        "Benim",
+        "Monemotapa"
+      ],
+      "resposta": "Axum (Aksum)",
+      "explicacao": "Axum, na atual Etiópia/Eritreia, foi uma potência comercial do mar Vermelho. O rei Ezana adotou o cristianismo.",
+      "fonte": "Africa in World History / Story of Africa",
+      "id": 45
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Mansa Musa, famoso por sua peregrinação a Meca e pela riqueza em ouro, governou qual império?",
+      "opcoes": [
+        "Songhai",
+        "Gana",
+        "Mali",
+        "Kanem-Bornu"
+      ],
+      "resposta": "Mali",
+      "explicacao": "Mansa Musa (séc. XIV) é frequentemente citado como uma das pessoas mais ricas da história.",
+      "fonte": "Africa in World History / Story of Africa",
+      "id": 46
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Timbuktu tornou-se famosa principalmente por ser:",
+      "opcoes": [
+        "Um porto no Atlântico",
+        "Centro de comércio de ouro, sal e saber islâmico",
+        "Capital do Egito",
+        "Fortaleza portuguesa"
+      ],
+      "resposta": "Centro de comércio de ouro, sal e saber islâmico",
+      "explicacao": "Timbuktu, no atual Mali, reuniu mesquitas e bibliotecas manuscritas ligadas ao comércio transaariano.",
+      "fonte": "Africa in World History / Rodney",
+      "id": 47
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Império de Gana (Wagadu), anterior ao Mali, enriquecia sobretudo com:",
+      "opcoes": [
+        "Petróleo",
+        "Comércio de ouro e sal",
+        "Café",
+        "Escravos para as Américas no século XIX"
+      ],
+      "resposta": "Comércio de ouro e sal",
+      "explicacao": "O Gana medieval controlava rotas entre as minas de ouro ao sul e o sal do Saara.",
+      "fonte": "Africa in World History / Rodney",
+      "id": 48
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual império da África Ocidental, com Askia Muhammad, sucedeu o Mali como grande potência do Níger?",
+      "opcoes": [
+        "Império Ashanti",
+        "Império Songhai",
+        "Império Zulu",
+        "Império de Axum"
+      ],
+      "resposta": "Império Songhai",
+      "explicacao": "Gao e o rio Níger foram a base do Songhai, destruído após a invasão marroquina de 1591.",
+      "fonte": "Africa in World History",
+      "id": 49
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "As ruínas de pedra do Grande Zimbábue dão nome a qual país atual?",
+      "opcoes": [
+        "Zâmbia",
+        "Zimbábue",
+        "Botsuana",
+        "Moçambique"
+      ],
+      "resposta": "Zimbábue",
+      "explicacao": "O Grande Zimbábue (séc. XI–XV) foi centro de um Estado que comerciava ouro com a costa suaíli.",
+      "fonte": "Africa in World History / Story of Africa",
+      "id": 50
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A costa suaíli do leste africano misturou culturas bantu, árabe e persa. Qual língua nasceu desse encontro?",
+      "opcoes": [
+        "Iorubá",
+        "Suaíli (Kiswahili)",
+        "Amárico",
+        "Zulu"
+      ],
+      "resposta": "Suaíli (Kiswahili)",
+      "explicacao": "O suaíli é língua bantu com forte léxico árabe, língua franca da África Oriental.",
+      "fonte": "Africa in World History",
+      "id": 51
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Cidades-Estado como Kilwa, Mombasa e Sofala enriqueceram no Índico comerciando principalmente:",
+      "opcoes": [
+        "Petróleo e carvão",
+        "Ouro, marfim e escravos",
+        "Seda chinesa apenas no interior",
+        "Café etíope exclusivamente"
+      ],
+      "resposta": "Ouro, marfim e escravos",
+      "explicacao": "Esses portos ligavam o interior africano à Ásia e ao Oriente Médio.",
+      "fonte": "Africa in World History / Exploring World History AFRICA",
+      "id": 52
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Cartago, grande rival de Roma nas Guerras Púnicas, situava-se no território do atual:",
+      "opcoes": [
+        "Egito",
+        "Tunísia",
+        "Marrocos",
+        "Líbia somente"
+      ],
+      "resposta": "Tunísia",
+      "explicacao": "Cartago ficava junto à atual Túnis. Aníbal foi seu general mais famoso.",
+      "fonte": "Africa in World History",
+      "id": 53
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Reino do Benim (Edo), na atual Nigéria, é mundialmente conhecido por:",
+      "opcoes": [
+        "As pirâmides de pedra",
+        "Os bronzes e placas de latão do palácio de Benin City",
+        "A Mesquita de Djenné",
+        "Os obeliscos de Axum"
+      ],
+      "resposta": "Os bronzes e placas de latão do palácio de Benin City",
+      "explicacao": "Muitos bronzes foram saqueados pelos britânicos em 1897 e hoje estão em museus europeus.",
+      "fonte": "African Culture / Africa in World History",
+      "id": 54
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Ifé e Oió foram centros clássicos de qual povo da atual Nigéria?",
+      "opcoes": [
+        "Hauçá",
+        "Iorubá",
+        "Igbo",
+        "Fulani"
+      ],
+      "resposta": "Iorubá",
+      "explicacao": "Ifé é vista como cidade sagrada iorubá; Oió foi um grande império militar e comercial.",
+      "fonte": "African Culture / mitologia iorubá",
+      "id": 55
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é o Banquinho de Ouro (Sika Dwa) para o povo Ashanti?",
+      "opcoes": [
+        "Uma simples cadeira de mercado",
+        "Símbolo sagrado da união e da alma do povo Ashanti",
+        "Um trono egípcio",
+        "Uma relíquia cristã portuguesa"
+      ],
+      "resposta": "Símbolo sagrado da união e da alma do povo Ashanti",
+      "explicacao": "Segundo a tradição, o Banquinho de Ouro desceu do céu e contém o sunsum (espírito) da nação Ashanti.",
+      "fonte": "African Culture / Story of Africa",
+      "id": 56
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Shaka destacou-se no século XIX como líder militar de qual povo?",
+      "opcoes": [
+        "Xhosa",
+        "Zulu",
+        "Sotho",
+        "Ndebele exclusivamente na origem"
+      ],
+      "resposta": "Zulu",
+      "explicacao": "Shaka reorganizou o exército zulu (imposto, iklwa) e transformou o reino num Estado poderoso no sul da África.",
+      "fonte": "Africa in World History / Story of Africa",
+      "id": 57
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Império de Kanem-Bornu desenvolveu-se principalmente em torno de qual acidente geográfico?",
+      "opcoes": [
+        "Lago Vitória",
+        "Lago Chade",
+        "Rio Orange",
+        "Delta do Níger"
+      ],
+      "resposta": "Lago Chade",
+      "explicacao": "Kanem-Bornu durou muitos séculos ao norte e leste do Lago Chade.",
+      "fonte": "Africa in World History",
+      "id": 58
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A Etiópia (Abissínia) é frequentemente citada na história africana porque:",
+      "opcoes": [
+        "Foi a primeira colônia britânica",
+        "Manteve independência formal na partilha da África (exceto ocupação italiana breve)",
+        "Nunca teve cristianismo",
+        "Fica na África Ocidental"
+      ],
+      "resposta": "Manteve independência formal na partilha da África (exceto ocupação italiana breve)",
+      "explicacao": "A vitória de Adwa (1896) sobre a Itália consolidou a independência etíope. A ocupação italiana (1936–41) foi revertida.",
+      "fonte": "Africa in World History / Story of Africa",
+      "id": 59
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A escrita ge'ez está historicamente ligada a qual região africana?",
+      "opcoes": [
+        "África Austral",
+        "Planalto Etíope e Eritreia",
+        "Bacia do Congo",
+        "Deserto do Kalahari"
+      ],
+      "resposta": "Planalto Etíope e Eritreia",
+      "explicacao": "O ge'ez é língua litúrgica da Igreja ortodoxa etíope e base das escritas amárica e tigrínia.",
+      "fonte": "Africa in World History",
+      "id": 60
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Reino do Kongo, com capital em Mbanza Kongo, relacionou-se cedo com qual potência europeia?",
+      "opcoes": [
+        "Inglaterra",
+        "Portugal",
+        "Alemanha",
+        "Bélgica no século XV"
+      ],
+      "resposta": "Portugal",
+      "explicacao": "Desde o século XV houve conversão de elites kongolesas ao cristianismo e comércio com os portugueses, inclusive de escravizados.",
+      "fonte": "Africa in World History / Rodney",
+      "id": 61
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Mapungubwe, anterior ao Grande Zimbábue, situa-se no atual:",
+      "opcoes": [
+        "Quênia",
+        "África do Sul",
+        "Senegal",
+        "Egito"
+      ],
+      "resposta": "África do Sul",
+      "explicacao": "Mapungubwe (Limpopo) foi um Estado comercial do ouro antes do auge do Grande Zimbábue.",
+      "fonte": "Africa in World History",
+      "id": 62
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quem escreveu o livro clássico 'How Europe Underdeveloped Africa' (1972)?",
+      "opcoes": [
+        "Chinua Achebe",
+        "Walter Rodney",
+        "Kwame Nkrumah",
+        "Frantz Fanon"
+      ],
+      "resposta": "Walter Rodney",
+      "explicacao": "Rodney, historiador guianense, argumentou que o desenvolvimento europeu e o subdesenvolvimento africano foram processos ligados.",
+      "fonte": "Rodney — How Europe Underdeveloped Africa",
+      "id": 63
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Segundo Walter Rodney, o tráfico transatlântico de escravizados foi:",
+      "opcoes": [
+        "Irrelevante para a economia europeia",
+        "Um fator básico do subdesenvolvimento africano e da acumulação europeia",
+        "Organizado apenas por africanos sem demanda externa",
+        "Um comércio do século XX"
+      ],
+      "resposta": "Um fator básico do subdesenvolvimento africano e da acumulação europeia",
+      "explicacao": "Rodney descreve perda demográfica, distorção produtiva e fortalecimento de elites guerreiras ligadas ao tráfico.",
+      "fonte": "Rodney — How Europe Underdeveloped Africa",
+      "id": 64
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A Conferência de Berlim (1884–1885) é associada principalmente a:",
+      "opcoes": [
+        "A independência da África",
+        "A partilha da África entre potências europeias",
+        "A criação da União Africana",
+        "O fim do apartheid"
+      ],
+      "resposta": "A partilha da África entre potências europeias",
+      "explicacao": "As potências europeias estabeleceram regras para a ocupação colonial do continente.",
+      "fonte": "Africa in World History / Story of Africa / Rodney",
+      "id": 65
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O 'scramble for Africa' refere-se a:",
+      "opcoes": [
+        "A corrida por ouro no Mali medieval",
+        "A ocupação acelerada do continente por europeus no fim do século XIX",
+        "A migração bantu",
+        "O comércio suaíli no Índico"
+      ],
+      "resposta": "A ocupação acelerada do continente por europeus no fim do século XIX",
+      "explicacao": "Entre cerca de 1880 e 1914 quase toda a África foi colonizada, salvo Etiópia e Libéria.",
+      "fonte": "Africa in World History / Rodney",
+      "id": 66
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual rei belga ficou associado ao regime brutal do Estado Livre do Congo e à extração de borracha?",
+      "opcoes": [
+        "Leopoldo II",
+        "Leopoldo I",
+        "Balduíno",
+        "Filipe II da Espanha"
+      ],
+      "resposta": "Leopoldo II",
+      "explicacao": "O Congo foi propriedade pessoal de Leopoldo II; milhões morreram sob trabalho forçado e terror.",
+      "fonte": "Africa in World History / Rodney",
+      "id": 67
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Walter Rodney nasceu em qual país e foi assassinado em 1980?",
+      "opcoes": [
+        "Jamaica",
+        "Guiana",
+        "Trinidad e Tobago",
+        "Gana"
+      ],
+      "resposta": "Guiana",
+      "explicacao": "Rodney nasceu em Georgetown (1952) e foi morto por um artefato explosivo em 1980, na Guiana.",
+      "fonte": "Rodney — contexto do autor",
+      "id": 68
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para Rodney, 'subdesenvolvimento' significa sobretudo:",
+      "opcoes": [
+        "Ausência total de história",
+        "Uma relação comparativa e de exploração, não simples atraso natural",
+        "Falta de rios navegáveis",
+        "Um conceito racial biológico"
+      ],
+      "resposta": "Uma relação comparativa e de exploração, não simples atraso natural",
+      "explicacao": "Ele insiste que a África pré-colonial tinha desenvolvimento próprio, interrompido e distorcido pelo sistema atlântico e colonial.",
+      "fonte": "Rodney — How Europe Underdeveloped Africa",
+      "id": 69
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual país da África Ocidental foi colônia britânica e tornou-se o primeiro da África subsaariana independente, em 1957?",
+      "opcoes": [
+        "Nigéria",
+        "Gana",
+        "Serra Leoa",
+        "Gâmbia"
+      ],
+      "resposta": "Gana",
+      "explicacao": "Gana, sob Kwame Nkrumah, liderou a onda de independências.",
+      "fonte": "Story of Africa / Africa in World History",
+      "id": 70
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Kwame Nkrumah é lembrado como:",
+      "opcoes": [
+        "Primeiro presidente da África do Sul",
+        "Líder da independência de Gana e teórico do panafricanismo",
+        "Imperador da Etiópia",
+        "Fundador do ANC"
+      ],
+      "resposta": "Líder da independência de Gana e teórico do panafricanismo",
+      "explicacao": "Nkrumah defendia unidade africana e publicou obras como 'Africa Must Unite' e 'Neo-Colonialism'.",
+      "fonte": "Africa in World History / Story of Africa",
+      "id": 71
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A Argélia conquistou independência da França em 1962 após:",
+      "opcoes": [
+        "Um referendo sem luta",
+        "Uma longa guerra de libertação",
+        "Intervenção britânica",
+        "Decisão da Conferência de Berlim"
+      ],
+      "resposta": "Uma longa guerra de libertação",
+      "explicacao": "A Guerra da Argélia (1954–1962) foi um dos conflitos anticoloniais mais duros.",
+      "fonte": "Africa in World History",
+      "id": 72
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Amílcar Cabral liderou a luta de libertação de quais territórios?",
+      "opcoes": [
+        "Angola e Moçambique",
+        "Guiné-Bissau e Cabo Verde",
+        "São Tomé e Príncipe apenas",
+        "Timor-Leste e Macau"
+      ],
+      "resposta": "Guiné-Bissau e Cabo Verde",
+      "explicacao": "Cabral fundou o PAIGC. Foi assassinado em 1973, pouco antes da independência.",
+      "fonte": "Africa in World History",
+      "id": 73
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Samora Machel e o FRELIMO estão ligados à independência de:",
+      "opcoes": [
+        "Angola",
+        "Moçambique",
+        "Guiné-Bissau",
+        "Zimbábue"
+      ],
+      "resposta": "Moçambique",
+      "explicacao": "Moçambique tornou-se independente de Portugal em 1975.",
+      "fonte": "Africa in World History",
+      "id": 74
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Agostinho Neto foi o primeiro presidente de:",
+      "opcoes": [
+        "Cabo Verde",
+        "Angola",
+        "São Tomé e Príncipe",
+        "Guiné Equatorial"
+      ],
+      "resposta": "Angola",
+      "explicacao": "Neto, poeta e médico, liderou o MPLA na independência de 1975.",
+      "fonte": "Africa in World History",
+      "id": 75
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Patrice Lumumba foi o primeiro-ministro eleito de qual país, assassinado em 1961?",
+      "opcoes": [
+        "Ruanda",
+        "Congo (hoje RDC)",
+        "Burundi",
+        "Gabão"
+      ],
+      "resposta": "Congo (hoje RDC)",
+      "explicacao": "Lumumba simboliza a independência congolesa e a interferência estrangeira na Guerra Fria.",
+      "fonte": "Africa in World History / Story of Africa",
+      "id": 76
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A independência das colônias portuguesas na África acelerou-se após:",
+      "opcoes": [
+        "A Conferência de Berlim",
+        "A Revolução dos Cravos em Portugal (1974)",
+        "A Segunda Guerra Mundial imediatamente em 1945",
+        "O Congresso de Berlim de 1878"
+      ],
+      "resposta": "A Revolução dos Cravos em Portugal (1974)",
+      "explicacao": "O Estado Novo português caiu em 25 de abril de 1974; as independências africanas vieram em 1974–1975.",
+      "fonte": "Africa in World History",
+      "id": 77
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Maji Maji (1905–1907) foi uma grande revolta anticolonial contra os alemães em:",
+      "opcoes": [
+        "Namíbia",
+        "Tanganica (atual Tanzânia)",
+        "Camarões",
+        "Togo"
+      ],
+      "resposta": "Tanganica (atual Tanzânia)",
+      "explicacao": "Os insurgentes acreditavam que a água sagrada (maji) os protegeriam das balas. A repressão foi devastadora.",
+      "fonte": "Africa in World History",
+      "id": 78
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O genocídio dos herero e nama (1904–1908) foi cometido por tropas coloniais de qual país, no território da atual Namíbia?",
+      "opcoes": [
+        "Reino Unido",
+        "Alemanha",
+        "Portugal",
+        "Itália"
+      ],
+      "resposta": "Alemanha",
+      "explicacao": "É considerado por muitos historiadores o primeiro genocídio do século XX.",
+      "fonte": "Africa in World History",
+      "id": 79
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Julius Nyerere, o 'Mwalimu', liderou a independência de:",
+      "opcoes": [
+        "Quênia",
+        "Tanzânia",
+        "Uganda",
+        "Zâmbia"
+      ],
+      "resposta": "Tanzânia",
+      "explicacao": "Nyerere promoveu o ujamaa (socialismo africano) e a língua suaíli como fator de unidade.",
+      "fonte": "Africa in World History",
+      "id": 80
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Jomo Kenyatta tornou-se o primeiro presidente de:",
+      "opcoes": [
+        "Uganda",
+        "Quênia",
+        "Tanzânia",
+        "Somália"
+      ],
+      "resposta": "Quênia",
+      "explicacao": "Kenyatta esteve ligado à luta Mau Mau e à independência queniana de 1963.",
+      "fonte": "Africa in World History",
+      "id": 81
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Thomas Sankara, chamado às vezes de 'Che africano', governou:",
+      "opcoes": [
+        "Mali",
+        "Burkina Faso",
+        "Níger",
+        "Chade"
+      ],
+      "resposta": "Burkina Faso",
+      "explicacao": "Sankara (1983–1987) mudou o nome do Alto Volta para Burkina Faso ('terra das pessoas íntegras').",
+      "fonte": "Africa in World History / atualidade histórica",
+      "id": 82
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O ano de 1960 ficou conhecido como o 'Ano da África' porque:",
+      "opcoes": [
+        "Nasceu a União Africana",
+        "Dezenas de países africanos tornaram-se independentes",
+        "Acabou o tráfico atlântico",
+        "Começou o apartheid"
+      ],
+      "resposta": "Dezenas de países africanos tornaram-se independentes",
+      "explicacao": "17 países africanos independeram-se em 1960.",
+      "fonte": "Story of Africa / Africa in World History",
+      "id": 83
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A OUA (Organização da Unidade Africana) foi fundada em 1963 em:",
+      "opcoes": [
+        "Acra",
+        "Adis Abeba",
+        "Cairo",
+        "Lagos"
+      ],
+      "resposta": "Adis Abeba",
+      "explicacao": "A OUA deu origem à União Africana em 2002.",
+      "fonte": "Africa in World History",
+      "id": 84
+    },
+    {
+      "categoria": "África do Sul e apartheid",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O apartheid na África do Sul foi:",
+      "opcoes": [
+        "Um sistema de segregação racial institucionalizado",
+        "Um partido apenas da oposição",
+        "Uma língua local",
+        "Um reino pré-colonial"
+      ],
+      "resposta": "Um sistema de segregação racial institucionalizado",
+      "explicacao": "Vigente de 1948 a início dos anos 1990, classificava pessoas por raça e restringia direitos.",
+      "fonte": "Born a Crime / Africa in World History",
+      "id": 85
+    },
+    {
+      "categoria": "África do Sul e apartheid",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quem foi o primeiro presidente negro da África do Sul, eleito em 1994?",
+      "opcoes": [
+        "Desmond Tutu",
+        "Nelson Mandela",
+        "Thabo Mbeki",
+        "Steve Biko"
+      ],
+      "resposta": "Nelson Mandela",
+      "explicacao": "Mandela passou 27 anos preso e liderou a transição negociada ao voto universal.",
+      "fonte": "Born a Crime / Story of Africa",
+      "id": 86
+    },
+    {
+      "categoria": "África do Sul e apartheid",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O livro 'Born a Crime', de Trevor Noah, refere-se ao fato de que:",
+      "opcoes": [
+        "Ele nasceu fora da África",
+        "Seu nascimento como filho de mãe negra e pai branco era crime sob o apartheid",
+        "Ele cometeu um delito aos 5 anos",
+        "O título é apenas metáfora literária sem base legal"
+      ],
+      "resposta": "Seu nascimento como filho de mãe negra e pai branco era crime sob o apartheid",
+      "explicacao": "O Immorality Act e leis de classificação racial puniam relações 'mistas'. Trevor teve de ser escondido em público.",
+      "fonte": "Born a Crime — Trevor Noah",
+      "id": 87
+    },
+    {
+      "categoria": "África do Sul e apartheid",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A mãe de Trevor Noah, figura central de 'Born a Crime', chama-se:",
+      "opcoes": [
+        "Winnie Mandela",
+        "Patricia Nombuyiselo Noah",
+        "Miriam Makeba",
+        "Albertina Sisulu"
+      ],
+      "resposta": "Patricia Nombuyiselo Noah",
+      "explicacao": "Patricia é retratada como mulher religiosa, independente e determinada, que criou Trevor em Soweto e arredores.",
+      "fonte": "Born a Crime — Trevor Noah",
+      "id": 88
+    },
+    {
+      "categoria": "África do Sul e apartheid",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Soweto, cenário importante da infância de Trevor Noah, é:",
+      "opcoes": [
+        "Uma ilha no Cabo",
+        "Um conjunto de townships de Joanesburgo",
+        "A capital legislativa",
+        "Um deserto"
+      ],
+      "resposta": "Um conjunto de townships de Joanesburgo",
+      "explicacao": "Soweto (South Western Townships) foi centro da revolta estudantil de 1976.",
+      "fonte": "Born a Crime / história sul-africana",
+      "id": 89
+    },
+    {
+      "categoria": "África do Sul e apartheid",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O levante de Soweto (16 de junho de 1976) começou como protesto contra:",
+      "opcoes": [
+        "O fim do apartheid",
+        "A imposição do africâner nas escolas",
+        "A prisão de Trevor Noah",
+        "A independência da Namíbia"
+      ],
+      "resposta": "A imposição do africâner nas escolas",
+      "explicacao": "Estudantes recusaram o africâner como língua de ensino. A repressão policial chocou o mundo.",
+      "fonte": "Africa in World History / Born a Crime (contexto)",
+      "id": 90
+    },
+    {
+      "categoria": "África do Sul e apartheid",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em que prisão Nelson Mandela passou a maior parte dos 27 anos de cárcere?",
+      "opcoes": [
+        "Robben Island",
+        "Alcatraz",
+        "Guantánamo",
+        "Pollsmoor apenas o tempo todo"
+      ],
+      "resposta": "Robben Island",
+      "explicacao": "Robben Island, perto da Cidade do Cabo, tornou-se símbolo da resistência.",
+      "fonte": "Africa in World History",
+      "id": 91
+    },
+    {
+      "categoria": "África do Sul e apartheid",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O ANC (African National Congress) foi fundado em 1912 originalmente com o nome de:",
+      "opcoes": [
+        "Pan Africanist Congress",
+        "South African Native National Congress",
+        "Inkatha",
+        "Umkhonto we Sizwe"
+      ],
+      "resposta": "South African Native National Congress",
+      "explicacao": "O movimento adotou o nome ANC em 1923 e tornou-se a principal força da libertação.",
+      "fonte": "Africa in World History",
+      "id": 92
+    },
+    {
+      "categoria": "África do Sul e apartheid",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Steve Biko liderou qual corrente de pensamento e mobilização?",
+      "opcoes": [
+        "Consciência Negra (Black Consciousness)",
+        "Nacionalismo africâner",
+        "Socialismo ujamaa",
+        "Negritude senegalês"
+      ],
+      "resposta": "Consciência Negra (Black Consciousness)",
+      "explicacao": "Biko foi morto sob custódia policial em 1977 e tornou-se mártir da luta.",
+      "fonte": "Africa in World History",
+      "id": 93
+    },
+    {
+      "categoria": "África do Sul e apartheid",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Massacre de Sharpeville (1960) ocorreu quando a polícia abriu fogo contra protesto sobre:",
+      "opcoes": [
+        "Leis do passe (pass laws)",
+        "Eleições gerais",
+        "Preços do ouro",
+        "Futebol"
+      ],
+      "resposta": "Leis do passe (pass laws)",
+      "explicacao": "Dezenas de pessoas desarmadas foram mortas. O episódio radicalizou a luta e isolou o regime.",
+      "fonte": "Africa in World History",
+      "id": 94
+    },
+    {
+      "categoria": "África do Sul e apartheid",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Nelson Mandela foi libertado da prisão em:",
+      "opcoes": [
+        "1976",
+        "1982",
+        "1990",
+        "1999"
+      ],
+      "resposta": "1990",
+      "explicacao": "F. W. de Klerk anunciou a libertação; Mandela saiu em 11 de fevereiro de 1990.",
+      "fonte": "Africa in World History / Born a Crime (contexto)",
+      "id": 95
+    },
+    {
+      "categoria": "África do Sul e apartheid",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Desmond Tutu ficou conhecido internacionalmente como:",
+      "opcoes": [
+        "General do exército",
+        "Arcebispo anglicano e ativista contra o apartheid, depois presidente da Comissão da Verdade",
+        "Técnico de rúgbi",
+        "Primeiro-ministro britânico"
+      ],
+      "resposta": "Arcebispo anglicano e ativista contra o apartheid, depois presidente da Comissão da Verdade",
+      "explicacao": "Tutu cunhou a ideia de 'nação arco-íris' e liderou a Comissão da Verdade e Reconciliação.",
+      "fonte": "Africa in World History",
+      "id": 96
+    },
+    {
+      "categoria": "África do Sul e apartheid",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O termo 'coloured' no vocabulário oficial do apartheid designava:",
+      "opcoes": [
+        "Apenas imigrantes europeus",
+        "Pessoas classificadas como mestiças, categoria legal distinta de 'black' e 'white'",
+        "Somente indianos",
+        "Diplomatas"
+      ],
+      "resposta": "Pessoas classificadas como mestiças, categoria legal distinta de 'black' e 'white'",
+      "explicacao": "Trevor Noah descreve a posição ambígua e absurda dessa classificação no cotidiano.",
+      "fonte": "Born a Crime — Trevor Noah",
+      "id": 97
+    },
+    {
+      "categoria": "África do Sul e apartheid",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma das razões de Trevor Noah sobreviver e trabalhar como comediante, segundo o livro, foi:",
+      "opcoes": [
+        "Falar várias línguas sul-africanas e transitar entre mundos",
+        "Ter passaporte só europeu",
+        "Nunca ter vivido em township",
+        "Ignorar a mãe"
+      ],
+      "resposta": "Falar várias línguas sul-africanas e transitar entre mundos",
+      "explicacao": "Noah usa o multilinguismo (zulu, xhosa, africâner, inglês, sotho etc.) como ferramenta social e cômica.",
+      "fonte": "Born a Crime — Trevor Noah",
+      "id": 98
+    },
+    {
+      "categoria": "Literatura",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quem escreveu o romance 'Things Fall Apart' (O Mundo se Despedaça)?",
+      "opcoes": [
+        "Wole Soyinka",
+        "Chinua Achebe",
+        "Ngũgĩ wa Thiong'o",
+        "Nadine Gordimer"
+      ],
+      "resposta": "Chinua Achebe",
+      "explicacao": "Publicado em 1958, é um dos romances africanos mais lidos no mundo.",
+      "fonte": "Things Fall Apart / Bloom's Critical Interpretations",
+      "id": 99
+    },
+    {
+      "categoria": "Literatura",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o protagonista de 'Things Fall Apart'?",
+      "opcoes": [
+        "Obierika",
+        "Okonkwo",
+        "Nwoye",
+        "Mr. Brown"
+      ],
+      "resposta": "Okonkwo",
+      "explicacao": "Okonkwo é um guerreiro e agricultor igbo obcecado em não ser como o pai Unoka.",
+      "fonte": "Things Fall Apart",
+      "id": 100
+    },
+    {
+      "categoria": "Literatura",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em que região e povo se passa principalmente 'Things Fall Apart'?",
+      "opcoes": [
+        "Zulus na África do Sul",
+        "Igbos no sudeste da atual Nigéria",
+        "Masai no Quênia",
+        "Berberes no Marrocos"
+      ],
+      "resposta": "Igbos no sudeste da atual Nigéria",
+      "explicacao": "A aldeia fictícia de Umuofia representa a sociedade igbo pré-colonial e o choque colonial.",
+      "fonte": "Things Fall Apart",
+      "id": 101
+    },
+    {
+      "categoria": "Literatura",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O título 'Things Fall Apart' vem de um verso de qual poeta?",
+      "opcoes": [
+        "Shakespeare",
+        "W. B. Yeats",
+        "T. S. Eliot",
+        "Léopold Senghor"
+      ],
+      "resposta": "W. B. Yeats",
+      "explicacao": "O verso é de 'The Second Coming': 'Things fall apart; the centre cannot hold'.",
+      "fonte": "Things Fall Apart / Bloom",
+      "id": 102
+    },
+    {
+      "categoria": "Literatura",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para Okonkwo, o cultivo de inhame (yam) simboliza sobretudo:",
+      "opcoes": [
+        "Fraqueza feminina",
+        "Masculinidade, status e trabalho árduo",
+        "A religião cristã",
+        "O comércio atlântico"
+      ],
+      "resposta": "Masculinidade, status e trabalho árduo",
+      "explicacao": "O inhame é 'rei das culturas' e medida de riqueza e virilidade na aldeia.",
+      "fonte": "Things Fall Apart",
+      "id": 103
+    },
+    {
+      "categoria": "Literatura",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quem é Ikemefuna em 'Things Fall Apart'?",
+      "opcoes": [
+        "O missionário chefe",
+        "Menino entregue a Umuofia como compensação e depois morto por ordem do oráculo, com participação de Okonkwo",
+        "O pai de Okonkwo",
+        "O espírito ancestral egwugwu principal"
+      ],
+      "resposta": "Menino entregue a Umuofia como compensação e depois morto por ordem do oráculo, com participação de Okonkwo",
+      "explicacao": "O assassinato de Ikemefuna marca a fratura moral de Okonkwo e o afastamento do filho Nwoye.",
+      "fonte": "Things Fall Apart",
+      "id": 104
+    },
+    {
+      "categoria": "Literatura",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Nwoye, filho de Okonkwo, acaba por:",
+      "opcoes": [
+        "Tornar-se o maior guerreiro da aldeia",
+        "Aproximar-se do cristianismo missionário",
+        "Matar o pai",
+        "Fundar uma nova aldeia igbo no norte"
+      ],
+      "resposta": "Aproximar-se do cristianismo missionário",
+      "explicacao": "Nwoye encontra no cristianismo uma resposta à violência e às normas que o sufocavam.",
+      "fonte": "Things Fall Apart",
+      "id": 105
+    },
+    {
+      "categoria": "Literatura",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "No romance, a diferença entre o missionário Mr. Brown e o reverendo James Smith é que:",
+      "opcoes": [
+        "Brown é mais dialogante; Smith é rígido e intolerante",
+        "Smith chega primeiro e é pacífico",
+        "Ambos recusam qualquer convertido",
+        "Brown incendeia a igreja"
+      ],
+      "resposta": "Brown é mais dialogante; Smith é rígido e intolerante",
+      "explicacao": "Achebe mostra que o colonialismo cristão não foi monolítico, mas o fanatismo de Smith acelera o conflito.",
+      "fonte": "Things Fall Apart / Bloom",
+      "id": 106
+    },
+    {
+      "categoria": "Literatura",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O destino final de Okonkwo é:",
+      "opcoes": [
+        "Tornar-se chefe colonial",
+        "O suicídio após matar um mensageiro e ver a aldeia recusar a guerra",
+        "Fugir para Londres",
+        "Converter-se e ser padre"
+      ],
+      "resposta": "O suicídio após matar um mensageiro e ver a aldeia recusar a guerra",
+      "explicacao": "O suicídio é tabu igbo; o corpo de Okonkwo não pode ser tocado pelos parentes. O desfecho ironiza o olhar do comissário britânico.",
+      "fonte": "Things Fall Apart",
+      "id": 107
+    },
+    {
+      "categoria": "Literatura",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Chinua Achebe escreveu 'Things Fall Apart' principalmente em qual língua, e por quê isso importa?",
+      "opcoes": [
+        "Igbo, para excluir o mundo",
+        "Inglês, apropriando a língua colonial para contar a história africana por dentro",
+        "Francês, como Senghor",
+        "Latim acadêmico"
+      ],
+      "resposta": "Inglês, apropriando a língua colonial para contar a história africana por dentro",
+      "explicacao": "Achebe insere palavras igbo e provérbios, desafiando a imagem da África como 'sem história' da literatura colonial.",
+      "fonte": "Things Fall Apart / Bloom",
+      "id": 108
+    },
+    {
+      "categoria": "Literatura",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O conceito igbo de 'chi' em 'Things Fall Apart' refere-se a:",
+      "opcoes": [
+        "Um imposto britânico",
+        "O espírito pessoal / destino individual",
+        "Um tipo de inhame",
+        "O nome do clã inimigo"
+      ],
+      "resposta": "O espírito pessoal / destino individual",
+      "explicacao": "O chi explica tensão entre esforço pessoal e destino — tema central da tragédia de Okonkwo.",
+      "fonte": "Things Fall Apart",
+      "id": 109
+    },
+    {
+      "categoria": "Literatura",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Wole Soyinka, Nobel de Literatura de 1986, é originário de qual país?",
+      "opcoes": [
+        "Senegal",
+        "Nigéria",
+        "Quênia",
+        "África do Sul"
+      ],
+      "resposta": "Nigéria",
+      "explicacao": "Soyinka é dramaturgo e ensaísta iorubá, contemporâneo do boom literário nigeriano de que Achebe participa.",
+      "fonte": "African Culture / literatura",
+      "id": 110
+    },
+    {
+      "categoria": "Literatura",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Ngũgĩ wa Thiong'o é um escritor queniano conhecido por defender:",
+      "opcoes": [
+        "Escrever apenas em inglês",
+        "A literatura africana nas línguas africanas (ele passou a escrever em kikuyu)",
+        "O apartheid",
+        "O silêncio político"
+      ],
+      "resposta": "A literatura africana nas línguas africanas (ele passou a escrever em kikuyu)",
+      "explicacao": "Em 'Decolonising the Mind', Ngũgĩ argumenta que a língua é um campo da descolonização.",
+      "fonte": "literatura africana / manuais",
+      "id": 111
+    },
+    {
+      "categoria": "Literatura",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Léopold Sédar Senghor foi poeta da Négritude e também:",
+      "opcoes": [
+        "Primeiro presidente do Senegal",
+        "Primeiro-ministro da França",
+        "Rei dos Zulus",
+        "Missionário britânico"
+      ],
+      "resposta": "Primeiro presidente do Senegal",
+      "explicacao": "Senghor uniu criação literária e construção do Estado senegalês independente.",
+      "fonte": "Africa in World History / African Culture",
+      "id": 112
+    },
+    {
+      "categoria": "Mitologia",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Anansi, o trapaceiro que muitas vezes aparece como aranha, pertence principalmente à tradição de qual povo?",
+      "opcoes": [
+        "Zulu",
+        "Akan/Ashanti (Gana)",
+        "Maasai",
+        "Berbere"
+      ],
+      "resposta": "Akan/Ashanti (Gana)",
+      "explicacao": "As histórias de Anansi atravessaram o Atlântico e reaparecem no Caribe (Anancy).",
+      "fonte": "African Mythology / Folktales",
+      "id": 113
+    },
+    {
+      "categoria": "Mitologia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na mitologia akan, Nyame é:",
+      "opcoes": [
+        "O deus do trovão iorubá",
+        "O deus céu / divindade suprema",
+        "Um ancestral zulu",
+        "O rio Nilo personificado"
+      ],
+      "resposta": "O deus céu / divindade suprema",
+      "explicacao": "Anansi frequentemente tenta obter histórias ou sabedoria de Nyame.",
+      "fonte": "African Mythology",
+      "id": 114
+    },
+    {
+      "categoria": "Mitologia",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Xangô (Shango) é, na religião iorubá, o orixá associado a:",
+      "opcoes": [
+        "O oceano",
+        "Trovão, fogo e justiça real",
+        "A agricultura apenas",
+        "Os mortos-crianças"
+      ],
+      "resposta": "Trovão, fogo e justiça real",
+      "explicacao": "Xangô foi também um rei lendário de Oió. No Brasil corresponde a um dos orixás mais cultuados.",
+      "fonte": "African Mythology / African Culture",
+      "id": 115
+    },
+    {
+      "categoria": "Mitologia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Iemanjá (Yemọja) é tradicionalmente ligada a:",
+      "opcoes": [
+        "O ferro e a guerra",
+        "As águas, a maternidade e o mar",
+        "O relâmpago",
+        "A varíola"
+      ],
+      "resposta": "As águas, a maternidade e o mar",
+      "explicacao": "No Atlântico negro, Iemanjá tornou-se sobretudo senhora do mar.",
+      "fonte": "African Mythology",
+      "id": 116
+    },
+    {
+      "categoria": "Mitologia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Ogum (Ogun) é o orixá de:",
+      "opcoes": [
+        "O vento suave",
+        "Ferro, forja, caminhos e guerra",
+        "A adivinhação com búzios apenas",
+        "A lua"
+      ],
+      "resposta": "Ferro, forja, caminhos e guerra",
+      "explicacao": "Ogum abre caminhos e está ligado à tecnologia do ferro, crucial na história da África Ocidental.",
+      "fonte": "African Mythology / African Culture",
+      "id": 117
+    },
+    {
+      "categoria": "Mitologia",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Exu (Eshu/Elegbara) na cosmologia iorubá é principalmente:",
+      "opcoes": [
+        "O demônio cristão idêntico",
+        "O mensageiro, senhor da encruzilhada e da comunicação entre humanos e orixás",
+        "O criador único que recusa oferendas",
+        "Um faraó"
+      ],
+      "resposta": "O mensageiro, senhor da encruzilhada e da comunicação entre humanos e orixás",
+      "explicacao": "Missionários traduziram Exu por 'diabo', distorção que Achebe e estudiosos da religião iorubá criticam.",
+      "fonte": "African Mythology",
+      "id": 118
+    },
+    {
+      "categoria": "Mitologia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Olodumare (Olorun) no pensamento iorubá é:",
+      "opcoes": [
+        "Um ancestral recente",
+        "A divindade suprema / fonte da existência",
+        "Apenas o deus da varíola",
+        "Um herói zulu"
+      ],
+      "resposta": "A divindade suprema / fonte da existência",
+      "explicacao": "Os orixás mediam a relação entre o mundo e Olodumare.",
+      "fonte": "African Mythology",
+      "id": 119
+    },
+    {
+      "categoria": "Mitologia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Unkulunkulu é uma figura criadora associada a qual povo?",
+      "opcoes": [
+        "Iorubá",
+        "Zulu",
+        "Dogon",
+        "Kikuyu"
+      ],
+      "resposta": "Zulu",
+      "explicacao": "Unkulunkulu é o ancestral primordial / criador na tradição zulu.",
+      "fonte": "African Mythology",
+      "id": 120
+    },
+    {
+      "categoria": "Mitologia",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os Nommo, seres ancestrais ligados à água e ao conhecimento, pertencem à mitologia dos:",
+      "opcoes": [
+        "Dogon (Mali)",
+        "San (Kalahari)",
+        "Tutsi",
+        "Chewa"
+      ],
+      "resposta": "Dogon (Mali)",
+      "explicacao": "A cosmologia dogon, com Sírius e os Nommo, ficou famosa (e às vezes romantizada) no século XX.",
+      "fonte": "African Mythology",
+      "id": 121
+    },
+    {
+      "categoria": "Mitologia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na mitologia do Antigo Egito, Osíris é sobretudo o deus de:",
+      "opcoes": [
+        "O sol do meio-dia apenas",
+        "A morte, o além e a regeneração",
+        "O caos do deserto sem julgamento",
+        "O gato doméstico"
+      ],
+      "resposta": "A morte, o além e a regeneração",
+      "explicacao": "Osíris é morto por Seth, recomposto por Ísis e torna-se senhor do Juízo.",
+      "fonte": "African Mythology / Africa in World History",
+      "id": 122
+    },
+    {
+      "categoria": "Mitologia",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Rá (Ra) no Egito antigo é o deus de:",
+      "opcoes": [
+        "O Nilo somente",
+        "O Sol",
+        "Os crocodilos apenas",
+        "A escrita"
+      ],
+      "resposta": "O Sol",
+      "explicacao": "Rá atravessa o céu em sua barca e enfrenta Apep/Apófis à noite.",
+      "fonte": "African Mythology",
+      "id": 123
+    },
+    {
+      "categoria": "Mitologia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Anúbis, o deus com cabeça de chacal, presidia:",
+      "opcoes": [
+        "A guerra de bigas",
+        "O embalsamamento e a proteção dos mortos",
+        "A cheia do Nilo",
+        "A escrita hieroglífica"
+      ],
+      "resposta": "O embalsamamento e a proteção dos mortos",
+      "explicacao": "Anúbis pesa o coração do morto contra a pena de Maat.",
+      "fonte": "African Mythology",
+      "id": 124
+    },
+    {
+      "categoria": "Mitologia",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Mwari (ou Mwari vaMatonjeni) é a divindade suprema associada historicamente ao:",
+      "opcoes": [
+        "Povo shona / região do Zimbábue",
+        "Povo igbo",
+        "Povo tuaregue",
+        "Povo amaziq apenas no Atlas"
+      ],
+      "resposta": "Povo shona / região do Zimbábue",
+      "explicacao": "O culto de Mwari ligava-se a oráculos nas montanhas e à legitimidade política pós-Grande Zimbábue.",
+      "fonte": "African Mythology / Africa in World History",
+      "id": 125
+    },
+    {
+      "categoria": "Mitologia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Mami Wata é uma figura difundida em várias regiões africanas e na diáspora. Ela está ligada a:",
+      "opcoes": [
+        "Espíritos das águas, riqueza, beleza e perigo",
+        "Somente à agricultura do milheto",
+        "Ao deserto do Saara",
+        "Aos faraós da 4ª dinastia"
+      ],
+      "resposta": "Espíritos das águas, riqueza, beleza e perigo",
+      "explicacao": "Mami Wata mistura elementos locais e imagens atlânticas modernas (sereias, cobras, espelhos).",
+      "fonte": "African Mythology",
+      "id": 126
+    },
+    {
+      "categoria": "Mitologia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na tradição kikuyu (Quênia), Ngai habita simbolicamente:",
+      "opcoes": [
+        "O fundo do Lago Chade",
+        "O Monte Quênia (Kirinyaga)",
+        "O deserto da Namíbia",
+        "A ilha de Gorée"
+      ],
+      "resposta": "O Monte Quênia (Kirinyaga)",
+      "explicacao": "Ngai é Deus; a montanha sagrada explica parte da centralidade cultural do Monte Quênia.",
+      "fonte": "African Mythology / Africa Mountains Atlas",
+      "id": 127
+    },
+    {
+      "categoria": "Mitologia",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Adivinhação iorubá clássica usa um sistema chamado:",
+      "opcoes": [
+        "Ifá (com o babalaô e o odù)",
+        "Runas nórdicas",
+        "I Ching chinês idêntico",
+        "Tarô europeu medieval"
+      ],
+      "resposta": "Ifá (com o babalaô e o odù)",
+      "explicacao": "Ifá é patrimônio cultural imaterial da UNESCO e um dos sistemas oraculares mais complexos do mundo.",
+      "fonte": "African Mythology / African Culture",
+      "id": 128
+    },
+    {
+      "categoria": "Mitologia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual animal aparece com frequência nas fábulas da África Ocidental como astuto e guloso, rival de Anansi ou da lebre?",
+      "opcoes": [
+        "Pinguim",
+        "Hiena",
+        "Urso polar",
+        "Canguru"
+      ],
+      "resposta": "Hiena",
+      "explicacao": "A hiena (e às vezes a tartaruga ou a lebre) encarna cobiça e tolice nas histórias de origem.",
+      "fonte": "African Folktales / African Mythology",
+      "id": 129
+    },
+    {
+      "categoria": "Mitologia",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na mitologia egípcia, Ísis é conhecida por:",
+      "opcoes": [
+        "Destruir o Nilo",
+        "Ser maga poderosa, esposa de Osíris e mãe de Hórus",
+        "Ser o deus-sol",
+        "Rejeitar os mortos"
+      ],
+      "resposta": "Ser maga poderosa, esposa de Osíris e mãe de Hórus",
+      "explicacao": "O culto de Ísis espalhou-se pelo Mediterrâneo na Antiguidade.",
+      "fonte": "African Mythology",
+      "id": 130
+    },
+    {
+      "categoria": "Provérbios",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que expressa o provérbio africano muito citado: 'É preciso uma aldeia inteira para criar uma criança'?",
+      "opcoes": [
+        "Que crianças devem viver sozinhas",
+        "Que a educação e o cuidado são responsabilidade coletiva",
+        "Que só o pai educa",
+        "Que a escola substitui a família"
+      ],
+      "resposta": "Que a educação e o cuidado são responsabilidade coletiva",
+      "explicacao": "O ditado, popularizado internacionalmente, resume a ética comunitária de muitos povos africanos.",
+      "fonte": "African Proverbs",
+      "id": 131
+    },
+    {
+      "categoria": "Provérbios",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O provérbio 'Aquele que não conhece o caminho pergunta' ensina principalmente:",
+      "opcoes": [
+        "Nunca viajar",
+        "Humildade e busca de conselho",
+        "Desconfiança total",
+        "Silêncio eterno"
+      ],
+      "resposta": "Humildade e busca de conselho",
+      "explicacao": "Muitos provérbios africanos valorizam a sabedoria dos mais velhos e o aprendizado social.",
+      "fonte": "African Proverbs",
+      "id": 132
+    },
+    {
+      "categoria": "Provérbios",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que significa 'Quando as teias de aranha se unem, podem amarrar um leão'?",
+      "opcoes": [
+        "A aranha come leões",
+        "A união dos fracos pode vencer o forte",
+        "Leões têm medo de aranhas",
+        "É inútil cooperar"
+      ],
+      "resposta": "A união dos fracos pode vencer o forte",
+      "explicacao": "Provérbio etíope (oromo/amárico em variantes) sobre solidariedade.",
+      "fonte": "African Proverbs",
+      "id": 133
+    },
+    {
+      "categoria": "Provérbios",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "'O rio que esquece sua fonte seca' sugere que:",
+      "opcoes": [
+        "Rios não precisam de nascente",
+        "Quem esquece origens e ancestrais se perde",
+        "Deve-se abandonar a tradição sempre",
+        "Apenas a modernidade importa"
+      ],
+      "resposta": "Quem esquece origens e ancestrais se perde",
+      "explicacao": "Tema recorrente: memória, linhagem e gratidão.",
+      "fonte": "African Proverbs",
+      "id": 134
+    },
+    {
+      "categoria": "Provérbios",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "'Não se aponta o dedo para a casa da sogra com a mão suja' é um aviso sobre:",
+      "opcoes": [
+        "Higiene apenas",
+        "Não criticar os outros quando se tem falhas",
+        "Nunca casar",
+        "Construir casas"
+      ],
+      "resposta": "Não criticar os outros quando se tem falhas",
+      "explicacao": "Variante de um princípio moral comum: olhar para si antes de acusar.",
+      "fonte": "African Proverbs",
+      "id": 135
+    },
+    {
+      "categoria": "Provérbios",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O provérbio igbo usado por Achebe, 'Os provérbios são o azeite de dendê com que se comem as palavras', significa que:",
+      "opcoes": [
+        "Só se come dendê",
+        "Os provérbios dão sabor, precisão e sabedoria à fala",
+        "Palavras não importam",
+        "O dendê é moeda"
+      ],
+      "resposta": "Os provérbios dão sabor, precisão e sabedoria à fala",
+      "explicacao": "Achebe abre 'Things Fall Apart' celebrando a arte oratória igbo.",
+      "fonte": "African Proverbs / Things Fall Apart",
+      "id": 136
+    },
+    {
+      "categoria": "Provérbios",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "'Se quiseres ir depressa, vai sozinho. Se quiseres ir longe, ide juntos.' Este ditado enfatiza:",
+      "opcoes": [
+        "O individualismo extremo",
+        "Cooperação e paciência coletiva",
+        "A velocidade acima de tudo",
+        "A guerra"
+      ],
+      "resposta": "Cooperação e paciência coletiva",
+      "explicacao": "Atribuído a tradições da África Oriental/Austral e muito usado em educação comunitária.",
+      "fonte": "African Proverbs",
+      "id": 137
+    },
+    {
+      "categoria": "Provérbios",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "'O leão não se vira quando o cãozinho late' recomenda:",
+      "opcoes": [
+        "Responder a toda ofensa",
+        "Dignidade: não gastar energia com provocações pequenas",
+        "Ter medo de cães",
+        "Caçar sempre"
+      ],
+      "resposta": "Dignidade: não gastar energia com provocações pequenas",
+      "explicacao": "Provérbio de autocontrole e status moral.",
+      "fonte": "African Proverbs",
+      "id": 138
+    },
+    {
+      "categoria": "Provérbios",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "'Até o melhor dos tambores precisa de pele' aponta para:",
+      "opcoes": [
+        "A inutilidade da música",
+        "Ninguém é autossuficiente; todos dependem de outros",
+        "Só chefes tocam tambor",
+        "A caça"
+      ],
+      "resposta": "Ninguém é autossuficiente; todos dependem de outros",
+      "explicacao": "Imagem artesanal para interdependência social.",
+      "fonte": "African Proverbs",
+      "id": 139
+    },
+    {
+      "categoria": "Provérbios",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "'Quem quer colher mel deve suportar as picadas das abelhas' fala de:",
+      "opcoes": [
+        "Nunca comer mel",
+        "Aceitar o esforço e o risco para obter algo valioso",
+        "Destruir colmeias",
+        "Fugir do trabalho"
+      ],
+      "resposta": "Aceitar o esforço e o risco para obter algo valioso",
+      "explicacao": "Equivalente ético a 'não há atalho para o que vale a pena'.",
+      "fonte": "African Proverbs",
+      "id": 140
+    },
+    {
+      "categoria": "Provérbios",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "'A chuva não cai só num telhado' sugere que:",
+      "opcoes": [
+        "Só um vizinho se molha",
+        "A desgraça ou a bênção pode atingir a qualquer um; somos iguais perante o acaso",
+        "Telhados são inúteis",
+        "África não tem chuva"
+      ],
+      "resposta": "A desgraça ou a bênção pode atingir a qualquer um; somos iguais perante o acaso",
+      "explicacao": "Convite à empatia.",
+      "fonte": "African Proverbs",
+      "id": 141
+    },
+    {
+      "categoria": "Provérbios",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "'Não se pode tapar o céu com a peneira' significa:",
+      "opcoes": [
+        "Dá para esconder tudo",
+        "Há verdades grandes demais para serem ocultadas",
+        "Peneiras servem para chuva",
+        "O céu é sólido"
+      ],
+      "resposta": "Há verdades grandes demais para serem ocultadas",
+      "explicacao": "Usado contra a negação e a propaganda.",
+      "fonte": "African Proverbs",
+      "id": 142
+    },
+    {
+      "categoria": "Folclore e contos",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em muitos contos africanos escolares, a tartaruga vence animais mais fortes porque:",
+      "opcoes": [
+        "É a mais rápida em linha reta",
+        "Usa astúcia e paciência",
+        "Voa",
+        "Manda no leão por decreto"
+      ],
+      "resposta": "Usa astúcia e paciência",
+      "explicacao": "A tartaruga (ou cágado) é um trickster clássico na África Ocidental, como em contos iorubá e igbo.",
+      "fonte": "GRADE-8 African Folktales and Short Stories",
+      "id": 143
+    },
+    {
+      "categoria": "Folclore e contos",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A função pedagógica clássica do conto de animais na África é:",
+      "opcoes": [
+        "Ensinar biologia moderna apenas",
+        "Transmitir ética, esperteza e normas sociais às crianças",
+        "Substituir a história escrita dos reis",
+        "Promover o turismo"
+      ],
+      "resposta": "Transmitir ética, esperteza e normas sociais às crianças",
+      "explicacao": "Os folktales de 8º ano usam fábulas para discutir ganância, respeito e comunidade.",
+      "fonte": "GRADE-8 African Folktales / African Culture",
+      "id": 144
+    },
+    {
+      "categoria": "Folclore e contos",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na diáspora, Anansi virou Anancy ou Brother Spider principalmente no:",
+      "opcoes": [
+        "Japão",
+        "Caribe (Jamaica, Suriname, Antilhas)",
+        "Sibéria",
+        "Patagônia"
+      ],
+      "resposta": "Caribe (Jamaica, Suriname, Antilhas)",
+      "explicacao": "Povos escravizados da Costa do Ouro levaram o ciclo de Anansi, que sobreviveu como resistência cultural.",
+      "fonte": "African Mythology / Folktales",
+      "id": 145
+    },
+    {
+      "categoria": "Folclore e contos",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O 'griot' (jeli) na África Ocidental é:",
+      "opcoes": [
+        "Um soldado colonial",
+        "Guardião da memória oral, músico e genealogista",
+        "Um tipo de máscara apenas",
+        "Um imposto"
+      ],
+      "resposta": "Guardião da memória oral, músico e genealogista",
+      "explicacao": "Os jelis mandingas preservam épicos como o de Sundiata Keita, fundador do Mali.",
+      "fonte": "African Culture / Africa in World History",
+      "id": 146
+    },
+    {
+      "categoria": "Folclore e contos",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Épico de Sundiata narra a origem de qual império?",
+      "opcoes": [
+        "Egito",
+        "Mali",
+        "Zulu",
+        "Axum"
+      ],
+      "resposta": "Mali",
+      "explicacao": "Sundiata Keita, o 'rei leão', vence Soumaoro Kanté e funda o Mali no século XIII.",
+      "fonte": "African Folktales / Africa in World History",
+      "id": 147
+    },
+    {
+      "categoria": "Folclore e contos",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Máscaras em muitas sociedades da África Ocidental e Central servem para:",
+      "opcoes": [
+        "Apenas decorar museus europeus",
+        "Tornar presente ancestrais, sociedades secretas e ritos de passagem",
+        "Assustar a chuva",
+        "Pagar impostos"
+      ],
+      "resposta": "Tornar presente ancestrais, sociedades secretas e ritos de passagem",
+      "explicacao": "Exemplos: máscaras Dogon, Bamana, Pende, Dan. No romance de Achebe, os egwugwu encarnam ancestrais.",
+      "fonte": "African Culture / Things Fall Apart",
+      "id": 148
+    },
+    {
+      "categoria": "Folclore e contos",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual instrumento de cordas com cabaça é emblemático da África Ocidental e dos griots?",
+      "opcoes": [
+        "Didgeridoo",
+        "Kora",
+        "Balalaica",
+        "Shamisen"
+      ],
+      "resposta": "Kora",
+      "explicacao": "A kora tem 21 cordas e acompanha a recitação histórica.",
+      "fonte": "African Culture",
+      "id": 149
+    },
+    {
+      "categoria": "Folclore e contos",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O mbira (sanza / 'piano de polegares') é especialmente associado a qual região?",
+      "opcoes": [
+        "Magrebe atlântico",
+        "África Austral-Oriental (ex.: shona do Zimbábue)",
+        "Islândia",
+        "Península Arábica apenas"
+      ],
+      "resposta": "África Austral-Oriental (ex.: shona do Zimbábue)",
+      "explicacao": "O mbira é usado em rituais para chamar ancestralidade (bira).",
+      "fonte": "African Culture",
+      "id": 150
+    },
+    {
+      "categoria": "Cultura e sociedade",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das seguintes NÃO é uma língua africana de grande difusão?",
+      "opcoes": [
+        "Suaíli",
+        "Hauçá",
+        "Mandarim",
+        "Iorubá"
+      ],
+      "resposta": "Mandarim",
+      "explicacao": "Mandarim é língua chinesa. Suaíli, hauçá e iorubá são línguas africanas com dezenas de milhões de falantes.",
+      "fonte": "African Culture",
+      "id": 151
+    },
+    {
+      "categoria": "Cultura e sociedade",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O suaíli é língua oficial da União Africana e de países como:",
+      "opcoes": [
+        "Marrocos e Tunísia",
+        "Tanzânia e Quênia",
+        "África do Sul apenas",
+        "Egito e Líbia"
+      ],
+      "resposta": "Tanzânia e Quênia",
+      "explicacao": "Também é muito usada na RDC, Uganda e na Comunidade da África Oriental.",
+      "fonte": "African Culture / Africa in World History",
+      "id": 152
+    },
+    {
+      "categoria": "Cultura e sociedade",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Árabe é língua oficial ou majoritária principalmente em qual parte da África?",
+      "opcoes": [
+        "África Austral",
+        "Norte da África e parte do Sahel",
+        "Madagáscar apenas",
+        "Bacia do Congo florestal"
+      ],
+      "resposta": "Norte da África e parte do Sahel",
+      "explicacao": "Egito, Magrebe, Sudão e Mauritânia têm o árabe como língua central, ao lado de línguas amazigh e africanas.",
+      "fonte": "Africa in World History",
+      "id": 153
+    },
+    {
+      "categoria": "Cultura e sociedade",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Ubuntu, filosofia muito associada ao sul da África, resume-se em ideias como:",
+      "opcoes": [
+        "O homem é um lobo para o homem",
+        "Eu sou porque nós somos",
+        "Só o indivíduo conta",
+        "A natureza deve ser conquistada"
+      ],
+      "resposta": "Eu sou porque nós somos",
+      "explicacao": "Ubuntu enfatiza humanidade compartilhada; Tutu e Mandela popularizaram o termo no processo de reconciliação.",
+      "fonte": "African Culture / Born a Crime (contexto)",
+      "id": 154
+    },
+    {
+      "categoria": "Cultura e sociedade",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O festival do Homem Dourado (Ouagadougou) e o FESPACO referem-se a:",
+      "opcoes": [
+        "Mineração de ouro",
+        "Cinema africano",
+        "Futebol apenas",
+        "Pesca no Níger"
+      ],
+      "resposta": "Cinema africano",
+      "explicacao": "O FESPACO é o principal festival de cinema da África, em Burkina Faso.",
+      "fonte": "African Culture",
+      "id": 155
+    },
+    {
+      "categoria": "Cultura e sociedade",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A capoeira no Brasil e o candomblé evidenciam:",
+      "opcoes": [
+        "Isolamento total do Brasil em relação à África",
+        "A sobrevivência e transformação de culturas africanas na diáspora",
+        "Origem exclusivamente indígena",
+        "Invenção europeia medieval"
+      ],
+      "resposta": "A sobrevivência e transformação de culturas africanas na diáspora",
+      "explicacao": "Tradições bantu e iorubá/fon recriaram-se nas Américas sob escravidão.",
+      "fonte": "African Culture / Rodney (diáspora)",
+      "id": 156
+    },
+    {
+      "categoria": "Cultura e sociedade",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O povo San (bosquímanos) do Kalahari é antropologicamente notável por:",
+      "opcoes": [
+        "Ter inventado o Estado faraônico",
+        "Preservar línguas com cliques e uma das ocupações humanas mais antigas da África Austral",
+        "Viver apenas em arranha-céus",
+        "Ser originário da China"
+      ],
+      "resposta": "Preservar línguas com cliques e uma das ocupações humanas mais antigas da África Austral",
+      "explicacao": "A arte rupestre san e o conhecimento do deserto são patrimônios profundos.",
+      "fonte": "Africa in World History / African Culture",
+      "id": 157
+    },
+    {
+      "categoria": "Cultura e sociedade",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual religião monoteísta se enraizou no planalto etíope desde o século IV?",
+      "opcoes": [
+        "Sikhismo",
+        "Cristianismo ortodoxo etíope (Tewahedo)",
+        "Xintoísmo",
+        "Jainismo"
+      ],
+      "resposta": "Cristianismo ortodoxo etíope (Tewahedo)",
+      "explicacao": "A Igreja etíope tem cânone, liturgia em ge'ez e tradições próprias, como Lalibela.",
+      "fonte": "Africa in World History",
+      "id": 158
+    },
+    {
+      "categoria": "Cultura e sociedade",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O islã entrou na África subsaariana principalmente através de:",
+      "opcoes": [
+        "Colonos holandeses do Cabo",
+        "Rotas transaarianas e do oceano Índico",
+        "Missionários japoneses",
+        "A Conferência de Berlim"
+      ],
+      "resposta": "Rotas transaarianas e do oceano Índico",
+      "explicacao": "Comerciantes e letrados islamizaram elites do Sahel e da costa suaíli séculos antes do colonialismo europeu.",
+      "fonte": "Africa in World History / Rodney",
+      "id": 159
+    },
+    {
+      "categoria": "Cultura e sociedade",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "As igrejas escavadas na rocha de Lalibela ficam em:",
+      "opcoes": [
+        "Mali",
+        "Etiópia",
+        "Nigéria",
+        "África do Sul"
+      ],
+      "resposta": "Etiópia",
+      "explicacao": "Lalibela é um dos grandes centros de peregrinação cristã da África.",
+      "fonte": "Africa in World History / African Culture",
+      "id": 160
+    },
+    {
+      "categoria": "Cultura e sociedade",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A Grande Mesquita de Djenné, de adobe, é um marco da arquitetura de:",
+      "opcoes": [
+        "Mali",
+        "Egito fatímida de pedra apenas",
+        "Cidade do Cabo",
+        "Ruanda"
+      ],
+      "resposta": "Mali",
+      "explicacao": "É o maior edifício de tijolo cru do mundo e é replasterada ritualmente pela comunidade.",
+      "fonte": "African Culture / Africa in World History",
+      "id": 161
+    },
+    {
+      "categoria": "Cultura e sociedade",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual desses pares língua-família está correto?",
+      "opcoes": [
+        "Zulu — língua khoisan sem cliques",
+        "Iorubá — família Níger-Congo",
+        "Árabe — família khoisan",
+        "Africâner — família nilo-saariana"
+      ],
+      "resposta": "Iorubá — família Níger-Congo",
+      "explicacao": "A família Níger-Congo (incluindo bantu) é a mais espalhada da África subsaariana. Zulu é bantu (tem cliques emprestados). Africâner é germânica.",
+      "fonte": "African Culture / Africa in World History",
+      "id": 162
+    },
+    {
+      "categoria": "Cultura e sociedade",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O tecido kente é tradicionalmente associado a qual cultura?",
+      "opcoes": [
+        "Maasai",
+        "Ashanti/Akan de Gana",
+        "Inuíte",
+        "Tuaregue exclusivamente"
+      ],
+      "resposta": "Ashanti/Akan de Gana",
+      "explicacao": "O kente, com padrões simbólicos, tornou-se também emblema panafricano na diáspora.",
+      "fonte": "African Culture",
+      "id": 163
+    },
+    {
+      "categoria": "Cultura e sociedade",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os Maasai são tradicionalmente:",
+      "opcoes": [
+        "Pescadores do Congo",
+        "Pastores nilóticos do Quênia e da Tanzânia",
+        "Mineradores do Witwatersrand",
+        "Marinheiros suaíli apenas"
+      ],
+      "resposta": "Pastores nilóticos do Quênia e da Tanzânia",
+      "explicacao": "São conhecidos pelo pastoreio de gado, adornos e proximidade com a savana do Rift.",
+      "fonte": "African Culture / Africa Mountains Atlas",
+      "id": 164
+    },
+    {
+      "categoria": "Meio ambiente e recursos",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Por que as montanhas africanas são chamadas de 'torres de água' no Atlas da UNEP?",
+      "opcoes": [
+        "Porque são feitas de gelo oceânico",
+        "Porque captam chuva e alimentam rios de que milhões dependem",
+        "Porque não têm nascentes",
+        "Porque bloqueiam todo o vento"
+      ],
+      "resposta": "Porque captam chuva e alimentam rios de que milhões dependem",
+      "explicacao": "O Africa Mountains Atlas enfatiza o papel hidrológico de Atlas, Etiópia, Rwenzori, Drakensberg, etc.",
+      "fonte": "Africa Mountains Atlas (UNEP)",
+      "id": 165
+    },
+    {
+      "categoria": "Meio ambiente e recursos",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "As geleiras do Kilimanjaro e dos Rwenzori no século XX:",
+      "opcoes": [
+        "Aumentaram rapidamente",
+        "Recuaram de forma acentuada",
+        "Surgiram pela primeira vez em 1990",
+        "Não existem"
+      ],
+      "resposta": "Recuaram de forma acentuada",
+      "explicacao": "O atlas documenta o derretimento ligado à mudança climática e à variação local de umidade.",
+      "fonte": "Africa Mountains Atlas (UNEP)",
+      "id": 166
+    },
+    {
+      "categoria": "Meio ambiente e recursos",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Parque Virunga, na RDC, é famoso por proteger:",
+      "opcoes": [
+        "Pinguins-imperadores",
+        "Gorilas-das-montanhas",
+        "Tigres de Bengala",
+        "Coalas"
+      ],
+      "resposta": "Gorilas-das-montanhas",
+      "explicacao": "Virunga é o parque nacional mais antigo da África (1925) e abriga gorilas, chimpanzés e elefantes de floresta.",
+      "fonte": "Africa Mountains Atlas (UNEP)",
+      "id": 167
+    },
+    {
+      "categoria": "Meio ambiente e recursos",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual animal é o maior terrestre vivo e tem populações icônicas na África?",
+      "opcoes": [
+        "Girafa",
+        "Elefante-africano",
+        "Hipopótamo",
+        "Rinoceronte-branco"
+      ],
+      "resposta": "Elefante-africano",
+      "explicacao": "Há duas espécies reconhecidas hoje: elefante-da-savana e elefante-da-floresta.",
+      "fonte": "conhecimento geral / atlas",
+      "id": 168
+    },
+    {
+      "categoria": "Meio ambiente e recursos",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O fynbos é um bioma de plantas único localizado principalmente no:",
+      "opcoes": [
+        "Saara argelino",
+        "Região do Cabo (África do Sul)",
+        "Planalto etíope",
+        "Delta interior do Níger"
+      ],
+      "resposta": "Região do Cabo (África do Sul)",
+      "explicacao": "O Reino Floral do Cabo é um dos seis reinos florais do mundo, ameaçado por urbanização e espécies invasoras.",
+      "fonte": "Africa Mountains Atlas / ambiente sul-africano",
+      "id": 169
+    },
+    {
+      "categoria": "Meio ambiente e recursos",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A bacia do Congo é crítica para o clima global porque:",
+      "opcoes": [
+        "Não tem árvores",
+        "Armazena carbono imenso na floresta e nas turfeiras",
+        "É um deserto frio",
+        "Fica acima de 5.000 m"
+      ],
+      "resposta": "Armazena carbono imenso na floresta e nas turfeiras",
+      "explicacao": "É a segunda maior floresta tropical do mundo; sua destruição aceleraria as mudanças climáticas.",
+      "fonte": "Africa Mountains Atlas / geografia ambiental",
+      "id": 170
+    },
+    {
+      "categoria": "Meio ambiente e recursos",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Sahel enfrenta desertificação. Isso significa principalmente:",
+      "opcoes": [
+        "Transformação imediata em floresta",
+        "Degradação da terra na margem do deserto, reduzindo produtividade",
+        "Subida do nível do mar no interior",
+        "Formação de geleiras"
+      ],
+      "resposta": "Degradação da terra na margem do deserto, reduzindo produtividade",
+      "explicacao": "Causas combinam clima, pastoreio, corte de lenha e governança da terra.",
+      "fonte": "Africa in World History / Atlas",
+      "id": 171
+    },
+    {
+      "categoria": "Meio ambiente e recursos",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A África concentra grande parte das reservas mundiais de cobalto, essencial para baterias. O principal produtor é:",
+      "opcoes": [
+        "Egito",
+        "República Democrática do Congo",
+        "Lesoto",
+        "Tunísia"
+      ],
+      "resposta": "República Democrática do Congo",
+      "explicacao": "O cobre e o cobalto do Katanga/Cinturão do Cobre ligam a história colonial à transição energética atual — tema rodneyano de extração.",
+      "fonte": "Rodney (lógica da extração) / atualidade",
+      "id": 172
+    },
+    {
+      "categoria": "Meio ambiente e recursos",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Serengeti e a reserva Masaai Mara são famosos pela:",
+      "opcoes": [
+        "Migração de milhões de gnus e zebras",
+        "Aurora boreal",
+        "Plantação de trigo canadense",
+        "Mineração de diamantes apenas"
+      ],
+      "resposta": "Migração de milhões de gnus e zebras",
+      "explicacao": "A migração atravessa Tanzânia e Quênia e é um dos grandes espetáculos naturais do planeta.",
+      "fonte": "conhecimento geral / cultura e ambiente",
+      "id": 173
+    },
+    {
+      "categoria": "Meio ambiente e recursos",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O lago Natron, na Tanzânia, é conhecido por:",
+      "opcoes": [
+        "Ser o mais profundo do mundo",
+        "Águas alcalinas onde se reproduzem flamingos-pequenos",
+        "Congelar todo inverno",
+        "Não ter vida alguma visível"
+      ],
+      "resposta": "Águas alcalinas onde se reproduzem flamingos-pequenos",
+      "explicacao": "A química extrema do lago cria um habitat único.",
+      "fonte": "Africa Mountains Atlas / Rift",
+      "id": 174
+    },
+    {
+      "categoria": "Personalidades e África contemporânea",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Wangari Maathai, Prêmio Nobel da Paz de 2004, destacou-se por:",
+      "opcoes": [
+        "Futebol",
+        "O Green Belt Movement e o plantio de árvores no Quênia",
+        "A física nuclear",
+        "Comandar um exército colonial"
+      ],
+      "resposta": "O Green Belt Movement e o plantio de árvores no Quênia",
+      "explicacao": "Foi a primeira mulher africana a receber o Nobel da Paz.",
+      "fonte": "atualidade / ambiente",
+      "id": 175
+    },
+    {
+      "categoria": "Personalidades e África contemporânea",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Kofi Annan, secretário-geral da ONU (1997–2006), nasceu em:",
+      "opcoes": [
+        "Nigéria",
+        "Gana",
+        "África do Sul",
+        "Egito"
+      ],
+      "resposta": "Gana",
+      "explicacao": "Annan recebeu o Nobel da Paz de 2001 junto com a ONU.",
+      "fonte": "atualidade",
+      "id": 176
+    },
+    {
+      "categoria": "Personalidades e África contemporânea",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Ellen Johnson Sirleaf ficou conhecida por ser:",
+      "opcoes": [
+        "Primeira mulher eleita presidente de um país africano (Libéria)",
+        "Rainha de Mutapa",
+        "Técnica da seleção da Nigéria",
+        "Diretora do FMI nos anos 1960"
+      ],
+      "resposta": "Primeira mulher eleita presidente de um país africano (Libéria)",
+      "explicacao": "Sirleaf recebeu o Nobel da Paz em 2011 com Leymah Gbowee e Tawakkol Karman.",
+      "fonte": "atualidade",
+      "id": 177
+    },
+    {
+      "categoria": "Personalidades e África contemporânea",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A União Africana (UA) substituiu a OUA em:",
+      "opcoes": [
+        "1963",
+        "1976",
+        "2002",
+        "2015"
+      ],
+      "resposta": "2002",
+      "explicacao": "A UA tem sede em Adis Abeba e busca integração política e econômica.",
+      "fonte": "Africa in World History",
+      "id": 178
+    },
+    {
+      "categoria": "Personalidades e África contemporânea",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O genocídio de Ruanda ocorreu principalmente em:",
+      "opcoes": [
+        "1960",
+        "1976",
+        "1994",
+        "2011"
+      ],
+      "resposta": "1994",
+      "explicacao": "Em cerca de 100 dias, cerca de 800 mil tutsis e hutus moderados foram assassinados.",
+      "fonte": "Africa in World History",
+      "id": 179
+    },
+    {
+      "categoria": "Personalidades e África contemporânea",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A Zona de Livre Comércio Continental Africana (AfCFTA) visa principalmente:",
+      "opcoes": [
+        "Isolar a África do mundo",
+        "Criar o maior bloco de livre comércio em número de países, integrando mercados africanos",
+        "Proibir o suaíli",
+        "Restaurar o colonialismo"
+      ],
+      "resposta": "Criar o maior bloco de livre comércio em número de países, integrando mercados africanos",
+      "explicacao": "É um projeto-chave da Agenda 2063 da União Africana.",
+      "fonte": "atualidade econômica",
+      "id": 180
+    },
+    {
+      "categoria": "Personalidades e África contemporânea",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Miriam Makeba, 'Mama África', foi:",
+      "opcoes": [
+        "Uma física nuclear",
+        "Cantora sul-africana exilada que denunciou o apartheid",
+        "Primeira-dama do Egito",
+        "Exploradora britânica"
+      ],
+      "resposta": "Cantora sul-africana exilada que denunciou o apartheid",
+      "explicacao": "Makeba popularizou o click song e tornou-se voz da África no mundo.",
+      "fonte": "African Culture",
+      "id": 181
+    },
+    {
+      "categoria": "Personalidades e África contemporânea",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Fela Kuti é o grande nome de qual gênero musical nigeriano politicamente engajado?",
+      "opcoes": [
+        "Alto-sax colonial",
+        "Afrobeat",
+        "Flamenco",
+        "Country"
+      ],
+      "resposta": "Afrobeat",
+      "explicacao": "Fela misturou highlife, jazz e iorubá para criticar ditaduras e o neocolonialismo.",
+      "fonte": "African Culture",
+      "id": 182
+    },
+    {
+      "categoria": "Personalidades e África contemporânea",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual país africano sediou a Copa do Mundo de futebol de 2010?",
+      "opcoes": [
+        "Marrocos",
+        "África do Sul",
+        "Egito",
+        "Nigéria"
+      ],
+      "resposta": "África do Sul",
+      "explicacao": "Foi a primeira Copa no continente africano.",
+      "fonte": "conhecimento geral",
+      "id": 183
+    },
+    {
+      "categoria": "Personalidades e África contemporânea",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Haile Selassie foi:",
+      "opcoes": [
+        "Primeiro-ministro de Gana",
+        "Imperador da Etiópia e símbolo do rastafarianismo",
+        "Presidente da Nigéria em 1994",
+        "Líder zulu do século XIX"
+      ],
+      "resposta": "Imperador da Etiópia e símbolo do rastafarianismo",
+      "explicacao": "O rastafari jamaicano vê Selassie como figura messiânica; ele também foi ícone da OUA.",
+      "fonte": "Africa in World History / African Culture",
+      "id": 184
+    },
+    {
+      "categoria": "Personalidades e África contemporânea",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O conceito de 'neocolonialismo', popularizado por Nkrumah, descreve:",
+      "opcoes": [
+        "A ausência de empresas estrangeiras",
+        "Independência política formal com persistência de controle econômico externo",
+        "O Império do Mali",
+        "O fim de qualquer influência europeia"
+      ],
+      "resposta": "Independência política formal com persistência de controle econômico externo",
+      "explicacao": "Rodney e Nkrumah dialogam: a bandeira nova não bastava se as estruturas extraídas permanecessem.",
+      "fonte": "Rodney / Africa in World History",
+      "id": 185
+    },
+    {
+      "categoria": "Personalidades e África contemporânea",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual língua portuguesa é oficial em seis países africanos (PALOP)?",
+      "opcoes": [
+        "Francês",
+        "Português",
+        "Espanhol",
+        "Italiano"
+      ],
+      "resposta": "Português",
+      "explicacao": "Angola, Moçambique, Guiné-Bissau, Cabo Verde, São Tomé e Príncipe e Guiné Equatorial (esta última também usa espanhol e francês).",
+      "fonte": "conhecimento geral",
+      "id": 186
+    },
+    {
+      "categoria": "Personalidades e África contemporânea",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual dessas cidades é um dos maiores polos econômicos da África?",
+      "opcoes": [
+        "Lagos",
+        "Ushuaia",
+        "Reykjavík",
+        "Ulan Bator"
+      ],
+      "resposta": "Lagos",
+      "explicacao": "Lagos é a maior cidade da Nigéria e um dos motores econômicos do continente.",
+      "fonte": "conhecimento geral",
+      "id": 187
+    },
+    {
+      "categoria": "Personalidades e África contemporânea",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O prêmio Nobel de Literatura de 2021 foi concedido ao escritor tanzaniano-britânico:",
+      "opcoes": [
+        "Chinua Achebe",
+        "Abdulrazak Gurnah",
+        "Ben Okri",
+        "Alain Mabanckou"
+      ],
+      "resposta": "Abdulrazak Gurnah",
+      "explicacao": "Gurnah, nascido em Zanzibar, escreve sobre deslocamento e o legado colonial no Índico.",
+      "fonte": "literatura africana contemporânea",
+      "id": 188
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A migração bantu, ao longo de milênios, espalhou:",
+      "opcoes": [
+        "Apenas o islã",
+        "Línguas e técnicas agrícolas/siderúrgicas por grande parte da África subsaariana",
+        "O africâner",
+        "Os hieróglifos egípcios até o Cabo no ano 1000 a.C."
+      ],
+      "resposta": "Línguas e técnicas agrícolas/siderúrgicas por grande parte da África subsaariana",
+      "explicacao": "Do proto-bantu no Camarões/Nigéria saíram as línguas hoje faladas do Congo à África do Sul.",
+      "fonte": "Africa in World History",
+      "id": 189
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O comércio transaariano clássico trocava sobretudo:",
+      "opcoes": [
+        "Petróleo por computadores",
+        "Ouro e escravizados do sul por sal, tecidos e cavalos do norte",
+        "Café por chá inglês no século XII",
+        "Diamantes do Cabo por chá chinês no século IX"
+      ],
+      "resposta": "Ouro e escravizados do sul por sal, tecidos e cavalos do norte",
+      "explicacao": "Camelos, introduzidos nos primeiros séculos da era comum, tornaram o Saara atravessável em escala.",
+      "fonte": "Africa in World History / Rodney",
+      "id": 190
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A Libéria foi fundada no século XIX principalmente como:",
+      "opcoes": [
+        "Colônia alemã de diamantes",
+        "Território para africanos americanos libertos, com elite americo-liberiana",
+        "Protetorado japonês",
+        "Império ashanti no litoral"
+      ],
+      "resposta": "Território para africanos americanos libertos, com elite americo-liberiana",
+      "explicacao": "Com a Etiópia, a Libéria permaneceu formalmente independente na partilha.",
+      "fonte": "Africa in World History",
+      "id": 191
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O sistema de 'indigenato' e trabalho forçado foi típico especialmente de colônias:",
+      "opcoes": [
+        "Apenas britânicas do Cabo",
+        "Portuguesas (e também de outras potências, sob formas variadas)",
+        "Da Etiópia imperial sobre a Europa",
+        "Da OUA"
+      ],
+      "resposta": "Portuguesas (e também de outras potências, sob formas variadas)",
+      "explicacao": "Rodney e a historiografia mostram que o trabalho forçado — corvée, imposto de captação, cultivos obrigatórios — foi regra colonial.",
+      "fonte": "Rodney / Africa in World History",
+      "id": 192
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A Batalha de Adwa (1896) é símbolo porque:",
+      "opcoes": [
+        "A Itália derrotou facilmente a Etiópia",
+        "A Etiópia derrotou um exército italiano e preservou a independência",
+        "Os britânicos anexaram Adis Abeba",
+        "Começou o apartheid"
+      ],
+      "resposta": "A Etiópia derrotou um exército italiano e preservou a independência",
+      "explicacao": "Menelik II e a imperatriz Taytu lideraram uma vitória que ecoou em todo o mundo negro.",
+      "fonte": "Africa in World History / Story of Africa",
+      "id": 193
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Cecil Rhodes está associado a:",
+      "opcoes": [
+        "O panafricanismo de Nkrumah",
+        "O imperialismo britânico no sul da África, a Companhia da África do Sul e a Rodésia",
+        "A independência de Gana",
+        "O Green Belt Movement"
+      ],
+      "resposta": "O imperialismo britânico no sul da África, a Companhia da África do Sul e a Rodésia",
+      "explicacao": "Rhodes sonhava um eixo 'do Cabo ao Cairo'. A Rodésia levou seu nome até a independência do Zimbábue.",
+      "fonte": "Africa in World History",
+      "id": 194
+    },
+    {
+      "categoria": "África do Sul e apartheid",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Umkhonto we Sizwe era:",
+      "opcoes": [
+        "Um partido africâner",
+        "O braço armado do ANC fundado em 1961",
+        "Uma igreja",
+        "Uma língua khoisan"
+      ],
+      "resposta": "O braço armado do ANC fundado em 1961",
+      "explicacao": "Após o banimento do ANC, Mandela e outros concluíram que a luta apenas não violenta havia sido fechada pelo Estado.",
+      "fonte": "Africa in World History",
+      "id": 195
+    },
+    {
+      "categoria": "Literatura",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Nadine Gordimer e J. M. Coetzee são Nobel de Literatura ligados a qual país africano?",
+      "opcoes": [
+        "Nigéria",
+        "África do Sul",
+        "Egito",
+        "Quênia"
+      ],
+      "resposta": "África do Sul",
+      "explicacao": "Ambos escreveram sob e sobre o apartheid e suas sombras.",
+      "fonte": "literatura / Born a Crime (contexto cultural)",
+      "id": 196
+    },
+    {
+      "categoria": "Literatura",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O romance 'Une si longue lettre' (Uma Carta Tão Longa), marco do feminismo africano francófono, é de:",
+      "opcoes": [
+        "Mariama Bâ",
+        "Chinua Achebe",
+        "Trevor Noah",
+        "Walter Rodney"
+      ],
+      "resposta": "Mariama Bâ",
+      "explicacao": "Mariama Bâ, senegalesa, aborda poligamia, educação e amizade entre mulheres.",
+      "fonte": "literatura africana / African Culture",
+      "id": 197
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Canal de Suez liga:",
+      "opcoes": [
+        "Atlântico ao Índico pelo Cabo",
+        "Mediterrâneo ao mar Vermelho",
+        "Lago Vitória ao Congo",
+        "Níger ao Senegal"
+      ],
+      "resposta": "Mediterrâneo ao mar Vermelho",
+      "explicacao": "Inaugurado em 1869, encurtou a rota Europa–Ásia e tornou o Egito ainda mais estratégico.",
+      "fonte": "Africa in World History",
+      "id": 198
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual país africano é totalmente rodeado pela África do Sul, além do Lesoto?",
+      "opcoes": [
+        "Essuatíni (Suazilândia) não é totalmente; espera: nenhum outro é enclave total. Qual é o outro Estado interior vizinho pequeno?",
+        "Na verdade a pergunta correta: Qual país é um enclave completo dentro da África do Sul?",
+        "Lesoto",
+        "Botsuana"
+      ],
+      "resposta": "Lesoto",
+      "explicacao": "Apenas o Lesoto é enclave total. Essuatíni (eSwatini) faz fronteira também com Moçambique.",
+      "fonte": "conhecimento geográfico",
+      "id": 199
+    },
+    {
+      "categoria": "Países e capitais",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a capital de Ruanda?",
+      "opcoes": [
+        "Gitega",
+        "Kigali",
+        "Bujumbura",
+        "Kampala"
+      ],
+      "resposta": "Kigali",
+      "explicacao": "Kigali é a capital de Ruanda; Kampala é de Uganda; Gitega é de Burundi.",
+      "fonte": "conhecimento geral",
+      "id": 200
+    },
+    {
+      "categoria": "Países e capitais",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a capital do Senegal?",
+      "opcoes": [
+        "Abidjã",
+        "Dacar",
+        "Conacri",
+        "Bissau"
+      ],
+      "resposta": "Dacar",
+      "explicacao": "Dacar é o extremo ocidental do continente africano continental.",
+      "fonte": "conhecimento geral",
+      "id": 201
+    },
+    {
+      "categoria": "Países e capitais",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a capital da República Democrática do Congo?",
+      "opcoes": [
+        "Brazzaville",
+        "Kinshasa",
+        "Lubumbashi",
+        "Kisangani"
+      ],
+      "resposta": "Kinshasa",
+      "explicacao": "Kinshasa e Brazzaville ficam face a face no rio Congo, capitais de países diferentes.",
+      "fonte": "conhecimento geral",
+      "id": 202
+    },
+    {
+      "categoria": "Cultura e sociedade",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O futebol é o esporte mais popular da África. A seleção que venceu a Copa Africana de Nações inaugural em 1957 foi:",
+      "opcoes": [
+        "Nigéria",
+        "Egito",
+        "Camarões",
+        "Senegal"
+      ],
+      "resposta": "Egito",
+      "explicacao": "O Egito é o maior campeão histórico da CAN.",
+      "fonte": "conhecimento geral",
+      "id": 203
+    },
+    {
+      "categoria": "Meio ambiente e recursos",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Diamantes, ouro e platina moldaram a economia moderna de qual país austral?",
+      "opcoes": [
+        "Tunísia",
+        "África do Sul",
+        "Somália",
+        "Burundi"
+      ],
+      "resposta": "África do Sul",
+      "explicacao": "O Witwatersrand e Kimberley puxaram industrialização, migração laboral e também a arquitetura do apartheid.",
+      "fonte": "Africa in World History / Rodney",
+      "id": 204
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual potência colonizou o Brasil também colonizou Angola e Moçambique?",
+      "opcoes": [
+        "França",
+        "Portugal",
+        "Alemanha",
+        "Bélgica"
+      ],
+      "resposta": "Portugal",
+      "explicacao": "A língua portuguesa e religiões de matriz africana no Brasil são fruto desse eixo atlântico.",
+      "fonte": "Rodney / Africa in World History",
+      "id": 205
+    },
+    {
+      "categoria": "Mitologia",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na tradição iorubá levada ao Brasil, Oxalá (Obatalá) está ligado a:",
+      "opcoes": [
+        "A criação / a paz / o branco",
+        "Somente a guerra",
+        "O deserto",
+        "Os crocodilos do Nilo"
+      ],
+      "resposta": "A criação / a paz / o branco",
+      "explicacao": "Obatalá modela os corpos humanos no mito iorubá.",
+      "fonte": "African Mythology",
+      "id": 206
+    },
+    {
+      "categoria": "Provérbios",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "'Dentes brancos não significam bom coração' alerta para:",
+      "opcoes": [
+        "Odontologia",
+        "Aparências enganam",
+        "Sorrir sempre",
+        "Nunca sorrir"
+      ],
+      "resposta": "Aparências enganam",
+      "explicacao": "Provérbio comum em várias versões na África Ocidental.",
+      "fonte": "African Proverbs",
+      "id": 207
+    },
+    {
+      "categoria": "Folclore e contos",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em fábulas africanas, a lebre (ou coelho) costuma representar:",
+      "opcoes": [
+        "Força bruta",
+        "Esperteza do fraco contra o forte",
+        "O rei dos céus",
+        "O silêncio absoluto"
+      ],
+      "resposta": "Esperteza do fraco contra o forte",
+      "explicacao": "Essa figura atravessou o Atlântico e influenciou ciclos como Brer Rabbit.",
+      "fonte": "African Folktales",
+      "id": 208
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual canal artificial no Egito é uma das rotas marítimas mais estratégicas do mundo?",
+      "opcoes": [
+        "Canal do Panamá",
+        "Canal de Suez",
+        "Canal da Mancha",
+        "Canal de Corinto"
+      ],
+      "resposta": "Canal de Suez",
+      "explicacao": "Liga Europa e Ásia sem contornar o Cabo da Boa Esperança.",
+      "fonte": "Africa in World History",
+      "id": 209
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os faraós governavam qual civilização africana?",
+      "opcoes": [
+        "Zulu",
+        "Egito antigo",
+        "Ashanti",
+        "Maasai"
+      ],
+      "resposta": "Egito antigo",
+      "explicacao": "O faraó era rei-deus, eixo do Estado nilótico.",
+      "fonte": "Exploring World History AFRICA",
+      "id": 210
+    },
+    {
+      "categoria": "Cultura e sociedade",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O festival Gerewol dos wodaabe/fulani é conhecido por:",
+      "opcoes": [
+        "Uma corrida de camelos só masculina sem arte",
+        "Homens se enfeitarem e dançarem enquanto mulheres escolhem parceiros",
+        "Uma missa católica",
+        "Um tribunal colonial"
+      ],
+      "resposta": "Homens se enfeitarem e dançarem enquanto mulheres escolhem parceiros",
+      "explicacao": "É um dos ritos mais fotografados do Sahel, no Níger e arredores.",
+      "fonte": "African Culture",
+      "id": 211
+    },
+    {
+      "categoria": "Personalidades e África contemporânea",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Patrice Nganang, Chimamanda Ngozi Adichie e Alain Mabanckou são nomes da:",
+      "opcoes": [
+        "Física de partículas",
+        "Literatura africana contemporânea",
+        "Seleção de rúgbi da Namíbia",
+        "Conferência de Berlim"
+      ],
+      "resposta": "Literatura africana contemporânea",
+      "explicacao": "Adichie (Nigéria) é uma das vozes mais lidas do século XXI; Mabanckou é congo-francês.",
+      "fonte": "literatura",
+      "id": 212
+    },
+    {
+      "categoria": "África do Sul e apartheid",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A bandeira atual da África do Sul, adotada em 1994, simboliza principalmente:",
+      "opcoes": [
+        "Só as etnias brancas",
+        "A união da nação na transição democrática",
+        "O Império Britânico",
+        "O Estado Livre do Congo"
+      ],
+      "resposta": "A união da nação na transição democrática",
+      "explicacao": "O desenho de Y deitado representa caminhos que se encontram.",
+      "fonte": "Born a Crime / contexto",
+      "id": 213
+    },
+    {
+      "categoria": "Geografia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Cabo da Boa Esperança fica na ponta de qual país?",
+      "opcoes": [
+        "Quênia",
+        "África do Sul",
+        "Somália",
+        "Marrocos"
+      ],
+      "resposta": "África do Sul",
+      "explicacao": "Ponto simbólico da rota atlântico-índica usada após Bartolomeu Dias (1488).",
+      "fonte": "Africa in World History",
+      "id": 214
+    },
+    {
+      "categoria": "Colonialismo e resistência",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A Revolta dos Mau Mau ocorreu principalmente entre os kikuyu contra o colonialismo de:",
+      "opcoes": [
+        "França no Senegal",
+        "Grã-Bretanha no Quênia",
+        "Itália na Líbia",
+        "Portugal em Goa"
+      ],
+      "resposta": "Grã-Bretanha no Quênia",
+      "explicacao": "Nos anos 1950, a Emergency kenyana envolveu campos, tortura e reforma agrária incompleta.",
+      "fonte": "Africa in World History",
+      "id": 215
+    },
+    {
+      "categoria": "Meio ambiente e recursos",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual desses animais NÃO é nativo da África?",
+      "opcoes": [
+        "Leão",
+        "Girafa",
+        "Tigre",
+        "Hipopótamo"
+      ],
+      "resposta": "Tigre",
+      "explicacao": "O tigre é asiático. A África tem leopardo, leão e guepardo como grandes felinos.",
+      "fonte": "conhecimento geral",
+      "id": 216
+    },
+    {
+      "categoria": "Países e capitais",
+      "dificuldade": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual país africano tem o formato longo no Nilo e pirâmides como cartão-postal?",
+      "opcoes": [
+        "Quênia",
+        "Egito",
+        "Gana",
+        "Namíbia"
+      ],
+      "resposta": "Egito",
+      "explicacao": "O Egito concentra 90%+ da população no vale e delta do Nilo.",
+      "fonte": "Exploring World History AFRICA",
+      "id": 217
+    },
+    {
+      "categoria": "História antiga e pré-colonial",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "As terracotas de Nok (Nigéria) são importantes porque:",
+      "opcoes": [
+        "São do século XX",
+        "Estão entre as mais antigas esculturas figurativas da África subsaariana (I milênio a.C.)",
+        "Foram feitas pelos holandeses",
+        "Representam faraós do Baixo Egito apenas"
+      ],
+      "resposta": "Estão entre as mais antigas esculturas figurativas da África subsaariana (I milênio a.C.)",
+      "explicacao": "A cultura Nok também está ligada à siderurgia precoce.",
+      "fonte": "Africa in World History / African Culture",
+      "id": 218
+    },
+    {
+      "categoria": "Cultura e sociedade",
+      "dificuldade": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O amárico é língua oficial de:",
+      "opcoes": [
+        "Nigéria",
+        "Etiópia",
+        "Senegal",
+        "Angola"
+      ],
+      "resposta": "Etiópia",
+      "explicacao": "Usa escrita fidel (abugida) derivada do ge'ez.",
+      "fonte": "African Culture",
+      "id": 219
+    },
+    {
+      "categoria": "Provérbios",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "'A criança que não é abraçada pela sua aldeia queimará a aldeia para sentir o calor' fala de:",
+      "opcoes": [
+        "Piromania infantil apenas",
+        "O perigo de excluir e não cuidar dos seus",
+        "Construção civil",
+        "Clima desértico"
+      ],
+      "resposta": "O perigo de excluir e não cuidar dos seus",
+      "explicacao": "Provérbio contemporaneamente citado em debates sobre juventude e pertencimento.",
+      "fonte": "African Proverbs",
+      "id": 220
+    },
+    {
+      "categoria": "Mitologia",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Seth, na mitologia egípcia, é o deus associado a:",
+      "opcoes": [
+        "A harmonia perfeita apenas",
+        "O caos, o deserto e a violência, assassino de Osíris",
+        "A escrita",
+        "Os escribas pacíficos"
+      ],
+      "resposta": "O caos, o deserto e a violência, assassino de Osíris",
+      "explicacao": "Mesmo assim Seth também protegia a barca de Rá contra a serpente Apófis.",
+      "fonte": "African Mythology",
+      "id": 221
+    },
+    {
+      "categoria": "Folclore e contos",
+      "dificuldade": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Contos de origem (por que a tartaruga tem o casco rachado, por que o sol e a lua estão no céu) classificam-se como:",
+      "opcoes": [
+        "Manuais de química",
+        "Mitos etiológicos / contos explicativos",
+        "Atas coloniais",
+        "Códigos penais"
+      ],
+      "resposta": "Mitos etiológicos / contos explicativos",
+      "explicacao": "São o coração dos folktales escolares africanos.",
+      "fonte": "GRADE-8 African Folktales",
+      "id": 222
+    }
+  ]
+}
